@@ -1,0 +1,33 @@
+.bars-menu {
+  display: flex;
+  flex-direction: column;
+  width: 2rem;
+  cursor: pointer;
+
+  .bar {
+    width: 2rem;
+    height: 3px;
+    background-color: white;
+    margin: 0.1rem 0;
+    border-radius: 5px;
+    transition: 0.2s all ease-in-out;
+  }
+
+  &:hover :nth-child(1) {
+    transform: translate(20px);
+    opacity: 0;
+  }
+
+  &:hover :nth-child(2) {
+    transform: translateY(2.4px) rotate(45deg);
+  }
+
+  &:hover :nth-child(3) {
+    transform: translateY(-4px) rotate(-45deg);
+  }
+
+  &:hover :nth-child(4) {
+    transform: translate(-20px);
+    opacity: 0;
+  }
+}
