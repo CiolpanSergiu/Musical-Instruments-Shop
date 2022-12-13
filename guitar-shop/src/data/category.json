@@ -1,0 +1,47 @@
+[
+  {
+    "src": "/images/category/guitars_basses.jpg",
+    "alt": "A stratocaster type electric guitar",
+    "title": "Guitars and Basses"
+  },
+  {
+    "src": "/images/category/drums_percussion.jpg",
+    "alt": "A Yamaha drum set",
+    "title": "Drums and Percussion"
+  },
+  {
+    "src": "/images/category/guitar_softwares.jpg",
+    "alt": "A guitar software",
+    "title": "Guitar and Basses Softwares"
+  },
+  {
+    "src": "/images/category/guitar_effect_pedals.jpg",
+    "alt": "A Boss DS1 distortion pedal for guitars",
+    "title": "Effect Pedals"
+  },
+  {
+    "src": "/images/category/guitar_accesories.jpg",
+    "alt": "A guitar cable",
+    "title": "Accesories"
+  },
+  {
+    "src": "/images/category/keyboards_synth.jpg",
+    "alt": "A musical Keyboard",
+    "title": "Keyboards and Synth"
+  },
+  {
+    "src": "/images/category/microphones.jpg",
+    "alt": "A microphone",
+    "title": "Microphones"
+  },
+  {
+    "src": "/images/category/pa_systems.jpg",
+    "alt": "A PA System",
+    "title": "PA System equipments"
+  },
+  {
+    "src": "/images/category/studio_recording_equipment.jpg",
+    "alt": "An audio interface",
+    "title": "Studio and Recordings equipment"
+  }
+]

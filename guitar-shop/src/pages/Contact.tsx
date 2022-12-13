@@ -1,12 +1,11 @@
 import React from "react";
-import { Link } from "react-router-dom";
+import Navbar from "../components/Navbar";
 
 export default function Contact() {
   return (
-    <div>
+    <div className="contact-page">
+      <Navbar />
       <h1>Contact</h1>
-      <Link to="/">Home</Link>
-      <Link to="/account">Account</Link>
     </div>
   );
 }
