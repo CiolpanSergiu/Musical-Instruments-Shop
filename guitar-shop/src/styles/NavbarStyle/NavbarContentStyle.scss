@@ -6,6 +6,7 @@ $navbar-link-hover-bg: #2c313a;
   position: absolute;
   height: 100vh;
   top: 0;
+  left: 0;
   width: 100%;
   transition: 0.5s;
   display: flex;
@@ -37,8 +38,26 @@ $navbar-link-hover-bg: #2c313a;
   left: -100vw;
 }
 
+.navbar-content-extension {
+  display: none;
+}
+
 @media only screen and (min-width: 768px) {
   .navbar-content-opened {
     width: 40%;
+    z-index: 9;
+  }
+
+  .navbar-content-overlay {
+    width: 100%;
+
+    .navbar-content-extension {
+      background-color: lightgray;
+      width: 100%;
+      height: 100vh;
+      opacity: 0.5;
+      position: absolute;
+      top: 0;
+    }
   }
 }

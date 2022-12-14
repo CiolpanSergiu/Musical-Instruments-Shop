@@ -1,4 +1,4 @@
-import "../styles/NavbarMenuStyle.scss";
+import "../../styles/NavbarStyle/NavbarMenuStyle.scss";
 import { MouseEventHandler } from "react";
 
 type Props = {

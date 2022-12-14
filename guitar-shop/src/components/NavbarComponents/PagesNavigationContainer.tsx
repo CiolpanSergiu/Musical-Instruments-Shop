@@ -1,5 +1,5 @@
 import { Link } from "react-router-dom";
-import "../styles/NavbarPageNavigationStyle.scss";
+import "../../styles/NavbarStyle/NavbarPageNavigationStyle.scss";
 
 export default function PagesNavigationContainer() {
   return (

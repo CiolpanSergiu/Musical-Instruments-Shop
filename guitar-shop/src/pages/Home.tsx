@@ -2,7 +2,7 @@ import { useState } from "react";
 import itemsCategories from "../data/category.json";
 import CategoryCard from "../components/CategoryCard";
 import "../styles/HomeStyle.scss";
-import Navbar from "../components/Navbar";
+import Navbar from "../components/NavbarComponents/Navbar";
 import { nanoid } from "nanoid";
 
 export default function Home() {

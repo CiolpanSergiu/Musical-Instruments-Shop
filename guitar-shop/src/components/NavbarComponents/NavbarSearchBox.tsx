@@ -1,5 +1,5 @@
 import { BsSearch } from "react-icons/bs";
-import "../styles/NavbarSearchBoxStyle.scss";
+import "../../styles/NavbarStyle/NavbarSearchBoxStyle.scss";
 
 export default function NavbarSearchBox() {
   return (

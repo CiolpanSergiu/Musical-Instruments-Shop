@@ -1,4 +1,4 @@
-import Navbar from "../components/Navbar";
+import Navbar from "../components/NavbarComponents/Navbar";
 
 export default function ShoppingCartPage() {
   return (

@@ -4,7 +4,7 @@ import { HiOutlineShoppingCart } from "react-icons/hi";
 import { FaRegUserCircle } from "react-icons/fa";
 import NavbarMenu from "./NavbarMenu";
 import { MouseEventHandler } from "react";
-import "..//styles/NavbarToolsStyle.scss";
+import "../../styles/NavbarStyle/NavbarToolsStyle.scss";
 
 type Props = {
   isOpen: boolean;

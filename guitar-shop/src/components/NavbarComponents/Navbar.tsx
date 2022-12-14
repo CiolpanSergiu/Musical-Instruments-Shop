@@ -1,11 +1,10 @@
-import { Link } from "react-router-dom";
 import { useState, useEffect } from "react";
 import { nanoid } from "nanoid";
-import "../styles/NavbarStyle.scss";
-import "../styles/NavbarContentStyle.scss";
+import "../../styles/NavbarStyle/NavbarStyle.scss";
+import "../../styles/NavbarStyle/NavbarContentStyle.scss";
 import NavbarMenu from "./NavbarMenu";
 import NavbarCategoryLink from "./NavbarCategoryLink";
-import data from "../data/category.json";
+import data from "../../data/category.json";
 import NavbarSearchBox from "./NavbarSearchBox";
 import PagesNavigationContainer from "./PagesNavigationContainer";
 import NavbarTools from "./NavbarTools";
@@ -43,23 +42,30 @@ export default function Navbar() {
         <NavbarSearchBox />
       </div>
 
-      <div
-        className={
-          isMenuOpen
-            ? "navbar-content navbar-content-opened"
-            : "navbar-content navbar-content-closed"
-        }
-      >
-        {navbarContentElements}
+      <div className="navbar-content-overlay">
+        <div
+          className={
+            isMenuOpen
+              ? "navbar-content navbar-content-opened"
+              : "navbar-content navbar-content-closed"
+          }
+        >
+          {navbarContentElements}
+        </div>
+        <NavbarMenu
+          handleClick={toggleMenu}
+          menuClass={
+            isMenuOpen
+              ? "bars-menu-close opened-bars-menu"
+              : "bars-menu-open closed-bars-menu"
+          }
+        />
+        <div
+          className="navbar-content-extension"
+          style={{ display: isMenuOpen ? "block" : "none" }}
+          onClick={toggleMenu}
+        ></div>
       </div>
-      <NavbarMenu
-        handleClick={toggleMenu}
-        menuClass={
-          isMenuOpen
-            ? "bars-menu-close opened-bars-menu"
-            : "bars-menu-open closed-bars-menu"
-        }
-      />
     </nav>
   );
 }
