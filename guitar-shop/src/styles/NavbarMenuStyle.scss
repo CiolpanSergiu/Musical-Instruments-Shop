@@ -1,8 +1,10 @@
-.bars-menu {
+.bars-menu-open,
+.bars-menu-close {
   display: flex;
   flex-direction: column;
   width: 2rem;
   cursor: pointer;
+  transition: 0.5s;
 
   .bar {
     width: 2rem;
@@ -12,22 +14,42 @@
     border-radius: 5px;
     transition: 0.2s all ease-in-out;
   }
+}
 
-  &:hover :nth-child(1) {
-    transform: translate(20px);
+.bars-menu-close {
+  :nth-child(1) {
+    transform: translateY(8px) rotate(45deg);
+  }
+
+  :nth-child(2) {
     opacity: 0;
   }
 
-  &:hover :nth-child(2) {
-    transform: translateY(2.4px) rotate(45deg);
+  :nth-child(3) {
+    transform: translateY(-5px) rotate(-45deg);
+  }
+}
+
+.opened-bars-menu,
+.closed-bars-menu {
+  position: absolute;
+  top: 1rem;
+}
+
+.opened-bars-menu {
+  left: 90vw;
+}
+
+.closed-bars-menu {
+  left: -100vw;
+}
+
+@media only screen and (min-width: 768px) {
+  .opened-bars-menu {
+    left: 35vw;
   }
 
-  &:hover :nth-child(3) {
-    transform: translateY(-4px) rotate(-45deg);
-  }
-
-  &:hover :nth-child(4) {
-    transform: translate(-20px);
-    opacity: 0;
+  .closed-bars-menu {
+    left: -100vw;
   }
 }

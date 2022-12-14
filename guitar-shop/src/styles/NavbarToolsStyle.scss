@@ -1,0 +1,40 @@
+.navbar-tools-container {
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+
+  a {
+    display: flex;
+    align-items: center;
+  }
+
+  .user-icon,
+  .shopping-cart-icon {
+    font-size: 1.5rem;
+  }
+
+  .telephone-icon {
+    margin-right: 0.5rem;
+    font-size: 1rem;
+  }
+
+  .telephone-number {
+    font-size: 0.9rem;
+  }
+
+  .shopping-cart-icon {
+    position: relative;
+
+    .quantity-bubble {
+      border: solid crimson 1px;
+      border-radius: 50%;
+      background-color: crimson;
+      font-size: 1.1rem;
+      position: absolute;
+      bottom: 0;
+      right: -0.75rem;
+      padding: 0 0.3rem;
+    }
+  }
+}

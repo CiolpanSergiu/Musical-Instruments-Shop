@@ -1,56 +1,65 @@
 import { Link } from "react-router-dom";
-import { useState } from "react";
+import { useState, useEffect } from "react";
+import { nanoid } from "nanoid";
 import "../styles/NavbarStyle.scss";
-import { BsFillTelephoneFill, BsSearch } from "react-icons/bs";
-import { HiOutlineShoppingCart } from "react-icons/hi";
-import { FaRegUserCircle } from "react-icons/fa";
+import "../styles/NavbarContentStyle.scss";
 import NavbarMenu from "./NavbarMenu";
-import NavbarContent from "./NavbarContent";
+import NavbarCategoryLink from "./NavbarCategoryLink";
+import data from "../data/category.json";
+import NavbarSearchBox from "./NavbarSearchBox";
+import PagesNavigationContainer from "./PagesNavigationContainer";
+import NavbarTools from "./NavbarTools";
+import WebsiteLogo from "./WebsiteLogo";
 
 export default function Navbar() {
   const [isMenuOpen, setIsMenuOpen] = useState<boolean>(false);
 
-  const openMenu = () => {
-    setIsMenuOpen((prevState) => !prevState);
+  useEffect(() => {
+    document.body.style.overflow = isMenuOpen ? "hidden" : "scroll";
+  }, [isMenuOpen]);
+
+  const toggleMenu = () => {
+    setIsMenuOpen((prevState: boolean) => !prevState);
   };
 
-  return (
-    <div className="navbar-container">
-      <nav className="navbar">
-        <div className="navbar-first-row">
-          <h3 className="website-logo">SergiuGuitars</h3>
-          <Link to="/contact">
-            <span className="telephone-icon nav-icon">
-              <BsFillTelephoneFill />
-            </span>
-            +0123456789
-          </Link>
-          <Link to="/account">
-            <span className="user-icon nav-icon">
-              <FaRegUserCircle />
-            </span>
-          </Link>
-          <Link to="/shopping-cart">
-            <span className="shopping-cart-icon nav-icon">
-              <HiOutlineShoppingCart />
-            </span>
-          </Link>
-          <NavbarMenu handleClick={openMenu} />
-        </div>
+  const navbarContentElements = data.map((categoryData) => (
+    <NavbarCategoryLink
+      key={nanoid()}
+      handleClick={toggleMenu}
+      pageLink={categoryData.pageLink}
+      categoryName={categoryData.title}
+    />
+  ));
 
-        <form className="search-box">
-          <span className="search-box__search-icon nav-icon">
-            <BsSearch />
-          </span>
-          <input
-            className="search-box__input"
-            type="text"
-            placeholder="Searching something specific?"
-          />
-          <button className="search-box__button">Search</button>
-        </form>
-      </nav>
-      {isMenuOpen && <NavbarContent />}
-    </div>
+  return (
+    <nav className="navbar">
+      <div className="navbar-first-row">
+        <WebsiteLogo />
+        <PagesNavigationContainer />
+        <NavbarTools isOpen={isMenuOpen} handleClick={toggleMenu} />
+      </div>
+
+      <div className="navbar-second-row">
+        <NavbarSearchBox />
+      </div>
+
+      <div
+        className={
+          isMenuOpen
+            ? "navbar-content navbar-content-opened"
+            : "navbar-content navbar-content-closed"
+        }
+      >
+        {navbarContentElements}
+      </div>
+      <NavbarMenu
+        handleClick={toggleMenu}
+        menuClass={
+          isMenuOpen
+            ? "bars-menu-close opened-bars-menu"
+            : "bars-menu-open closed-bars-menu"
+        }
+      />
+    </nav>
   );
 }

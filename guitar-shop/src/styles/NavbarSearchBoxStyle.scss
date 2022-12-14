@@ -1,0 +1,42 @@
+form {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding-top: 0.5rem;
+  padding-bottom: 1rem;
+
+  .search-box__search-icon {
+    background-color: white;
+    display: flex;
+    align-items: center;
+    height: 1.9rem;
+    border-radius: 5px 0 0 5px;
+    padding: 0 0.5rem;
+  }
+
+  .search-box__button,
+  .search-box__input {
+    height: 2rem;
+  }
+
+  .search-box__button {
+    padding: 0 1rem;
+    font-weight: bold;
+    cursor: pointer;
+  }
+
+  .search-box__input {
+    padding-left: 0.25rem;
+    width: 100%;
+  }
+}
+
+@media only screen and (min-width: 992px) {
+  .navbar-container {
+    form {
+      .search-box__input {
+        width: 50%;
+      }
+    }
+  }
+}

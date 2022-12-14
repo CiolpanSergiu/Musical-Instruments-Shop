@@ -1,9 +1,14 @@
 import "../styles/NavbarMenuStyle.scss";
+import { MouseEventHandler } from "react";
 
-export default function NavbarMenu({ handleClick }: any) {
+type Props = {
+  handleClick: MouseEventHandler<HTMLDivElement>;
+  menuClass: string;
+};
+
+export default function NavbarMenu({ handleClick, menuClass }: Props) {
   return (
-    <div className="bars-menu" onClick={handleClick}>
-      <span className="bar"></span>
+    <div className={menuClass} onClick={handleClick}>
       <span className="bar"></span>
       <span className="bar"></span>
       <span className="bar"></span>

@@ -2,46 +2,55 @@
   {
     "src": "/images/category/guitars_basses.jpg",
     "alt": "A stratocaster type electric guitar",
-    "title": "Guitars and Basses"
+    "title": "Guitars and Basses",
+    "pageLink": "/guitars_and_basses"
   },
   {
     "src": "/images/category/drums_percussion.jpg",
     "alt": "A Yamaha drum set",
-    "title": "Drums and Percussion"
+    "title": "Drums and Percussion",
+    "pageLink": "/drums_and_percussion"
   },
   {
     "src": "/images/category/guitar_softwares.jpg",
     "alt": "A guitar software",
-    "title": "Guitar and Basses Softwares"
+    "title": "Guitar and Basses Softwares",
+    "pageLink": "/guitar_and_basses_softwares"
   },
   {
     "src": "/images/category/guitar_effect_pedals.jpg",
     "alt": "A Boss DS1 distortion pedal for guitars",
-    "title": "Effect Pedals"
+    "title": "Effect Pedals",
+    "pageLink": "/effect_pedals"
   },
   {
     "src": "/images/category/guitar_accesories.jpg",
     "alt": "A guitar cable",
-    "title": "Accesories"
+    "title": "Accesories",
+    "pageLink": "/accesories"
   },
   {
     "src": "/images/category/keyboards_synth.jpg",
     "alt": "A musical Keyboard",
-    "title": "Keyboards and Synth"
+    "title": "Keyboards and Synth",
+    "pageLink": "/keyboards_and_synth"
   },
   {
     "src": "/images/category/microphones.jpg",
     "alt": "A microphone",
-    "title": "Microphones"
+    "title": "Microphones",
+    "pageLink": "/microphones"
   },
   {
     "src": "/images/category/pa_systems.jpg",
     "alt": "A PA System",
-    "title": "PA System Equipments"
+    "title": "PA System Equipments",
+    "pageLink": "/pa_system_equipment"
   },
   {
     "src": "/images/category/studio_recording_equipment.jpg",
     "alt": "An audio interface",
-    "title": "Studio and Recording Equipment"
+    "title": "Studio and Recording Equipment",
+    "pageLink": "/studio_and_recording_equipment"
   }
 ]
