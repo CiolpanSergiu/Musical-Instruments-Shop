@@ -4,6 +4,7 @@ import CategoryCard from "../components/CategoryCard";
 import "../styles/HomeStyle.scss";
 import Navbar from "../components/NavbarComponents/Navbar";
 import { nanoid } from "nanoid";
+import DailyRecommendationsSlider from "../components/Sliders/DailyRecommendationsSlider";
 
 export default function Home() {
   const [categories, setCategories] = useState(itemsCategories);
@@ -26,6 +27,7 @@ export default function Home() {
         <h2 className="home-page__category-header">Our categories</h2>
         <div className="category-container">{categoryCard}</div>
       </section>
+      <DailyRecommendationsSlider />
     </div>
   );
 }
