@@ -1,22 +1,21 @@
-.slider-card {
-  padding: 1rem 1rem 0 1rem;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  text-align: center;
-  border: solid lightgray 1px;
-  border-radius: 5px;
+.slider-card-container {
   box-shadow: 0px 3px 10px 2.5px lightgray;
-  transition: 0.3s;
-  color: black;
-  text-decoration: none;
-  width: 100%;
+  border: solid gray 1px;
+  border-radius: 5px;
+  height: 10rem;
+  margin: 1rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 
-  &:hover {
-    transform: scale(1.2);
-  }
+  a {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 
-  * {
-    padding-bottom: 0.5rem;
+    img {
+      padding: 1rem;
+    }
   }
 }
