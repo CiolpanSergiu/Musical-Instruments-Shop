@@ -1,0 +1,31 @@
+.slider-section-container {
+  height: 60vh;
+  width: 100vw;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.slick-next:before,
+.slick-prev:before {
+  font-size: 2.5rem;
+  color: #3d4552;
+}
+
+.slick-next {
+  transform: translateX(-1rem);
+}
+.slick-prev {
+  transform: translateX(-0.25rem);
+}
+
+@media only screen and (min-width: 992px) {
+  .slick-next:before,
+  .slick-prev:before {
+    font-size: 3rem;
+  }
+
+  .slick-prev {
+    transform: translateX(-0.75rem);
+  }
+}

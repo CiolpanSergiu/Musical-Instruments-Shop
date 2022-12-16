@@ -1,20 +1,12 @@
 import data from "../../data/category.json";
-import DailyRecommendationCard from "./DailyRecommendationCard";
+import TopBrandsCard from "./TopBrandCard";
 import { nanoid } from "nanoid";
 import "../../styles/SliderStyles/SliderStyle.scss";
 import Slider from "react-slick";
 import { Component } from "react";
 
 const sliderCards = data.map((item) => (
-  <DailyRecommendationCard
-    key={nanoid()}
-    imgSrc={item.src}
-    alt={item.alt}
-    title={item.title}
-    pageLink={item.pageLink}
-    width={64}
-    height={64}
-  />
+  <TopBrandsCard key={nanoid()} src={item.src} alt={item.alt} />
 ));
 
 type Props = {
@@ -52,15 +44,14 @@ function SamplePrevArrow(props: any) {
 export default class DailyRecommendationsSlider extends Component {
   render() {
     var settings = {
-      dots: true,
+      className: "center",
+      centerMode: true,
       infinite: true,
+      centerPadding: "60px",
       slidesToShow: 3,
-      slidesToScroll: 3,
-      autoplay: true,
       speed: 500,
-      autoplaySpeed: 5000,
-      cssEase: "linear",
-      swipeToSlide: true,
+      rows: 2,
+      slidesPerRow: 1,
       nextArrow: <SampleNextArrow />,
       prevArrow: <SamplePrevArrow />,
       responsive: [
@@ -96,7 +87,7 @@ export default class DailyRecommendationsSlider extends Component {
     };
     return (
       <div className="slider-section-container" style={{ width: "80vw" }}>
-        <h2>Popular Items</h2>
+        <h2>Top Brands</h2>
         <Slider {...settings}>{sliderCards}</Slider>
       </div>
     );
