@@ -26,15 +26,14 @@ const CategoryContainer = styled.div`
   }
 `;
 
-const Header1 = styled.h1`
-  font-size: 3rem;
-  margin: 2rem auto;
-`;
-
 const Header2 = styled.h2`
-  font-size: 2rem;
   margin-bottom: 2rem;
   text-align: center;
+  color: #404040;
+
+  @media only screen and (min-width: 768px) {
+    font-size: 2.5rem;
+  }
 `;
 
 export default function CategoryCardsContainer() {
@@ -52,7 +51,6 @@ export default function CategoryCardsContainer() {
 
   return (
     <Section>
-      <Header1>Home</Header1>
       <Header2>Our categories</Header2>
       <CategoryContainer>{categoryCard}</CategoryContainer>
     </Section>

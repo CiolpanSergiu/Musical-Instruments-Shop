@@ -52,7 +52,12 @@ function SamplePrevArrow(props: any) {
 
 const Header2 = styled.h2`
   margin: 2rem;
+  color: #404040;
   text-decoration: underline lightskyblue 3px;
+
+  @media only screen and (min-width: 768px) {
+    font-size: 2.5rem;
+  }
 `;
 
 //class component because it is the only way to make responsive property work
