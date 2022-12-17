@@ -11,53 +11,53 @@ type Props = {
   handleClick: MouseEventHandler<HTMLDivElement>;
 };
 
-export default function NavbarTools({ isOpen, handleClick }: Props) {
-  const StyledRouterLink = styled(Link)`
-    text-decoration: none;
-    color: white;
-    display: flex;
-    align-items: center;
-  `;
+const StyledRouterLink = styled(Link)`
+  text-decoration: none;
+  color: white;
+  display: flex;
+  align-items: center;
+`;
 
-  const TooldsContainer = styled.div`
-    width: 100%;
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
-  `;
+const TooldsContainer = styled.div`
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+`;
 
-  const TelephoneIcon = styled.span`
-    margin-right: 0.5rem;
-    font-size: 1rem;
-  `;
+const TelephoneIcon = styled.span`
+  margin-right: 0.5rem;
+  font-size: 1rem;
+`;
 
-  const TelephoneNumber = styled.span`
-    font-size: 0.9rem;
-    @media only screen and (min-width: 768px) {
-      font-size: 1.1rem;
-    } ;
-  `;
-
-  const UserIcon = styled.span`
-    font-size: 1.5rem;
-  `;
-
-  const ShoppingCart = styled.span`
-    font-size: 1.5rem;
-    position: relative;
-  `;
-
-  const QuantityBubble = styled.span`
-    border: solid crimson 1px;
-    border-radius: 50%;
-    background-color: crimson;
+const TelephoneNumber = styled.span`
+  font-size: 0.9rem;
+  @media only screen and (min-width: 768px) {
     font-size: 1.1rem;
-    position: absolute;
-    bottom: 0;
-    right: -0.75rem;
-    padding: 0 0.3rem;
-  `;
+  } ;
+`;
 
+const UserIcon = styled.span`
+  font-size: 1.5rem;
+`;
+
+const ShoppingCart = styled.span`
+  font-size: 1.5rem;
+  position: relative;
+`;
+
+const QuantityBubble = styled.span`
+  border: solid crimson 1px;
+  border-radius: 50%;
+  background-color: crimson;
+  font-size: 1.1rem;
+  position: absolute;
+  bottom: 0;
+  right: -0.75rem;
+  padding: 0 0.3rem;
+`;
+
+export default function NavbarTools({ isOpen, handleClick }: Props) {
   return (
     <TooldsContainer>
       <StyledRouterLink to="/contact">

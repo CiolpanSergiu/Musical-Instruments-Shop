@@ -4,6 +4,7 @@ import { nanoid } from "nanoid";
 import "../../styles/SliderStyles/SliderStyle.scss";
 import Slider from "react-slick";
 import { Component } from "react";
+import styled from "styled-components";
 
 const sliderCards = data.map((item) => (
   <DailyRecommendationCard
@@ -48,6 +49,12 @@ function SamplePrevArrow(props: any) {
     />
   );
 }
+
+const Header2 = styled.h2`
+  margin: 2rem;
+  text-decoration: underline lightskyblue 3px;
+`;
+
 //class component because it is the only way to make responsive property work
 export default class DailyRecommendationsSlider extends Component {
   render() {
@@ -94,9 +101,13 @@ export default class DailyRecommendationsSlider extends Component {
         },
       ],
     };
+
     return (
-      <div className="slider-section-container" style={{ width: "80vw" }}>
-        <h2>Popular Items</h2>
+      <div
+        className="slider-section-container"
+        style={{ width: "90vw", marginBottom: "4rem" }}
+      >
+        <Header2>Popular Items</Header2>
         <Slider {...settings}>{sliderCards}</Slider>
       </div>
     );

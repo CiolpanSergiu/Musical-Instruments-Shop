@@ -1,9 +1,10 @@
 .slider-section-container {
-  height: 60vh;
+  max-height: 60vh;
   width: 100vw;
   display: flex;
   flex-direction: column;
   justify-content: center;
+  text-align: center;
 }
 
 .slick-next:before,
@@ -13,10 +14,12 @@
 }
 
 .slick-next {
-  transform: translateX(-1rem);
+  transform: translate(-2rem, -1rem);
+  z-index: 999;
 }
 .slick-prev {
-  transform: translateX(-0.25rem);
+  transform: translate(0.75rem, -1rem);
+  z-index: 999;
 }
 
 @media only screen and (min-width: 992px) {
@@ -26,6 +29,6 @@
   }
 
   .slick-prev {
-    transform: translateX(-0.75rem);
+    transform: translate(0.25rem, -1rem);
   }
 }

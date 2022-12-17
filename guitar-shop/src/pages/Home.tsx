@@ -1,35 +1,25 @@
-import { useState } from "react";
-import itemsCategories from "../data/category.json";
-import CategoryCard from "../components/CategoryCard";
-import "../styles/HomeStyle.scss";
 import Navbar from "../components/NavbarComponents/Navbar";
-import { nanoid } from "nanoid";
 import DailyRecommendationsSlider from "../components/Sliders/DailyRecommendationsSlider";
+import CategoryCardsContainer from "../components/HomePageSectionComponents/Containers/CategoryCardsContainer";
 import TopBrandsSlider from "../components/Sliders/TopBrandsSlider";
+import styled from "styled-components";
+
+const HomePage = styled.div`
+  max-width: 100vw;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding-bottom: 3rem;
+`;
 
 export default function Home() {
-  const [categories, setCategories] = useState(itemsCategories);
-
-  const categoryCard = categories.map((categoryCardData) => (
-    <CategoryCard
-      key={nanoid()}
-      imgSrc={categoryCardData.src}
-      imgAlt={categoryCardData.alt}
-      header={categoryCardData.title}
-      pageLink={categoryCardData.pageLink}
-    />
-  ));
-
   return (
-    <div className="home-page">
+    <HomePage>
       <Navbar />
-      <section>
-        <h1>Home</h1>
-        <h2 className="home-page__category-header">Our categories</h2>
-        <div className="category-container">{categoryCard}</div>
-      </section>
+      <CategoryCardsContainer />
       <DailyRecommendationsSlider />
       <TopBrandsSlider />
-    </div>
+    </HomePage>
   );
 }

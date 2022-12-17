@@ -8,26 +8,26 @@ type Props = {
   categoryName: string;
 };
 
+const CategoryLink = styled(Link)`
+  text-align: center;
+  text-decoration: none;
+  color: white;
+  font-size: 1.2rem;
+  padding: 1rem 0;
+  display: block;
+  width: 100%;
+  transition: 0.3s all ease-in-out;
+
+  &:hover {
+    background-color: #2c313a;
+  }
+`;
+
 export default function NavbarCategoryLink({
   handleClick,
   pageLink,
   categoryName,
 }: Props) {
-  const CategoryLink = styled(Link)`
-    text-align: center;
-    text-decoration: none;
-    color: white;
-    font-size: 1.2rem;
-    padding: 1rem 0;
-    display: block;
-    width: 100%;
-    transition: 0.3s all ease-in-out;
-
-    &:hover {
-      background-color: #2c313a;
-    }
-  `;
-
   return (
     <CategoryLink
       onClick={handleClick}

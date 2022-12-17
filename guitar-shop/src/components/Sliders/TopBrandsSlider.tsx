@@ -4,6 +4,7 @@ import { nanoid } from "nanoid";
 import "../../styles/SliderStyles/SliderStyle.scss";
 import Slider from "react-slick";
 import { Component } from "react";
+import styled from "styled-components";
 
 const sliderCards = data.map((item) => (
   <TopBrandsCard key={nanoid()} src={item.src} alt={item.alt} />
@@ -40,6 +41,12 @@ function SamplePrevArrow(props: any) {
     />
   );
 }
+
+const Header2 = styled.h2`
+  margin: 2rem;
+  text-decoration: underline lightskyblue 3px;
+`;
+
 //class component because it is the only way to make responsive property work
 export default class DailyRecommendationsSlider extends Component {
   render() {
@@ -47,21 +54,22 @@ export default class DailyRecommendationsSlider extends Component {
       className: "center",
       centerMode: true,
       infinite: true,
-      centerPadding: "60px",
-      slidesToShow: 3,
+      slidesToShow: 5,
       speed: 500,
       rows: 2,
       slidesPerRow: 1,
+      autoplay: true,
+      autoplaySpeed: 5000,
       nextArrow: <SampleNextArrow />,
       prevArrow: <SamplePrevArrow />,
       responsive: [
         {
-          breakpoint: 768,
+          breakpoint: 992,
           settings: {
             dots: true,
             infinite: true,
-            slidesToShow: 2,
-            slidesToScroll: 2,
+            slidesToShow: 4,
+            slidesToScroll: 1,
             autoplay: true,
             speed: 500,
             autoplaySpeed: 5000,
@@ -70,7 +78,35 @@ export default class DailyRecommendationsSlider extends Component {
           },
         },
         {
-          breakpoint: 480,
+          breakpoint: 768,
+          settings: {
+            dots: true,
+            infinite: true,
+            slidesToShow: 3,
+            slidesToScroll: 1,
+            autoplay: true,
+            speed: 500,
+            autoplaySpeed: 5000,
+            cssEase: "linear",
+            swipeToSlide: true,
+          },
+        },
+        {
+          breakpoint: 667,
+          settings: {
+            dots: true,
+            infinite: true,
+            slidesToShow: 2,
+            slidesToScroll: 1,
+            autoplay: true,
+            speed: 500,
+            autoplaySpeed: 5000,
+            cssEase: "linear",
+            swipeToSlide: true,
+          },
+        },
+        {
+          breakpoint: 440,
           settings: {
             dots: true,
             infinite: true,
@@ -85,10 +121,14 @@ export default class DailyRecommendationsSlider extends Component {
         },
       ],
     };
+
     return (
-      <div className="slider-section-container" style={{ width: "80vw" }}>
-        <h2>Top Brands</h2>
-        <Slider {...settings}>{sliderCards}</Slider>
+      <div className="slider-section-container" style={{ width: "90vw" }}>
+        <Header2>Top Brands</Header2>
+        <Slider {...settings}>
+          {sliderCards}
+          {sliderCards}
+        </Slider>
       </div>
     );
   }
