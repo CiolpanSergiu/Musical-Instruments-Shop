@@ -77,7 +77,7 @@ export default function Footer() {
         <StyledLinkRouter to="/contact" isDark={darkTheme}>
           <Icon>
             <MdEmail />
-            <Email>ciolpan.sergiu64@gmail.com</Email>
+            <Email>not.real.email@gmail.com</Email>
           </Icon>
         </StyledLinkRouter>
       </SocialIconsContainer>
