@@ -34,10 +34,6 @@ export default function ThemeSwitch() {
     setDarkTheme((prevState: boolean) => !prevState);
   }
 
-  useEffect(() => {
-    localStorage.setItem("theme", darkTheme);
-  }, [darkTheme]);
-
   return (
     <Switcher onClick={toggleTheme} isDark={darkTheme}>
       <FirstDot isDark={darkTheme}></FirstDot>
