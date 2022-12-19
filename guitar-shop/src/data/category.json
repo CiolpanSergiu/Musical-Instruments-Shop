@@ -52,5 +52,11 @@
     "alt": "An audio interface",
     "title": "Studio and Recording Equipment",
     "pageLink": "/studio_and_recording_equipment"
+  },
+  {
+    "src": "/images/category/violin.jpg",
+    "alt": "A violin",
+    "title": "Traditional Instruments",
+    "pageLink": "/traditional_instruments"
   }
 ]

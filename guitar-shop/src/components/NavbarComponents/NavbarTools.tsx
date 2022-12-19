@@ -1,10 +1,10 @@
 import { Link } from "react-router-dom";
-import { BsFillTelephoneFill } from "react-icons/bs";
 import { HiOutlineShoppingCart } from "react-icons/hi";
 import { FaRegUserCircle } from "react-icons/fa";
 import NavbarMenu from "./NavbarMenu";
 import { MouseEventHandler } from "react";
 import styled from "styled-components";
+import PhoneNumber from "../Miscellaneous/PhoneNumber";
 
 type Props = {
   isOpen: boolean;
@@ -23,18 +23,6 @@ const TooldsContainer = styled.div`
   display: flex;
   justify-content: space-around;
   align-items: center;
-`;
-
-const TelephoneIcon = styled.span`
-  margin-right: 0.5rem;
-  font-size: 1rem;
-`;
-
-const TelephoneNumber = styled.span`
-  font-size: 0.9rem;
-  @media only screen and (min-width: 768px) {
-    font-size: 1.1rem;
-  } ;
 `;
 
 const UserIcon = styled.span`
@@ -60,12 +48,7 @@ const QuantityBubble = styled.span`
 export default function NavbarTools({ isOpen, handleClick }: Props) {
   return (
     <TooldsContainer>
-      <StyledRouterLink to="/contact">
-        <TelephoneIcon>
-          <BsFillTelephoneFill />
-        </TelephoneIcon>
-        <TelephoneNumber> +0123456789</TelephoneNumber>
-      </StyledRouterLink>
+      <PhoneNumber />
       <StyledRouterLink to="/account">
         <UserIcon>
           <FaRegUserCircle />

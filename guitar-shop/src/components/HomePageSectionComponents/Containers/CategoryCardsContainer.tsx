@@ -27,7 +27,7 @@ const CategoryContainer = styled.div`
 `;
 
 const Header2 = styled.h2`
-  margin-bottom: 2rem;
+  margin-bottom: 0.5rem;
   text-align: center;
   color: #404040;
 
@@ -51,7 +51,7 @@ export default function CategoryCardsContainer() {
 
   return (
     <Section>
-      <Header2>Our categories</Header2>
+      <Header2>Many categories to choose from</Header2>
       <CategoryContainer>{categoryCard}</CategoryContainer>
     </Section>
   );
