@@ -1,5 +1,5 @@
 import styled from "styled-components";
-import GuitarSliderCard from "../HomepageSliderCards/GuitarSliderCard";
+import DetailedCard from "./DetailedCard";
 import Slider from "react-slick";
 import { nanoid } from "nanoid";
 import SliderDescription from "../SliderDescription";
@@ -26,18 +26,20 @@ type Props = {
   descriptionData: { title: string; subtitle: string; description: string[] };
 };
 
-export default function GuitarSlider({
+export default function SimpleSlider({
   cardsData,
   header,
   descriptionData,
 }: Props) {
   const sliderElements = cardsData.map((item: any) => (
-    <GuitarSliderCard
+    <DetailedCard
       key={nanoid()}
-      src={item.src}
+      imgSrc={item.src}
       alt={item.alt}
       title={item.title}
       pageLink={item.pageLink}
+      width={64}
+      height={64}
     />
   ));
 

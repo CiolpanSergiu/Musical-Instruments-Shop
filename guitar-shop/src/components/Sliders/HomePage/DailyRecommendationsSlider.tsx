@@ -1,12 +1,12 @@
 import data from "../../../data/category.json";
-import DailyRecommendationCard from "../HomepageSliderCards/DailyRecommendationCard";
-import { nanoid } from "nanoid";
+import DetailedCard from "./DetailedCard";
 import "../../../styles/SliderStyles/SliderStyle.scss";
 import Slider from "react-slick";
 import styled from "styled-components";
+import { nanoid } from "nanoid";
 
 const sliderCards = data.map((item) => (
-  <DailyRecommendationCard
+  <DetailedCard
     key={nanoid()}
     imgSrc={item.src}
     alt={item.alt}

@@ -1,6 +1,5 @@
-import React from "react";
 import Navbar from "../components/NavbarComponents/Navbar";
-import Footer from "../components/HomePageSectionComponents/Containers/Footer";
+import Footer from "../components/Footer/Footer";
 
 export default function Account() {
   return (

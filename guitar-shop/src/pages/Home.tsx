@@ -1,10 +1,10 @@
 import Navbar from "../components/NavbarComponents/Navbar";
-import DailyRecommendationsSlider from "../components/Sliders/HomepageSliders/DailyRecommendationsSlider";
+import DailyRecommendationsSlider from "../components/Sliders/HomePage/DailyRecommendationsSlider";
 import CategoryCardsContainer from "../components/HomePageSectionComponents/Containers/CategoryCardsContainer";
-import TopBrandsSlider from "../components/Sliders/HomepageSliders/TopBrandsSlider";
+import BrandsSlider from "../components/Sliders/HomePage/BrandsSlider";
 import SalesSectionContainer from "../components/HomePageSectionComponents/Containers/SalesSectionContainer";
-import SimpleSlider from "../components/Sliders/HomepageSliders/SimpleSlider";
-import Footer from "../components/HomePageSectionComponents/Containers/Footer";
+import SimpleSlider from "../components/Sliders/HomePage/SimpleSlider";
+import Footer from "../components/Footer/Footer";
 import styled from "styled-components";
 import data from "../data/category.json";
 import description from "../data/sectionDescription.json";
@@ -23,7 +23,7 @@ export default function Home() {
       <Navbar />
       <CategoryCardsContainer />
       <DailyRecommendationsSlider />
-      <TopBrandsSlider />
+      <BrandsSlider />
       <SalesSectionContainer />
       <SimpleSlider
         cardsData={data}

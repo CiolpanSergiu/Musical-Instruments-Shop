@@ -2,7 +2,7 @@ import styled from "styled-components";
 import { BsFacebook, BsLinkedin, BsYoutube } from "react-icons/bs";
 import { MdEmail } from "react-icons/md";
 import { Link } from "react-router-dom";
-import PhoneNumber from "../../Miscellaneous/PhoneNumber";
+import PhoneNumber from "../Miscellaneous/PhoneNumber";
 
 const FooterContainer = styled.footer`
   width: 100%;

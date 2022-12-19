@@ -1,12 +1,12 @@
 import data from "../../../data/category.json";
-import TopBrandsCard from "../HomepageSliderCards/TopBrandCard";
+import BrandCard from "./BrandCard";
 import { nanoid } from "nanoid";
 import "../../../styles/SliderStyles/SliderStyle.scss";
 import Slider from "react-slick";
 import styled from "styled-components";
 
 const sliderCards = data.map((item) => (
-  <TopBrandsCard key={nanoid()} src={item.src} alt={item.alt} />
+  <BrandCard key={nanoid()} src={item.src} alt={item.alt} />
 ));
 
 type Props = {
@@ -51,7 +51,7 @@ const Header2 = styled.h2`
   }
 `;
 
-export default function DailyRecommendationsSlider() {
+export default function BrandsSlider() {
   const settings = {
     className: "center",
     centerMode: true,
