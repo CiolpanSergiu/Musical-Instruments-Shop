@@ -1,4 +1,4 @@
-import { useState, useEffect } from "react";
+import { useState, useEffect, useContext } from "react";
 import { nanoid } from "nanoid";
 import NavbarMenu from "./NavbarMenu";
 import NavbarCategoryLink from "./NavbarCategoryLink";
@@ -8,22 +8,39 @@ import PagesNavigationContainer from "./PagesNavigationContainer";
 import NavbarTools from "./NavbarTools";
 import WebsiteLogo from "./WebsiteLogo";
 import styled from "styled-components";
+import ThemeSwitch from "../Miscellaneous/ThemeSwitch";
+import ThemeContext from "../../context/ThemeProvider";
 
-const NavbarContainer = styled.nav`
+type Theme = {
+  isDark: boolean;
+};
+
+const NavbarContainer = styled.nav<Theme>`
   width: 100%;
-  background-color: #3d4552;
+  background-color: ${(props) => (props.isDark ? "#3d4552" : "white")};
   padding: 0 1rem;
   box-shadow: 0 0 15px 5px gray;
 `;
 
-const Row = styled.div`
+const DetailsRow = styled.div`
   padding-top: 0.5rem;
   display: grid;
-  grid-template-columns: 1fr 2fr;
+  grid-template-columns: 1fr;
+  grid-template-rows: 1fr 1fr;
+  align-items: center;
+  justify-items: center;
 
   @media only screen and (min-width: 768px) {
     grid-template-columns: 1fr 2fr 3fr;
+    grid-template-rows: 1fr;
   }
+`;
+
+const SearchBarRow = styled.div`
+  display: grid;
+  gap: 1rem;
+  grid-template-columns: 3fr 0.25fr;
+  align-items: center;
 `;
 
 const Overlay = styled.div`
@@ -34,11 +51,11 @@ const Overlay = styled.div`
 
 type NavbarContentType = {
   open: boolean;
+  isDark: boolean;
 };
 
-//before using styled components, content had a slide-right transition but its not working anymore
 const NavbarContent = styled.div<NavbarContentType>`
-  background-color: #353c47;
+  background-color: ${(props) => (props.isDark ? "#3d4552" : "white")};
   position: absolute;
   height: 100vh;
   top: 0;
@@ -48,7 +65,6 @@ const NavbarContent = styled.div<NavbarContentType>`
   display: flex;
   align-items: center;
   justify-content: center;
-  color: white;
   flex-direction: column;
 
   @media only screen and (min-width: 768px) {
@@ -88,18 +104,23 @@ export default function Navbar() {
     />
   ));
 
+  const { darkTheme }: any = useContext(ThemeContext);
+
   return (
-    <NavbarContainer>
-      <Row>
+    <NavbarContainer isDark={darkTheme}>
+      <DetailsRow>
         <WebsiteLogo />
         <PagesNavigationContainer />
         <NavbarTools isOpen={isMenuOpen} handleClick={toggleMenu} />
-      </Row>
-      <div className="navbar-second-row">
+      </DetailsRow>
+      <SearchBarRow>
         <NavbarSearchBox />
-      </div>
+        <ThemeSwitch />
+      </SearchBarRow>
       <Overlay>
-        <NavbarContent open={isMenuOpen}>{navbarContentElements}</NavbarContent>
+        <NavbarContent open={isMenuOpen} isDark={darkTheme}>
+          {navbarContentElements}
+        </NavbarContent>
 
         <NavbarMenu
           handleClick={toggleMenu}

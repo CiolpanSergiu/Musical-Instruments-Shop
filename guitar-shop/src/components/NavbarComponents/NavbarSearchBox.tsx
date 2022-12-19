@@ -13,10 +13,6 @@ const Input = styled.input`
   height: 2rem;
   padding-left: 0.25rem;
   width: 100%;
-
-  @media only screen and (min-width: 992px) {
-    width: 50%;
-  }
 `;
 
 const Button = styled.button`

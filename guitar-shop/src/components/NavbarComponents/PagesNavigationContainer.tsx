@@ -1,10 +1,16 @@
 import { Link } from "react-router-dom";
 import styled from "styled-components";
+import ThemeContext from "../../context/ThemeProvider";
+import { useContext } from "react";
 
-const StyledRouterLink = styled(Link)`
+type Theme = {
+  isDark: boolean;
+};
+
+const StyledRouterLink = styled(Link)<Theme>`
   @media only screen and (min-width: 768px) {
     text-decoration: none;
-    color: white;
+    color: ${(props) => (props.isDark ? "white" : "black")};
     margin: 0 1rem;
     font-size: 1.2rem;
     transition: 0.3s all ease-in-out;
@@ -43,11 +49,19 @@ const Container = styled.div`
 `;
 
 export default function PagesNavigationContainer() {
+  const { darkTheme }: any = useContext(ThemeContext);
+
   return (
     <Container>
-      <StyledRouterLink to="/account">Account</StyledRouterLink>
-      <StyledRouterLink to="/">Home</StyledRouterLink>
-      <StyledRouterLink to="/contact">Contact</StyledRouterLink>
+      <StyledRouterLink to="/account" isDark={darkTheme}>
+        Account
+      </StyledRouterLink>
+      <StyledRouterLink to="/" isDark={darkTheme}>
+        Home
+      </StyledRouterLink>
+      <StyledRouterLink to="/contact" isDark={darkTheme}>
+        Contact
+      </StyledRouterLink>
     </Container>
   );
 }

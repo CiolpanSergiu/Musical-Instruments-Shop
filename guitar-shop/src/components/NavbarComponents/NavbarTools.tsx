@@ -5,15 +5,21 @@ import NavbarMenu from "./NavbarMenu";
 import { MouseEventHandler } from "react";
 import styled from "styled-components";
 import PhoneNumber from "../Miscellaneous/PhoneNumber";
+import ThemeContext from "../../context/ThemeProvider";
+import { useContext } from "react";
 
 type Props = {
   isOpen: boolean;
   handleClick: MouseEventHandler<HTMLDivElement>;
 };
 
-const StyledRouterLink = styled(Link)`
+type Theme = {
+  isDark: boolean;
+};
+
+const StyledRouterLink = styled(Link)<Theme>`
   text-decoration: none;
-  color: white;
+  color: ${(props) => (props.isDark ? "white" : "black")};
   display: flex;
   align-items: center;
 `;
@@ -27,11 +33,13 @@ const TooldsContainer = styled.div`
 
 const UserIcon = styled.span`
   font-size: 1.5rem;
+  transition: 0.3s;
 `;
 
 const ShoppingCart = styled.span`
   font-size: 1.5rem;
   position: relative;
+  transition: 0.3s;
 `;
 
 const QuantityBubble = styled.span`
@@ -43,18 +51,21 @@ const QuantityBubble = styled.span`
   bottom: 0;
   right: -0.75rem;
   padding: 0 0.3rem;
+  color: white;
 `;
 
 export default function NavbarTools({ isOpen, handleClick }: Props) {
+  const { darkTheme }: any = useContext(ThemeContext);
+
   return (
     <TooldsContainer>
       <PhoneNumber />
-      <StyledRouterLink to="/account">
+      <StyledRouterLink to="/account" isDark={darkTheme}>
         <UserIcon>
           <FaRegUserCircle />
         </UserIcon>
       </StyledRouterLink>
-      <StyledRouterLink to="/shopping-cart">
+      <StyledRouterLink to="/shopping-cart" isDark={darkTheme}>
         <ShoppingCart>
           <HiOutlineShoppingCart />
           <QuantityBubble>3</QuantityBubble>
