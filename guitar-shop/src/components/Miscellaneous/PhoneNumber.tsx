@@ -20,19 +20,19 @@ const TelephoneNumber = styled.span`
 `;
 
 type Theme = {
-  isDark: boolean;
+  isdark: boolean;
 };
 
 const StyledLinkRouter = styled(Link)<Theme>`
   text-decoration: none;
-  color: ${(props) => (props.isDark ? "white" : "#3d4552")};
+  color: ${(props) => (props.isdark ? "white" : "#3d4552")};
 `;
 
 export default function PhoneNumber() {
   const { darkTheme }: any = useContext(ThemeContext);
 
   return (
-    <StyledLinkRouter to="/contact" isDark={darkTheme}>
+    <StyledLinkRouter to="/contact" isdark={darkTheme}>
       <TelephoneIcon>
         <BsFillTelephoneFill />
         <TelephoneNumber>+0123 456 789</TelephoneNumber>

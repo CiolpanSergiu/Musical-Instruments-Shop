@@ -12,13 +12,13 @@ type Props = {
 };
 
 type Theme = {
-  isDark: boolean;
+  isdark: boolean;
 };
 
 const CategoryLink = styled(Link)<Theme>`
   text-align: center;
   text-decoration: none;
-  color: ${(props) => (props.isDark ? "white" : "#3d4552")};
+  color: ${(props) => (props.isdark ? "white" : "#3d4552")};
   font-size: 1.2rem;
   padding: 1rem 0;
   display: block;
@@ -26,8 +26,8 @@ const CategoryLink = styled(Link)<Theme>`
   transition: 0.3s all ease-in-out;
 
   &:hover {
-    background-color: ${(props) => (props.isDark ? "#2c313a" : "white")};
-    color: ${(props) => (props.isDark ? "white" : "#4287f5")};
+    background-color: ${(props) => (props.isdark ? "#2c313a" : "white")};
+    color: ${(props) => (props.isdark ? "white" : "#4287f5")};
   }
 `;
 
@@ -39,7 +39,7 @@ export default function NavbarCategoryLink({
   const { darkTheme }: any = useContext(ThemeContext);
 
   return (
-    <CategoryLink onClick={handleClick} to={pageLink} isDark={darkTheme}>
+    <CategoryLink onClick={handleClick} to={pageLink} isdark={darkTheme}>
       {categoryName}
     </CategoryLink>
   );

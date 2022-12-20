@@ -14,12 +14,12 @@ type Props = {
 };
 
 type Theme = {
-  isDark: boolean;
+  isdark: boolean;
 };
 
 const StyledRouterLink = styled(Link)<Theme>`
   text-decoration: none;
-  color: ${(props) => (props.isDark ? "white" : "black")};
+  color: ${(props) => (props.isdark ? "white" : "black")};
   display: flex;
   align-items: center;
 `;
@@ -60,12 +60,12 @@ export default function NavbarTools({ isOpen, handleClick }: Props) {
   return (
     <TooldsContainer>
       <PhoneNumber />
-      <StyledRouterLink to="/account" isDark={darkTheme}>
+      <StyledRouterLink to="/account" isdark={darkTheme}>
         <UserIcon>
           <FaRegUserCircle />
         </UserIcon>
       </StyledRouterLink>
-      <StyledRouterLink to="/shopping-cart" isDark={darkTheme}>
+      <StyledRouterLink to="/shopping-cart" isdark={darkTheme}>
         <ShoppingCart>
           <HiOutlineShoppingCart />
           <QuantityBubble>3</QuantityBubble>

@@ -10,13 +10,13 @@ type Props = {
 };
 
 type Theme = {
-  isDark: boolean;
+  isdark: boolean;
 };
 
 const Bar = styled.span<Theme>`
   width: 2rem;
   height: 3px;
-  background-color: ${(props) => (props.isDark ? "white" : "black")};
+  background-color: ${(props) => (props.isdark ? "white" : "black")};
   margin: 0.1rem 0;
   border-radius: 5px;
   transition: 0.2s all ease-in-out;
@@ -27,9 +27,9 @@ export default function NavbarMenu({ handleClick, menuClass }: Props) {
 
   return (
     <div className={menuClass} onClick={handleClick}>
-      <Bar className="bar" isDark={darkTheme}></Bar>
-      <Bar className="bar" isDark={darkTheme}></Bar>
-      <Bar className="bar" isDark={darkTheme}></Bar>
+      <Bar className="bar" isdark={darkTheme}></Bar>
+      <Bar className="bar" isdark={darkTheme}></Bar>
+      <Bar className="bar" isdark={darkTheme}></Bar>
     </div>
   );
 }

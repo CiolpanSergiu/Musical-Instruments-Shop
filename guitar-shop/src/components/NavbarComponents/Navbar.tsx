@@ -12,12 +12,12 @@ import ThemeSwitch from "../Miscellaneous/ThemeSwitch";
 import ThemeContext from "../../context/ThemeProvider";
 
 type Theme = {
-  isDark: boolean;
+  isdark: boolean;
 };
 
 const NavbarContainer = styled.nav<Theme>`
   width: 100%;
-  background-color: ${(props) => (props.isDark ? "#3d4552" : "white")};
+  background-color: ${(props) => (props.isdark ? "#3d4552" : "white")};
   padding: 0 1rem;
   box-shadow: 0 0 15px 5px gray;
 `;
@@ -51,11 +51,11 @@ const Overlay = styled.div`
 
 type NavbarContentType = {
   open: boolean;
-  isDark: boolean;
+  isdark: boolean;
 };
 
 const NavbarContent = styled.div<NavbarContentType>`
-  background-color: ${(props) => (props.isDark ? "#3d4552" : "white")};
+  background-color: ${(props) => (props.isdark ? "#3d4552" : "white")};
   position: absolute;
   height: 100vh;
   top: 0;
@@ -66,6 +66,7 @@ const NavbarContent = styled.div<NavbarContentType>`
   align-items: center;
   justify-content: center;
   flex-direction: column;
+  z-index: 99;
 
   @media only screen and (min-width: 768px) {
     width: 40%;
@@ -107,7 +108,7 @@ export default function Navbar() {
   const { darkTheme }: any = useContext(ThemeContext);
 
   return (
-    <NavbarContainer isDark={darkTheme}>
+    <NavbarContainer isdark={darkTheme}>
       <DetailsRow>
         <WebsiteLogo />
         <PagesNavigationContainer />
@@ -118,7 +119,7 @@ export default function Navbar() {
         <ThemeSwitch />
       </SearchBarRow>
       <Overlay>
-        <NavbarContent open={isMenuOpen} isDark={darkTheme}>
+        <NavbarContent open={isMenuOpen} isdark={darkTheme}>
           {navbarContentElements}
         </NavbarContent>
 

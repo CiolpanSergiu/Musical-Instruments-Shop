@@ -4,13 +4,13 @@ import ThemeContext from "../../context/ThemeProvider";
 import { useContext } from "react";
 
 type Theme = {
-  isDark: boolean;
+  isdark: boolean;
 };
 
 const StyledRouterLink = styled(Link)<Theme>`
   @media only screen and (min-width: 768px) {
     text-decoration: none;
-    color: ${(props) => (props.isDark ? "white" : "black")};
+    color: ${(props) => (props.isdark ? "white" : "black")};
     margin: 0 1rem;
     font-size: 1.2rem;
     transition: 0.3s all ease-in-out;
@@ -53,13 +53,13 @@ export default function PagesNavigationContainer() {
 
   return (
     <Container>
-      <StyledRouterLink to="/account" isDark={darkTheme}>
+      <StyledRouterLink to="/account" isdark={darkTheme}>
         Account
       </StyledRouterLink>
-      <StyledRouterLink to="/" isDark={darkTheme}>
+      <StyledRouterLink to="/" isdark={darkTheme}>
         Home
       </StyledRouterLink>
-      <StyledRouterLink to="/contact" isDark={darkTheme}>
+      <StyledRouterLink to="/contact" isdark={darkTheme}>
         Contact
       </StyledRouterLink>
     </Container>

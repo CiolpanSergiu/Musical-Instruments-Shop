@@ -3,11 +3,11 @@ import { useContext } from "react";
 import styled from "styled-components";
 
 type Theme = {
-  isDark: boolean;
+  isdark: boolean;
 };
 
 const Logo = styled.h3<Theme>`
-  color: ${(props) => (props.isDark ? "white" : "black")};
+  color: ${(props) => (props.isdark ? "white" : "black")};
   transition: 0.3s;
   margin: 1rem;
 `;
@@ -15,5 +15,5 @@ const Logo = styled.h3<Theme>`
 export default function WebsiteLogo() {
   const { darkTheme }: any = useContext(ThemeContext);
 
-  return <Logo isDark={darkTheme}>SergiuGuitars</Logo>;
+  return <Logo isdark={darkTheme}>SergiuGuitars</Logo>;
 }
