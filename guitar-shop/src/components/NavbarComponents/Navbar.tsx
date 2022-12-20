@@ -20,6 +20,8 @@ const NavbarContainer = styled.nav<Theme>`
   background-color: ${(props) => (props.isdark ? "#3d4552" : "white")};
   padding: 0 1rem;
   box-shadow: 0 0 15px 5px gray;
+  z-index: 999;
+  position: relative;
 `;
 
 const DetailsRow = styled.div`
@@ -41,6 +43,7 @@ const SearchBarRow = styled.div`
   gap: 1rem;
   grid-template-columns: 3fr 0.25fr;
   align-items: center;
+  padding-bottom: 1rem;
 `;
 
 const Overlay = styled.div`

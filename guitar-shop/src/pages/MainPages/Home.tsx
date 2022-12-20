@@ -50,7 +50,7 @@ export default function Home() {
         header="And many more!"
         descriptionData={description[4]}
       />
-      <Footer />
+      <Footer marginTop={"2rem"} />
     </HomePage>
   );
 }

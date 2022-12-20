@@ -4,8 +4,14 @@ const FormContainer = styled.div`
   background-color: white;
   width: 100%;
   padding: 4rem;
-  justify-content: space-around;
+  justify-content: center;
   align-items: center;
+  border-bottom: solid black 3px;
+
+  @media only screen and (min-width: 768px) {
+    border-bottom: none;
+    border-right: solid gray 3px;
+  }
 `;
 
 const Form = styled.form`
@@ -45,21 +51,16 @@ const Textarea = styled.textarea`
   border-radius: 5px;
   margin-bottom: 1rem;
   transition: 0.3s;
-  padding: 1.5rem 0.5rem;
+  padding: 1rem;
+  width: 100%;
+  resize: vertical;
+  font-size: 1.1rem;
 
   span {
   }
 
   &:focus {
     outline: solid lightskyblue 1px;
-  }
-
-  &:focus + label span,
-  &:valid + label span {
-    padding: 0.5rem;
-    transform: translateY(-15px);
-    font-size: 0.8rem;
-    color: lightskyblue;
   }
 `;
 
@@ -117,10 +118,11 @@ export default function ContactForm() {
           </Label>
         </InputContainer>
         <InputContainer>
-          <Textarea id="additional-info" rows={10} required></Textarea>
-          <Label htmlFor="additional-info">
-            <Span>Want to give some additional info?</Span>
-          </Label>
+          <Textarea
+            id="additional-info"
+            rows={10}
+            placeholder="Want to give some additional info?"
+          ></Textarea>
         </InputContainer>
 
         <Button>Submit</Button>
