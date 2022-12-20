@@ -1,9 +1,9 @@
 import { MouseEventHandler } from "react";
 import { Link } from "react-router-dom";
 import styled from "styled-components";
-import ThemeSwitch from "../Miscellaneous/ThemeSwitch";
 import ThemeContext from "../../context/ThemeProvider";
 import { useContext } from "react";
+import { ThemeProvider } from "styled-components";
 
 type Props = {
   handleClick: MouseEventHandler<HTMLAnchorElement>;
@@ -11,14 +11,10 @@ type Props = {
   categoryName: string;
 };
 
-type Theme = {
-  isdark: boolean;
-};
-
-const CategoryLink = styled(Link)<Theme>`
+const CategoryLink = styled(Link)`
   text-align: center;
   text-decoration: none;
-  color: ${(props) => (props.isdark ? "white" : "#3d4552")};
+  color: ${(props) => props.theme.color};
   font-size: 1.2rem;
   padding: 1rem 0;
   display: block;
@@ -26,21 +22,34 @@ const CategoryLink = styled(Link)<Theme>`
   transition: 0.3s all ease-in-out;
 
   &:hover {
-    background-color: ${(props) => (props.isdark ? "#2c313a" : "white")};
-    color: ${(props) => (props.isdark ? "white" : "#4287f5")};
+    background-color: ${(props) => props.theme.hoverBg};
+    color: ${(props) => props.theme.hoverColor};
   }
 `;
+
+const darkTheme = {
+  color: "white",
+  hoverBg: "#292b2e",
+  hoverColor: "lightskyblue",
+};
+
+const lightTheme = {
+  color: "#3d4552",
+  hoverColor: "lightskyblue",
+};
 
 export default function NavbarCategoryLink({
   handleClick,
   pageLink,
   categoryName,
 }: Props) {
-  const { darkTheme }: any = useContext(ThemeContext);
+  const { isDark }: any = useContext(ThemeContext);
 
   return (
-    <CategoryLink onClick={handleClick} to={pageLink} isdark={darkTheme}>
-      {categoryName}
-    </CategoryLink>
+    <ThemeProvider theme={isDark ? darkTheme : lightTheme}>
+      <CategoryLink onClick={handleClick} to={pageLink}>
+        {categoryName}
+      </CategoryLink>
+    </ThemeProvider>
   );
 }

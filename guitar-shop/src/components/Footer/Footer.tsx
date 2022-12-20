@@ -5,16 +5,16 @@ import { Link } from "react-router-dom";
 import PhoneNumber from "../Miscellaneous/PhoneNumber";
 import ThemeContext from "../../context/ThemeProvider";
 import { useContext } from "react";
+import { ThemeProvider } from "styled-components";
 
 type FooterProps = {
-  isdark: boolean;
   margintop?: string;
 };
 
 const FooterContainer = styled.footer<FooterProps>`
   width: 100%;
   padding: 1rem 2rem;
-  background-color: ${(props) => (props.isdark ? "#3d4552" : "white")};
+  background-color: ${(props) => props.theme.bgColor};
   margin-top: ${(props) => (props.margintop ? props.margintop : 0)};
   overflow-x: hidden;
   display: flex;
@@ -38,7 +38,7 @@ const SocialIconsContainer = styled.div`
 `;
 
 const StyledLinkRouter = styled(Link)<FooterProps>`
-  color: ${(props) => (props.isdark ? "white" : "#3d4552")};
+  color: ${(props) => props.theme.color};
   text-decoration: none;
   margin: 0.5rem 0;
 `;
@@ -54,39 +54,51 @@ const Icon = styled.span`
   align-items: center;
 `;
 
+const darkTheme = {
+  bgColor: "#3d4552",
+  color: "white",
+};
+
+const lightTheme = {
+  bgColor: "white",
+  color: "#3d4552",
+};
+
 type Props = {
   marginTop?: string;
 };
 
 export default function Footer({ marginTop }: Props) {
-  const { darkTheme }: any = useContext(ThemeContext);
+  const { isDark }: any = useContext(ThemeContext);
 
   return (
-    <FooterContainer isdark={darkTheme} margintop={marginTop || "0"}>
-      <SocialIconsContainer>
-        <StyledLinkRouter to="" isdark={darkTheme}>
-          <Icon>
-            <BsFacebook />
-          </Icon>
-        </StyledLinkRouter>
-        <StyledLinkRouter to="" isdark={darkTheme}>
-          <Icon>
-            <BsLinkedin />
-          </Icon>
-        </StyledLinkRouter>
-        <StyledLinkRouter to="" isdark={darkTheme}>
-          <Icon>
-            <BsYoutube />
-          </Icon>
-        </StyledLinkRouter>
-        <PhoneNumber />
-        <StyledLinkRouter to="/contact" isdark={darkTheme}>
-          <Icon>
-            <MdEmail />
-            <Email>not.real.email@gmail.com</Email>
-          </Icon>
-        </StyledLinkRouter>
-      </SocialIconsContainer>
-    </FooterContainer>
+    <ThemeProvider theme={isDark ? darkTheme : lightTheme}>
+      <FooterContainer margintop={marginTop || "0"}>
+        <SocialIconsContainer>
+          <StyledLinkRouter to="">
+            <Icon>
+              <BsFacebook />
+            </Icon>
+          </StyledLinkRouter>
+          <StyledLinkRouter to="">
+            <Icon>
+              <BsLinkedin />
+            </Icon>
+          </StyledLinkRouter>
+          <StyledLinkRouter to="">
+            <Icon>
+              <BsYoutube />
+            </Icon>
+          </StyledLinkRouter>
+          <PhoneNumber />
+          <StyledLinkRouter to="/contact">
+            <Icon>
+              <MdEmail />
+              <Email>not.real.email@gmail.com</Email>
+            </Icon>
+          </StyledLinkRouter>
+        </SocialIconsContainer>
+      </FooterContainer>
+    </ThemeProvider>
   );
 }

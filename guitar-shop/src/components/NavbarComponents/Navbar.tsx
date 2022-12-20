@@ -10,14 +10,11 @@ import WebsiteLogo from "./WebsiteLogo";
 import styled from "styled-components";
 import ThemeSwitch from "../Miscellaneous/ThemeSwitch";
 import ThemeContext from "../../context/ThemeProvider";
+import { ThemeProvider } from "styled-components";
 
-type Theme = {
-  isdark: boolean;
-};
-
-const NavbarContainer = styled.nav<Theme>`
+const NavbarContainer = styled.nav`
   width: 100%;
-  background-color: ${(props) => (props.isdark ? "#3d4552" : "white")};
+  background-color: ${(props) => props.theme.bgColor};
   padding: 0 1rem;
   box-shadow: 0 0 15px 5px gray;
   z-index: 999;
@@ -54,11 +51,10 @@ const Overlay = styled.div`
 
 type NavbarContentType = {
   open: boolean;
-  isdark: boolean;
 };
 
 const NavbarContent = styled.div<NavbarContentType>`
-  background-color: ${(props) => (props.isdark ? "#3d4552" : "white")};
+  background-color: ${(props) => props.theme.bgColor};
   position: absolute;
   height: 100vh;
   top: 0;
@@ -88,6 +84,16 @@ const NavbarContentExtendedArea = styled.div`
   }
 `;
 
+const darkTheme = {
+  bgColor: "#3d4552",
+  color: "white",
+};
+
+const lightTheme = {
+  bgColor: "white",
+  color: "#3d4552",
+};
+
 export default function Navbar() {
   const [isMenuOpen, setIsMenuOpen] = useState<boolean>(false);
 
@@ -108,37 +114,39 @@ export default function Navbar() {
     />
   ));
 
-  const { darkTheme }: any = useContext(ThemeContext);
+  const { isDark }: any = useContext(ThemeContext);
 
   return (
-    <NavbarContainer isdark={darkTheme}>
-      <DetailsRow>
-        <WebsiteLogo />
-        <PagesNavigationContainer />
-        <NavbarTools isOpen={isMenuOpen} handleClick={toggleMenu} />
-      </DetailsRow>
-      <SearchBarRow>
-        <NavbarSearchBox />
-        <ThemeSwitch />
-      </SearchBarRow>
-      <Overlay>
-        <NavbarContent open={isMenuOpen} isdark={darkTheme}>
-          {navbarContentElements}
-        </NavbarContent>
+    <ThemeProvider theme={isDark ? darkTheme : lightTheme}>
+      <NavbarContainer>
+        <DetailsRow>
+          <WebsiteLogo />
+          <PagesNavigationContainer />
+          <NavbarTools isOpen={isMenuOpen} handleClick={toggleMenu} />
+        </DetailsRow>
+        <SearchBarRow>
+          <NavbarSearchBox />
+          <ThemeSwitch />
+        </SearchBarRow>
+        <Overlay>
+          <NavbarContent open={isMenuOpen}>
+            {navbarContentElements}
+          </NavbarContent>
 
-        <NavbarMenu
-          handleClick={toggleMenu}
-          menuClass={
-            isMenuOpen
-              ? "bars-menu-close opened-bars-menu"
-              : "bars-menu-open closed-bars-menu"
-          }
-        />
-        <NavbarContentExtendedArea
-          style={{ display: isMenuOpen ? "block" : "none" }}
-          onClick={toggleMenu}
-        ></NavbarContentExtendedArea>
-      </Overlay>
-    </NavbarContainer>
+          <NavbarMenu
+            handleClick={toggleMenu}
+            menuClass={
+              isMenuOpen
+                ? "bars-menu-close opened-bars-menu"
+                : "bars-menu-open closed-bars-menu"
+            }
+          />
+          <NavbarContentExtendedArea
+            style={{ display: isMenuOpen ? "block" : "none" }}
+            onClick={toggleMenu}
+          ></NavbarContentExtendedArea>
+        </Overlay>
+      </NavbarContainer>
+    </ThemeProvider>
   );
 }

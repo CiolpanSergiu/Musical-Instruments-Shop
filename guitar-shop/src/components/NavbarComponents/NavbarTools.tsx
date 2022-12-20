@@ -7,19 +7,16 @@ import styled from "styled-components";
 import PhoneNumber from "../Miscellaneous/PhoneNumber";
 import ThemeContext from "../../context/ThemeProvider";
 import { useContext } from "react";
+import { ThemeProvider } from "styled-components";
 
 type Props = {
   isOpen: boolean;
   handleClick: MouseEventHandler<HTMLDivElement>;
 };
 
-type Theme = {
-  isdark: boolean;
-};
-
-const StyledRouterLink = styled(Link)<Theme>`
+const StyledRouterLink = styled(Link)`
   text-decoration: none;
-  color: ${(props) => (props.isdark ? "white" : "black")};
+  color: ${(props) => props.theme.color};
   display: flex;
   align-items: center;
 `;
@@ -54,27 +51,37 @@ const QuantityBubble = styled.span`
   color: white;
 `;
 
+const darkTheme = {
+  color: "white",
+};
+
+const lightTheme = {
+  color: "#3d4552",
+};
+
 export default function NavbarTools({ isOpen, handleClick }: Props) {
-  const { darkTheme }: any = useContext(ThemeContext);
+  const { isDark }: any = useContext(ThemeContext);
 
   return (
-    <TooldsContainer>
-      <PhoneNumber />
-      <StyledRouterLink to="/account" isdark={darkTheme}>
-        <UserIcon>
-          <FaRegUserCircle />
-        </UserIcon>
-      </StyledRouterLink>
-      <StyledRouterLink to="/shopping-cart" isdark={darkTheme}>
-        <ShoppingCart>
-          <HiOutlineShoppingCart />
-          <QuantityBubble>3</QuantityBubble>
-        </ShoppingCart>
-      </StyledRouterLink>
-      <NavbarMenu
-        handleClick={handleClick}
-        menuClass={isOpen ? "bars-menu-close" : "bars-menu-open"}
-      />
-    </TooldsContainer>
+    <ThemeProvider theme={isDark ? darkTheme : lightTheme}>
+      <TooldsContainer>
+        <PhoneNumber />
+        <StyledRouterLink to="/account">
+          <UserIcon>
+            <FaRegUserCircle />
+          </UserIcon>
+        </StyledRouterLink>
+        <StyledRouterLink to="/shopping-cart">
+          <ShoppingCart>
+            <HiOutlineShoppingCart />
+            <QuantityBubble>3</QuantityBubble>
+          </ShoppingCart>
+        </StyledRouterLink>
+        <NavbarMenu
+          handleClick={handleClick}
+          menuClass={isOpen ? "bars-menu-close" : "bars-menu-open"}
+        />
+      </TooldsContainer>
+    </ThemeProvider>
   );
 }
