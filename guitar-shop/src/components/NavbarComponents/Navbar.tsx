@@ -2,7 +2,7 @@ import { useState, useEffect, useContext } from "react";
 import { nanoid } from "nanoid";
 import NavbarMenu from "./NavbarMenu";
 import NavbarCategoryLink from "./NavbarCategoryLink";
-import data from "../../data/category.json";
+import data from "../../data/mainCategory.json";
 import NavbarSearchBox from "./NavbarSearchBox";
 import PagesNavigationContainer from "./PagesNavigationContainer";
 import NavbarTools from "./NavbarTools";

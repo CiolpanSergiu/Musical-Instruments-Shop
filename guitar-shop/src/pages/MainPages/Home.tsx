@@ -1,13 +1,13 @@
-import Navbar from "../components/NavbarComponents/Navbar";
-import DailyRecommendationsSlider from "../components/Sliders/HomePage/DailyRecommendationsSlider";
-import CategoryCardsContainer from "../components/HomePageSectionComponents/Containers/CategoryCardsContainer";
-import BrandsSlider from "../components/Sliders/HomePage/BrandsSlider";
-import SalesSectionContainer from "../components/HomePageSectionComponents/Containers/SalesSectionContainer";
-import SimpleSlider from "../components/Sliders/HomePage/SimpleSlider";
-import Footer from "../components/Footer/Footer";
+import Navbar from "../../components/NavbarComponents/Navbar";
+import DailyRecommendationsSlider from "../../components/Sliders/HomePage/DailyRecommendationsSlider";
+import CategoryCardsContainer from "../../components/HomePageSectionComponents/Containers/CategoryCardsContainer";
+import BrandsSlider from "../../components/Sliders/HomePage/BrandsSlider";
+import SalesSectionContainer from "../../components/HomePageSectionComponents/Containers/SalesSectionContainer";
+import SimpleSlider from "../../components/Sliders/HomePage/SimpleSlider";
+import Footer from "../../components/Footer/Footer";
 import styled from "styled-components";
-import data from "../data/category.json";
-import description from "../data/sectionDescription.json";
+import data from "../../data/mainCategory.json";
+import description from "../../data/sectionDescription.json";
 
 const HomePage = styled.div`
   display: flex;

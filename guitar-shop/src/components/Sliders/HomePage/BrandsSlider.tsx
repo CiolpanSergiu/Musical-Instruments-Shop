@@ -1,4 +1,4 @@
-import data from "../../../data/category.json";
+import data from "../../../data/mainCategory.json";
 import BrandCard from "./BrandCard";
 import { nanoid } from "nanoid";
 import "../../../styles/SliderStyles/SliderStyle.scss";

@@ -1,9 +1,8 @@
-import React from "react";
 import { Routes, Route } from "react-router-dom";
-import Home from "./pages/Home";
-import Account from "./pages/Account";
-import Contact from "./pages/Contact";
-import ShoppingCartPage from "./pages/ShoppingCartPage";
+import Home from "./pages/MainPages/Home";
+import Contact from "./pages/MainPages/Contact";
+import Account from "./pages/MainPages/Account";
+import ShoppingCartPage from "./pages/MainPages/ShoppingCartPage";
 import "./styles/AppStyle.scss";
 
 export default function App() {

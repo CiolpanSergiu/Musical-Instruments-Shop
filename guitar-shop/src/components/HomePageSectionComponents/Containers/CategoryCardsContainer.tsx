@@ -1,5 +1,5 @@
 import { useState } from "react";
-import itemsCategories from "../../../data/category.json";
+import itemsCategories from "../../../data/mainCategory.json";
 import CategoryCard from "../Cards/CategoryCard";
 import { nanoid } from "nanoid";
 import styled from "styled-components";

@@ -1,5 +1,5 @@
-import Navbar from "../components/NavbarComponents/Navbar";
-import Footer from "../components/Footer/Footer";
+import Navbar from "../../components/NavbarComponents/Navbar";
+import Footer from "../../components/Footer/Footer";
 
 export default function Account() {
   return (
