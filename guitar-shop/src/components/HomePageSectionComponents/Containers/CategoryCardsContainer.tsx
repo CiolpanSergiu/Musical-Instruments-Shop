@@ -27,7 +27,7 @@ const CategoryContainer = styled.div`
 `;
 
 const Header2 = styled.h2`
-  margin-bottom: 0.5rem;
+  margin: 3rem 0 1rem 0;
   text-align: center;
   color: #404040;
 

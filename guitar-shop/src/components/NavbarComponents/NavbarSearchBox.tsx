@@ -5,6 +5,7 @@ const Form = styled.form`
   display: flex;
   align-items: center;
   justify-content: center;
+  width: 100%;
 `;
 
 const Input = styled.input`

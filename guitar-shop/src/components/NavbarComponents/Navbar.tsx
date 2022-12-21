@@ -40,6 +40,7 @@ const SearchBarRow = styled.div`
   gap: 1rem;
   grid-template-columns: 3fr 0.25fr;
   align-items: center;
+  justify-items: center;
   padding-bottom: 1rem;
 `;
 
