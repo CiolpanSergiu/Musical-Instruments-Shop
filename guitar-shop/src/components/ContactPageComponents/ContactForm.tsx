@@ -75,6 +75,13 @@ const Span = styled.span`
   transition: 0.3s all ease;
 `;
 
+const ObligatoryFieldStar = styled.div`
+  color: red;
+  position: absolute;
+  right: -15px;
+  top: 0;
+`;
+
 const Button = styled.button`
   padding: 0.5rem 2rem;
   font-size: 1.2rem;
@@ -90,6 +97,23 @@ const Button = styled.button`
   }
 `;
 
+const SubmitMessage = styled.span`
+  color: black;
+  background-color: lightskyblue;
+  border-radius: 5px;
+  padding: 0.5rem;
+  text-align: center;
+  margin: 2rem;
+`;
+
+const InvalidEmail = styled.span`
+  color: #540c1b;
+  background-color: #ffabbd;
+  border-radius: 5px;
+  padding: 0.5rem;
+  margin: 0 0 2rem 0;
+`;
+
 type FormData = {
   firstName: string;
   lastName: string;
@@ -97,6 +121,8 @@ type FormData = {
   message: string;
   additionalInfo: string;
 };
+
+const emailPattern = /^\w+([\.-]?\w+)*@\w+([\.-]?\w+)*(\.\w{2,3})+$/;
 
 export default function ContactForm() {
   const [formData, setFormData] = useState<FormData>({
@@ -106,6 +132,19 @@ export default function ContactForm() {
     message: "",
     additionalInfo: "",
   });
+
+  const [isSubmited, setIsSubmited] = useState<boolean>(false);
+  const [isEmailInvalid, setIsEmailInvalid] = useState<boolean>(false);
+
+  function emptyInputBoxes() {
+    setFormData({
+      firstName: "",
+      lastName: "",
+      email: "",
+      message: "",
+      additionalInfo: "",
+    });
+  }
 
   function handleChange(
     event:
@@ -120,9 +159,27 @@ export default function ContactForm() {
     });
   }
 
+  function handleSubmit(event: React.SyntheticEvent) {
+    event.preventDefault();
+
+    if (emailPattern.test(formData.email)) {
+      setIsSubmited(true);
+      setIsEmailInvalid(false);
+      emptyInputBoxes();
+      setTimeout(() => {
+        setIsSubmited(false);
+      }, 5 * 1000);
+    } else {
+      setIsEmailInvalid(true);
+    }
+  }
+
   return (
     <FormContainer>
-      <Form>
+      <Form onSubmit={(e) => handleSubmit(e)}>
+        <SubmitMessage style={{ display: isSubmited ? "block" : "none" }}>
+          You message was submited!
+        </SubmitMessage>
         <InputContainer>
           <Input
             id="first-name"
@@ -132,7 +189,10 @@ export default function ContactForm() {
             value={formData.firstName}
           ></Input>
           <Label htmlFor="first-name">
-            <Span>First name</Span>
+            <Span>
+              First name
+              <ObligatoryFieldStar>*</ObligatoryFieldStar>
+            </Span>
           </Label>
         </InputContainer>
         <InputContainer>
@@ -144,9 +204,15 @@ export default function ContactForm() {
             value={formData.lastName}
           ></Input>
           <Label htmlFor="last-name">
-            <Span>Last Name</Span>
+            <Span>
+              Last Name
+              <ObligatoryFieldStar>*</ObligatoryFieldStar>
+            </Span>
           </Label>
         </InputContainer>
+        <InvalidEmail style={{ display: isEmailInvalid ? "block" : "none" }}>
+          Invalid Email!
+        </InvalidEmail>
         <InputContainer>
           <Input
             id="email"
@@ -156,7 +222,10 @@ export default function ContactForm() {
             value={formData.email}
           ></Input>
           <Label htmlFor="email">
-            <Span>Email</Span>
+            <Span>
+              Email
+              <ObligatoryFieldStar>*</ObligatoryFieldStar>
+            </Span>
           </Label>
         </InputContainer>
         <InputContainer>
@@ -168,7 +237,10 @@ export default function ContactForm() {
             value={formData.message}
           ></Input>
           <Label htmlFor="message">
-            <Span>Message</Span>
+            <Span>
+              Message
+              <ObligatoryFieldStar>*</ObligatoryFieldStar>
+            </Span>
           </Label>
         </InputContainer>
         <InputContainer>
