@@ -1,4 +1,5 @@
 import styled from "styled-components";
+import { useState } from "react";
 
 const FormContainer = styled.div`
   background-color: white;
@@ -89,30 +90,83 @@ const Button = styled.button`
   }
 `;
 
+type FormData = {
+  firstName: string;
+  lastName: string;
+  email: string;
+  message: string;
+  additionalInfo: string;
+};
+
 export default function ContactForm() {
+  const [formData, setFormData] = useState<FormData>({
+    firstName: "",
+    lastName: "",
+    email: "",
+    message: "",
+    additionalInfo: "",
+  });
+
+  function handleChange(
+    event:
+      | React.ChangeEvent<HTMLInputElement>
+      | React.ChangeEvent<HTMLTextAreaElement>
+  ): void {
+    setFormData((prevState: FormData) => {
+      return {
+        ...prevState,
+        [event.target.name]: event.target.value,
+      };
+    });
+  }
+
   return (
     <FormContainer>
       <Form>
         <InputContainer>
-          <Input id="first-name" required></Input>
+          <Input
+            id="first-name"
+            required
+            onChange={handleChange}
+            name="firstName"
+            value={formData.firstName}
+          ></Input>
           <Label htmlFor="first-name">
             <Span>First name</Span>
           </Label>
         </InputContainer>
         <InputContainer>
-          <Input id="last-name" required></Input>
+          <Input
+            id="last-name"
+            required
+            onChange={handleChange}
+            name="lastName"
+            value={formData.lastName}
+          ></Input>
           <Label htmlFor="last-name">
             <Span>Last Name</Span>
           </Label>
         </InputContainer>
         <InputContainer>
-          <Input id="email" required></Input>
+          <Input
+            id="email"
+            required
+            onChange={handleChange}
+            name="email"
+            value={formData.email}
+          ></Input>
           <Label htmlFor="email">
             <Span>Email</Span>
           </Label>
         </InputContainer>
         <InputContainer>
-          <Input id="message" required></Input>
+          <Input
+            id="message"
+            required
+            onChange={handleChange}
+            name="message"
+            value={formData.message}
+          ></Input>
           <Label htmlFor="message">
             <Span>Message</Span>
           </Label>
@@ -122,6 +176,9 @@ export default function ContactForm() {
             id="additional-info"
             rows={10}
             placeholder="Want to give some additional info?"
+            onChange={handleChange}
+            name="additionalInfo"
+            value={formData.additionalInfo}
           ></Textarea>
         </InputContainer>
 

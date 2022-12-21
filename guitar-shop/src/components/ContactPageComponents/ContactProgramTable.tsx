@@ -6,11 +6,13 @@ const Table = styled.table`
 `;
 
 const TableHead = styled.thead`
-  background-color: #2e8244;
-  box-shadow: inset -5px 5px 15px lime;
+  tr {
+    background-color: #2e8244;
+    box-shadow: inset -5px 5px 15px lime;
 
-  td {
-    color: white;
+    td {
+      color: white;
+    }
   }
 `;
 
@@ -42,9 +44,11 @@ export default function ContactProgramTable() {
   return (
     <Table>
       <TableHead>
-        <Td>Day</Td>
-        <Td>From</Td>
-        <Td>To</Td>
+        <tr>
+          <Td>Day</Td>
+          <Td>From</Td>
+          <Td>To</Td>
+        </tr>
       </TableHead>
       <tbody>
         <Tr>
