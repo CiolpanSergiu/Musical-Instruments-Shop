@@ -70,7 +70,7 @@ const darkTheme = {
 };
 
 const lightTheme = {
-  titleColor: "lightskyblue",
+  titleColor: "dodgerblue",
   color: "black",
   bgColor: "white",
 };

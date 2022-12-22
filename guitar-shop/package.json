@@ -9,6 +9,7 @@
     "preview": "vite preview"
   },
   "dependencies": {
+    "formik": "^2.2.9",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
     "react-icons": "^4.7.1",
@@ -16,7 +17,8 @@
     "react-slick": "^0.29.0",
     "sass": "^1.56.2",
     "sass-loader": "^13.2.0",
-    "styled-components": "^5.3.6"
+    "styled-components": "^5.3.6",
+    "yup": "^0.32.11"
   },
   "devDependencies": {
     "@babel/preset-react": "^7.18.6",

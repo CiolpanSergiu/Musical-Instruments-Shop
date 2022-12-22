@@ -21,7 +21,7 @@ const FooterContainer = styled.footer<FooterProps>`
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  box-shadow: 1px 1px 10px 5px lightgray;
+  box-shadow: 0 0 10px gray;
   position: relative;
 `;
 
