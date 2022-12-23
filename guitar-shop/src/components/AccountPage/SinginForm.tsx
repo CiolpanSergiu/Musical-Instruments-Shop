@@ -150,7 +150,7 @@ export default function SinginForm() {
             <ErrorMessage name="confirmPassword" />
           </StyledErrorMessage>
 
-          <SubmitButton type="submit">Submit</SubmitButton>
+          <SubmitButton type="submit">Singin</SubmitButton>
         </StyledForm>
       </Formik>
     </Container>
