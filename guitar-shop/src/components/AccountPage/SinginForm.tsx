@@ -1,16 +1,23 @@
 import styled from "styled-components";
 import { Formik, Form, Field, ErrorMessage } from "formik";
 import * as Yup from "yup";
+import FormButton from "../Miscellaneous/AccountPage/FormButton";
+import CenteredSmallSpan from "../Miscellaneous/AccountPage/CenteredSmallSpan";
+import ObligatoryStar from "../Miscellaneous/AccountPage/ObligatoryStar";
+import { Link } from "react-router-dom";
+import { ThemeProvider } from "styled-components";
+import { useContext } from "react";
+import ThemeContext from "../../context/ThemeProvider";
 
 const StyledForm = styled(Form)`
-  height: 100%;
   display: flex;
   justify-content: center;
   flex-direction: column;
-  background-color: #3d4552;
+  background-color: ${(props) => props.theme.bgColor};
   padding: 2rem 4rem;
-  color: white;
+  color: ${(props) => props.theme.color};
   border-radius: 9px;
+  margin: 3rem 0;
 `;
 
 const Header = styled.h2`
@@ -26,14 +33,6 @@ const StyledErrorMessage = styled.div`
   max-width: 15rem;
 `;
 
-const Container = styled.div`
-  height: 100%;
-  display: flex;
-  justify-content: center;
-  padding: 5rem;
-  background-color: #383838;
-`;
-
 const StyledField = styled(Field)`
   padding: 0.5rem;
   font-size: 1.1rem;
@@ -47,22 +46,15 @@ const Label = styled.label`
   margin-bottom: 0.5rem;
 `;
 
-const ObligatoryField = styled.span`
-  color: #e36f75;
-  margin-left: 3px;
-`;
+const darkTheme = {
+  bgColor: "#3d4552",
+  color: "white",
+};
 
-const SubmitButton = styled.button`
-  font-size: 1.2rem;
-  margin: 2rem auto;
-  padding: 0.5rem 0;
-  width: 100%;
-  background-color: lightskyblue;
-  color: black;
-  border-radius: 5px;
-  border: none;
-  cursor: pointer;
-`;
+const lightTheme = {
+  bgColor: "white",
+  color: "#3d4552",
+};
 
 type ValuesObj = {
   fullName: string;
@@ -100,8 +92,10 @@ const validationSchema = Yup.object({
 });
 
 export default function SinginForm() {
+  const { isDark }: any = useContext(ThemeContext);
+
   return (
-    <Container>
+    <ThemeProvider theme={isDark ? darkTheme : lightTheme}>
       <Formik
         initialValues={initialValues}
         onSubmit={onSubmit}
@@ -112,7 +106,7 @@ export default function SinginForm() {
 
           <Label htmlFor="fullName">
             Full Name
-            <ObligatoryField>*</ObligatoryField>
+            <ObligatoryStar />
           </Label>
           <StyledField type="text" id="fullName" name="fullName" />
           <StyledErrorMessage>
@@ -121,7 +115,7 @@ export default function SinginForm() {
 
           <Label htmlFor="email">
             Email
-            <ObligatoryField>*</ObligatoryField>
+            <ObligatoryStar />
           </Label>
           <StyledField type="email" id="email" name="email" />
           <StyledErrorMessage>
@@ -130,7 +124,7 @@ export default function SinginForm() {
 
           <Label htmlFor="password">
             Password
-            <ObligatoryField>*</ObligatoryField>
+            <ObligatoryStar />
           </Label>
           <StyledField type="password" id="password" name="password" />
           <StyledErrorMessage>
@@ -139,7 +133,7 @@ export default function SinginForm() {
 
           <Label htmlFor="confirmPassword">
             Confirm Password
-            <ObligatoryField>*</ObligatoryField>
+            <ObligatoryStar />
           </Label>
           <StyledField
             type="password"
@@ -149,10 +143,14 @@ export default function SinginForm() {
           <StyledErrorMessage>
             <ErrorMessage name="confirmPassword" />
           </StyledErrorMessage>
+          <FormButton buttonOrder="first" buttonText="Singin" />
 
-          <SubmitButton type="submit">Singin</SubmitButton>
+          <CenteredSmallSpan text="Already have an account?" />
+          <Link to="/login">
+            <FormButton buttonOrder="second" buttonText="Login" />
+          </Link>
         </StyledForm>
       </Formik>
-    </Container>
+    </ThemeProvider>
   );
 }
