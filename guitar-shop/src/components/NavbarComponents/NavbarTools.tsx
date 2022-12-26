@@ -9,6 +9,9 @@ import ThemeContext from "../../context/ThemeProvider";
 import { useContext } from "react";
 import { ThemeProvider } from "styled-components";
 import UserMenu from "../Miscellaneous/UserMenu";
+import ShoppingCartContext, {
+  ShoppingCartContextProvider,
+} from "../../context/ShoppingCartContext";
 
 type Props = {
   isOpen: boolean;
@@ -68,6 +71,7 @@ const lightTheme = {
 
 export default function NavbarTools({ isOpen, handleClick }: Props) {
   const { isDark }: any = useContext(ThemeContext);
+  const { cartItemsQuantity }: any = useContext(ShoppingCartContext);
 
   return (
     <ThemeProvider theme={isDark ? darkTheme : lightTheme}>
@@ -84,7 +88,7 @@ export default function NavbarTools({ isOpen, handleClick }: Props) {
         <StyledRouterLink to="/shopping-cart">
           <ShoppingCart>
             <HiOutlineShoppingCart />
-            <QuantityBubble>3</QuantityBubble>
+            <QuantityBubble>{cartItemsQuantity}</QuantityBubble>
           </ShoppingCart>
         </StyledRouterLink>
         <NavbarMenu

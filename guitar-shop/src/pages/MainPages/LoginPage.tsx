@@ -2,7 +2,7 @@ import styled from "styled-components";
 import { ThemeProvider } from "styled-components";
 import Navbar from "../../components/NavbarComponents/Navbar";
 import Footer from "../../components/Footer/Footer";
-import LoginForm from "../../components/AccountPage/LoginForm";
+import LoginForm from "../../components/AccountPageComponents/LoginForm";
 import { useContext } from "react";
 import ThemeContext from "../../context/ThemeProvider";
 

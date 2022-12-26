@@ -1,7 +1,7 @@
 import styled from "styled-components";
 import Navbar from "../../components/NavbarComponents/Navbar";
 import Footer from "../../components/Footer/Footer";
-import SinginForm from "../../components/AccountPage/SinginForm";
+import SinginForm from "../../components/AccountPageComponents/SinginForm";
 import { ThemeProvider } from "styled-components";
 import { useContext } from "react";
 import ThemeContext from "../../context/ThemeProvider";
