@@ -1,7 +1,6 @@
 import styled from "styled-components";
 import SubcategoryCard from "../Cards/SubcategoryCard";
 import { nanoid } from "nanoid";
-import data from "../../../data/Subcategories/guitarsAndBassesSubcategories.json";
 
 const Container = styled.div`
   display: grid;
@@ -37,24 +36,34 @@ const Header = styled.h1`
   }
 `;
 
-const subcategoryCards: any = data.map((itemData) => {
-  return (
-    <SubcategoryCard
-      key={nanoid()}
-      src={itemData.src}
-      alt={itemData.alt}
-      title={itemData.title}
-      pageLink={itemData.pageLink}
-    />
+type Props = {
+  data: { src: string; alt: string; title: string; pageLink: string }[];
+  pageTitle: string;
+};
+
+export default function SubcategoryCardsContainer({ data, pageTitle }: Props) {
+  const subcategoryCards: any = data.map(
+    (itemData: {
+      src: string;
+      alt: string;
+      title: string;
+      pageLink: string;
+    }) => {
+      return (
+        <SubcategoryCard
+          key={nanoid()}
+          src={itemData.src}
+          alt={itemData.alt}
+          title={itemData.title}
+          pageLink={itemData.pageLink}
+        />
+      );
+    }
   );
-});
 
-console.log(subcategoryCards);
-
-export default function SubcategoryCardsContainer() {
   return (
     <>
-      <Header>Guitars Categories</Header>
+      <Header>{pageTitle}</Header>
       <Container>{subcategoryCards}</Container>
     </>
   );

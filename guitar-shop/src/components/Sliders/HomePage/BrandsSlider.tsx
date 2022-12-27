@@ -9,12 +9,6 @@ const sliderCards = data.map((item) => (
   <BrandCard key={nanoid()} src={item.src} alt={item.alt} />
 ));
 
-type Props = {
-  className: string;
-  style: {};
-  onClick: unknown;
-};
-
 function SampleNextArrow(props: any) {
   const { className, style, onClick } = props;
   return (
@@ -42,7 +36,7 @@ function SamplePrevArrow(props: any) {
 }
 
 const Header2 = styled.h2`
-  margin: 2rem;
+  margin: 4rem 0 2rem 0;
   color: #404040;
   text-decoration: underline lightskyblue 3px;
 
@@ -51,7 +45,11 @@ const Header2 = styled.h2`
   }
 `;
 
-export default function BrandsSlider() {
+type Props = {
+  title: string;
+};
+
+export default function BrandsSlider({ title }: Props) {
   const settings = {
     className: "center",
     centerMode: true,
@@ -126,7 +124,7 @@ export default function BrandsSlider() {
 
   return (
     <div className="slider-section-container" style={{ width: "90vw" }}>
-      <Header2>Top Brands</Header2>
+      <Header2>{title}</Header2>
       <Slider {...settings}>
         {sliderCards}
         {sliderCards}

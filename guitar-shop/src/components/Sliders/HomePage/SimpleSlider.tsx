@@ -23,7 +23,7 @@ const Header2 = styled.h2`
 type Props = {
   cardsData: { src: string; alt: string; title: string; pageLink: string }[];
   header: string;
-  descriptionData: { title: string; subtitle: string; description: string[] };
+  descriptionData?: { title: string; subtitle: string; description: string[] };
 };
 
 export default function SimpleSlider({
@@ -75,7 +75,9 @@ export default function SimpleSlider({
     <Section>
       <Header2>{header}</Header2>
       <Slider {...settings}>{sliderElements}</Slider>
-      <SliderDescription descriptionData={descriptionData} />
+      {descriptionData && (
+        <SliderDescription descriptionData={descriptionData} />
+      )}
     </Section>
   );
 }

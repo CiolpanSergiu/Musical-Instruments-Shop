@@ -21,7 +21,7 @@
     "src": "/images/category/MainCategories/guitar_accesories.jpg",
     "alt": "A guitar cable",
     "title": "Accesories",
-    "pageLink": "/accesories"
+    "pageLink": "/musical-accesories"
   },
   {
     "src": "/images/category/MainCategories/keyboards_synth.jpg",
@@ -39,13 +39,13 @@
     "src": "/images/category/MainCategories/pa_systems.jpg",
     "alt": "A PA System",
     "title": "PA System Equipments",
-    "pageLink": "/pa-system-equipment"
+    "pageLink": "/pa-system-equipments"
   },
   {
     "src": "/images/category/MainCategories/studio_recording_equipment.jpg",
     "alt": "An audio interface",
     "title": "Studio and Recording Equipment",
-    "pageLink": "/studio-and-recording-equipment"
+    "pageLink": "/studio-and-recording-equipments"
   },
   {
     "src": "/images/category/MainCategories/violin.jpg",

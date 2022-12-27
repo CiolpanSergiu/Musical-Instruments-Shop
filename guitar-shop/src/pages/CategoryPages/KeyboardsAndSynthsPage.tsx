@@ -5,7 +5,7 @@ import SubcategoryCardsContainer from "../../components/HomePageComponents/Conta
 import SimpleSlider from "../../components/Sliders/HomePage/SimpleSlider";
 import BrandsSlider from "../../components/Sliders/HomePage/BrandsSlider";
 import Data from "../../data/mainCategory.json";
-import instrumentsData from "../../data/Subcategories/drumsAndPercussion.json";
+import instrumentsData from "../../data/Subcategories/guitarsAndBassesSubcategories.json";
 
 const Container = styled.div`
   display: flex;
@@ -14,18 +14,18 @@ const Container = styled.div`
   justify-content: center;
 `;
 
-export default function DrumsAndPercussionPage() {
+export default function KeyboardsAndSynthsPage() {
   return (
     <>
       <Navbar />
       <Container>
         <SubcategoryCardsContainer
           data={instrumentsData}
-          pageTitle="Drums and Percussion Categories"
+          pageTitle="Keyboards and Synth"
         />
         <SimpleSlider cardsData={Data} header="Recommended to beginners" />
         <SimpleSlider cardsData={Data} header="Popular Items" />
-        <BrandsSlider title="Best Drum and Percussion Brands" />
+        <BrandsSlider title="Best Keyboards and Synth Brands" />
       </Container>
       <Footer marginTop="5rem" />
     </>
