@@ -5,7 +5,6 @@ import { nanoid } from "nanoid";
 const Container = styled.div`
   display: grid;
   grid-template-columns: repeat(2, 1fr);
-  min-height: 80vh;
   margin-bottom: 4rem;
   padding: 1rem;
   gap: 1rem;

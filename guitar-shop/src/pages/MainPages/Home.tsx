@@ -23,7 +23,7 @@ export default function Home() {
       <Navbar />
       <CategoryCardsContainer />
       <DailyRecommendationsSlider />
-      <BrandsSlider />
+      <BrandsSlider title="Top Brands" />
       <SalesSectionContainer />
       <SimpleSlider
         cardsData={data}

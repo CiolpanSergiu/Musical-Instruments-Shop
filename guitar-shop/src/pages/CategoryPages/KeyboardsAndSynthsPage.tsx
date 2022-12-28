@@ -5,7 +5,7 @@ import SubcategoryCardsContainer from "../../components/HomePageComponents/Conta
 import SimpleSlider from "../../components/Sliders/HomePage/SimpleSlider";
 import BrandsSlider from "../../components/Sliders/HomePage/BrandsSlider";
 import Data from "../../data/mainCategory.json";
-import instrumentsData from "../../data/Subcategories/guitarsAndBassesSubcategories.json";
+import instrumentsData from "../../data/Subcategories/keyboardsAndSynth.json";
 
 const Container = styled.div`
   display: flex;
@@ -21,7 +21,7 @@ export default function KeyboardsAndSynthsPage() {
       <Container>
         <SubcategoryCardsContainer
           data={instrumentsData}
-          pageTitle="Keyboards and Synth"
+          pageTitle="Keyboards and Synth Categories"
         />
         <SimpleSlider cardsData={Data} header="Recommended to beginners" />
         <SimpleSlider cardsData={Data} header="Popular Items" />

@@ -1,0 +1,44 @@
+[
+  {
+    "src": "/images/category/Subcategories/Accesories/headphone.jpg",
+    "alt": "A set of headphones",
+    "title": "Headphones",
+    "pageLink": "headphones"
+  },
+  {
+    "src": "/images/category/Subcategories/Accesories/battery.jpg",
+    "alt": "A set of two batteries",
+    "title": "Batteries",
+    "pageLink": "batteries"
+  },
+  {
+    "src": "/images/category/Subcategories/Accesories/extension_cord.jpg",
+    "alt": "An extension cord",
+    "title": "Extendion Cords",
+    "pageLink": "extension-cords"
+  },
+  {
+    "src": "/images/category/Subcategories/Accesories/metronome.jpg",
+    "alt": "A metronome",
+    "title": "Metronomes",
+    "pageLink": "metronomes"
+  },
+  {
+    "src": "/images/category/Subcategories/Accesories/musician_chair.jpg",
+    "alt": "A chair for musicians",
+    "title": "Chairs",
+    "pageLink": "chairs"
+  },
+  {
+    "src": "/images/category/Subcategories/Accesories/power_supply.jpg",
+    "alt": "A power supply",
+    "title": "Power Supplies and Sources",
+    "pageLink": "power-supplies-and-sources"
+  },
+  {
+    "src": "/images/category/Subcategories/Accesories/stand.jpg",
+    "alt": "An instrument stand",
+    "title": "Stands",
+    "pageLink": "stands"
+  }
+]

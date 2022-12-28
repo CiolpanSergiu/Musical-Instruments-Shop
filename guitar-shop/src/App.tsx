@@ -11,7 +11,7 @@ import SinginPage from "./pages/MainPages/SinginPage";
 import AccesoriesPage from "./pages/CategoryPages/AccesoriesPage";
 import DrumsAndPercussionPage from "./pages/CategoryPages/DrumsAndPercussionPage";
 import GuitarsAndBassesPage from "./pages/CategoryPages/GuitarsAndBassesPage";
-import GuitarAndBassesSoftwaresPages from "./pages/CategoryPages/GuitarAndBassesSoftwaresPages";
+import SoftwaresPage from "./pages/CategoryPages/SoftwaresPage";
 import KeyboardsAndSynthsPage from "./pages/CategoryPages/KeyboardsAndSynthsPage";
 import MicrophonesPage from "./pages/CategoryPages/MicrophonesPage";
 import PaSystemEquipmentsPage from "./pages/CategoryPages/PaSystemEquipmentsPage";
@@ -39,10 +39,7 @@ export default function App() {
         path="/guitars-and-basses"
         element={<GuitarsAndBassesPage />}
       ></Route>
-      <Route
-        path="/guitar-and-basses-softwares"
-        element={<GuitarAndBassesSoftwaresPages />}
-      ></Route>
+      <Route path="/softwares" element={<SoftwaresPage />}></Route>
       <Route
         path="/keyboards-and-synth"
         element={<KeyboardsAndSynthsPage />}
