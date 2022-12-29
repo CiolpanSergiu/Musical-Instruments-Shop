@@ -14,7 +14,7 @@ const Container = styled.div`
   justify-content: center;
 `;
 
-export default function Softwares() {
+export default function SoftwaresPage() {
   return (
     <>
       <Navbar />

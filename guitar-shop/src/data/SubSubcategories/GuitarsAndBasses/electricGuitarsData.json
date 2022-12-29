@@ -1,0 +1,80 @@
+[
+  {
+    "src": "/images/category/SubSubcategories/GuitarsAndBasses/stratocaster_guitar.jpg",
+    "alt": "An orange sunburst stratocaster type guitar",
+    "title": "Stratocaster Models",
+    "pageLink": "stratocaster-models"
+  },
+  {
+    "src": "/images/category/SubSubcategories/GuitarsAndBasses/super_stratocaster_guitar.jpg",
+    "alt": "A stratocaster guitar with 2 humbucker pickups",
+    "title": "Super Stratocaster Models",
+    "pageLink": "super-stratcaster-models"
+  },
+  {
+    "src": "/images/category/SubSubcategories/GuitarsAndBasses/telecaster_guitar.jpg",
+    "alt": "An orange and black telecaster guitar ",
+    "title": "Telecaster Models",
+    "pageLink": "telecaster-models"
+  },
+  {
+    "src": "/images/category/SubSubcategories/GuitarsAndBasses/singlecut_guitar.jpg",
+    "alt": "A black singlecut electric guitar",
+    "title": "Singlecut Models",
+    "pageLink": "singlecut-models"
+  },
+  {
+    "src": "/images/category/SubSubcategories/GuitarsAndBasses/doublecut_guitar.jpg",
+    "alt": "A cherry colored doublecut guitar",
+    "title": "Doublecut Models",
+    "pageLink": "doublecut-models"
+  },
+  {
+    "src": "/images/category/SubSubcategories/GuitarsAndBasses/hollowbody_guitar.jpg",
+    "alt": "Orange and black hollowbody guitar",
+    "title": "Hollowbody Models",
+    "pageLink": "hollowbody-guitar-models"
+  },
+  {
+    "src": "/images/category/SubSubcategories/GuitarsAndBasses/jazz_guitar.jpg",
+    "alt": "A orange jazz guitar",
+    "title": "Jazz Guitar Models",
+    "pageLink": "jazz-guitar-models"
+  },
+  {
+    "src": "/images/category/SubSubcategories/GuitarsAndBasses/hard_and_heavy_guitar.jpg",
+    "alt": "An black explorer model guitar",
+    "title": "Hard And Heavy Models",
+    "pageLink": "hard-and-heavy-models"
+  },
+  {
+    "src": "/images/category/SubSubcategories/GuitarsAndBasses/headless_guitar.jpg",
+    "alt": "A headless guitar",
+    "title": "Headless Guitar Models",
+    "pageLink": "headless-guitar-models"
+  },
+  {
+    "src": "/images/category/SubSubcategories/GuitarsAndBasses/left_handed_guitar.jpg",
+    "alt": "A stratocaster guitar for left handed people",
+    "title": "Left Handed Models",
+    "pageLink": "left-handed-guitar-models"
+  },
+  {
+    "src": "/images/category/SubSubcategories/GuitarsAndBasses/7_string_guitar.jpg",
+    "alt": "A black, 7 string super stratocaster guitar",
+    "title": "7 Strings Models",
+    "pageLink": "7-strings-guitar-models"
+  },
+  {
+    "src": "/images/category/SubSubcategories/GuitarsAndBasses/8_string_guitar.jpg",
+    "alt": "A black, 8 string super stratocaster guitar",
+    "title": "8 Strings Models",
+    "pageLink": "8-strings-guitar-models"
+  },
+  {
+    "src": "/images/category/SubSubcategories/GuitarsAndBasses/12_strings_guitar.jpg",
+    "alt": "A black, 12 string electric guitar",
+    "title": "12 Strings Models",
+    "pageLink": "12-strings-models-guitar-models"
+  }
+]

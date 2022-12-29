@@ -35,7 +35,7 @@ export default function SubcategoryCard({ src, alt, title, pageLink }: Props) {
   console.log(src);
 
   return (
-    <StyledLink to="">
+    <StyledLink to={pageLink}>
       <Container>
         <img src={src} alt={alt} />
         <Header>{title}</Header>

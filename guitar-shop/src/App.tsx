@@ -7,16 +7,12 @@ import Account from "./pages/MainPages/Account";
 import ShoppingCartPage from "./pages/MainPages/ShoppingCartPage";
 import LoginPage from "./pages/MainPages/LoginPage";
 import SinginPage from "./pages/MainPages/SinginPage";
-//items category
-import AccesoriesPage from "./pages/CategoryPages/AccesoriesPage";
-import DrumsAndPercussionPage from "./pages/CategoryPages/DrumsAndPercussionPage";
-import GuitarsAndBassesPage from "./pages/CategoryPages/GuitarsAndBassesPage";
-import SoftwaresPage from "./pages/CategoryPages/SoftwaresPage";
-import KeyboardsAndSynthsPage from "./pages/CategoryPages/KeyboardsAndSynthsPage";
-import MicrophonesPage from "./pages/CategoryPages/MicrophonesPage";
-import PaSystemEquipmentsPage from "./pages/CategoryPages/PaSystemEquipmentsPage";
-import StudioAndRecordingsPage from "./pages/CategoryPages/StudioAndRecordingEquipmentPage";
-import TraditionalInstrumentsPage from "./pages/CategoryPages/TraditionalInstrumentsPage";
+//items category (more like subcategories)
+//ex: main: guitars, subcategory: electric guitar
+import CategoryPages from "./pages/CategoryPages/AllPages";
+//items subcategories (well, subcatogories of subcategories)
+//ex: main: guitars, subcategory: electric guitar, subsubcategory: stratocaster model guitar
+import GuitarAndBassesSubcateogories from "./pages/SubcategoryPages/GuitarsAndBasses/AllGuitarAndBassesPages";
 
 export default function App() {
   return (
@@ -30,32 +26,49 @@ export default function App() {
       <Route path="/shopping-cart" element={<ShoppingCartPage />}></Route>
 
       {/* main categories routes */}
-      <Route path="/musical-accesories" element={<AccesoriesPage />}></Route>
+      <Route
+        path="/musical-accesories"
+        element={<CategoryPages.AccesoriesPage />}
+      ></Route>
       <Route
         path="/drums-and-percussion"
-        element={<DrumsAndPercussionPage />}
+        element={<CategoryPages.DrumsAndPercussionPage />}
       ></Route>
       <Route
         path="/guitars-and-basses"
-        element={<GuitarsAndBassesPage />}
+        element={<CategoryPages.GuitarsAndBassesPage />}
       ></Route>
-      <Route path="/softwares" element={<SoftwaresPage />}></Route>
+      <Route
+        path="/softwares"
+        element={<CategoryPages.SoftwaresPage />}
+      ></Route>
       <Route
         path="/keyboards-and-synth"
-        element={<KeyboardsAndSynthsPage />}
+        element={<CategoryPages.KeyboardsAndSynthsPage />}
       ></Route>
-      <Route path="/microphones" element={<MicrophonesPage />}></Route>
+      <Route
+        path="/microphones"
+        element={<CategoryPages.MicrophonesPage />}
+      ></Route>
       <Route
         path="/pa-system-equipments"
-        element={<PaSystemEquipmentsPage />}
+        element={<CategoryPages.PaSystemEquipmentsPage />}
       ></Route>
       <Route
         path="/studio-and-recording-equipments"
-        element={<StudioAndRecordingsPage />}
+        element={<CategoryPages.StudioAndRecordingsPage />}
       ></Route>
       <Route
         path="/traditional-instruments"
-        element={<TraditionalInstrumentsPage />}
+        element={<CategoryPages.TraditionalInstrumentsPage />}
+      ></Route>
+
+      {/* subcategories pages */}
+      <Route
+        path="/electric-guitars"
+        element={
+          <GuitarAndBassesSubcateogories.ElectricGuitarsSubcategoriesPage />
+        }
       ></Route>
     </Routes>
   );
