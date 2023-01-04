@@ -108,7 +108,12 @@ export default function SinginForm() {
             Full Name
             <ObligatoryStar />
           </Label>
-          <StyledField type="text" id="fullName" name="fullName" />
+          <StyledField
+            type="text"
+            id="fullName"
+            name="fullName"
+            placeholder="Tim Johnson"
+          />
           <StyledErrorMessage>
             <ErrorMessage name="fullName" />
           </StyledErrorMessage>
@@ -117,7 +122,12 @@ export default function SinginForm() {
             Email
             <ObligatoryStar />
           </Label>
-          <StyledField type="email" id="email" name="email" />
+          <StyledField
+            type="email"
+            id="email"
+            name="email"
+            placeholder="your.email@gmail.com"
+          />
           <StyledErrorMessage>
             <ErrorMessage name="email" />
           </StyledErrorMessage>
@@ -126,7 +136,12 @@ export default function SinginForm() {
             Password
             <ObligatoryStar />
           </Label>
-          <StyledField type="password" id="password" name="password" />
+          <StyledField
+            type="password"
+            id="password"
+            name="password"
+            placeholder="SupeRstrOngPass4763"
+          />
           <StyledErrorMessage>
             <ErrorMessage name="password" />
           </StyledErrorMessage>
@@ -139,6 +154,7 @@ export default function SinginForm() {
             type="password"
             id="confirmPassword"
             name="confirmPassword"
+            placeholder="SupeRstrOngPass4763"
           />
           <StyledErrorMessage>
             <ErrorMessage name="confirmPassword" />

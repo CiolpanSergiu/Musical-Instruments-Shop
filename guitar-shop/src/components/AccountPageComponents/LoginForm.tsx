@@ -99,7 +99,12 @@ export default function LoginForm() {
             Email
             <ObligatoryStar />
           </Label>
-          <StyledField type="email" id="email" name="email" />
+          <StyledField
+            type="email"
+            id="email"
+            name="email"
+            placeholder="your.email@gmail.com"
+          />
           <StyledErrorMessage>
             <ErrorMessage name="email" />
           </StyledErrorMessage>
@@ -108,7 +113,12 @@ export default function LoginForm() {
             Password
             <ObligatoryStar />
           </Label>
-          <StyledField type="password" id="password" name="password" />
+          <StyledField
+            type="password"
+            id="password"
+            name="password"
+            placeholder="SupeRstrOngPass4763"
+          />
           <StyledErrorMessage>
             <ErrorMessage name="password" />
           </StyledErrorMessage>
