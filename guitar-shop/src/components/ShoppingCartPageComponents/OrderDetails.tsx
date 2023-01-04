@@ -1,5 +1,7 @@
 import styled from "styled-components";
 import OrderButton from "./OrderButton";
+import ShoppingCartContext from "../../context/ShoppingCartContext";
+import { useContext } from "react";
 
 const OrderDetailsContainer = styled.div`
   width: 100%;
@@ -25,11 +27,20 @@ const PriceSpan = styled.span`
 `;
 
 export default function OrderDetails() {
+  const { cartItems }: any = useContext(ShoppingCartContext);
+
+  let totalPrice = cartItems
+    .map((item: any) => item.price * item.quantity)
+    .reduce(
+      (accumulator: number, currentPrice: number) => accumulator + currentPrice,
+      0
+    );
+
   return (
     <>
       <OrderDetailsContainer>
         <Header>Total Price:</Header>
-        <PriceSpan>800$</PriceSpan>
+        <PriceSpan>{totalPrice}$</PriceSpan>
         <OrderButton />
       </OrderDetailsContainer>
     </>

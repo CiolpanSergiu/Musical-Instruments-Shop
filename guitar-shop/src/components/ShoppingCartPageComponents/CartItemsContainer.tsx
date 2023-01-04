@@ -19,27 +19,24 @@ const Container = styled.div`
 `;
 
 export default function CartItemsContainer() {
-  const {
-    cartItemsQuantity,
-    setCartItemsQuantity,
-    cartItems,
-    setCartItems,
-  }: any = useContext(ShoppingCartContext);
+  const { cartItems }: any = useContext(ShoppingCartContext);
 
-  // function addItems() {
-  //   setCartItemsQuantity((prevState: any) => prevState + 1);
-  //   setCartItems((prevState: any) => {
-  //     return {
-  //       ...prevState,
-  //       ["item" + String(cartItemsQuantity)]: { x: "", y: "", z: "" },
-  //     };
-  //   });
-  // }
-
-  // console.log(cartItems);
+  const allCartItems = cartItems.map((item: any) => {
+    return (
+      <CartItem
+        src={item.src}
+        alt=""
+        title={item.title}
+        price={item.price}
+        quantity={item.quantity}
+        key={nanoid()}
+      />
+    );
+  });
 
   return (
     <Container>
+      {allCartItems}
       <ClearButton />
     </Container>
   );

@@ -1,4 +1,6 @@
 import styled from "styled-components";
+import ShoppingCartContext from "../../context/ShoppingCartContext";
+import { useContext } from "react";
 
 const StyledClearButton = styled.button`
   padding: 0.5rem 2rem;
@@ -17,5 +19,11 @@ const StyledClearButton = styled.button`
 `;
 
 export default function ClearButton() {
-  return <StyledClearButton>Clear All</StyledClearButton>;
+  const { clearCartItems }: any = useContext(ShoppingCartContext);
+
+  return (
+    <StyledClearButton onClick={() => clearCartItems()}>
+      Clear All
+    </StyledClearButton>
+  );
 }

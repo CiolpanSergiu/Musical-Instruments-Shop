@@ -14,6 +14,9 @@ import CategoryPages from "./pages/CategoryPages/AllPages";
 //ex: main: guitars, subcategory: electric guitar, subsubcategory: stratocaster model guitar
 import GuitarAndBassesSubcateogories from "./pages/SubcategoryPages/GuitarsAndBasses/AllGuitarAndBassesPages";
 
+//test
+import StratocasterGuitars from "./pages/ShoppingPages/GuitarsAndBasses/ElectricGuitars/StratocasterGuitars";
+
 export default function App() {
   return (
     <Routes>
@@ -69,6 +72,11 @@ export default function App() {
         element={
           <GuitarAndBassesSubcateogories.ElectricGuitarsSubcategoriesPage />
         }
+      ></Route>
+
+      <Route
+        path="/stratocaster-models"
+        element={<StratocasterGuitars />}
       ></Route>
     </Routes>
   );

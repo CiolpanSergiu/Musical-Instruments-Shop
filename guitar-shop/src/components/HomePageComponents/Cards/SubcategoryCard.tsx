@@ -32,8 +32,6 @@ const Header = styled.h3`
 `;
 
 export default function SubcategoryCard({ src, alt, title, pageLink }: Props) {
-  console.log(src);
-
   return (
     <StyledLink to={pageLink}>
       <Container>

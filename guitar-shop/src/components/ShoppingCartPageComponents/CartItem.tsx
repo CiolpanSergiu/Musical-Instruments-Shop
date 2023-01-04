@@ -1,5 +1,7 @@
 import styled from "styled-components";
 import { BsFillTrashFill } from "react-icons/bs";
+import ShoppingCartContext from "../../context/ShoppingCartContext";
+import { useContext, useState } from "react";
 
 const CartItemContainer = styled.div`
   display: grid;
@@ -30,6 +32,26 @@ const Price = styled.span`
   font-weight: 600;
 `;
 
+const QuantityGroup = styled.div`
+  display: flex;
+`;
+
+const QuantityBox = styled.span`
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 50px;
+  background-color: rgb(240, 240, 240);
+`;
+
+const ChangeQuantityButton = styled.button`
+  font-size: 1.25rem;
+  background-color: lightgray;
+  padding: 0.125rem 0.5rem;
+  cursor: pointer;
+  border: none;
+`;
+
 const ItemDescription = styled.div`
   display: flex;
   flex-direction: column;
@@ -49,15 +71,6 @@ const SecondRow = styled.div`
   align-items: center;
 `;
 
-const Select = styled.select`
-  border-radius: 25px;
-  width: 40px;
-
-  @media only screen and (min-width: 768px) {
-    font-size: 1.1rem;
-  }
-`;
-
 const Img = styled.img`
   width: 100%;
 `;
@@ -71,35 +84,84 @@ const ItemName = styled.h3`
   }
 `;
 
-export default function CartItem() {
-  function deleteItem(event: any) {
-    event.target.closest(".cart-item").remove();
+type Props = {
+  src: string;
+  alt: string;
+  title: string;
+  price: number;
+  quantity: number;
+};
+
+export default function CartItem({
+  src,
+  alt = "",
+  title,
+  price,
+  quantity,
+}: Props) {
+  const {
+    addToCart,
+    removeFromCart,
+    decreaseItemQuantity,
+    setCartItemsQuantity,
+  }: any = useContext(ShoppingCartContext);
+
+  function deleteItem() {
+    removeFromCart({
+      title: title,
+      src: src,
+      alt: alt,
+      price: price,
+      quantity: quantity,
+    });
+  }
+
+  function increaseQuantity() {
+    addToCart({
+      title: title,
+      src: src,
+      alt: alt,
+      price: price,
+      quantity: quantity,
+    });
+    setCartItemsQuantity((prevState: number) => prevState + 1);
+  }
+
+  function decreaseQuantity() {
+    decreaseItemQuantity({
+      title: title,
+      src: src,
+      alt: alt,
+      price: price,
+      quantity: quantity <= 0 ? 0 : quantity - 1,
+    });
+    setCartItemsQuantity((prevState: number) => prevState - 1);
   }
 
   return (
     <CartItemContainer className="cart-item">
-      <Img src="images/category/guitars_basses.jpg" alt="" />
+      <Img src={src} alt={alt} />
       <ItemDescription>
-        <ItemName>Electric guitar</ItemName>
+        <ItemName>{title}</ItemName>
         <SecondRow>
-          <Price>200$</Price>
+          <Price>{price}$</Price>
           <TrashBin>
-            <BsFillTrashFill
-              onClick={(event) => {
-                deleteItem(event);
-              }}
-            />
+            <BsFillTrashFill onClick={deleteItem} />
           </TrashBin>
         </SecondRow>
       </ItemDescription>
-      <Select title="Item Quantity" name="quantity">
-        <option value="1">1</option>
-        <option value="2">2</option>
-        <option value="3">3</option>
-        <option value="4">4</option>
-        <option value="5">5</option>
-        <option value="5+">5+</option>
-      </Select>
+      <QuantityGroup>
+        <ChangeQuantityButton onClick={decreaseQuantity}>
+          -
+        </ChangeQuantityButton>
+        <QuantityBox>{quantity}</QuantityBox>
+        <ChangeQuantityButton
+          onClick={increaseQuantity}
+          style={{ pointerEvents: quantity >= 100 ? "none" : "auto" }}
+        >
+          +
+        </ChangeQuantityButton>
+      </QuantityGroup>
     </CartItemContainer>
   );
 }
