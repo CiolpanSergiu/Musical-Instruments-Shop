@@ -6,7 +6,6 @@ import { useContext, useState } from "react";
 const CartItemContainer = styled.div`
   display: grid;
   grid-template-columns: 1fr 5fr 0.5fr;
-  width: 90%;
   align-items: center;
   margin: 0.5rem;
   border: solid 1px gray;
@@ -40,7 +39,7 @@ const QuantityBox = styled.span`
   display: flex;
   align-items: center;
   justify-content: center;
-  width: 50px;
+  width: 40px;
   background-color: rgb(240, 240, 240);
 `;
 
@@ -73,10 +72,12 @@ const SecondRow = styled.div`
 
 const Img = styled.img`
   width: 100%;
+  min-width: 75px;
 `;
 
 const ItemName = styled.h3`
   font-size: 0.8rem;
+  margin-right: 1rem;
 
   @media only screen and (min-width: 768px) {
     font-size: 1.25rem;

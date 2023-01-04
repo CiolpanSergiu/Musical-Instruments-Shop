@@ -4,6 +4,7 @@ import styled from "styled-components";
 const StyledStarsContainer = styled.div`
   display: flex;
   color: lightskyblue;
+  padding: 0.5rem 0;
 `;
 
 export default function StarsContainer() {

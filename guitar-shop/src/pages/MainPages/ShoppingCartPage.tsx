@@ -75,6 +75,10 @@ const EmptyCartContainer = styled.div`
 `;
 
 const PageContentContainer = styled.div`
+  @media only screen and (min-width: 640px) {
+    margin: 1rem;
+  }
+
   @media only screen and (min-width: 992px) {
     padding: 0 5rem;
   }

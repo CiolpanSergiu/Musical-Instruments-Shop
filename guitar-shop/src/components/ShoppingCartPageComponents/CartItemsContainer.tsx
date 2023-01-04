@@ -10,12 +10,15 @@ const Container = styled.div`
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  width: 100%;
   background-color: white;
-  padding: 2rem;
+  padding: 2rem 0.5rem;
   border-radius: 9px;
   background-color: rgb(240, 240, 240);
   margin-bottom: 1rem;
+
+  @media only screen and (min-width: 768px) {
+    padding: 2rem;
+  }
 `;
 
 export default function CartItemsContainer() {
