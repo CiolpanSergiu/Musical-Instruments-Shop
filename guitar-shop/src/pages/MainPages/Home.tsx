@@ -6,7 +6,7 @@ import SalesSectionContainer from "../../components/HomePageComponents/Container
 import SimpleSlider from "../../components/Sliders/HomePage/SimpleSlider";
 import Footer from "../../components/Footer/Footer";
 import styled from "styled-components";
-import data from "../../data/mainCategory.json";
+import data from "../../data/mainCategory.js";
 import description from "../../data/sectionDescription.json";
 
 const HomePage = styled.div`

@@ -4,8 +4,7 @@ import Footer from "../../components/Footer/Footer";
 import SubcategoryCardsContainer from "../../components/HomePageComponents/Containers/SubcategoryCardsContainer";
 import SimpleSlider from "../../components/Sliders/HomePage/SimpleSlider";
 import BrandsSlider from "../../components/Sliders/HomePage/BrandsSlider";
-import Data from "../../data/mainCategory.json";
-import instrumentsData from "../../data/Subcategories/paSystemEquipments.json";
+import Data from "../../data/mainCategory.js";
 
 const Container = styled.div`
   display: flex;
@@ -14,18 +13,33 @@ const Container = styled.div`
   justify-content: center;
 `;
 
-export default function PaSystemEquipmentsPage() {
+type Props = {
+  instrumentData: {
+    title: string;
+    src: string;
+    alt: string;
+    pageLink: string;
+  }[];
+  pageTitle: string;
+  brandsSliderTitle: string;
+};
+
+export default function InstrumentCategoryPage({
+  instrumentData,
+  pageTitle,
+  brandsSliderTitle,
+}: Props) {
   return (
     <>
       <Navbar />
       <Container>
         <SubcategoryCardsContainer
-          data={instrumentsData}
-          pageTitle="Pa System Equipments"
+          data={instrumentData}
+          pageTitle={pageTitle}
         />
         <SimpleSlider cardsData={Data} header="Recommended to beginners" />
         <SimpleSlider cardsData={Data} header="Popular Items" />
-        <BrandsSlider title="Best Pa System Equipments Brands" />
+        <BrandsSlider title={brandsSliderTitle} />
       </Container>
       <Footer marginTop="5rem" />
     </>

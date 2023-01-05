@@ -4,8 +4,7 @@ import Footer from "../../components/Footer/Footer";
 import SubcategoryCardsContainer from "../../components/HomePageComponents/Containers/SubcategoryCardsContainer";
 import SimpleSlider from "../../components/Sliders/HomePage/SimpleSlider";
 import BrandsSlider from "../../components/Sliders/HomePage/BrandsSlider";
-import Data from "../../data/mainCategory.json";
-import instrumentsData from "../../data/Subcategories/recordingAndStudioEquipments.json";
+import Data from "../../data/SubSubcategories/GuitarsAndBasses/electricGuitarsData.json";
 
 const Container = styled.div`
   display: flex;
@@ -14,18 +13,33 @@ const Container = styled.div`
   justify-content: center;
 `;
 
-export default function StudioAndRecordingsPage() {
+type Props = {
+  subcategoriesData: {
+    title: string;
+    src: string;
+    alt: string;
+    pageLink: string;
+  }[];
+  pageTitle: string;
+  brandsSliderTitle: string;
+};
+
+export default function InstrumentSubcategoryPage({
+  pageTitle,
+  brandsSliderTitle,
+  subcategoriesData,
+}: Props) {
   return (
     <>
       <Navbar />
       <Container>
         <SubcategoryCardsContainer
-          data={instrumentsData}
-          pageTitle="Studio and Recording Equipments Categories"
+          data={subcategoriesData}
+          pageTitle={`${pageTitle} Categories`}
         />
         <SimpleSlider cardsData={Data} header="Recommended to beginners" />
         <SimpleSlider cardsData={Data} header="Popular Items" />
-        <BrandsSlider title="Best Studio and Recording Equipments Brands" />
+        <BrandsSlider title={`Best ${brandsSliderTitle} Brands`} />
       </Container>
       <Footer marginTop="5rem" />
     </>

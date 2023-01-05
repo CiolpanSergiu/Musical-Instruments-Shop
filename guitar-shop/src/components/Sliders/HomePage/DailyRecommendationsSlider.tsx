@@ -1,4 +1,4 @@
-import data from "../../../data/mainCategory.json";
+import data from "../../../data/mainCategory.js";
 import DetailedCard from "./DetailedCard";
 import "../../../styles/SliderStyles/SliderStyle.scss";
 import Slider from "react-slick";
