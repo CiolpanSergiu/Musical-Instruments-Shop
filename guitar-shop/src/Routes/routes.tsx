@@ -4,7 +4,7 @@ import instrumentsCategoryData from "../data/mainCategory";
 import { nanoid } from "nanoid";
 import { Route } from "react-router-dom";
 
-const mainCategoryPages = instrumentsCategoryData.map((category: any) => {
+const mainCategoryPagesRoutes = instrumentsCategoryData.map((category: any) => {
   return (
     <Route
       key={nanoid()}
@@ -42,10 +42,10 @@ function createSubcategoryPages(instrumentSubcategories: {}[]) {
   });
 }
 
-const mainCategorySubcategoriesPages = subcategories.map(
+const mainCategorySubcategoriesPagesRoutes = subcategories.map(
   (mainCategorySubcategory) => {
     return createSubcategoryPages(mainCategorySubcategory.subcategories);
   }
 );
 
-export { mainCategoryPages, mainCategorySubcategoriesPages };
+export { mainCategoryPagesRoutes, mainCategorySubcategoriesPagesRoutes };
