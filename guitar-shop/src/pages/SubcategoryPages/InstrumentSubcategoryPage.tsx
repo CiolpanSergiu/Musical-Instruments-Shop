@@ -4,7 +4,7 @@ import Footer from "../../components/Footer/Footer";
 import SubcategoryCardsContainer from "../../components/HomePageComponents/Containers/SubcategoryCardsContainer";
 import SimpleSlider from "../../components/Sliders/HomePage/SimpleSlider";
 import BrandsSlider from "../../components/Sliders/HomePage/BrandsSlider";
-import Data from "../../data/SubSubcategories/GuitarsAndBasses/electricGuitarsData.json";
+import Data from "../../data/LevelThreeCategories/GuitarsAndBasses/electricGuitarsData.json";
 
 const Container = styled.div`
   display: flex;

@@ -1,6 +1,5 @@
 import { Routes, Route } from "react-router-dom";
 import "./styles/AppStyle.scss";
-import { nanoid } from "nanoid";
 //main pages
 import Home from "./pages/MainPages/Home";
 import Contact from "./pages/MainPages/Contact";

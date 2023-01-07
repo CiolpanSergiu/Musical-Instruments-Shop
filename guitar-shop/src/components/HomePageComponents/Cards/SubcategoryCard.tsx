@@ -18,11 +18,12 @@ const Container = styled.div`
 
 const StyledLink = styled(Link)`
   color: black;
-  text-decoration: none;
+  text-decoration: underline transparent 2px;
   transition: 0.3s all ease-in-out;
 
   &:hover {
     color: lightskyblue;
+    text-decoration: underline lightskyblue 2px;
   }
 `;
 
@@ -31,11 +32,15 @@ const Header = styled.h3`
   padding: 0 2rem;
 `;
 
+const Img = styled.img`
+  transform: scale(1.2);
+`;
+
 export default function SubcategoryCard({ src, alt, title, pageLink }: Props) {
   return (
     <StyledLink to={pageLink}>
       <Container>
-        <img src={src} alt={alt} />
+        <Img src={src} alt={alt} />
         <Header>{title}</Header>
       </Container>
     </StyledLink>

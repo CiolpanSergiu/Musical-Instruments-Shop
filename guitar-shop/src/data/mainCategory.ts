@@ -1,12 +1,12 @@
-import guitarsAndBassesData from "./Subcategories/guitarsAndBassesSubcategories";
-import drumsAndPercussionData from "./Subcategories/drumsAndPercussion";
-import SoftwaresData from "./Subcategories/softwares";
-import MusicalAccesories from "./Subcategories/musicalAccesories";
-import KeyboardAndSynthData from "./Subcategories/keyboardsAndSynth";
-import MicrophonesData from "./Subcategories/microphones";
-import PaSystemsData from "./Subcategories/paSystemEquipments";
-import RecordingAndStudioData from "./Subcategories/recordingAndStudioEquipments";
-import TraditionalInstrumentsData from "./Subcategories/traditionalInstruments";
+import guitarsAndBassesData from "./LevelTwoCategories/guitarsAndBassesSubcategories";
+import drumsAndPercussionData from "./LevelTwoCategories/drumsAndPercussion";
+import softwaresData from "./LevelTwoCategories/softwares";
+import musicalAccesories from "./LevelTwoCategories/musicalAccesories";
+import keyboardAndSynthData from "./LevelTwoCategories/keyboardsAndSynth";
+import microphonesData from "./LevelTwoCategories/microphones";
+import paSystemsData from "./LevelTwoCategories/paSystemEquipments";
+import recordingAndStudioData from "./LevelTwoCategories/recordingAndStudioEquipments";
+import traditionalInstrumentsData from "./LevelTwoCategories/traditionalInstruments";
 
 const categoryData = [
   {
@@ -28,49 +28,49 @@ const categoryData = [
     alt: "A guitar software",
     title: "Softwares",
     pageLink: "/softwares",
-    subcategories: SoftwaresData,
+    subcategories: softwaresData,
   },
   {
     src: "/images/category/MainCategories/accesory.jpg",
     alt: "A guitar cable",
     title: "Accesories",
     pageLink: "/musical-accesories",
-    subcategories: MusicalAccesories,
+    subcategories: musicalAccesories,
   },
   {
     src: "/images/category/MainCategories/keyboards_synth.jpg",
     alt: "A musical Keyboard",
     title: "Keyboards and Synth",
     pageLink: "/keyboards-and-synth",
-    subcategories: KeyboardAndSynthData,
+    subcategories: keyboardAndSynthData,
   },
   {
     src: "/images/category/MainCategories/microphones.jpg",
     alt: "A microphone",
     title: "Microphones",
     pageLink: "/microphones",
-    subcategories: MicrophonesData,
+    subcategories: microphonesData,
   },
   {
     src: "/images/category/MainCategories/pa_systems.jpg",
     alt: "A PA System",
     title: "PA System Equipments",
     pageLink: "/pa-system-equipments",
-    subcategories: PaSystemsData,
+    subcategories: paSystemsData,
   },
   {
     src: "/images/category/MainCategories/studio_recording_equipment.jpg",
     alt: "An audio interface",
     title: "Studio and Recording Equipment",
     pageLink: "/studio-and-recording-equipments",
-    subcategories: RecordingAndStudioData,
+    subcategories: recordingAndStudioData,
   },
   {
     src: "/images/category/MainCategories/violin.jpg",
     alt: "A violin",
     title: "Traditional Instruments",
     pageLink: "/traditional-instruments",
-    subcategories: TraditionalInstrumentsData,
+    subcategories: traditionalInstrumentsData,
   },
 ];
 

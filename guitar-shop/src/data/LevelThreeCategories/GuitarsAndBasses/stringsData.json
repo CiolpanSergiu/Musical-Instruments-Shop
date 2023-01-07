@@ -1,0 +1,32 @@
+[
+  {
+    "title": "Electric Guitar Strings",
+    "src": "/images/category/SubSubcategories/GuitarsAndBasses/Strings/electric_guitar_strings.jpg",
+    "alt": "",
+    "pageLink": "/electric-guitar-strings"
+  },
+  {
+    "title": "Acoustic Guitar Strings",
+    "src": "/images/category/SubSubcategories/GuitarsAndBasses/Strings/acoustic_guitar_strings.jpg",
+    "alt": "",
+    "pageLink": "/acoustic-guitar-strings"
+  },
+  {
+    "title": "Classic Guitar Strings",
+    "src": "/images/category/SubSubcategories/GuitarsAndBasses/Strings/classic_guitar_strings.jpg",
+    "alt": "",
+    "pageLink": "/classic-guitar-strings"
+  },
+  {
+    "title": "Electric Bass Strings",
+    "src": "/images/category/SubSubcategories/GuitarsAndBasses/Strings/electric_bass_strings.jpg",
+    "alt": "",
+    "pageLink": "/electric-bass-strings"
+  },
+  {
+    "title": "Acoustic Bass Strings",
+    "src": "/images/category/SubSubcategories/GuitarsAndBasses/Strings/acoustic_bass_strings.jpg",
+    "alt": "",
+    "pageLink": "/acoustic-bass-strings"
+  }
+]
