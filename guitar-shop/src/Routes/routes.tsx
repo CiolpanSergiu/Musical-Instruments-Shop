@@ -1,6 +1,7 @@
 import InstrumentCategoryPage from "../pages/CategoryPages/InstrumentCategoryPage";
 import InstrumentSubcategoryPage from "../pages/SubcategoryPages/InstrumentSubcategoryPage";
 import instrumentsCategoryData from "../data/mainCategory";
+import tubesData from "../data/LevelFourCategories/GuitarAndBasses/tubes";
 import { nanoid } from "nanoid";
 import { Route } from "react-router-dom";
 
@@ -40,16 +41,17 @@ function createCategoryPages(
   data: instrumentPageData,
   haveRecommendedItemsSlider: boolean,
   havePopularItemsSlider: boolean,
-  haveBrandsSlider: boolean
+  haveBrandsSlider: boolean,
+  pageLink?: string
 ) {
   return data.map((category: any) => {
     return (
       <Route
         key={nanoid()}
-        path={category.pageLink}
+        path={pageLink || category.pageLink}
         element={
           <InstrumentSubcategoryPage
-            data={category.subcategories}
+            data={category.subcategories || data}
             pageTitle={category.title}
             brandsSliderTitle={`Popular ${category.title} brands`}
             haveRecommendedItemsSlider={haveRecommendedItemsSlider}
@@ -102,10 +104,12 @@ const subcategoriesPages = subcategories.map(
   }
 );
 
-const tubesData: instrumentPageData = Array(
-  subcategories[0].subcategories[7].subcategories[3]
+const tubesPages = createCategoryPages(
+  tubesData.data,
+  false,
+  true,
+  false,
+  tubesData.pageLink
 );
-
-const tubesPages = createCategoryPages(tubesData, false, true, false);
 
 export { mainCategoryPagesRoutes, subcategoriesPages, tubesPages };

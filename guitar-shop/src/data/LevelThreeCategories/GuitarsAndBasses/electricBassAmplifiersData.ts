@@ -1,4 +1,4 @@
-import tubesData from "../../LevelFourCategories/GuitarAndBasses/tubes.json";
+import tubesData from "../../LevelFourCategories/GuitarAndBasses/tubes";
 
 const electricBassAmplifiersData = [
   {
