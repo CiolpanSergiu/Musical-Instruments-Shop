@@ -14,7 +14,7 @@ const Container = styled.div`
 `;
 
 type Props = {
-  subcategoriesData: {
+  data: {
     title: string;
     src: string;
     alt: string;
@@ -27,14 +27,14 @@ type Props = {
 export default function InstrumentSubcategoryPage({
   pageTitle,
   brandsSliderTitle,
-  subcategoriesData,
+  data,
 }: Props) {
   return (
     <>
       <Navbar />
       <Container>
         <SubcategoryCardsContainer
-          data={subcategoriesData}
+          data={data}
           pageTitle={`${pageTitle} Categories`}
         />
         <SimpleSlider cardsData={Data} header="Recommended to beginners" />

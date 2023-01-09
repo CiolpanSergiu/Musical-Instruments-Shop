@@ -4,37 +4,17 @@ import instrumentsCategoryData from "../data/mainCategory";
 import { nanoid } from "nanoid";
 import { Route } from "react-router-dom";
 
-const mainCategoryPagesRoutes = instrumentsCategoryData.map((category: any) => {
-  return (
-    <Route
-      key={nanoid()}
-      path={category.pageLink}
-      element={
-        <InstrumentCategoryPage
-          instrumentData={category.subcategories}
-          pageTitle={category.title}
-          brandsSliderTitle={`Popular ${category.title} brands`}
-        />
-      }
-    ></Route>
-  );
-});
-
-const subcategories = instrumentsCategoryData.map((subcategory: any) => {
-  return subcategory;
-});
-
-function createSubcategoryPages(instrumentSubcategories: {}[]) {
-  return instrumentSubcategories.map((subcategory: any) => {
+function createMainCategoryPages(data: instrumentPageData) {
+  return data.map((category: any) => {
     return (
       <Route
         key={nanoid()}
-        path={subcategory.pageLink}
+        path={category.pageLink}
         element={
-          <InstrumentSubcategoryPage
-            subcategoriesData={subcategory.subcategories}
-            pageTitle={subcategory.title}
-            brandsSliderTitle={`Popular ${subcategory.title} brands`}
+          <InstrumentCategoryPage
+            data={category.subcategories}
+            pageTitle={category.title}
+            brandsSliderTitle={`Popular ${category.title} brands`}
           />
         }
       ></Route>
@@ -42,10 +22,77 @@ function createSubcategoryPages(instrumentSubcategories: {}[]) {
   });
 }
 
-const mainCategorySubcategoriesPagesRoutes = subcategories.map(
-  (mainCategorySubcategory) => {
-    return createSubcategoryPages(mainCategorySubcategory.subcategories);
+type instrumentPageData = {
+  title: string;
+  src: string;
+  alt: string;
+  pageLink: string;
+  subcategories?: {
+    title: string;
+    src: string;
+    alt: string;
+    pageLink: string;
+  }[];
+}[];
+
+//same function as above but it return a different component
+function createCategoryPages(data: instrumentPageData) {
+  return data.map((category: any) => {
+    return (
+      <Route
+        key={nanoid()}
+        path={category.pageLink}
+        element={
+          <InstrumentSubcategoryPage
+            data={category.subcategories}
+            pageTitle={category.title}
+            brandsSliderTitle={`Popular ${category.title} brands`}
+          />
+        }
+      ></Route>
+    );
+  });
+}
+
+const mainCategoryPagesRoutes = createMainCategoryPages(
+  instrumentsCategoryData
+);
+
+type Subcategory = {
+  src: string;
+  alt: string;
+  title: string;
+  pageLink: string;
+  subcategories: {
+    src: string;
+    alt: string;
+    title: string;
+    pageLink: string;
+    subcategories: {
+      src: string;
+      alt: string;
+      title: string;
+      pageLink: string;
+    }[];
+  }[];
+};
+
+const subcategories = instrumentsCategoryData.map(
+  (subcategory: Subcategory) => {
+    return subcategory;
   }
 );
 
-export { mainCategoryPagesRoutes, mainCategorySubcategoriesPagesRoutes };
+const subcategoriesPages = subcategories.map(
+  (mainCategorySubcategory: Subcategory) => {
+    return createCategoryPages(mainCategorySubcategory.subcategories);
+  }
+);
+
+const tubesData: instrumentPageData = Array(
+  subcategories[0].subcategories[7].subcategories[3]
+);
+
+const tubesPages = createCategoryPages(tubesData);
+
+export { mainCategoryPagesRoutes, subcategoriesPages, tubesPages };

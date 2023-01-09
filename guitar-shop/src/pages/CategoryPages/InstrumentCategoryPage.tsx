@@ -14,7 +14,7 @@ const Container = styled.div`
 `;
 
 type Props = {
-  instrumentData: {
+  data: {
     title: string;
     src: string;
     alt: string;
@@ -25,7 +25,7 @@ type Props = {
 };
 
 export default function InstrumentCategoryPage({
-  instrumentData,
+  data,
   pageTitle,
   brandsSliderTitle,
 }: Props) {
@@ -33,10 +33,7 @@ export default function InstrumentCategoryPage({
     <>
       <Navbar />
       <Container>
-        <SubcategoryCardsContainer
-          data={instrumentData}
-          pageTitle={pageTitle}
-        />
+        <SubcategoryCardsContainer data={data} pageTitle={pageTitle} />
         <SimpleSlider cardsData={Data} header="Recommended to beginners" />
         <SimpleSlider cardsData={Data} header="Popular Items" />
         <BrandsSlider title={brandsSliderTitle} />

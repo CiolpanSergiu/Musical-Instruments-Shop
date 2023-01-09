@@ -24,7 +24,8 @@ export default function App() {
       <Route path="/shopping-cart" element={<ShoppingCartPage />}></Route>
 
       {categoriesData.mainCategoryPagesRoutes}
-      {categoriesData.mainCategorySubcategoriesPagesRoutes}
+      {categoriesData.subcategoriesPages}
+      {categoriesData.tubesPages}
 
       <Route
         path="/stratocaster-models"

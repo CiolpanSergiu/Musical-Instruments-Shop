@@ -4,7 +4,7 @@ import electricBassesSubcategories from "../LevelThreeCategories/GuitarsAndBasse
 import acousticBassesSubcategories from "../LevelThreeCategories/GuitarsAndBasses/acousticBassesData.json";
 import ukuleleSubcategories from "../LevelThreeCategories/GuitarsAndBasses/ukuleleData.json";
 import electricGuitarAmplifiersSubcategories from "../LevelThreeCategories/GuitarsAndBasses/electricGuitarAmplifiersData.json";
-import electricBassesAmplifiersSubcategories from "../LevelThreeCategories/GuitarsAndBasses/electricBassAmplifiersData.json";
+import electricBassAmplifiersSubcategories from "../LevelThreeCategories/GuitarsAndBasses/electricBassAmplifiersData";
 import acousticGuitarAmplifiersSubcategories from "../LevelThreeCategories/GuitarsAndBasses/acousticGuitarAmplifiersData.json";
 import stringsSubcategories from "../LevelThreeCategories/GuitarsAndBasses/stringsData.json";
 import effectPedalsSubcategories from "../LevelThreeCategories/GuitarsAndBasses/effectPedalsData.json";
@@ -67,7 +67,7 @@ const guitarsAndBassesData = [
     alt: "Donner electric bass amplifier",
     title: "Electric bass amplifiers",
     pageLink: "/electric-bass-amplifiers",
-    subcategories: electricBassesAmplifiersSubcategories,
+    subcategories: electricBassAmplifiersSubcategories,
   },
   {
     src: "/images/category/Subcategories/GuitarsAndBasses/strings.jpg",
