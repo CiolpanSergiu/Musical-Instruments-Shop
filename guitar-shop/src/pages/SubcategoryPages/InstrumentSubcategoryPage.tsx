@@ -22,12 +22,18 @@ type Props = {
   }[];
   pageTitle: string;
   brandsSliderTitle: string;
+  haveRecommendedItemsSlider: boolean;
+  havePopularItemsSlider: boolean;
+  haveBrandsSlider: boolean;
 };
 
 export default function InstrumentSubcategoryPage({
   pageTitle,
   brandsSliderTitle,
   data,
+  haveRecommendedItemsSlider,
+  havePopularItemsSlider,
+  haveBrandsSlider,
 }: Props) {
   return (
     <>
@@ -37,9 +43,15 @@ export default function InstrumentSubcategoryPage({
           data={data}
           pageTitle={`${pageTitle} Categories`}
         />
-        <SimpleSlider cardsData={Data} header="Recommended to beginners" />
-        <SimpleSlider cardsData={Data} header="Popular Items" />
-        <BrandsSlider title={`Best ${brandsSliderTitle} Brands`} />
+        {haveRecommendedItemsSlider && (
+          <SimpleSlider cardsData={Data} header="Recommended to beginners" />
+        )}
+        {havePopularItemsSlider && (
+          <SimpleSlider cardsData={Data} header="Popular Items" />
+        )}
+        {haveBrandsSlider && (
+          <BrandsSlider title={`Best ${brandsSliderTitle} Brands`} />
+        )}
       </Container>
       <Footer marginTop="5rem" />
     </>

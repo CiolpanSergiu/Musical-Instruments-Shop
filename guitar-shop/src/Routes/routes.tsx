@@ -36,7 +36,12 @@ type instrumentPageData = {
 }[];
 
 //same function as above but it return a different component
-function createCategoryPages(data: instrumentPageData) {
+function createCategoryPages(
+  data: instrumentPageData,
+  haveRecommendedItemsSlider: boolean,
+  havePopularItemsSlider: boolean,
+  haveBrandsSlider: boolean
+) {
   return data.map((category: any) => {
     return (
       <Route
@@ -47,6 +52,9 @@ function createCategoryPages(data: instrumentPageData) {
             data={category.subcategories}
             pageTitle={category.title}
             brandsSliderTitle={`Popular ${category.title} brands`}
+            haveRecommendedItemsSlider={haveRecommendedItemsSlider}
+            havePopularItemsSlider={havePopularItemsSlider}
+            haveBrandsSlider={haveBrandsSlider}
           />
         }
       ></Route>
@@ -85,7 +93,12 @@ const subcategories = instrumentsCategoryData.map(
 
 const subcategoriesPages = subcategories.map(
   (mainCategorySubcategory: Subcategory) => {
-    return createCategoryPages(mainCategorySubcategory.subcategories);
+    return createCategoryPages(
+      mainCategorySubcategory.subcategories,
+      true,
+      true,
+      true
+    );
   }
 );
 
@@ -93,6 +106,6 @@ const tubesData: instrumentPageData = Array(
   subcategories[0].subcategories[7].subcategories[3]
 );
 
-const tubesPages = createCategoryPages(tubesData);
+const tubesPages = createCategoryPages(tubesData, false, true, false);
 
 export { mainCategoryPagesRoutes, subcategoriesPages, tubesPages };
