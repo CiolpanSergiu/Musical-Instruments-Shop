@@ -3,14 +3,14 @@ import acousticGuitarsSubcategorie from "../LevelThreeCategories/GuitarsAndBasse
 import electricBassesSubcategories from "../LevelThreeCategories/GuitarsAndBasses/electricBassesData.json";
 import acousticBassesSubcategories from "../LevelThreeCategories/GuitarsAndBasses/acousticBassesData.json";
 import ukuleleSubcategories from "../LevelThreeCategories/GuitarsAndBasses/ukuleleData.json";
-import electricGuitarAmplifiersSubcategories from "../LevelThreeCategories/GuitarsAndBasses/electricGuitarAmplifiersData.json";
+import electricGuitarAmplifiersSubcategories from "../LevelThreeCategories/GuitarsAndBasses/electricGuitarAmplifiersData";
 import electricBassAmplifiersSubcategories from "../LevelThreeCategories/GuitarsAndBasses/electricBassAmplifiersData";
 import acousticGuitarAmplifiersSubcategories from "../LevelThreeCategories/GuitarsAndBasses/acousticGuitarAmplifiersData.json";
-import stringsSubcategories from "../LevelThreeCategories/GuitarsAndBasses/stringsData.json";
+import stringsSubcategories from "../LevelThreeCategories/GuitarsAndBasses/stringsData";
 import effectPedalsSubcategories from "../LevelThreeCategories/GuitarsAndBasses/effectPedalsData.json";
 import pickupsSubcategories from "../LevelThreeCategories/GuitarsAndBasses/pickupsData.json";
-import changePartsSubcategories from "../LevelThreeCategories/GuitarsAndBasses/changePartsData.json";
-import accesoriesSubcategories from "../LevelThreeCategories/GuitarsAndBasses/accesoriesData.json";
+import changePartsSubcategories from "../LevelThreeCategories/GuitarsAndBasses/changePartsData";
+import accesoriesSubcategories from "../LevelThreeCategories/GuitarsAndBasses/accesoriesData";
 
 const guitarsAndBassesData = [
   {

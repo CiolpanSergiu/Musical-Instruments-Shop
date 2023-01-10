@@ -1,17 +1,21 @@
-import tubesData from "../../LevelFourCategories/GuitarAndBasses/tubes";
+import tubesData from "../../LevelFourCategories/GuitarAndBasses/Amplifiers/tubes";
+import bassAmplifierHeadsSubcategories from "../../LevelFourCategories/GuitarAndBasses/Amplifiers/bassAmpliferHeads";
+import bassAmplifiersSubcategories from "../../LevelFourCategories/GuitarAndBasses/Amplifiers/bassAmplifiers";
 
-const electricBassAmplifiersData = [
+const electricBassAmplifiersSubcategories = [
   {
     title: "Bass Combo Amplifiers",
     src: "/images/category/SubSubcategories/GuitarsAndBasses/ElectricBassAmplifiers/bass_combo_amplifier.jpg",
     alt: "",
     pageLink: "/bass-combo-amplifiers",
+    subcategories: bassAmplifiersSubcategories,
   },
   {
     title: "Bass Amplifier Heads",
     src: "/images/category/SubSubcategories/GuitarsAndBasses/ElectricBassAmplifiers/bass_amplifier_head.jpg",
     alt: "",
     pageLink: "/bass-amplifier-heads",
+    subcategories: bassAmplifierHeadsSubcategories,
   },
   {
     title: "Bass Preamplifiers",
@@ -58,4 +62,4 @@ const electricBassAmplifiersData = [
   },
 ];
 
-export default electricBassAmplifiersData;
+export default electricBassAmplifiersSubcategories;

@@ -8,11 +8,16 @@ import ShoppingCartPage from "./pages/MainPages/ShoppingCartPage";
 import LoginPage from "./pages/MainPages/LoginPage";
 import SinginPage from "./pages/MainPages/SinginPage";
 
-import * as categoriesData from "./Routes/routes";
+import guitarAndBassesRoutes from "./Routes/LevelFourRoutes/guitarAndBassesRoutes";
+import mainCategoryPagesRoutes from "./Routes/mainRoutes";
+("./Routes/mainRoutes");
+import subcategoriesPages from "./Routes/subcategoriesRoutes";
 
 import StratocasterGuitars from "./pages/ShoppingPages/GuitarsAndBasses/ElectricGuitars/StratocasterGuitars";
 
 export default function App() {
+  const guitarAndBassesPages = guitarAndBassesRoutes.map((route) => route);
+
   return (
     <Routes>
       {/* main pages routes */}
@@ -23,9 +28,9 @@ export default function App() {
       <Route path="/login" element={<LoginPage />}></Route>
       <Route path="/shopping-cart" element={<ShoppingCartPage />}></Route>
 
-      {categoriesData.mainCategoryPagesRoutes}
-      {categoriesData.subcategoriesPages}
-      {categoriesData.tubesPages}
+      {mainCategoryPagesRoutes}
+      {subcategoriesPages}
+      {guitarAndBassesPages}
 
       <Route
         path="/stratocaster-models"
