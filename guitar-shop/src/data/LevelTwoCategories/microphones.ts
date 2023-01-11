@@ -4,8 +4,8 @@ const microphonesData = [
   {
     src: "/images/category/Subcategories/Microphones/vocal_microphone.jpg",
     alt: "A microphone",
-    title: "Microphones",
-    pageLink: "/microphones",
+    title: "Vocal Microphones",
+    pageLink: "/vocal-microphones",
     subcategories: electricGuitarSubcategories,
   },
   {
