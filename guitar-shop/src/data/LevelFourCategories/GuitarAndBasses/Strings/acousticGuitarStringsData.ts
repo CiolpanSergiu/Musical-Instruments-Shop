@@ -1,5 +1,6 @@
 const acousticGuitarStringsSubcategories = {
   pageLink: "/acoustic-guitar-strings",
+  pageTitle: "Acoustic Guitar Strings",
   data: [
     {
       title: "0.10 Acoustic Guitar Strings",

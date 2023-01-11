@@ -1,5 +1,6 @@
 const electricBassPickupsSubcategories = {
   pageLink: "/electric-bass-pickups",
+  pageTitle: "Electric Bass Pickups",
   data: [
     {
       title: "4 Strings J Bass Pickup",

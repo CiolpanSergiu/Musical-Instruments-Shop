@@ -1,5 +1,6 @@
 const tubesData = {
   pageLink: "/amplifier-tubes",
+  pageTitle: "Amplifier Tubes",
   data: [
     {
       title: "EL34 Tubes",

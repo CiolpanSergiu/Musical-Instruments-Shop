@@ -1,5 +1,6 @@
 const electricGuitarStringsSubcategories = {
   pageLink: "/electric-guitar-strings",
+  pageTitle: "Electric Guitar Strings",
   data: [
     {
       title: "0.08 Electric Guitar Strings",

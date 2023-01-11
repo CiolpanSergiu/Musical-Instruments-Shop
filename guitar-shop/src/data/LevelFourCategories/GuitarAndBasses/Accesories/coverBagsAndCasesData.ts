@@ -1,5 +1,6 @@
-const coversAndBagsSubcategories = {
+const coversBagsAndCasesSubcategories = {
   pageLink: "/guitar-and-bass-covers-and-cases",
+  pageTitle: "Guitar and Bass Cover Bags and Cases",
   data: [
     {
       title: "Electric Guitar Cases",
@@ -52,4 +53,4 @@ const coversAndBagsSubcategories = {
   ],
 };
 
-export default coversAndBagsSubcategories;
+export default coversBagsAndCasesSubcategories;

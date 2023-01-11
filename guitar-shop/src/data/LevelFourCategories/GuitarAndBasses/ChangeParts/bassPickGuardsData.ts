@@ -1,5 +1,6 @@
 const bassPickGuardsSubcategories = {
   pageLink: "/bass-pick-guards",
+  pageTitle: "Bass Pick Guards",
   data: [
     {
       title: "J Bass Pick Guard",

@@ -1,5 +1,5 @@
 import caposSubcategories from "../../LevelFourCategories/GuitarAndBasses/Accesories/caposData";
-import coversAndBagsSubcategories from "../../LevelFourCategories/GuitarAndBasses/Accesories/coversAndBagsData";
+import coversBagsAndCasesSubcategories from "../../LevelFourCategories/GuitarAndBasses/Accesories/coverBagsAndCasesData";
 import slidersSubcategories from "../../LevelFourCategories/GuitarAndBasses/Accesories/slidersData";
 import strapsSubcategories from "../../LevelFourCategories/GuitarAndBasses/Accesories/strapsData";
 
@@ -15,7 +15,7 @@ const accesoriesSubcategories = [
     src: "/images/category/SubSubcategories/GuitarsAndBasses/Accesories/electric_guitar_case.jpg",
     alt: "",
     pageLink: "/guitar-and-bass-covers-and-cases",
-    subcategories: coversAndBagsSubcategories,
+    subcategories: coversBagsAndCasesSubcategories,
   },
   {
     title: "Instrument Cables",

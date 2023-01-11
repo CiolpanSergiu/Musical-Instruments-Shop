@@ -1,5 +1,6 @@
 const electricGuitarPickupsSubcategories = {
-  pageLink: "/",
+  pageLink: "/electric-guitar-pickups",
+  pageTitle: "Electric Guitar Pickups",
   data: [
     {
       title: "Single Coil Pickups",

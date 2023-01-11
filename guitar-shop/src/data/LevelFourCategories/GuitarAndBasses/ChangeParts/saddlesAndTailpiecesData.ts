@@ -1,5 +1,6 @@
 const saddleAndTailpiecesSubcategories = {
-  pageLink: "/saddles-and-tailpices",
+  pageLink: "/saddles-and-tailpieces",
+  pageTitle: "Saddles and Tailpieces",
   data: [
     {
       title: "Guitar Tailpieces",
@@ -15,7 +16,7 @@ const saddleAndTailpiecesSubcategories = {
     },
     {
       title: "Jazz Guitar Tailpieces",
-      src: "/images/category/LevelFourCategories/GuitarsAndBasses/ChangeParts/SaddlesAndTailpieces/jazz_guitar_tailpiece.jpg",
+      src: "/images/category/LevelFourCategories/GuitarsAndBasses/ChangeParts/SaddlesAndTailpieces/jazz_guitar_tailpiece.jpeg",
       alt: "A tailpiece for jazz guitars",
       pageLink: "/jazz-guitar-tailpieces",
     },

@@ -8,7 +8,7 @@ import electricBassAmplifiersSubcategories from "../LevelThreeCategories/Guitars
 import acousticGuitarAmplifiersSubcategories from "../LevelThreeCategories/GuitarsAndBasses/acousticGuitarAmplifiersData.json";
 import stringsSubcategories from "../LevelThreeCategories/GuitarsAndBasses/stringsData";
 import effectPedalsSubcategories from "../LevelThreeCategories/GuitarsAndBasses/effectPedalsData.json";
-import pickupsSubcategories from "../LevelThreeCategories/GuitarsAndBasses/pickupsData.json";
+import pickupsSubcategories from "../LevelThreeCategories/GuitarsAndBasses/pickupsData";
 import changePartsSubcategories from "../LevelThreeCategories/GuitarsAndBasses/changePartsData";
 import accesoriesSubcategories from "../LevelThreeCategories/GuitarsAndBasses/accesoriesData";
 

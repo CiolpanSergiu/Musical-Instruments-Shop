@@ -1,5 +1,6 @@
 const guitarAmplifierHeadsSubcategories = {
   pageLink: "/guitar-amplifier-heads",
+  pageTitle: "Guitar Amplifier Heads",
   data: [
     {
       src: "/images/category/LevelFourCategories/GuitarsAndBasses/GuitarAmplifierHeads/transistors_guitar_amp_head.jpg",

@@ -1,5 +1,6 @@
 const tremoloBridgesSubcategories = {
   pageLink: "/guitar-tremolo-bridges",
+  pageTitle: "Tremolo Bridges",
   data: [
     {
       title: "Standard Tremolo Bridges",

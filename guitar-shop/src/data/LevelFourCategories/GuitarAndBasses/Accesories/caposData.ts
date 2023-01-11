@@ -1,5 +1,6 @@
 const caposSubcategories = {
   pageLink: "/capos",
+  pageTitle: "Guitar Capos",
   data: [
     {
       title: "Electric/Acoustic Guitar Capos",

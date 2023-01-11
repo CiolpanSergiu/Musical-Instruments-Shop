@@ -1,5 +1,6 @@
 const slidersSubcategories = {
   pageLink: "/guitar-sliders",
+  pageTitle: "Guitar Sliders",
   data: [
     {
       title: "Glass Sliders",

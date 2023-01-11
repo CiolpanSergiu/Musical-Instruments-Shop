@@ -40,7 +40,8 @@ export function createCategoryPages(
   haveRecommendedItemsSlider: boolean,
   havePopularItemsSlider: boolean,
   haveBrandsSlider: boolean,
-  pageLink?: string
+  pageLink?: string,
+  pageTitle?: string
 ) {
   return data.map((category: any) => {
     return (
@@ -50,7 +51,7 @@ export function createCategoryPages(
         element={
           <InstrumentSubcategoryPage
             data={category.subcategories || data}
-            pageTitle={category.title}
+            pageTitle={pageTitle || category.title}
             brandsSliderTitle={`Popular ${category.title} brands`}
             haveRecommendedItemsSlider={haveRecommendedItemsSlider}
             havePopularItemsSlider={havePopularItemsSlider}

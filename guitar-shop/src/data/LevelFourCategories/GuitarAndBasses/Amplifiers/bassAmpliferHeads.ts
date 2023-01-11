@@ -1,5 +1,6 @@
-const bassAmplifierHeadsData = {
+const bassAmplifierHeadsSubcategories = {
   pageLink: "/bass-amplifier-heads",
+  pageTitle: "Bass Amplifier Heads",
   data: [
     {
       src: "/images/category/LevelFourCategories/GuitarsAndBasses/BassAmplifierHeads/transistors_bass_amp_head.jpg",
@@ -16,4 +17,4 @@ const bassAmplifierHeadsData = {
   ],
 };
 
-export default bassAmplifierHeadsData;
+export default bassAmplifierHeadsSubcategories;

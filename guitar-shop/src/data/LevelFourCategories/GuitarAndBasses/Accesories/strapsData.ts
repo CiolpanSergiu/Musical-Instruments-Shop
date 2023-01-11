@@ -1,5 +1,6 @@
 const strapsSubcategories = {
   pageLink: "/guitar-and-bass-straps",
+  pageTitle: "Guitar and Bass Straps",
   data: [
     {
       title: "Leather Straps",

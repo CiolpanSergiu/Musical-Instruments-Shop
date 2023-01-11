@@ -1,5 +1,6 @@
 const bassAmplifiersSubcategories = {
   pageLink: "/bass-combo-amplifiers",
+  pageTitle: "Bass Amplifiers",
   data: [
     {
       src: "/images/category/LevelFourCategories/GuitarsAndBasses/BassAmplifiers/transistors_bass_amp.jpg",

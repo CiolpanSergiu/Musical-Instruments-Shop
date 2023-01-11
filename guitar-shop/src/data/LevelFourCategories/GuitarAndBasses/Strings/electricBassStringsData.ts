@@ -1,5 +1,6 @@
 const electricBassStringsSubcategories = {
   pageLink: "/electric-bass-strings",
+  pageTitle: "Electric Bass Strings",
   data: [
     {
       title: "0.40 Bass Strings",

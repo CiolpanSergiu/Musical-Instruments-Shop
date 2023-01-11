@@ -1,5 +1,6 @@
 const switchesSubcategories = {
   pageLink: "/switches",
+  pageTitle: "Switches",
   data: [
     {
       title: "3 Ways Switch Selectors",
@@ -9,7 +10,7 @@ const switchesSubcategories = {
     },
     {
       title: "5 Ways Switch Selectors",
-      src: "/images/category/LevelFourCategories/GuitarsAndBasses/ChangeParts/Switches/5_wats_switch.jpg",
+      src: "/images/category/LevelFourCategories/GuitarsAndBasses/ChangeParts/Switches/5_ways_switch.jpg",
       alt: "A guitar switch selector with 5 ways",
       pageLink: "/5-ways-switch-selectors",
     },
