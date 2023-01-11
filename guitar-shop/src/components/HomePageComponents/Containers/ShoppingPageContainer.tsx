@@ -21,7 +21,8 @@ const PageHeader = styled.h1`
 `;
 
 type Props = {
-  data: {
+  pageTitle: string;
+  itemsData: {
     title: string;
     src: string;
     alt: string;
@@ -33,8 +34,8 @@ type Props = {
   }[];
 };
 
-export default function ShoppingPage({ data }: Props) {
-  const cards = data.map((card: any) => {
+export default function ShoppingPageContainer({ pageTitle, itemsData }: Props) {
+  const cards = itemsData.map((card: any) => {
     return (
       <ShoppingPageCard
         key={nanoid()}
@@ -50,7 +51,7 @@ export default function ShoppingPage({ data }: Props) {
 
   return (
     <>
-      <PageHeader>Stratocaster Guitars</PageHeader>
+      <PageHeader>{pageTitle}</PageHeader>
       <Container>{cards}</Container>
     </>
   );

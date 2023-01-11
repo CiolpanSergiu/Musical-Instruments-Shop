@@ -1,4 +1,4 @@
-import { createCategoryPages } from "./createRouteFunction";
+import { createCategoryPages } from "./createPageFunctions";
 import instrumentsCategoryData from "../data/mainCategory";
 
 type Subcategory = {
@@ -25,8 +25,6 @@ const subcategories = instrumentsCategoryData.map(
     return subcategory;
   }
 );
-
-console.log(subcategories);
 
 const subcategoriesPages = subcategories.map(
   (categorySubcategory: Subcategory) => {

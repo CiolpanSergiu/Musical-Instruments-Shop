@@ -24,7 +24,7 @@ import saddleAndTailpiecesSubcategories from "../../data/LevelFourCategories/Gui
 import switchesSubcategories from "../../data/LevelFourCategories/GuitarAndBasses/ChangeParts/switchesData";
 import tremoloBridgesSubcategories from "../../data/LevelFourCategories/GuitarAndBasses/ChangeParts/tremoloBridgeData";
 
-import { createCategoryPages } from "../createRouteFunction";
+import { createCategoryPages } from "../createPageFunctions";
 
 const tubesPages = createCategoryPages(
   tubesData.data,

@@ -1,5 +1,5 @@
 import instrumentsCategoryData from "../data/mainCategory";
-import { createMainCategoryPages } from "./createRouteFunction";
+import { createMainCategoryPages } from "./createPageFunctions";
 
 const mainCategoryPagesRoutes = createMainCategoryPages(
   instrumentsCategoryData
