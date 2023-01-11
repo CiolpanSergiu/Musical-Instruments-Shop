@@ -44,21 +44,23 @@ export function createCategoryPages(
   pageTitle?: string
 ) {
   return data.map((category: any) => {
-    return (
-      <Route
-        key={nanoid()}
-        path={pageLink || category.pageLink}
-        element={
-          <InstrumentSubcategoryPage
-            data={category.subcategories || data}
-            pageTitle={pageTitle || category.title}
-            brandsSliderTitle={`Popular ${category.title} brands`}
-            haveRecommendedItemsSlider={haveRecommendedItemsSlider}
-            havePopularItemsSlider={havePopularItemsSlider}
-            haveBrandsSlider={haveBrandsSlider}
-          />
-        }
-      ></Route>
-    );
+    if (category.hasOwnProperty("subcategories")) {
+      return (
+        <Route
+          key={nanoid()}
+          path={pageLink || category.pageLink}
+          element={
+            <InstrumentSubcategoryPage
+              data={category.subcategories || data}
+              pageTitle={pageTitle || category.title}
+              brandsSliderTitle={`Popular ${category.title} brands`}
+              haveRecommendedItemsSlider={haveRecommendedItemsSlider}
+              havePopularItemsSlider={havePopularItemsSlider}
+              haveBrandsSlider={haveBrandsSlider}
+            />
+          }
+        ></Route>
+      );
+    }
   });
 }

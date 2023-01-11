@@ -11,7 +11,7 @@ type Subcategory = {
     alt: string;
     title: string;
     pageLink: string;
-    subcategories: {
+    subcategories?: {
       src: string;
       alt: string;
       title: string;
@@ -26,10 +26,12 @@ const subcategories = instrumentsCategoryData.map(
   }
 );
 
+console.log(subcategories);
+
 const subcategoriesPages = subcategories.map(
-  (mainCategorySubcategory: Subcategory) => {
+  (categorySubcategory: Subcategory) => {
     return createCategoryPages(
-      mainCategorySubcategory.subcategories,
+      categorySubcategory.subcategories,
       true,
       true,
       true
