@@ -59,6 +59,7 @@ export function createCategoryPages(
   pageTitle?: string
 ) {
   return data.map((category: Category) => {
+    console.log(category.hasOwnProperty("data"));
     return (
       <Route
         key={nanoid()}
