@@ -11,8 +11,7 @@ import SinginPage from "./pages/MainPages/SinginPage";
 import guitarAndBassesRoutes from "./Routes/LevelFourRoutes/guitarAndBassesRoutes";
 import mainCategoryPagesRoutes from "./Routes/mainRoutes";
 
-import subcategoriesPages from "./Routes/subcategoriesRoutes";
-
+import levelThreeCategoriesPages from "./Routes/Categories/levelThreeRoutes";
 import electricGuitarsShoppingPages from "./Routes/LevelFourRoutes/guitarAndBassesShoppingPageRoutes";
 
 export default function App() {
@@ -32,7 +31,7 @@ export default function App() {
       <Route path="/shopping-cart" element={<ShoppingCartPage />}></Route>
 
       {mainCategoryPagesRoutes}
-      {subcategoriesPages}
+      {levelThreeCategoriesPages}
       {guitarAndBassesPages}
       {guitarAndBassesShoppingPages}
     </Routes>
