@@ -1,7 +1,7 @@
-const guitarAmplifierHeadsSubcategories = {
+export default {
   pageLink: "/guitar-amplifier-heads",
-  pageTitle: "Guitar Amplifier Heads",
-  data: [
+  title: "Electric Guitar Amplifier Heads",
+  subcategories: [
     {
       src: "/images/category/LevelFourCategories/GuitarsAndBasses/GuitarAmplifierHeads/transistors_guitar_amp_head.jpg",
       alt: "",
@@ -22,5 +22,3 @@ const guitarAmplifierHeadsSubcategories = {
     },
   ],
 };
-
-export default guitarAmplifierHeadsSubcategories;

@@ -1,7 +1,7 @@
-const tubesData = {
+export default {
   pageLink: "/amplifier-tubes",
-  pageTitle: "Amplifier Tubes",
-  data: [
+  title: "Amplifier Tubes",
+  subcategories: [
     {
       title: "EL34 Tubes",
       src: "/images/category/LevelFourCategories/GuitarsAndBasses/Tubes/el34_tube.jpg",
@@ -34,5 +34,3 @@ const tubesData = {
     },
   ],
 };
-
-export default tubesData;

@@ -1,7 +1,7 @@
-const bassAmplifiersSubcategories = {
+export default {
   pageLink: "/bass-combo-amplifiers",
-  pageTitle: "Bass Amplifiers",
-  data: [
+  title: "Bass Combo Amplifiers",
+  subcategories: [
     {
       src: "/images/category/LevelFourCategories/GuitarsAndBasses/BassAmplifiers/transistors_bass_amp.jpg",
       alt: "",
@@ -16,5 +16,3 @@ const bassAmplifiersSubcategories = {
     },
   ],
 };
-
-export default bassAmplifiersSubcategories;

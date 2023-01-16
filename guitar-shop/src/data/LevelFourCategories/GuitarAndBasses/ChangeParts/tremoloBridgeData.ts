@@ -1,7 +1,7 @@
-const tremoloBridgesSubcategories = {
+export default {
   pageLink: "/guitar-tremolo-bridges",
-  pageTitle: "Tremolo Bridges",
-  data: [
+  title: "Tremolo Bridges",
+  subcategories: [
     {
       title: "Standard Tremolo Bridges",
       src: "/images/category/LevelFourCategories/GuitarsAndBasses/ChangeParts/Tremolos/standard_guitar_tremolo.jpg",
@@ -22,5 +22,3 @@ const tremoloBridgesSubcategories = {
     },
   ],
 };
-
-export default tremoloBridgesSubcategories;

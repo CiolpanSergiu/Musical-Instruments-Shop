@@ -1,7 +1,7 @@
-const strapsSubcategories = {
+export default {
   pageLink: "/guitar-and-bass-straps",
-  pageTitle: "Guitar and Bass Straps",
-  data: [
+  title: "Guitar and Bass Straps",
+  subcategories: [
     {
       title: "Leather Straps",
       src: "/images/category/LevelFourCategories/GuitarsAndBasses/Accesories/Straps/leather_strap.jpg",
@@ -16,5 +16,3 @@ const strapsSubcategories = {
     },
   ],
 };
-
-export default strapsSubcategories;

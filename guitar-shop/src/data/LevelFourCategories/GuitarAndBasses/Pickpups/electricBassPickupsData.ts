@@ -1,7 +1,7 @@
-const electricBassPickupsSubcategories = {
+export default {
   pageLink: "/electric-bass-pickups",
-  pageTitle: "Electric Bass Pickups",
-  data: [
+  title: "Electric Bass Pickups",
+  subcategories: [
     {
       title: "4 Strings J Bass Pickup",
       src: "/images/category/LevelFourCategories/GuitarsAndBasses/Pickups/BassPickups/4_strings_j_bass_pickup.jpg",
@@ -28,5 +28,3 @@ const electricBassPickupsSubcategories = {
     },
   ],
 };
-
-export default electricBassPickupsSubcategories;

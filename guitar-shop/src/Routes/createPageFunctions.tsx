@@ -4,34 +4,30 @@ import InstrumentSubcategoryPage from "../pages/SubcategoryPages/InstrumentSubca
 import ShoppingPage from "../pages/ShoppingPages/ShoppingPage";
 import { nanoid } from "nanoid";
 
-type instrumentPageData = {
+type Subcategories = {
   title: string;
   src: string;
   alt: string;
   pageLink: string;
-  subcategories?: {
-    title: string;
-    src: string;
-    alt: string;
-    pageLink: string;
-  }[];
 }[];
+
+type instrumentPageData =
+  | { src: string; alt: string; title: string; pageLink: string }[]
+  | {
+      pageLink: string | undefined;
+      title: string;
+      subcategories: Subcategories;
+    }[];
 
 type Category = {
   title: string;
   src: string;
   alt: string;
   pageLink: string;
-  subcategories?:
-    | {
-        title: string;
-        src: string;
-        alt: string;
-        pageLink: string;
-      }[];
+  subcategories?: Subcategories;
 };
 
-export function createMainCategoryPages(data: instrumentPageData) {
+export function createMainCategoryPages(data: Category[]) {
   return data.map((category: Category) => {
     return (
       <Route
@@ -51,32 +47,35 @@ export function createMainCategoryPages(data: instrumentPageData) {
 
 //same function as above but it return a different component
 export function createCategoryPages(
-  data: instrumentPageData,
+  data: any,
   haveRecommendedItemsSlider: boolean,
   havePopularItemsSlider: boolean,
-  haveBrandsSlider: boolean,
-  pageLink?: string,
-  pageTitle?: string
+  haveBrandsSlider: boolean
 ) {
-  return data.map((category: Category) => {
-    console.log(category.hasOwnProperty("data"));
-    return (
-      <Route
-        key={nanoid()}
-        path={pageLink || category.pageLink}
-        element={
-          <InstrumentSubcategoryPage
-            pageTitle={pageTitle || category.title}
-            brandsSliderTitle={`Popular ${category.title} brands`}
-            data={category.subcategories || data}
-            haveRecommendedItemsSlider={haveRecommendedItemsSlider}
-            havePopularItemsSlider={havePopularItemsSlider}
-            haveBrandsSlider={haveBrandsSlider}
-          />
-        }
-      ></Route>
-    );
-  });
+  return data.map(
+    (category: {
+      pageLink: string;
+      title: string;
+      subcategories: Subcategories;
+    }) => {
+      return (
+        <Route
+          key={nanoid()}
+          path={category.pageLink}
+          element={
+            <InstrumentSubcategoryPage
+              pageTitle={category.title}
+              brandsSliderTitle={`Popular ${category.title} brands`}
+              data={category.subcategories || data}
+              haveRecommendedItemsSlider={haveRecommendedItemsSlider}
+              havePopularItemsSlider={havePopularItemsSlider}
+              haveBrandsSlider={haveBrandsSlider}
+            />
+          }
+        ></Route>
+      );
+    }
+  );
 }
 
 type ItemsData = {

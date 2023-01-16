@@ -1,7 +1,7 @@
-const slidersSubcategories = {
+export default {
   pageLink: "/guitar-sliders",
-  pageTitle: "Guitar Sliders",
-  data: [
+  title: "Guitar Sliders",
+  subcategories: [
     {
       title: "Glass Sliders",
       src: "/images/category/LevelFourCategories/GuitarsAndBasses/Accesories/Sliders/glass_slider.jpg",
@@ -16,5 +16,3 @@ const slidersSubcategories = {
     },
   ],
 };
-
-export default slidersSubcategories;

@@ -1,7 +1,7 @@
-const coversBagsAndCasesSubcategories = {
+export default {
   pageLink: "/guitar-and-bass-covers-and-cases",
-  pageTitle: "Guitar and Bass Cover Bags and Cases",
-  data: [
+  title: "Guitar and Bass Cover Bags and Cases",
+  subcategories: [
     {
       title: "Electric Guitar Cases",
       src: "/images/category/LevelFourCategories/GuitarsAndBasses/Accesories/CoversAndCases/electric_guitar_case.jpg",
@@ -52,5 +52,3 @@ const coversBagsAndCasesSubcategories = {
     },
   ],
 };
-
-export default coversBagsAndCasesSubcategories;

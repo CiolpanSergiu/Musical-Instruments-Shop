@@ -1,7 +1,7 @@
-const switchesSubcategories = {
+export default {
   pageLink: "/switches",
-  pageTitle: "Switches",
-  data: [
+  title: "Switches",
+  subcategories: [
     {
       title: "3 Ways Switch Selectors",
       src: "/images/category/LevelFourCategories/GuitarsAndBasses/ChangeParts/Switches/3_ways_switch.jpg",
@@ -22,5 +22,3 @@ const switchesSubcategories = {
     },
   ],
 };
-
-export default switchesSubcategories;

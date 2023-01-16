@@ -1,7 +1,7 @@
-const acousticGuitarStringsSubcategories = {
+export default {
   pageLink: "/acoustic-guitar-strings",
-  pageTitle: "Acoustic Guitar Strings",
-  data: [
+  title: "Acoustic Guitar Strings",
+  subcategories: [
     {
       title: "0.10 Acoustic Guitar Strings",
       src: "/images/category/LevelFourCategories/GuitarsAndBasses/Strings/AcousticGuitarStrings/010_acoustic_guitar_strings.jpg",
@@ -34,5 +34,3 @@ const acousticGuitarStringsSubcategories = {
     },
   ],
 };
-
-export default acousticGuitarStringsSubcategories;

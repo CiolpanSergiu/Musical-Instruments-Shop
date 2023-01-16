@@ -1,7 +1,7 @@
-const bassPickGuardsSubcategories = {
+export default {
   pageLink: "/bass-pick-guards",
-  pageTitle: "Bass Pick Guards",
-  data: [
+  title: "Bass Pick Guards",
+  subcategories: [
     {
       title: "J Bass Pick Guard",
       src: "/images/category/LevelFourCategories/GuitarsAndBasses/ChangeParts/PickGuards/Basses/j_bass_guard.jpg",
@@ -16,5 +16,3 @@ const bassPickGuardsSubcategories = {
     },
   ],
 };
-
-export default bassPickGuardsSubcategories;

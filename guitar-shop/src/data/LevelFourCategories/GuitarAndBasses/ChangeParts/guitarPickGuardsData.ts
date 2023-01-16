@@ -1,7 +1,7 @@
-const guitarPickGuardsSubcategories = {
+export default {
   pageLink: "/guitar-pick-guards",
-  pageTitle: "Guitar Pick Guards",
-  data: [
+  title: "Guitar Pick Guards",
+  subcategories: [
     {
       title: "Stratocaster Guitar Pick Guard",
       src: "/images/category/LevelFourCategories/GuitarsAndBasses/ChangeParts/PickGuards/Guitars/stratocaster_guitar_guard.jpg",
@@ -28,5 +28,3 @@ const guitarPickGuardsSubcategories = {
     },
   ],
 };
-
-export default guitarPickGuardsSubcategories;

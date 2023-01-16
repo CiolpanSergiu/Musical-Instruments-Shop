@@ -8,18 +8,13 @@ import ShoppingCartPage from "./pages/MainPages/ShoppingCartPage";
 import LoginPage from "./pages/MainPages/LoginPage";
 import SinginPage from "./pages/MainPages/SinginPage";
 
-import guitarAndBassesRoutes from "./Routes/LevelFourRoutes/guitarAndBassesRoutes";
+import guitarAndBassesRoutes from "./Routes/Categories/LevelFourRoutes/guitarAndBassesRoutes";
 import mainCategoryPagesRoutes from "./Routes/mainRoutes";
 
 import levelThreeCategoriesPages from "./Routes/Categories/levelThreeRoutes";
-import electricGuitarsShoppingPages from "./Routes/LevelFourRoutes/guitarAndBassesShoppingPageRoutes";
+import electricGuitarsShoppingPages from "./Routes/ShoppingPages/guitarAndBassesShoppingPageRoutes";
 
 export default function App() {
-  const guitarAndBassesPages = guitarAndBassesRoutes.map((route) => route);
-  const guitarAndBassesShoppingPages = electricGuitarsShoppingPages.map(
-    (route) => route
-  );
-
   return (
     <Routes>
       {/* main pages routes */}
@@ -32,8 +27,8 @@ export default function App() {
 
       {mainCategoryPagesRoutes}
       {levelThreeCategoriesPages}
-      {guitarAndBassesPages}
-      {guitarAndBassesShoppingPages}
+      {guitarAndBassesRoutes}
+      {electricGuitarsShoppingPages}
     </Routes>
   );
 }

@@ -1,9 +1,11 @@
-import levelFourData from "../../../data/LevelFourCategories/GuitarAndBasses/levelFourData";
+import levelFourGuitarAndBassData from "../../../data/LevelFourCategories/GuitarAndBasses/levelFourGuitarAndBassData";
 import { createCategoryPages } from "../../createPageFunctions";
 
-const guitarAndBassLevelFourPages = levelFourData.map((data) => {
-  console.log(data);
-  return createCategoryPages(data.data, false, true, false);
-});
+const guitarAndBassLevelFourPages = createCategoryPages(
+  levelFourGuitarAndBassData,
+  false,
+  true,
+  false
+);
 
 export default guitarAndBassLevelFourPages;

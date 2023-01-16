@@ -1,7 +1,7 @@
-const saddleAndTailpiecesSubcategories = {
+export default {
   pageLink: "/saddles-and-tailpieces",
-  pageTitle: "Saddles and Tailpieces",
-  data: [
+  title: "Saddles and Tailpieces",
+  subcategories: [
     {
       title: "Guitar Tailpieces",
       src: "/images/category/LevelFourCategories/GuitarsAndBasses/ChangeParts/SaddlesAndTailpieces/guitar_tailpiece.jpg",
@@ -34,5 +34,3 @@ const saddleAndTailpiecesSubcategories = {
     },
   ],
 };
-
-export default saddleAndTailpiecesSubcategories;

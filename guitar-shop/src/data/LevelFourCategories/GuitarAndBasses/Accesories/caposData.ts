@@ -1,7 +1,7 @@
-const caposSubcategories = {
+export default {
   pageLink: "/capos",
-  pageTitle: "Guitar Capos",
-  data: [
+  title: "Guitar Capos",
+  subcategories: [
     {
       title: "Electric/Acoustic Guitar Capos",
       src: "/images/category/LevelFourCategories/GuitarsAndBasses/Accesories/Capos/guitar_capo.jpg",
@@ -22,5 +22,3 @@ const caposSubcategories = {
     },
   ],
 };
-
-export default caposSubcategories;

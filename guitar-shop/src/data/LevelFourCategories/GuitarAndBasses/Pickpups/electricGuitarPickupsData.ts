@@ -1,7 +1,7 @@
-const electricGuitarPickupsSubcategories = {
+export default {
   pageLink: "/electric-guitar-pickups",
-  pageTitle: "Electric Guitar Pickups",
-  data: [
+  title: "Electric Guitar Pickups",
+  subcategories: [
     {
       title: "Single Coil Pickups",
       src: "/images/category/LevelFourCategories/GuitarsAndBasses/Pickups/GuitarPickups/single_coil_guitar_pickup.jpg",
@@ -28,5 +28,3 @@ const electricGuitarPickupsSubcategories = {
     },
   ],
 };
-
-export default electricGuitarPickupsSubcategories;

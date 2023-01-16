@@ -1,7 +1,7 @@
-const electricGuitarStringsSubcategories = {
+export default {
   pageLink: "/electric-guitar-strings",
-  pageTitle: "Electric Guitar Strings",
-  data: [
+  title: "Electric Guitar Strings",
+  subcategories: [
     {
       title: "0.08 Electric Guitar Strings",
       src: "/images/category/LevelFourCategories/GuitarsAndBasses/Strings/ElectricGuitarStrings/008_electric_guitar_strings.jpg",
@@ -46,5 +46,3 @@ const electricGuitarStringsSubcategories = {
     },
   ],
 };
-
-export default electricGuitarStringsSubcategories;
