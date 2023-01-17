@@ -33,7 +33,8 @@ const Header = styled.h3`
 `;
 
 const Img = styled.img`
-  transform: scale(1.2);
+  width: 120px;
+  heigt: 120px;
 `;
 
 export default function SubcategoryCard({ src, alt, title, pageLink }: Props) {

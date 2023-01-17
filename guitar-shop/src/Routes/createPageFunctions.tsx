@@ -58,22 +58,24 @@ export function createCategoryPages(
       title: string;
       subcategories: Subcategories;
     }) => {
-      return (
-        <Route
-          key={nanoid()}
-          path={category.pageLink}
-          element={
-            <InstrumentSubcategoryPage
-              pageTitle={category.title}
-              brandsSliderTitle={`Popular ${category.title} brands`}
-              data={category.subcategories || data}
-              haveRecommendedItemsSlider={haveRecommendedItemsSlider}
-              havePopularItemsSlider={havePopularItemsSlider}
-              haveBrandsSlider={haveBrandsSlider}
-            />
-          }
-        ></Route>
-      );
+      if (category.hasOwnProperty("subcategories")) {
+        return (
+          <Route
+            key={nanoid()}
+            path={category.pageLink}
+            element={
+              <InstrumentSubcategoryPage
+                pageTitle={category.title}
+                brandsSliderTitle={`Popular ${category.title} brands`}
+                data={category.subcategories || data}
+                haveRecommendedItemsSlider={haveRecommendedItemsSlider}
+                havePopularItemsSlider={havePopularItemsSlider}
+                haveBrandsSlider={haveBrandsSlider}
+              />
+            }
+          ></Route>
+        );
+      }
     }
   );
 }

@@ -1,4 +1,4 @@
-import guitarsAndBassesData from "./LevelTwoCategories/guitarsAndBassesSubcategories";
+import guitarsAndBassesData from "./LevelTwoCategories/guitarsAndBasses";
 import drumsAndPercussionData from "./LevelTwoCategories/drumsAndPercussion";
 import softwaresData from "./LevelTwoCategories/softwares";
 import musicalAccesories from "./LevelTwoCategories/musicalAccesories";

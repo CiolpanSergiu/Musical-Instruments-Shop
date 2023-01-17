@@ -9,7 +9,7 @@ import acousticGuitarAmplifiersSubcategories from "../LevelThreeCategories/Guita
 import stringsSubcategories from "../LevelThreeCategories/GuitarsAndBasses/stringsData";
 import effectPedalsSubcategories from "../LevelThreeCategories/GuitarsAndBasses/effectPedalsData.json";
 import pickupsSubcategories from "../LevelThreeCategories/GuitarsAndBasses/pickupsData";
-import changePartsSubcategories from "../LevelThreeCategories/GuitarsAndBasses/changePartsData";
+import changeSpareSubcategories from "../LevelThreeCategories/GuitarsAndBasses/sparePartsData";
 import accesoriesSubcategories from "../LevelThreeCategories/GuitarsAndBasses/accesoriesData";
 
 const guitarsAndBassesData = [
@@ -95,7 +95,7 @@ const guitarsAndBassesData = [
     alt: "Guitar saddle image",
     title: "Change Parts",
     pageLink: "/change-parts",
-    subcategories: changePartsSubcategories,
+    subcategories: changeSpareSubcategories,
   },
   {
     src: "/images/category/LevelTwoCategories/GuitarsAndBasses/accesories.jpg",
