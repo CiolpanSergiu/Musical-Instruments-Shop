@@ -60,6 +60,6 @@ export default [
     title: "Chairs",
     src: "/images/category/LevelThreeCategories/DrumsAndPercussion/DrumPedalsAndStands/drum_chair.jpg",
     alt: "A drum chair",
-    pageLink: "/drum-chairs",
+    pageLink: "/drumner-chairs",
   },
 ];

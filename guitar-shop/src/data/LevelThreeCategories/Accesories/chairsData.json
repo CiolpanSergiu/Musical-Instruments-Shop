@@ -1,8 +1,14 @@
 [
   {
-    "title": "",
-    "src": "",
-    "alt": "",
-    "pageLink": ""
+    "title": "Drummer Chairs",
+    "src": "/images/category/LevelThreeCategories/Accesories/Chairs/drummer_chair.jpg",
+    "alt": "A chair for drummers",
+    "pageLink": "/drummer-chairs"
+  },
+  {
+    "title": "Pianist Benches",
+    "src": "/images/category/LevelThreeCategories/Accesories/Chairs/pianist_bench.jpg",
+    "alt": "A bench for pianists",
+    "pageLink": "/pianist-benches"
   }
 ]

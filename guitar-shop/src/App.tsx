@@ -14,6 +14,7 @@ import levelThreeCategoriesPages from "./Routes/Categories/levelThreeRoutes";
 
 import guitarAndBassesRoutes from "./Routes/Categories/LevelFourRoutes/guitarAndBassesRoutes";
 import drumsAndPercussionPageRoutes from "./Routes/Categories/LevelFourRoutes/drumsAndPercussionRoutes";
+import instrumentStandsPageRoutes from "./Routes/Categories/LevelFourRoutes/accesoriesRoutes";
 
 import electricGuitarsShoppingPages from "./Routes/ShoppingPages/guitarAndBassesShoppingPageRoutes";
 
@@ -32,6 +33,7 @@ export default function App() {
       {levelThreeCategoriesPages}
       {guitarAndBassesRoutes}
       {drumsAndPercussionPageRoutes}
+      {instrumentStandsPageRoutes}
       {electricGuitarsShoppingPages}
     </Routes>
   );

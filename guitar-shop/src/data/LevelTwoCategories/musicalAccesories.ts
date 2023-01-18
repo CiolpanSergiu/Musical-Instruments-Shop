@@ -1,4 +1,7 @@
-import electricGuitarSubcategories from "../LevelThreeCategories/GuitarsAndBasses/electricGuitarsData.json";
+import chairsSubcategories from "../LevelThreeCategories/Accesories/chairsData.json";
+import headphonesSubcategories from "../LevelThreeCategories/Accesories/headphonesData.json";
+import powerSupplySubcategories from "../LevelThreeCategories/Accesories/powerSuppliesData.json";
+import standsSubcategories from "../LevelThreeCategories/Accesories/stands";
 
 const musicalAccesoriesData = [
   {
@@ -6,49 +9,52 @@ const musicalAccesoriesData = [
     alt: "A set of headphones",
     title: "Headphones",
     pageLink: "/headphones",
-    subcategories: electricGuitarSubcategories,
+    subcategories: headphonesSubcategories,
   },
   {
     src: "/images/category/LevelTwoCategories/Accesories/battery.jpg",
     alt: "A set of two batteries",
-    title: "Batteries",
-    pageLink: "/batteries",
-    subcategories: electricGuitarSubcategories,
+    title: "Accumulators/Batteries",
+    pageLink: "/accumulators-batteries",
   },
   {
     src: "/images/category/LevelTwoCategories/Accesories/extension_cord.jpg",
     alt: "An extension cord",
     title: "Extension Cords",
     pageLink: "/extension-cords",
-    subcategories: electricGuitarSubcategories,
   },
   {
     src: "/images/category/LevelTwoCategories/Accesories/metronome.jpg",
     alt: "A metronome",
     title: "Metronomes",
     pageLink: "/metronomes",
-    subcategories: electricGuitarSubcategories,
+  },
+  {
+    src: "/images/category/LevelTwoCategories/Accesories/tunner.jpg",
+    alt: "A guitar tunner",
+    title: "Tunners",
+    pageLink: "/tunners",
   },
   {
     src: "/images/category/LevelTwoCategories/Accesories/musician_chair.jpg",
     alt: "A chair for musicians",
     title: "Chairs",
     pageLink: "/chairs",
-    subcategories: electricGuitarSubcategories,
+    subcategories: chairsSubcategories,
   },
   {
     src: "/images/category/LevelTwoCategories/Accesories/power_supply.jpg",
     alt: "A power supply",
-    title: "Power Supplies and Sources",
-    pageLink: "/power-supplies-and-sources",
-    subcategories: electricGuitarSubcategories,
+    title: "Power Supplies",
+    pageLink: "/power-supplies",
+    subcategories: powerSupplySubcategories,
   },
   {
     src: "/images/category/LevelTwoCategories/Accesories/stand.jpg",
     alt: "An instrument stand",
     title: "Stands",
     pageLink: "/stands",
-    subcategories: electricGuitarSubcategories,
+    subcategories: standsSubcategories,
   },
 ];
 
