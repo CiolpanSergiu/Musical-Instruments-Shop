@@ -1,9 +1,13 @@
+import congasData from "../../LevelFourCategories/DrumsAndPercussion/PercussionInstruments/congasData";
+import cajonsData from "../../LevelFourCategories/DrumsAndPercussion/PercussionInstruments/cajonsData";
+
 export default [
   {
     title: "Congas",
     src: "/images/category/LevelThreeCategories/DrumsAndPercussion/PercussionInstruments/congas.jpg",
     alt: "Two congas",
-    pageLink: "/congas",
+    pageLink: "/percussion-instruments-congas",
+    subcategories: congasData,
   },
   {
     title: "Bongos",
@@ -16,6 +20,13 @@ export default [
     src: "/images/category/LevelThreeCategories/DrumsAndPercussion/PercussionInstruments/djembes.jpg",
     alt: "A djembe",
     pageLink: "/djembes",
+  },
+  {
+    title: "Cajons",
+    src: "/images/category/LevelThreeCategories/DrumsAndPercussion/PercussionInstruments/cajon.jpg",
+    alt: "A cajon",
+    pageLink: "/percussion-instruments-cajons",
+    subcategories: cajonsData,
   },
   {
     title: "Cowbells",

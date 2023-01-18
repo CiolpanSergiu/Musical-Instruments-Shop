@@ -1,3 +1,5 @@
+import drumPedalsData from "../../LevelFourCategories/DrumsAndPercussion/DrumPedalsAndStands/drumPedalsData";
+
 export default [
   {
     title: "Acoustic Drum Stands Set",
@@ -12,10 +14,11 @@ export default [
     pageLink: "/electronic-drum-stands-set",
   },
   {
-    title: "Drum Pedals",
+    title: "Bass Drum Pedals",
     src: "/images/category/LevelThreeCategories/DrumsAndPercussion/DrumPedalsAndStands/bass_drum_pedal.jpg",
     alt: "A drum pedal",
-    pageLink: "/drum-pedals",
+    pageLink: "/bass-drum-pedals",
+    subcategories: drumPedalsData,
   },
   {
     title: "Straight Cymbal Stands",

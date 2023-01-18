@@ -39,10 +39,7 @@ export default function InstrumentSubcategoryPage({
     <>
       <Navbar />
       <Container>
-        <SubcategoryCardsContainer
-          data={data}
-          pageTitle={`${pageTitle} Categories`}
-        />
+        <SubcategoryCardsContainer data={data} pageTitle={`${pageTitle}`} />
         {haveRecommendedItemsSlider && (
           <SimpleSlider cardsData={Data} header="Recommended to beginners" />
         )}

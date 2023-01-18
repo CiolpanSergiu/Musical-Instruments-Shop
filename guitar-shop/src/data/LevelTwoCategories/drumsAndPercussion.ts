@@ -40,7 +40,7 @@ const drumsAndPercussionData = [
     src: "/images/category/LevelTwoCategories/DrumsAndPercussion/drum_sticks.jpg",
     alt: "Two drumsticks",
     title: "Drumsticks",
-    pageLink: "/drumsticks",
+    pageLink: "/sticks-for-drums-and-percussion",
     subcategories: drumSticksSubcategories,
   },
   {

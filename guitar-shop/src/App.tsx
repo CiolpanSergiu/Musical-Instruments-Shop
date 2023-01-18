@@ -8,10 +8,13 @@ import ShoppingCartPage from "./pages/MainPages/ShoppingCartPage";
 import LoginPage from "./pages/MainPages/LoginPage";
 import SinginPage from "./pages/MainPages/SinginPage";
 
-import guitarAndBassesRoutes from "./Routes/Categories/LevelFourRoutes/guitarAndBassesRoutes";
 import mainCategoryPagesRoutes from "./Routes/mainRoutes";
 
 import levelThreeCategoriesPages from "./Routes/Categories/levelThreeRoutes";
+
+import guitarAndBassesRoutes from "./Routes/Categories/LevelFourRoutes/guitarAndBassesRoutes";
+import drumsAndPercussionPageRoutes from "./Routes/Categories/LevelFourRoutes/drumsAndPercussionRoutes";
+
 import electricGuitarsShoppingPages from "./Routes/ShoppingPages/guitarAndBassesShoppingPageRoutes";
 
 export default function App() {
@@ -28,6 +31,7 @@ export default function App() {
       {mainCategoryPagesRoutes}
       {levelThreeCategoriesPages}
       {guitarAndBassesRoutes}
+      {drumsAndPercussionPageRoutes}
       {electricGuitarsShoppingPages}
     </Routes>
   );
