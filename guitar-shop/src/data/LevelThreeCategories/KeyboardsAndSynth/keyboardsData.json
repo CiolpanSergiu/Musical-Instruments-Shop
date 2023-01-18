@@ -1,8 +1,50 @@
 [
   {
-    "title": "",
-    "src": "",
-    "alt": "",
-    "pageLink": ""
+    "title": "Arranger Keyboards",
+    "src": "/images/category/LevelThreeCategories/KeyboardsAndSynth/Keyboards/arranger_keyboard.jpg",
+    "alt": "A keyboard with arranger",
+    "pageLink": "/arranger-keyboards"
+  },
+  {
+    "title": "Keyboard / Synthesizer Benches",
+    "src": "/images/category/LevelThreeCategories/KeyboardsAndSynth/Keyboards/keyboard_bench.jpg",
+    "alt": "A keyboard bench",
+    "pageLink": "/keyboard-benches"
+  },
+  {
+    "title": "Keyboard / Synthesizer Cover Bags",
+    "src": "/images/category/LevelThreeCategories/KeyboardsAndSynth/Keyboards/keyboard_cover_bag.jpg",
+    "alt": "A keyboard cover bag",
+    "pageLink": "/keyboard-cover-bags"
+  },
+  {
+    "title": "Keyboard / Synthesizer Cases",
+    "src": "/images/category/LevelThreeCategories/KeyboardsAndSynth/Keyboards/keyboard_case.jpg",
+    "alt": "A keyboard case",
+    "pageLink": "/keyboard-cases"
+  },
+  {
+    "title": "Keyboard / Synthesizer Expression Pedals",
+    "src": "/images/category/LevelThreeCategories/KeyboardsAndSynth/Keyboards/keyboard_expression_pedal.jpg",
+    "alt": "A keyboard expression pedal",
+    "pageLink": "/keyboard-expression-pedals"
+  },
+  {
+    "title": "Keyboard / Synthesizer Sustain Pedals",
+    "src": "/images/category/LevelThreeCategories/KeyboardsAndSynth/Keyboards/keyboard_sustain_pedal.jpg",
+    "alt": "A keyboard sustain pedal",
+    "pageLink": "/keyboard-sustain-pedals"
+  },
+  {
+    "title": "Keyboard / SynthesizerPower Supplies",
+    "src": "/images/category/LevelThreeCategories/KeyboardsAndSynth/Keyboards/keyboard_power_supply.jpg",
+    "alt": "A keyboard power supply",
+    "pageLink": "/keyboard-power-supplies"
+  },
+  {
+    "title": "Keyboard / Synthesizer Stands",
+    "src": "/images/category/LevelThreeCategories/KeyboardsAndSynth/Keyboards/keyboard_stand.jpg",
+    "alt": "A keyboard stand",
+    "pageLink": "/keyboard-stands"
   }
 ]
