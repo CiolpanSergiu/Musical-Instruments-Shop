@@ -1,8 +1,26 @@
 [
   {
-    "title": "",
-    "src": "",
-    "alt": "",
-    "pageLink": ""
+    "title": "Universal Instrument Microphones",
+    "src": "/images/category/LevelThreeCategories/Microphones/InstrumentMicrophones/instrument_microphone.jpg",
+    "alt": "A universal microphone for instruments",
+    "pageLink": "/universal-instrument-microphones"
+  },
+  {
+    "title": "Microphones for Drums",
+    "src": "/images/category/LevelThreeCategories/Microphones/InstrumentMicrophones/drums_microphone.jpg",
+    "alt": "A microphone for drums",
+    "pageLink": "/microphones-for-drums"
+  },
+  {
+    "title": "Microphones for Amplifiers",
+    "src": "/images/category/LevelThreeCategories/Microphones/InstrumentMicrophones/amplifier_microphone.jpg",
+    "alt": "A microphone for amplifiers",
+    "pageLink": "/microphones-for-amplifiers"
+  },
+  {
+    "title": "Microphones for Keyboards",
+    "src": "/images/category/LevelThreeCategories/Microphones/InstrumentMicrophones/keyboard_microphone.jpg",
+    "alt": "A microphone for keyboards",
+    "pageLink": "/microphones-for-keyboards"
   }
 ]
