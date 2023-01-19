@@ -1,0 +1,20 @@
+[
+  {
+    "title": "Multi Effect Processors",
+    "src": "/images/category/LevelThreeCategories/StudioAndRecording/ProcessorsAndEffects/multi_effect_processor.jpg",
+    "alt": "A multieffect processor",
+    "pageLink": "/multi-effect-processors"
+  },
+  {
+    "title": "Compressors",
+    "src": "/images/category/LevelThreeCategories/StudioAndRecording/ProcessorsAndEffects/compressor.jpg",
+    "alt": "A comporessor",
+    "pageLink": "/compressors"
+  },
+  {
+    "title": "Parametric Equalizers",
+    "src": "/images/category/LevelThreeCategories/StudioAndRecording/ProcessorsAndEffects/parametric_equalizer.jpg",
+    "alt": "A Klark Teknik EQP-KT",
+    "pageLink": "/parametric_equalizers"
+  }
+]

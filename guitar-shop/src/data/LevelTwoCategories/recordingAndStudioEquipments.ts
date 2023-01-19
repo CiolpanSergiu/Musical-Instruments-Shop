@@ -1,4 +1,9 @@
-import electricGuitarSubcategories from "../LevelThreeCategories/GuitarsAndBasses/electricGuitarsData.json";
+import audioInterfacesSubcategories from "../LevelThreeCategories/StudioAndRecording/audioInterfacesData.json";
+import audioControllersSubcategories from "../LevelThreeCategories/StudioAndRecording/audioControllersData.json";
+import midiEquimpentsSubcategories from "../LevelThreeCategories/StudioAndRecording/midiEquipmentsData.json";
+import studioMonitorsSubcategories from "../LevelThreeCategories/StudioAndRecording/studioMonitorsData.json";
+import processorsAndEffectsSubcategories from "../LevelThreeCategories/StudioAndRecording/processorsAndEffectsData.json";
+import microphonesSubcategories from "./microphones";
 
 const recordingAndStudioData = [
   {
@@ -6,77 +11,72 @@ const recordingAndStudioData = [
     alt: "A red audio interface box",
     title: "Audio Interfaces",
     pageLink: "/audio-interfaces",
-    subcategories: electricGuitarSubcategories,
+    subcategories: audioInterfacesSubcategories,
   },
   {
     src: "/images/category/LevelTwoCategories/RecordingAndStudio/preamplifier.jpg",
     alt: "A preamplifier",
     title: "Preamplifiers",
     pageLink: "/preamplifiers",
-    subcategories: electricGuitarSubcategories,
   },
   {
     src: "/images/category/LevelTwoCategories/RecordingAndStudio/digital_mixer.jpg",
     alt: "A digital mixer",
     title: "Digital Mixers",
     pageLink: "/digital-mixers",
-    subcategories: electricGuitarSubcategories,
   },
   {
     src: "/images/category/LevelTwoCategories/RecordingAndStudio/analog_mixer.jpg",
     alt: "An analog mixer",
     title: "Analog Mixers",
     pageLink: "/analog-mixers",
-    subcategories: electricGuitarSubcategories,
   },
   {
     src: "/images/category/LevelTwoCategories/RecordingAndStudio/digital_converter.jpg",
     alt: "A digital converter",
     title: "Digital Converters",
     pageLink: "/digital-converters",
-    subcategories: electricGuitarSubcategories,
   },
   {
     src: "/images/category/LevelTwoCategories/RecordingAndStudio/digital_recorder.jpg",
     alt: "A digital recorder",
     title: "Digital Recorders",
     pageLink: "/digital-recorders",
-    subcategories: electricGuitarSubcategories,
   },
   {
     src: "/images/category/LevelTwoCategories/RecordingAndStudio/audio_controllers.jpg",
     alt: "An audio controller",
     title: "Audio Controllers",
     pageLink: "/audio-controllers",
-    subcategories: electricGuitarSubcategories,
+    subcategories: audioControllersSubcategories,
   },
   {
     src: "/images/category/LevelTwoCategories/RecordingAndStudio/midi_cable.jpg",
     alt: "A midi cable",
     title: "MIDI Equipments",
     pageLink: "/midi-equipments",
-    subcategories: electricGuitarSubcategories,
+    subcategories: midiEquimpentsSubcategories,
   },
   {
     src: "/images/category/LevelTwoCategories/RecordingAndStudio/studio_monitor.jpg",
     alt: "A studio monitor",
     title: "Studio Monitors",
     pageLink: "/studio-monitors",
-    subcategories: electricGuitarSubcategories,
+    subcategories: studioMonitorsSubcategories,
   },
   {
     src: "/images/category/LevelTwoCategories/RecordingAndStudio/stereo_microphone.jpg",
     alt: "A stereo microphone",
-    title: "Stereo Microphones",
-    pageLink: "/stereo-microphones-recording-and-studio",
-    subcategories: electricGuitarSubcategories,
+    title: "Microphones",
+    pageLink: "/microphones",
+    subcategories: microphonesSubcategories,
   },
   {
     src: "/images/category/LevelTwoCategories/RecordingAndStudio/multieffect_processor.jpg",
     alt: "A multieffect processor box",
-    title: "Multi Effect Processors",
-    pageLink: "/multi-effect-processors",
-    subcategories: electricGuitarSubcategories,
+    title: "Processors and Effects",
+    pageLink: "/processors-and-effects",
+    subcategories: processorsAndEffectsSubcategories,
   },
 ];
 
