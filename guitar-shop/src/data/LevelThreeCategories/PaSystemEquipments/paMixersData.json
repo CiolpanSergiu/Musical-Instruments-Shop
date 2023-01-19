@@ -1,8 +1,20 @@
 [
   {
-    "title": "",
-    "src": "",
-    "alt": "",
-    "pageLink": ""
+    "title": "Analog Mixers",
+    "src": "/images/category/LevelThreeCategories/PaSystems/PaMixers/analog_mixer.jpg",
+    "alt": "An analog mixer",
+    "pageLink": "/analog-mixers"
+  },
+  {
+    "title": "Digital Mixers",
+    "src": "/images/category/LevelThreeCategories/PaSystems/PaMixers/digital_mixer.jpg",
+    "alt": "A digital mixer",
+    "pageLink": "/digital-mixers"
+  },
+  {
+    "title": "Mixer with Amplifiers",
+    "src": "/images/category/LevelThreeCategories/PaSystems/PaMixers/mixer_amplifier.jpg",
+    "alt": "A mixer with amplifier",
+    "pageLink": "/mixer-with-amplifiers"
   }
 ]

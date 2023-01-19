@@ -1,4 +1,9 @@
-import electricGuitarSubcategories from "../LevelThreeCategories/GuitarsAndBasses/electricGuitarsData.json";
+import speakerSubcategories from "../LevelThreeCategories/PaSystemEquipments/speakersData.json";
+import speakerStandsSubcategories from "../LevelThreeCategories/PaSystemEquipments/speakerStandsData.json";
+import paMixersSubcategories from "../LevelThreeCategories/PaSystemEquipments/paMixersData.json";
+import microphonesSubcategories from "../LevelThreeCategories/PaSystemEquipments/microphonesForPaData.json";
+import cablesSubcategories from "../LevelThreeCategories/PaSystemEquipments/paCablesData.json";
+import connectorsAndJacksSubcategories from "../LevelThreeCategories/PaSystemEquipments/connectorsAndJacksData";
 
 const paSystemEquipmentsData = [
   {
@@ -6,56 +11,54 @@ const paSystemEquipmentsData = [
     alt: "A full PA System",
     title: "Complete PA Systems",
     pageLink: "/complete-pa-systems",
-    subcategories: electricGuitarSubcategories,
   },
   {
     src: "/images/category/LevelTwoCategories/PaSystems/speaker.jpg",
     alt: "A huge speaker with lights of different colors",
     title: "Speakers",
     pageLink: "/speakers",
-    subcategories: electricGuitarSubcategories,
+    subcategories: speakerSubcategories,
   },
   {
     src: "/images/category/LevelTwoCategories/PaSystems/speaker_stand.jpg",
     alt: "A stand for speakers",
     title: "Speaker Stands",
     pageLink: "/speaker-stands",
-    subcategories: electricGuitarSubcategories,
+    subcategories: speakerStandsSubcategories,
   },
   {
     src: "/images/category/LevelTwoCategories/PaSystems/pa_mixer.jpg",
     alt: "A PA mixer",
     title: "PA mixers",
     pageLink: "/pa-mixers",
-    subcategories: electricGuitarSubcategories,
+    subcategories: paMixersSubcategories,
   },
   {
     src: "/images/category/LevelTwoCategories/PaSystems/pa_amplifier.jpg",
     alt: "An amplifier for PA Systems",
-    title: "PA amplifiers",
-    pageLink: "/pa-amplifiers",
-    subcategories: electricGuitarSubcategories,
+    title: "Power Amplifiers",
+    pageLink: "/power-amplifiers",
   },
   {
     src: "/images/category/LevelTwoCategories/Microphones/vocal_microphone.jpg",
     alt: "A microphone",
-    title: "Vocal Microphones for PA",
-    pageLink: "/vocal-microphones-for-pa",
-    subcategories: electricGuitarSubcategories,
+    title: "Microphones",
+    pageLink: "/microphones-for-pa",
+    subcategories: microphonesSubcategories,
   },
   {
     src: "/images/category/LevelTwoCategories/PaSystems/cables.jpg",
     alt: "A guitar cable",
     title: "Cables",
     pageLink: "/cables-pa",
-    subcategories: electricGuitarSubcategories,
+    subcategories: cablesSubcategories,
   },
   {
     src: "/images/category/LevelTwoCategories/PaSystems/adapters_and_jacks.jpg",
     alt: "A jack adapter",
-    title: "Adapters and Jacks",
-    pageLink: "/adapters-and-jacks",
-    subcategories: electricGuitarSubcategories,
+    title: "Connectors and Jacks",
+    pageLink: "/connectors-and-jacks",
+    subcategories: connectorsAndJacksSubcategories,
   },
 ];
 

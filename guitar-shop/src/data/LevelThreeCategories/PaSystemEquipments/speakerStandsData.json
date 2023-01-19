@@ -1,8 +1,20 @@
 [
   {
-    "title": "",
-    "src": "",
-    "alt": "",
-    "pageLink": ""
+    "title": "Microphone Stands",
+    "src": "/images/category/LevelThreeCategories/PaSystems/Stands/microphone_stand.jpg",
+    "alt": "A stand for microphones",
+    "pageLink": "/microphones-stands"
+  },
+  {
+    "title": "Speaker Stands",
+    "src": "/images/category/LevelThreeCategories/PaSystems/Stands/speaker_stand.jpg",
+    "alt": "A stand for speakers",
+    "pageLink": "/speakers-stands"
+  },
+  {
+    "title": "Mixer Stands",
+    "src": "/images/category/LevelThreeCategories/PaSystems/Stands/mixer_stand.jpg",
+    "alt": "A stand for mixers",
+    "pageLink": "/mixers-stand"
   }
 ]
