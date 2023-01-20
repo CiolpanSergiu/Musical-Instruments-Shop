@@ -1,4 +1,6 @@
-import electricGuitarSubcategories from "../LevelThreeCategories/GuitarsAndBasses/electricGuitarsData.json";
+import accordionsSubcategories from "../LevelThreeCategories/TraditionalInstruments/accordionsData.json";
+import folkInstrumentsSubcategories from "../LevelThreeCategories/TraditionalInstruments/folkInstrumentsData.json";
+import stringedInstrumentsSubcategories from "../LevelThreeCategories/TraditionalInstruments/stringedInstrumentsData";
 
 const traditionalInstrumentsData = [
   {
@@ -6,21 +8,21 @@ const traditionalInstrumentsData = [
     alt: "A double bass",
     title: "Stringed Instruments",
     pageLink: "/stringed-instruments",
-    subcategories: electricGuitarSubcategories,
+    subcategories: stringedInstrumentsSubcategories,
   },
   {
     src: "/images/category/LevelTwoCategories/TraditionalInstruments/mandoline.jpg",
     alt: "A mandoline",
     title: "Folk Instruments",
     pageLink: "/fold-instruments",
-    subcategories: electricGuitarSubcategories,
+    subcategories: folkInstrumentsSubcategories,
   },
   {
     src: "/images/category/LevelTwoCategories/TraditionalInstruments/accordion.jpg",
     alt: "A black accordion",
     title: "Accordions",
     pageLink: "/accordions",
-    subcategories: electricGuitarSubcategories,
+    subcategories: accordionsSubcategories,
   },
 ];
 
