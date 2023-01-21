@@ -8,18 +8,12 @@ import ShoppingCartPage from "./pages/MainPages/ShoppingCartPage";
 import LoginPage from "./pages/MainPages/LoginPage";
 import SinginPage from "./pages/MainPages/SinginPage";
 // level two categories
-import mainCategoryPagesRoutes from "./Routes/mainRoutes";
-// level three categories
-import levelThreeCategoriesPages from "./Routes/CategoryLevels/levelThreeRoutes";
-// level four categories
-import guitarAndBassesRoutes from "./Routes/CategoryLevels/LevelFourRoutes/guitarAndBassesRoutes";
-import drumsAndPercussionPageRoutes from "./Routes/CategoryLevels/LevelFourRoutes/drumsAndPercussionRoutes";
-import instrumentStandsPageRoutes from "./Routes/CategoryLevels/LevelFourRoutes/accesoriesRoutes";
-import paSystemsPageRoutes from "./Routes/CategoryLevels/LevelFourRoutes/paSystems";
-import traditionalInstrumentsPageRoutes from "./Routes/CategoryLevels/LevelFourRoutes/traditionalInstrumentsRoutes";
-
-// level five categories
-import traditionalInstrumentsStringsPageRoutes from "./Routes/CategoryLevels/LevelFive/traditionalInstrumentsStringsPageRoutes";
+import {
+  levelTwoCategoryPages,
+  levelThreeCategoryPages,
+  levelFourCategoryPages,
+  levelFiveCategoryPages,
+} from "./Routes/categoryPagesRoutes";
 
 import electricGuitarsShoppingPages from "./Routes/ShoppingPages/guitarAndBassesShoppingPageRoutes";
 
@@ -34,14 +28,10 @@ export default function App() {
       <Route path="/login" element={<LoginPage />}></Route>
       <Route path="/shopping-cart" element={<ShoppingCartPage />}></Route>
 
-      {mainCategoryPagesRoutes}
-      {levelThreeCategoriesPages}
-      {guitarAndBassesRoutes}
-      {drumsAndPercussionPageRoutes}
-      {instrumentStandsPageRoutes}
-      {paSystemsPageRoutes}
-      {traditionalInstrumentsPageRoutes}
-      {traditionalInstrumentsStringsPageRoutes}
+      {levelTwoCategoryPages}
+      {levelThreeCategoryPages}
+      {levelFourCategoryPages}
+      {levelFiveCategoryPages}
       {electricGuitarsShoppingPages}
     </Routes>
   );

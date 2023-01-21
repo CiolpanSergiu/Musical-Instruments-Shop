@@ -1,6 +1,5 @@
 import { Route } from "react-router-dom";
 import InstrumentCategoryPage from "../pages/CategoryPages/InstrumentCategoryPage";
-import InstrumentSubcategoryPage from "../pages/SubcategoryPages/InstrumentSubcategoryPage";
 import ShoppingPage from "../pages/ShoppingPages/ShoppingPage";
 import { nanoid } from "nanoid";
 
@@ -27,7 +26,7 @@ type Category = {
   subcategories?: Subcategories;
 };
 
-export function createMainCategoryPages(data: Category[]) {
+export function createCategoryPages(data: Category[]) {
   return data.map((category: Category) => {
     return (
       <Route
@@ -43,41 +42,6 @@ export function createMainCategoryPages(data: Category[]) {
       ></Route>
     );
   });
-}
-
-//same function as above but it return a different component
-export function createCategoryPages(
-  data: any,
-  haveRecommendedItemsSlider: boolean,
-  havePopularItemsSlider: boolean,
-  haveBrandsSlider: boolean
-) {
-  return data.map(
-    (category: {
-      pageLink: string;
-      title: string;
-      subcategories: Subcategories;
-    }) => {
-      if (category.hasOwnProperty("subcategories")) {
-        return (
-          <Route
-            key={nanoid()}
-            path={category.pageLink}
-            element={
-              <InstrumentSubcategoryPage
-                pageTitle={category.title}
-                brandsSliderTitle={`Popular ${category.title} brands`}
-                data={category.subcategories || data}
-                haveRecommendedItemsSlider={haveRecommendedItemsSlider}
-                havePopularItemsSlider={havePopularItemsSlider}
-                haveBrandsSlider={haveBrandsSlider}
-              />
-            }
-          ></Route>
-        );
-      }
-    }
-  );
 }
 
 type ItemsData = {
