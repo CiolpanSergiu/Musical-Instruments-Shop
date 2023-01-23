@@ -21,14 +21,9 @@ type Props = {
     pageLink: string;
   }[];
   pageTitle: string;
-  brandsSliderTitle: string;
 };
 
-export default function InstrumentCategoryPage({
-  data,
-  pageTitle,
-  brandsSliderTitle,
-}: Props) {
+export default function InstrumentCategoryPage({ data, pageTitle }: Props) {
   return (
     <>
       <Navbar />
@@ -36,7 +31,7 @@ export default function InstrumentCategoryPage({
         <SubcategoryCardsContainer data={data} pageTitle={pageTitle} />
         <SimpleSlider cardsData={Data} header="Recommended to beginners" />
         <SimpleSlider cardsData={Data} header="Popular Items" />
-        <BrandsSlider title={brandsSliderTitle} />
+        <BrandsSlider title={`Popular ${pageTitle} brands`} />
       </Container>
       <Footer marginTop="5rem" />
     </>

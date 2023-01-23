@@ -1,20 +1,35 @@
 import instrumentsCategoryData from "../data/mainCategory";
 import { createCategoryPages } from "./createPageFunctions";
 
-function getDeeperLevelSubcategories(data: any) {
-  return data
-    .filter((category: any) => {
-      return category.hasOwnProperty("subcategories");
-    })
-    .map((category: any) => {
-      return category.subcategories;
-    })
-    .flat(1);
+type Category = {
+  title: string;
+  src: string;
+  alt: string;
+  pageLink: string;
+  subcategories: {
+    src: string;
+    alt: string;
+    title: string;
+    pageLink: string;
+  }[];
+};
+
+function getDeeperLevelSubcategories(data: unknown) {
+  if (Array.isArray(data)) {
+    return data
+      .filter((category: boolean) => {
+        return category.hasOwnProperty("subcategories");
+      })
+      .map((category: Category) => {
+        return category.subcategories;
+      })
+      .flat(1);
+  }
 }
 
 const levelTwoSubcategoriesData = getDeeperLevelSubcategories(
   instrumentsCategoryData
-);
+)?.filter((category) => category.hasOwnProperty("subcategories"));
 
 const levelThreeSubcategoriesData = getDeeperLevelSubcategories(
   getDeeperLevelSubcategories(levelTwoSubcategoriesData)
