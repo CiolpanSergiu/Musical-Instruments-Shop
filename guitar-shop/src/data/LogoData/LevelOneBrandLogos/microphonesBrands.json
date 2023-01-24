@@ -1,0 +1,116 @@
+[
+  {
+    "brandName": "shure",
+    "src": "/images/brandLogos/BrandsForMultipleCategories/shure_logo.jpg",
+    "alt": "SHURE logo",
+    "pageLink": "/"
+  },
+  {
+    "brandName": "sennheiser",
+    "src": "/images/brandLogos/BrandsForMultipleCategories/sennheiser_logo.jpg",
+    "alt": "Sennheiser logo",
+    "pageLink": "/"
+  },
+  {
+    "brandName": "akg",
+    "src": "/images/brandLogos/BrandsForMultipleCategories/akg_logo.jpg",
+    "alt": "AKG logo",
+    "pageLink": "/"
+  },
+  {
+    "brandName": "aston microphones",
+    "src": "/images/brandLogos/Microphones/aston_microphones_logo.jpg",
+    "alt": "Aston Microphones logo",
+    "pageLink": "/"
+  },
+  {
+    "brandName": "audix",
+    "src": "/images/brandLogos/Microphones/audix_logo.jpg",
+    "alt": "Audix logo",
+    "pageLink": "/"
+  },
+  {
+    "brandName": "austrian audio",
+    "src": "/images/brandLogos/Microphones/austrian_audio_logo.jpg",
+    "alt": "Austrian Audio logo",
+    "pageLink": "/"
+  },
+  {
+    "brandName": "dpa",
+    "src": "/images/brandLogos/Microphones/dpa_logo.jpg",
+    "alt": "DPA logo",
+    "pageLink": "/"
+  },
+  {
+    "brandName": "lewitt",
+    "src": "/images/brandLogos/Microphones/lewitt_logo.jpg",
+    "alt": "Lewitt logo",
+    "pageLink": "/"
+  },
+  {
+    "brandName": "mxl",
+    "src": "/images/brandLogos/Microphones/mxl_logo.jpg",
+    "alt": "Mxl logo",
+    "pageLink": "/"
+  },
+  {
+    "brandName": "neumann",
+    "src": "/images/brandLogos/BrandsForMultipleCategories/neumann_logo.jpg",
+    "alt": "Neumann logo",
+    "pageLink": "/"
+  },
+  {
+    "brandName": "pauly",
+    "src": "/images/brandLogos/Microphones/pauly_logo.jpg",
+    "alt": "Pauly logo",
+    "pageLink": "/"
+  },
+  {
+    "brandName": "rode",
+    "src": "/images/brandLogos/BrandsForMultipleCategories/rode_logo.jpg",
+    "alt": "Rode logo",
+    "pageLink": "/"
+  },
+  {
+    "brandName": "rycote",
+    "src": "/images/brandLogos/Microphones/rycote_logo.jpg",
+    "alt": "Rycote logo",
+    "pageLink": "/"
+  },
+  {
+    "brandName": "schoeps",
+    "src": "/images/brandLogos/BrandsForMultipleCategories/schoeps_logo.jpg",
+    "alt": "Schoeps logo",
+    "pageLink": "/"
+  },
+  {
+    "brandName": "se electronics",
+    "src": "/images/brandLogos/Microphones/se_electronics_logo.jpg",
+    "alt": "Se Electronics logo",
+    "pageLink": "/"
+  },
+  {
+    "brandName": "sontronics",
+    "src": "/images/brandLogos/Microphones/sontronics_logo.jpg",
+    "alt": "Sontronics logo",
+    "pageLink": "/"
+  },
+  {
+    "brandName": "telefunken",
+    "src": "/images/brandLogos/Microphones/telefunken_logo.jpg",
+    "alt": "Telefunken logo",
+    "pageLink": "/"
+  },
+  {
+    "brandName": "the t.bone",
+    "src": "/images/brandLogos/BrandsForMultipleCategories/the_tbone_logo.jpg",
+    "alt": "The t.bone logo",
+    "pageLink": "/"
+  },
+  {
+    "brandName": "xvive",
+    "src": "/images/brandLogos/Microphones/xvive_logo.jpg",
+    "alt": "Xvive logo",
+    "pageLink": "/"
+  }
+]

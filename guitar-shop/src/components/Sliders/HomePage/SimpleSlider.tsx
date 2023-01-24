@@ -1,5 +1,5 @@
 import styled from "styled-components";
-import DetailedCard from "./DetailedCard";
+import SliderDetailedCard from "./SliderDetailedCard";
 import Slider from "react-slick";
 import { nanoid } from "nanoid";
 import SliderDescription from "../SliderDescription";
@@ -20,26 +20,33 @@ const Header2 = styled.h2`
   }
 `;
 
+type Data = {
+  src: string;
+  alt: string;
+  title: string;
+  pageLink: string;
+  price: number;
+  totalReviews: number;
+  rating: number;
+};
+
 type Props = {
-  cardsData: { src: string; alt: string; title: string; pageLink: string }[];
+  data: Data[];
   header: string;
   descriptionData?: { title: string; subtitle: string; description: string[] };
 };
 
-export default function SimpleSlider({
-  cardsData,
-  header,
-  descriptionData,
-}: Props) {
-  const sliderElements = cardsData.map((item: any) => (
-    <DetailedCard
+export default function SimpleSlider({ data, header, descriptionData }: Props) {
+  const sliderElements = data.map((item: Data) => (
+    <SliderDetailedCard
       key={nanoid()}
-      imgSrc={item.src}
+      src={item.src}
       alt={item.alt}
       title={item.title}
       pageLink={item.pageLink}
-      width={64}
-      height={64}
+      price={item.price}
+      totalReviews={item.totalReviews}
+      rating={item.rating}
     />
   ));
 

@@ -16,6 +16,7 @@ export function createCategoryPages(data: unknown) {
             <InstrumentCategoryPage
               data={category.subcategories}
               pageTitle={category.title}
+              itemsBrands={category.brands}
             />
           }
         ></Route>

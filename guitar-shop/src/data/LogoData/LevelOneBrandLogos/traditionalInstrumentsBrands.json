@@ -1,0 +1,110 @@
+[
+  {
+    "brandName": "adams",
+    "src": "/images/brandLogos/BrandsForMultipleCategories/adams_logo.jpg",
+    "alt": "Adams logo",
+    "pageLink": "/"
+  },
+  {
+    "brandName": "gewa",
+    "src": "/images/brandLogos/BrandsForMultipleCategories/gewa_logo.jpg",
+    "alt": "GEWA logo",
+    "pageLink": "/"
+  },
+  {
+    "brandName": "artino",
+    "src": "/images/brandLogos/TraditionalInstruments/artino_logo.jpg",
+    "alt": "Artino logo",
+    "pageLink": "/"
+  },
+  {
+    "brandName": "bam",
+    "src": "/images/brandLogos/TraditionalInstruments/bam_logo.jpg",
+    "alt": "Bam logo",
+    "pageLink": "/"
+  },
+  {
+    "brandName": "bergerault",
+    "src": "/images/brandLogos/TraditionalInstruments/bergerault_logo.jpg",
+    "alt": "Bergerault logo",
+    "pageLink": "/"
+  },
+  {
+    "brandName": "bow brand",
+    "src": "/images/brandLogos/TraditionalInstruments/bow_brand_logo.jpg",
+    "alt": "Bow Brands logo",
+    "pageLink": "/"
+  },
+  {
+    "brandName": "conrad goetz",
+    "src": "/images/brandLogos/TraditionalInstruments/conrad_goetz_logo.jpg",
+    "alt": "Conrad logo",
+    "pageLink": "/"
+  },
+  {
+    "brandName": "goldon",
+    "src": "/images/brandLogos/TraditionalInstruments/goldon_logo.jpg",
+    "alt": "Goldon logo",
+    "pageLink": "/"
+  },
+  {
+    "brandName": "kun",
+    "src": "/images/brandLogos/TraditionalInstruments/kun_logo.jpg",
+    "alt": "Kun logo",
+    "pageLink": "/"
+  },
+  {
+    "brandName": "larsen",
+    "src": "/images/brandLogos/TraditionalInstruments/larsen_logo.jpg",
+    "alt": "Larsen logo",
+    "pageLink": "/"
+  },
+  {
+    "brandName": "lefima",
+    "src": "/images/brandLogos/TraditionalInstruments/lefima_logo.jpg",
+    "alt": "Lefima logo",
+    "pageLink": "/"
+  },
+  {
+    "brandName": "peter hess",
+    "src": "/images/brandLogos/TraditionalInstruments/peter_hess_logo.jpg",
+    "alt": "Peter Hess logo",
+    "pageLink": "/"
+  },
+  {
+    "brandName": "pirastro",
+    "src": "/images/brandLogos/TraditionalInstruments/pirastro_logo.jpg",
+    "alt": "Pirastro logo",
+    "pageLink": "/"
+  },
+  {
+    "brandName": "roth & junius",
+    "src": "/images/brandLogos/TraditionalInstruments/roth_junius_logo.jpg",
+    "alt": "Roth and Junius logo",
+    "pageLink": "/"
+  },
+  {
+    "brandName": "salvi",
+    "src": "/images/brandLogos/TraditionalInstruments/salvi_logo.jpg",
+    "alt": "Salvi logo",
+    "pageLink": "/"
+  },
+  {
+    "brandName": "stentor",
+    "src": "/images/brandLogos/TraditionalInstruments/stentor_logo.jpg",
+    "alt": "Stentor logo",
+    "pageLink": "/"
+  },
+  {
+    "brandName": "tfa",
+    "src": "/images/brandLogos/TraditionalInstruments/tfa_logo.jpg",
+    "alt": "Tfa logo",
+    "pageLink": "/"
+  },
+  {
+    "brandName": "thomastik",
+    "src": "/images/brandLogos/TraditionalInstruments/thomastik_logo.jpg",
+    "alt": "Thomastik logo",
+    "pageLink": "/"
+  }
+]

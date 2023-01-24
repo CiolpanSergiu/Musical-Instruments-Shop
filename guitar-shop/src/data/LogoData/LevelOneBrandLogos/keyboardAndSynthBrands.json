@@ -1,0 +1,110 @@
+[
+  {
+    "brandName": "kawai",
+    "src": "/images/brandLogos/BrandsForMultipleCategories/kawai_logo.jpg",
+    "alt": "KAWAI logo",
+    "pageLink": "/"
+  },
+  {
+    "brandName": "korg",
+    "src": "/images/brandLogos/BrandsForMultipleCategories/korg_logo.jpg",
+    "alt": "KORG logo",
+    "pageLink": "/"
+  },
+  {
+    "brandName": "roland",
+    "src": "/images/brandLogos/BrandsForMultipleCategories/roland_logo.jpg",
+    "alt": "Roland logo",
+    "pageLink": "/"
+  },
+  {
+    "brandName": "yamaha",
+    "src": "/images/brandLogos/BrandsForMultipleCategories/yamaha_logo.jpg",
+    "alt": "Yamaha logo",
+    "pageLink": "/"
+  },
+  {
+    "brandName": "4ms",
+    "src": "/images/brandLogos/KeyboardAndSynth/4ms_logo.jpg",
+    "alt": "4MS logo",
+    "pageLink": "/"
+  },
+  {
+    "brandName": "addac",
+    "src": "/images/brandLogos/KeyboardAndSynth/addac_logo.jpg",
+    "alt": "Addac logo",
+    "pageLink": "/"
+  },
+  {
+    "brandName": "casio",
+    "src": "/images/brandLogos/KeyboardAndSynth/casio_logo.jpg",
+    "alt": "Casio logo",
+    "pageLink": "/"
+  },
+  {
+    "brandName": "clavia nord",
+    "src": "/images/brandLogos/KeyboardAndSynth/clavia_nord_logo.jpg",
+    "alt": "Clavia Nord logo",
+    "pageLink": "/"
+  },
+  {
+    "brandName": "doepfer",
+    "src": "/images/brandLogos/KeyboardAndSynth/doepfer_logo.jpg",
+    "alt": "Doepfer logo",
+    "pageLink": "/"
+  },
+  {
+    "brandName": "expert sleepers",
+    "src": "/images/brandLogos/KeyboardAndSynth/expert_sleepers_logo.jpg",
+    "alt": "Expert Sleepers logo",
+    "pageLink": "/"
+  },
+  {
+    "brandName": "hammond",
+    "src": "/images/brandLogos/KeyboardAndSynth/hammond_logo.jpg",
+    "alt": "Hammod logo",
+    "pageLink": "/"
+  },
+  {
+    "brandName": "intellijel designs",
+    "src": "/images/brandLogos/KeyboardAndSynth/intellijel_designs_logo.jpg",
+    "alt": "Intellijel logo",
+    "pageLink": "/"
+  },
+  {
+    "brandName": "make noise",
+    "src": "/images/brandLogos/KeyboardAndSynth/make_noise_logo.jpg",
+    "alt": "Make Noise logo",
+    "pageLink": "/"
+  },
+  {
+    "brandName": "moog",
+    "src": "/images/brandLogos/KeyboardAndSynth/moog_logo.jpg",
+    "alt": "Moog logo",
+    "pageLink": "/"
+  },
+  {
+    "brandName": "tiptop audio",
+    "src": "/images/brandLogos/KeyboardAndSynth/tiptop_audio_logo.jpg",
+    "alt": "Tiptop Audio logo",
+    "pageLink": "/"
+  },
+  {
+    "brandName": "viscount",
+    "src": "/images/brandLogos/KeyboardAndSynth/viscount_logo.jpg",
+    "alt": "Viscount logo",
+    "pageLink": "/"
+  },
+  {
+    "brandName": "waldorf",
+    "src": "/images/brandLogos/KeyboardAndSynth/waldorf_logo.jpg",
+    "alt": "Waldorf logo",
+    "pageLink": "/"
+  },
+  {
+    "brandName": "xaoc devices",
+    "src": "/images/brandLogos/KeyboardAndSynth/xaoc_devices_logo.jpg",
+    "alt": "Xaoc Devices logo",
+    "pageLink": "/"
+  }
+]

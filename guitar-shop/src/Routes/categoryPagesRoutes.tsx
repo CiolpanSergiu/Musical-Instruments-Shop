@@ -1,4 +1,4 @@
-import instrumentsCategoryData from "../data/mainCategory";
+import instrumentsCategoryData from "../data/LevelOneCategories/mainCategory";
 import { createCategoryPages } from "./createPageFunctions";
 
 type Category = {

@@ -1,13 +1,8 @@
-import data from "../../../data/mainCategory.js";
 import BrandCard from "./BrandCard";
 import { nanoid } from "nanoid";
 import "../../../styles/SliderStyles/SliderStyle.scss";
 import Slider from "react-slick";
 import styled from "styled-components";
-
-const sliderCards = data.map((item) => (
-  <BrandCard key={nanoid()} src={item.src} alt={item.alt} />
-));
 
 function SampleNextArrow(props: any) {
   const { className, style, onClick } = props;
@@ -45,11 +40,27 @@ const Header2 = styled.h2`
   }
 `;
 
-type Props = {
-  title: string;
+type Data = {
+  brandName: string;
+  src: string;
+  alt: string;
+  pageLink: string;
 };
 
-export default function BrandsSlider({ title }: Props) {
+type DataArray = Data[];
+
+type Props = {
+  title: string;
+  data: DataArray;
+};
+
+function getCardsRow(data: DataArray) {
+  return data.map((item) => (
+    <BrandCard key={nanoid()} src={item.src} alt={item.alt} />
+  ));
+}
+
+export default function BrandsSlider({ title, data }: Props) {
   const settings = {
     className: "center",
     centerMode: true,
@@ -122,12 +133,17 @@ export default function BrandsSlider({ title }: Props) {
     ],
   };
 
+  const halfOfDataLength = data.length / 2;
+
+  const sliderRowOneCards = getCardsRow(data).slice(0, halfOfDataLength);
+  const sliderRowTwoCards = getCardsRow(data).slice(halfOfDataLength);
+
   return (
     <div className="slider-section-container" style={{ width: "90vw" }}>
       <Header2>{title}</Header2>
       <Slider {...settings}>
-        {sliderCards}
-        {sliderCards}
+        {sliderRowOneCards}
+        {sliderRowTwoCards}
       </Slider>
     </div>
   );

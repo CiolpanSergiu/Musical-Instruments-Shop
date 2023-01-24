@@ -1,0 +1,98 @@
+[
+  {
+    "brandName": "millenium",
+    "src": "/images/brandLogos/BrandsForMultipleCategories/millenium_logo.jpg",
+    "alt": "Millenium logo",
+    "pageLink": "/"
+  },
+  {
+    "brandName": "pearl",
+    "src": "/images/brandLogos/DrumsAndPercussion/pearl_logo.jpg",
+    "alt": "Pearl logo",
+    "pageLink": "/"
+  },
+  {
+    "brandName": "roland",
+    "src": "/images/brandLogos/BrandsForMultipleCategories/roland_logo.jpg",
+    "alt": "Roland logo",
+    "pageLink": "/"
+  },
+  {
+    "brandName": "sabian",
+    "src": "/images/brandLogos/DrumsAndPercussion/sabian_logo.jpg",
+    "alt": "Sabian logo",
+    "pageLink": "/"
+  },
+  {
+    "brandName": "zultan",
+    "src": "/images/brandLogos/DrumsAndPercussion/zultan_logo.jpg",
+    "alt": "Zultan logo",
+    "pageLink": "/"
+  },
+  {
+    "brandName": "adams",
+    "src": "/images/brandLogos/BrandsForMultipleCategories/adams_logo.jpg",
+    "alt": "Adams logo",
+    "pageLink": "/"
+  },
+  {
+    "brandName": "dw",
+    "src": "/images/brandLogos/DrumsAndPercussion/dw_logo.jpg",
+    "alt": "DW logo",
+    "pageLink": "/"
+  },
+  {
+    "brandName": "evans",
+    "src": "/images/brandLogos/DrumsAndPercussion/evans_logo.jpg",
+    "alt": "Evans logo",
+    "pageLink": "/"
+  },
+  {
+    "brandName": "gibraltar",
+    "src": "/images/brandLogos/DrumsAndPercussion/gibraltar_logo.jpg",
+    "alt": "Gibraltar logo",
+    "pageLink": "/"
+  },
+  {
+    "brandName": "gretsch drums",
+    "src": "/images/brandLogos/DrumsAndPercussion/gretsch_drums_logo.jpg",
+    "alt": "Gretshc Drums logo",
+    "pageLink": "/"
+  },
+  {
+    "brandName": "meinl",
+    "src": "/images/brandLogos/DrumsAndPercussion/meinl_logo.jpg",
+    "alt": "Meinl logo",
+    "pageLink": "/"
+  },
+  {
+    "brandName": "paiste",
+    "src": "/images/brandLogos/DrumsAndPercussion/paiste_logo.jpg",
+    "alt": "Paiste logo",
+    "pageLink": "/"
+  },
+  {
+    "brandName": "remo",
+    "src": "/images/brandLogos/DrumsAndPercussion/remo_logo.jpg",
+    "alt": "Remo logo",
+    "pageLink": "/"
+  },
+  {
+    "brandName": "sela",
+    "src": "/images/brandLogos/DrumsAndPercussion/sela_logo.jpg",
+    "alt": "Sela logo",
+    "pageLink": "/"
+  },
+  {
+    "brandName": "sonor",
+    "src": "/images/brandLogos/DrumsAndPercussion/sonor_logo.jpg",
+    "alt": "Sonor logo",
+    "pageLink": "/"
+  },
+  {
+    "brandName": "zildjian",
+    "src": "/images/brandLogos/DrumsAndPercussion/zildjian_logo.jpg",
+    "alt": "Zildjian logo",
+    "pageLink": "/"
+  }
+]

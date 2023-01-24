@@ -1,0 +1,146 @@
+[
+  {
+    "brandName": "boss",
+    "src": "/images/brandLogos/GuitarAndBasses/boss_logo.jpg",
+    "alt": "Boss logo",
+    "pageLink": "/"
+  },
+  {
+    "brandName": "daddario",
+    "src": "/images/brandLogos/GuitarAndBasses/daddario_logo.jpg",
+    "alt": "D'adarrio logo",
+    "pageLink": "/"
+  },
+  {
+    "brandName": "dimarzio",
+    "src": "/images/brandLogos/GuitarAndBasses/dimarzio_logo.jpg",
+    "alt": "DiMarzio logo",
+    "pageLink": "/"
+  },
+  {
+    "brandName": "esp",
+    "src": "/images/brandLogos/GuitarAndBasses/esp_logo.jpg",
+    "alt": "ESP logo",
+    "pageLink": "/"
+  },
+  {
+    "brandName": "fender",
+    "src": "/images/brandLogos/GuitarAndBasses/fender_logo.jpg",
+    "alt": "Fender logo",
+    "pageLink": "/"
+  },
+  {
+    "brandName": "fishman",
+    "src": "/images/brandLogos/GuitarAndBasses/fishman_logo.jpg",
+    "alt": "Fishman logo",
+    "pageLink": "/"
+  },
+  {
+    "brandName": "gewa",
+    "src": "/images/brandLogos/BrandsForMultipleCategories/gewa_logo.jpg",
+    "alt": "GEWA logo",
+    "pageLink": "/"
+  },
+  {
+    "brandName": "gibson",
+    "src": "/images/brandLogos/GuitarAndBasses/gibson_logo.jpg",
+    "alt": "Gibson logo",
+    "pageLink": "/"
+  },
+  {
+    "brandName": "harley benton",
+    "src": "/images/brandLogos/GuitarAndBasses/harley_benton_logo.jpg",
+    "alt": "Harley Benton logo",
+    "pageLink": "/"
+  },
+  {
+    "brandName": "ibanez",
+    "src": "/images/brandLogos/GuitarAndBasses/ibanez_logo.jpg",
+    "alt": "Ibanez logo",
+    "pageLink": "/"
+  },
+  {
+    "brandName": "jackson",
+    "src": "/images/brandLogos/GuitarAndBasses/jackson_logo.jpg",
+    "alt": "Jackson logo",
+    "pageLink": "/"
+  },
+  {
+    "brandName": "kawai",
+    "src": "/images/brandLogos/BrandsForMultipleCategories/kawai_logo.jpg",
+    "alt": "KAWAI logo",
+    "pageLink": "/"
+  },
+  {
+    "brandName": "korg",
+    "src": "/images/brandLogos/BrandsForMultipleCategories/korg_logo.jpg",
+    "alt": "KORG logo",
+    "pageLink": "/"
+  },
+  {
+    "brandName": "marshall",
+    "src": "/images/brandLogos/GuitarAndBasses/marshall_logo.jpg",
+    "alt": "Marshall logo",
+    "pageLink": "/"
+  },
+  {
+    "brandName": "millenium",
+    "src": "/images/brandLogos/BrandsForMultipleCategories/millenium_logo.jpg",
+    "alt": "Millenium logo",
+    "pageLink": "/"
+  },
+  {
+    "brandName": "pearl",
+    "src": "/images/brandLogos/DrumsAndPercussion/pearl_logo.jpg",
+    "alt": "Pearl logo",
+    "pageLink": "/"
+  },
+  {
+    "brandName": "prs",
+    "src": "/images/brandLogos/GuitarAndBasses/prs_logo.jpg",
+    "alt": "PRS logo",
+    "pageLink": "/"
+  },
+  {
+    "brandName": "roland",
+    "src": "/images/brandLogos/BrandsForMultipleCategories/roland_logo.jpg",
+    "alt": "Roland logo",
+    "pageLink": "/"
+  },
+  {
+    "brandName": "sabian",
+    "src": "/images/brandLogos/DrumsAndPercussion/sabian_logo.jpg",
+    "alt": "Sabian logo",
+    "pageLink": "/"
+  },
+  {
+    "brandName": "schecter",
+    "src": "/images/brandLogos/GuitarAndBasses/schecter_logo.jpg",
+    "alt": "Schecter logo",
+    "pageLink": "/"
+  },
+  {
+    "brandName": "seymour duncan",
+    "src": "/images/brandLogos/GuitarAndBasses/seymour_duncan_logo.jpg",
+    "alt": "Seymour Duncan logo",
+    "pageLink": "/"
+  },
+  {
+    "brandName": "shure",
+    "src": "/images/brandLogos/BrandsForMultipleCategories/shure_logo.jpg",
+    "alt": "SHURE logo",
+    "pageLink": "/"
+  },
+  {
+    "brandName": "yamaha",
+    "src": "/images/brandLogos/BrandsForMultipleCategories/yamaha_logo.jpg",
+    "alt": "Yamaha logo",
+    "pageLink": "/"
+  },
+  {
+    "brandName": "zultan",
+    "src": "/images/brandLogos/DrumsAndPercussion/zultan_logo.jpg",
+    "alt": "Zultan logo",
+    "pageLink": "/"
+  }
+]

@@ -14,7 +14,8 @@ const Container = styled.section`
 `;
 
 const Header = styled.h1`
-  margin: 2rem;
+  margin-top: 6rem;
+  margin-bottom: 2rem;
   font-size: 2rem;
   text-decoration: underline lightbluesky 3px;
   color: #404040;
