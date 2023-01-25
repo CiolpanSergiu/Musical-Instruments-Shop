@@ -9,15 +9,15 @@ import paSystemsData from "../LevelTwoCategories/paSystemEquipments";
 import recordingAndStudioData from "../LevelTwoCategories/recordingAndStudioEquipments";
 import traditionalInstrumentsData from "../LevelTwoCategories/traditionalInstruments";
 // brands
-import guitarAndBassBrands from "../LogoData/LevelOneBrandLogos/guitarAndBassBrands.json";
-import drumsAndPercussionBrands from "../LogoData/LevelOneBrandLogos/drumsAndPercussionBrands.json";
-import softwareBrands from "../LogoData/LevelOneBrandLogos/softwaresBrands.json";
-import accesoriesBrands from "../LogoData/LevelOneBrandLogos/musicalAccesoriesBrands.json";
-import keyboardAndSynthBrands from "../LogoData/LevelOneBrandLogos/keyboardAndSynthBrands.json";
-import microphoneBrands from "../LogoData/LevelOneBrandLogos/microphonesBrands.json";
-import paSystemEquipmentBrands from "../LogoData/LevelOneBrandLogos/paEquipmentBrands.json";
-import studioAndRecordingBrands from "../LogoData/LevelOneBrandLogos/studioAndRecordingBrands.json";
-import traditionalInstrumentBrands from "../LogoData/LevelOneBrandLogos/traditionalInstrumentsBrands.json";
+import guitarAndBassBrands from "../LogoData/GuitarAndBassesBrands/mainCategoriesBrands.json";
+import drumsAndPercussionBrands from "../LogoData/DrumsAndPercussionBrands/mainCategoriesBrands.json";
+import softwareBrands from "../LogoData/SoftwareBrands/mainCategoriesBrands.json";
+import accesoriesBrands from "../LogoData/AccesoriesBrands/mainCategoriesBrands.json";
+import keyboardAndSynthBrands from "../LogoData/KeyboardAndSynthBrands/mainCategoriesBrands.json";
+import microphoneBrands from "../LogoData/MicrophoneBrands/mainCategoriesBrands.json";
+import paSystemEquipmentBrands from "../LogoData/PaSystemsBrands/mainCategoriesBrands.json";
+import studioAndRecordingBrands from "../LogoData/RecordingAndStudioBrands/mainCategoriesBrands.json";
+import traditionalInstrumentBrands from "../LogoData/TraditionalInstrumentsBrands/mainCategoriesBrands.json";
 
 const categoryData = [
   {

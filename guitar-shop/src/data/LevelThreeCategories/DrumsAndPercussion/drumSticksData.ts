@@ -1,9 +1,12 @@
+import drumsticksData from "../../LevelFourCategories/DrumsAndPercussion/Drumsticks/drumsticksData";
+
 export default [
   {
     title: "Drumsticks",
     src: "/images/category/LevelThreeCategories/DrumsAndPercussion/DrumSticks/drumsticks.jpg",
     alt: "Sticks for drums",
     pageLink: "/drumsticks",
+    subcategories: drumsticksData,
   },
   {
     title: "Percussion Instruments Sticks",
