@@ -1,3 +1,4 @@
+// subcategories
 import acousticDrumsSubcategories from "../LevelThreeCategories/DrumsAndPercussion/acousticDrumsData";
 import electronicDrumSubcategories from "../LevelThreeCategories/DrumsAndPercussion/electronicDrumsData.json";
 import cymbalsDrumSubcategories from "../LevelThreeCategories/DrumsAndPercussion/cymbalsData";
@@ -6,6 +7,15 @@ import drumStandsAndPedalsSubcategories from "../LevelThreeCategories/DrumsAndPe
 import drumCoverBagsAndCasesSubcategories from "../LevelThreeCategories/DrumsAndPercussion/drumCoverBagsAndCasesData.json";
 import drumSparePartsSubcategories from "../LevelThreeCategories/DrumsAndPercussion/drumSparePartsData.json";
 import percussionInstrumentsSubcategories from "../LevelThreeCategories/DrumsAndPercussion/percussionInstrumentsData";
+// brands
+import acousticDrumsBrands from "../LogoData/DrumsAndPercussionBrands/AcousticDrums/mainAcousticDrumBrands.json";
+import electronicDrumsBrands from "../LogoData/DrumsAndPercussionBrands/ElectronicDrums/electronicDrumsBrands.json";
+import percussionInstrumentsBrands from "../LogoData/DrumsAndPercussionBrands/PercussionInstruments/percussionInstrumentsBrands.json";
+import cymbalBrands from "../LogoData/DrumsAndPercussionBrands/Cymbals/cymbalBrands.json";
+import drumsticksBrands from "../LogoData/DrumsAndPercussionBrands/Drumsticks/drumsticksBrands.json";
+import standsAndPedalsBrands from "../LogoData/DrumsAndPercussionBrands/StandsAndPedals/standsAndPedalsBrands.json";
+import sparePartsBrands from "../LogoData/DrumsAndPercussionBrands/SpareParts/sparePartsBrands.json";
+import coverBagsAndCases from "../LogoData/DrumsAndPercussionBrands/CoverBagsAndCases/coverBagsAndCases.json";
 
 const drumsAndPercussionData = [
   {
@@ -14,6 +24,7 @@ const drumsAndPercussionData = [
     title: "Acoustic Drums",
     pageLink: "/acoustic-drums",
     subcategories: acousticDrumsSubcategories,
+    brands: acousticDrumsBrands,
   },
   {
     src: "/images/category/LevelTwoCategories/DrumsAndPercussion/electric_drums.jpg",
@@ -21,6 +32,7 @@ const drumsAndPercussionData = [
     title: "Electronic Drums",
     pageLink: "/electronic-drums",
     subcategories: electronicDrumSubcategories,
+    brands: electronicDrumsBrands,
   },
   {
     src: "/images/category/LevelTwoCategories/DrumsAndPercussion/percussion_instrument.jpg",
@@ -28,6 +40,7 @@ const drumsAndPercussionData = [
     title: "Percussion Instruments",
     pageLink: "/percussion-instruments",
     subcategories: percussionInstrumentsSubcategories,
+    brands: percussionInstrumentsBrands,
   },
   {
     src: "/images/category/LevelTwoCategories/DrumsAndPercussion/cymbal.jpg",
@@ -35,6 +48,7 @@ const drumsAndPercussionData = [
     title: "Cymbals",
     pageLink: "/cymbals",
     subcategories: cymbalsDrumSubcategories,
+    brands: cymbalBrands,
   },
   {
     src: "/images/category/LevelTwoCategories/DrumsAndPercussion/drum_sticks.jpg",
@@ -42,6 +56,7 @@ const drumsAndPercussionData = [
     title: "Drumsticks",
     pageLink: "/sticks-for-drums-and-percussion",
     subcategories: drumSticksSubcategories,
+    brands: drumsticksBrands,
   },
   {
     src: "/images/category/LevelTwoCategories/DrumsAndPercussion/drum_stand.jpg",
@@ -49,6 +64,7 @@ const drumsAndPercussionData = [
     title: "Drum Pedals and Stands",
     pageLink: "/drum-pedals-and-stands",
     subcategories: drumStandsAndPedalsSubcategories,
+    brands: standsAndPedalsBrands,
   },
   {
     src: "/images/category/LevelTwoCategories/DrumsAndPercussion/drum_rim.jpg",
@@ -56,6 +72,7 @@ const drumsAndPercussionData = [
     title: "Drum Spare Parts",
     pageLink: "/drum-spare-parts",
     subcategories: drumSparePartsSubcategories,
+    brands: sparePartsBrands,
   },
   {
     src: "/images/category/LevelTwoCategories/DrumsAndPercussion/drum_cover.jpg",
@@ -63,6 +80,7 @@ const drumsAndPercussionData = [
     title: "Drum Cover Bags and Cases",
     pageLink: "/drum-cover-bags-and-cases",
     subcategories: drumCoverBagsAndCasesSubcategories,
+    brands: coverBagsAndCases,
   },
 ];
 

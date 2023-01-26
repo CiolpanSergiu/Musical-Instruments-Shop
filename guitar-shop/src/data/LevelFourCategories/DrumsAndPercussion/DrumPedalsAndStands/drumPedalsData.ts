@@ -1,6 +1,9 @@
+import bassPedalBrands from "../../../LogoData/DrumsAndPercussionBrands/StandsAndPedals/bassPedalBrands.json";
+
 export default {
   title: "Bass Drum Pedals",
   pageLink: "/bass-drum-pedals",
+  brands: bassPedalBrands,
   subcategories: [
     {
       title: `Single Bass Drum Pedal`,

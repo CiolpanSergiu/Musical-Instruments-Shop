@@ -1,0 +1,50 @@
+[
+  {
+    "brandName": "Istanbul Mehmet",
+    "src": "/images/brandLogos/DrumsAndPercussion/Cymbals/istanbul_mehmet_logo.jpg",
+    "alt": "Istanbul Mehmet logo",
+    "pageLink": "/"
+  },
+  {
+    "brandName": "Millenium",
+    "src": "/images/brandLogos/BrandsForMultipleCategories/millenium_logo.jpg",
+    "alt": "Millenium logo",
+    "pageLink": "/"
+  },
+  {
+    "brandName": "Sabian",
+    "src": "/images/brandLogos/DrumsAndPercussion/sabian_logo.jpg",
+    "alt": "Sabian logo",
+    "pageLink": "/"
+  },
+  {
+    "brandName": "Zultan",
+    "src": "/images/brandLogos/DrumsAndPercussion/zultan_logo.jpg",
+    "alt": "Zultan logo",
+    "pageLink": "/"
+  },
+  {
+    "brandName": "Meinl",
+    "src": "/images/brandLogos/DrumsAndPercussion/meinl_logo.jpg",
+    "alt": "Meinl logo",
+    "pageLink": "/"
+  },
+  {
+    "brandName": "Paiste",
+    "src": "/images/brandLogos/DrumsAndPercussion/paiste_logo.jpg",
+    "alt": "Paiste logo",
+    "pageLink": "/"
+  },
+  {
+    "brandName": "Zildjian",
+    "src": "/images/brandLogos/DrumsAndPercussion/zildjian_logo.jpg",
+    "alt": "Zildjian logo",
+    "pageLink": "/"
+  },
+  {
+    "brandName": "Masterwork",
+    "src": "/images/brandLogos/DrumsAndPercussion/Cymbals/masterwork_logo.jpg",
+    "alt": "Masterwork logo",
+    "pageLink": "/"
+  }
+]

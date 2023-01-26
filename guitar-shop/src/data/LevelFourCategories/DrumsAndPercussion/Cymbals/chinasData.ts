@@ -1,6 +1,9 @@
+import allCymbalTypeBrands from "../../../LogoData/DrumsAndPercussionBrands/Cymbals/cymbalTypeBrands.json";
+
 export default {
   title: "China Cymbals",
   pageLink: "/china-cymbals",
+  brands: allCymbalTypeBrands,
   subcategories: [
     {
       title: `8" China Cymbals`,

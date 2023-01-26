@@ -1,0 +1,44 @@
+[
+  {
+    "brandName": "Drumcraft",
+    "src": "/images/brandLogos/DrumsAndPercussion/AcousticDrums/drumcraft_logo.jpg",
+    "alt": "Drumcraft logo",
+    "pageLink": "/"
+  },
+  {
+    "brandName": "Tama",
+    "src": "/images/brandLogos/DrumsAndPercussion/AcousticDrums/tama_logo.jpg",
+    "alt": "Tama logo",
+    "pageLink": "/"
+  },
+  {
+    "brandName": "Millenium",
+    "src": "/images/brandLogos/BrandsForMultipleCategories/millenium_logo.jpg",
+    "alt": "Millenium logo",
+    "pageLink": "/"
+  },
+  {
+    "brandName": "Pearl",
+    "src": "/images/brandLogos/DrumsAndPercussion/pearl_logo.jpg",
+    "alt": "Pearl logo",
+    "pageLink": "/"
+  },
+  {
+    "brandName": "Gretsch Drums",
+    "src": "/images/brandLogos/DrumsAndPercussion/gretsch_drums_logo.jpg",
+    "alt": "Gretshc Drums logo",
+    "pageLink": "/"
+  },
+  {
+    "brandName": "Yamaha",
+    "src": "/images/brandLogos/BrandsForMultipleCategories/yamaha_logo.jpg",
+    "alt": "Yamaha logo",
+    "pageLink": "/"
+  },
+  {
+    "brandName": "Sonor",
+    "src": "/images/brandLogos/DrumsAndPercussion/sonor_logo.jpg",
+    "alt": "Sonor logo",
+    "pageLink": "/"
+  }
+]

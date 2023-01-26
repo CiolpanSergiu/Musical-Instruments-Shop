@@ -1,6 +1,9 @@
+import allCymbalTypeBrands from "../../../LogoData/DrumsAndPercussionBrands/Cymbals/cymbalTypeBrands.json";
+
 export default {
   title: "Splash Cymbals",
   pageLink: "/splash-cymbals",
+  brands: allCymbalTypeBrands,
   subcategories: [
     {
       title: `6" Splash Cymbals`,

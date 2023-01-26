@@ -1,6 +1,9 @@
+import restOfTheDrumsBrands from "../../../LogoData/DrumsAndPercussionBrands/AcousticDrums/restOfDrumsBrands.json";
+
 export default {
   title: "Acoustic Tom Drums",
   pageLink: "/acoustic-tom-drums",
+  brands: restOfTheDrumsBrands,
   subcategories: [
     {
       title: `8" Tom Drums`,

@@ -1,6 +1,9 @@
+import cajonsBrands from "../../../LogoData/DrumsAndPercussionBrands/PercussionInstruments/cajonsBrands.json";
+
 export default {
   title: "Cajons",
   pageLink: "/percussion-instruments-cajons",
+  brands: cajonsBrands,
   subcategories: [
     {
       title: `Cajons`,

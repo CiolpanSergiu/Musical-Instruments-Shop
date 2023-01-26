@@ -1,0 +1,86 @@
+[
+  {
+    "brandName": "Canopus",
+    "src": "/images/brandLogos/DrumsAndPercussion/SpareParts/canopus_logo.jpg",
+    "alt": "Canopus logo",
+    "pageLink": "/"
+  },
+  {
+    "brandName": "Millenium",
+    "src": "/images/brandLogos/BrandsForMultipleCategories/millenium_logo.jpg",
+    "alt": "Millenium logo",
+    "pageLink": "/"
+  },
+  {
+    "brandName": "DW Drums",
+    "src": "/images/brandLogos/DrumsAndPercussion/dw_logo.jpg",
+    "alt": "DW Drums logo",
+    "pageLink": "/"
+  },
+  {
+    "brandName": "Gibraltar",
+    "src": "/images/brandLogos/BrandsForMultipleCategories/gibraltar_logo.jpg",
+    "alt": "Gibraltar logo",
+    "pageLink": "/"
+  },
+  {
+    "brandName": "Sonor",
+    "src": "/images/brandLogos/DrumsAndPercussion/sonor_logo.jpg",
+    "alt": "Sonor logo",
+    "pageLink": "/"
+  },
+  {
+    "brandName": "Rogers",
+    "src": "/images/brandLogos/DrumsAndPercussion/AcousticDrums/rogers_logo.jpg",
+    "alt": "Rogers logo",
+    "pageLink": "/"
+  },
+  {
+    "brandName": "Tama",
+    "src": "/images/brandLogos/DrumsAndPercussion/AcousticDrums/tama_logo.jpg",
+    "alt": "Tama logo",
+    "pageLink": "/"
+  },
+  {
+    "brandName": "Traps Drums",
+    "src": "/images/brandLogos/DrumsAndPercussion/AcousticDrums/traps_logo.jpg",
+    "alt": "Traps Drums logo",
+    "pageLink": "/"
+  },
+  {
+    "brandName": "Trick Drums",
+    "src": "/images/brandLogos/DrumsAndPercussion/AcousticDrums/trick_drums_logo.jpg",
+    "alt": "Trick Drums logo",
+    "pageLink": "/"
+  },
+  {
+    "brandName": "Pearl",
+    "src": "/images/brandLogos/DrumsAndPercussion/pearl_logo.jpg",
+    "alt": "Pearl logo",
+    "pageLink": "/"
+  },
+  {
+    "brandName": "Adoro",
+    "src": "/images/brandLogos/DrumsAndPercussion/Drumsticks/adoro_logo.jpg",
+    "alt": "Adoro logo",
+    "pageLink": "/"
+  },
+  {
+    "brandName": "Vater",
+    "src": "/images/brandLogos/DrumsAndPercussion/Drumsticks/vater_logo.jpg",
+    "alt": "Vater logo",
+    "pageLink": "/"
+  },
+  {
+    "brandName": "Mapex",
+    "src": "/images/brandLogos/DrumsAndPercussion/AcousticDrums/mapex_logo.jpg",
+    "alt": "Mapex logo",
+    "pageLink": "/"
+  },
+  {
+    "brandName": "Ludwig",
+    "src": "/images/brandLogos/DrumsAndPercussion/AcousticDrums/ludwig_logo.jpg",
+    "alt": "Ludwig logo",
+    "pageLink": "/"
+  }
+]

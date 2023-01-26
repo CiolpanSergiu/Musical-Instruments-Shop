@@ -1,6 +1,9 @@
+import drumsticksBrands from "../../../LogoData/DrumsAndPercussionBrands/Drumsticks/drumsticksBrands.json";
+
 export default {
   title: "Drumsticks",
   pageLink: "/drumsticks",
+  brands: drumsticksBrands,
   subcategories: [
     {
       title: `7A Drumsticks`,

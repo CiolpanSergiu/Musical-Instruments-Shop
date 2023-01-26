@@ -1,6 +1,9 @@
+import allCymbalTypeBrands from "../../../LogoData/DrumsAndPercussionBrands/Cymbals/cymbalTypeBrands.json";
+
 export default {
   title: "Hi-Hat Cymbals",
   pageLink: "/hi-hat-cymbals",
+  brands: allCymbalTypeBrands,
   subcategories: [
     {
       title: `10" Hi-Hat Cymbals`,

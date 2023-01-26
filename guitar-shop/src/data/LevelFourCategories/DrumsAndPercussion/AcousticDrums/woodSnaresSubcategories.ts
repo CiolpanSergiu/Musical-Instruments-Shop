@@ -1,6 +1,9 @@
+import snaresBrands from "../../../LogoData/DrumsAndPercussionBrands/AcousticDrums/snaresBrands.json";
+
 export default {
   title: "Wood Snares",
   pageLink: "/wood-snares",
+  brands: snaresBrands,
   subcategories: [
     {
       title: `10" Wood Snares`,

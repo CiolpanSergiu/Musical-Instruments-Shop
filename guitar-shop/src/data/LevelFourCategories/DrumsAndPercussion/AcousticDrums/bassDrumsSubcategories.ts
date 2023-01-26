@@ -1,6 +1,9 @@
+import restOfTheDrumsBrands from "../../../LogoData/DrumsAndPercussionBrands/AcousticDrums/restOfDrumsBrands.json";
+
 export default {
   title: "Acoustic Bass Drums",
   pageLink: "/acoustic-bass-drums",
+  brands: restOfTheDrumsBrands,
   subcategories: [
     {
       title: `16" Bass Drums`,

@@ -1,6 +1,9 @@
+import restOfTheDrumsBrands from "../../../LogoData/DrumsAndPercussionBrands/AcousticDrums/restOfDrumsBrands.json";
+
 export default {
   title: "Acoustic Floor Drums",
   pageLink: "/acoustic-floor-drums",
+  brands: restOfTheDrumsBrands,
   subcategories: [
     {
       title: `14" Floor Drums`,

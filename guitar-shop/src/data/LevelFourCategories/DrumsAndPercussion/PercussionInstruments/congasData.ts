@@ -1,6 +1,9 @@
+import congasBrands from "../../../LogoData/DrumsAndPercussionBrands/PercussionInstruments/congasBrands.json";
+
 export default {
   title: "Congas",
   pageLink: "/percussion-instruments-congas",
+  brands: congasBrands,
   subcategories: [
     {
       title: `Congas Set`,

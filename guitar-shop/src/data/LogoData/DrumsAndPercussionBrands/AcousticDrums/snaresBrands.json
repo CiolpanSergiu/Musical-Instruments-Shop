@@ -1,0 +1,68 @@
+[
+  {
+    "brandName": "Cazz Snare",
+    "src": "/images/brandLogos/DrumsAndPercussion/AcousticDrums/cazz_snare_logo.jpg",
+    "alt": "Cazz Snare logo",
+    "pageLink": "/"
+  },
+  {
+    "brandName": "Drumcraft",
+    "src": "/images/brandLogos/DrumsAndPercussion/AcousticDrums/drumcraft_logo.jpg",
+    "alt": "Drumcraft logo",
+    "pageLink": "/"
+  },
+  {
+    "brandName": "Ds Drum",
+    "src": "/images/brandLogos/DrumsAndPercussion/AcousticDrums/ds_drum_logo.jpg",
+    "alt": "Ds Drum logo",
+    "pageLink": "/"
+  },
+  {
+    "brandName": "Ludwig",
+    "src": "/images/brandLogos/DrumsAndPercussion/AcousticDrums/ludwig_logo.jpg",
+    "alt": "Ludwig logo",
+    "pageLink": "/"
+  },
+  {
+    "brandName": "Mapex",
+    "src": "/images/brandLogos/DrumsAndPercussion/AcousticDrums/mapex_logo.jpg",
+    "alt": "Mapex logo",
+    "pageLink": "/"
+  },
+  {
+    "brandName": "Rogers",
+    "src": "/images/brandLogos/DrumsAndPercussion/AcousticDrums/rogers_logo.jpg",
+    "alt": "Rogers logo",
+    "pageLink": "/"
+  },
+  {
+    "brandName": "Tama",
+    "src": "/images/brandLogos/DrumsAndPercussion/AcousticDrums/tama_logo.jpg",
+    "alt": "Tama logo",
+    "pageLink": "/"
+  },
+  {
+    "brandName": "Millenium",
+    "src": "/images/brandLogos/BrandsForMultipleCategories/millenium_logo.jpg",
+    "alt": "Millenium logo",
+    "pageLink": "/"
+  },
+  {
+    "brandName": "Pearl",
+    "src": "/images/brandLogos/DrumsAndPercussion/pearl_logo.jpg",
+    "alt": "Pearl logo",
+    "pageLink": "/"
+  },
+  {
+    "brandName": "Gretsch Drums",
+    "src": "/images/brandLogos/DrumsAndPercussion/gretsch_drums_logo.jpg",
+    "alt": "Gretshc Drums logo",
+    "pageLink": "/"
+  },
+  {
+    "brandName": "Yamaha",
+    "src": "/images/brandLogos/BrandsForMultipleCategories/yamaha_logo.jpg",
+    "alt": "Yamaha logo",
+    "pageLink": "/"
+  }
+]

@@ -1,6 +1,9 @@
+import allCymbalTypeBrands from "../../../LogoData/DrumsAndPercussionBrands/Cymbals/cymbalTypeBrands.json";
+
 export default {
   title: "Ride Cymbals",
   pageLink: "/ride-cymbals",
+  brands: allCymbalTypeBrands,
   subcategories: [
     {
       title: `18" Ride Cymbals`,

@@ -1,6 +1,9 @@
+import allCymbalTypeBrands from "../../../LogoData/DrumsAndPercussionBrands/Cymbals/cymbalTypeBrands.json";
+
 export default {
   title: "Crash Cymbals",
   pageLink: "/crash-cymbals",
+  brands: allCymbalTypeBrands,
   subcategories: [
     {
       title: `13" Crash Cymbals`,

@@ -1,0 +1,98 @@
+[
+  {
+    "brandName": "Pearl",
+    "src": "/images/brandLogos/DrumsAndPercussion/pearl_logo.jpg",
+    "alt": "Pearl logo",
+    "pageLink": "/"
+  },
+  {
+    "brandName": "Evans",
+    "src": "/images/brandLogos/DrumsAndPercussion/evans_logo.jpg",
+    "alt": "Evans logo",
+    "pageLink": "/"
+  },
+  {
+    "brandName": "Meinl",
+    "src": "/images/brandLogos/DrumsAndPercussion/meinl_logo.jpg",
+    "alt": "Meinl logo",
+    "pageLink": "/"
+  },
+  {
+    "brandName": "Remo",
+    "src": "/images/brandLogos/DrumsAndPercussion/remo_logo.jpg",
+    "alt": "Remo logo",
+    "pageLink": "/"
+  },
+  {
+    "brandName": "Sonor",
+    "src": "/images/brandLogos/DrumsAndPercussion/sonor_logo.jpg",
+    "alt": "Sonor logo",
+    "pageLink": "/"
+  },
+  {
+    "brandName": "Lp",
+    "src": "/images/brandLogos/DrumsAndPercussion/AcousticDrums/lp_logo.jpg",
+    "alt": "Lp logo",
+    "pageLink": "/"
+  },
+  {
+    "brandName": "Millenium",
+    "src": "/images/brandLogos/BrandsForMultipleCategories/millenium_logo.jpg",
+    "alt": "Millenium logo",
+    "pageLink": "/"
+  },
+  {
+    "brandName": "Gibraltar",
+    "src": "/images/brandLogos/BrandsForMultipleCategories/gibraltar_logo.jpg",
+    "alt": "Gibraltar logo",
+    "pageLink": "/"
+  },
+  {
+    "brandName": "Nino Percussion",
+    "src": "/images/brandLogos/DrumsAndPercussion/PercussionInstruments/nino_logo.jpg",
+    "alt": "Nino Percussion logo",
+    "pageLink": "/"
+  },
+  {
+    "brandName": "Pepote",
+    "src": "/images/brandLogos/DrumsAndPercussion/PercussionInstruments/pepote_logo.jpg",
+    "alt": "Pepote logo",
+    "pageLink": "/"
+  },
+  {
+    "brandName": "Pur",
+    "src": "/images/brandLogos/DrumsAndPercussion/PercussionInstruments/pur_logo.jpg",
+    "alt": "Pur logo",
+    "pageLink": "/"
+  },
+  {
+    "brandName": "Gewa",
+    "src": "/images/brandLogos/BrandsForMultipleCategories/gewa_logo.jpg",
+    "alt": "GEWA logo",
+    "pageLink": "/"
+  },
+  {
+    "brandName": "roland",
+    "src": "/images/brandLogos/BrandsForMultipleCategories/roland_logo.jpg",
+    "alt": "Roland logo",
+    "pageLink": "/"
+  },
+  {
+    "brandName": "DW Drums",
+    "src": "/images/brandLogos/DrumsAndPercussion/dw_logo.jpg",
+    "alt": "DW Drums logo",
+    "pageLink": "/"
+  },
+  {
+    "brandName": "Baff",
+    "src": "/images/brandLogos/DrumsAndPercussion/PercussionInstruments/baff_logo.jpg",
+    "alt": "Baff logo",
+    "pageLink": "/"
+  },
+  {
+    "brandName": "Dg De Gregorio",
+    "src": "/images/brandLogos/DrumsAndPercussion/PercussionInstruments/dg_de_gregorio_logo.jpg",
+    "alt": "Dg De Gregorio logo",
+    "pageLink": "/"
+  }
+]
