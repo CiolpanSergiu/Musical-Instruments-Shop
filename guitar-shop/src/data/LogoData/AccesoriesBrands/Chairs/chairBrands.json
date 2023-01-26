@@ -1,0 +1,68 @@
+[
+  {
+    "brandName": "gravity",
+    "src": "/images/brandLogos/BrandsForMultipleCategories/gravity_logo.jpg",
+    "alt": "Gravity logo",
+    "pageLink": "/"
+  },
+  {
+    "brandName": "on stage",
+    "src": "/images/brandLogos/Accesories/on_stage_logo.jpg",
+    "alt": "On Stage logo",
+    "pageLink": "/"
+  },
+  {
+    "brandName": "fender",
+    "src": "/images/brandLogos/BrandsForMultipleCategories/fender_logo.jpg",
+    "alt": "Fender logo",
+    "pageLink": "/"
+  },
+  {
+    "brandName": "gibson",
+    "src": "/images/brandLogos/GuitarAndBasses/gibson_logo.jpg",
+    "alt": "Gibson logo",
+    "pageLink": "/"
+  },
+  {
+    "brandName": "harley benton",
+    "src": "/images/brandLogos/BrandsForMultipleCategories/harley_benton_logo.jpg",
+    "alt": "Harley Benton logo",
+    "pageLink": "/"
+  },
+  {
+    "brandName": "Pearl",
+    "src": "/images/brandLogos/DrumsAndPercussion/pearl_logo.jpg",
+    "alt": "Pearl logo",
+    "pageLink": "/"
+  },
+  {
+    "brandName": "Hercule Stands",
+    "src": "/images/brandLogos/BrandsForMultipleCategories/hercules_stands_logo.jpg",
+    "alt": "Hercule Stands logo",
+    "pageLink": "/"
+  },
+  {
+    "brandName": "Gator Frameworks",
+    "src": "/images/brandLogos/BrandsForMultipleCategories/gator_frameworks_logo.jpg",
+    "alt": "Gator Frameworks logo",
+    "pageLink": "/"
+  },
+  {
+    "brandName": "Koening & Mayer",
+    "src": "/images/brandLogos/BrandsForMultipleCategories/km_logo.jpg",
+    "alt": "Koening & Mayer logo",
+    "pageLink": "/"
+  },
+  {
+    "brandName": "Tama",
+    "src": "/images/brandLogos/DrumsAndPercussion/AcousticDrums/tama_logo.jpg",
+    "alt": "Tama logo",
+    "pageLink": "/"
+  },
+  {
+    "brandName": "DW Drums",
+    "src": "/images/brandLogos/DrumsAndPercussion/dw_logo.jpg",
+    "alt": "DW Drums logo",
+    "pageLink": "/"
+  }
+]

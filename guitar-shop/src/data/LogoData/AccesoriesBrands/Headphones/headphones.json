@@ -1,0 +1,110 @@
+[
+  {
+    "brandName": "Shure",
+    "src": "/images/brandLogos/BrandsForMultipleCategories/shure_logo.jpg",
+    "alt": "SHURE logo",
+    "pageLink": "/"
+  },
+  {
+    "brandName": "Audio Technica",
+    "src": "/images/brandLogos/Accesories/audio_technica_logo.jpg",
+    "alt": "Audio Technica logo",
+    "pageLink": "/"
+  },
+  {
+    "brandName": "Beyerdynamic",
+    "src": "/images/brandLogos/BrandsForMultipleCategories/beyerdynamic_logo.jpg",
+    "alt": "Beyerdynamic logo",
+    "pageLink": "/"
+  },
+  {
+    "brandName": "Gravity",
+    "src": "/images/brandLogos/BrandsForMultipleCategories/gravity_logo.jpg",
+    "alt": "Gravity logo",
+    "pageLink": "/"
+  },
+  {
+    "brandName": "On Stage",
+    "src": "/images/brandLogos/Accesories/on_stage_logo.jpg",
+    "alt": "On Stage logo",
+    "pageLink": "/"
+  },
+  {
+    "brandName": "Sennheiser",
+    "src": "/images/brandLogos/BrandsForMultipleCategories/sennheiser_logo.jpg",
+    "alt": "Sennheiser logo",
+    "pageLink": "/"
+  },
+  {
+    "brandName": "Akg",
+    "src": "/images/brandLogos/BrandsForMultipleCategories/akg_logo.jpg",
+    "alt": "AKG logo",
+    "pageLink": "/"
+  },
+  {
+    "brandName": "Aiaiai",
+    "src": "/images/brandLogos/Accesories/Headphones/aiaiai_logo.jpg",
+    "alt": "Aiaiai logo",
+    "pageLink": "/"
+  },
+  {
+    "brandName": "Audeze",
+    "src": "/images/brandLogos/Accesories/Headphones/audeze_logo.jpg",
+    "alt": "Audeze logo",
+    "pageLink": "/"
+  },
+  {
+    "brandName": "Comply",
+    "src": "/images/brandLogos/Accesories/Headphones/comply_logo.jpg",
+    "alt": "Comply logo",
+    "pageLink": "/"
+  },
+  {
+    "brandName": "Dan Clark Audio",
+    "src": "/images/brandLogos/Accesories/Headphones/dan_clark_audio_logo.jpg",
+    "alt": "Dan Clark Audio logo",
+    "pageLink": "/"
+  },
+  {
+    "brandName": "Hama",
+    "src": "/images/brandLogos/Accesories/Headphones/hama_logo.jpg",
+    "alt": "Hama logo",
+    "pageLink": "/"
+  },
+  {
+    "brandName": "JVC",
+    "src": "/images/brandLogos/Accesories/Headphones/jvc_logo.jpg",
+    "alt": "JVC logo",
+    "pageLink": "/"
+  },
+  {
+    "brandName": "RME",
+    "src": "/images/brandLogos/Accesories/Headphones/rme_logo.jpg",
+    "alt": "RME logo",
+    "pageLink": "/"
+  },
+  {
+    "brandName": "Rooms Audio Line",
+    "src": "/images/brandLogos/Accesories/Headphones/rooms_audio_line_logo.jpg",
+    "alt": "Rooms Audio Line logo",
+    "pageLink": "/"
+  },
+  {
+    "brandName": "Sendy Audio",
+    "src": "/images/brandLogos/Accesories/Headphones/sendy_audio_logo.jpg",
+    "alt": "Sendy Audio logo",
+    "pageLink": "/"
+  },
+  {
+    "brandName": "V Moda",
+    "src": "/images/brandLogos/Accesories/Headphones/v_moda_logo.jpg",
+    "alt": "V Moda logo",
+    "pageLink": "/"
+  },
+  {
+    "brandName": "The T.Bone",
+    "src": "/images/brandLogos/BrandsForMultipleCategories/the_tbone_logo.jpg",
+    "alt": "The T.Bone logo",
+    "pageLink": "/"
+  }
+]
