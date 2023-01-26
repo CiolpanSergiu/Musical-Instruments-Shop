@@ -1,7 +1,7 @@
 [
   {
     "title": "Bose S1 Pro System",
-    "brand": "bose",
+    "brandName": "bose",
     "src": "/images/popularItems/UniversalPopularItems/bose_s1_pro_system.jpg",
     "alt": "A bose s1 pro system",
     "price": 596,
@@ -11,7 +11,7 @@
   },
   {
     "title": "Boss DD 200 Digital Delay",
-    "brand": "boss",
+    "brandName": "boss",
     "src": "/images/popularItems/UniversalPopularItems/boss_dd_200_digital_delay.jpg",
     "alt": "A boss dd200 digital delay guitar pedal",
     "price": 293,
@@ -21,7 +21,7 @@
   },
   {
     "title": "Boss DS1 Distortion",
-    "brand": "boss",
+    "brandName": "boss",
     "src": "/images/popularItems/UniversalPopularItems/boss_ds1_distortion.jpg",
     "alt": "A boss ds1 distortion guitar pedal",
     "price": 69,
@@ -31,7 +31,7 @@
   },
   {
     "title": "Boss Katana 100 MKII",
-    "brand": "boss",
+    "brandName": "boss",
     "src": "/images/popularItems/UniversalPopularItems/boss_katana_100_mkii.jpg",
     "alt": "A boss katana 100 mk2 guitar digital amplifier",
     "price": 420,
@@ -41,7 +41,7 @@
   },
   {
     "title": "Earnie Ball 2221",
-    "brand": "earnie ball",
+    "brandName": "earnie ball",
     "src": "/images/popularItems/UniversalPopularItems/earnie_ball_2221.jpg",
     "alt": "A pack of earnie ball 2221 guitar strings",
     "price": 6.5,
@@ -51,7 +51,7 @@
   },
   {
     "title": "Epiphone Les Paul Standard 60",
-    "brand": "epiphone",
+    "brandName": "epiphone",
     "src": "/images/popularItems/UniversalPopularItems/epiphone_les_paul_standard.jpg",
     "alt": "An epiphone les paul standard electric guitar",
     "price": 682,
@@ -61,7 +61,7 @@
   },
   {
     "title": "Line6 HX Stomp",
-    "brand": "line6",
+    "brandName": "line6",
     "src": "/images/popularItems/UniversalPopularItems/line6_hx_stomp.jpg",
     "alt": "A line6 hx stomp multi effect pedal",
     "price": 650,
@@ -71,7 +71,7 @@
   },
   {
     "title": "Pearl EXX725BR/C Drum Set",
-    "brand": "pearl",
+    "brandName": "pearl",
     "src": "/images/popularItems/UniversalPopularItems/pearl_exx725br_c.jpg",
     "alt": "A peark exx725br/c acoustic drums set",
     "price": 898,
@@ -81,7 +81,7 @@
   },
   {
     "title": "Shure SM 7 B",
-    "brand": "shure",
+    "brandName": "shure",
     "src": "/images/popularItems/UniversalPopularItems/shure_sm_7_b.jpg",
     "alt": "A shure sm 7 b microphone",
     "price": 406,
@@ -91,7 +91,7 @@
   },
   {
     "title": "Startone MK 300",
-    "brand": "startone",
+    "brandName": "startone",
     "src": "/images/popularItems/UniversalPopularItems/startone_mk300.jpg",
     "alt": "A startone mk 300 keyboard",
     "price": 150,
@@ -101,7 +101,7 @@
   },
   {
     "title": "Stentor SR1500 Violin Student II 4/4",
-    "brand": "stentor",
+    "brandName": "stentor",
     "src": "/images/popularItems/UniversalPopularItems/stentor_sr1500_violin_student_ii_4_4.jpg",
     "alt": "A stentor sr1500 violin student 2 4/4 violin",
     "price": 232,

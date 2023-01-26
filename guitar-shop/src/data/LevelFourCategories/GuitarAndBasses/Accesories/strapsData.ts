@@ -1,6 +1,9 @@
+import strapBrands from "../../../LogoData/GuitarAndBassesBrands/Accesories/strapBrands.json";
+
 export default {
   pageLink: "/guitar-and-bass-straps",
   title: "Guitar and Bass Straps",
+  brands: strapBrands,
   subcategories: [
     {
       title: "Leather Straps",

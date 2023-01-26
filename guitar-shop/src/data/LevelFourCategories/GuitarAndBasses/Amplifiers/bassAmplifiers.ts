@@ -1,6 +1,9 @@
+import bassComboAmpBrands from "../../../LogoData/GuitarAndBassesBrands/electricBassAmpsBrands.json";
+
 export default {
   pageLink: "/bass-combo-amplifiers",
   title: "Bass Combo Amplifiers",
+  brands: bassComboAmpBrands,
   subcategories: [
     {
       src: "/images/category/LevelFourCategories/GuitarsAndBasses/BassAmplifiers/transistors_bass_amp.jpg",

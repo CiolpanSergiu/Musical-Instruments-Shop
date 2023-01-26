@@ -1,0 +1,62 @@
+[
+  {
+    "brandName": "Fender",
+    "src": "/images/brandLogos/BrandsForMultipleCategories/fender_logo.jpg",
+    "alt": "Fender logo",
+    "pageLink": "/"
+  },
+  {
+    "brandName": "Harley Benton",
+    "src": "/images/brandLogos/BrandsForMultipleCategories/harley_benton_logo.jpg",
+    "alt": "Harley Benton logo",
+    "pageLink": "/"
+  },
+  {
+    "brandName": "Dunlop",
+    "src": "/images/brandLogos/GuitarAndBasses/dunlop_logo.jpg",
+    "alt": "Dunlop logo",
+    "pageLink": "/"
+  },
+  {
+    "brandName": "Taylor",
+    "src": "/images/brandLogos/GuitarAndBasses/AcousticGuitars/taylor_logo.jpg",
+    "alt": "Taylor logo",
+    "pageLink": "/"
+  },
+  {
+    "brandName": "Levys",
+    "src": "/images/brandLogos/GuitarAndBasses/Accesories/levys_logo.jpg",
+    "alt": "Levys logo",
+    "pageLink": "/"
+  },
+  {
+    "brandName": "D'Addario",
+    "src": "/images/brandLogos/BrandsForMultipleCategories/daddario_logo.jpg",
+    "alt": "D'adarrio logo",
+    "pageLink": "/"
+  },
+  {
+    "brandName": "Ernie Ball",
+    "src": "/images/brandLogos/BrandsForMultipleCategories/ernieball_logo.jpg",
+    "alt": "Ernie Ball logo",
+    "pageLink": "/"
+  },
+  {
+    "brandName": "Gibson",
+    "src": "/images/brandLogos/GuitarAndBasses/gibson_logo.jpg",
+    "alt": "Gibson logo",
+    "pageLink": "/"
+  },
+  {
+    "brandName": "Prs",
+    "src": "/images/brandLogos/GuitarAndBasses/prs_logo.jpg",
+    "alt": "PRS logo",
+    "pageLink": "/"
+  },
+  {
+    "brandName": "Dimarzio",
+    "src": "/images/brandLogos/GuitarAndBasses/dimarzio_logo.jpg",
+    "alt": "DiMarzio logo",
+    "pageLink": "/"
+  }
+]

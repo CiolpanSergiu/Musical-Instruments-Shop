@@ -54,9 +54,14 @@ type Props = {
   data: DataArray;
 };
 
-function getCardsRow(data: DataArray) {
+function getSliderCards(data: DataArray) {
   return data.map((item) => (
-    <BrandCard key={nanoid()} src={item.src} alt={item.alt} />
+    <BrandCard
+      key={nanoid()}
+      src={item.src}
+      alt={item.alt}
+      title={item.brandName}
+    />
   ));
 }
 
@@ -65,11 +70,11 @@ export default function BrandsSlider({ title, data }: Props) {
     dots: true,
     className: "center",
     centerMode: true,
-    infinite: true,
+    infinite: data.length >= 10 ? true : false,
     slidesToShow: 5,
     speed: 500,
-    rows: 2,
-    slidesToScroll: 5,
+    rows: data.length <= 5 ? 1 : 2,
+    slidesToScroll: 1,
     autoplay: true,
     autoplaySpeed: 5000,
     nextArrow: <SampleNextArrow />,
@@ -105,18 +110,12 @@ export default function BrandsSlider({ title, data }: Props) {
     ],
   };
 
-  const halfOfDataLength = data.length / 2;
-
-  const sliderRowOneCards = getCardsRow(data).slice(0, halfOfDataLength);
-  const sliderRowTwoCards = getCardsRow(data).slice(halfOfDataLength);
+  const sliderRowOneCards = getSliderCards(data);
 
   return (
     <div className="slider-section-container" style={{ width: "90vw" }}>
       <Header2>{title}</Header2>
-      <Slider {...settings}>
-        {sliderRowOneCards}
-        {sliderRowTwoCards}
-      </Slider>
+      <Slider {...settings}>{sliderRowOneCards}</Slider>
     </div>
   );
 }

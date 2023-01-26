@@ -1,6 +1,9 @@
+import coverBagsAndCaseseBrands from "../../../LogoData/GuitarAndBassesBrands/Accesories/coverBagsAndCasesBrands.json";
+
 export default {
   pageLink: "/guitar-and-bass-covers-and-cases",
   title: "Guitar and Bass Cover Bags and Cases",
+  brands: coverBagsAndCaseseBrands,
   subcategories: [
     {
       title: "Electric Guitar Cases",

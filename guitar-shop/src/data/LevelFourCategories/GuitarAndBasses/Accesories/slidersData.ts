@@ -1,6 +1,9 @@
+import sliderBrands from "../../../LogoData/GuitarAndBassesBrands/Accesories/sliderBrands.json";
+
 export default {
   pageLink: "/guitar-sliders",
   title: "Guitar Sliders",
+  brands: sliderBrands,
   subcategories: [
     {
       title: "Glass Sliders",

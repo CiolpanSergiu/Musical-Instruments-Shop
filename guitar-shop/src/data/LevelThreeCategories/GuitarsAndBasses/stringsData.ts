@@ -36,6 +36,12 @@ const stringsSubcategories = [
     alt: "",
     pageLink: "/acoustic-bass-strings",
   },
+  {
+    title: "Ukulele Strings",
+    src: "/images/category/LevelThreeCategories/GuitarsAndBasses/Ukulele/ukulele_strings.jpg",
+    alt: "",
+    pageLink: "/ukulele-strings",
+  },
 ];
 
 export default stringsSubcategories;

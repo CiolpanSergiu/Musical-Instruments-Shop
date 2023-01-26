@@ -1,6 +1,9 @@
+import electricGuitarStringBrands from "../../../LogoData/GuitarAndBassesBrands/Strings/electricGuitarStringsBrands.json";
+
 export default {
   pageLink: "/electric-guitar-strings",
   title: "Electric Guitar Strings",
+  brands: electricGuitarStringBrands,
   subcategories: [
     {
       title: "0.08 Electric Guitar Strings",

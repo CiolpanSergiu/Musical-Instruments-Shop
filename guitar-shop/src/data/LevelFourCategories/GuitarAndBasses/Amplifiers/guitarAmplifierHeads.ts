@@ -1,5 +1,8 @@
+import guitarAmpHeadBrands from "../../../LogoData/GuitarAndBassesBrands/ElectricGuitarAmplifiers/electricGuitarAmpHeadBrands.json";
+
 export default {
   pageLink: "/guitar-amplifier-heads",
+  brands: guitarAmpHeadBrands,
   title: "Electric Guitar Amplifier Heads",
   subcategories: [
     {

@@ -1,6 +1,9 @@
+import electricBassStringBrands from "../../../LogoData/GuitarAndBassesBrands/Strings/electricBassStringsBrands.json";
+
 export default {
   pageLink: "/electric-bass-strings",
   title: "Electric Bass Strings",
+  brands: electricBassStringBrands,
   subcategories: [
     {
       title: "0.40 Bass Strings",

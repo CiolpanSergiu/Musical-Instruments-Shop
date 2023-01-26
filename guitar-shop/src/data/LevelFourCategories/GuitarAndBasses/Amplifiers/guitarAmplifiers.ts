@@ -1,6 +1,9 @@
+import guitarComboAmpBrands from "../../../LogoData/GuitarAndBassesBrands/ElectricGuitarAmplifiers/electricGuitarComboAmpBrands.json";
+
 export default {
   pageLink: "/guitar-combo-amplifiers",
   title: "Guitar Combo Amplifiers",
+  brands: guitarComboAmpBrands,
   subcategories: [
     {
       src: "/images/category/LevelFourCategories/GuitarsAndBasses/GuitarAmplifiers/transistors_guitar_amp.jpg",

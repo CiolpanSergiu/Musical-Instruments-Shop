@@ -1,6 +1,9 @@
+import switchesBrands from "../../../LogoData/GuitarAndBassesBrands/SpareParts/switchesBrands.json";
+
 export default {
   pageLink: "/switches",
   title: "Switches",
+  brands: switchesBrands,
   subcategories: [
     {
       title: "3 Ways Switch Selectors",

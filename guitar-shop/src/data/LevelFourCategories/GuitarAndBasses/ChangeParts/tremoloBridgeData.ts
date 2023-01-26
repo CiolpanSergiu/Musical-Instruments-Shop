@@ -1,6 +1,9 @@
+import tremoloBrands from "../../../LogoData/GuitarAndBassesBrands/SpareParts/tremoloBrands.json";
+
 export default {
   pageLink: "/guitar-tremolo-bridges",
   title: "Tremolo Bridges",
+  brands: tremoloBrands,
   subcategories: [
     {
       title: "Standard Tremolo Bridges",

@@ -1,3 +1,4 @@
+// subcategories
 import electricGuitarSubcategories from "../LevelThreeCategories/GuitarsAndBasses/electricGuitarsData.json";
 import acousticGuitarsSubcategorie from "../LevelThreeCategories/GuitarsAndBasses/acousticGuitarsData.json";
 import electricBassesSubcategories from "../LevelThreeCategories/GuitarsAndBasses/electricBassesData.json";
@@ -11,6 +12,20 @@ import effectPedalsSubcategories from "../LevelThreeCategories/GuitarsAndBasses/
 import pickupsSubcategories from "../LevelThreeCategories/GuitarsAndBasses/pickupsData";
 import changeSpareSubcategories from "../LevelThreeCategories/GuitarsAndBasses/sparePartsData";
 import accesoriesSubcategories from "../LevelThreeCategories/GuitarsAndBasses/accesoriesData";
+// brands
+import electricGuitarBrands from "../LogoData/GuitarAndBassesBrands/electricGuitarsBrands.json";
+import acousticGuitarBrands from "../LogoData/GuitarAndBassesBrands/acousticGuitarsBrands.json";
+import electricBassBrands from "../LogoData/GuitarAndBassesBrands/electricBassBrands.json";
+import acousticBassBrands from "../LogoData/GuitarAndBassesBrands/acousticBassBrands.json";
+import ukuleleBrands from "../LogoData/GuitarAndBassesBrands/ukuleleBrands.json";
+import electricGuitarAmpsBrands from "../LogoData/GuitarAndBassesBrands/electricGuitarAmpsBrands.json";
+import electricBassAmpsBrands from "../LogoData/GuitarAndBassesBrands/electricBassAmpsBrands.json";
+import acousticGuitarAmpsBrands from "../LogoData/GuitarAndBassesBrands/acousticGuitarAmpsBrands.json";
+import stringsBrands from "../LogoData/GuitarAndBassesBrands/stringsBrands.json";
+import pedalsBrands from "../LogoData/GuitarAndBassesBrands/pedalsBrands.json";
+import pickupsBrands from "../LogoData/GuitarAndBassesBrands/pickupsBrands.json";
+import sparePartsBrands from "../LogoData/GuitarAndBassesBrands/sparePartsBrands.json";
+import accesoriesBrands from "../LogoData/GuitarAndBassesBrands/accesoriesBrands.json";
 
 const guitarsAndBassesData = [
   {
@@ -19,6 +34,7 @@ const guitarsAndBassesData = [
     title: "Electric Guitars",
     pageLink: "/electric-guitars",
     subcategories: electricGuitarSubcategories,
+    brands: electricGuitarBrands,
   },
   {
     src: "/images/category/LevelTwoCategories/GuitarsAndBasses/acoustic_guitar.jpg",
@@ -26,6 +42,7 @@ const guitarsAndBassesData = [
     title: "Acoustic guitars",
     pageLink: "/acoustic-guitars",
     subcategories: acousticGuitarsSubcategorie,
+    brands: acousticGuitarBrands,
   },
   {
     src: "/images/category/LevelTwoCategories/GuitarsAndBasses/electric_bass.jpg",
@@ -33,6 +50,7 @@ const guitarsAndBassesData = [
     title: "Electric Basses",
     pageLink: "/electric-basses",
     subcategories: electricBassesSubcategories,
+    brands: electricBassBrands,
   },
   {
     src: "/images/category/LevelTwoCategories/GuitarsAndBasses/acoustic_bass.jpg",
@@ -40,6 +58,7 @@ const guitarsAndBassesData = [
     title: "Acoustic Basses",
     pageLink: "/acoustic-basses",
     subcategories: acousticBassesSubcategories,
+    brands: acousticBassBrands,
   },
   {
     src: "/images/category/LevelTwoCategories/GuitarsAndBasses/ukulele.jpg",
@@ -47,6 +66,7 @@ const guitarsAndBassesData = [
     title: "Ukulele",
     pageLink: "/ukulele",
     subcategories: ukuleleSubcategories,
+    brands: ukuleleBrands,
   },
   {
     src: "/images/category/LevelTwoCategories/GuitarsAndBasses/electric_guitar_amp.jpg",
@@ -54,6 +74,7 @@ const guitarsAndBassesData = [
     title: "Electric guitar amplifiers",
     pageLink: "/electric-guitar-amplifiers",
     subcategories: electricGuitarAmplifiersSubcategories,
+    brands: electricGuitarAmpsBrands,
   },
   {
     src: "/images/category/LevelTwoCategories/GuitarsAndBasses/acoustic_guitar_amp.jpg",
@@ -61,6 +82,7 @@ const guitarsAndBassesData = [
     title: "Acoustic guitar amplifiers",
     pageLink: "/acoustic-guitars-amplifiers",
     subcategories: acousticGuitarAmplifiersSubcategories,
+    brands: acousticGuitarAmpsBrands,
   },
   {
     src: "/images/category/LevelTwoCategories/GuitarsAndBasses/electric_bass_amp.jpg",
@@ -68,6 +90,7 @@ const guitarsAndBassesData = [
     title: "Electric bass amplifiers",
     pageLink: "/electric-bass-amplifiers",
     subcategories: electricBassAmplifiersSubcategories,
+    brands: electricBassAmpsBrands,
   },
   {
     src: "/images/category/LevelTwoCategories/GuitarsAndBasses/strings.jpg",
@@ -75,6 +98,7 @@ const guitarsAndBassesData = [
     title: "Strings",
     pageLink: "/strings",
     subcategories: stringsSubcategories,
+    brands: stringsBrands,
   },
   {
     src: "/images/category/LevelTwoCategories/GuitarsAndBasses/effect_pedal.jpg",
@@ -82,6 +106,7 @@ const guitarsAndBassesData = [
     title: "Effect Pedals",
     pageLink: "/effect-pedals",
     subcategories: effectPedalsSubcategories,
+    brands: pedalsBrands,
   },
   {
     src: "/images/category/LevelTwoCategories/GuitarsAndBasses/pickup.jpg",
@@ -89,6 +114,7 @@ const guitarsAndBassesData = [
     title: "Pickups",
     pageLink: "/pickups",
     subcategories: pickupsSubcategories,
+    brands: pickupsBrands,
   },
   {
     src: "/images/category/LevelTwoCategories/GuitarsAndBasses/change_parts.jpg",
@@ -96,6 +122,7 @@ const guitarsAndBassesData = [
     title: "Change Parts",
     pageLink: "/change-parts",
     subcategories: changeSpareSubcategories,
+    brands: sparePartsBrands,
   },
   {
     src: "/images/category/LevelTwoCategories/GuitarsAndBasses/accesories.jpg",
@@ -103,6 +130,7 @@ const guitarsAndBassesData = [
     title: "Accesories",
     pageLink: "/guitar-and-basses-accesories",
     subcategories: accesoriesSubcategories,
+    brands: accesoriesBrands,
   },
 ];
 

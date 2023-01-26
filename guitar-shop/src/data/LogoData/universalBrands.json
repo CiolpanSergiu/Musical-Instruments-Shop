@@ -1,13 +1,13 @@
 [
   {
     "brandName": "boss",
-    "src": "/images/brandLogos/GuitarAndBasses/boss_logo.jpg",
+    "src": "/images/brandLogos/BrandsForMultipleCategories/boss_logo.jpg",
     "alt": "Boss logo",
     "pageLink": "/"
   },
   {
     "brandName": "daddario",
-    "src": "/images/brandLogos/GuitarAndBasses/daddario_logo.jpg",
+    "src": "/images/brandLogos/BrandsForMultipleCategories/daddario_logo.jpg",
     "alt": "D'adarrio logo",
     "pageLink": "/"
   },
@@ -25,7 +25,7 @@
   },
   {
     "brandName": "fender",
-    "src": "/images/brandLogos/GuitarAndBasses/fender_logo.jpg",
+    "src": "/images/brandLogos/BrandsForMultipleCategories/fender_logo.jpg",
     "alt": "Fender logo",
     "pageLink": "/"
   },
@@ -49,7 +49,7 @@
   },
   {
     "brandName": "harley benton",
-    "src": "/images/brandLogos/GuitarAndBasses/harley_benton_logo.jpg",
+    "src": "/images/brandLogos/BrandsForMultipleCategories/harley_benton_logo.jpg",
     "alt": "Harley Benton logo",
     "pageLink": "/"
   },

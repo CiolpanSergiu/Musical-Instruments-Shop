@@ -1,6 +1,9 @@
+import bassPickGuardBrands from "../../../LogoData/GuitarAndBassesBrands/SpareParts/bassPickGuardBrands.json";
+
 export default {
   pageLink: "/bass-pick-guards",
   title: "Bass Pick Guards",
+  brands: bassPickGuardBrands,
   subcategories: [
     {
       title: "J Bass Pick Guard",

@@ -1,0 +1,110 @@
+[
+  {
+    "brandName": "Darkglass",
+    "src": "/images/brandLogos/GuitarAndBasses/EffectPedals/darkglass_logo.jpg",
+    "alt": "Darkglass logo",
+    "pageLink": "/"
+  },
+  {
+    "brandName": "Digitech",
+    "src": "/images/brandLogos/GuitarAndBasses/EffectPedals/digitech_logo.jpg",
+    "alt": "Digitech logo",
+    "pageLink": "/"
+  },
+  {
+    "brandName": "Electro Harmonix",
+    "src": "/images/brandLogos/GuitarAndBasses/EffectPedals/electro_harmonix_logo.jpg",
+    "alt": "Electro Harmonix logo",
+    "pageLink": "/"
+  },
+  {
+    "brandName": "Jam Pedals",
+    "src": "/images/brandLogos/GuitarAndBasses/EffectPedals/jam_pedals_logo.jpg",
+    "alt": "Jam Pedals logo",
+    "pageLink": "/"
+  },
+  {
+    "brandName": "JHS Pedals",
+    "src": "/images/brandLogos/GuitarAndBasses/EffectPedals/jhs_pedals_logo.jpg",
+    "alt": "JHS Pedals logo",
+    "pageLink": "/"
+  },
+  {
+    "brandName": "Keeley",
+    "src": "/images/brandLogos/GuitarAndBasses/EffectPedals/keeley_logo.jpg",
+    "alt": " logo",
+    "pageLink": "/"
+  },
+  {
+    "brandName": "Mooer",
+    "src": "/images/brandLogos/GuitarAndBasses/EffectPedals/mooer_logo.jpg",
+    "alt": "Mooer logo",
+    "pageLink": "/"
+  },
+  {
+    "brandName": "Palmer",
+    "src": "/images/brandLogos/GuitarAndBasses/EffectPedals/palmer_logo.jpg",
+    "alt": "Palmer logo",
+    "pageLink": "/"
+  },
+  {
+    "brandName": "Radial Engineering",
+    "src": "/images/brandLogos/GuitarAndBasses/EffectPedals/radial_engineering_logo.jpg",
+    "alt": "Radial Engineering logo",
+    "pageLink": "/"
+  },
+  {
+    "brandName": "Rockboard",
+    "src": "/images/brandLogos/GuitarAndBasses/EffectPedals/rockboard_logo.jpg",
+    "alt": "Rockboard logo",
+    "pageLink": "/"
+  },
+  {
+    "brandName": "Strymon",
+    "src": "/images/brandLogos/GuitarAndBasses/EffectPedals/strymon_logo.jpg",
+    "alt": "Strymon logo",
+    "pageLink": "/"
+  },
+  {
+    "brandName": "Tc Electronic",
+    "src": "/images/brandLogos/GuitarAndBasses/EffectPedals/tc_electronic_logo.jpg",
+    "alt": "Tc Electronic logo",
+    "pageLink": "/"
+  },
+  {
+    "brandName": "Walrus Audio",
+    "src": "/images/brandLogos/GuitarAndBasses/EffectPedals/walrus_audio_logo.jpg",
+    "alt": "Walrus Audio logo",
+    "pageLink": "/"
+  },
+  {
+    "brandName": "Wampler",
+    "src": "/images/brandLogos/GuitarAndBasses/EffectPedals/wampler_logo.jpg",
+    "alt": "Wampler logo",
+    "pageLink": "/"
+  },
+  {
+    "brandName": "Joyo",
+    "src": "/images/brandLogos/GuitarAndBasses/ElectricGuitarAmps/joyo_logo.jpg",
+    "alt": "Joyo logo",
+    "pageLink": "/"
+  },
+  {
+    "brandName": "Line6",
+    "src": "/images/brandLogos/GuitarAndBasses/line6_logo.jpg",
+    "alt": "Line6 logo",
+    "pageLink": "/"
+  },
+  {
+    "brandName": "Boss",
+    "src": "/images/brandLogos/BrandsForMultipleCategories/boss_logo.jpg",
+    "alt": "Boss logo",
+    "pageLink": "/"
+  },
+  {
+    "brandName": "Dunlop",
+    "src": "/images/brandLogos/GuitarAndBasses/dunlop_logo.jpg",
+    "alt": "Dunlop logo",
+    "pageLink": "/"
+  }
+]

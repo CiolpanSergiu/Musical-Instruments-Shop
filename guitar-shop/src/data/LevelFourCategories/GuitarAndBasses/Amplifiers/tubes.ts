@@ -1,6 +1,9 @@
+import tubeBrands from "../../../LogoData/GuitarAndBassesBrands/ElectricGuitarAmplifiers/ampTubesBrands.json";
+
 export default {
   pageLink: "/amplifier-tubes",
   title: "Amplifier Tubes",
+  brands: tubeBrands,
   subcategories: [
     {
       title: "EL34 Tubes",

@@ -1,6 +1,9 @@
+import electricGuitarPickupsBrands from "../../../LogoData/GuitarAndBassesBrands/pickupsBrands.json";
+
 export default {
   pageLink: "/electric-guitar-pickups",
   title: "Electric Guitar Pickups",
+  brands: electricGuitarPickupsBrands,
   subcategories: [
     {
       title: "Single Coil Pickups",

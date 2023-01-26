@@ -1,6 +1,9 @@
+import saddleAndTailpieceBrands from "../../../LogoData/GuitarAndBassesBrands/SpareParts/saddlesAndTailpiecesBrands.json";
+
 export default {
   pageLink: "/saddles-and-tailpieces",
   title: "Saddles and Tailpieces",
+  brands: saddleAndTailpieceBrands,
   subcategories: [
     {
       title: "Guitar Tailpieces",

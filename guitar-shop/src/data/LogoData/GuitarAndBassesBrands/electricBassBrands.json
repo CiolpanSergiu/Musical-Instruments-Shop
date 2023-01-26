@@ -1,0 +1,104 @@
+[
+  {
+    "brandName": "Fgn",
+    "src": "/images/brandLogos/GuitarAndBasses/ElectricBasses/fgn_logo.jpg",
+    "alt": "Fgn logo",
+    "pageLink": "/"
+  },
+  {
+    "brandName": "Gl",
+    "src": "/images/brandLogos/GuitarAndBasses/ElectricBasses/gl_logo.jpg",
+    "alt": "Gl logo",
+    "pageLink": "/"
+  },
+  {
+    "brandName": "Hofner",
+    "src": "/images/brandLogos/GuitarAndBasses/ElectricBasses/hofner_logo.jpg",
+    "alt": "Hofner logo",
+    "pageLink": "/"
+  },
+  {
+    "brandName": "Sadowsky",
+    "src": "/images/brandLogos/GuitarAndBasses/ElectricBasses/sadowsky_logo.jpg",
+    "alt": "Sadowsky logo",
+    "pageLink": "/"
+  },
+  {
+    "brandName": "Sandberg",
+    "src": "/images/brandLogos/GuitarAndBasses/ElectricBasses/sandberg_logo.jpg",
+    "alt": "Sandberg logo",
+    "pageLink": "/"
+  },
+  {
+    "brandName": "Spector",
+    "src": "/images/brandLogos/GuitarAndBasses/ElectricBasses/spector_logo.jpg",
+    "alt": "Spector logo",
+    "pageLink": "/"
+  },
+  {
+    "brandName": "Sterling Music Man",
+    "src": "/images/brandLogos/GuitarAndBasses/ElectricBasses/sterling_by_music_man_logo.jpg",
+    "alt": "Sterling Music Man logo",
+    "pageLink": "/"
+  },
+  {
+    "brandName": "Warwick",
+    "src": "/images/brandLogos/GuitarAndBasses/ElectricBasses/warwick_logo.jpg",
+    "alt": "Warwick logo",
+    "pageLink": "/"
+  },
+  {
+    "brandName": "Fender",
+    "src": "/images/brandLogos/BrandsForMultipleCategories/fender_logo.jpg",
+    "alt": "Fender logo",
+    "pageLink": "/"
+  },
+  {
+    "brandName": "Harley benton",
+    "src": "/images/brandLogos/BrandsForMultipleCategories/harley_benton_logo.jpg",
+    "alt": "Harley Benton logo",
+    "pageLink": "/"
+  },
+  {
+    "brandName": "Ibanez",
+    "src": "/images/brandLogos/GuitarAndBasses/ibanez_logo.jpg",
+    "alt": "Ibanez logo",
+    "pageLink": "/"
+  },
+  {
+    "brandName": "Cort",
+    "src": "/images/brandLogos/GuitarAndBasses/ElectricGuitars/cort_logo.jpg",
+    "alt": "Cort logo",
+    "pageLink": "/"
+  },
+  {
+    "brandName": "Larry Carlton",
+    "src": "/images/brandLogos/GuitarAndBasses/ElectricGuitars/larry_carlton_logo.jpg",
+    "alt": "Larry Carlton logo",
+    "pageLink": "/"
+  },
+  {
+    "brandName": "Music Man",
+    "src": "/images/brandLogos/GuitarAndBasses/ElectricGuitars/music_man_logo.jpg",
+    "alt": "Music Man logo",
+    "pageLink": "/"
+  },
+  {
+    "brandName": "Esp",
+    "src": "/images/brandLogos/GuitarAndBasses/esp_logo.jpg",
+    "alt": "ESP logo",
+    "pageLink": "/"
+  },
+  {
+    "brandName": "Schecter",
+    "src": "/images/brandLogos/GuitarAndBasses/schecter_logo.jpg",
+    "alt": "Schecter logo",
+    "pageLink": "/"
+  },
+  {
+    "brandName": "Epiphone",
+    "src": "/images/brandLogos/GuitarAndBasses/epiphone_logo.jpg",
+    "alt": "Epiphone logo",
+    "pageLink": "/"
+  }
+]

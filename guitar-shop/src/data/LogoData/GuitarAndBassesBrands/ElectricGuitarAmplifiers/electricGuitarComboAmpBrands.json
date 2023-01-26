@@ -1,0 +1,86 @@
+[
+  {
+    "brandName": "Blackstar",
+    "src": "/images/brandLogos/GuitarAndBasses/blackstar_logo.jpg",
+    "alt": "Blackstar logo",
+    "pageLink": "/"
+  },
+  {
+    "brandName": "Bugera",
+    "src": "/images/brandLogos/GuitarAndBasses/ElectricGuitarAmps/bugera_logo.jpg",
+    "alt": "Bugera logo",
+    "pageLink": "/"
+  },
+  {
+    "brandName": "Line6",
+    "src": "/images/brandLogos/GuitarAndBasses/line6_logo.jpg",
+    "alt": "Line6 logo",
+    "pageLink": "/"
+  },
+  {
+    "brandName": "Orange",
+    "src": "/images/brandLogos/GuitarAndBasses/ElectricGuitarAmps/orange_logo.jpg",
+    "alt": "Orange logo",
+    "pageLink": "/"
+  },
+  {
+    "brandName": "Quilter",
+    "src": "/images/brandLogos/GuitarAndBasses/ElectricGuitarAmps/quilter_logo.jpg",
+    "alt": "Quilter logo",
+    "pageLink": "/"
+  },
+  {
+    "brandName": "Tone King",
+    "src": "/images/brandLogos/GuitarAndBasses/ElectricGuitarAmps/tone_king_logo.jpg",
+    "alt": "Tone King logo",
+    "pageLink": "/"
+  },
+  {
+    "brandName": "Vox",
+    "src": "/images/brandLogos/GuitarAndBasses/ElectricGuitarAmps/vox_logo.jpg",
+    "alt": "Vox logo",
+    "pageLink": "/"
+  },
+  {
+    "brandName": "Boss",
+    "src": "/images/brandLogos/BrandsForMultipleCategories/boss_logo.jpg",
+    "alt": "Boss logo",
+    "pageLink": "/"
+  },
+  {
+    "brandName": "Marshall",
+    "src": "/images/brandLogos/GuitarAndBasses/marshall_logo.jpg",
+    "alt": "Marshall logo",
+    "pageLink": "/"
+  },
+  {
+    "brandName": "Harley Benton",
+    "src": "/images/brandLogos/BrandsForMultipleCategories/harley_benton_logo.jpg",
+    "alt": "Harley Benton logo",
+    "pageLink": "/"
+  },
+  {
+    "brandName": "Roland",
+    "src": "/images/brandLogos/BrandsForMultipleCategories/roland_logo.jpg",
+    "alt": "Roland logo",
+    "pageLink": "/"
+  },
+  {
+    "brandName": "Yamaha",
+    "src": "/images/brandLogos/BrandsForMultipleCategories/yamaha_logo.jpg",
+    "alt": "Yamaha logo",
+    "pageLink": "/"
+  },
+  {
+    "brandName": "Cort",
+    "src": "/images/brandLogos/GuitarAndBasses/ElectricGuitars/cort_logo.jpg",
+    "alt": "Cort logo",
+    "pageLink": "/"
+  },
+  {
+    "brandName": "Fender",
+    "src": "/images/brandLogos/BrandsForMultipleCategories/fender_logo.jpg",
+    "alt": "Fender logo",
+    "pageLink": "/"
+  }
+]

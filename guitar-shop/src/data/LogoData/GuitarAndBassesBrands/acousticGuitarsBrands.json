@@ -1,0 +1,104 @@
+[
+  {
+    "brandName": "D'Angelico",
+    "src": "/images/brandLogos/GuitarAndBasses/AcousticGuitars/dangelico_logo.jpg",
+    "alt": "D'Angelico logo",
+    "pageLink": "/"
+  },
+  {
+    "brandName": "Framus",
+    "src": "/images/brandLogos/GuitarAndBasses/AcousticGuitars/framus_logo.jpg",
+    "alt": "Framus logo",
+    "pageLink": "/"
+  },
+  {
+    "brandName": "Furch",
+    "src": "/images/brandLogos/GuitarAndBasses/AcousticGuitars/furch_logo.jpg",
+    "alt": "Furch logo",
+    "pageLink": "/"
+  },
+  {
+    "brandName": "Guild",
+    "src": "/images/brandLogos/GuitarAndBasses/AcousticGuitars/guild_logo.jpg",
+    "alt": "Guild logo",
+    "pageLink": "/"
+  },
+  {
+    "brandName": "Lag",
+    "src": "/images/brandLogos/GuitarAndBasses/AcousticGuitars/lag_logo.jpg",
+    "alt": "Lag logo",
+    "pageLink": "/"
+  },
+  {
+    "brandName": "Lava Music",
+    "src": "/images/brandLogos/GuitarAndBasses/AcousticGuitars/lava_music_logo.jpg",
+    "alt": "Lava Music logo",
+    "pageLink": "/"
+  },
+  {
+    "brandName": "Maton",
+    "src": "/images/brandLogos/GuitarAndBasses/AcousticGuitars/maton_logo.jpg",
+    "alt": "Maton logo",
+    "pageLink": "/"
+  },
+  {
+    "brandName": "Seagull",
+    "src": "/images/brandLogos/GuitarAndBasses/AcousticGuitars/seagull_logo.jpg",
+    "alt": "Seagull logo",
+    "pageLink": "/"
+  },
+  {
+    "brandName": "Takamine",
+    "src": "/images/brandLogos/GuitarAndBasses/AcousticGuitars/takamine_logo.jpg",
+    "alt": "Takamine logo",
+    "pageLink": "/"
+  },
+  {
+    "brandName": "Taylor",
+    "src": "/images/brandLogos/GuitarAndBasses/AcousticGuitars/taylor_logo.jpg",
+    "alt": "Taylor logo",
+    "pageLink": "/"
+  },
+  {
+    "brandName": "Fender",
+    "src": "/images/brandLogos/BrandsForMultipleCategories/fender_logo.jpg",
+    "alt": "Fender logo",
+    "pageLink": "/"
+  },
+  {
+    "brandName": "Gibson",
+    "src": "/images/brandLogos/GuitarAndBasses/gibson_logo.jpg",
+    "alt": "Gibson logo",
+    "pageLink": "/"
+  },
+  {
+    "brandName": "Harley Benton",
+    "src": "/images/brandLogos/BrandsForMultipleCategories/harley_benton_logo.jpg",
+    "alt": "Harley Benton logo",
+    "pageLink": "/"
+  },
+  {
+    "brandName": "Ibanez",
+    "src": "/images/brandLogos/GuitarAndBasses/ibanez_logo.jpg",
+    "alt": "Ibanez logo",
+    "pageLink": "/"
+  },
+  {
+    "brandName": "Yamaha",
+    "src": "/images/brandLogos/BrandsForMultipleCategories/yamaha_logo.jpg",
+    "alt": "Yamaha logo",
+    "pageLink": "/"
+  },
+  {
+    "brandName": "Epiphone",
+    "src": "/images/brandLogos/GuitarAndBasses/epiphone_logo.jpg",
+    "alt": "Epiphone logo",
+    "pageLink": "/"
+  },
+  {
+    "brandName": "Prs",
+    "src": "/images/brandLogos/GuitarAndBasses/prs_logo.jpg",
+    "alt": "PRS logo",
+    "pageLink": "/"
+  }
+]

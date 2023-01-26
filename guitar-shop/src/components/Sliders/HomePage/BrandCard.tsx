@@ -4,38 +4,39 @@ import styled from "styled-components";
 type Props = {
   src: string;
   alt: string;
+  title: string;
 };
 
 const CardContainer = styled.div`
   display: flex;
-  justify-content: center;
   align-items: center;
-  border: solid gray 1px;
+  justify-content: center;
+  border: solid lightgray 2px;
   border-radius: 5px;
-  margin: 1rem;
+  margin: 0.5rem;
+  transition: 0.3s all ease-in-out;
+
+  &:hover {
+    border: solid gray 2px;
+  }
 `;
 
 const CardImage = styled.img`
-  width: 100px;
-  height: 100px;
-  padding: 0.5px;
+  width: 100%;
+  max-height: 100px;
+  height: 100%;
+  padding: 0.5rem;
 
-  @media only screen and(min-width: 480px) {
-    width: 125px;
-    height: 125px;
-  }
-
-  @media only screen and(min-width: 768px) {
-    width: 150px;
-    height: 150px;
+  @media only screen and (min-width: 992px) {
+    max-height: 125px;
   }
 `;
 
-export default function TopBrandsCard({ src, alt }: Props) {
+export default function TopBrandsCard({ src, alt, title }: Props) {
   return (
     <CardContainer>
       <Link to="">
-        <CardImage src={src} alt={alt} />
+        <CardImage src={src} alt={alt} title={title} />
       </Link>
     </CardContainer>
   );

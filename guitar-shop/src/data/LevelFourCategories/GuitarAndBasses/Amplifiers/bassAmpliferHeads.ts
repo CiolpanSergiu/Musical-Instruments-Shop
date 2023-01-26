@@ -1,6 +1,9 @@
+import bassAmpHeadsBrands from "../../../LogoData/GuitarAndBassesBrands/ElectricBassAmplifiers/electricBassAmpHeadBrands.json";
+
 export default {
   pageLink: "/bass-amplifier-heads",
   title: "Electric Bass Amplifier Heads",
+  brands: bassAmpHeadsBrands,
   subcategories: [
     {
       src: "/images/category/LevelFourCategories/GuitarsAndBasses/BassAmplifierHeads/transistors_bass_amp_head.jpg",

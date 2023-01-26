@@ -1,0 +1,86 @@
+[
+  {
+    "brandName": "Adamas",
+    "src": "/images/brandLogos/GuitarAndBasses/Strings/adamas_logo.jpg",
+    "alt": "Adamas logo",
+    "pageLink": "/"
+  },
+  {
+    "brandName": "Augustine",
+    "src": "/images/brandLogos/GuitarAndBasses/Strings/augustine_logo.jpg",
+    "alt": "Augustine logo",
+    "pageLink": "/"
+  },
+  {
+    "brandName": "Dean Markley",
+    "src": "/images/brandLogos/GuitarAndBasses/Strings/dean_markley_logo.jpg",
+    "alt": "Dean Markley logo",
+    "pageLink": "/"
+  },
+  {
+    "brandName": "Dr Strings",
+    "src": "/images/brandLogos/GuitarAndBasses/Strings/dr_strings_logo.jpg",
+    "alt": "Dr Strings logo",
+    "pageLink": "/"
+  },
+  {
+    "brandName": "Fodera",
+    "src": "/images/brandLogos/GuitarAndBasses/Strings/fodera_logo.jpg",
+    "alt": "Fodera logo",
+    "pageLink": "/"
+  },
+  {
+    "brandName": "Ghs",
+    "src": "/images/brandLogos/GuitarAndBasses/Strings/ghs_logo.jpg",
+    "alt": "Ghs logo",
+    "pageLink": "/"
+  },
+  {
+    "brandName": "Knobloch Strings",
+    "src": "/images/brandLogos/GuitarAndBasses/Strings/knobloch_strings_logo.jpg",
+    "alt": "Knobloch Strings logo",
+    "pageLink": "/"
+  },
+  {
+    "brandName": "La Bella",
+    "src": "/images/brandLogos/GuitarAndBasses/Strings/la_bella_logo.jpg",
+    "alt": "La Bella logo",
+    "pageLink": "/"
+  },
+  {
+    "brandName": "Rotosound",
+    "src": "/images/brandLogos/GuitarAndBasses/Strings/rotosound_logo.jpg",
+    "alt": "Rotosound logo",
+    "pageLink": "/"
+  },
+  {
+    "brandName": "Savarez",
+    "src": "/images/brandLogos/GuitarAndBasses/Strings/savarez_logo.jpg",
+    "alt": "Savarez logo",
+    "pageLink": "/"
+  },
+  {
+    "brandName": "D'Addario",
+    "src": "/images/brandLogos/BrandsForMultipleCategories/daddario_logo.jpg",
+    "alt": "D'adarrio logo",
+    "pageLink": "/"
+  },
+  {
+    "brandName": "Gibson",
+    "src": "/images/brandLogos/GuitarAndBasses/gibson_logo.jpg",
+    "alt": "Gibson logo",
+    "pageLink": "/"
+  },
+  {
+    "brandName": "Elixir",
+    "src": "/images/brandLogos/GuitarAndBasses/elixir_logo.jpg",
+    "alt": "Elixir logo",
+    "pageLink": "/"
+  },
+  {
+    "brandName": "Ernie Ball",
+    "src": "/images/brandLogos/BrandsForMultipleCategories/ernieball_logo.jpg",
+    "alt": "Ernie Ball logo",
+    "pageLink": "/"
+  }
+]

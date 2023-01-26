@@ -1,6 +1,9 @@
+import guitarPickGuardBrands from "../../../LogoData/GuitarAndBassesBrands/SpareParts/guitarPickGuardBrands.json";
+
 export default {
   pageLink: "/guitar-pick-guards",
   title: "Guitar Pick Guards",
+  brands: guitarPickGuardBrands,
   subcategories: [
     {
       title: "Stratocaster Guitar Pick Guard",

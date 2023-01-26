@@ -1,6 +1,9 @@
+import acousticGuitarStringBrands from "../../../LogoData/GuitarAndBassesBrands/Strings/acousticGuitarStringsBrands.json";
+
 export default {
   pageLink: "/acoustic-guitar-strings",
   title: "Acoustic Guitar Strings",
+  brands: acousticGuitarStringBrands,
   subcategories: [
     {
       title: "0.10 Acoustic Guitar Strings",

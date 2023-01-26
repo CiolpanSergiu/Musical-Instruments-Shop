@@ -1,6 +1,9 @@
+import electricBassPickupsBrands from "../../../LogoData/GuitarAndBassesBrands/Pickups/bassPickupsBrands.json";
+
 export default {
   pageLink: "/electric-bass-pickups",
   title: "Electric Bass Pickups",
+  brands: electricBassPickupsBrands,
   subcategories: [
     {
       title: "4 Strings J Bass Pickup",

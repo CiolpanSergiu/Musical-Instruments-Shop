@@ -1,6 +1,9 @@
+import capoBrands from "../../../LogoData/GuitarAndBassesBrands/Accesories/capoBrands.json";
+
 export default {
   pageLink: "/capos",
   title: "Guitar Capos",
+  brands: capoBrands,
   subcategories: [
     {
       title: "Electric/Acoustic Guitar Capos",

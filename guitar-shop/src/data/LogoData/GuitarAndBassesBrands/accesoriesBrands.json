@@ -1,0 +1,86 @@
+[
+  {
+    "brandName": "Levys",
+    "src": "/images/brandLogos/GuitarAndBasses/Accesories/levys_logo.jpg",
+    "alt": "Levys logo",
+    "pageLink": "/"
+  },
+  {
+    "brandName": "MusicNomad",
+    "src": "/images/brandLogos/GuitarAndBasses/Accesories/musicnomad_logo.jpg",
+    "alt": "MusicNomad logo",
+    "pageLink": "/"
+  },
+  {
+    "brandName": "Richter",
+    "src": "/images/brandLogos/GuitarAndBasses/Accesories/richter_logo.jpg",
+    "alt": "Richter logo",
+    "pageLink": "/"
+  },
+  {
+    "brandName": "Shubb",
+    "src": "/images/brandLogos/GuitarAndBasses/Accesories/shubb_logo.jpg",
+    "alt": "Shubb logo",
+    "pageLink": "/"
+  },
+  {
+    "brandName": "D'Addario",
+    "src": "/images/brandLogos/BrandsForMultipleCategories/daddario_logo.jpg",
+    "alt": "D'adarrio logo",
+    "pageLink": "/"
+  },
+  {
+    "brandName": "Fender",
+    "src": "/images/brandLogos/BrandsForMultipleCategories/fender_logo.jpg",
+    "alt": "Fender logo",
+    "pageLink": "/"
+  },
+  {
+    "brandName": "Dunlop",
+    "src": "/images/brandLogos/GuitarAndBasses/dunlop_logo.jpg",
+    "alt": "Dunlop logo",
+    "pageLink": "/"
+  },
+  {
+    "brandName": "Cordial",
+    "src": "/images/brandLogos/BrandsForMultipleCategories/cordial_logo.jpg",
+    "alt": "Cordial logo",
+    "pageLink": "/"
+  },
+  {
+    "brandName": "Harley Benton",
+    "src": "/images/brandLogos/BrandsForMultipleCategories/harley_benton_logo.jpg",
+    "alt": "Harley Benton logo",
+    "pageLink": "/"
+  },
+  {
+    "brandName": "Ibanez",
+    "src": "/images/brandLogos/GuitarAndBasses/ibanez_logo.jpg",
+    "alt": "Ibanez logo",
+    "pageLink": "/"
+  },
+  {
+    "brandName": "Epiphone",
+    "src": "/images/brandLogos/GuitarAndBasses/epiphone_logo.jpg",
+    "alt": "Epiphone logo",
+    "pageLink": "/"
+  },
+  {
+    "brandName": "GatorCases",
+    "src": "/images/brandLogos/BrandsForMultipleCategories/gator_logo.jpg",
+    "alt": "GatorCases logo",
+    "pageLink": "/"
+  },
+  {
+    "brandName": "Ernie Ball",
+    "src": "/images/brandLogos/BrandsForMultipleCategories/ernieball_logo.jpg",
+    "alt": "Ernie Ball logo",
+    "pageLink": "/"
+  },
+  {
+    "brandName": "Gibson",
+    "src": "/images/brandLogos/GuitarAndBasses/gibson_logo.jpg",
+    "alt": "Gibson logo",
+    "pageLink": "/"
+  }
+]
