@@ -1,0 +1,122 @@
+[
+  {
+    "brandName": "Elektron",
+    "src": "/images/brandLogos/BrandsForMultipleCategories/elektron_logo.jpg",
+    "alt": "Elektron logo",
+    "pageLink": "/"
+  },
+  {
+    "brandName": "Akai Professional",
+    "src": "/images/brandLogos/KeyboardAndSynth/Synthesizers/akai_professional_logo.jpg",
+    "alt": "Akai Professional logo",
+    "pageLink": "/"
+  },
+  {
+    "brandName": "Erica Synths",
+    "src": "/images/brandLogos/KeyboardAndSynth/Synthesizers/erica_synths_logo.jpg",
+    "alt": "Erica Synths logo",
+    "pageLink": "/"
+  },
+  {
+    "brandName": "Sequential",
+    "src": "/images/brandLogos/KeyboardAndSynth/Synthesizers/sequential_logo.jpg",
+    "alt": "Sequential logo",
+    "pageLink": "/"
+  },
+  {
+    "brandName": "Soma",
+    "src": "/images/brandLogos/KeyboardAndSynth/Synthesizers/soma_logo.jpg",
+    "alt": "Soma logo",
+    "pageLink": "/"
+  },
+  {
+    "brandName": "Teenage Engineering",
+    "src": "/images/brandLogos/KeyboardAndSynth/Synthesizers/teenage_engineering_logo.jpg",
+    "alt": "Teenage Engineering logo",
+    "pageLink": "/"
+  },
+  {
+    "brandName": "Korg",
+    "src": "/images/brandLogos/BrandsForMultipleCategories/korg_logo.jpg",
+    "alt": "KORG logo",
+    "pageLink": "/"
+  },
+  {
+    "brandName": "Roland",
+    "src": "/images/brandLogos/BrandsForMultipleCategories/roland_logo.jpg",
+    "alt": "Roland logo",
+    "pageLink": "/"
+  },
+  {
+    "brandName": "Yamaha",
+    "src": "/images/brandLogos/BrandsForMultipleCategories/yamaha_logo.jpg",
+    "alt": "Yamaha logo",
+    "pageLink": "/"
+  },
+  {
+    "brandName": "4ms",
+    "src": "/images/brandLogos/KeyboardAndSynth/4ms_logo.jpg",
+    "alt": "4MS logo",
+    "pageLink": "/"
+  },
+  {
+    "brandName": "Intellijel Designs",
+    "src": "/images/brandLogos/KeyboardAndSynth/intellijel_designs_logo.jpg",
+    "alt": "Intellijel logo",
+    "pageLink": "/"
+  },
+  {
+    "brandName": "Make Noise",
+    "src": "/images/brandLogos/KeyboardAndSynth/make_noise_logo.jpg",
+    "alt": "Make Noise logo",
+    "pageLink": "/"
+  },
+  {
+    "brandName": "Moog",
+    "src": "/images/brandLogos/KeyboardAndSynth/moog_logo.jpg",
+    "alt": "Moog logo",
+    "pageLink": "/"
+  },
+  {
+    "brandName": "Tiptop Audio",
+    "src": "/images/brandLogos/KeyboardAndSynth/tiptop_audio_logo.jpg",
+    "alt": "Tiptop Audio logo",
+    "pageLink": "/"
+  },
+  {
+    "brandName": "Viscount",
+    "src": "/images/brandLogos/KeyboardAndSynth/viscount_logo.jpg",
+    "alt": "Viscount logo",
+    "pageLink": "/"
+  },
+  {
+    "brandName": "Waldorf",
+    "src": "/images/brandLogos/KeyboardAndSynth/waldorf_logo.jpg",
+    "alt": "Waldorf logo",
+    "pageLink": "/"
+  },
+  {
+    "brandName": "Arturia",
+    "src": "/images/brandLogos/BrandsForMultipleCategories/arturia_logo.jpg",
+    "alt": "Arturia logo",
+    "pageLink": "/"
+  },
+  {
+    "brandName": "Behringer",
+    "src": "/images/brandLogos/BrandsForMultipleCategories/behringer_logo.jpg",
+    "alt": "Behringer logo",
+    "pageLink": "/"
+  },
+  {
+    "brandName": "Fun Generation",
+    "src": "/images/brandLogos/BrandsForMultipleCategories/fun_generation_logo.jpg",
+    "alt": "Fun Generation logo",
+    "pageLink": "/"
+  },
+  {
+    "brandName": "GatorCases",
+    "src": "/images/brandLogos/BrandsForMultipleCategories/gator_logo.jpg",
+    "alt": "GatorCases logo",
+    "pageLink": "/"
+  }
+]

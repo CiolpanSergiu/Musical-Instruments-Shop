@@ -1,5 +1,9 @@
+// subcategories
 import keyboardsSubcategories from "../LevelThreeCategories/KeyboardsAndSynth/keyboardsData.json";
 import synthesizerSubcategories from "../LevelThreeCategories/KeyboardsAndSynth/synthesizersData.json";
+// brands
+import keyboardBrands from "../LogoData/KeyboardAndSynthBrands/Keyboards/keyboardBrands.json";
+import synthesizerBrands from "../LogoData/KeyboardAndSynthBrands/Synthesizers/synthesizerBrands.json";
 
 const keyboardAndSynthData = [
   {
@@ -8,6 +12,7 @@ const keyboardAndSynthData = [
     title: "Keyboards",
     pageLink: "/keyboards",
     subcategories: keyboardsSubcategories,
+    brands: keyboardBrands,
   },
   {
     src: "/images/category/LevelTwoCategories/KeyboardsAndSynth/synthesizer.jpg",
@@ -15,6 +20,7 @@ const keyboardAndSynthData = [
     title: "Synthesizers",
     pageLink: "/synthesizers",
     subcategories: synthesizerSubcategories,
+    brands: synthesizerBrands,
   },
   {
     src: "/images/category/LevelTwoCategories/KeyboardsAndSynth/piano.jpg",

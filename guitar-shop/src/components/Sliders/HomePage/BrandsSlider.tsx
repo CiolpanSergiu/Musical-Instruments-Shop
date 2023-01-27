@@ -69,42 +69,44 @@ export default function BrandsSlider({ title, data }: Props) {
   const settings = {
     dots: true,
     className: "center",
-    centerMode: true,
     infinite: data.length >= 10 ? true : false,
     slidesToShow: 5,
     speed: 500,
     rows: data.length <= 5 ? 1 : 2,
-    slidesToScroll: 1,
+    slidesToScroll: 5,
     autoplay: true,
     autoplaySpeed: 5000,
     nextArrow: <SampleNextArrow />,
     prevArrow: <SamplePrevArrow />,
     swipeToSlide: true,
-    cssEase: "linear",
 
     responsive: [
       {
         breakpoint: 992,
         settings: {
           slidesToShow: 4,
+          slidesToScroll: 4,
         },
       },
       {
         breakpoint: 768,
         settings: {
           slidesToShow: 3,
+          slidesToScroll: 3,
         },
       },
       {
         breakpoint: 667,
         settings: {
           slidesToShow: 2,
+          slidesToScroll: 2,
         },
       },
       {
         breakpoint: 440,
         settings: {
           slidesToShow: 1,
+          slidesToScroll: 1,
         },
       },
     ],
