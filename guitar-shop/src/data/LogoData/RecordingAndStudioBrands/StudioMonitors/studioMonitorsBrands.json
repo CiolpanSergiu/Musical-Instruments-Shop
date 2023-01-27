@@ -1,0 +1,110 @@
+[
+  {
+    "brandName": "Adam",
+    "src": "/images/brandLogos/RecordingAndStudio/StudioMonitors/adam_logo.jpg",
+    "alt": "Adam logo",
+    "pageLink": "/"
+  },
+  {
+    "brandName": "Audient",
+    "src": "/images/brandLogos/RecordingAndStudio/StudioMonitors/audient_logo.jpg",
+    "alt": "Audient logo",
+    "pageLink": "/"
+  },
+  {
+    "brandName": "Dangerous Music",
+    "src": "/images/brandLogos/RecordingAndStudio/StudioMonitors/dangerous_music_logo.jpg",
+    "alt": "Dangerous Music logo",
+    "pageLink": "/"
+  },
+  {
+    "brandName": "Eve Audio",
+    "src": "/images/brandLogos/RecordingAndStudio/StudioMonitors/eve_audio_logo.jpg",
+    "alt": "Eve Audio logo",
+    "pageLink": "/"
+  },
+  {
+    "brandName": "Focal",
+    "src": "/images/brandLogos/RecordingAndStudio/StudioMonitors/focal_logo.jpg",
+    "alt": "Focal logo",
+    "pageLink": "/"
+  },
+  {
+    "brandName": "IsoAcoustics",
+    "src": "/images/brandLogos/RecordingAndStudio/StudioMonitors/isoacoustics_logo.jpg",
+    "alt": "IsoAcoustics logo",
+    "pageLink": "/"
+  },
+  {
+    "brandName": "Kali Audio",
+    "src": "/images/brandLogos/RecordingAndStudio/StudioMonitors/kali_audio_logo.jpg",
+    "alt": "Kali Audio logo",
+    "pageLink": "/"
+  },
+  {
+    "brandName": "KRK",
+    "src": "/images/brandLogos/RecordingAndStudio/StudioMonitors/krk_logo.jpg",
+    "alt": "KRK logo",
+    "pageLink": "/"
+  },
+  {
+    "brandName": "KS Digital",
+    "src": "/images/brandLogos/RecordingAndStudio/StudioMonitors/ks_digital_logo.jpg",
+    "alt": "KS Digital logo",
+    "pageLink": "/"
+  },
+  {
+    "brandName": "Psi Audio",
+    "src": "/images/brandLogos/RecordingAndStudio/StudioMonitors/psi_audio_logo.jpg",
+    "alt": "Psi Audio logo",
+    "pageLink": "/"
+  },
+  {
+    "brandName": "Reproducer Audio Labs",
+    "src": "/images/brandLogos/RecordingAndStudio/StudioMonitors/reproducer_audio_labs_logo.jpg",
+    "alt": "Reproducer Audio Labs logo",
+    "pageLink": "/"
+  },
+  {
+    "brandName": "yamaha",
+    "src": "/images/brandLogos/BrandsForMultipleCategories/yamaha_logo.jpg",
+    "alt": "Yamaha logo",
+    "pageLink": "/"
+  },
+  {
+    "brandName": "Genelec",
+    "src": "/images/brandLogos/RecordingAndStudio/genelec_logo.jpg",
+    "alt": "Genelec logo",
+    "pageLink": "/"
+  },
+  {
+    "brandName": "Behringer",
+    "src": "/images/brandLogos/BrandsForMultipleCategories/behringer_logo.jpg",
+    "alt": "Behringer logo",
+    "pageLink": "/"
+  },
+  {
+    "brandName": "Neumann",
+    "src": "/images/brandLogos/BrandsForMultipleCategories/neumann_logo.jpg",
+    "alt": "Neumann logo",
+    "pageLink": "/"
+  },
+  {
+    "brandName": "Esi",
+    "src": "/images/brandLogos/RecordingAndStudio/AudioInterfaces/esi_logo.jpg",
+    "alt": "Esi logo",
+    "pageLink": "/"
+  },
+  {
+    "brandName": "IK Multimedia",
+    "src": "/images/brandLogos/RecordingAndStudio/AudioInterfaces/ik_multimedia_logo.jpg",
+    "alt": "IK Multimedia logo",
+    "pageLink": "/"
+  },
+  {
+    "brandName": "SwisSonic",
+    "src": "/images/brandLogos/RecordingAndStudio/MidiDevices/swissonic_logo.jpg",
+    "alt": "SwisSonic logo",
+    "pageLink": "/"
+  }
+]

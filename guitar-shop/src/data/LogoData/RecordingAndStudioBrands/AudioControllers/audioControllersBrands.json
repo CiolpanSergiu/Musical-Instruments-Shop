@@ -1,0 +1,98 @@
+[
+  {
+    "brandName": "Elgato",
+    "src": "/images/brandLogos/RecordingAndStudio/AudioControllers/elgato_logo.jpg",
+    "alt": "Elgato logo",
+    "pageLink": "/"
+  },
+  {
+    "brandName": "Expressive E",
+    "src": "/images/brandLogos/RecordingAndStudio/AudioControllers/expressive_e_logo.jpg",
+    "alt": "Expressive E logo",
+    "pageLink": "/"
+  },
+  {
+    "brandName": "Icon",
+    "src": "/images/brandLogos/RecordingAndStudio/AudioControllers/icon_logo.jpg",
+    "alt": "Icon logo",
+    "pageLink": "/"
+  },
+  {
+    "brandName": "Jou",
+    "src": "/images/brandLogos/RecordingAndStudio/AudioControllers/jou_logo.jpg",
+    "alt": "Jou logo",
+    "pageLink": "/"
+  },
+  {
+    "brandName": "M Audio",
+    "src": "/images/brandLogos/RecordingAndStudio/AudioControllers/m_audio_logo.jpg",
+    "alt": "M Audio logo",
+    "pageLink": "/"
+  },
+  {
+    "brandName": "NativeInstruments",
+    "src": "/images/brandLogos/RecordingAndStudio/AudioControllers/nativeinstruments_logo.jpg",
+    "alt": "NativeInstruments logo",
+    "pageLink": "/"
+  },
+  {
+    "brandName": "Nektar",
+    "src": "/images/brandLogos/RecordingAndStudio/AudioControllers/nektar_logo.jpg",
+    "alt": "Nektar logo",
+    "pageLink": "/"
+  },
+  {
+    "brandName": "Novation",
+    "src": "/images/brandLogos/RecordingAndStudio/AudioControllers/novation_logo.jpg",
+    "alt": "Novation logo",
+    "pageLink": "/"
+  },
+  {
+    "brandName": "Pageflip",
+    "src": "/images/brandLogos/RecordingAndStudio/AudioControllers/pageflip_logo.jpg",
+    "alt": "Pageflip logo",
+    "pageLink": "/"
+  },
+  {
+    "brandName": "Roger Linn Design",
+    "src": "/images/brandLogos/RecordingAndStudio/AudioControllers/roger_linn_design_logo.jpg",
+    "alt": "Roger Linn Design logo",
+    "pageLink": "/"
+  },
+  {
+    "brandName": "Avid",
+    "src": "/images/brandLogos/BrandsForMultipleCategories/avid_logo.jpg",
+    "alt": "Avid logo",
+    "pageLink": "/"
+  },
+  {
+    "brandName": "SSL",
+    "src": "/images/brandLogos/BrandsForMultipleCategories/ssl_logo.jpg",
+    "alt": "SSL logo",
+    "pageLink": "/"
+  },
+  {
+    "brandName": "Tascam",
+    "src": "/images/brandLogos/RecordingAndStudio/tascam_logo.jpg",
+    "alt": "Tascam logo",
+    "pageLink": "/"
+  },
+  {
+    "brandName": "Korg",
+    "src": "/images/brandLogos/BrandsForMultipleCategories/korg_logo.jpg",
+    "alt": "KORG logo",
+    "pageLink": "/"
+  },
+  {
+    "brandName": "Esi",
+    "src": "/images/brandLogos/RecordingAndStudio/AudioInterfaces/esi_logo.jpg",
+    "alt": "Esi logo",
+    "pageLink": "/"
+  },
+  {
+    "brandName": "Arturia",
+    "src": "/images/brandLogos/BrandsForMultipleCategories/arturia_logo.jpg",
+    "alt": "Arturia logo",
+    "pageLink": "/"
+  }
+]

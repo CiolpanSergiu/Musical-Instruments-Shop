@@ -1,6 +1,6 @@
 [
   {
-    "brandName": "avid",
+    "brandName": "Avid",
     "src": "/images/brandLogos/BrandsForMultipleCategories/avid_logo.jpg",
     "alt": "Avid logo",
     "pageLink": "/"
@@ -12,98 +12,98 @@
     "pageLink": "/"
   },
   {
-    "brandName": "rode",
+    "brandName": "Rode",
     "src": "/images/brandLogos/BrandsForMultipleCategories/rode_logo.jpg",
     "alt": "Rode logo",
     "pageLink": "/"
   },
   {
-    "brandName": "the t.bone",
+    "brandName": "The T.Bone",
     "src": "/images/brandLogos/BrandsForMultipleCategories/the_tbone_logo.jpg",
     "alt": "The t.bone logo",
     "pageLink": "/"
   },
   {
-    "brandName": "behringer",
+    "brandName": "Behringer",
     "src": "/images/brandLogos/BrandsForMultipleCategories/behringer_logo.jpg",
     "alt": "Behringer logo",
     "pageLink": "/"
   },
   {
-    "brandName": "cordial",
+    "brandName": "Cordial",
     "src": "/images/brandLogos/BrandsForMultipleCategories/cordial_logo.jpg",
     "alt": "Cordial logo",
     "pageLink": "/"
   },
   {
-    "brandName": "ssl",
+    "brandName": "SSL",
     "src": "/images/brandLogos/BrandsForMultipleCategories/ssl_logo.jpg",
     "alt": "SSL logo",
     "pageLink": "/"
   },
   {
-    "brandName": "schoeps",
+    "brandName": "Schoeps",
     "src": "/images/brandLogos/BrandsForMultipleCategories/schoeps_logo.jpg",
     "alt": "Schoeps logo",
     "pageLink": "/"
   },
   {
-    "brandName": "focusrite",
-    "src": "/images/brandLogos/StudioAndRecording/focusrite_logo.jpg",
+    "brandName": "Focusrite",
+    "src": "/images/brandLogos/RecordingAndStudio/focusrite_logo.jpg",
     "alt": "Focusrite logo",
     "pageLink": "/"
   },
   {
-    "brandName": "genelec",
-    "src": "/images/brandLogos/StudioAndRecording/genelec_logo.jpg",
+    "brandName": "Genelec",
+    "src": "/images/brandLogos/RecordingAndStudio/genelec_logo.jpg",
     "alt": "Genelec logo",
     "pageLink": "/"
   },
   {
-    "brandName": "neumann",
+    "brandName": "Neumann",
     "src": "/images/brandLogos/BrandsForMultipleCategories/neumann_logo.jpg",
     "alt": "Neumann logo",
     "pageLink": "/"
   },
   {
-    "brandName": "presonus",
-    "src": "/images/brandLogos/StudioAndRecording/presonus_logo.jpg",
+    "brandName": "Presonus",
+    "src": "/images/brandLogos/RecordingAndStudio/presonus_logo.jpg",
     "alt": "Presonus logo",
     "pageLink": "/"
   },
   {
-    "brandName": "t akustik",
-    "src": "/images/brandLogos/StudioAndRecording/t_akustik_logo.jpg",
+    "brandName": "T Akustik",
+    "src": "/images/brandLogos/RecordingAndStudio/t_akustik_logo.jpg",
     "alt": "T Akustik logo",
     "pageLink": "/"
   },
   {
-    "brandName": "tascam",
-    "src": "/images/brandLogos/StudioAndRecording/tascam_logo.jpg",
+    "brandName": "Tascam",
+    "src": "/images/brandLogos/RecordingAndStudio/tascam_logo.jpg",
     "alt": "Tascam logo",
     "pageLink": "/"
   },
   {
-    "brandName": "universal audio",
+    "brandName": "Universal Audio",
     "src": "/images/brandLogos/BrandsForMultipleCategories/universal_audio_logo.jpg",
     "alt": "Universal Audio logo",
     "pageLink": "/"
   },
   {
-    "brandName": "vicoustic",
-    "src": "/images/brandLogos/StudioAndRecording/vicoustic_logo.jpg",
+    "brandName": "Vicoustic",
+    "src": "/images/brandLogos/RecordingAndStudio/vicoustic_logo.jpg",
     "alt": "Vicoustic logo",
     "pageLink": "/"
   },
   {
-    "brandName": "zaor",
-    "src": "/images/brandLogos/StudioAndRecording/zaor_logo.jpg",
+    "brandName": "Zaor",
+    "src": "/images/brandLogos/RecordingAndStudio/zaor_logo.jpg",
     "alt": "Zaor logo",
     "pageLink": "/"
   },
   {
-    "brandName": "zoom",
-    "src": "/images/brandLogos/StudioAndRecording/zoom_logo.jpg",
+    "brandName": "Zoom",
+    "src": "/images/brandLogos/RecordingAndStudio/zoom_logo.jpg",
     "alt": "Zoom logo",
     "pageLink": "/"
   }

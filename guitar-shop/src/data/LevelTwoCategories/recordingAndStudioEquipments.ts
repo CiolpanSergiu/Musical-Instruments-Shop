@@ -1,9 +1,16 @@
+// subcategories
 import audioInterfacesSubcategories from "../LevelThreeCategories/StudioAndRecording/audioInterfacesData.json";
 import audioControllersSubcategories from "../LevelThreeCategories/StudioAndRecording/audioControllersData.json";
 import midiEquimpentsSubcategories from "../LevelThreeCategories/StudioAndRecording/midiEquipmentsData.json";
 import studioMonitorsSubcategories from "../LevelThreeCategories/StudioAndRecording/studioMonitorsData.json";
 import processorsAndEffectsSubcategories from "../LevelThreeCategories/StudioAndRecording/processorsAndEffectsData.json";
 import microphonesSubcategories from "./microphones";
+// brands
+import audioInterfacesBrands from "../LogoData/RecordingAndStudioBrands/AudioInterfaces/audioInterfacesBrands.json";
+import audioControllersBrands from "../LogoData/RecordingAndStudioBrands/AudioControllers/audioControllersBrands.json";
+import midiEquipmentsBrands from "../LogoData/RecordingAndStudioBrands/MidiEquipments/midiEquipmentsBrands.json";
+import studioMonitorsBrands from "../LogoData/RecordingAndStudioBrands/StudioMonitors/studioMonitorsBrands.json";
+import processorsAndEffectsBrands from "../LogoData/RecordingAndStudioBrands/ProcessorsAndEffects/processorsAndEffectsBrands.json";
 
 const recordingAndStudioData = [
   {
@@ -12,6 +19,7 @@ const recordingAndStudioData = [
     title: "Audio Interfaces",
     pageLink: "/audio-interfaces",
     subcategories: audioInterfacesSubcategories,
+    brands: audioInterfacesBrands,
   },
   {
     src: "/images/category/LevelTwoCategories/RecordingAndStudio/preamplifier.jpg",
@@ -49,6 +57,7 @@ const recordingAndStudioData = [
     title: "Audio Controllers",
     pageLink: "/audio-controllers",
     subcategories: audioControllersSubcategories,
+    brands: audioControllersBrands,
   },
   {
     src: "/images/category/LevelTwoCategories/RecordingAndStudio/midi_cable.jpg",
@@ -56,6 +65,7 @@ const recordingAndStudioData = [
     title: "MIDI Equipments",
     pageLink: "/midi-equipments",
     subcategories: midiEquimpentsSubcategories,
+    brands: midiEquipmentsBrands,
   },
   {
     src: "/images/category/LevelTwoCategories/RecordingAndStudio/studio_monitor.jpg",
@@ -63,6 +73,7 @@ const recordingAndStudioData = [
     title: "Studio Monitors",
     pageLink: "/studio-monitors",
     subcategories: studioMonitorsSubcategories,
+    brands: studioMonitorsBrands,
   },
   {
     src: "/images/category/LevelTwoCategories/RecordingAndStudio/stereo_microphone.jpg",
@@ -77,6 +88,7 @@ const recordingAndStudioData = [
     title: "Processors and Effects",
     pageLink: "/processors-and-effects",
     subcategories: processorsAndEffectsSubcategories,
+    brands: processorsAndEffectsBrands,
   },
 ];
 

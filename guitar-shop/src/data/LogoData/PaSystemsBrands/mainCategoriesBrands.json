@@ -112,5 +112,11 @@
     "src": "/images/brandLogos/BrandsForMultipleCategories/thon_logo.jpg",
     "alt": "Thon logo",
     "pageLink": "/"
+  },
+  {
+    "brandName": "Adam Hall",
+    "src": "/images/brandLogos/BrandsForMultipleCategories/adam_hall_logo.jpg",
+    "alt": "Adam Hall logo",
+    "pageLink": "/"
   }
 ]

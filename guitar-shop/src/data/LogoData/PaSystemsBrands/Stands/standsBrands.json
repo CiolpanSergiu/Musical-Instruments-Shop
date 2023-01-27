@@ -82,5 +82,11 @@
     "src": "/images/brandLogos/Microphones/audix_logo.jpg",
     "alt": "Audix logo",
     "pageLink": "/"
+  },
+  {
+    "brandName": "Adam Hall",
+    "src": "/images/brandLogos/BrandsForMultipleCategories/adam_hall_logo.jpg",
+    "alt": "Adam Hall logo",
+    "pageLink": "/"
   }
 ]
