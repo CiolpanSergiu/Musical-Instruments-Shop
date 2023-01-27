@@ -1,5 +1,9 @@
+//subcategories
 import instrumentMicrophoneSubcategories from "../LevelThreeCategories/Microphones/instrumentMicrophonesData.json";
 import vocalMicrophoneSubcategories from "../LevelThreeCategories/Microphones/vocalMicrophonesData.json";
+// brands
+import vocalMicrophoneBrands from "../LogoData/MicrophoneBrands/VocalMicrophones/vocalMicrophoneBrands.json";
+import instrumnetMicrophoneBrands from "../LogoData/MicrophoneBrands/InstrumentMicrophones/instrumentMicrophoneBrands.json";
 
 const microphonesData = [
   {
@@ -8,6 +12,7 @@ const microphonesData = [
     title: "Vocal Microphones",
     pageLink: "/vocal-microphones",
     subcategories: vocalMicrophoneSubcategories,
+    brands: vocalMicrophoneBrands,
   },
   {
     src: "/images/category/LevelTwoCategories/Microphones/wireless_microphone.jpg",
@@ -45,6 +50,7 @@ const microphonesData = [
     title: "Instrument Microphones",
     pageLink: "/instrument-microphones",
     subcategories: instrumentMicrophoneSubcategories,
+    brands: instrumnetMicrophoneBrands,
   },
 ];
 

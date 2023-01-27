@@ -1,5 +1,11 @@
 [
   {
+    "brandName": "TC Helicon",
+    "src": "/images/brandLogos/Microphones/VocalMicrophones/tc_helicon_logo.jpg",
+    "alt": "TC Helicon logo",
+    "pageLink": "/"
+  },
+  {
     "brandName": "Shure",
     "src": "/images/brandLogos/BrandsForMultipleCategories/shure_logo.jpg",
     "alt": "SHURE logo",
@@ -15,12 +21,6 @@
     "brandName": "Akg",
     "src": "/images/brandLogos/BrandsForMultipleCategories/akg_logo.jpg",
     "alt": "AKG logo",
-    "pageLink": "/"
-  },
-  {
-    "brandName": "Aston Microphones",
-    "src": "/images/brandLogos/Microphones/aston_microphones_logo.jpg",
-    "alt": "Aston Microphones logo",
     "pageLink": "/"
   },
   {
@@ -42,12 +42,6 @@
     "pageLink": "/"
   },
   {
-    "brandName": "Lewitt",
-    "src": "/images/brandLogos/Microphones/lewitt_logo.jpg",
-    "alt": "Lewitt logo",
-    "pageLink": "/"
-  },
-  {
     "brandName": "Mxl",
     "src": "/images/brandLogos/Microphones/mxl_logo.jpg",
     "alt": "Mxl logo",
@@ -57,30 +51,6 @@
     "brandName": "Neumann",
     "src": "/images/brandLogos/BrandsForMultipleCategories/neumann_logo.jpg",
     "alt": "Neumann logo",
-    "pageLink": "/"
-  },
-  {
-    "brandName": "Pauly",
-    "src": "/images/brandLogos/Microphones/pauly_logo.jpg",
-    "alt": "Pauly logo",
-    "pageLink": "/"
-  },
-  {
-    "brandName": "Rode",
-    "src": "/images/brandLogos/BrandsForMultipleCategories/rode_logo.jpg",
-    "alt": "Rode logo",
-    "pageLink": "/"
-  },
-  {
-    "brandName": "Rycote",
-    "src": "/images/brandLogos/Microphones/rycote_logo.jpg",
-    "alt": "Rycote logo",
-    "pageLink": "/"
-  },
-  {
-    "brandName": "Schoeps",
-    "src": "/images/brandLogos/BrandsForMultipleCategories/schoeps_logo.jpg",
-    "alt": "Schoeps logo",
     "pageLink": "/"
   },
   {
@@ -108,9 +78,33 @@
     "pageLink": "/"
   },
   {
-    "brandName": "Xvive",
-    "src": "/images/brandLogos/Microphones/xvive_logo.jpg",
-    "alt": "Xvive logo",
+    "brandName": "Superlux",
+    "src": "/images/brandLogos/BrandsForMultipleCategories/superlux_logo.jpg",
+    "alt": "Superlux logo",
+    "pageLink": "/"
+  },
+  {
+    "brandName": "Universal Audio",
+    "src": "/images/brandLogos/BrandsForMultipleCategories/universal_audio_logo.jpg",
+    "alt": "Universal Audio logo",
+    "pageLink": "/"
+  },
+  {
+    "brandName": "Beyerdynamic",
+    "src": "/images/brandLogos/BrandsForMultipleCategories/beyerdynamic_logo.jpg",
+    "alt": "Beyerdynamic logo",
+    "pageLink": "/"
+  },
+  {
+    "brandName": "Behringer",
+    "src": "/images/brandLogos/BrandsForMultipleCategories/behringer_logo.jpg",
+    "alt": "Behringer logo",
+    "pageLink": "/"
+  },
+  {
+    "brandName": "Rode",
+    "src": "/images/brandLogos/BrandsForMultipleCategories/rode_logo.jpg",
+    "alt": "Rode logo",
     "pageLink": "/"
   }
 ]

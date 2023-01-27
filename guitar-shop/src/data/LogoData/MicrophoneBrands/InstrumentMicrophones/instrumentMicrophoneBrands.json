@@ -18,33 +18,15 @@
     "pageLink": "/"
   },
   {
-    "brandName": "Aston Microphones",
-    "src": "/images/brandLogos/Microphones/aston_microphones_logo.jpg",
-    "alt": "Aston Microphones logo",
-    "pageLink": "/"
-  },
-  {
     "brandName": "Audix",
     "src": "/images/brandLogos/Microphones/audix_logo.jpg",
     "alt": "Audix logo",
     "pageLink": "/"
   },
   {
-    "brandName": "Austrian Audio",
-    "src": "/images/brandLogos/Microphones/austrian_audio_logo.jpg",
-    "alt": "Austrian Audio logo",
-    "pageLink": "/"
-  },
-  {
     "brandName": "Dpa",
     "src": "/images/brandLogos/Microphones/dpa_logo.jpg",
     "alt": "DPA logo",
-    "pageLink": "/"
-  },
-  {
-    "brandName": "Lewitt",
-    "src": "/images/brandLogos/Microphones/lewitt_logo.jpg",
-    "alt": "Lewitt logo",
     "pageLink": "/"
   },
   {
@@ -57,30 +39,6 @@
     "brandName": "Neumann",
     "src": "/images/brandLogos/BrandsForMultipleCategories/neumann_logo.jpg",
     "alt": "Neumann logo",
-    "pageLink": "/"
-  },
-  {
-    "brandName": "Pauly",
-    "src": "/images/brandLogos/Microphones/pauly_logo.jpg",
-    "alt": "Pauly logo",
-    "pageLink": "/"
-  },
-  {
-    "brandName": "Rode",
-    "src": "/images/brandLogos/BrandsForMultipleCategories/rode_logo.jpg",
-    "alt": "Rode logo",
-    "pageLink": "/"
-  },
-  {
-    "brandName": "Rycote",
-    "src": "/images/brandLogos/Microphones/rycote_logo.jpg",
-    "alt": "Rycote logo",
-    "pageLink": "/"
-  },
-  {
-    "brandName": "Schoeps",
-    "src": "/images/brandLogos/BrandsForMultipleCategories/schoeps_logo.jpg",
-    "alt": "Schoeps logo",
     "pageLink": "/"
   },
   {
@@ -108,9 +66,45 @@
     "pageLink": "/"
   },
   {
-    "brandName": "Xvive",
-    "src": "/images/brandLogos/Microphones/xvive_logo.jpg",
-    "alt": "Xvive logo",
+    "brandName": "Superlux",
+    "src": "/images/brandLogos/BrandsForMultipleCategories/superlux_logo.jpg",
+    "alt": "Superlux logo",
+    "pageLink": "/"
+  },
+  {
+    "brandName": "Beyerdynamic",
+    "src": "/images/brandLogos/BrandsForMultipleCategories/beyerdynamic_logo.jpg",
+    "alt": "Beyerdynamic logo",
+    "pageLink": "/"
+  },
+  {
+    "brandName": "Rode",
+    "src": "/images/brandLogos/BrandsForMultipleCategories/rode_logo.jpg",
+    "alt": "Rode logo",
+    "pageLink": "/"
+  },
+  {
+    "brandName": "Aston Microphones",
+    "src": "/images/brandLogos/Microphones/aston_microphones_logo.jpg",
+    "alt": "Aston Microphones logo",
+    "pageLink": "/"
+  },
+  {
+    "brandName": "Haun",
+    "src": "/images/brandLogos/Microphones/InstrumentMicrophones/haun_logo.jpg",
+    "alt": "Haun logo",
+    "pageLink": "/"
+  },
+  {
+    "brandName": "Heil Sound",
+    "src": "/images/brandLogos/Microphones/InstrumentMicrophones/heil_sound_logo.jpg",
+    "alt": "Heil Sound logo",
+    "pageLink": "/"
+  },
+  {
+    "brandName": "Sd Systems",
+    "src": "/images/brandLogos/Microphones/InstrumentMicrophones/sd_systems_logo.jpg",
+    "alt": "Sd Systems logo",
     "pageLink": "/"
   }
 ]
