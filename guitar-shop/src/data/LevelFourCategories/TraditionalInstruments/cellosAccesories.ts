@@ -1,8 +1,11 @@
 import cellosStringsData from "../../LevelFiveCategories/TraditionalInstruments/Strings/cellosStringsData";
+// brands
+import cellosAccesoriesBrands from "../../LogoData/TraditionalInstrumentsBrands/StringedInstruments/celloAccesoriesBrands.json";
 
 export default {
   pageLink: "/cellos-accesories",
   title: "Cello Accesories",
+  brands: cellosAccesoriesBrands,
   subcategories: [
     {
       title: "Strings",

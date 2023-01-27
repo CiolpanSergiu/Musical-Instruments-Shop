@@ -1,6 +1,11 @@
+// subcategories
 import accordionsSubcategories from "../LevelThreeCategories/TraditionalInstruments/accordionsData.json";
 import folkInstrumentsSubcategories from "../LevelThreeCategories/TraditionalInstruments/folkInstrumentsData.json";
 import stringedInstrumentsSubcategories from "../LevelThreeCategories/TraditionalInstruments/stringedInstrumentsData";
+// brands
+import accordionBrands from "../LogoData/TraditionalInstrumentsBrands/Accordions/accordionsBrands.json";
+import folkInstrumentsBrands from "../LogoData/TraditionalInstrumentsBrands/FolkInstruments/folkInstrumentsBrands.json";
+import stringedInstrumentsBrands from "../LogoData/TraditionalInstrumentsBrands/StringedInstruments/stringedInstrumetnsBrands.json";
 
 const traditionalInstrumentsData = [
   {
@@ -9,6 +14,7 @@ const traditionalInstrumentsData = [
     title: "Stringed Instruments",
     pageLink: "/stringed-instruments",
     subcategories: stringedInstrumentsSubcategories,
+    brands: stringedInstrumentsBrands,
   },
   {
     src: "/images/category/LevelTwoCategories/TraditionalInstruments/mandoline.jpg",
@@ -16,6 +22,7 @@ const traditionalInstrumentsData = [
     title: "Folk Instruments",
     pageLink: "/fold-instruments",
     subcategories: folkInstrumentsSubcategories,
+    brands: folkInstrumentsBrands,
   },
   {
     src: "/images/category/LevelTwoCategories/TraditionalInstruments/accordion.jpg",
@@ -23,6 +30,7 @@ const traditionalInstrumentsData = [
     title: "Accordions",
     pageLink: "/accordions",
     subcategories: accordionsSubcategories,
+    brands: accordionBrands,
   },
 ];
 

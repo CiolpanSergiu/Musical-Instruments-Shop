@@ -1,6 +1,9 @@
+import violaAccesoriesBrands from "../../LogoData/TraditionalInstrumentsBrands/StringedInstruments/violaAccesoriesBrands.json";
+
 export default {
   pageLink: "/violas-accesories",
   title: "Viola Accesories",
+  brands: violaAccesoriesBrands,
   subcategories: [
     {
       title: "Strings",

@@ -1,0 +1,98 @@
+[
+  {
+    "brandName": "Prim",
+    "src": "/images/brandLogos/TraditionalInstruments/CelloAccesories/prim_logo.jpg",
+    "alt": "Prim logo",
+    "pageLink": "/"
+  },
+  {
+    "brandName": "Kuerschner",
+    "src": "/images/brandLogos/TraditionalInstruments/ViolinStrings/kuerschner_logo.jpg",
+    "alt": "Kuerschner logo",
+    "pageLink": "/"
+  },
+  {
+    "brandName": "Optima",
+    "src": "/images/brandLogos/TraditionalInstruments/ViolinStrings/optima_logo.jpg",
+    "alt": "Optima logo",
+    "pageLink": "/"
+  },
+  {
+    "brandName": "Otto Musica",
+    "src": "/images/brandLogos/TraditionalInstruments/ViolinStrings/otto_musica_logo.jpg",
+    "alt": "Otto Musica logo",
+    "pageLink": "/"
+  },
+  {
+    "brandName": "Savarez",
+    "src": "/images/brandLogos/TraditionalInstruments/ViolinStrings/savarez_logo.jpg",
+    "alt": "Savarez logo",
+    "pageLink": "/"
+  },
+  {
+    "brandName": "W E Hill & Sons",
+    "src": "/images/brandLogos/TraditionalInstruments/ViolinStrings/w_e_hill_sons_logo.jpg",
+    "alt": "W E Hill & Sons logo",
+    "pageLink": "/"
+  },
+  {
+    "brandName": "Weidler",
+    "src": "/images/brandLogos/TraditionalInstruments/ViolinStrings/weidler_logo.jpg",
+    "alt": "Weidler logo",
+    "pageLink": "/"
+  },
+  {
+    "brandName": "Westminster",
+    "src": "/images/brandLogos/TraditionalInstruments/ViolinStrings/westminster_logo.jpg",
+    "alt": "Westminster logo",
+    "pageLink": "/"
+  },
+  {
+    "brandName": "D'Addario",
+    "src": "/images/brandLogos/BrandsForMultipleCategories/daddario_logo.jpg",
+    "alt": "D'adarrio logo",
+    "pageLink": "/"
+  },
+  {
+    "brandName": "Harley Benton",
+    "src": "/images/brandLogos/BrandsForMultipleCategories/harley_benton_logo.jpg",
+    "alt": "Harley Benton logo",
+    "pageLink": "/"
+  },
+  {
+    "brandName": "Artino",
+    "src": "/images/brandLogos/TraditionalInstruments/artino_logo.jpg",
+    "alt": "Artino logo",
+    "pageLink": "/"
+  },
+  {
+    "brandName": "Larsen",
+    "src": "/images/brandLogos/TraditionalInstruments/larsen_logo.jpg",
+    "alt": "Larsen logo",
+    "pageLink": "/"
+  },
+  {
+    "brandName": "Pirastro",
+    "src": "/images/brandLogos/TraditionalInstruments/pirastro_logo.jpg",
+    "alt": "Pirastro logo",
+    "pageLink": "/"
+  },
+  {
+    "brandName": "Romana",
+    "src": "/images/brandLogos/TraditionalInstruments/romana_logo.jpg",
+    "alt": "Romana logo",
+    "pageLink": "/"
+  },
+  {
+    "brandName": "Thomastik",
+    "src": "/images/brandLogos/TraditionalInstruments/thomastik_logo.jpg",
+    "alt": "Thomastik logo",
+    "pageLink": "/"
+  },
+  {
+    "brandName": "Pyramid",
+    "src": "/images/brandLogos/BrandsForMultipleCategories/pyramid_logo.jpg",
+    "alt": "Pyramid logo",
+    "pageLink": "/"
+  }
+]

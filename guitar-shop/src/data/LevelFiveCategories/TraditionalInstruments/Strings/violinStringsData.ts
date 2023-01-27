@@ -1,6 +1,9 @@
+import violinStringsBrands from "../../../LogoData/TraditionalInstrumentsBrands/StringedInstruments/violinStringsBrands.json";
+
 export default {
   pageLink: "/violin-strings",
   title: "Violin Strings",
+  brands: violinStringsBrands,
   subcategories: [
     {
       title: "Violin Strings",

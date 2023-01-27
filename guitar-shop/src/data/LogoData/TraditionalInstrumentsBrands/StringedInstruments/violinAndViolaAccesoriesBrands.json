@@ -1,8 +1,20 @@
 [
   {
-    "brandName": "Adams",
-    "src": "/images/brandLogos/BrandsForMultipleCategories/adams_logo.jpg",
-    "alt": "Adams logo",
+    "brandName": "Corelli",
+    "src": "/images/brandLogos/TraditionalInstruments/ViolaViolinAccesories/corelli_logo.jpg",
+    "alt": "Corelli logo",
+    "pageLink": "/"
+  },
+  {
+    "brandName": "Kaplan",
+    "src": "/images/brandLogos/TraditionalInstruments/ViolaViolinAccesories/kaplan_logo.jpg",
+    "alt": "Kaplan logo",
+    "pageLink": "/"
+  },
+  {
+    "brandName": "Viva La Musica",
+    "src": "/images/brandLogos/TraditionalInstruments/ViolaViolinAccesories/viva_la_musica_logo.jpg",
+    "alt": "Viva La Musica logo",
     "pageLink": "/"
   },
   {
@@ -24,12 +36,6 @@
     "pageLink": "/"
   },
   {
-    "brandName": "Bergerault",
-    "src": "/images/brandLogos/TraditionalInstruments/bergerault_logo.jpg",
-    "alt": "Bergerault logo",
-    "pageLink": "/"
-  },
-  {
     "brandName": "Bow Brand",
     "src": "/images/brandLogos/TraditionalInstruments/bow_brand_logo.jpg",
     "alt": "Bow Brands logo",
@@ -39,12 +45,6 @@
     "brandName": "Conrad Goetz",
     "src": "/images/brandLogos/TraditionalInstruments/conrad_goetz_logo.jpg",
     "alt": "Conrad logo",
-    "pageLink": "/"
-  },
-  {
-    "brandName": "Goldon",
-    "src": "/images/brandLogos/TraditionalInstruments/goldon_logo.jpg",
-    "alt": "Goldon logo",
     "pageLink": "/"
   },
   {
@@ -60,18 +60,6 @@
     "pageLink": "/"
   },
   {
-    "brandName": "Lefima",
-    "src": "/images/brandLogos/TraditionalInstruments/lefima_logo.jpg",
-    "alt": "Lefima logo",
-    "pageLink": "/"
-  },
-  {
-    "brandName": "Peter Hess",
-    "src": "/images/brandLogos/TraditionalInstruments/peter_hess_logo.jpg",
-    "alt": "Peter Hess logo",
-    "pageLink": "/"
-  },
-  {
     "brandName": "Pirastro",
     "src": "/images/brandLogos/TraditionalInstruments/pirastro_logo.jpg",
     "alt": "Pirastro logo",
@@ -81,12 +69,6 @@
     "brandName": "Roth & Junius",
     "src": "/images/brandLogos/TraditionalInstruments/roth_junius_logo.jpg",
     "alt": "Roth and Junius logo",
-    "pageLink": "/"
-  },
-  {
-    "brandName": "Salvi",
-    "src": "/images/brandLogos/TraditionalInstruments/salvi_logo.jpg",
-    "alt": "Salvi logo",
     "pageLink": "/"
   },
   {
@@ -105,6 +87,30 @@
     "brandName": "Thomastik",
     "src": "/images/brandLogos/TraditionalInstruments/thomastik_logo.jpg",
     "alt": "Thomastik logo",
+    "pageLink": "/"
+  },
+  {
+    "brandName": "Wolf",
+    "src": "/images/brandLogos/TraditionalInstruments/wolf_logo.jpg",
+    "alt": "Wolf logo",
+    "pageLink": "/"
+  },
+  {
+    "brandName": "Jakob Winter",
+    "src": "/images/brandLogos/TraditionalInstruments/jakob_winter_logo.jpg",
+    "alt": "Jakob Winter logo",
+    "pageLink": "/"
+  },
+  {
+    "brandName": "Warchal",
+    "src": "/images/brandLogos/TraditionalInstruments/warchal_logo.jpg",
+    "alt": "Warchal logo",
+    "pageLink": "/"
+  },
+  {
+    "brandName": "Doerfler",
+    "src": "/images/brandLogos/TraditionalInstruments/doerfler_logo.jpg",
+    "alt": "Doerfler logo",
     "pageLink": "/"
   }
 ]

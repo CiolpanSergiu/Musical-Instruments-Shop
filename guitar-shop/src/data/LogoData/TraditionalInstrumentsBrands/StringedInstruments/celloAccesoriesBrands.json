@@ -1,8 +1,14 @@
 [
   {
-    "brandName": "Adams",
-    "src": "/images/brandLogos/BrandsForMultipleCategories/adams_logo.jpg",
-    "alt": "Adams logo",
+    "brandName": "Abc",
+    "src": "/images/brandLogos/TraditionalInstruments/CelloAccesories/abc_logo.jpg",
+    "alt": "Abc logo",
+    "pageLink": "/"
+  },
+  {
+    "brandName": "Prim",
+    "src": "/images/brandLogos/TraditionalInstruments/CelloAccesories/prim_logo.jpg",
+    "alt": "Prim logo",
     "pageLink": "/"
   },
   {
@@ -24,51 +30,15 @@
     "pageLink": "/"
   },
   {
-    "brandName": "Bergerault",
-    "src": "/images/brandLogos/TraditionalInstruments/bergerault_logo.jpg",
-    "alt": "Bergerault logo",
-    "pageLink": "/"
-  },
-  {
-    "brandName": "Bow Brand",
-    "src": "/images/brandLogos/TraditionalInstruments/bow_brand_logo.jpg",
-    "alt": "Bow Brands logo",
-    "pageLink": "/"
-  },
-  {
     "brandName": "Conrad Goetz",
     "src": "/images/brandLogos/TraditionalInstruments/conrad_goetz_logo.jpg",
     "alt": "Conrad logo",
     "pageLink": "/"
   },
   {
-    "brandName": "Goldon",
-    "src": "/images/brandLogos/TraditionalInstruments/goldon_logo.jpg",
-    "alt": "Goldon logo",
-    "pageLink": "/"
-  },
-  {
-    "brandName": "Kun",
-    "src": "/images/brandLogos/TraditionalInstruments/kun_logo.jpg",
-    "alt": "Kun logo",
-    "pageLink": "/"
-  },
-  {
     "brandName": "Larsen",
     "src": "/images/brandLogos/TraditionalInstruments/larsen_logo.jpg",
     "alt": "Larsen logo",
-    "pageLink": "/"
-  },
-  {
-    "brandName": "Lefima",
-    "src": "/images/brandLogos/TraditionalInstruments/lefima_logo.jpg",
-    "alt": "Lefima logo",
-    "pageLink": "/"
-  },
-  {
-    "brandName": "Peter Hess",
-    "src": "/images/brandLogos/TraditionalInstruments/peter_hess_logo.jpg",
-    "alt": "Peter Hess logo",
     "pageLink": "/"
   },
   {
@@ -84,18 +54,6 @@
     "pageLink": "/"
   },
   {
-    "brandName": "Salvi",
-    "src": "/images/brandLogos/TraditionalInstruments/salvi_logo.jpg",
-    "alt": "Salvi logo",
-    "pageLink": "/"
-  },
-  {
-    "brandName": "Stentor",
-    "src": "/images/brandLogos/TraditionalInstruments/stentor_logo.jpg",
-    "alt": "Stentor logo",
-    "pageLink": "/"
-  },
-  {
     "brandName": "Tfa",
     "src": "/images/brandLogos/TraditionalInstruments/tfa_logo.jpg",
     "alt": "Tfa logo",
@@ -105,6 +63,36 @@
     "brandName": "Thomastik",
     "src": "/images/brandLogos/TraditionalInstruments/thomastik_logo.jpg",
     "alt": "Thomastik logo",
+    "pageLink": "/"
+  },
+  {
+    "brandName": "Jargar",
+    "src": "/images/brandLogos/TraditionalInstruments/jargar_logo.jpg",
+    "alt": "Jargar logo",
+    "pageLink": "/"
+  },
+  {
+    "brandName": "Gueth",
+    "src": "/images/brandLogos/TraditionalInstruments/gueth_logo.jpg",
+    "alt": "Gueth logo",
+    "pageLink": "/"
+  },
+  {
+    "brandName": "Doerfler",
+    "src": "/images/brandLogos/TraditionalInstruments/doerfler_logo.jpg",
+    "alt": "Doerfler logo",
+    "pageLink": "/"
+  },
+  {
+    "brandName": "David Gage",
+    "src": "/images/brandLogos/TraditionalInstruments/david_gage_logo.jpg",
+    "alt": "David Gage logo",
+    "pageLink": "/"
+  },
+  {
+    "brandName": "Karl Hoefner",
+    "src": "/images/brandLogos/TraditionalInstruments/karl_hoefner_logo.jpg",
+    "alt": "Karl Hoefner logo",
     "pageLink": "/"
   }
 ]

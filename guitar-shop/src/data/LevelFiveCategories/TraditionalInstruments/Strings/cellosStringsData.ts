@@ -1,6 +1,9 @@
+import celloStringsBrands from "../../../LogoData/TraditionalInstrumentsBrands/StringedInstruments/celloStringsBrands.json";
+
 export default {
   pageLink: "/cello-strings",
   title: "Cello Strings",
+  brands: celloStringsBrands,
   subcategories: [
     {
       title: "Cello Strings",

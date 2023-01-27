@@ -1,8 +1,11 @@
 import violinStringsData from "../../LevelFiveCategories/TraditionalInstruments/Strings/violinStringsData";
+// brands
+import violinViolaAccesoriesBrands from "../../LogoData/TraditionalInstrumentsBrands/StringedInstruments/violinAndViolaAccesoriesBrands.json";
 
 export default {
   pageLink: "/violins-violas-accesories",
   title: "Violin/Violas Accesories",
+  brands: violinViolaAccesoriesBrands,
   subcategories: [
     {
       title: "Strings",

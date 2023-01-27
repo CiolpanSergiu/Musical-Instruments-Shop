@@ -1,0 +1,50 @@
+[
+  {
+    "brandName": "Prim",
+    "src": "/images/brandLogos/TraditionalInstruments/CelloAccesories/prim_logo.jpg",
+    "alt": "Prim logo",
+    "pageLink": "/"
+  },
+  {
+    "brandName": "Artino",
+    "src": "/images/brandLogos/TraditionalInstruments/artino_logo.jpg",
+    "alt": "Artino logo",
+    "pageLink": "/"
+  },
+  {
+    "brandName": "Larsen",
+    "src": "/images/brandLogos/TraditionalInstruments/larsen_logo.jpg",
+    "alt": "Larsen logo",
+    "pageLink": "/"
+  },
+  {
+    "brandName": "Pirastro",
+    "src": "/images/brandLogos/TraditionalInstruments/pirastro_logo.jpg",
+    "alt": "Pirastro logo",
+    "pageLink": "/"
+  },
+  {
+    "brandName": "D'Addario",
+    "src": "/images/brandLogos/BrandsForMultipleCategories/daddario_logo.jpg",
+    "alt": "D'adarrio logo",
+    "pageLink": "/"
+  },
+  {
+    "brandName": "Harley Benton",
+    "src": "/images/brandLogos/BrandsForMultipleCategories/harley_benton_logo.jpg",
+    "alt": "Harley Benton logo",
+    "pageLink": "/"
+  },
+  {
+    "brandName": "Thomastik",
+    "src": "/images/brandLogos/TraditionalInstruments/thomastik_logo.jpg",
+    "alt": "Thomastik logo",
+    "pageLink": "/"
+  },
+  {
+    "brandName": "Jargar",
+    "src": "/images/brandLogos/TraditionalInstruments/jargar_logo.jpg",
+    "alt": "Jargar logo",
+    "pageLink": "/"
+  }
+]

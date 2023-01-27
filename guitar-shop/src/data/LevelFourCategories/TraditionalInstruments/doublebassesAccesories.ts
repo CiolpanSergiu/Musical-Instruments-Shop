@@ -1,6 +1,9 @@
+import doublebassAccesoriesBrands from "../../LogoData/TraditionalInstrumentsBrands/StringedInstruments/doublebassAccesoriesBrands.json";
+
 export default {
   pageLink: "/doublebasses-accesories",
   title: "Doublebass Accesories",
+  brands: doublebassAccesoriesBrands,
   subcategories: [
     {
       title: "Strings",

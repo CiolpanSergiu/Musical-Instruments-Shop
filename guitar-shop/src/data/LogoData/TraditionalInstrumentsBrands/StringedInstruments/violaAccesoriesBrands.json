@@ -1,11 +1,5 @@
 [
   {
-    "brandName": "Adams",
-    "src": "/images/brandLogos/BrandsForMultipleCategories/adams_logo.jpg",
-    "alt": "Adams logo",
-    "pageLink": "/"
-  },
-  {
     "brandName": "Gewa",
     "src": "/images/brandLogos/BrandsForMultipleCategories/gewa_logo.jpg",
     "alt": "GEWA logo",
@@ -24,12 +18,6 @@
     "pageLink": "/"
   },
   {
-    "brandName": "Bergerault",
-    "src": "/images/brandLogos/TraditionalInstruments/bergerault_logo.jpg",
-    "alt": "Bergerault logo",
-    "pageLink": "/"
-  },
-  {
     "brandName": "Bow Brand",
     "src": "/images/brandLogos/TraditionalInstruments/bow_brand_logo.jpg",
     "alt": "Bow Brands logo",
@@ -39,12 +27,6 @@
     "brandName": "Conrad Goetz",
     "src": "/images/brandLogos/TraditionalInstruments/conrad_goetz_logo.jpg",
     "alt": "Conrad logo",
-    "pageLink": "/"
-  },
-  {
-    "brandName": "Goldon",
-    "src": "/images/brandLogos/TraditionalInstruments/goldon_logo.jpg",
-    "alt": "Goldon logo",
     "pageLink": "/"
   },
   {
@@ -60,18 +42,6 @@
     "pageLink": "/"
   },
   {
-    "brandName": "Lefima",
-    "src": "/images/brandLogos/TraditionalInstruments/lefima_logo.jpg",
-    "alt": "Lefima logo",
-    "pageLink": "/"
-  },
-  {
-    "brandName": "Peter Hess",
-    "src": "/images/brandLogos/TraditionalInstruments/peter_hess_logo.jpg",
-    "alt": "Peter Hess logo",
-    "pageLink": "/"
-  },
-  {
     "brandName": "Pirastro",
     "src": "/images/brandLogos/TraditionalInstruments/pirastro_logo.jpg",
     "alt": "Pirastro logo",
@@ -84,27 +54,39 @@
     "pageLink": "/"
   },
   {
-    "brandName": "Salvi",
-    "src": "/images/brandLogos/TraditionalInstruments/salvi_logo.jpg",
-    "alt": "Salvi logo",
-    "pageLink": "/"
-  },
-  {
-    "brandName": "Stentor",
-    "src": "/images/brandLogos/TraditionalInstruments/stentor_logo.jpg",
-    "alt": "Stentor logo",
-    "pageLink": "/"
-  },
-  {
-    "brandName": "Tfa",
-    "src": "/images/brandLogos/TraditionalInstruments/tfa_logo.jpg",
-    "alt": "Tfa logo",
-    "pageLink": "/"
-  },
-  {
     "brandName": "Thomastik",
     "src": "/images/brandLogos/TraditionalInstruments/thomastik_logo.jpg",
     "alt": "Thomastik logo",
+    "pageLink": "/"
+  },
+  {
+    "brandName": "Dolfinos",
+    "src": "/images/brandLogos/TraditionalInstruments/ViolaAccesories/dolfinos_logo.jpg",
+    "alt": "Dolfinos logo",
+    "pageLink": "/"
+  },
+  {
+    "brandName": "Ehrlund Microphones",
+    "src": "/images/brandLogos/TraditionalInstruments/ViolaAccesories/ehrlund_microphones_logo.jpg",
+    "alt": "Ehrlund Microphones logo",
+    "pageLink": "/"
+  },
+  {
+    "brandName": "Hidersine",
+    "src": "/images/brandLogos/TraditionalInstruments/ViolaAccesories/hidersine_logo.jpg",
+    "alt": "Hidersine logo",
+    "pageLink": "/"
+  },
+  {
+    "brandName": "Strad Pad",
+    "src": "/images/brandLogos/TraditionalInstruments/ViolaAccesories/strad_pad_logo.jpg",
+    "alt": "Strad Pad logo",
+    "pageLink": "/"
+  },
+  {
+    "brandName": "Things 4 Strings",
+    "src": "/images/brandLogos/TraditionalInstruments/ViolaAccesories/things_4_strings_logo.jpg",
+    "alt": "Things 4 Strings logo",
     "pageLink": "/"
   }
 ]
