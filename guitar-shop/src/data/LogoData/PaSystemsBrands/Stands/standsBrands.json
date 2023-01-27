@@ -1,0 +1,86 @@
+[
+  {
+    "brandName": "Millenium",
+    "src": "/images/brandLogos/BrandsForMultipleCategories/millenium_logo.jpg",
+    "alt": "Millenium logo",
+    "pageLink": "/"
+  },
+  {
+    "brandName": "Roadworx",
+    "src": "/images/brandLogos/BrandsForMultipleCategories/roadworx_logo.jpg",
+    "alt": "Roadworx logo",
+    "pageLink": "/"
+  },
+  {
+    "brandName": "Akg",
+    "src": "/images/brandLogos/BrandsForMultipleCategories/akg_logo.jpg",
+    "alt": "Akg logo",
+    "pageLink": "/"
+  },
+  {
+    "brandName": "Fun Generation",
+    "src": "/images/brandLogos/BrandsForMultipleCategories/fun_generation_logo.jpg",
+    "alt": "Fun Generation logo",
+    "pageLink": "/"
+  },
+  {
+    "brandName": "Gravity",
+    "src": "/images/brandLogos/BrandsForMultipleCategories/gravity_logo.jpg",
+    "alt": "Gravity logo",
+    "pageLink": "/"
+  },
+  {
+    "brandName": "Koening & Mayer",
+    "src": "/images/brandLogos/BrandsForMultipleCategories/km_logo.jpg",
+    "alt": "Koening & Mayer logo",
+    "pageLink": "/"
+  },
+  {
+    "brandName": "Hercules Stands",
+    "src": "/images/brandLogos/BrandsForMultipleCategories/hercules_stands_logo.jpg",
+    "alt": "Hercules Stands logo",
+    "pageLink": "/"
+  },
+  {
+    "brandName": "Gator Frameworks",
+    "src": "/images/brandLogos/BrandsForMultipleCategories/gator_frameworks_logo.jpg",
+    "alt": "Gator Frameworks logo",
+    "pageLink": "/"
+  },
+  {
+    "brandName": "On Stage",
+    "src": "/images/brandLogos/BrandsForMultipleCategories/on_stage_logo.jpg",
+    "alt": "On Stage logo",
+    "pageLink": "/"
+  },
+  {
+    "brandName": "Superlux",
+    "src": "/images/brandLogos/BrandsForMultipleCategories/superlux_logo.jpg",
+    "alt": "Superlux logo",
+    "pageLink": "/"
+  },
+  {
+    "brandName": "Triad Orbit",
+    "src": "/images/brandLogos/BrandsForMultipleCategories/triad_orbit_logo.jpg",
+    "alt": "Triad Orbit logo",
+    "pageLink": "/"
+  },
+  {
+    "brandName": "EV",
+    "src": "/images/brandLogos/PaSystems/ev_logo.jpg",
+    "alt": "EV logo",
+    "pageLink": "/"
+  },
+  {
+    "brandName": "LD Systems",
+    "src": "/images/brandLogos/PaSystems/ld_systems_logo.jpg",
+    "alt": "LD Systems logo",
+    "pageLink": "/"
+  },
+  {
+    "brandName": "Audix",
+    "src": "/images/brandLogos/Microphones/audix_logo.jpg",
+    "alt": "Audix logo",
+    "pageLink": "/"
+  }
+]

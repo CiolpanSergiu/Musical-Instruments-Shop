@@ -7,7 +7,7 @@
   },
   {
     "brandName": "Triad Orbit",
-    "src": "/images/brandLogos/Accesories/Stands/triad_orbit_logo.jpg",
+    "src": "/images/brandLogos/BrandsForMultipleCategories/triad_orbit_logo.jpg",
     "alt": "Triad Orbit logo",
     "pageLink": "/"
   },
@@ -24,13 +24,13 @@
     "pageLink": "/"
   },
   {
-    "brandName": "gravity",
+    "brandName": "Gravity",
     "src": "/images/brandLogos/BrandsForMultipleCategories/gravity_logo.jpg",
     "alt": "Gravity logo",
     "pageLink": "/"
   },
   {
-    "brandName": "millenium",
+    "brandName": "Millenium",
     "src": "/images/brandLogos/BrandsForMultipleCategories/millenium_logo.jpg",
     "alt": "Millenium logo",
     "pageLink": "/"
@@ -73,7 +73,7 @@
   },
   {
     "brandName": "On Stage",
-    "src": "/images/brandLogos/Accesories/on_stage_logo.jpg",
+    "src": "/images/brandLogos/BrandsForMultipleCategories/on_stage_logo.jpg",
     "alt": "On Stage logo",
     "pageLink": "/"
   },

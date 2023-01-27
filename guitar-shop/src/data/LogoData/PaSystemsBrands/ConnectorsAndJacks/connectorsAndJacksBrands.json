@@ -1,0 +1,98 @@
+[
+  {
+    "brandName": "Amphenol",
+    "src": "/images/brandLogos/PaSystems/ConnectorsAndJacks/amphenol_logo.jpg",
+    "alt": "Amphenol logo",
+    "pageLink": "/"
+  },
+  {
+    "brandName": "Blackmagic Design",
+    "src": "/images/brandLogos/PaSystems/ConnectorsAndJacks/blackmagic_design_logo.jpg",
+    "alt": "Blackmagic Design logo",
+    "pageLink": "/"
+  },
+  {
+    "brandName": "Evidence Audio",
+    "src": "/images/brandLogos/PaSystems/ConnectorsAndJacks/evidence_audio_logo.jpg",
+    "alt": "Evidence Audio logo",
+    "pageLink": "/"
+  },
+  {
+    "brandName": "Harting",
+    "src": "/images/brandLogos/PaSystems/ConnectorsAndJacks/harting_logo.jpg",
+    "alt": "Harting logo",
+    "pageLink": "/"
+  },
+  {
+    "brandName": "Hicon",
+    "src": "/images/brandLogos/PaSystems/ConnectorsAndJacks/hicon_logo.jpg",
+    "alt": "Hicon logo",
+    "pageLink": "/"
+  },
+  {
+    "brandName": "Rean",
+    "src": "/images/brandLogos/PaSystems/ConnectorsAndJacks/rean_logo.jpg",
+    "alt": "Rean logo",
+    "pageLink": "/"
+  },
+  {
+    "brandName": "Seetronic",
+    "src": "/images/brandLogos/PaSystems/ConnectorsAndJacks/seetronic_logo.jpg",
+    "alt": "Seetronic logo",
+    "pageLink": "/"
+  },
+  {
+    "brandName": "The Sssnake",
+    "src": "/images/brandLogos/BrandsForMultipleCategories/the_sssnake_logo.jpg",
+    "alt": "The Sssnake logo",
+    "pageLink": "/"
+  },
+  {
+    "brandName": "Pro Snake",
+    "src": "/images/brandLogos/BrandsForMultipleCategories/pro_snake_logo.jpg",
+    "alt": "Pro Snake logo",
+    "pageLink": "/"
+  },
+  {
+    "brandName": "The T.Bone",
+    "src": "/images/brandLogos/BrandsForMultipleCategories/the_tbone_logo.jpg",
+    "alt": "The T.Bone logo",
+    "pageLink": "/"
+  },
+  {
+    "brandName": "Shure",
+    "src": "/images/brandLogos/BrandsForMultipleCategories/shure_logo.jpg",
+    "alt": "SHURE logo",
+    "pageLink": "/"
+  },
+  {
+    "brandName": "Rode",
+    "src": "/images/brandLogos/BrandsForMultipleCategories/rode_logo.jpg",
+    "alt": "Rode logo",
+    "pageLink": "/"
+  },
+  {
+    "brandName": "Fun Generation",
+    "src": "/images/brandLogos/BrandsForMultipleCategories/fun_generation_logo.jpg",
+    "alt": "Fun Generation logo",
+    "pageLink": "/"
+  },
+  {
+    "brandName": "Rockboard",
+    "src": "/images/brandLogos/GuitarAndBasses/EffectPedals/rockboard_logo.jpg",
+    "alt": "Rockboard logo",
+    "pageLink": "/"
+  },
+  {
+    "brandName": "audio technica",
+    "src": "/images/brandLogos/Accesories/audio_technica_logo.jpg",
+    "alt": "Audio Technica logo",
+    "pageLink": "/"
+  },
+  {
+    "brandName": "Monacor",
+    "src": "/images/brandLogos/PaSystems/monacor_logo.jpg",
+    "alt": "Monacor logo",
+    "pageLink": "/"
+  }
+]

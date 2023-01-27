@@ -1,6 +1,9 @@
+import multipinConnectorsBrands from "../../LogoData/PaSystemsBrands/ConnectorsAndJacks/multipinConnectorsBrands.json";
+
 export default {
   pageLink: "/multipin-connectors",
   title: "Multipin Connectors",
+  brands: multipinConnectorsBrands,
   subcategories: [
     {
       title: "6 Pins Multipins Connectors",

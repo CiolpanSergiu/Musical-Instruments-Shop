@@ -1,26 +1,44 @@
 [
   {
-    "brandName": "Shure",
-    "src": "/images/brandLogos/BrandsForMultipleCategories/shure_logo.jpg",
-    "alt": "SHURE logo",
+    "brandName": "Alto",
+    "src": "/images/brandLogos/PaSystems/Speakers/alto_logo.jpg",
+    "alt": "Alto logo",
     "pageLink": "/"
   },
   {
-    "brandName": "Sennheiser",
-    "src": "/images/brandLogos/BrandsForMultipleCategories/sennheiser_logo.jpg",
-    "alt": "Sennheiser logo",
+    "brandName": "Ant",
+    "src": "/images/brandLogos/PaSystems/Speakers/ant_logo.jpg",
+    "alt": "Ant logo",
     "pageLink": "/"
   },
   {
-    "brandName": "The T.Bone",
-    "src": "/images/brandLogos/BrandsForMultipleCategories/the_tbone_logo.jpg",
-    "alt": "The T.Bone logo",
+    "brandName": "Bc",
+    "src": "/images/brandLogos/PaSystems/Speakers/bc_logo.jpg",
+    "alt": "Bc logo",
     "pageLink": "/"
   },
   {
-    "brandName": "Schoeps",
-    "src": "/images/brandLogos/BrandsForMultipleCategories/schoeps_logo.jpg",
-    "alt": "Schoeps logo",
+    "brandName": "Celestion",
+    "src": "/images/brandLogos/PaSystems/Speakers/celestion_logo.jpg",
+    "alt": "Celestion logo",
+    "pageLink": "/"
+  },
+  {
+    "brandName": "Das Audio",
+    "src": "/images/brandLogos/PaSystems/Speakers/das_audio_logo.jpg",
+    "alt": "Das Audio logo",
+    "pageLink": "/"
+  },
+  {
+    "brandName": "FBT",
+    "src": "/images/brandLogos/PaSystems/Speakers/fbt_logo.jpg",
+    "alt": "FBT logo",
+    "pageLink": "/"
+  },
+  {
+    "brandName": "Turbosound",
+    "src": "/images/brandLogos/PaSystems/Speakers/turbosound_logo.jpg",
+    "alt": "Turbosound logo",
     "pageLink": "/"
   },
   {
@@ -33,12 +51,6 @@
     "brandName": "Bose",
     "src": "/images/brandLogos/PaSystems/bose_logo.jpg",
     "alt": "Bose logo",
-    "pageLink": "/"
-  },
-  {
-    "brandName": "Cordial",
-    "src": "/images/brandLogos/BrandsForMultipleCategories/cordial_logo.jpg",
-    "alt": "Cordial logo",
     "pageLink": "/"
   },
   {
@@ -60,12 +72,6 @@
     "pageLink": "/"
   },
   {
-    "brandName": "Flyht Pro",
-    "src": "/images/brandLogos/PaSystems/flyht_pro_logo.jpg",
-    "alt": "Flyht Pro logo",
-    "pageLink": "/"
-  },
-  {
     "brandName": "HK Audio",
     "src": "/images/brandLogos/PaSystems/hk_audio_logo.jpg",
     "alt": "HK Audio logo",
@@ -84,12 +90,6 @@
     "pageLink": "/"
   },
   {
-    "brandName": "Monacor",
-    "src": "/images/brandLogos/PaSystems/monacor_logo.jpg",
-    "alt": "Monacor logo",
-    "pageLink": "/"
-  },
-  {
     "brandName": "Qsc",
     "src": "/images/brandLogos/PaSystems/qsc_logo.jpg",
     "alt": "Qsc logo",
@@ -105,12 +105,6 @@
     "brandName": "The Box Pro",
     "src": "/images/brandLogos/PaSystems/the_box_pro_logo.jpg",
     "alt": "The Box Pro logo",
-    "pageLink": "/"
-  },
-  {
-    "brandName": "Thon",
-    "src": "/images/brandLogos/BrandsForMultipleCategories/thon_logo.jpg",
-    "alt": "Thon logo",
     "pageLink": "/"
   }
 ]

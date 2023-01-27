@@ -1,9 +1,17 @@
+// subcategories
 import speakerSubcategories from "../LevelThreeCategories/PaSystemEquipments/speakersData.json";
 import speakerStandsSubcategories from "../LevelThreeCategories/PaSystemEquipments/speakerStandsData.json";
 import paMixersSubcategories from "../LevelThreeCategories/PaSystemEquipments/paMixersData.json";
 import microphonesSubcategories from "../LevelThreeCategories/PaSystemEquipments/microphonesForPaData.json";
 import cablesSubcategories from "../LevelThreeCategories/PaSystemEquipments/paCablesData.json";
 import connectorsAndJacksSubcategories from "../LevelThreeCategories/PaSystemEquipments/connectorsAndJacksData";
+// brands
+import speakersBrands from "../LogoData/PaSystemsBrands/Speakers/speakersBrands.json";
+import speakerStandsBrands from "../LogoData/PaSystemsBrands/Stands/standsBrands.json";
+import paMixersBrands from "../LogoData/PaSystemsBrands/PaMixers/paMixersBrands.json";
+import microphonesBrands from "../LogoData/PaSystemsBrands/Microphones/microphonesBrands.json";
+import cablesBrands from "../LogoData/PaSystemsBrands/Cables/cablesBrands.json";
+import connectorsAndJacksBrands from "../LogoData/PaSystemsBrands/ConnectorsAndJacks/connectorsAndJacksBrands.json";
 
 const paSystemEquipmentsData = [
   {
@@ -18,6 +26,7 @@ const paSystemEquipmentsData = [
     title: "Speakers",
     pageLink: "/speakers",
     subcategories: speakerSubcategories,
+    brands: speakersBrands,
   },
   {
     src: "/images/category/LevelTwoCategories/PaSystems/speaker_stand.jpg",
@@ -25,6 +34,7 @@ const paSystemEquipmentsData = [
     title: "Speaker Stands",
     pageLink: "/speaker-stands",
     subcategories: speakerStandsSubcategories,
+    brands: speakerStandsBrands,
   },
   {
     src: "/images/category/LevelTwoCategories/PaSystems/pa_mixer.jpg",
@@ -32,6 +42,7 @@ const paSystemEquipmentsData = [
     title: "PA mixers",
     pageLink: "/pa-mixers",
     subcategories: paMixersSubcategories,
+    brands: paMixersBrands,
   },
   {
     src: "/images/category/LevelTwoCategories/PaSystems/pa_amplifier.jpg",
@@ -45,6 +56,7 @@ const paSystemEquipmentsData = [
     title: "Microphones",
     pageLink: "/microphones-for-pa",
     subcategories: microphonesSubcategories,
+    brands: microphonesBrands,
   },
   {
     src: "/images/category/LevelTwoCategories/PaSystems/cables.jpg",
@@ -52,6 +64,7 @@ const paSystemEquipmentsData = [
     title: "Cables",
     pageLink: "/cables-pa",
     subcategories: cablesSubcategories,
+    brands: cablesBrands,
   },
   {
     src: "/images/category/LevelTwoCategories/PaSystems/adapters_and_jacks.jpg",
@@ -59,6 +72,7 @@ const paSystemEquipmentsData = [
     title: "Connectors and Jacks",
     pageLink: "/connectors-and-jacks",
     subcategories: connectorsAndJacksSubcategories,
+    brands: connectorsAndJacksBrands,
   },
 ];
 
