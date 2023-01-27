@@ -1,90 +1,90 @@
 [
   {
-    "brandName": "ableton",
+    "brandName": "Ableton",
     "src": "/images/brandLogos/Softwares/ableton_logo.jpg",
     "alt": "Ableton logo",
     "pageLink": "/"
   },
   {
-    "brandName": "antares",
+    "brandName": "Antares",
     "src": "/images/brandLogos/Softwares/antares_logo.jpg",
     "alt": "Antates logo",
     "pageLink": "/"
   },
   {
-    "brandName": "arturia",
+    "brandName": "Arturia",
     "src": "/images/brandLogos/BrandsForMultipleCategories/arturia_logo.jpg",
     "alt": "Arturia logo",
     "pageLink": "/"
   },
   {
-    "brandName": "avid",
+    "brandName": "Avid",
     "src": "/images/brandLogos/BrandsForMultipleCategories/avid_logo.jpg",
     "alt": "Avid logo",
     "pageLink": "/"
   },
   {
-    "brandName": "celemony",
+    "brandName": "Celemony",
     "src": "/images/brandLogos/Softwares/celemony_logo.jpg",
     "alt": "Celemony logo",
     "pageLink": "/"
   },
   {
-    "brandName": "eventide",
+    "brandName": "Eventide",
     "src": "/images/brandLogos/Softwares/eventide_logo.jpg",
     "alt": "Eventide logo",
     "pageLink": "/"
   },
   {
-    "brandName": "image line",
+    "brandName": "Image Line",
     "src": "/images/brandLogos/Softwares/image_line_logo.jpg",
     "alt": "Image Line logo",
     "pageLink": "/"
   },
   {
-    "brandName": "izotope",
+    "brandName": "Izotope",
     "src": "/images/brandLogos/Softwares/izotope_logo.jpg",
     "alt": "Izotope logo",
     "pageLink": "/"
   },
   {
-    "brandName": "native instruments",
-    "src": "/images/brandLogos/Softwares/nativeinstruments_logo.jpg",
+    "brandName": "NativeInstruments",
+    "src": "/images/brandLogos/BrandsForMultipleCategories/nativeinstruments_logo.jpg",
     "alt": "Native Instruments logo",
     "pageLink": "/"
   },
   {
-    "brandName": "soundtoys",
+    "brandName": "Soundtoys",
     "src": "/images/brandLogos/Softwares/soundtoys_logo.jpg",
     "alt": "Soundtoys logo",
     "pageLink": "/"
   },
   {
-    "brandName": "ssl",
+    "brandName": "SSL",
     "src": "/images/brandLogos/BrandsForMultipleCategories/ssl_logo.jpg",
     "alt": "SSL logo",
     "pageLink": "/"
   },
   {
-    "brandName": "steinberg",
+    "brandName": "Steinberg",
     "src": "/images/brandLogos/Softwares/steinberg_logo.jpg",
     "alt": "Steinberg logo",
     "pageLink": "/"
   },
   {
-    "brandName": "steven slate audio",
+    "brandName": "Steven Slate Audio",
     "src": "/images/brandLogos/Softwares/steven_slate_audio_logo.jpg",
     "alt": "Steven Slate Audio logo",
     "pageLink": "/"
   },
   {
-    "brandName": "toontrack",
+    "brandName": "Toontrack",
     "src": "/images/brandLogos/Softwares/toontrack_logo.jpg",
     "alt": "Toontrack logo",
     "pageLink": "/"
   },
   {
-    "brandName": "waves",
+    "brandName": "Waves",
     "src": "/images/brandLogos/Softwares/waves_logo.jpg",
     "alt": "Waves logo",
     "pageLink": "/"

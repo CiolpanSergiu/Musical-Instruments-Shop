@@ -1,4 +1,4 @@
-import electricGuitarPickupsBrands from "../../../LogoData/GuitarAndBassesBrands/pickupsBrands.json";
+import electricGuitarPickupsBrands from "../../../LogoData/GuitarAndBassesBrands/Pickups/pickupsBrands.json";
 
 export default {
   pageLink: "/electric-guitar-pickups",

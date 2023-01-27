@@ -13,19 +13,19 @@ import pickupsSubcategories from "../LevelThreeCategories/GuitarsAndBasses/picku
 import changeSpareSubcategories from "../LevelThreeCategories/GuitarsAndBasses/sparePartsData";
 import accesoriesSubcategories from "../LevelThreeCategories/GuitarsAndBasses/accesoriesData";
 // brands
-import electricGuitarBrands from "../LogoData/GuitarAndBassesBrands/electricGuitarsBrands.json";
-import acousticGuitarBrands from "../LogoData/GuitarAndBassesBrands/acousticGuitarsBrands.json";
-import electricBassBrands from "../LogoData/GuitarAndBassesBrands/electricBassBrands.json";
-import acousticBassBrands from "../LogoData/GuitarAndBassesBrands/acousticBassBrands.json";
-import ukuleleBrands from "../LogoData/GuitarAndBassesBrands/ukuleleBrands.json";
-import electricGuitarAmpsBrands from "../LogoData/GuitarAndBassesBrands/electricGuitarAmpsBrands.json";
-import electricBassAmpsBrands from "../LogoData/GuitarAndBassesBrands/electricBassAmpsBrands.json";
-import acousticGuitarAmpsBrands from "../LogoData/GuitarAndBassesBrands/acousticGuitarAmpsBrands.json";
-import stringsBrands from "../LogoData/GuitarAndBassesBrands/stringsBrands.json";
-import pedalsBrands from "../LogoData/GuitarAndBassesBrands/pedalsBrands.json";
-import pickupsBrands from "../LogoData/GuitarAndBassesBrands/pickupsBrands.json";
-import sparePartsBrands from "../LogoData/GuitarAndBassesBrands/sparePartsBrands.json";
-import accesoriesBrands from "../LogoData/GuitarAndBassesBrands/accesoriesBrands.json";
+import electricGuitarBrands from "../LogoData/GuitarAndBassesBrands/Guitars/electricGuitarsBrands.json";
+import acousticGuitarBrands from "../LogoData/GuitarAndBassesBrands/Guitars/acousticGuitarsBrands.json";
+import electricBassBrands from "../LogoData/GuitarAndBassesBrands/Basses/electricBassBrands.json";
+import acousticBassBrands from "../LogoData/GuitarAndBassesBrands/Basses/acousticBassBrands.json";
+import ukuleleBrands from "../LogoData/GuitarAndBassesBrands/Ukulele/ukuleleBrands.json";
+import electricGuitarAmpsBrands from "../LogoData/GuitarAndBassesBrands/ElectricGuitarAmplifiers/electricGuitarAmpsBrands.json";
+import electricBassAmpsBrands from "../LogoData/GuitarAndBassesBrands/ElectricBassAmplifiers/electricBassAmpsBrands.json";
+import acousticGuitarAmpsBrands from "../LogoData/GuitarAndBassesBrands/acousticGuitarAmplifiers/acousticGuitarAmpsBrands.json";
+import stringsBrands from "../LogoData/GuitarAndBassesBrands/Strings/stringsBrands.json";
+import pedalsBrands from "../LogoData/GuitarAndBassesBrands/Pedals/pedalsBrands.json";
+import pickupsBrands from "../LogoData/GuitarAndBassesBrands/Pickups/pickupsBrands.json";
+import sparePartsBrands from "../LogoData/GuitarAndBassesBrands/SpareParts/sparePartsBrands.json";
+import accesoriesBrands from "../LogoData/GuitarAndBassesBrands/Accesories/accesoriesBrands.json";
 
 const guitarsAndBassesData = [
   {

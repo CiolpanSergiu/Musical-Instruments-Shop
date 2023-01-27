@@ -1,4 +1,4 @@
-import bassComboAmpBrands from "../../../LogoData/GuitarAndBassesBrands/electricBassAmpsBrands.json";
+import bassComboAmpBrands from "../../../LogoData/GuitarAndBassesBrands/ElectricBassAmplifiers/electricBassAmpsBrands.json";
 
 export default {
   pageLink: "/bass-combo-amplifiers",
