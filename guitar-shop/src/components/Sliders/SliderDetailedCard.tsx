@@ -1,6 +1,6 @@
 import { Link } from "react-router-dom";
 import styled from "styled-components";
-import { generateStars } from "../../../functions/generateStars";
+import { generateStars } from "../../functions/generateStars";
 
 type Props = {
   src: string;

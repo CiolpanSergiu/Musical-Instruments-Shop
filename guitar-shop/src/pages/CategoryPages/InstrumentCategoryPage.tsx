@@ -3,8 +3,8 @@ import Navbar from "../../components/NavbarComponents/Navbar";
 import Footer from "../../components/Footer/Footer";
 import SubcategoryCardsContainer from "../../components/HomePageComponents/Containers/SubcategoryCardsContainer";
 import universalPopularItemsData from "../../data/PopularItems/universalPopularItems.json";
-import SimpleSlider from "../../components/Sliders/HomePage/SimpleSlider";
-import BrandsSlider from "../../components/Sliders/HomePage/BrandsSlider";
+import BrandsSlider from "../../components/Sliders/BrandsSlider";
+import ItemsSlider from "../../components/Sliders/ItemsSlider";
 
 const Container = styled.div`
   display: flex;
@@ -44,10 +44,7 @@ export default function InstrumentCategoryPage({
       <Container>
         <SubcategoryCardsContainer data={data} pageTitle={pageTitle} />
         {itemsRecommendations && (
-          <SimpleSlider
-            data={universalPopularItemsData}
-            header="Popular Items"
-          />
+          <ItemsSlider data={universalPopularItemsData} title="Popular Items" />
         )}
         {itemsBrands && (
           <BrandsSlider

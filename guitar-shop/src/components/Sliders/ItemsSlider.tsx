@@ -1,5 +1,5 @@
 import SliderDetailedCard from "./SliderDetailedCard";
-import "../../../styles/SliderStyles/SliderStyle.scss";
+import "../../styles/SliderStyles/SliderStyle.scss";
 import Slider from "react-slick";
 import styled from "styled-components";
 import { nanoid } from "nanoid";
@@ -30,8 +30,17 @@ function SamplePrevArrow(props: any) {
   );
 }
 
+const SliderContainer = styled.div`
+  padding: 0.5rem;
+  max-height: 60vh;
+  max-width: 100vw;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+`;
+
 const Header2 = styled.h2`
-  margin: 2rem;
+  margin: 2rem 0;
   color: #404040;
   text-decoration: underline lightskyblue 3px;
 
@@ -42,7 +51,7 @@ const Header2 = styled.h2`
 
 type Data = {
   title: string;
-  brand: string;
+  brandName: string;
   src: string;
   alt: string;
   price: number;
@@ -101,12 +110,9 @@ export default function ItemsSlider({ title, data }: Props) {
   ));
 
   return (
-    <div
-      className="slider-section-container"
-      style={{ width: "90vw", marginBottom: "4rem" }}
-    >
+    <SliderContainer>
       <Header2>{`Popular ${title} Items`}</Header2>
       <Slider {...settings}>{sliderCards}</Slider>
-    </div>
+    </SliderContainer>
   );
 }

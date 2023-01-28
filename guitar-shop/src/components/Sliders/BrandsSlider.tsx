@@ -1,6 +1,6 @@
 import BrandCard from "./BrandCard";
 import { nanoid } from "nanoid";
-import "../../../styles/SliderStyles/SliderStyle.scss";
+import "../../styles/SliderStyles/SliderStyle.scss";
 import Slider from "react-slick";
 import styled from "styled-components";
 
@@ -29,6 +29,15 @@ function SamplePrevArrow(props: any) {
     />
   );
 }
+
+const SliderContainer = styled.div`
+  padding: 0.5rem;
+  max-height: 60vh;
+  max-width: 100vw;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+`;
 
 const Header2 = styled.h2`
   margin: 4rem 0 2rem 0;
@@ -115,9 +124,9 @@ export default function BrandsSlider({ title, data }: Props) {
   const sliderRowOneCards = getSliderCards(data);
 
   return (
-    <div className="slider-section-container" style={{ width: "90vw" }}>
+    <SliderContainer>
       <Header2>{title}</Header2>
       <Slider {...settings}>{sliderRowOneCards}</Slider>
-    </div>
+    </SliderContainer>
   );
 }
