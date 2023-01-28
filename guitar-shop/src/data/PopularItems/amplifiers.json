@@ -1,0 +1,82 @@
+[
+  {
+    "title": "Boss Katana 50 MKII",
+    "brandName": "",
+    "src": "/images/popularItems/Amplifiers/boss_katana_50_mkii.jpg",
+    "alt": "",
+    "price": 286,
+    "totalReviews": 1201,
+    "rating": 5,
+    "pageLink": "/"
+  },
+  {
+    "title": "EVH 5150 III 50W EL34 Head BK",
+    "brandName": "",
+    "src": "/images/popularItems/Amplifiers/evh_5150_iii_50_w_el34_head_bk.jpg",
+    "alt": "",
+    "price": 1464,
+    "totalReviews": 121,
+    "rating": 4.95,
+    "pageLink": "/"
+  },
+  {
+    "title": "Fender Champion 40",
+    "brandName": "",
+    "src": "/images/popularItems/Amplifiers/fender_champion_40.jpg",
+    "alt": "",
+    "price": 246,
+    "totalReviews": 845,
+    "rating": 4.75,
+    "pageLink": "/"
+  },
+  {
+    "title": "Hughes&Kettner GrandMeister Deluxe 40",
+    "brandName": "",
+    "src": "/images/popularItems/Amplifiers/hughes_and_kettner_grandmeister_deluxe_40.jpg",
+    "alt": "",
+    "price": 1287,
+    "totalReviews": 67,
+    "rating": 5,
+    "pageLink": "/"
+  },
+  {
+    "title": "Markbass Micromark 801",
+    "brandName": "",
+    "src": "/images/popularItems/Amplifiers/markbass_micromark_801.jpg",
+    "alt": "",
+    "price": 400,
+    "totalReviews": 763,
+    "rating": 4.85,
+    "pageLink": "/"
+  },
+  {
+    "title": "Marshall MG50GFX",
+    "brandName": "",
+    "src": "/images/popularItems/Amplifiers/marshall_mg50gfx.jpg",
+    "alt": "",
+    "price": 300,
+    "totalReviews": 777,
+    "rating": 4.9,
+    "pageLink": "/"
+  },
+  {
+    "title": "Orange Crush 35 RT",
+    "brandName": "",
+    "src": "/images/popularItems/Amplifiers/orange_crush_35_rt.jpg",
+    "alt": "",
+    "price": 310,
+    "totalReviews": 1001,
+    "rating": 5,
+    "pageLink": "/"
+  },
+  {
+    "title": "Roland Mobile Cube",
+    "brandName": "",
+    "src": "/images/popularItems/Amplifiers/roland_mobile_cube.jpg",
+    "alt": "",
+    "price": 202,
+    "totalReviews": 127,
+    "rating": 4.7,
+    "pageLink": "/"
+  }
+]

@@ -19,19 +19,18 @@ const CardLink = styled(Link)`
   box-shadow: 0px 3px 10px 2.5px lightgray;
   border: solid gray 1px;
   border-radius: 5px;
-  padding: 1rem 2rem;
+  padding: 0.5rem 1rem;
   height: 20rem;
   display: flex;
   flex-direction: column;
-  justify-content: space-around;
 `;
 
 const CardImage = styled.img`
   margin: 2rem auto;
   overflow: hidden;
   transition: 0.1s all ease-in-out;
-  width: 64px;
-  height: 64px;
+  width: 128px;
+  height: 128px;
 
   &:hover {
     transform: scale(1.2);
