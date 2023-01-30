@@ -1,7 +1,7 @@
 import styled from "styled-components";
 import Navbar from "../NavbarComponents/Navbar";
 import Footer from "../Footer/Footer";
-import AddToCartBtn from "./Miscellaneous/AddToCartBtn";
+import AddToCartBtn from "../Miscellaneous/AddToCartBtn";
 import { generateStars } from "../../functions/generateStars";
 
 const PageContainer = styled.div`
@@ -84,7 +84,7 @@ type Data = {
   specifications: string[];
 };
 
-export default function ItemPage({
+export default function ShopItemPage({
   title,
   srcBig,
   alt,
@@ -103,7 +103,15 @@ export default function ItemPage({
             <StarsContainer>{generateStars(rating)}</StarsContainer>
             <HorizontalFlexContainer>
               <Price>{price} $</Price>
-              <AddToCartBtn />
+              <AddToCartBtn
+                title={title}
+                srcThumbnail={srcBig}
+                alt={alt}
+                price={price}
+                havePrice={false}
+                haveCartIcon={false}
+                haveText={true}
+              />
             </HorizontalFlexContainer>
             {specifications && (
               <ItemSpecificationsUl>

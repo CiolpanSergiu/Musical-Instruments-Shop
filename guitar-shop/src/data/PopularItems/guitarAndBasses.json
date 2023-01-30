@@ -2,81 +2,97 @@
   {
     "title": "Epiphone Les Paul Custom Ebony",
     "brandName": "Epiphone",
-    "src": "/images/popularItems/GuitarsAndBasses/epiphone_les_paul_custom_ebony.jpg",
+    "srcThumbnail": "/images/popularItems/GuitarsAndBasses/epiphone_les_paul_custom_ebony.jpg",
+    "srcBig": "",
     "alt": "A black Epiphone Les Paul",
     "price": 643,
     "totalReviews": 404,
     "rating": 5,
-    "pageLink": "/"
+    "pageLink": "/epiphone-les-paul-custom-ebony",
+    "specifications": []
   },
   {
     "title": "Esp LTD KH 602 BLK",
     "brandName": "Esp",
-    "src": "/images/popularItems/GuitarsAndBasses/esp_ltd_kh_602_blk.jpg",
+    "srcThumbnail": "/images/popularItems/GuitarsAndBasses/esp_ltd_kh_602_blk.jpg",
+    "srcBig": "",
     "alt": "A black ESP LTD like kirk hammet's",
     "price": 1428,
     "totalReviews": 43,
     "rating": 4.5,
-    "pageLink": "/"
+    "pageLink": "/esp-ltd-kh-602-blk",
+    "specifications": []
   },
   {
     "title": "Fender Player Series Jazz Bass MN3TS",
     "brandName": "Fender",
-    "src": "/images/popularItems/GuitarsAndBasses/fender_player_series_jazz_bass_mn_3ts.jpg",
+    "srcThumbnail": "/images/popularItems/GuitarsAndBasses/fender_player_series_jazz_bass_mn_3ts.jpg",
+    "srcBig": "",
     "alt": "A 4 strings orange and white jazz bass from Fender",
     "price": 887,
     "totalReviews": 244,
     "rating": 4.76,
-    "pageLink": "/"
+    "pageLink": "/fender-player-series-jazz-bass-mn3ts",
+    "specifications": []
   },
   {
     "title": "Harley Benton JB 75MN Vintage Series",
     "brandName": "Harley Benton",
-    "src": "/images/popularItems/GuitarsAndBasses/harley_benton_jb_75mn_na_vintage_series.jpg",
+    "srcThumbnail": "/images/popularItems/GuitarsAndBasses/harley_benton_jb_75mn_na_vintage_series.jpg",
+    "srcBig": "",
     "alt": "Beige and black Harley Benton bass",
     "price": 182,
     "totalReviews": 760,
     "rating": 4.87,
-    "pageLink": "/"
+    "pageLink": "/harley-benton-jb-75mn-vintage-series",
+    "specifications": []
   },
   {
     "title": "Jackson KVXMG King V Satin Black",
     "brandName": "Jackson",
-    "src": "/images/popularItems/GuitarsAndBasses/jackson_kvxmg_king_v_satin_black.jpg",
+    "srcThumbnail": "/images/popularItems/GuitarsAndBasses/jackson_kvxmg_king_v_satin_black.jpg",
+    "srcBig": "",
     "alt": "Black Jackson Flying V guitar",
     "price": 788,
     "totalReviews": 540,
     "rating": 4.6,
-    "pageLink": "/"
+    "pageLink": "/jackson-kvxmg-king-v-satin-black",
+    "specifications": []
   },
   {
     "title": "Schecter Omen Extreme 7 STBLK",
     "brandName": "Scheter",
-    "src": "/images/popularItems/GuitarsAndBasses/schecter_omen_extreme_7_stblk.jpg",
+    "srcThumbnail": "/images/popularItems/GuitarsAndBasses/schecter_omen_extreme_7_stblk.jpg",
+    "srcBig": "",
     "alt": "Black Schecter Omenn Extreme with 7 strings",
     "price": 754,
     "totalReviews": 244,
     "rating": 5,
-    "pageLink": "/"
+    "pageLink": "/schecter-omen-extreme-7-stblk",
+    "specifications": []
   },
   {
     "title": "Schecter Synyster Gates Custom S SGB",
     "brandName": "Schecter",
-    "src": "/images/popularItems/GuitarsAndBasses/schecter_synyster_gates_custom_s_ sgb.jpg",
+    "srcThumbnail": "/images/popularItems/GuitarsAndBasses/schecter_synyster_gates_custom_s_ sgb.jpg",
+    "srcBig": "",
     "alt": "Schecter guitar like Synyster Gate's ",
     "price": 1928,
     "totalReviews": 32,
     "rating": 4.9,
-    "pageLink": "/"
+    "pageLink": "/schecter-synyster-gates-custom-s-sgb",
+    "specifications": []
   },
   {
     "title": "Takamine GD51CE BSB",
     "brandName": "Takamine",
-    "src": "/images/popularItems/GuitarsAndBasses/takamine_gd51ce_bsb.jpg",
+    "srcThumbnail": "/images/popularItems/GuitarsAndBasses/takamine_gd51ce_bsb.jpg",
+    "srcBig": "",
     "alt": "Black and orange Takamine acoustic dreadnought guitar",
     "price": 508,
     "totalReviews": 47,
     "rating": 4.4,
-    "pageLink": "/"
+    "pageLink": "/takamine-gd51ce-bsb",
+    "specifications": []
   }
 ]

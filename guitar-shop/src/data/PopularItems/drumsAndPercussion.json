@@ -2,81 +2,97 @@
   {
     "title": "Gretsch Drums 10X5.5 Mighty Mini Snare BK",
     "brandName": "",
-    "src": "/images/popularItems/Drums/gretsch_drums_10x5_5_mighty_mini_snare_bk.jpg",
+    "srcThumbnail": "/images/popularItems/Drums/gretsch_drums_10x5_5_mighty_mini_snare_bk.jpg",
+    "srcBig": "",
     "alt": "",
     "price": 99,
     "totalReviews": 75,
     "rating": 5,
-    "pageLink": "/"
+    "pageLink": "/gretsch-drums-10x5-5-mighty-mini-snare-bk",
+    "specifications": []
   },
   {
     "title": "Millenium 16 B20 Crash",
     "brandName": "",
-    "src": "/images/popularItems/Drums/millenium_16_b20_crash.jpg",
+    "srcThumbnail": "/images/popularItems/Drums/millenium_16_b20_crash.jpg",
+    "srcBig": "",
     "alt": "",
     "price": 52,
     "totalReviews": 540,
     "rating": 5,
-    "pageLink": "/"
+    "pageLink": "/millenium-16-b20-crash",
+    "specifications": []
   },
   {
     "title": "Millenium B20 CymbalSet",
     "brandName": "",
-    "src": "/images/popularItems/Drums/millenium_b20_cymbalset.jpg",
+    "srcThumbnail": "/images/popularItems/Drums/millenium_b20_cymbalset.jpg",
+    "srcBig": "",
     "alt": "",
     "price": 236,
     "totalReviews": 602,
     "rating": 4.89,
-    "pageLink": "/"
+    "pageLink": "/millenium-b20-cymbalset",
+    "specifications": []
   },
   {
     "title": "Millenium Focus 20X16 Bass Drum Black",
     "brandName": "",
-    "src": "/images/popularItems/Drums/millenium_focus_20x16_bass_drum_black.jpg",
+    "srcThumbnail": "/images/popularItems/Drums/millenium_focus_20x16_bass_drum_black.jpg",
+    "srcBig": "",
     "alt": "",
     "price": 161,
     "totalReviews": 532,
     "rating": 4.67,
-    "pageLink": "/"
+    "pageLink": "/millenium-focus-20x16-bass-drum-black",
+    "specifications": []
   },
   {
     "title": "Millenium MPS 850 Electronic Drum Set",
     "brandName": "",
-    "src": "/images/popularItems/Drums/millenium_mps_850_e_drum_set.jpg",
+    "srcThumbnail": "/images/popularItems/Drums/millenium_mps_850_e_drum_set.jpg",
+    "srcBig": "",
     "alt": "",
     "price": 666,
     "totalReviews": 111,
     "rating": 4.7,
-    "pageLink": "/"
+    "pageLink": "/millenium-mps-850-electronic-drum-set",
+    "specifications": []
   },
   {
     "title": "Startone Star Drum Set Standard BK",
     "brandName": "",
-    "src": "/images/popularItems/Drums/startone_star_drum_set _standard_bk.jpg",
+    "srcThumbnail": "/images/popularItems/Drums/startone_star_drum_set _standard_bk.jpg",
+    "srcBig": "",
     "alt": "",
     "price": 302,
     "totalReviews": 1504,
     "rating": 4.76,
-    "pageLink": "/"
+    "pageLink": "/startone-star-drum-set-standard-bk",
+    "specifications": []
   },
   {
-    "title": "Yamah Stage Custom 08X07 Tom NQ",
+    "title": "Yamaha Stage Custom 08X07 Tom NQ",
     "brandName": "",
-    "src": "/images/popularItems/Drums/yamaha_stage_custom_08x07_tt_nq.jpg",
+    "srcThumbnail": "/images/popularItems/Drums/yamaha_stage_custom_08x07_tt_nq.jpg",
+    "srcBig": "",
     "alt": "",
     "price": 130,
     "totalReviews": 276,
     "rating": 4.5,
-    "pageLink": "/"
+    "pageLink": "/yamaha-stage-custom-08x07-tom-nq",
+    "specifications": []
   },
   {
     "title": "Zultan 10 AJA Splash",
     "brandName": "",
-    "src": "/images/popularItems/Drums/zultan_10_aja_splash.jpg",
+    "srcThumbnail": "/images/popularItems/Drums/zultan_10_aja_splash.jpg",
+    "srcBig": "",
     "alt": "",
     "price": 31,
     "totalReviews": 1543,
     "rating": 4.9,
-    "pageLink": "/"
+    "pageLink": "/zultan-10-aja-splash",
+    "specifications": []
   }
 ]

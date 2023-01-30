@@ -4,10 +4,10 @@ import guitarAndBassesPopularItems from "./guitarAndBasses.json";
 import keyboardAndSynthPopularItems from "./keyboardsAndSynth.json";
 import universalPopularItems from "./universalPopularItems.json";
 
-export default {
+export default [
+  universalPopularItems,
+  guitarAndBassesPopularItems,
   amplifiersPopularItems,
   drumsAndPercussionPopularItems,
-  guitarAndBassesPopularItems,
   keyboardAndSynthPopularItems,
-  universalPopularItems,
-};
+];

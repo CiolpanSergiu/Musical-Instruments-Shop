@@ -1,8 +1,7 @@
 import styled from "styled-components";
 import { Link } from "react-router-dom";
 // import StarsContainer from "../../Miscellaneous/StarsContainer";
-import ShoppingCartContext from "../../../context/ShoppingCartContext";
-import { useContext } from "react";
+import AddToCartBtn from "../../Miscellaneous/AddToCartBtn";
 import { AiOutlineShoppingCart } from "react-icons/ai";
 import { generateStars } from "../../../functions/generateStars";
 
@@ -93,22 +92,6 @@ export default function ShoppingPageCard({
   rating,
   price,
 }: Props) {
-  const { setCartItemsQuantity, addToCart }: any =
-    useContext(ShoppingCartContext);
-
-  function handleClick() {
-    const item = {
-      title: title,
-      src: srcThumbnail,
-      alt: alt,
-      price: price,
-    };
-
-    setCartItemsQuantity((prevState: number) => prevState + 1);
-
-    addToCart(item);
-  }
-
   return (
     <CardContainer>
       <StyledLink to={pageLink}>
@@ -116,10 +99,15 @@ export default function ShoppingPageCard({
         <ItemTitle>{title}</ItemTitle>
         <StarsContainer>{generateStars(rating)}</StarsContainer>
       </StyledLink>
-      <CartButton onClick={handleClick}>
-        <Price>{price}$</Price>
-        <AiOutlineShoppingCart />
-      </CartButton>
+      <AddToCartBtn
+        title={title}
+        srcThumbnail={srcThumbnail}
+        alt={alt}
+        price={price}
+        havePrice={true}
+        haveCartIcon={true}
+        haveText={false}
+      />
     </CardContainer>
   );
 }

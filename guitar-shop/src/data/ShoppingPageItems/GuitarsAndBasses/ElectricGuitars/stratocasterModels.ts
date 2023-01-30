@@ -46,7 +46,7 @@ const stratocasterModelsData = {
       srcThumbnail:
         "/images/shoppingPageItems/GuitarsAndBasses/ElectricGuitars/StratocasterModels/harley_benton_fusion_iii_hsh_fbb.jpg",
       srcBig: "",
-      alt: "Beautifull orange Harley Benton Guitar with two humbuckers and a single coid pickup",
+      alt: "Beautifull orange Harley Benton Guitar with two humbuckers and a single coil pickup",
       pageLink: "/harley-benton-fusion-iii-hsh-fbb",
       price: 297,
       avaible: true,

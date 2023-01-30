@@ -14,6 +14,7 @@ type Props = {
 
 const CardLink = styled(Link)`
   text-decoration: none;
+  cursor: pointer;
   color: gray;
   margin: 0 1rem;
   box-shadow: 0px 3px 10px 2.5px lightgray;
@@ -23,6 +24,7 @@ const CardLink = styled(Link)`
   height: 20rem;
   display: flex;
   flex-direction: column;
+  align-items: center;
 `;
 
 const CardImage = styled.img`
@@ -41,11 +43,13 @@ const CardTitle = styled.h5`
   font-size: 1.1rem;
   padding-bottom: 1rem;
   text-align: left;
+  text-align: center;
 `;
 
 const StarsContainer = styled.div`
   display: flex;
   align-items: flex-start;
+  justify-content: center;
   margin-bottom: 0.5rem;
   position: relative;
   z-index: 1;

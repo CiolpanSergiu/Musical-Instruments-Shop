@@ -2,6 +2,7 @@ import { Route } from "react-router-dom";
 import InstrumentCategoryPage from "../pages/CategoryPages/InstrumentCategoryPage";
 import ShoppingPage from "../pages/ShoppingPages/ShoppingPage";
 import { nanoid } from "nanoid";
+import ItemPage from "../components/ItemPageComponents/ItemPage";
 
 // unknown because not all objects in data array have the same structure;
 
@@ -47,6 +48,38 @@ export function createShoppingPageRoute(
       key={nanoid()}
       path={pageLink}
       element={<ShoppingPage itemsData={data} pageTitle={pageTitle} />}
+    ></Route>
+  );
+}
+
+type Item = {
+  title: string;
+  brandName: string;
+  srcThumbnail: string;
+  srcBig: string;
+  alt: string;
+  price: number;
+  totalReviews: number;
+  rating: number;
+  pageLink: string;
+  specifications: string[];
+};
+
+export function createItemDetailsPageRoute(item: Item) {
+  return (
+    <Route
+      key={nanoid()}
+      path={item.pageLink}
+      element={
+        <ItemPage
+          title={item.title}
+          srcBig={item.srcBig}
+          alt={item.alt}
+          price={item.price}
+          rating={item.rating}
+          specifications={item.specifications}
+        ></ItemPage>
+      }
     ></Route>
   );
 }

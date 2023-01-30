@@ -18,41 +18,26 @@ export default function Home() {
       <Navbar />
       <CategoryCardsContainer />
       <section>
-        <ItemsSlider
-          title="Popular Items"
-          data={popularItemsData.universalPopularItems}
-        />
+        <ItemsSlider title="Popular Items" data={popularItemsData[0]} />
       </section>
       <section>
         <BrandsSlider title="Top Brands" data={brandsData} />
         <SalesSectionContainer />
       </section>
       <section>
-        <ItemsSlider
-          data={popularItemsData.guitarAndBassesPopularItems}
-          title="Guitars and Basses"
-        />
+        <ItemsSlider data={popularItemsData[1]} title="Guitars and Basses" />
         <SliderDescription descriptionData={description[0]} />
       </section>
       <section>
-        <ItemsSlider
-          data={popularItemsData.amplifiersPopularItems}
-          title="Amplifiers"
-        />
+        <ItemsSlider data={popularItemsData[2]} title="Amplifiers" />
         <SliderDescription descriptionData={description[1]} />
       </section>
       <section>
-        <ItemsSlider
-          data={popularItemsData.drumsAndPercussionPopularItems}
-          title="Drums and Percussion"
-        />
+        <ItemsSlider data={popularItemsData[3]} title="Drums and Percussion" />
         <SliderDescription descriptionData={description[2]} />
       </section>
       <section>
-        <ItemsSlider
-          data={popularItemsData.keyboardAndSynthPopularItems}
-          title="Keyboards and Synth"
-        />
+        <ItemsSlider data={popularItemsData[4]} title="Keyboards and Synth" />
         <SliderDescription descriptionData={description[3]} />
       </section>
       <Footer marginTop={"2rem"} />

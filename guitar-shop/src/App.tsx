@@ -19,6 +19,8 @@ import electricGuitarsShoppingPages from "./Routes/ShoppingPages/guitarAndBasses
 
 import itemsRoutes from "./Routes/ItemsPages/stratocasterGuitarsPages";
 
+import popularItemsPages from "./Routes/ItemsPages/popularItemsPages";
+
 export default function App() {
   return (
     <Routes>
@@ -31,6 +33,7 @@ export default function App() {
       <Route path="/shopping-cart" element={<ShoppingCartPage />}></Route>
 
       {itemsRoutes}
+      {popularItemsPages}
 
       {levelTwoCategoryPages}
       {levelThreeCategoryPages}

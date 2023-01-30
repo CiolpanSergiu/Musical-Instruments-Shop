@@ -2,81 +2,97 @@
   {
     "title": "Arturia KelLab MKII 61 Black",
     "brandName": "",
-    "src": "/images/popularItems/KeyboardAndSynth/arturia_kellab_mkii_61_black.jpg",
+    "srcThumbnail": "/images/popularItems/KeyboardAndSynth/arturia_kellab_mkii_61_black.jpg",
+    "srcBig": "",
     "alt": "",
     "price": 532,
     "totalReviews": 535,
     "rating": 4.7,
-    "pageLink": "/"
+    "pageLink": "/arturia-kellab-mkii-61-black",
+    "specifications": []
   },
   {
     "title": "Korg EK 50",
     "brandName": "",
-    "src": "/images/popularItems/KeyboardAndSynth/korg_ek_50.jpg",
+    "srcThumbnail": "/images/popularItems/KeyboardAndSynth/korg_ek_50.jpg",
+    "srcBig": "",
     "alt": "",
     "price": 384,
     "totalReviews": 899,
     "rating": 4.8,
-    "pageLink": "/"
+    "pageLink": "/korg-ek-50",
+    "specifications": []
   },
   {
     "title": "Korg Modwave",
     "brandName": "",
-    "src": "/images/popularItems/KeyboardAndSynth/korg_modwave.jpg",
+    "srcThumbnail": "/images/popularItems/KeyboardAndSynth/korg_modwave.jpg",
+    "srcBig": "",
     "alt": "",
     "price": 666,
     "totalReviews": 666,
     "rating": 4.6,
-    "pageLink": "/"
+    "pageLink": "/korg-modwave",
+    "specifications": []
   },
   {
     "title": "Moog Matriarch",
     "brandName": "",
-    "src": "/images/popularItems/KeyboardAndSynth/moog_matriarch.jpg",
+    "srcThumbnail": "/images/popularItems/KeyboardAndSynth/moog_matriarch.jpg",
+    "srcBig": "",
     "alt": "",
     "price": 2152,
     "totalReviews": 21,
     "rating": 4.97,
-    "pageLink": "/"
+    "pageLink": "/mood-matriarch",
+    "specifications": []
   },
   {
     "title": "Roland VR 09 V Combo B",
     "brandName": "",
-    "src": "/images/popularItems/KeyboardAndSynth/roland_vr_09_v_combo_b.jpg",
+    "srcThumbnail": "/images/popularItems/KeyboardAndSynth/roland_vr_09_v_combo_b.jpg",
+    "srcBig": "",
     "alt": "",
     "price": 821,
     "totalReviews": 150,
     "rating": 4.7,
-    "pageLink": "/"
+    "pageLink": "/roland-vr-09-combo-b",
+    "specifications": []
   },
   {
     "title": "Startone MK 300",
     "brandName": "",
-    "src": "/images/popularItems/KeyboardAndSynth/startone_mk_300.jpg",
+    "srcThumbnail": "/images/popularItems/KeyboardAndSynth/startone_mk_300.jpg",
+    "srcBig": "",
     "alt": "",
     "price": 144,
     "totalReviews": 302,
     "rating": 3.8,
-    "pageLink": "/"
+    "pageLink": "/startone-mk-300",
+    "specifications": []
   },
   {
     "title": "Yamaha B1 PEC",
     "brandName": "",
-    "src": "/images/popularItems/KeyboardAndSynth/yamaha_b1_pec.jpg",
+    "srcThumbnail": "/images/popularItems/KeyboardAndSynth/yamaha_b1_pec.jpg",
+    "srcBig": "",
     "alt": "",
     "price": 4235,
     "totalReviews": 12,
     "rating": 4.78,
-    "pageLink": "/"
+    "pageLink": "/yamaha-b1-pec",
+    "specifications": []
   },
   {
     "title": "Yamaha PRS E473",
     "brandName": "",
-    "src": "/images/popularItems/KeyboardAndSynth/yamaha_prs_e473.jpg",
+    "srcThumbnail": "/images/popularItems/KeyboardAndSynth/yamaha_prs_e473.jpg",
+    "srcBig": "",
     "alt": "",
     "price": 413,
     "totalReviews": 521,
     "rating": 4.7,
-    "pageLink": "/"
+    "pageLink": "/yamaha-prs-e473",
+    "specifications": []
   }
 ]
