@@ -17,6 +17,8 @@ import {
 
 import electricGuitarsShoppingPages from "./Routes/ShoppingPages/guitarAndBassesShoppingPageRoutes";
 
+import itemsRoutes from "./Routes/ItemsPages/stratocasterGuitarsPages";
+
 export default function App() {
   return (
     <Routes>
@@ -27,6 +29,8 @@ export default function App() {
       <Route path="/singin" element={<SinginPage />}></Route>
       <Route path="/login" element={<LoginPage />}></Route>
       <Route path="/shopping-cart" element={<ShoppingCartPage />}></Route>
+
+      {itemsRoutes}
 
       {levelTwoCategoryPages}
       {levelThreeCategoryPages}

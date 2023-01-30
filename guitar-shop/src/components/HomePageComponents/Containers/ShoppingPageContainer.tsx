@@ -4,10 +4,21 @@ import { nanoid } from "nanoid";
 
 const Container = styled.div`
   display: grid;
-  grid-template-columns: 1fr;
   gap: 2rem;
-  padding: 4rem 0 0 0;
+  padding-top: 4rem;
   width: 100%;
+
+  @media only screen and (min-width: 667px) {
+    grid-template-columns: 1fr 1fr;
+  }
+
+  @media only screen and (min-width: 768px) {
+    grid-template-columns: 1fr 1fr 1fr;
+  }
+
+  @media only screen and (min-width: 992px) {
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+  } ;
 `;
 
 const PageHeader = styled.h1`
@@ -24,13 +35,14 @@ type Props = {
   pageTitle: string;
   itemsData: {
     title: string;
-    src: string;
+    srcThumbnail: string;
+    srcBig: string;
     alt: string;
     pageLink: string;
     price: number;
+    avaible: boolean;
     rating: number;
     totalReviews: number;
-    avaible: boolean;
   }[];
 };
 
@@ -40,7 +52,7 @@ export default function ShoppingPageContainer({ pageTitle, itemsData }: Props) {
       <ShoppingPageCard
         key={nanoid()}
         title={card.title}
-        src={card.src}
+        srcThumbnail={card.srcThumbnail}
         alt={card.alt}
         pageLink={card.pageLink}
         rating={card.rating}

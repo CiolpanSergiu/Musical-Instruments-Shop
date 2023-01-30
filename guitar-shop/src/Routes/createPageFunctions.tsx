@@ -27,7 +27,8 @@ export function createCategoryPages(data: unknown) {
 
 type ItemsData = {
   title: string;
-  src: string;
+  srcThumbnail: string;
+  srcBig: string;
   alt: string;
   pageLink: string;
   price: number;

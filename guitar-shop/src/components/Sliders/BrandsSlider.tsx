@@ -33,7 +33,7 @@ function SamplePrevArrow(props: any) {
 const SliderContainer = styled.div`
   padding: 0.5rem;
   max-height: 60vh;
-  max-width: 100vw;
+  max-width: 90vw;
   display: flex;
   flex-direction: column;
   text-align: center;

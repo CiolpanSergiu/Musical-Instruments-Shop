@@ -23,6 +23,7 @@ const FooterContainer = styled.footer<FooterProps>`
   align-items: center;
   box-shadow: 0 0 10px gray;
   position: relative;
+  bottom: 0;
 `;
 
 const SocialIconsContainer = styled.div`

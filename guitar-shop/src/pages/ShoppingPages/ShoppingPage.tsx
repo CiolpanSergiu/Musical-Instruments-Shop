@@ -12,7 +12,8 @@ type Props = {
   pageTitle: string;
   itemsData: {
     title: string;
-    src: string;
+    srcThumbnail: string;
+    srcBig: string;
     alt: string;
     pageLink: string;
     price: number;

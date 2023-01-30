@@ -1,61 +1,37 @@
 import styled from "styled-components";
 import { Link } from "react-router-dom";
-import { AiOutlineShoppingCart } from "react-icons/ai";
-import StarsContainer from "../../Miscellaneous/StarsContainer";
+// import StarsContainer from "../../Miscellaneous/StarsContainer";
 import ShoppingCartContext from "../../../context/ShoppingCartContext";
 import { useContext } from "react";
+import { AiOutlineShoppingCart } from "react-icons/ai";
+import { generateStars } from "../../../functions/generateStars";
 
 const StyledLink = styled(Link)`
   color: #3d4552;
   text-decoration: none;
-  width: 100%;
-  height: 100%;
-
-  &:hover {
-    h3 {
-      color: lightskyblue;
-    }
+  display: flex;
+  flex-direction: column;
+  align-items: center;
   }
 `;
 
 const CardContainer = styled.div`
-  display: grid;
-  grid-template-columns: 1fr 3fr;
-  align-items: center;
   border: solid gray 2px;
-  border-radius: 5px;
-  width: 100%;
-  position: relative;
-
-  @media only screen and (min-width: 768px) {
-  }
+  border-radius: 9px;
+  padding: 1rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
 `;
 
 const Img = styled.img`
-  height: 110px;
-  padding: 0.5rem 2rem;
-
-  @media only screen and (min-width: 768px) {
-    height: 150px;
-  }
-`;
-
-const DetailsContainer = styled.div`
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  width: 100%;
-  height: 100%;
-
-  @media only screen and (min-width: 768px) {
-  }
+  padding: 1rem 0;
 `;
 
 const ItemTitle = styled.h3`
   font-weight: 600;
-  font-size: 1rem;
-  max-width: 90%;
-  transition: 0.3s all ease-in-out;
+  font-size: 1.5rem;
+  text-align: center;
 
   @media only screen and (min-width: 768px) {
     font-size: 1.25rem;
@@ -63,23 +39,45 @@ const ItemTitle = styled.h3`
   }
 `;
 
-const Price = styled.span``;
-
-const CartIcon = styled.span`
-  transition: 0.3s all ease-in-out;
-  font-size: 2rem;
-  margin: 0 1rem;
+const CartButton = styled.button`
+  background-color: #3d4552;
+  color: white;
+  padding: 0.5em;
+  border: none;
+  border-radius: 9px;
   cursor: pointer;
-  position: absolute;
-  right: 1rem;
+  transition: 0.3s all ease;
+  font-size: 1.5rem;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 
   &:hover {
-    color: red;d
+    background-color: lightskyblue;
+    color: black;
   }
 `;
 
+const Price = styled.span`
+  font-weight: bold;
+  font-size: 1.2rem;
+  margin-right: 1rem;
+`;
+
+const StarsContainer = styled.div`
+  color: lightskyblue;
+  padding: 0.5rem 0;
+  margin: 1rem;
+  display: flex;
+  justify-content: center;
+  color: lightskyblue;
+  padding: 0.5rem 0;
+  font-size: 1.5rem;
+`;
+
 type Props = {
-  src: string;
+  srcThumbnail: string;
   alt: string;
   title: string;
   pageLink: string;
@@ -88,7 +86,7 @@ type Props = {
 };
 
 export default function ShoppingPageCard({
-  src,
+  srcThumbnail,
   alt,
   title,
   pageLink,
@@ -101,7 +99,7 @@ export default function ShoppingPageCard({
   function handleClick() {
     const item = {
       title: title,
-      src: src,
+      src: srcThumbnail,
       alt: alt,
       price: price,
     };
@@ -112,22 +110,16 @@ export default function ShoppingPageCard({
   }
 
   return (
-    <>
-      <CardContainer>
-        <StyledLink to={pageLink}>
-          <Img src={src} alt={alt} />
-        </StyledLink>
-        <StyledLink to={pageLink}>
-          <DetailsContainer>
-            <ItemTitle>{title}</ItemTitle>
-            <StarsContainer />
-            <Price>{price}$</Price>
-          </DetailsContainer>
-        </StyledLink>
-        <CartIcon onClick={handleClick}>
-          <AiOutlineShoppingCart />
-        </CartIcon>
-      </CardContainer>
-    </>
+    <CardContainer>
+      <StyledLink to={pageLink}>
+        <Img src={srcThumbnail} alt={alt} />
+        <ItemTitle>{title}</ItemTitle>
+        <StarsContainer>{generateStars(rating)}</StarsContainer>
+      </StyledLink>
+      <CartButton onClick={handleClick}>
+        <Price>{price}$</Price>
+        <AiOutlineShoppingCart />
+      </CartButton>
+    </CardContainer>
   );
 }
