@@ -101,7 +101,7 @@ export default function ShoppingCartPage() {
           </>
         ) : (
           <EmptyCartContainer>
-            <Img src="public/shopping_cart.jpg" alt="An empty shopping cart" />
+            <Img src="/shopping_cart.jpg" alt="An empty shopping cart" />
             <EmptyCartHeader>This looks kinda empty...</EmptyCartHeader>
           </EmptyCartContainer>
         )}

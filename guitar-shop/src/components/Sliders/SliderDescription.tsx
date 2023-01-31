@@ -13,6 +13,7 @@ const DescriptionContainer = styled.div`
   border-radius: 9px;
   padding: 1rem;
   margin-top: 5rem;
+  max-width: 90vw;
 `;
 
 const MainHeader = styled.h2`

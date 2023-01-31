@@ -9,9 +9,7 @@ import ThemeContext from "../../context/ThemeProvider";
 import { useContext } from "react";
 import { ThemeProvider } from "styled-components";
 import UserMenu from "../Miscellaneous/UserMenu";
-import ShoppingCartContext, {
-  ShoppingCartContextProvider,
-} from "../../context/ShoppingCartContext";
+import ShoppingCartContext from "../../context/ShoppingCartContext";
 
 type Props = {
   isOpen: boolean;
@@ -70,6 +68,7 @@ const lightTheme = {
 };
 
 export default function NavbarTools({ isOpen, handleClick }: Props) {
+  // honestly what type should these be
   const { isDark }: any = useContext(ThemeContext);
   const { cartItemsQuantity }: any = useContext(ShoppingCartContext);
 

@@ -30,9 +30,13 @@ const Span = styled.span`
   padding: 0 0.5rem;
 `;
 
+function handleClick(e: any) {
+  e.preventDefault();
+}
+
 export default function NavbarSearchBox() {
   return (
-    <Form>
+    <Form onSubmit={(e) => handleClick(e)}>
       <Span className="search-box__search-icon nav-icon">
         <BsSearch />
       </Span>
