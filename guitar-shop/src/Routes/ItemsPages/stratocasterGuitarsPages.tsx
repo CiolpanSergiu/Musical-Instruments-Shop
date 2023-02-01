@@ -1,6 +1,6 @@
 import { Route } from "react-router-dom";
-
-import ShopItemPage from "../../components/ItemPageComponents/ItemPage";
+import { nanoid } from "nanoid";
+import ItemPage from "../../components/ItemPageComponents/ItemPage";
 import stratocasterModelsData from "../../data/ShoppingPageItems/GuitarsAndBasses/ElectricGuitars/stratocasterModels";
 
 type Item = {
@@ -19,9 +19,10 @@ type Item = {
 const itemsRoutes = stratocasterModelsData.data.map((item: Item) => {
   return (
     <Route
+      key={nanoid()}
       path={item.pageLink}
       element={
-        <ShopItemPage
+        <ItemPage
           key={item.title}
           title={item.title}
           srcBig={item.srcBig}

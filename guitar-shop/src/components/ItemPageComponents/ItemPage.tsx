@@ -3,6 +3,7 @@ import Navbar from "../NavbarComponents/Navbar";
 import Footer from "../Footer/Footer";
 import AddToCartBtn from "../Miscellaneous/AddToCartBtn";
 import { generateStars } from "../../functions/generateStars";
+import { nanoid } from "nanoid";
 
 const PageContainer = styled.div`
   display: flex;
@@ -84,7 +85,7 @@ type Data = {
   specifications: string[];
 };
 
-export default function ShopItemPage({
+export default function ItemPage({
   title,
   srcBig,
   alt,
@@ -117,7 +118,9 @@ export default function ShopItemPage({
               <ItemSpecificationsUl>
                 {specifications.map((specification: string) => {
                   return (
-                    <ItemSpecificationsLi>{specification}</ItemSpecificationsLi>
+                    <ItemSpecificationsLi key={nanoid()}>
+                      {specification}
+                    </ItemSpecificationsLi>
                   );
                 })}
               </ItemSpecificationsUl>

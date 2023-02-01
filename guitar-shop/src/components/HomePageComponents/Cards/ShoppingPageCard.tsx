@@ -1,8 +1,6 @@
 import styled from "styled-components";
 import { Link } from "react-router-dom";
-// import StarsContainer from "../../Miscellaneous/StarsContainer";
 import AddToCartBtn from "../../Miscellaneous/AddToCartBtn";
-import { AiOutlineShoppingCart } from "react-icons/ai";
 import { generateStars } from "../../../functions/generateStars";
 
 const StyledLink = styled(Link)`
@@ -36,32 +34,6 @@ const ItemTitle = styled.h3`
     font-size: 1.25rem;
     font-weight: 500;
   }
-`;
-
-const CartButton = styled.button`
-  background-color: #3d4552;
-  color: white;
-  padding: 0.5em;
-  border: none;
-  border-radius: 9px;
-  cursor: pointer;
-  transition: 0.3s all ease;
-  font-size: 1.5rem;
-  width: 100%;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-
-  &:hover {
-    background-color: lightskyblue;
-    color: black;
-  }
-`;
-
-const Price = styled.span`
-  font-weight: bold;
-  font-size: 1.2rem;
-  margin-right: 1rem;
 `;
 
 const StarsContainer = styled.div`

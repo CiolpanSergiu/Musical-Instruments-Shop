@@ -42,7 +42,7 @@ type Props = {
 };
 
 export default function SubcategoryCardsContainer({ data, pageTitle }: Props) {
-  const subcategoryCards: any = data.map(
+  const subcategoryCards = data.map(
     (itemData: {
       src: string;
       alt: string;
