@@ -1,0 +1,86 @@
+[
+  {
+    "brandName": "Abm",
+    "src": "/images/brandLogos/GuitarAndBasses/SpareParts/abm_logo.jpg",
+    "alt": "Abm logo",
+    "pageLink": "/"
+  },
+  {
+    "brandName": "AllParts",
+    "src": "/images/brandLogos/GuitarAndBasses/SpareParts/allparts_logo.jpg",
+    "alt": "AllParts logo",
+    "pageLink": "/"
+  },
+  {
+    "brandName": "Babicz",
+    "src": "/images/brandLogos/GuitarAndBasses/SpareParts/babicz_logo.jpg",
+    "alt": "Babicz logo",
+    "pageLink": "/"
+  },
+  {
+    "brandName": "D'Andrea",
+    "src": "/images/brandLogos/GuitarAndBasses/SpareParts/dandrea_logo.jpg",
+    "alt": "D'Andrea logo",
+    "pageLink": "/"
+  },
+  {
+    "brandName": "Duesenberg",
+    "src": "/images/brandLogos/GuitarAndBasses/SpareParts/duesenberg_logo.jpg",
+    "alt": "Duesenberg logo",
+    "pageLink": "/"
+  },
+  {
+    "brandName": "Gotoh",
+    "src": "/images/brandLogos/GuitarAndBasses/SpareParts/gotoh_logo.jpg",
+    "alt": "Gotoh logo",
+    "pageLink": "/"
+  },
+  {
+    "brandName": "Rocknroller",
+    "src": "/images/brandLogos/GuitarAndBasses/SpareParts/rocknroller_logo.jpg",
+    "alt": "Rocknroller logo",
+    "pageLink": "/"
+  },
+  {
+    "brandName": "Schaller",
+    "src": "/images/brandLogos/GuitarAndBasses/SpareParts/schaller_logo.jpg",
+    "alt": "Schaller logo",
+    "pageLink": "/"
+  },
+  {
+    "brandName": "TonePros",
+    "src": "/images/brandLogos/GuitarAndBasses/SpareParts/tonepros_logo.jpg",
+    "alt": "TonePros logo",
+    "pageLink": "/"
+  },
+  {
+    "brandName": "Vegatrem",
+    "src": "/images/brandLogos/GuitarAndBasses/SpareParts/vegatrem_logo.jpg",
+    "alt": "Vegatrem logo",
+    "pageLink": "/"
+  },
+  {
+    "brandName": "Graph Tech",
+    "src": "/images/brandLogos/GuitarAndBasses/AcousticGuitarAmps/graph_tech_logo.jpg",
+    "alt": "Graph Tech logo",
+    "pageLink": "/"
+  },
+  {
+    "brandName": "Harley Benton",
+    "src": "/images/brandLogos/BrandsForMultipleCategories/harley_benton_logo.jpg",
+    "alt": "Harley Benton logo",
+    "pageLink": "/"
+  },
+  {
+    "brandName": "Mojotone",
+    "src": "/images/brandLogos/GuitarAndBasses/Pickups/mojotone_logo.jpg",
+    "alt": "Mojotone logo",
+    "pageLink": "/"
+  },
+  {
+    "brandName": "Gibson",
+    "src": "/images/brandLogos/GuitarAndBasses/gibson_logo.jpg",
+    "alt": "Gibson logo",
+    "pageLink": "/"
+  }
+]
