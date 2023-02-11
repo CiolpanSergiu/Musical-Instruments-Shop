@@ -22,7 +22,7 @@ export default function Home() {
     <HomePage>
       <Navbar />
       <CategoryCardsContainer />
-      <ItemsSlider title="Popular Items" data={popularItemsData[0]} />
+      <ItemsSlider title="" data={popularItemsData[0]} />
       <BrandsSlider title="Top Brands" data={brandsData} />
       <SalesSectionContainer />
       <ItemsSlider data={popularItemsData[1]} title="Guitars and Basses" />

@@ -1,91 +1,91 @@
 [
   {
     "brandName": "Ableton",
-    "src": "/images/brandLogos/Softwares/ableton_logo.jpg",
+    "src": "/images/brands-logos/softwares/ableton_logo.jpg",
     "alt": "Ableton logo",
     "pageLink": "/"
   },
   {
     "brandName": "Antares",
-    "src": "/images/brandLogos/Softwares/antares_logo.jpg",
+    "src": "/images/brands-logos/softwares/antares_logo.jpg",
     "alt": "Antates logo",
     "pageLink": "/"
   },
   {
     "brandName": "Arturia",
-    "src": "/images/brandLogos/BrandsForMultipleCategories/arturia_logo.jpg",
+    "src": "/images/brands-logos/brands-for-multiple-categories/arturia_logo.jpg",
     "alt": "Arturia logo",
     "pageLink": "/"
   },
   {
     "brandName": "Avid",
-    "src": "/images/brandLogos/BrandsForMultipleCategories/avid_logo.jpg",
+    "src": "/images/brands-logos/brands-for-multiple-categories/avid_logo.jpg",
     "alt": "Avid logo",
     "pageLink": "/"
   },
   {
     "brandName": "Celemony",
-    "src": "/images/brandLogos/Softwares/celemony_logo.jpg",
+    "src": "/images/brands-logos/softwares/celemony_logo.jpg",
     "alt": "Celemony logo",
     "pageLink": "/"
   },
   {
     "brandName": "Eventide",
-    "src": "/images/brandLogos/Softwares/eventide_logo.jpg",
+    "src": "/images/brands-logos/softwares/eventide_logo.jpg",
     "alt": "Eventide logo",
     "pageLink": "/"
   },
   {
     "brandName": "Image Line",
-    "src": "/images/brandLogos/Softwares/image_line_logo.jpg",
+    "src": "/images/brands-logos/softwares/image_line_logo.jpg",
     "alt": "Image Line logo",
     "pageLink": "/"
   },
   {
     "brandName": "Izotope",
-    "src": "/images/brandLogos/Softwares/izotope_logo.jpg",
+    "src": "/images/brands-logos/softwares/izotope_logo.jpg",
     "alt": "Izotope logo",
     "pageLink": "/"
   },
   {
     "brandName": "NativeInstruments",
-    "src": "/images/brandLogos/BrandsForMultipleCategories/nativeinstruments_logo.jpg",
+    "src": "/images/brands-logos/brands-for-multiple-categories/nativeinstruments_logo.jpg",
     "alt": "Native Instruments logo",
     "pageLink": "/"
   },
   {
     "brandName": "Soundtoys",
-    "src": "/images/brandLogos/Softwares/soundtoys_logo.jpg",
+    "src": "/images/brands-logos/softwares/soundtoys_logo.jpg",
     "alt": "Soundtoys logo",
     "pageLink": "/"
   },
   {
     "brandName": "SSL",
-    "src": "/images/brandLogos/BrandsForMultipleCategories/ssl_logo.jpg",
+    "src": "/images/brands-logos/brands-for-multiple-categories/ssl_logo.jpg",
     "alt": "SSL logo",
     "pageLink": "/"
   },
   {
     "brandName": "Steinberg",
-    "src": "/images/brandLogos/Softwares/steinberg_logo.jpg",
+    "src": "/images/brands-logos/softwares/steinberg_logo.jpg",
     "alt": "Steinberg logo",
     "pageLink": "/"
   },
   {
     "brandName": "Steven Slate Audio",
-    "src": "/images/brandLogos/Softwares/steven_slate_audio_logo.jpg",
+    "src": "/images/brands-logos/softwares/steven_slate_audio_logo.jpg",
     "alt": "Steven Slate Audio logo",
     "pageLink": "/"
   },
   {
     "brandName": "Toontrack",
-    "src": "/images/brandLogos/Softwares/toontrack_logo.jpg",
+    "src": "/images/brands-logos/softwares/toontrack_logo.jpg",
     "alt": "Toontrack logo",
     "pageLink": "/"
   },
   {
     "brandName": "Waves",
-    "src": "/images/brandLogos/Softwares/waves_logo.jpg",
+    "src": "/images/brands-logos/softwares/waves_logo.jpg",
     "alt": "Waves logo",
     "pageLink": "/"
   }

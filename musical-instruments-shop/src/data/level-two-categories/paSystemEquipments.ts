@@ -15,13 +15,13 @@ import connectorsAndJacksBrands from "../logo-data/pa-systems-brands/connectors-
 
 const paSystemEquipmentsData = [
   {
-    src: "/images/category/LevelTwoCategories/PaSystems/pa_system.jpg",
+    src: "/images/categories/level-two-categories/pa-systems/pa_system.jpg",
     alt: "A full PA System",
     title: "Complete PA Systems",
     pageLink: "/complete-pa-systems",
   },
   {
-    src: "/images/category/LevelTwoCategories/PaSystems/speaker.jpg",
+    src: "/images/categories/level-two-categories/pa-systems/speaker.jpg",
     alt: "A huge speaker with lights of different colors",
     title: "Speakers",
     pageLink: "/speakers",
@@ -29,7 +29,7 @@ const paSystemEquipmentsData = [
     brands: speakersBrands,
   },
   {
-    src: "/images/category/LevelTwoCategories/PaSystems/speaker_stand.jpg",
+    src: "/images/categories/level-two-categories/pa-systems/speaker_stand.jpg",
     alt: "A stand for speakers",
     title: "Speaker Stands",
     pageLink: "/speaker-stands",
@@ -37,7 +37,7 @@ const paSystemEquipmentsData = [
     brands: speakerStandsBrands,
   },
   {
-    src: "/images/category/LevelTwoCategories/PaSystems/pa_mixer.jpg",
+    src: "/images/categories/level-two-categories/pa-systems/pa_mixer.jpg",
     alt: "A PA mixer",
     title: "PA mixers",
     pageLink: "/pa-mixers",
@@ -45,13 +45,13 @@ const paSystemEquipmentsData = [
     brands: paMixersBrands,
   },
   {
-    src: "/images/category/LevelTwoCategories/PaSystems/pa_amplifier.jpg",
+    src: "/images/categories/level-two-categories/pa-systems/pa_amplifier.jpg",
     alt: "An amplifier for PA Systems",
     title: "Power Amplifiers",
     pageLink: "/power-amplifiers",
   },
   {
-    src: "/images/category/LevelTwoCategories/Microphones/vocal_microphone.jpg",
+    src: "/images/categories/level-two-categories/microphones/vocal_microphone.jpg",
     alt: "A microphone",
     title: "Microphones",
     pageLink: "/microphones-for-pa",
@@ -59,7 +59,7 @@ const paSystemEquipmentsData = [
     brands: microphonesBrands,
   },
   {
-    src: "/images/category/LevelTwoCategories/PaSystems/cables.jpg",
+    src: "/images/categories/level-two-categories/pa-systems/cables.jpg",
     alt: "A guitar cable",
     title: "Cables",
     pageLink: "/cables-pa",
@@ -67,7 +67,7 @@ const paSystemEquipmentsData = [
     brands: cablesBrands,
   },
   {
-    src: "/images/category/LevelTwoCategories/PaSystems/adapters_and_jacks.jpg",
+    src: "/images/categories/level-two-categories/pa-systems/adapters_and_jacks.jpg",
     alt: "A jack adapter",
     title: "Connectors and Jacks",
     pageLink: "/connectors-and-jacks",

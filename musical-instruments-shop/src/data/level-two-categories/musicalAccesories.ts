@@ -9,9 +9,9 @@ import chairsBrands from "../logo-data/accesories-brands/chairs/chairBrands.json
 import powerSuppliesBrands from "../logo-data/accesories-brands/power-supplies/powerSuppliesBrands.json";
 import standsBrands from "../logo-data/accesories-brands/stands/standsBrands.json";
 
-const musicalAccesoriesData = [
+const musicalaccesoriesData = [
   {
-    src: "/images/category/LevelTwoCategories/Accesories/headphone.jpg",
+    src: "/images/categories/level-two-categories/accesories/headphone.jpg",
     alt: "A set of headphones",
     title: "Headphones",
     pageLink: "/headphones",
@@ -19,31 +19,31 @@ const musicalAccesoriesData = [
     brands: headphonesBrands,
   },
   {
-    src: "/images/category/LevelTwoCategories/Accesories/battery.jpg",
+    src: "/images/categories/level-two-categories/accesories/battery.jpg",
     alt: "A set of two batteries",
     title: "Accumulators/Batteries",
     pageLink: "/accumulators-batteries",
   },
   {
-    src: "/images/category/LevelTwoCategories/Accesories/extension_cord.jpg",
+    src: "/images/categories/level-two-categories/accesories/extension_cord.jpg",
     alt: "An extension cord",
     title: "Extension Cords",
     pageLink: "/extension-cords",
   },
   {
-    src: "/images/category/LevelTwoCategories/Accesories/metronome.jpg",
+    src: "/images/categories/level-two-categories/accesories/metronome.jpg",
     alt: "A metronome",
     title: "Metronomes",
     pageLink: "/metronomes",
   },
   {
-    src: "/images/category/LevelTwoCategories/Accesories/tunner.jpg",
+    src: "/images/categories/level-two-categories/accesories/tunner.jpg",
     alt: "A guitar tunner",
     title: "Tunners",
     pageLink: "/tunners",
   },
   {
-    src: "/images/category/LevelTwoCategories/Accesories/musician_chair.jpg",
+    src: "/images/categories/level-two-categories/accesories/musician_chair.jpg",
     alt: "A chair for musicians",
     title: "Chairs",
     pageLink: "/chairs",
@@ -51,7 +51,7 @@ const musicalAccesoriesData = [
     brands: chairsBrands,
   },
   {
-    src: "/images/category/LevelTwoCategories/Accesories/power_supply.jpg",
+    src: "/images/categories/level-two-categories/accesories/power_supply.jpg",
     alt: "A power supply",
     title: "Power Supplies",
     pageLink: "/power-supplies",
@@ -59,7 +59,7 @@ const musicalAccesoriesData = [
     brands: powerSuppliesBrands,
   },
   {
-    src: "/images/category/LevelTwoCategories/Accesories/stand.jpg",
+    src: "/images/categories/level-two-categories/accesories/stand.jpg",
     alt: "An instrument stand",
     title: "Stands",
     pageLink: "/stands",
@@ -68,4 +68,4 @@ const musicalAccesoriesData = [
   },
 ];
 
-export default musicalAccesoriesData;
+export default musicalaccesoriesData;

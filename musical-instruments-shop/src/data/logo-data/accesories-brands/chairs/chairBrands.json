@@ -1,67 +1,67 @@
 [
   {
     "brandName": "Gravity",
-    "src": "/images/brandLogos/BrandsForMultipleCategories/gravity_logo.jpg",
+    "src": "/images/brands-logos/brands-for-multiple-categories/gravity_logo.jpg",
     "alt": "Gravity logo",
     "pageLink": "/"
   },
   {
     "brandName": "On Stage",
-    "src": "/images/brandLogos/Accesories/on_stage_logo.jpg",
+    "src": "/images/brands-logos/brands-for-multiple-categories/on_stage_logo.jpg",
     "alt": "On Stage logo",
     "pageLink": "/"
   },
   {
     "brandName": "Fender",
-    "src": "/images/brandLogos/BrandsForMultipleCategories/fender_logo.jpg",
+    "src": "/images/brands-logos/brands-for-multiple-categories/fender_logo.jpg",
     "alt": "Fender logo",
     "pageLink": "/"
   },
   {
     "brandName": "Gibson",
-    "src": "/images/brandLogos/GuitarAndBasses/gibson_logo.jpg",
+    "src": "/images/brands-logos/guitars-and-basses/gibson_logo.jpg",
     "alt": "Gibson logo",
     "pageLink": "/"
   },
   {
     "brandName": "Harley Benton",
-    "src": "/images/brandLogos/BrandsForMultipleCategories/harley_benton_logo.jpg",
+    "src": "/images/brands-logos/brands-for-multiple-categories/harley_benton_logo.jpg",
     "alt": "Harley Benton logo",
     "pageLink": "/"
   },
   {
     "brandName": "Pearl",
-    "src": "/images/brandLogos/DrumsAndPercussion/pearl_logo.jpg",
+    "src": "/images/brands-logos/drums-and-percussion/pearl_logo.jpg",
     "alt": "Pearl logo",
     "pageLink": "/"
   },
   {
     "brandName": "Hercule Stands",
-    "src": "/images/brandLogos/BrandsForMultipleCategories/hercules_stands_logo.jpg",
+    "src": "/images/brands-logos/brands-for-multiple-categories/hercules_stands_logo.jpg",
     "alt": "Hercule Stands logo",
     "pageLink": "/"
   },
   {
     "brandName": "Gator Frameworks",
-    "src": "/images/brandLogos/BrandsForMultipleCategories/gator_frameworks_logo.jpg",
+    "src": "/images/brands-logos/brands-for-multiple-categories/gator_frameworks_logo.jpg",
     "alt": "Gator Frameworks logo",
     "pageLink": "/"
   },
   {
     "brandName": "Koening & Mayer",
-    "src": "/images/brandLogos/BrandsForMultipleCategories/km_logo.jpg",
+    "src": "/images/brands-logos/brands-for-multiple-categories/km_logo.jpg",
     "alt": "Koening & Mayer logo",
     "pageLink": "/"
   },
   {
     "brandName": "Tama",
-    "src": "/images/brandLogos/DrumsAndPercussion/AcousticDrums/tama_logo.jpg",
+    "src": "/images/brands-logos/drums-and-percussion/acoustic-drums/tama_logo.jpg",
     "alt": "Tama logo",
     "pageLink": "/"
   },
   {
     "brandName": "DW Drums",
-    "src": "/images/brandLogos/DrumsAndPercussion/dw_logo.jpg",
+    "src": "/images/brands-logos/drums-and-percussion/dw_logo.jpg",
     "alt": "DW Drums logo",
     "pageLink": "/"
   }

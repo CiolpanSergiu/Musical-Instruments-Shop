@@ -7,25 +7,25 @@ export default {
   subcategories: [
     {
       title: `Congas Set`,
-      src: "/images/category/LevelFourCategories/DrumsAndPercussion/PercussionInstruments/Congas/congas.jpg",
+      src: "/images/categories/level-four-categories/drums-and-percussion/percussion-instruments/congas/congas.jpg",
       alt: "A set of two congas",
       pageLink: "/congas-set",
     },
     {
       title: `Conga Drums`,
-      src: "/images/category/LevelFourCategories/DrumsAndPercussion/PercussionInstruments/Congas/simple_conga.jpg",
+      src: "/images/categories/level-four-categories/drums-and-percussion/percussion-instruments/congas/simple_conga.jpg",
       alt: "A single conga drum",
       pageLink: "/conga-drums",
     },
     {
       title: `Congas Cover Bags`,
-      src: "/images/category/LevelFourCategories/DrumsAndPercussion/PercussionInstruments/Congas/conga_cover_bag.jpg",
+      src: "/images/categories/level-four-categories/drums-and-percussion/percussion-instruments/congas/conga_cover_bag.jpg",
       alt: "A cover bag for a conga drum",
       pageLink: "/conga-cover-bags",
     },
     {
       title: `Conga Stands`,
-      src: "/images/category/LevelFourCategories/DrumsAndPercussion/PercussionInstruments/Congas/conga_stand.jpg",
+      src: "/images/categories/level-four-categories/drums-and-percussion/percussion-instruments/congas/conga_stand.jpg",
       alt: "A stand for a conga drum",
       pageLink: "/conga-stands",
     },

@@ -1,85 +1,85 @@
 [
   {
     "brandName": "Ansmann",
-    "src": "/images/brandLogos/Accesories/PowerSupplies/ansmann_logo.jpg",
+    "src": "/images/brands-logos/accesories/power-supplies/ansmann_logo.jpg",
     "alt": "Ansmann logo",
     "pageLink": "/"
   },
   {
     "brandName": "Cioks",
-    "src": "/images/brandLogos/Accesories/PowerSupplies/cioks_logo.jpg",
+    "src": "/images/brands-logos/accesories/power-supplies/cioks_logo.jpg",
     "alt": "Cioks logo",
     "pageLink": "/"
   },
   {
     "brandName": "MyVolts",
-    "src": "/images/brandLogos/Accesories/PowerSupplies/myvolts_logo.jpg",
+    "src": "/images/brands-logos/accesories/power-supplies/myvolts_logo.jpg",
     "alt": "MyVolts logo",
     "pageLink": "/"
   },
   {
     "brandName": "RockPower",
-    "src": "/images/brandLogos/Accesories/PowerSupplies/rockpower_logo.jpg",
+    "src": "/images/brands-logos/accesories/power-supplies/rockpower_logo.jpg",
     "alt": "RockPower logo",
     "pageLink": "/"
   },
   {
     "brandName": "Strymon",
-    "src": "/images/brandLogos/BrandsForMultipleCategories/strymon_logo.jpg",
+    "src": "/images/brands-logos/brands-for-multiple-categories/strymon_logo.jpg",
     "alt": "Strymon logo",
     "pageLink": "/"
   },
   {
     "brandName": "Varta",
-    "src": "/images/brandLogos/Accesories/PowerSupplies/varta_logo.jpg",
+    "src": "/images/brands-logos/accesories/power-supplies/varta_logo.jpg",
     "alt": " logo",
     "pageLink": "/"
   },
   {
     "brandName": "Voodoo Lab",
-    "src": "/images/brandLogos/Accesories/PowerSupplies/voodoo_lab_logo.jpg",
+    "src": "/images/brands-logos/accesories/power-supplies/voodoo_lab_logo.jpg",
     "alt": "Voodoo Lab logo",
     "pageLink": "/"
   },
   {
     "brandName": "harley benton",
-    "src": "/images/brandLogos/BrandsForMultipleCategories/harley_benton_logo.jpg",
+    "src": "/images/brands-logos/brands-for-multiple-categories/harley_benton_logo.jpg",
     "alt": "Harley Benton logo",
     "pageLink": "/"
   },
   {
     "brandName": "Korg",
-    "src": "/images/brandLogos/BrandsForMultipleCategories/korg_logo.jpg",
+    "src": "/images/brands-logos/brands-for-multiple-categories/korg_logo.jpg",
     "alt": "KORG logo",
     "pageLink": "/"
   },
   {
     "brandName": "Roland",
-    "src": "/images/brandLogos/BrandsForMultipleCategories/roland_logo.jpg",
+    "src": "/images/brands-logos/brands-for-multiple-categories/roland_logo.jpg",
     "alt": "Roland logo",
     "pageLink": "/"
   },
   {
     "brandName": "Palmer",
-    "src": "/images/brandLogos/GuitarAndBasses/EffectPedals/palmer_logo.jpg",
+    "src": "/images/brands-logos/guitars-and-basses/effect-pedals/palmer_logo.jpg",
     "alt": "Palmer logo",
     "pageLink": "/"
   },
   {
     "brandName": "Rockboard",
-    "src": "/images/brandLogos/GuitarAndBasses/EffectPedals/rockboard_logo.jpg",
+    "src": "/images/brands-logos/guitars-and-basses/effect-pedals/rockboard_logo.jpg",
     "alt": "Rockboard logo",
     "pageLink": "/"
   },
   {
     "brandName": "Tube Amp Doctor",
-    "src": "/images/brandLogos/GuitarAndBasses/Tubes/tad_logo.jpg",
+    "src": "/images/brands-logos/guitars-and-basses/tubes/tad_logo.jpg",
     "alt": "Tube Amp Doctor logo",
     "pageLink": "/"
   },
   {
     "brandName": "Koening & Mayer",
-    "src": "/images/brandLogos/BrandsForMultipleCategories/km_logo.jpg",
+    "src": "/images/brands-logos/brands-for-multiple-categories/km_logo.jpg",
     "alt": "Koening & Mayer logo",
     "pageLink": "/"
   }

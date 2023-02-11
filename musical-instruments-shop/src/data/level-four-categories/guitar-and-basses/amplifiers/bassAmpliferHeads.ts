@@ -6,13 +6,13 @@ export default {
   brands: bassAmpHeadsBrands,
   subcategories: [
     {
-      src: "/images/category/LevelFourCategories/GuitarsAndBasses/BassAmplifierHeads/transistors_bass_amp_head.jpg",
+      src: "/images/categories/level-four-categories/guitars-and-basses/bass-amp-heads/transistors_bass_amp_head.jpg",
       alt: "",
       title: "Transistors Bass Amplifier Heads",
       pageLink: "/transistors-bass-amplifier-heads",
     },
     {
-      src: "/images/category/LevelFourCategories/GuitarsAndBasses/BassAmplifierHeads/digital_bass_amp_head.jpg",
+      src: "/images/categories/level-four-categories/guitars-and-basses/bass-amp-heads/digital_bass_amp_head.jpg",
       alt: "",
       title: "Digital Bass Amplifier Heads",
       pageLink: "/digital-bass-amplifier-heads",

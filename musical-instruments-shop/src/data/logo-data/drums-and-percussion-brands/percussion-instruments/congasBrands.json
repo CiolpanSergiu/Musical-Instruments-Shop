@@ -1,55 +1,55 @@
 [
   {
     "brandName": "Pearl",
-    "src": "/images/brandLogos/DrumsAndPercussion/pearl_logo.jpg",
+    "src": "/images/brands-logos/drums-and-percussion/pearl_logo.jpg",
     "alt": "Pearl logo",
     "pageLink": "/"
   },
   {
     "brandName": "Evans",
-    "src": "/images/brandLogos/DrumsAndPercussion/evans_logo.jpg",
+    "src": "/images/brands-logos/drums-and-percussion/evans_logo.jpg",
     "alt": "Evans logo",
     "pageLink": "/"
   },
   {
     "brandName": "Meinl",
-    "src": "/images/brandLogos/DrumsAndPercussion/meinl_logo.jpg",
+    "src": "/images/brands-logos/drums-and-percussion/meinl_logo.jpg",
     "alt": "Meinl logo",
     "pageLink": "/"
   },
   {
     "brandName": "Remo",
-    "src": "/images/brandLogos/DrumsAndPercussion/remo_logo.jpg",
+    "src": "/images/brands-logos/drums-and-percussion/remo_logo.jpg",
     "alt": "Remo logo",
     "pageLink": "/"
   },
   {
     "brandName": "Sonor",
-    "src": "/images/brandLogos/DrumsAndPercussion/sonor_logo.jpg",
+    "src": "/images/brands-logos/drums-and-percussion/sonor_logo.jpg",
     "alt": "Sonor logo",
     "pageLink": "/"
   },
   {
     "brandName": "Lp",
-    "src": "/images/brandLogos/DrumsAndPercussion/AcousticDrums/lp_logo.jpg",
+    "src": "/images/brands-logos/drums-and-percussion/acoustic-drums/lp_logo.jpg",
     "alt": "Lp logo",
     "pageLink": "/"
   },
   {
     "brandName": "Millenium",
-    "src": "/images/brandLogos/BrandsForMultipleCategories/millenium_logo.jpg",
+    "src": "/images/brands-logos/brands-for-multiple-categories/millenium_logo.jpg",
     "alt": "Millenium logo",
     "pageLink": "/"
   },
   {
     "brandName": "Gibraltar",
-    "src": "/images/brandLogos/BrandsForMultipleCategories/gibraltar_logo.jpg",
+    "src": "/images/brands-logos/brands-for-multiple-categories/gibraltar_logo.jpg",
     "alt": "Gibraltar logo",
     "pageLink": "/"
   },
   {
     "brandName": "Nino Percussion",
-    "src": "/images/brandLogos/DrumsAndPercussion/PercussionInstruments/nino_logo.jpg",
+    "src": "/images/brands-logos/drums-and-percussion/percussion-instruments/nino_logo.jpg",
     "alt": "Nino Percussion logo",
     "pageLink": "/"
   }

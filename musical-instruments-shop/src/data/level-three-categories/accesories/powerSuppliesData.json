@@ -1,19 +1,19 @@
 [
   {
     "title": "Power Supply Adapters",
-    "src": "/images/category/LevelThreeCategories/Accesories/PowerSupplies/power_supply_adapter.jpg",
+    "src": "/images/categories/level-three-categories/accesories/power-supplies/power_supply_adapter.jpg",
     "alt": "A power supply",
     "pageLink": "/power-supply-adapters"
   },
   {
     "title": "Power Supply Adapters for Keyboards",
-    "src": "/images/category/LevelThreeCategories/Accesories/PowerSupplies/keyboard_power_supply_adapter.jpg",
+    "src": "/images/categories/level-three-categories/accesories/power-supplies/keyboard_power_supply_adapter.jpg",
     "alt": "A power supply for keyboards",
     "pageLink": "/keyboars-power-supply-adapters"
   },
   {
     "title": "Power Supply Adapters for Synthesizers",
-    "src": "/images/category/LevelThreeCategories/Accesories/PowerSupplies/synthesizer_power_supply_adapter.jpg",
+    "src": "/images/categories/level-three-categories/accesories/power-supplies/synthesizer_power_supply_adapter.jpg",
     "alt": "A power supply for synthesizers",
     "pageLink": "/synthesizers-power-supply-adapters"
   }

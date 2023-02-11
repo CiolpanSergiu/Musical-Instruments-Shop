@@ -7,13 +7,13 @@ export default {
   subcategories: [
     {
       title: `Cajons`,
-      src: "/images/category/LevelFourCategories/DrumsAndPercussion/PercussionInstruments/Cajons/cajon.jpg",
+      src: "/images/categories/level-four-categories/drums-and-percussion/percussion-instruments/cajons/cajon.jpg",
       alt: "A cajon",
       pageLink: "/cajons",
     },
     {
       title: `Cajons Cover Bags`,
-      src: "/images/category/LevelFourCategories/DrumsAndPercussion/PercussionInstruments/Cajons/cajon_cover_bag.jpg",
+      src: "/images/categories/level-four-categories/drums-and-percussion/percussion-instruments/cajons/cajon_cover_bag.jpg",
       alt: "A blue cover bag for a cajon",
       pageLink: "/cajons-cover-bags",
     },

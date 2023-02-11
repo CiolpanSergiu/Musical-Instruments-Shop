@@ -4,14 +4,14 @@ import electricGuitarPickupsSubcategories from "../../level-four-categories/guit
 const pickupsSubcategories = [
   {
     title: "Electric Guitar Pickups",
-    src: "/images/category/LevelThreeCategories/GuitarsAndBasses/Pickups/electric_guitar_pickups.jpg",
+    src: "/images/categories/level-three-categories/guitars-and-basses/pickups/electric_guitar_pickups.jpg",
     alt: "",
     pageLink: "/electric-guitar-pickups",
     subcategories: electricGuitarPickupsSubcategories,
   },
   {
     title: "Electric Bass Pickups",
-    src: "/images/category/LevelThreeCategories/GuitarsAndBasses/Pickups/bass_pickups.jpg",
+    src: "/images/categories/level-three-categories/guitars-and-basses/pickups/bass_pickups.jpg",
     alt: "",
     pageLink: "/electric-bass-pickups",
     subcategories: electricBassPickupsSubcategories,

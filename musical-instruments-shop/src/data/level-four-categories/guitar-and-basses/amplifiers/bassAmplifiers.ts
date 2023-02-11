@@ -6,13 +6,13 @@ export default {
   brands: bassComboAmpBrands,
   subcategories: [
     {
-      src: "/images/category/LevelFourCategories/GuitarsAndBasses/BassAmplifiers/transistors_bass_amp.jpg",
+      src: "/images/categories/level-four-categories/guitars-and-basses/bass-amps/transistors_bass_amp.jpg",
       alt: "",
       title: "Transistors Bass Combo Amplifiers ",
       pageLink: "/transistors-bass-amplifiers",
     },
     {
-      src: "/images/category/LevelFourCategories/GuitarsAndBasses/BassAmplifiers/digital_bass_amp.jpg",
+      src: "/images/categories/level-four-categories/guitars-and-basses/bass-amps/digital_bass_amp.jpg",
       alt: "",
       title: "Digital Bass Combo Amplifiers",
       pageLink: "/digital-bass-amplifiers",

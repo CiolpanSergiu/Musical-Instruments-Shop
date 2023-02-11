@@ -1,13 +1,13 @@
 [
   {
     "title": "Dynamic Microphones",
-    "src": "/images/category/LevelThreeCategories/Microphones/VocalMicrophones/dynamic_microphone.jpg",
+    "src": "/images/categories/level-three-categories/microphones/vocal-microphones/dynamic_microphone.jpg",
     "alt": "A dynamic microphone",
     "pageLink": "/dynamic-vocal-microphones"
   },
   {
     "title": "Condenser Microphones",
-    "src": "/images/category/LevelThreeCategories/Microphones/VocalMicrophones/condenser_microphone.jpg",
+    "src": "/images/categories/level-three-categories/microphones/vocal-microphones/condenser_microphone.jpg",
     "alt": "A condenser microphone",
     "pageLink": "/condenser-vocal-microphones"
   }

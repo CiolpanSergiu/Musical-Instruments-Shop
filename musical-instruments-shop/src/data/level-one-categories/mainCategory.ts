@@ -19,9 +19,9 @@ import paSystemEquipmentBrands from "../logo-data/pa-systems-brands/mainCategori
 import studioAndRecordingBrands from "../logo-data/recording-and-studio-brands/mainCategoriesBrands.json";
 import traditionalInstrumentBrands from "../logo-data/traditional-instruments-brands/mainCategoriesBrands.json";
 
-const categoryData = [
+const categoriesData = [
   {
-    src: "/images/category/LevelOneCategories/guitars_basses.jpg",
+    src: "/images/categories/level-one-categories/guitars_basses.jpg",
     alt: "A stratocaster type electric guitar",
     title: "Guitars and Basses",
     pageLink: "/guitars-and-basses",
@@ -29,7 +29,7 @@ const categoryData = [
     brands: guitarAndBassBrands,
   },
   {
-    src: "/images/category/LevelOneCategories/drums_percussion.jpg",
+    src: "/images/categories/level-one-categories/drums_percussion.jpg",
     alt: "A Yamaha drum set",
     title: "Drums and Percussion",
     pageLink: "/drums-and-percussion",
@@ -37,7 +37,7 @@ const categoryData = [
     brands: drumsAndPercussionBrands,
   },
   {
-    src: "/images/category/LevelOneCategories/guitar_softwares.jpg",
+    src: "/images/categories/level-one-categories/guitar_softwares.jpg",
     alt: "A guitar software",
     title: "Softwares",
     pageLink: "/softwares",
@@ -45,7 +45,7 @@ const categoryData = [
     brands: softwareBrands,
   },
   {
-    src: "/images/category/LevelOneCategories/accesory.jpg",
+    src: "/images/categories/level-one-categories/accesory.jpg",
     alt: "A guitar cable",
     title: "Accesories",
     pageLink: "/musical-accesories",
@@ -53,7 +53,7 @@ const categoryData = [
     brands: accesoriesBrands,
   },
   {
-    src: "/images/category/LevelOneCategories/keyboards_synth.jpg",
+    src: "/images/categories/level-one-categories/keyboards_synth.jpg",
     alt: "A musical Keyboard",
     title: "Keyboards and Synth",
     pageLink: "/keyboards-and-synth",
@@ -61,7 +61,7 @@ const categoryData = [
     brands: keyboardAndSynthBrands,
   },
   {
-    src: "/images/category/LevelOneCategories/microphones.jpg",
+    src: "/images/categories/level-one-categories/microphones.jpg",
     alt: "A microphone",
     title: "Microphones",
     pageLink: "/microphones",
@@ -69,7 +69,7 @@ const categoryData = [
     brands: microphoneBrands,
   },
   {
-    src: "/images/category/LevelOneCategories/pa_systems.jpg",
+    src: "/images/categories/level-one-categories/pa_systems.jpg",
     alt: "A PA System",
     title: "PA System Equipments",
     pageLink: "/pa-system-equipments",
@@ -77,7 +77,7 @@ const categoryData = [
     brands: paSystemEquipmentBrands,
   },
   {
-    src: "/images/category/LevelOneCategories/studio_recording_equipment.jpg",
+    src: "/images/categories/level-one-categories/studio_recording_equipment.jpg",
     alt: "An audio interface",
     title: "Studio and Recording Equipment",
     pageLink: "/studio-and-recording-equipments",
@@ -85,7 +85,7 @@ const categoryData = [
     brands: studioAndRecordingBrands,
   },
   {
-    src: "/images/category/LevelOneCategories/violin.jpg",
+    src: "/images/categories/level-one-categories/violin.jpg",
     alt: "A violin",
     title: "Traditional Instruments",
     pageLink: "/traditional-instruments",
@@ -94,4 +94,4 @@ const categoryData = [
   },
 ];
 
-export default categoryData;
+export default categoriesData;

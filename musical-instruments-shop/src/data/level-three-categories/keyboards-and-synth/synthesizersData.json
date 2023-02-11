@@ -1,73 +1,73 @@
 [
   {
     "title": "Synthesizers",
-    "src": "/images/category/LevelThreeCategories/KeyboardsAndSynth/Synthesizers/synthesizer.jpg",
+    "src": "/images/categories/level-three-categories/keyboards-and-synth/synthesizers/synthesizer.jpg",
     "alt": "A synthesizer",
     "pageLink": "/synthesizers-2"
   },
   {
     "title": "Digital Workstations",
-    "src": "/images/category/LevelThreeCategories/KeyboardsAndSynth/Synthesizers/digital_workstation.jpg",
+    "src": "/images/categories/level-three-categories/keyboards-and-synth/synthesizers/digital_workstation.jpg",
     "alt": "A digital workstation",
     "pageLink": "/digital-workstations"
   },
   {
     "title": "Sound Modules",
-    "src": "/images/category/LevelThreeCategories/KeyboardsAndSynth/Synthesizers/sound_module.jpg",
+    "src": "/images/categories/level-three-categories/keyboards-and-synth/synthesizers/sound_module.jpg",
     "alt": "A sound module box",
     "pageLink": "/sound-modules"
   },
   {
     "title": "Groove Boxes",
-    "src": "/images/category/LevelThreeCategories/KeyboardsAndSynth/Synthesizers/groove_box.jpg",
+    "src": "/images/categories/level-three-categories/keyboards-and-synth/synthesizers/groove_box.jpg",
     "alt": "A groove box",
     "pageLink": "/groove-boxes"
   },
   {
     "title": "Drum Machines",
-    "src": "/images/category/LevelThreeCategories/KeyboardsAndSynth/Synthesizers/drum_machine.jpg",
+    "src": "/images/categories/level-three-categories/keyboards-and-synth/synthesizers/drum_machine.jpg",
     "alt": "A drum machine",
     "pageLink": "/drum-machines"
   },
   {
     "title": "Keyboard / Synthesizer Benches",
-    "src": "/images/category/LevelThreeCategories/KeyboardsAndSynth/Keyboards/keyboard_bench.jpg",
+    "src": "/images/categories/level-three-categories/keyboards-and-synth/keyboards/keyboard_bench.jpg",
     "alt": "A keyboard bench",
     "pageLink": "/keyboard-benches"
   },
   {
     "title": "Keyboard / Synthesizer Cover Bags",
-    "src": "/images/category/LevelThreeCategories/KeyboardsAndSynth/Keyboards/keyboard_cover_bag.jpg",
+    "src": "/images/categories/level-three-categories/keyboards-and-synth/keyboards/keyboard_cover_bag.jpg",
     "alt": "A keyboard cover bag",
     "pageLink": "/keyboard-cover-bags"
   },
   {
     "title": "Keyboard / Synthesizer Cases",
-    "src": "/images/category/LevelThreeCategories/KeyboardsAndSynth/Keyboards/keyboard_case.jpg",
+    "src": "/images/categories/level-three-categories/keyboards-and-synth/keyboards/keyboard_case.jpg",
     "alt": "A keyboard case",
     "pageLink": "/keyboard-cases"
   },
   {
     "title": "Keyboard / Synthesizer Expression Pedals",
-    "src": "/images/category/LevelThreeCategories/KeyboardsAndSynth/Keyboards/keyboard_expression_pedal.jpg",
+    "src": "/images/categories/level-three-categories/keyboards-and-synth/keyboards/keyboard_expression_pedal.jpg",
     "alt": "A keyboard expression pedal",
     "pageLink": "/keyboard-expression-pedals"
   },
   {
-    "title": "Keyboards / Synthesizer Sustain Pedals",
-    "src": "/images/category/LevelThreeCategories/KeyboardsAndSynth/Keyboards/keyboard_sustain_pedal.jpg",
+    "title": "keyboards / Synthesizer Sustain Pedals",
+    "src": "/images/categories/level-three-categories/keyboards-and-synth/keyboards/keyboard_sustain_pedal.jpg",
     "alt": "A keyboard sustain pedal",
     "pageLink": "/keyboard-sustain-pedals"
   },
   {
     "title": "Keyboard / Synthesizer Power Supplies",
-    "src": "/images/category/LevelThreeCategories/KeyboardsAndSynth/Keyboards/keyboard_power_supply.jpg",
+    "src": "/images/categories/level-three-categories/keyboards-and-synth/keyboards/keyboard_power_supply.jpg",
     "alt": "A keyboard power supply",
     "pageLink": "/keyboard-power-supplies"
   },
   {
-    "title": "Keyboards / Synthesizer Stands",
-    "src": "/images/category/LevelThreeCategories/KeyboardsAndSynth/Keyboards/keyboard_stand.jpg",
+    "title": "keyboards / Synthesizer Stands",
+    "src": "/images/categories/level-three-categories/keyboards-and-synth/keyboards/keyboard_stand.jpg",
     "alt": "A keyboard stand",
     "pageLink": "/keyboard-stands"
   }

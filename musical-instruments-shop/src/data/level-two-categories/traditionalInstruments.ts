@@ -9,7 +9,7 @@ import stringedInstrumentsBrands from "../logo-data/traditional-instruments-bran
 
 const traditionalInstrumentsData = [
   {
-    src: "/images/category/LevelTwoCategories/TraditionalInstruments/double_bass.jpg",
+    src: "/images/categories/level-two-categories/traditional-instruments/double_bass.jpg",
     alt: "A double bass",
     title: "Stringed Instruments",
     pageLink: "/stringed-instruments",
@@ -17,7 +17,7 @@ const traditionalInstrumentsData = [
     brands: stringedInstrumentsBrands,
   },
   {
-    src: "/images/category/LevelTwoCategories/TraditionalInstruments/mandoline.jpg",
+    src: "/images/categories/level-two-categories/traditional-instruments/mandoline.jpg",
     alt: "A mandoline",
     title: "Folk Instruments",
     pageLink: "/fold-instruments",
@@ -25,7 +25,7 @@ const traditionalInstrumentsData = [
     brands: folkInstrumentsBrands,
   },
   {
-    src: "/images/category/LevelTwoCategories/TraditionalInstruments/accordion.jpg",
+    src: "/images/categories/level-two-categories/traditional-instruments/accordion.jpg",
     alt: "A black accordion",
     title: "Accordions",
     pageLink: "/accordions",

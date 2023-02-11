@@ -1,19 +1,19 @@
 [
   {
     "title": "Vocal Microphones",
-    "src": "/images/category/LevelThreeCategories/PaSystems/Microphones/vocal_microphone.jpg",
+    "src": "/images/categories/level-three-categories/pa-systems/microphones/vocal_microphone.jpg",
     "alt": "A vocal microphone",
     "pageLink": "/vocal-microphones"
   },
   {
     "title": "Instrument Microphones",
-    "src": "/images/category/LevelThreeCategories/PaSystems/Microphones/instrument_microphone.jpg",
+    "src": "/images/categories/level-three-categories/pa-systems/microphones/instrument_microphone.jpg",
     "alt": "An instrument microphone",
     "pageLink": "/instrument-microphones"
   },
   {
     "title": "Micropone Headsets",
-    "src": "/images/category/LevelThreeCategories/PaSystems/Microphones/microphone_headset.jpg",
+    "src": "/images/categories/level-three-categories/pa-systems/microphones/microphone_headset.jpg",
     "alt": "A microphone headset",
     "pageLink": "/microphone-headsets"
   }

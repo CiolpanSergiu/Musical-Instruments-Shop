@@ -3,20 +3,20 @@ import drumsticksData from "../../level-four-categories/drums-and-percussion/dru
 export default [
   {
     title: "Drumsticks",
-    src: "/images/category/LevelThreeCategories/DrumsAndPercussion/DrumSticks/drumsticks.jpg",
+    src: "/images/categories/level-three-categories/drums-and-percussion/drumsticks/drumsticks.jpg",
     alt: "Sticks for drums",
     pageLink: "/drumsticks",
     subcategories: drumsticksData,
   },
   {
     title: "Percussion Instruments Sticks",
-    src: "/images/category/LevelThreeCategories/DrumsAndPercussion/DrumSticks/percussion_sticks.jpg",
+    src: "/images/categories/level-three-categories/drums-and-percussion/drumsticks/percussion_sticks.jpg",
     alt: "Sticks for diverse percussion instruments",
     pageLink: "/percussion-instruments-sticks",
   },
   {
     title: "Drumsticks Cover Bags",
-    src: "/images/category/LevelThreeCategories/DrumsAndPercussion/DrumSticks/sticks_cover_bag.jpg",
+    src: "/images/categories/level-three-categories/drums-and-percussion/drumsticks/sticks_cover_bag.jpg",
     alt: "A cover bag for drum sticks",
     pageLink: "/drumsticks-cover-bags",
   },

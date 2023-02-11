@@ -14,7 +14,7 @@ import processorsAndEffectsBrands from "../logo-data/recording-and-studio-brands
 
 const recordingAndStudioData = [
   {
-    src: "/images/category/LevelTwoCategories/RecordingAndStudio/audio_interface.jpg",
+    src: "/images/categories/level-two-categories/recording-and-studio/audio_interface.jpg",
     alt: "A red audio interface box",
     title: "Audio Interfaces",
     pageLink: "/audio-interfaces",
@@ -22,37 +22,37 @@ const recordingAndStudioData = [
     brands: audioInterfacesBrands,
   },
   {
-    src: "/images/category/LevelTwoCategories/RecordingAndStudio/preamplifier.jpg",
+    src: "/images/categories/level-two-categories/recording-and-studio/preamplifier.jpg",
     alt: "A preamplifier",
     title: "Preamplifiers",
     pageLink: "/preamplifiers",
   },
   {
-    src: "/images/category/LevelTwoCategories/RecordingAndStudio/digital_mixer.jpg",
+    src: "/images/categories/level-two-categories/recording-and-studio/digital_mixer.jpg",
     alt: "A digital mixer",
     title: "Digital Mixers",
     pageLink: "/digital-mixers",
   },
   {
-    src: "/images/category/LevelTwoCategories/RecordingAndStudio/analog_mixer.jpg",
+    src: "/images/categories/level-two-categories/recording-and-studio/analog_mixer.jpg",
     alt: "An analog mixer",
     title: "Analog Mixers",
     pageLink: "/analog-mixers",
   },
   {
-    src: "/images/category/LevelTwoCategories/RecordingAndStudio/digital_converter.jpg",
+    src: "/images/categories/level-two-categories/recording-and-studio/digital_converter.jpg",
     alt: "A digital converter",
     title: "Digital Converters",
     pageLink: "/digital-converters",
   },
   {
-    src: "/images/category/LevelTwoCategories/RecordingAndStudio/digital_recorder.jpg",
+    src: "/images/categories/level-two-categories/recording-and-studio/digital_recorder.jpg",
     alt: "A digital recorder",
     title: "Digital Recorders",
     pageLink: "/digital-recorders",
   },
   {
-    src: "/images/category/LevelTwoCategories/RecordingAndStudio/audio_controllers.jpg",
+    src: "/images/categories/level-two-categories/recording-and-studio/audio_controllers.jpg",
     alt: "An audio controller",
     title: "Audio Controllers",
     pageLink: "/audio-controllers",
@@ -60,7 +60,7 @@ const recordingAndStudioData = [
     brands: audioControllersBrands,
   },
   {
-    src: "/images/category/LevelTwoCategories/RecordingAndStudio/midi_cable.jpg",
+    src: "/images/categories/level-two-categories/recording-and-studio/midi_cable.jpg",
     alt: "A midi cable",
     title: "MIDI Equipments",
     pageLink: "/midi-equipments",
@@ -68,7 +68,7 @@ const recordingAndStudioData = [
     brands: midiEquipmentsBrands,
   },
   {
-    src: "/images/category/LevelTwoCategories/RecordingAndStudio/studio_monitor.jpg",
+    src: "/images/categories/level-two-categories/recording-and-studio/studio_monitor.jpg",
     alt: "A studio monitor",
     title: "Studio Monitors",
     pageLink: "/studio-monitors",
@@ -76,14 +76,14 @@ const recordingAndStudioData = [
     brands: studioMonitorsBrands,
   },
   {
-    src: "/images/category/LevelTwoCategories/RecordingAndStudio/stereo_microphone.jpg",
+    src: "/images/categories/level-two-categories/recording-and-studio/stereo_microphone.jpg",
     alt: "A stereo microphone",
     title: "Microphones",
     pageLink: "/microphones",
     subcategories: microphonesSubcategories,
   },
   {
-    src: "/images/category/LevelTwoCategories/RecordingAndStudio/multieffect_processor.jpg",
+    src: "/images/categories/level-two-categories/recording-and-studio/multieffect_processor.jpg",
     alt: "A multieffect processor box",
     title: "Processors and Effects",
     pageLink: "/processors-and-effects",

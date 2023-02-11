@@ -1,19 +1,19 @@
 [
   {
-    "title": "Accordions with Keyboard",
-    "src": "/images/category/LevelThreeCategories/TraditionalInstruments/Accordions/keyboard_accordion.jpg",
+    "title": "accordions with Keyboard",
+    "src": "/images/categories/level-three-categories/traditional-instruments/accordions/keyboard_accordion.jpg",
     "alt": "An accordion with keyboards",
     "pageLink": "/accordions-with-keyboard"
   },
   {
-    "title": "Viennese Accordions",
-    "src": "/images/category/LevelThreeCategories/TraditionalInstruments/Accordions/viennese_accordion.jpg",
+    "title": "Viennese accordions",
+    "src": "/images/categories/level-three-categories/traditional-instruments/accordions/viennese_accordion.jpg",
     "alt": "A viennese accordion",
     "pageLink": "/viennese-accordions"
   },
   {
-    "title": "Diatonic Accordions",
-    "src": "/images/category/LevelThreeCategories/TraditionalInstruments/Accordions/diatonic_accordion.jpg",
+    "title": "Diatonic accordions",
+    "src": "/images/categories/level-three-categories/traditional-instruments/accordions/diatonic_accordion.jpg",
     "alt": "A diatonic accordion",
     "pageLink": "/diatonic-accordions"
   }

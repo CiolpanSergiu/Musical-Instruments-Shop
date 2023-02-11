@@ -1,43 +1,43 @@
 [
   {
     "brandName": "Amphenol",
-    "src": "/images/brandLogos/PaSystems/ConnectorsAndJacks/amphenol_logo.jpg",
+    "src": "/images/brands-logos/pa-systems/connectors-and-jacks/amphenol_logo.jpg",
     "alt": "Amphenol logo",
     "pageLink": "/"
   },
   {
     "brandName": "Harting",
-    "src": "/images/brandLogos/PaSystems/ConnectorsAndJacks/harting_logo.jpg",
+    "src": "/images/brands-logos/pa-systems/connectors-and-jacks/harting_logo.jpg",
     "alt": "Harting logo",
     "pageLink": "/"
   },
   {
     "brandName": "Seetronic",
-    "src": "/images/brandLogos/PaSystems/ConnectorsAndJacks/seetronic_logo.jpg",
+    "src": "/images/brands-logos/pa-systems/connectors-and-jacks/seetronic_logo.jpg",
     "alt": "Seetronic logo",
     "pageLink": "/"
   },
   {
     "brandName": "Pro Snake",
-    "src": "/images/brandLogos/BrandsForMultipleCategories/pro_snake_logo.jpg",
+    "src": "/images/brands-logos/brands-for-multiple-categories/pro_snake_logo.jpg",
     "alt": "Pro Snake logo",
     "pageLink": "/"
   },
   {
     "brandName": "Neutrik",
-    "src": "/images/brandLogos/PaSystems/Cables/neutrik_logo.jpg",
+    "src": "/images/brands-logos/pa-systems/cables/neutrik_logo.jpg",
     "alt": "Neutrik logo",
     "pageLink": "/"
   },
   {
     "brandName": "Sommer Cable",
-    "src": "/images/brandLogos/PaSystems/Cables/sommer_cable_logo.jpg",
+    "src": "/images/brands-logos/pa-systems/cables/sommer_cable_logo.jpg",
     "alt": "Sommer Cable logo",
     "pageLink": "/"
   },
   {
     "brandName": "Thon",
-    "src": "/images/brandLogos/BrandsForMultipleCategories/thon_logo.jpg",
+    "src": "/images/brands-logos/brands-for-multiple-categories/thon_logo.jpg",
     "alt": "Thon logo",
     "pageLink": "/"
   }

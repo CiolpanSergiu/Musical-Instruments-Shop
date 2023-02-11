@@ -19,7 +19,7 @@ import coverBagsAndCases from "../logo-data/drums-and-percussion-brands/cover-ba
 
 const drumsAndPercussionData = [
   {
-    src: "/images/category/LevelTwoCategories/DrumsAndPercussion/acoustic_drums.jpg",
+    src: "/images/categories/level-two-categories/drums-and-percussion/acoustic_drums.jpg",
     alt: "A set of classic, acoustic drumd like in the good old days",
     title: "Acoustic Drums",
     pageLink: "/acoustic-drums",
@@ -27,7 +27,7 @@ const drumsAndPercussionData = [
     brands: acousticDrumsBrands,
   },
   {
-    src: "/images/category/LevelTwoCategories/DrumsAndPercussion/electric_drums.jpg",
+    src: "/images/categories/level-two-categories/drums-and-percussion/electric_drums.jpg",
     alt: "A portable, modern set of electric drums",
     title: "Electronic Drums",
     pageLink: "/electronic-drums",
@@ -35,7 +35,7 @@ const drumsAndPercussionData = [
     brands: electronicDrumsBrands,
   },
   {
-    src: "/images/category/LevelTwoCategories/DrumsAndPercussion/percussion_instrument.jpg",
+    src: "/images/categories/level-two-categories/drums-and-percussion/percussion_instrument.jpg",
     alt: "An african percussion drum instrument",
     title: "Percussion Instruments",
     pageLink: "/percussion-instruments",
@@ -43,7 +43,7 @@ const drumsAndPercussionData = [
     brands: percussionInstrumentsBrands,
   },
   {
-    src: "/images/category/LevelTwoCategories/DrumsAndPercussion/cymbal.jpg",
+    src: "/images/categories/level-two-categories/drums-and-percussion/cymbal.jpg",
     alt: "A drum cymbal",
     title: "Cymbals",
     pageLink: "/cymbals",
@@ -51,7 +51,7 @@ const drumsAndPercussionData = [
     brands: cymbalBrands,
   },
   {
-    src: "/images/category/LevelTwoCategories/DrumsAndPercussion/drum_sticks.jpg",
+    src: "/images/categories/level-two-categories/drums-and-percussion/drum_sticks.jpg",
     alt: "Two drumsticks",
     title: "Drumsticks",
     pageLink: "/sticks-for-drums-and-percussion",
@@ -59,7 +59,7 @@ const drumsAndPercussionData = [
     brands: drumsticksBrands,
   },
   {
-    src: "/images/category/LevelTwoCategories/DrumsAndPercussion/drum_stand.jpg",
+    src: "/images/categories/level-two-categories/drums-and-percussion/drum_stand.jpg",
     alt: "A drum stand",
     title: "Drum Pedals and Stands",
     pageLink: "/drum-pedals-and-stands",
@@ -67,7 +67,7 @@ const drumsAndPercussionData = [
     brands: standsAndPedalsBrands,
   },
   {
-    src: "/images/category/LevelTwoCategories/DrumsAndPercussion/drum_rim.jpg",
+    src: "/images/categories/level-two-categories/drums-and-percussion/drum_rim.jpg",
     alt: "A drum rim",
     title: "Drum Spare Parts",
     pageLink: "/drum-spare-parts",
@@ -75,7 +75,7 @@ const drumsAndPercussionData = [
     brands: sparePartsBrands,
   },
   {
-    src: "/images/category/LevelTwoCategories/DrumsAndPercussion/drum_cover.jpg",
+    src: "/images/categories/level-two-categories/drums-and-percussion/drum_cover.jpg",
     alt: "A full set of drum cover bags",
     title: "Drum Cover Bags and Cases",
     pageLink: "/drum-cover-bags-and-cases",
