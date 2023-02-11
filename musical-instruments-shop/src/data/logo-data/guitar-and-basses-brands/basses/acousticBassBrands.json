@@ -1,79 +1,79 @@
 [
   {
     "brandName": "Warwick",
-    "src": "/images/brandLogos/GuitarAndBasses/ElectricBasses/warwick_logo.jpg",
+    "src": "/images/brands-logos/guitars-and-basses/electric-basses/warwick_logo.jpg",
     "alt": "Warwick logo",
     "pageLink": "/"
   },
   {
     "brandName": "Fender",
-    "src": "/images/brandLogos/BrandsForMultipleCategories/fender_logo.jpg",
+    "src": "/images/brands-logos/brands-for-multiple-categories/fender_logo.jpg",
     "alt": "Fender logo",
     "pageLink": "/"
   },
   {
     "brandName": "Applause",
-    "src": "/images/brandLogos/GuitarAndBasses/AcousticBasses/applause_logo.jpg",
+    "src": "/images/brands-logos/guitars-and-basses/acoustic-basses/applause_logo.jpg",
     "alt": "Applause logo",
     "pageLink": "/"
   },
   {
     "brandName": "Cordoba",
-    "src": "/images/brandLogos/GuitarAndBasses/cordoba_logo.jpg",
+    "src": "/images/brands-logos/guitars-and-basses/cordoba_logo.jpg",
     "alt": "Cordoba logo",
     "pageLink": "/"
   },
   {
     "brandName": "Gold Tone",
-    "src": "/images/brandLogos/GuitarAndBasses/AcousticBasses/gold_tone_logo.jpg",
+    "src": "/images/brands-logos/guitars-and-basses/acoustic-basses/gold_tone_logo.jpg",
     "alt": "Gold Tone logo",
     "pageLink": "/"
   },
   {
     "brandName": "Journey Instruments",
-    "src": "/images/brandLogos/GuitarAndBasses/AcousticBasses/journey_instruments_logo.jpg",
+    "src": "/images/brands-logos/guitars-and-basses/acoustic-basses/journey_instruments_logo.jpg",
     "alt": "Journey Instruments logo",
     "pageLink": "/"
   },
   {
     "brandName": "Guild",
-    "src": "/images/brandLogos/GuitarAndBasses/AcousticGuitars/guild_logo.jpg",
+    "src": "/images/brands-logos/guitars-and-basses/acoustic-guitars/guild_logo.jpg",
     "alt": "Guild logo",
     "pageLink": "/"
   },
   {
     "brandName": "Fender",
-    "src": "/images/brandLogos/BrandsForMultipleCategories/fender_logo.jpg",
+    "src": "/images/brands-logos/brands-for-multiple-categories/fender_logo.jpg",
     "alt": "Fender logo",
     "pageLink": "/"
   },
   {
     "brandName": "Harley Benton",
-    "src": "/images/brandLogos/BrandsForMultipleCategories/harley_benton_logo.jpg",
+    "src": "/images/brands-logos/brands-for-multiple-categories/harley_benton_logo.jpg",
     "alt": "Harley Benton logo",
     "pageLink": "/"
   },
   {
     "brandName": "Ibanez",
-    "src": "/images/brandLogos/GuitarAndBasses/ibanez_logo.jpg",
+    "src": "/images/brands-logos/guitars-and-basses/ibanez_logo.jpg",
     "alt": "Ibanez logo",
     "pageLink": "/"
   },
   {
     "brandName": "Epiphone",
-    "src": "/images/brandLogos/GuitarAndBasses/epiphone_logo.jpg",
+    "src": "/images/brands-logos/guitars-and-basses/epiphone_logo.jpg",
     "alt": "Epiphone logo",
     "pageLink": "/"
   },
   {
     "brandName": "Takamine",
-    "src": "/images/brandLogos/GuitarAndBasses/AcousticGuitars/takamine_logo.jpg",
+    "src": "/images/brands-logos/guitars-and-basses/acoustic-guitars/takamine_logo.jpg",
     "alt": "Takamine logo",
     "pageLink": "/"
   },
   {
     "brandName": "Taylor",
-    "src": "/images/brandLogos/GuitarAndBasses/AcousticGuitars/taylor_logo.jpg",
+    "src": "/images/brands-logos/guitars-and-basses/acoustic-guitars/taylor_logo.jpg",
     "alt": "Taylor logo",
     "pageLink": "/"
   }

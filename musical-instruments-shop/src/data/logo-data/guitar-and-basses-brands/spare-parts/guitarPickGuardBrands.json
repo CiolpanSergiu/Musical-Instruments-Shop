@@ -1,31 +1,31 @@
 [
   {
     "brandName": "Fender",
-    "src": "/images/brandLogos/BrandsForMultipleCategories/fender_logo.jpg",
+    "src": "/images/brands-logos/brands-for-multiple-categories/fender_logo.jpg",
     "alt": "Fender logo",
     "pageLink": "/"
   },
   {
     "brandName": "D'Andrea",
-    "src": "/images/brandLogos/GuitarAndBasses/SpareParts/dandrea_logo.jpg",
+    "src": "/images/brands-logos/guitars-and-basses/spare-parts/dandrea_logo.jpg",
     "alt": "D'Andrea logo",
     "pageLink": "/"
   },
   {
     "brandName": "Gibson",
-    "src": "/images/brandLogos/GuitarAndBasses/gibson_logo.jpg",
+    "src": "/images/brands-logos/guitars-and-basses/gibson_logo.jpg",
     "alt": "Gibson logo",
     "pageLink": "/"
   },
   {
     "brandName": "Harley Benton",
-    "src": "/images/brandLogos/BrandsForMultipleCategories/harley_benton_logo.jpg",
+    "src": "/images/brands-logos/brands-for-multiple-categories/harley_benton_logo.jpg",
     "alt": "Harley Benton logo",
     "pageLink": "/"
   },
   {
     "brandName": "Gewa",
-    "src": "/images/brandLogos/BrandsForMultipleCategories/gewa_logo.jpg",
+    "src": "/images/brands-logos/brands-for-multiple-categories/gewa_logo.jpg",
     "alt": "GEWA logo",
     "pageLink": "/"
   }

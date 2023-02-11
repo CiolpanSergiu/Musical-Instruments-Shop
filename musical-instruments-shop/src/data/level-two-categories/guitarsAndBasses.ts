@@ -20,7 +20,7 @@ import acousticBassBrands from "../logo-data/guitar-and-basses-brands/basses/aco
 import ukuleleBrands from "../logo-data/guitar-and-basses-brands/ukulele/ukuleleBrands.json";
 import electricGuitarAmpsBrands from "../logo-data/guitar-and-basses-brands/electric-guitar-amplifiers/electricGuitarAmpsBrands.json";
 import electricBassAmpsBrands from "../logo-data/guitar-and-basses-brands/electric-bass-amplifiers/electricBassAmpsBrands.json";
-import acousticGuitarAmpsBrands from "../logo-data/guitar-and-basses-brands/acoustic-Guitar-Amplifiers/acousticGuitarAmpsBrands.json";
+import acousticGuitarAmpsBrands from "../logo-data/guitar-and-basses-brands/acoustic-guitar-amplifiers/acousticGuitarAmpsBrands.json";
 import stringsBrands from "../logo-data/guitar-and-basses-brands/strings/stringsBrands.json";
 import pedalsBrands from "../logo-data/guitar-and-basses-brands/pedals/pedalsBrands.json";
 import pickupsBrands from "../logo-data/guitar-and-basses-brands/pickups/pickupsBrands.json";

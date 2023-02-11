@@ -1,43 +1,43 @@
 [
   {
     "brandName": "Fender",
-    "src": "/images/brandLogos/BrandsForMultipleCategories/fender_logo.jpg",
+    "src": "/images/brands-logos/brands-for-multiple-categories/fender_logo.jpg",
     "alt": "Fender logo",
     "pageLink": "/"
   },
   {
     "brandName": "Shubb",
-    "src": "/images/brandLogos/GuitarAndBasses/Accesories/shubb_logo.jpg",
+    "src": "/images/brands-logos/guitars-and-basses/accesories/shubb_logo.jpg",
     "alt": "Shubb logo",
     "pageLink": "/"
   },
   {
     "brandName": "Harley Benton",
-    "src": "/images/brandLogos/BrandsForMultipleCategories/harley_benton_logo.jpg",
+    "src": "/images/brands-logos/brands-for-multiple-categories/harley_benton_logo.jpg",
     "alt": "Harley Benton logo",
     "pageLink": "/"
   },
   {
     "brandName": "Dunlop",
-    "src": "/images/brandLogos/GuitarAndBasses/dunlop_logo.jpg",
+    "src": "/images/brands-logos/guitars-and-basses/dunlop_logo.jpg",
     "alt": "Dunlop logo",
     "pageLink": "/"
   },
   {
     "brandName": "Taylor",
-    "src": "/images/brandLogos/GuitarAndBasses/AcousticGuitars/taylor_logo.jpg",
+    "src": "/images/brands-logos/guitars-and-basses/acoustic-guitars/taylor_logo.jpg",
     "alt": "Taylor logo",
     "pageLink": "/"
   },
   {
     "brandName": "D'Addario",
-    "src": "/images/brandLogos/BrandsForMultipleCategories/daddario_logo.jpg",
+    "src": "/images/brands-logos/brands-for-multiple-categories/daddario_logo.jpg",
     "alt": "D'adarrio logo",
     "pageLink": "/"
   },
   {
     "brandName": "Ibanez",
-    "src": "/images/brandLogos/GuitarAndBasses/ibanez_logo.jpg",
+    "src": "/images/brands-logos/guitars-and-basses/ibanez_logo.jpg",
     "alt": "Ibanez logo",
     "pageLink": "/"
   }

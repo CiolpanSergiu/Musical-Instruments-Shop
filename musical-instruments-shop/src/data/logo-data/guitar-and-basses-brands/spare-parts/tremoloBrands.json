@@ -1,55 +1,55 @@
 [
   {
     "brandName": "Abm",
-    "src": "/images/brandLogos/GuitarAndBasses/SpareParts/abm_logo.jpg",
+    "src": "/images/brands-logos/guitars-and-basses/spare-parts/abm_logo.jpg",
     "alt": "Abm logo",
     "pageLink": "/"
   },
   {
     "brandName": "AllParts",
-    "src": "/images/brandLogos/GuitarAndBasses/SpareParts/allparts_logo.jpg",
+    "src": "/images/brands-logos/guitars-and-basses/spare-parts/allparts_logo.jpg",
     "alt": "AllParts logo",
     "pageLink": "/"
   },
   {
     "brandName": "Babicz",
-    "src": "/images/brandLogos/GuitarAndBasses/SpareParts/babicz_logo.jpg",
+    "src": "/images/brands-logos/guitars-and-basses/spare-parts/babicz_logo.jpg",
     "alt": "Babicz logo",
     "pageLink": "/"
   },
   {
     "brandName": "Gotoh",
-    "src": "/images/brandLogos/GuitarAndBasses/SpareParts/gotoh_logo.jpg",
+    "src": "/images/brands-logos/guitars-and-basses/spare-parts/gotoh_logo.jpg",
     "alt": "Gotoh logo",
     "pageLink": "/"
   },
   {
     "brandName": "Schaller",
-    "src": "/images/brandLogos/GuitarAndBasses/SpareParts/schaller_logo.jpg",
+    "src": "/images/brands-logos/guitars-and-basses/spare-parts/schaller_logo.jpg",
     "alt": "Schaller logo",
     "pageLink": "/"
   },
   {
     "brandName": "Graph Tech",
-    "src": "/images/brandLogos/GuitarAndBasses/AcousticGuitarAmps/graph_tech_logo.jpg",
+    "src": "/images/brands-logos/guitars-and-basses/acoustic-guitar-amps/graph_tech_logo.jpg",
     "alt": "Graph Tech logo",
     "pageLink": "/"
   },
   {
     "brandName": "Floyd Rose",
-    "src": "/images/brandLogos/GuitarAndBasses/Tremolos/floyd_rose_logo.jpg",
+    "src": "/images/brands-logos/guitars-and-basses/tremolos/floyd_rose_logo.jpg",
     "alt": "Floyd Rose logo",
     "pageLink": "/"
   },
   {
     "brandName": "Bigsby",
-    "src": "/images/brandLogos/GuitarAndBasses/Tremolos/bigsby_logo.jpg",
+    "src": "/images/brands-logos/guitars-and-basses/tremolos/bigsby_logo.jpg",
     "alt": "Bigsby logo",
     "pageLink": "/"
   },
   {
     "brandName": "Big Bends",
-    "src": "/images/brandLogos/GuitarAndBasses/Tremolos/big_bends_logo.jpg",
+    "src": "/images/brands-logos/guitars-and-basses/tremolos/big_bends_logo.jpg",
     "alt": "Big Bends logo",
     "pageLink": "/"
   }
