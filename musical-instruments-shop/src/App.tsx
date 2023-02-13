@@ -22,23 +22,24 @@ import popularItemsPages from "./routes/items-pages/popularItemsPages";
 
 export default function App() {
   return (
-    <Routes>
-      {/* main pages routes */}
-      <Route path="/" element={<Home />}></Route>
-      <Route path="/contact" element={<Contact />}></Route>
-      <Route path="/account" element={<Account />}></Route>
-      <Route path="/singin" element={<SinginPage />}></Route>
-      <Route path="/login" element={<LoginPage />}></Route>
-      <Route path="/shopping-cart" element={<ShoppingCartPage />}></Route>
+    <>
+      <Routes>
+        <Route path="/" element={<Home />}></Route>
+        <Route path="/contact" element={<Contact />}></Route>
+        <Route path="/account" element={<Account />}></Route>
+        <Route path="/singin" element={<SinginPage />}></Route>
+        <Route path="/login" element={<LoginPage />}></Route>
+        <Route path="/shopping-cart" element={<ShoppingCartPage />}></Route>
 
-      {itemsRoutes}
-      {popularItemsPages}
+        {itemsRoutes}
+        {popularItemsPages}
 
-      {levelTwoCategoryPages}
-      {levelThreeCategoryPages}
-      {levelFourCategoryPages}
-      {levelFiveCategoryPages}
-      {electricGuitarsShoppingPages}
-    </Routes>
+        {levelTwoCategoryPages}
+        {levelThreeCategoryPages}
+        {levelFourCategoryPages}
+        {levelFiveCategoryPages}
+        {electricGuitarsShoppingPages}
+      </Routes>
+    </>
   );
 }

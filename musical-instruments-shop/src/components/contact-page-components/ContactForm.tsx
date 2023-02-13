@@ -1,5 +1,6 @@
 import styled from "styled-components";
 import { useState } from "react";
+import sendContactFormData from "../../functions/sendContactFormData";
 
 const FormContainer = styled.div`
   background-color: white;
@@ -165,13 +166,15 @@ export default function ContactForm() {
     if (emailPattern.test(formData.email)) {
       setIsSubmited(true);
       setIsEmailInvalid(false);
-      emptyInputBoxes();
       setTimeout(() => {
         setIsSubmited(false);
       }, 5 * 1000);
     } else {
       setIsEmailInvalid(true);
     }
+    sendContactFormData(formData);
+
+    emptyInputBoxes();
   }
 
   return (
