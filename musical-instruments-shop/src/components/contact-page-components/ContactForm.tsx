@@ -166,15 +166,14 @@ export default function ContactForm() {
     if (emailPattern.test(formData.email)) {
       setIsSubmited(true);
       setIsEmailInvalid(false);
+      sendContactFormData(formData);
       setTimeout(() => {
         setIsSubmited(false);
       }, 5 * 1000);
+      emptyInputBoxes();
     } else {
       setIsEmailInvalid(true);
     }
-    sendContactFormData(formData);
-
-    emptyInputBoxes();
   }
 
   return (

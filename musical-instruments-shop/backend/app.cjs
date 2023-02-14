@@ -1,6 +1,6 @@
 const express = require("express");
 const app = express();
-const connectDB = require("./db/connect.cjs");
+const connectContactDB = require("./db/connect.cjs");
 require("dotenv").config();
 const userMsgs = require("./routes/userMsg.cjs");
 const cors = require("cors");
@@ -19,7 +19,7 @@ const port = 5174;
 const start = async () => {
   console.log("Starting Server");
   try {
-    await connectDB(process.env.MONGO_URL);
+    await connectContactDB(process.env.MONGO_CONTACT_URL);
     app.listen(port, () => {
       console.log(`Server is listening on port http://localhost:${port}`);
     });
