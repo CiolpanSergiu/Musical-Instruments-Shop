@@ -2,6 +2,6 @@ const mongoose = require("mongoose");
 
 mongoose.set("strictQuery", false);
 
-const connectContactDb = (url) => mongoose.connect(url);
+const connectDb = (url) => mongoose.connect(url);
 
-module.exports = connectContactDb;
+module.exports = connectDb;

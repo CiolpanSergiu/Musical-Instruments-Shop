@@ -12,7 +12,7 @@ const createUserMsg = async (req, res) => {
 const getAllUserMsgs = async (req, res) => {
   try {
     const userMsgs = await UserMsg.find({});
-    res.status(200).json({ userMsgs });
+    res.status(200).json(userMsgs);
   } catch (error) {
     res.status(500).json({ msg: error });
   }

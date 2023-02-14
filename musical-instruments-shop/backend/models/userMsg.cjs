@@ -20,6 +20,14 @@ const UserMsgSchema = new mongoose.Schema({
   additionalInfo: {
     type: String,
   },
+  resolved: {
+    type: Boolean,
+    default: false,
+  },
+  date: {
+    type: Date,
+    default: Date.now,
+  },
 });
 
-module.exports = mongoose.model("Schema", UserMsgSchema);
+module.exports = mongoose.model("UserMsgSchema", UserMsgSchema);

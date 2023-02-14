@@ -8,6 +8,8 @@ import { Link } from "react-router-dom";
 import { ThemeProvider } from "styled-components";
 import { useContext } from "react";
 import ThemeContext from "../../context/ThemeProvider";
+import sendAccountFormData from "../../functions/sendAccountFormData";
+import { useNavigate } from "react-router-dom";
 
 const StyledForm = styled(Form)`
   display: flex;
@@ -60,17 +62,15 @@ type ValuesObj = {
   fullName: string;
   email: string;
   password: string;
-  confirmPassword: string;
+  passwordConfirmation: string;
 };
 
 const initialValues: ValuesObj = {
   fullName: "",
   email: "",
   password: "",
-  confirmPassword: "",
+  passwordConfirmation: "",
 };
-
-const onSubmit = () => {};
 
 const validationSchema = Yup.object({
   fullName: Yup.string().required("This field is required !"),
@@ -85,14 +85,19 @@ const validationSchema = Yup.object({
       /^(?=.*\d)(?=.*[a-z])(?=.*[A-Z]).{6,20}$/,
       "Password should contain at least one uppercase and one lowercase letter and a number too !"
     ),
-  confirmPassword: Yup.string().oneOf(
-    [Yup.ref("password"), null],
-    "Passwords do not match !"
-  ),
+  passwordConfirmation: Yup.string()
+    .required("This field is required")
+    .oneOf([Yup.ref("password"), null], "Passwords do not match !"),
 });
 
 export default function SinginForm() {
   const { isDark }: any = useContext(ThemeContext);
+  const navigate = useNavigate();
+
+  const onSubmit = (values: ValuesObj) => {
+    sendAccountFormData(values);
+    navigate("/login");
+  };
 
   return (
     <ThemeProvider theme={isDark ? darkTheme : lightTheme}>
@@ -146,18 +151,18 @@ export default function SinginForm() {
             <ErrorMessage name="password" />
           </StyledErrorMessage>
 
-          <Label htmlFor="confirmPassword">
+          <Label htmlFor="passwordConfirmation">
             Confirm Password
             <ObligatoryStar />
           </Label>
           <StyledField
             type="password"
-            id="confirmPassword"
-            name="confirmPassword"
+            id="passwordConfirmation"
+            name="passwordConfirmation"
             placeholder="SupeRstrOngPass4763"
           />
           <StyledErrorMessage>
-            <ErrorMessage name="confirmPassword" />
+            <ErrorMessage name="passwordConfirmation" />
           </StyledErrorMessage>
           <FormButton buttonOrder="first" buttonText="Singin" />
 
