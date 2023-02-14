@@ -6,8 +6,13 @@ import CenteredSmallSpan from "../miscellaneous/account-page/CenteredSmallSpan";
 import ObligatoryStar from "../miscellaneous/account-page/ObligatoryStar";
 import { Link } from "react-router-dom";
 import { ThemeProvider } from "styled-components";
-import { useContext } from "react";
+import { useContext, useState } from "react";
 import ThemeContext from "../../context/ThemeProvider";
+import sendAccountFormData from "../../functions/sendAccountFormData";
+import checkSinginData from "../../functions/checkSinginData";
+import axios from "axios";
+
+import { useNavigate } from "react-router-dom";
 
 const StyledForm = styled(Form)`
   display: flex;
@@ -31,6 +36,13 @@ const StyledErrorMessage = styled.div`
   padding: 0.25rem 0 0.5rem 0;
   font-size: 0.8rem;
   max-width: 15rem;
+`;
+
+const AlreadyExistError = styled(StyledErrorMessage)`
+  border: solid white 1px;
+  border-radius: 6px;
+  padding: 0.5rem;
+  font-size: 1.125rem;
 `;
 
 const StyledField = styled(Field)`
@@ -60,17 +72,15 @@ type ValuesObj = {
   fullName: string;
   email: string;
   password: string;
-  confirmPassword: string;
+  passwordConfirmation: string;
 };
 
 const initialValues: ValuesObj = {
   fullName: "",
   email: "",
   password: "",
-  confirmPassword: "",
+  passwordConfirmation: "",
 };
-
-const onSubmit = () => {};
 
 const validationSchema = Yup.object({
   fullName: Yup.string().required("This field is required !"),
@@ -85,14 +95,32 @@ const validationSchema = Yup.object({
       /^(?=.*\d)(?=.*[a-z])(?=.*[A-Z]).{6,20}$/,
       "Password should contain at least one uppercase and one lowercase letter and a number too !"
     ),
-  confirmPassword: Yup.string().oneOf(
-    [Yup.ref("password"), null],
-    "Passwords do not match !"
-  ),
+  passwordConfirmation: Yup.string()
+    .required("This field is required")
+    .oneOf([Yup.ref("password"), null], "Passwords do not match !"),
 });
 
 export default function SinginForm() {
   const { isDark }: any = useContext(ThemeContext);
+  const navigate = useNavigate();
+  const [doUserExist, setDoUserExist] = useState<boolean>(false);
+
+  const onSubmit = (values: ValuesObj) => {
+    const postURL = "http://localhost:5174/api/users";
+    axios
+      .get(postURL)
+      .then((res) => {
+        const usersMatched = checkSinginData(values, res.data);
+        if (usersMatched.length === 0) {
+          setDoUserExist(false);
+          sendAccountFormData(values);
+          navigate("/login");
+        } else {
+          setDoUserExist(true);
+        }
+      })
+      .catch((err) => console.log(err));
+  };
 
   return (
     <ThemeProvider theme={isDark ? darkTheme : lightTheme}>
@@ -104,6 +132,11 @@ export default function SinginForm() {
         <StyledForm>
           <Header>Singin</Header>
 
+          {doUserExist && (
+            <StyledErrorMessage>
+              <AlreadyExistError>Email address taken</AlreadyExistError>
+            </StyledErrorMessage>
+          )}
           <Label htmlFor="fullName">
             Full Name
             <ObligatoryStar />
@@ -146,18 +179,18 @@ export default function SinginForm() {
             <ErrorMessage name="password" />
           </StyledErrorMessage>
 
-          <Label htmlFor="confirmPassword">
+          <Label htmlFor="passwordConfirmation">
             Confirm Password
             <ObligatoryStar />
           </Label>
           <StyledField
             type="password"
-            id="confirmPassword"
-            name="confirmPassword"
+            id="passwordConfirmation"
+            name="passwordConfirmation"
             placeholder="SupeRstrOngPass4763"
           />
           <StyledErrorMessage>
-            <ErrorMessage name="confirmPassword" />
+            <ErrorMessage name="passwordConfirmation" />
           </StyledErrorMessage>
           <FormButton buttonOrder="first" buttonText="Singin" />
 
