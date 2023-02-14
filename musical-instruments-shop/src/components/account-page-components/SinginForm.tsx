@@ -9,7 +9,7 @@ import { ThemeProvider } from "styled-components";
 import { useContext, useState } from "react";
 import ThemeContext from "../../context/ThemeProvider";
 import sendAccountFormData from "../../functions/sendAccountFormData";
-import checkSinginData from "../../functions/checkSinginData";
+import checkSinginData from "../../functions/checkLoginData";
 import axios from "axios";
 
 import { useNavigate } from "react-router-dom";
