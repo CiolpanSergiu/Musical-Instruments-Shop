@@ -6,9 +6,12 @@ import CenteredSmallSpan from "../miscellaneous/account-page/CenteredSmallSpan";
 import ObligatoryStar from "../miscellaneous/account-page/ObligatoryStar";
 import { Link } from "react-router-dom";
 import { ThemeProvider } from "styled-components";
-import { useContext } from "react";
+import { useContext, useState } from "react";
 import ThemeContext from "../../context/ThemeProvider";
 import sendAccountFormData from "../../functions/sendAccountFormData";
+import checkSinginData from "../../functions/checkSinginData";
+import axios from "axios";
+
 import { useNavigate } from "react-router-dom";
 
 const StyledForm = styled(Form)`
@@ -33,6 +36,13 @@ const StyledErrorMessage = styled.div`
   padding: 0.25rem 0 0.5rem 0;
   font-size: 0.8rem;
   max-width: 15rem;
+`;
+
+const AlreadyExistError = styled(StyledErrorMessage)`
+  border: solid white 1px;
+  border-radius: 6px;
+  padding: 0.5rem;
+  font-size: 1.125rem;
 `;
 
 const StyledField = styled(Field)`
@@ -93,10 +103,23 @@ const validationSchema = Yup.object({
 export default function SinginForm() {
   const { isDark }: any = useContext(ThemeContext);
   const navigate = useNavigate();
+  const [doUserExist, setDoUserExist] = useState<boolean>(false);
 
   const onSubmit = (values: ValuesObj) => {
-    sendAccountFormData(values);
-    navigate("/login");
+    const postURL = "http://localhost:5174/api/users";
+    axios
+      .get(postURL)
+      .then((res) => {
+        const usersMatched = checkSinginData(values, res.data);
+        if (usersMatched.length === 0) {
+          setDoUserExist(false);
+          sendAccountFormData(values);
+          navigate("/login");
+        } else {
+          setDoUserExist(true);
+        }
+      })
+      .catch((err) => console.log(err));
   };
 
   return (
@@ -109,6 +132,11 @@ export default function SinginForm() {
         <StyledForm>
           <Header>Singin</Header>
 
+          {doUserExist && (
+            <StyledErrorMessage>
+              <AlreadyExistError>Email address taken</AlreadyExistError>
+            </StyledErrorMessage>
+          )}
           <Label htmlFor="fullName">
             Full Name
             <ObligatoryStar />

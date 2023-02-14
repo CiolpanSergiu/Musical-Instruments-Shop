@@ -6,8 +6,10 @@ import CenteredSmallSpan from "../miscellaneous/account-page/CenteredSmallSpan";
 import ObligatoryStar from "../miscellaneous/account-page/ObligatoryStar";
 import { Link } from "react-router-dom";
 import { ThemeProvider } from "styled-components";
-import { useContext } from "react";
+import { useContext, useState } from "react";
 import ThemeContext from "../../context/ThemeProvider";
+import axios from "axios";
+import checkLoginData from "../../functions/checkLoginData";
 
 const StyledForm = styled(Form)`
   display: flex;
@@ -57,23 +59,16 @@ const lightTheme = {
 };
 
 type ValuesObj = {
-  fullName: string;
   email: string;
   password: string;
-  confirmPassword: string;
 };
 
 const initialValues: ValuesObj = {
-  fullName: "",
   email: "",
   password: "",
-  confirmPassword: "",
 };
 
-const onSubmit = () => {};
-
 const validationSchema = Yup.object({
-  fullName: Yup.string().required("This field is required !"),
   email: Yup.string()
     .email("Invalid email formal")
     .required("This field is required !"),
@@ -83,8 +78,30 @@ const validationSchema = Yup.object({
     .max(20, "Password is too long !"),
 });
 
+type User = {
+  fullName: string;
+  email: string;
+  password: string;
+  passwordConfirmation: string;
+};
+
 export default function LoginForm() {
   const { isDark }: any = useContext(ThemeContext);
+  const [currentUser, setCurrentUsers] = useState<User[]>();
+  const [isLoggedIn, setIsLoggedIn] = useState<boolean>(false);
+
+  const onSubmit = (values: ValuesObj) => {
+    const postURL = "http://localhost:5174/api/users";
+    axios
+      .get(postURL)
+      .then((res) => {
+        const usersMatched: User[] = checkLoginData(values, res.data);
+        usersMatched.length > 0 ? setIsLoggedIn(true) : setIsLoggedIn(false);
+        setCurrentUsers(usersMatched);
+      })
+      .catch((err) => console.log(err));
+  };
+
   return (
     <ThemeProvider theme={isDark ? darkTheme : lightTheme}>
       <Formik

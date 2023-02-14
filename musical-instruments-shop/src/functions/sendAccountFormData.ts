@@ -3,7 +3,7 @@ export default function sendAccountFormData(formData: {
   email: string;
   password: string;
   passwordConfirmation: string;
-}) {
+}): void {
   const postURL = "http://localhost:5174/api/users";
   fetch(postURL, {
     method: "POST",

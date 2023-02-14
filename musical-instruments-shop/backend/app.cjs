@@ -9,14 +9,6 @@ const cors = require("cors");
 app.use(express.json());
 app.use(cors());
 
-app.get("/api/userMsg", (req, res) => {
-  res.send(JSON.stringify(userMsgs));
-});
-
-app.get("/api/users", (req, res) => {
-  res.send(JSON.stringify(users));
-});
-
 app.use("/api/userMsg", userMsgs);
 app.use("/api/users", users);
 
