@@ -1,11 +1,12 @@
 import Navbar from "../../components/navbar-components/Navbar";
 import Footer from "../../components/footer-components/Footer";
-import { useState } from "react";
+import { useContext } from "react";
+import AuthentificationProvider from "../../context/AuthentificationContext";
 import LoginPage from "./LoginPage";
-import SinginPage from "./SinginPage";
+import UserPage from "../../components/account-page-components/UserPage";
 
 export default function Account() {
-  const [isLoggedIn, setIsLoggedIn] = useState<boolean>(false);
+  const { isLoggedIn }: any = useContext(AuthentificationProvider);
 
   return (
     <>
@@ -14,7 +15,7 @@ export default function Account() {
       ) : (
         <>
           <Navbar />
-          <h1>Account</h1>
+          <UserPage />
           <Footer />
         </>
       )}
