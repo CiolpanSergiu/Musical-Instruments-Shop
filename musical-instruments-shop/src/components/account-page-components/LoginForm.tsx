@@ -10,6 +10,7 @@ import { useContext, useState } from "react";
 import ThemeContext from "../../context/ThemeProvider";
 import axios from "axios";
 import checkLoginData from "../../functions/checkLoginData";
+import AuthentificationProvider from "../../context/AuthentificationContext";
 
 const StyledForm = styled(Form)`
   display: flex;
@@ -87,17 +88,23 @@ type User = {
 
 export default function LoginForm() {
   const { isDark }: any = useContext(ThemeContext);
-  const [currentUser, setCurrentUsers] = useState<User[]>();
-  const [isLoggedIn, setIsLoggedIn] = useState<boolean>(false);
+
+  const { setIsLoggedIn, setCurrentUser }: any = useContext(
+    AuthentificationProvider
+  );
 
   const onSubmit = (values: ValuesObj) => {
     const postURL = "http://localhost:5174/api/users";
     axios
       .get(postURL)
       .then((res) => {
-        const usersMatched: User[] = checkLoginData(values, res.data);
-        usersMatched.length > 0 ? setIsLoggedIn(true) : setIsLoggedIn(false);
-        setCurrentUsers(usersMatched);
+        const userMatched: User[] = checkLoginData(values, res.data);
+        if (userMatched.length > 0) {
+          setIsLoggedIn(true);
+          setCurrentUser(userMatched[0]);
+        } else {
+          setIsLoggedIn(false);
+        }
       })
       .catch((err) => console.log(err));
   };

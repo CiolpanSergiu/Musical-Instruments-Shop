@@ -1,5 +1,4 @@
 import { useState, createContext } from "react";
-import { nanoid } from "nanoid";
 
 const ThemeContext = createContext({});
 

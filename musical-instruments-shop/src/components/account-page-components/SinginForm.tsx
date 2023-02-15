@@ -110,8 +110,8 @@ export default function SinginForm() {
     axios
       .get(postURL)
       .then((res) => {
-        const usersMatched = checkSinginData(values, res.data);
-        if (usersMatched.length === 0) {
+        const userMatched = checkSinginData(values, res.data);
+        if (userMatched.length === 0) {
           setDoUserExist(false);
           sendAccountFormData(values);
           navigate("/login");
