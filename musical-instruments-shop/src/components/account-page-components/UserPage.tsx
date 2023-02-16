@@ -5,6 +5,7 @@ import PasswordDotsContainer from "../miscellaneous/account-page/PasswordDotsCon
 import editUserData from "../../functions/account-related-functions/editUserData";
 import validateNewAccountProperty from "../../functions/account-related-functions/validateNewAccountProperty";
 import FormErrorMsg from "../miscellaneous/FormErrorMsg";
+import deleteUserAccount from "../../functions/account-related-functions/deleteUserAccount";
 
 const Container = styled.div`
   min-height: 100vh;
@@ -121,9 +122,8 @@ const CloseInputBtn = styled.span`
 
 export default function UserPage() {
   const defaultToEdit = "nothing";
-  const { currentUser, setCurrentUser }: any = useContext(
-    AuthentificationProvider
-  );
+  const { currentUser, setCurrentUser, setIsLoggedIn, isLoggedIn }: any =
+    useContext(AuthentificationProvider);
   const [showPasswords, setShowPasswords] = useState<boolean>(false);
   const [toEdit, setToEdit] = useState<string>(defaultToEdit);
   const [showEditInput, setShowEditInput] = useState<boolean>(false);
@@ -133,6 +133,18 @@ export default function UserPage() {
   useEffect(() => {
     editUserData(currentUser);
   }, [currentUser]);
+
+  function handleLogout() {
+    localStorage.removeItem("isLogged");
+    localStorage.removeItem("currentUser");
+    setCurrentUser({});
+    setIsLoggedIn(false);
+  }
+
+  function handleDelete() {
+    handleLogout();
+    deleteUserAccount(currentUser);
+  }
 
   function toggleShowPass() {
     setShowPasswords((prevState) => !prevState);
@@ -277,6 +289,8 @@ export default function UserPage() {
             )}
           </div>
         )}
+        <button onClick={handleLogout}>Log Out</button>
+        <button onClick={handleDelete}>Delete Account</button>
       </div>
     </Container>
   );

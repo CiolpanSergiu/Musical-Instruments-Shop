@@ -134,7 +134,7 @@ export default function LoginForm() {
           setIsLoggedIn(true);
           setIsLoginDataIncorrect(false);
           setCurrentUser(userMatched[0]);
-          SaveCurrentUser(userMatched[0]);
+          if (stayLogged) SaveCurrentUser(userMatched[0]);
         } else {
           setIsLoggedIn(false);
           setIsLoginDataIncorrect(true);
