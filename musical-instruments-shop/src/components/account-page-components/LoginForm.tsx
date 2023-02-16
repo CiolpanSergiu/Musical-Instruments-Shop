@@ -6,10 +6,10 @@ import CenteredSmallSpan from "../miscellaneous/account-page/CenteredSmallSpan";
 import ObligatoryStar from "../miscellaneous/account-page/ObligatoryStar";
 import { Link } from "react-router-dom";
 import { ThemeProvider } from "styled-components";
-import { useContext, useState } from "react";
+import { useContext, useState, useEffect } from "react";
 import ThemeContext from "../../context/ThemeProvider";
 import axios from "axios";
-import checkLoginData from "../../functions/checkLoginData";
+import checkLoginData from "../../functions/account-related-functions/checkLoginData";
 import AuthentificationProvider from "../../context/AuthentificationContext";
 
 const StyledForm = styled(Form)`
@@ -55,6 +55,14 @@ const Label = styled.label`
   text-align: left;
   margin-top: 1rem;
   margin-bottom: 0.5rem;
+`;
+
+const StyledCheckbox = styled.input`
+  margin-right: 0.5rem;
+`;
+const FlexRowDiv = styled.div`
+  display: flex;
+  justify-content: center;
 `;
 
 const darkTheme = {
@@ -103,8 +111,18 @@ export default function LoginForm() {
   const { setIsLoggedIn, setCurrentUser }: any = useContext(
     AuthentificationProvider
   );
+  const [stayLogged, setStayLogged] = useState<boolean>(false);
+  const [isLoginDataIncorrect, setIsLoginDataIncorrect] =
+    useState<boolean>(false);
 
-  const [isLoginDataCorrect, setIsLoginDataCorrect] = useState<boolean>(false);
+  function SaveCurrentUser(currentUser: User) {
+    localStorage.setItem("isLogged", "true");
+    localStorage.setItem("currentUser", JSON.stringify(currentUser));
+  }
+
+  function toggleCheckbox() {
+    setStayLogged((prevState: boolean) => !prevState);
+  }
 
   const onSubmit = (values: Values) => {
     const postURL = "http://localhost:5174/api/users";
@@ -114,11 +132,12 @@ export default function LoginForm() {
         const userMatched: User[] = checkLoginData(values, res.data);
         if (userMatched.length > 0) {
           setIsLoggedIn(true);
-          setIsLoginDataCorrect(false);
+          setIsLoginDataIncorrect(false);
           setCurrentUser(userMatched[0]);
+          SaveCurrentUser(userMatched[0]);
         } else {
           setIsLoggedIn(false);
-          setIsLoginDataCorrect(true);
+          setIsLoginDataIncorrect(true);
         }
       })
       .catch((err) => console.log(err));
@@ -134,7 +153,7 @@ export default function LoginForm() {
         <StyledForm>
           <Header>Login</Header>
 
-          {isLoginDataCorrect && (
+          {isLoginDataIncorrect && (
             <StyledErrorMessage>
               <IncorrectDataErrorMessage>
                 Incorrect login data
@@ -168,6 +187,17 @@ export default function LoginForm() {
           <StyledErrorMessage>
             <ErrorMessage name="password" />
           </StyledErrorMessage>
+
+          <FlexRowDiv>
+            <StyledCheckbox
+              type="checkbox"
+              id="stayLogged"
+              name="stayLogged"
+              checked={stayLogged}
+              onChange={toggleCheckbox}
+            />
+            <label htmlFor="stayLogged">Keep me logged</label>
+          </FlexRowDiv>
 
           <FormButton buttonOrder="first" buttonText="Login" />
 

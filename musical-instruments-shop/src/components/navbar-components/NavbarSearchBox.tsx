@@ -2,8 +2,8 @@ import { BsSearch } from "react-icons/bs";
 import styled from "styled-components";
 import uniqueCategorySuggestions from "../../data/suggestions/categoriesSugestions";
 import { useState, useEffect } from "react";
-import filterFirstFiveSuggestions from "../../functions/filterSearchSuggestions";
-import createSuggestionsList from "../../functions/createSearchSuggestionsLinks";
+import filterFirstFiveSuggestions from "../../functions/search-suggestions-functions/filterSearchSuggestions";
+import createSuggestionsList from "../../functions/search-suggestions-functions/createSearchSuggestionsLinks";
 import SuggestionsModal from "./SuggestionsModal";
 import uniqueBrandsSuggestions from "../../data/suggestions/brandsSuggestions";
 

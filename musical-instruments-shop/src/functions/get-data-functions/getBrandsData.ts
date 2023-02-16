@@ -4,8 +4,8 @@ import {
   levelThreeCategories,
   levelFourCategories,
   levelFiveCategories,
-} from "../functions/getCategoriesData";
-import getDeeperLevelBrands from "../functions/getDeeperLevelBrands";
+} from "./getCategoriesData";
+import getDeeperLevelBrands from "./getDeeperLevelBrands";
 
 const mainCategoriesBrands = getDeeperLevelBrands(instrumentsCategoryData);
 

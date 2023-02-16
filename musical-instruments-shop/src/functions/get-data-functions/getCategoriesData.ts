@@ -1,5 +1,5 @@
-import instrumentsCategoryData from "../data/level-one-categories/mainCategory";
-import getDeeperLevelSubcategories from "../functions/getDeeperLevelSubcategories";
+import instrumentsCategoryData from "../../data/level-one-categories/mainCategory";
+import getDeeperLevelSubcategories from "./getDeeperLevelSubcategories";
 
 const levelTwoCategories = getDeeperLevelSubcategories(instrumentsCategoryData);
 // ?.filter((category) => category.hasOwnProperty("subcategories"));

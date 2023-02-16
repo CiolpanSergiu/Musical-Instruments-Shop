@@ -1,6 +1,6 @@
 import styled from "styled-components";
 import { useState } from "react";
-import sendContactFormData from "../../functions/sendContactFormData";
+import sendContactFormData from "../../functions/contact-related-functions/sendContactFormData";
 
 const FormContainer = styled.div`
   background-color: white;

@@ -7,6 +7,8 @@ import UserPage from "../../components/account-page-components/UserPage";
 
 export default function Account() {
   const { isLoggedIn }: any = useContext(AuthentificationProvider);
+
+  console.log(isLoggedIn);
   return (
     <>
       {isLoggedIn ? (

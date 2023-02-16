@@ -16,7 +16,6 @@ export default function sendAccountFormData(formData: {
       fullName: formData.fullName,
       email: formData.email,
       password: formData.password,
-      passwordConfirmation: formData.passwordConfirmation,
       country: formData.country,
       phoneNumber: formData.phoneNumber,
     }),

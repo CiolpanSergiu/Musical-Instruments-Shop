@@ -1,6 +1,6 @@
 import instrumentsCategoryData from "../data/level-one-categories/mainCategory";
 import { createCategoryPages } from "./createPageFunctions";
-import getDeeperLevelSubcategories from "../functions/getDeeperLevelSubcategories";
+import getDeeperLevelSubcategories from "../functions/get-data-functions/getDeeperLevelSubcategories";
 
 const levelTwoSubcategoriesData = getDeeperLevelSubcategories(
   instrumentsCategoryData

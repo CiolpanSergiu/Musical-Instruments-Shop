@@ -1,4 +1,4 @@
-import SuggestionLink from "../components/navbar-components/SuggestionLink";
+import SuggestionLink from "../../components/navbar-components/SuggestionLink";
 import { nanoid } from "nanoid";
 
 export default function createSuggestionsList(

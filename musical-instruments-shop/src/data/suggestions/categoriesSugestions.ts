@@ -4,7 +4,7 @@ import {
   levelThreeCategories,
   levelFourCategories,
   levelFiveCategories,
-} from "../../functions/getCategoriesData";
+} from "../../functions/get-data-functions/getCategoriesData";
 
 const mainSuggestions = instrumentsCategoryData.map((category) => [
   category.title,

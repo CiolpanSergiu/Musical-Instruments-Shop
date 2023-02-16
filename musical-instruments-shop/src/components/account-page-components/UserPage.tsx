@@ -1,7 +1,10 @@
-import { useContext, useState } from "react";
+import { useContext, useState, useEffect } from "react";
 import AuthentificationProvider from "../../context/AuthentificationContext";
 import styled from "styled-components";
 import PasswordDotsContainer from "../miscellaneous/account-page/PasswordDotsContainer";
+import editUserData from "../../functions/account-related-functions/editUserData";
+import validateNewAccountProperty from "../../functions/account-related-functions/validateNewAccountProperty";
+import FormErrorMsg from "../miscellaneous/FormErrorMsg";
 
 const Container = styled.div`
   min-height: 100vh;
@@ -51,7 +54,7 @@ const BoldSpan = styled.span`
   margin-right: 5rem;
 `;
 
-const TogglePassBtn = styled.button`
+const TogglePasswordBtn = styled.button`
   background-color: gray;
   color: white;
   border: none;
@@ -65,8 +68,13 @@ const TogglePassBtn = styled.button`
   }
 `;
 
-const ChangeUserDataBtn = styled(TogglePassBtn)`
+const ChangeUserDataBtn = styled(TogglePasswordBtn)`
   padding: 0.25rem 1.25rem;
+`;
+
+const EditBtn = styled(TogglePasswordBtn)`
+  font-size: 1.2rem;
+  padding: 0.6rem 2rem;
 `;
 
 const StyledHr = styled.hr`
@@ -84,12 +92,90 @@ const UserImg = styled.img`
   }
 `;
 
+const InputContainer = styled.div`
+  display: flex;
+  align-items: center;
+  justify-conetent: center;
+`;
+
+const InputBox = styled.div`
+  display: flex;
+  position: relative;
+  align-items: center;
+  justify-conetent: center;
+  width: 100%;
+`;
+
+const EditInput = styled.input`
+  width: 100%;
+  padding: 0.5rem;
+  font-size: 1.2rem;
+`;
+
+const CloseInputBtn = styled.span`
+  font-size: 1.2rem;
+  position: absolute;
+  right: 1rem;
+  cursor: pointer;
+`;
+
 export default function UserPage() {
-  const { currentUser }: any = useContext(AuthentificationProvider);
+  const defaultToEdit = "nothing";
+  const { currentUser, setCurrentUser }: any = useContext(
+    AuthentificationProvider
+  );
   const [showPasswords, setShowPasswords] = useState<boolean>(false);
+  const [toEdit, setToEdit] = useState<string>(defaultToEdit);
+  const [showEditInput, setShowEditInput] = useState<boolean>(false);
+  const [editInputContent, setEditInputContent] = useState<string>("");
+  const [editError, setEditError] = useState<string>("");
+
+  useEffect(() => {
+    editUserData(currentUser);
+  }, [currentUser]);
 
   function toggleShowPass() {
     setShowPasswords((prevState) => !prevState);
+  }
+
+  function toggleEditMode(propertyToEdit: string) {
+    setToEdit(propertyToEdit);
+    setEditInputContent("");
+    setShowEditInput(true);
+  }
+
+  type ValidationResult = {
+    isValid: boolean;
+    errorMsg: string;
+  };
+
+  function handleEdit() {
+    console.log(editInputContent, toEdit);
+    const validationResult: ValidationResult = validateNewAccountProperty(
+      editInputContent,
+      toEdit
+    ) || { isValid: false, errorMsg: "Something went wrong" };
+
+    if (validationResult.isValid) {
+      setCurrentUser((prevState: any) => ({
+        ...prevState,
+        [toEdit]: editInputContent,
+      }));
+      setEditError("");
+      setShowEditInput(false);
+      setToEdit(defaultToEdit);
+      setEditInputContent("");
+    } else {
+      setEditError(validationResult.errorMsg);
+    }
+  }
+
+  function handleChange(event: React.ChangeEvent<HTMLInputElement>) {
+    setEditInputContent(event.target.value);
+  }
+
+  function emptyInputBox() {
+    setEditInputContent("");
   }
 
   return (
@@ -126,12 +212,16 @@ export default function UserPage() {
           <BoldSpan>Password: </BoldSpan>
           {showPasswords ? (
             <FlexRowContainer>
-              <TogglePassBtn onClick={toggleShowPass}>Show</TogglePassBtn>
+              <TogglePasswordBtn onClick={toggleShowPass}>
+                Show
+              </TogglePasswordBtn>
               {currentUser.password}
             </FlexRowContainer>
           ) : (
             <FlexRowContainer>
-              <TogglePassBtn onClick={toggleShowPass}>Show</TogglePassBtn>
+              <TogglePasswordBtn onClick={toggleShowPass}>
+                Show
+              </TogglePasswordBtn>
               <PasswordDotsContainer length={currentUser.password.length} />
             </FlexRowContainer>
           )}
@@ -139,16 +229,54 @@ export default function UserPage() {
         <InfoRow>
           <></>
           <BoldSpan>Change Password: </BoldSpan>
-          <ChangeUserDataBtn> Change </ChangeUserDataBtn>
+          <ChangeUserDataBtn onClick={() => toggleEditMode("password")}>
+            Change
+          </ChangeUserDataBtn>
         </InfoRow>
-        <InfoRow>
+        {
+          // until i find how to check if the email is not already used by someone else
+          /* <InfoRow>
           <BoldSpan>Change Email: </BoldSpan>
-          <ChangeUserDataBtn> Change </ChangeUserDataBtn>
-        </InfoRow>
+          <ChangeUserDataBtn onClick={() => toggleEditMode("email")}>
+            Change
+          </ChangeUserDataBtn>
+        </InfoRow> */
+        }
         <InfoRow>
           <BoldSpan>Change Phone: </BoldSpan>
-          <ChangeUserDataBtn> Change </ChangeUserDataBtn>
+          <ChangeUserDataBtn onClick={() => toggleEditMode("phoneNumber")}>
+            Change
+          </ChangeUserDataBtn>
         </InfoRow>
+        <InfoRow>
+          <BoldSpan>Change Country: </BoldSpan>
+          <ChangeUserDataBtn onClick={() => toggleEditMode("country")}>
+            Change
+          </ChangeUserDataBtn>
+        </InfoRow>
+        {showEditInput && (
+          <div style={{ marginTop: "2rem" }}>
+            <InputContainer>
+              <InputBox>
+                <EditInput
+                  onChange={handleChange}
+                  type={toEdit === "password" ? "password" : "text"}
+                  name="editProperty"
+                  value={editInputContent}
+                  placeholder={`Edit ${toEdit} here`}
+                />
+                {toEdit !== "password" && (
+                  <CloseInputBtn onClick={emptyInputBox}>X</CloseInputBtn>
+                )}
+              </InputBox>
+
+              <EditBtn onClick={handleEdit}> Edit </EditBtn>
+            </InputContainer>
+            {editError !== "" && (
+              <FormErrorMsg errorMsg={editError}></FormErrorMsg>
+            )}
+          </div>
+        )}
       </div>
     </Container>
   );

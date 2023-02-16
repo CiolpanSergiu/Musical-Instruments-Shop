@@ -4,7 +4,7 @@ import {
   levleThreeCategoriesBrands,
   levleFourCategoriesBrands,
   levleFiveCategoriesBrands,
-} from "../../functions/getBrandsData";
+} from "../../functions/get-data-functions/getBrandsData";
 
 const mainBrands = mainCategoriesBrands?.map((brand) => [
   brand.brandName,

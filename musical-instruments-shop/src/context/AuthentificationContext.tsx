@@ -3,8 +3,14 @@ import { useState, createContext } from "react";
 const AuthentificationContext = createContext({});
 
 export const AuthentificationProvider = ({ children }: any) => {
-  const [isLoggedIn, setIsLoggedIn] = useState<boolean>(false);
-  const [currentUser, setCurrentUser] = useState();
+  const isUserLoggedIn =
+    localStorage.getItem("isLogged") === "true" ? true : false;
+
+  const [isLoggedIn, setIsLoggedIn] = useState<boolean>(isUserLoggedIn);
+
+  const [currentUser, setCurrentUser] = useState(
+    JSON.parse(String(localStorage.getItem("currentUser")))
+  );
 
   return (
     <AuthentificationContext.Provider

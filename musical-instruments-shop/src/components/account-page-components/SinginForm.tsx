@@ -8,8 +8,8 @@ import { Link } from "react-router-dom";
 import { ThemeProvider } from "styled-components";
 import { useContext, useState } from "react";
 import ThemeContext from "../../context/ThemeProvider";
-import sendAccountFormData from "../../functions/sendAccountFormData";
-import checkSinginData from "../../functions/checkLoginData";
+import sendAccountFormData from "../../functions/account-related-functions/sendAccountFormData";
+import checkSinginData from "../../functions/account-related-functions/checkLoginData";
 import axios from "axios";
 
 import { useNavigate } from "react-router-dom";
