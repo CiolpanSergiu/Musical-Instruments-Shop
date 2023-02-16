@@ -1,4 +1,5 @@
 import styled from "styled-components";
+import { nanoid } from "nanoid";
 
 const Dot = styled.span`
   width: 6px;
@@ -21,7 +22,7 @@ export default function PasswordDotsContainer({ length }: Props) {
   const dots = [];
 
   for (let i = 0; i < length; i++) {
-    dots.push(<Dot></Dot>);
+    dots.push(<Dot key={nanoid()}></Dot>);
   }
 
   return <DotsContainer>{dots}</DotsContainer>;

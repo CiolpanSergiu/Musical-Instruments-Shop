@@ -114,11 +114,11 @@ export default function UserPage() {
         </InfoRow>
         <InfoRow>
           <BoldSpan>Phone Number: </BoldSpan>
-          +1234567890
+          {currentUser.phoneNumber}
         </InfoRow>
         <InfoRow>
           <BoldSpan>Country: </BoldSpan>
-          Romania
+          {currentUser.country}
         </InfoRow>
         <DetailsCategoryHeader>Security: </DetailsCategoryHeader>
         <StyledHr />

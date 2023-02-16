@@ -29,11 +29,19 @@ const Header = styled.h2`
   margin: 1rem 0 2rem 0;
 `;
 
-const StyledErrorMessage = styled.div`
+const StyledErrorMessage = styled.span`
   color: #e36f75;
   padding: 0.25rem 0 0.5rem 0;
   font-size: 0.8rem;
   max-width: 15rem;
+  display: block;
+`;
+
+const IncorrectDataErrorMessage = styled(StyledErrorMessage)`
+  border: solid white 1px;
+  border-radius: 6px;
+  padding: 0.5rem;
+  font-size: 1.125rem;
 `;
 
 const StyledField = styled(Field)`
@@ -59,12 +67,12 @@ const lightTheme = {
   color: "#3d4552",
 };
 
-type ValuesObj = {
+type Values = {
   email: string;
   password: string;
 };
 
-const initialValues: ValuesObj = {
+const initialValues: Values = {
   email: "",
   password: "",
 };
@@ -84,6 +92,9 @@ type User = {
   email: string;
   password: string;
   passwordConfirmation: string;
+  country: string;
+  phoneNumber: string;
+  _id: string;
 };
 
 export default function LoginForm() {
@@ -93,7 +104,9 @@ export default function LoginForm() {
     AuthentificationProvider
   );
 
-  const onSubmit = (values: ValuesObj) => {
+  const [isLoginDataCorrect, setIsLoginDataCorrect] = useState<boolean>(false);
+
+  const onSubmit = (values: Values) => {
     const postURL = "http://localhost:5174/api/users";
     axios
       .get(postURL)
@@ -101,9 +114,11 @@ export default function LoginForm() {
         const userMatched: User[] = checkLoginData(values, res.data);
         if (userMatched.length > 0) {
           setIsLoggedIn(true);
+          setIsLoginDataCorrect(false);
           setCurrentUser(userMatched[0]);
         } else {
           setIsLoggedIn(false);
+          setIsLoginDataCorrect(true);
         }
       })
       .catch((err) => console.log(err));
@@ -119,6 +134,13 @@ export default function LoginForm() {
         <StyledForm>
           <Header>Login</Header>
 
+          {isLoginDataCorrect && (
+            <StyledErrorMessage>
+              <IncorrectDataErrorMessage>
+                Incorrect login data
+              </IncorrectDataErrorMessage>
+            </StyledErrorMessage>
+          )}
           <Label htmlFor="email">
             Email
             <ObligatoryStar />

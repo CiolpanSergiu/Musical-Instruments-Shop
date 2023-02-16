@@ -31,11 +31,12 @@ const Header = styled.h2`
   margin: 1rem 0 2rem 0;
 `;
 
-const StyledErrorMessage = styled.div`
+const StyledErrorMessage = styled.span`
   color: #e36f75;
   padding: 0.25rem 0 0.5rem 0;
   font-size: 0.8rem;
   max-width: 15rem;
+  display: block;
 `;
 
 const AlreadyExistError = styled(StyledErrorMessage)`
@@ -68,18 +69,22 @@ const lightTheme = {
   color: "#3d4552",
 };
 
-type ValuesObj = {
+type Values = {
   fullName: string;
   email: string;
   password: string;
   passwordConfirmation: string;
+  country: string;
+  phoneNumber: string;
 };
 
-const initialValues: ValuesObj = {
+const initialValues: Values = {
   fullName: "",
   email: "",
   password: "",
   passwordConfirmation: "",
+  country: "",
+  phoneNumber: "",
 };
 
 const validationSchema = Yup.object({
@@ -98,6 +103,13 @@ const validationSchema = Yup.object({
   passwordConfirmation: Yup.string()
     .required("This field is required")
     .oneOf([Yup.ref("password"), null], "Passwords do not match !"),
+  phoneNumber: Yup.string()
+    .required("This field is required !")
+    .matches(
+      /^\+?([0-9]{2})\)?[-. ]?([0-9]{4})[-. ]?([0-9]{4})$/,
+      "Invalid phone number format"
+    ),
+  country: Yup.string().required("This field is required !"),
 });
 
 export default function SinginForm() {
@@ -105,7 +117,7 @@ export default function SinginForm() {
   const navigate = useNavigate();
   const [doUserExist, setDoUserExist] = useState<boolean>(false);
 
-  const onSubmit = (values: ValuesObj) => {
+  const onSubmit = (values: Values) => {
     const postURL = "http://localhost:5174/api/users";
     axios
       .get(postURL)
@@ -192,8 +204,36 @@ export default function SinginForm() {
           <StyledErrorMessage>
             <ErrorMessage name="passwordConfirmation" />
           </StyledErrorMessage>
-          <FormButton buttonOrder="first" buttonText="Singin" />
 
+          <Label htmlFor="phoneNumber">
+            Phone Number
+            <ObligatoryStar />
+          </Label>
+          <StyledField
+            type="text"
+            id="phoneNumber"
+            name="phoneNumber"
+            placeholder="0123456789"
+          />
+          <StyledErrorMessage>
+            <ErrorMessage name="phoneNumber" />
+          </StyledErrorMessage>
+
+          <Label htmlFor="country">
+            Country
+            <ObligatoryStar />
+          </Label>
+          <StyledField
+            type="text"
+            id="country"
+            name="country"
+            placeholder="Finland"
+          />
+          <StyledErrorMessage>
+            <ErrorMessage name="country" />
+          </StyledErrorMessage>
+
+          <FormButton buttonOrder="first" buttonText="Singin" />
           <CenteredSmallSpan text="Already have an account?" />
           <Link to="/login">
             <FormButton buttonOrder="second" buttonText="Login" />

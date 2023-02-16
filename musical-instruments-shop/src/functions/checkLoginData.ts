@@ -3,6 +3,9 @@ type User = {
   email: string;
   password: string;
   passwordConfirmation: string;
+  country: string;
+  phoneNumber: string;
+  _id: string;
 };
 
 export default function checkLoginData(

@@ -17,6 +17,14 @@ const UsersSchema = new mongoose.Schema({
     type: String,
     require: [true, "Must provide a the same password"],
   },
+  phoneNumber: {
+    type: String,
+    default: "",
+  },
+  country: {
+    type: String,
+    default: "unknown",
+  },
 });
 
 module.exports = mongoose.model("UsersSchema", UsersSchema);

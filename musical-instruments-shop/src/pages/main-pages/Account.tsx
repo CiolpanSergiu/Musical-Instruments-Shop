@@ -7,17 +7,16 @@ import UserPage from "../../components/account-page-components/UserPage";
 
 export default function Account() {
   const { isLoggedIn }: any = useContext(AuthentificationProvider);
-
   return (
     <>
-      {!isLoggedIn ? (
-        <LoginPage />
-      ) : (
+      {isLoggedIn ? (
         <>
           <Navbar />
           <UserPage />
           <Footer />
         </>
+      ) : (
+        <LoginPage />
       )}
     </>
   );

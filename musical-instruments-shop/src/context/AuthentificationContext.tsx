@@ -4,7 +4,7 @@ const AuthentificationContext = createContext({});
 
 export const AuthentificationProvider = ({ children }: any) => {
   const [isLoggedIn, setIsLoggedIn] = useState<boolean>(false);
-  const [currentUser, setCurrentUser] = useState<string>("");
+  const [currentUser, setCurrentUser] = useState();
 
   return (
     <AuthentificationContext.Provider

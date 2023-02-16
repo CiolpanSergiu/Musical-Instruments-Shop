@@ -3,6 +3,8 @@ type User = {
   email: string;
   password: string;
   passwordConfirmation: string;
+  country: string;
+  phoneNumber: string;
 };
 
 export default function checkSinginData(
