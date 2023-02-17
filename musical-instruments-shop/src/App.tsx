@@ -5,6 +5,7 @@ import Contact from "./pages/main-pages/Contact";
 import Account from "./pages/main-pages/Account";
 import ShoppingCartPage from "./pages/main-pages/ShoppingCartPage";
 import SinginPage from "./pages/main-pages/SinginPage";
+import NoPageFound from "./pages/main-pages/NoPageFound";
 // level two categories
 import {
   levelTwoCategoryPages,
@@ -25,6 +26,7 @@ export default function App() {
         <Route path="/account" element={<Account />}></Route>
         <Route path="/singin" element={<SinginPage />}></Route>
         <Route path="/shopping-cart" element={<ShoppingCartPage />}></Route>
+        <Route path="*" element={<NoPageFound />}></Route>
 
         {itemsRoutes}
         {popularItemsPages}
