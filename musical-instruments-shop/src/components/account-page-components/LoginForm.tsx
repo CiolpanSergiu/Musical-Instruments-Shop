@@ -4,7 +4,7 @@ import * as Yup from "yup";
 import FormButton from "../miscellaneous/account-page/FormButton";
 import CenteredSmallSpan from "../miscellaneous/account-page/CenteredSmallSpan";
 import ObligatoryStar from "../miscellaneous/account-page/ObligatoryStar";
-import { Link } from "react-router-dom";
+import { Link, useNavigate } from "react-router-dom";
 import { ThemeProvider } from "styled-components";
 import { useContext, useState, useEffect } from "react";
 import ThemeContext from "../../context/ThemeProvider";
@@ -108,6 +108,8 @@ type User = {
 export default function LoginForm() {
   const { isDark }: any = useContext(ThemeContext);
 
+  const navigate = useNavigate();
+
   const { setIsLoggedIn, setCurrentUser }: any = useContext(
     AuthentificationProvider
   );
@@ -125,9 +127,9 @@ export default function LoginForm() {
   }
 
   const onSubmit = (values: Values) => {
-    const postURL = "http://localhost:5174/api/users";
+    const url = "http://localhost:5174/api/users";
     axios
-      .get(postURL)
+      .get(url)
       .then((res) => {
         const userMatched: User[] = checkLoginData(values, res.data);
         if (userMatched.length > 0) {
@@ -135,6 +137,7 @@ export default function LoginForm() {
           setIsLoginDataIncorrect(false);
           setCurrentUser(userMatched[0]);
           if (stayLogged) SaveCurrentUser(userMatched[0]);
+          navigate("/account");
         } else {
           setIsLoggedIn(false);
           setIsLoginDataIncorrect(true);

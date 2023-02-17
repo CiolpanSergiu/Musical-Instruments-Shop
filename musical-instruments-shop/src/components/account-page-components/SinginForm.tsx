@@ -4,15 +4,13 @@ import * as Yup from "yup";
 import FormButton from "../miscellaneous/account-page/FormButton";
 import CenteredSmallSpan from "../miscellaneous/account-page/CenteredSmallSpan";
 import ObligatoryStar from "../miscellaneous/account-page/ObligatoryStar";
-import { Link } from "react-router-dom";
+import { Link, useNavigate } from "react-router-dom";
 import { ThemeProvider } from "styled-components";
 import { useContext, useState } from "react";
 import ThemeContext from "../../context/ThemeProvider";
 import sendAccountFormData from "../../functions/account-related-functions/sendAccountFormData";
 import checkSinginData from "../../functions/account-related-functions/checkLoginData";
 import axios from "axios";
-
-import { useNavigate } from "react-router-dom";
 
 const StyledForm = styled(Form)`
   display: flex;

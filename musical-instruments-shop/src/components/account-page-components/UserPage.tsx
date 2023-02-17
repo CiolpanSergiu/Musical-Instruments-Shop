@@ -1,14 +1,19 @@
 import { useContext, useState, useEffect } from "react";
 import AuthentificationProvider from "../../context/AuthentificationContext";
 import styled from "styled-components";
+import { useNavigate } from "react-router-dom";
 import PasswordDotsContainer from "../miscellaneous/account-page/PasswordDotsContainer";
 import editUserData from "../../functions/account-related-functions/editUserData";
 import validateNewAccountProperty from "../../functions/account-related-functions/validateNewAccountProperty";
 import FormErrorMsg from "../miscellaneous/FormErrorMsg";
 import deleteUserAccount from "../../functions/account-related-functions/deleteUserAccount";
+import GrayButton from "../miscellaneous/account-page/GrayButton";
+import ConfirmModal from "../miscellaneous/account-page/ConfirmModal";
+import Underlay from "../miscellaneous/account-page/Underly";
 
 const Container = styled.div`
-  min-height: 100vh;
+  height: 100%;
+  width: 100%;
   display: flex;
   flex-direction: column;
   padding: 2rem 1.5rem 5rem 1.5rem;
@@ -50,6 +55,13 @@ const InfoRow = styled.div`
   padding: 0.5rem 1rem;
 `;
 
+const TwoColumnGrid = styled.div`
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 1rem;
+  padding: 0.5rem 1rem;
+`;
+
 const BoldSpan = styled.span`
   font-weight: bold;
   margin-right: 5rem;
@@ -67,10 +79,6 @@ const TogglePasswordBtn = styled.button`
   &:hover {
     background-color: #555555;
   }
-`;
-
-const ChangeUserDataBtn = styled(TogglePasswordBtn)`
-  padding: 0.25rem 1.25rem;
 `;
 
 const EditBtn = styled(TogglePasswordBtn)`
@@ -129,6 +137,9 @@ export default function UserPage() {
   const [showEditInput, setShowEditInput] = useState<boolean>(false);
   const [editInputContent, setEditInputContent] = useState<string>("");
   const [editError, setEditError] = useState<string>("");
+  const [showDeleteConfirmation, setShowDeleteConfirmation] =
+    useState<boolean>(false);
+  const navigate = useNavigate();
 
   useEffect(() => {
     editUserData(currentUser);
@@ -139,6 +150,10 @@ export default function UserPage() {
     localStorage.removeItem("currentUser");
     setCurrentUser({});
     setIsLoggedIn(false);
+  }
+
+  function toggleModal() {
+    setShowDeleteConfirmation((prevState: boolean) => !prevState);
   }
 
   function handleDelete() {
@@ -192,6 +207,13 @@ export default function UserPage() {
 
   return (
     <Container>
+      {showDeleteConfirmation && (
+        <>
+          <Underlay handleClose={toggleModal} />
+          <ConfirmModal handleClose={toggleModal} handleDelete={handleDelete} />
+        </>
+      )}
+
       <MainHeader>Account</MainHeader>
       <div>
         <UserImg
@@ -224,16 +246,15 @@ export default function UserPage() {
           <BoldSpan>Password: </BoldSpan>
           {showPasswords ? (
             <FlexRowContainer>
-              <TogglePasswordBtn onClick={toggleShowPass}>
-                Show
-              </TogglePasswordBtn>
+              <GrayButton
+                contentText="Show"
+                handleClick={toggleShowPass}
+              ></GrayButton>
               {currentUser.password}
             </FlexRowContainer>
           ) : (
             <FlexRowContainer>
-              <TogglePasswordBtn onClick={toggleShowPass}>
-                Show
-              </TogglePasswordBtn>
+              <GrayButton contentText="Show" handleClick={toggleShowPass} />
               <PasswordDotsContainer length={currentUser.password.length} />
             </FlexRowContainer>
           )}
@@ -241,9 +262,10 @@ export default function UserPage() {
         <InfoRow>
           <></>
           <BoldSpan>Change Password: </BoldSpan>
-          <ChangeUserDataBtn onClick={() => toggleEditMode("password")}>
-            Change
-          </ChangeUserDataBtn>
+          <GrayButton
+            contentText="Change"
+            handleClick={() => toggleEditMode("password")}
+          />
         </InfoRow>
         {
           // until i find how to check if the email is not already used by someone else
@@ -256,15 +278,17 @@ export default function UserPage() {
         }
         <InfoRow>
           <BoldSpan>Change Phone: </BoldSpan>
-          <ChangeUserDataBtn onClick={() => toggleEditMode("phoneNumber")}>
-            Change
-          </ChangeUserDataBtn>
+          <GrayButton
+            contentText="Change"
+            handleClick={() => toggleEditMode("phoneNumber")}
+          />
         </InfoRow>
         <InfoRow>
           <BoldSpan>Change Country: </BoldSpan>
-          <ChangeUserDataBtn onClick={() => toggleEditMode("country")}>
-            Change
-          </ChangeUserDataBtn>
+          <GrayButton
+            contentText="Change"
+            handleClick={() => toggleEditMode("country")}
+          />
         </InfoRow>
         {showEditInput && (
           <div style={{ marginTop: "2rem" }}>
@@ -289,8 +313,35 @@ export default function UserPage() {
             )}
           </div>
         )}
-        <button onClick={handleLogout}>Log Out</button>
-        <button onClick={handleDelete}>Delete Account</button>
+        <DetailsCategoryHeader>Other: </DetailsCategoryHeader>
+        <StyledHr />
+        <TwoColumnGrid>
+          <BoldSpan>Log Out: </BoldSpan>
+          <GrayButton
+            contentText="Log Out"
+            padding=".5rem 2rem"
+            width="100%"
+            handleClick={handleLogout}
+          />
+        </TwoColumnGrid>
+        <TwoColumnGrid>
+          <BoldSpan>Delete this Account: </BoldSpan>
+          <GrayButton
+            contentText="Delete Account"
+            padding=".5rem 2rem"
+            width="100%"
+            handleClick={toggleModal}
+          />
+        </TwoColumnGrid>
+        <TwoColumnGrid>
+          <BoldSpan>Your Shopping Cart: </BoldSpan>
+          <GrayButton
+            contentText="Shopping Cart"
+            padding=".5rem 2rem"
+            width="100%"
+            handleClick={() => navigate("/shopping-cart")}
+          />
+        </TwoColumnGrid>
       </div>
     </Container>
   );

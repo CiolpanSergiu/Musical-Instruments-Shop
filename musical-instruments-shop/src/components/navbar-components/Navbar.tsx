@@ -17,7 +17,7 @@ const NavbarContainer = styled.nav`
   background-color: ${(props) => props.theme.bgColor};
   padding: 0 1rem;
   box-shadow: 0 0 10px gray;
-  z-index: 999;
+  z-index: 100;
   position: relative;
 `;
 

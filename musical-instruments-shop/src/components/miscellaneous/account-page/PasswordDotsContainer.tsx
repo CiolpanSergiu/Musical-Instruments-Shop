@@ -12,6 +12,7 @@ const Dot = styled.span`
 const DotsContainer = styled.div`
   display: flex;
   align-items: center;
+  margin-left: 1rem;
 `;
 
 type Props = {
