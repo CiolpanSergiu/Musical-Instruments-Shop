@@ -1,6 +1,7 @@
 import styled from "styled-components";
-import { useState } from "react";
+import { useState, useContext } from "react";
 import sendContactFormData from "../../functions/contact-related-functions/sendContactFormData";
+import AuthentificationProvider from "../../context/AuthentificationContext";
 
 const FormContainer = styled.div`
   background-color: white;
@@ -14,6 +15,11 @@ const FormContainer = styled.div`
     border-bottom: none;
     border-right: solid gray 3px;
   }
+`;
+
+const FormHeader = styled.h1`
+  font-weight: 500;
+  margin-bottom: 3rem;
 `;
 
 const Form = styled.form`
@@ -126,10 +132,12 @@ type FormData = {
 const emailPattern = /^\w+([\.-]?\w+)*@\w+([\.-]?\w+)*(\.\w{2,3})+$/;
 
 export default function ContactForm() {
+  const { isLoggedIn, currentUser }: any = useContext(AuthentificationProvider);
+
   const [formData, setFormData] = useState<FormData>({
-    firstName: "",
-    lastName: "",
-    email: "",
+    firstName: isLoggedIn ? currentUser.fullName.split(" ")[0] : "",
+    lastName: isLoggedIn ? currentUser.fullName.split(" ")[1] : "",
+    email: isLoggedIn ? currentUser.email : "",
     message: "",
     additionalInfo: "",
   });
@@ -139,13 +147,15 @@ export default function ContactForm() {
 
   function emptyInputBoxes() {
     setFormData({
-      firstName: "",
-      lastName: "",
-      email: "",
+      firstName: isLoggedIn ? currentUser.fullName.split(" ")[0] : "",
+      lastName: isLoggedIn ? currentUser.fullName.split(" ")[1] : "",
+      email: isLoggedIn ? currentUser.email : "",
       message: "",
       additionalInfo: "",
     });
   }
+
+  console.log(formData);
 
   function handleChange(
     event:
@@ -178,58 +188,65 @@ export default function ContactForm() {
 
   return (
     <FormContainer>
+      <FormHeader>Write Us</FormHeader>
       <Form onSubmit={(e) => handleSubmit(e)}>
         <SubmitMessage style={{ display: isSubmited ? "block" : "none" }}>
           You message was submited!
         </SubmitMessage>
-        <InputContainer>
-          <Input
-            id="first-name"
-            required
-            onChange={handleChange}
-            name="firstName"
-            value={formData.firstName}
-          ></Input>
-          <Label htmlFor="first-name">
-            <Span>
-              First name
-              <ObligatoryFieldStar>*</ObligatoryFieldStar>
-            </Span>
-          </Label>
-        </InputContainer>
-        <InputContainer>
-          <Input
-            id="last-name"
-            required
-            onChange={handleChange}
-            name="lastName"
-            value={formData.lastName}
-          ></Input>
-          <Label htmlFor="last-name">
-            <Span>
-              Last Name
-              <ObligatoryFieldStar>*</ObligatoryFieldStar>
-            </Span>
-          </Label>
-        </InputContainer>
-        <InvalidEmail style={{ display: isEmailInvalid ? "block" : "none" }}>
-          Invalid Email!
-        </InvalidEmail>
-        <InputContainer>
-          <Input
-            id="email"
-            required
-            onChange={handleChange}
-            name="email"
-            value={formData.email}
-          ></Input>
-          <Label htmlFor="email">
-            <Span>
-              Email
-              <ObligatoryFieldStar>*</ObligatoryFieldStar>
-            </Span>
-          </Label>
-        </InputContainer>
+        {!isLoggedIn && (
+          <>
+            <InputContainer>
+              <Input
+                id="first-name"
+                required
+                onChange={handleChange}
+                name="firstName"
+                value={formData.firstName}
+              ></Input>
+              <Label htmlFor="first-name">
+                <Span>
+                  First name
+                  <ObligatoryFieldStar>*</ObligatoryFieldStar>
+                </Span>
+              </Label>
+            </InputContainer>
+            <InputContainer>
+              <Input
+                id="last-name"
+                required
+                onChange={handleChange}
+                name="lastName"
+                value={formData.lastName}
+              ></Input>
+              <Label htmlFor="last-name">
+                <Span>
+                  Last Name
+                  <ObligatoryFieldStar>*</ObligatoryFieldStar>
+                </Span>
+              </Label>
+            </InputContainer>
+            <InvalidEmail
+              style={{ display: isEmailInvalid ? "block" : "none" }}
+            >
+              Invalid Email!
+            </InvalidEmail>
+            <InputContainer>
+              <Input
+                id="email"
+                required
+                onChange={handleChange}
+                name="email"
+                value={formData.email}
+              ></Input>
+              <Label htmlFor="email">
+                <Span>
+                  Email
+                  <ObligatoryFieldStar>*</ObligatoryFieldStar>
+                </Span>
+              </Label>
+            </InputContainer>
+          </>
+        )}
         <InputContainer>
           <Input
             id="message"
