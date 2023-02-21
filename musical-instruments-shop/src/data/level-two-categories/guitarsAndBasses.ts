@@ -1,5 +1,5 @@
 // subcategories
-import electricGuitarSubcategories from "../level-three-categories/guitars-and-basses/electricGuitarsData.json";
+import electricGuitarSubcategories from "../level-three-categories/guitars-and-basses/electricGuitarsData";
 import acousticGuitarsSubcategorie from "../level-three-categories/guitars-and-basses/acousticGuitarsData.json";
 import electricBassesSubcategories from "../level-three-categories/guitars-and-basses/electricBassesData.json";
 import acousticBassesSubcategories from "../level-three-categories/guitars-and-basses/acousticBassesData.json";
@@ -119,8 +119,8 @@ const guitarsAndBassesData = [
   {
     src: "/images/categories/level-two-categories/guitars-and-basses/change_parts.jpg",
     alt: "Guitar saddle image",
-    title: "Change Parts",
-    pageLink: "/change-parts",
+    title: "Spare Parts",
+    pageLink: "/spare-parts",
     subcategories: changeSpareSubcategories,
     brands: sparePartsBrands,
   },

@@ -21,7 +21,7 @@ const musicalaccesoriesData = [
   {
     src: "/images/categories/level-two-categories/accesories/battery.jpg",
     alt: "A set of two batteries",
-    title: "Accumulators/Batteries",
+    title: "Accumulators / Batteries",
     pageLink: "/accumulators-batteries",
   },
   {

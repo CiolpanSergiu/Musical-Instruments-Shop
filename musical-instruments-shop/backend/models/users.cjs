@@ -25,6 +25,10 @@ const UsersSchema = new mongoose.Schema({
     type: String,
     default: "unknown",
   },
+  shoppingCart: {
+    type: Array,
+    default: [],
+  },
 });
 
-module.exports = mongoose.model("UsersSchema", UsersSchema);
+module.exports = mongoose.model("users-schema", UsersSchema);

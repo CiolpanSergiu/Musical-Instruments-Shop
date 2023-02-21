@@ -2,16 +2,16 @@ import drumPedalsData from "../../level-four-categories/drums-and-percussion/dru
 
 export default [
   {
-    title: "Acoustic Drum Stands Set",
+    title: "Acoustic Drums Stands Sets",
     src: "/images/categories/level-three-categories/drums-and-percussion/drum-pedals-and-stands/drum_stands_set.jpg",
     alt: "A set of acoustic drum stands",
-    pageLink: "/acoustic-drum-stands-set",
+    pageLink: "/acoustic-drums-stands-sets",
   },
   {
-    title: "Electronic Drum Stands Set",
+    title: "Electronic Drums Stands Sets",
     src: "/images/categories/level-three-categories/drums-and-percussion/drum-pedals-and-stands/electronic_drum_stands_set.jpg",
     alt: "A set of electronic drum stands",
-    pageLink: "/electronic-drum-stands-set",
+    pageLink: "/electronic-drums-stands-sets",
   },
   {
     title: "Bass Drum Pedals",
@@ -33,10 +33,10 @@ export default [
     pageLink: "/cymbal-stands-with-arm",
   },
   {
-    title: "Cymbal Arm",
+    title: "Cymbal Arms",
     src: "/images/categories/level-three-categories/drums-and-percussion/drum-pedals-and-stands/cymbal_arm.jpg",
     alt: "A cymbal arm",
-    pageLink: "/cymbal-arm",
+    pageLink: "/cymbal-arms",
   },
   {
     title: "Tom Drum Stands",

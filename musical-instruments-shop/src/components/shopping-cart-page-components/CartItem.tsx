@@ -1,7 +1,9 @@
 import styled from "styled-components";
 import { BsFillTrashFill } from "react-icons/bs";
 import ShoppingCartContext from "../../context/ShoppingCartContext";
+import AuthentificationContext from "../../context/AuthentificationContext";
 import { useContext } from "react";
+import editUserData from "../../functions/account-related-functions/editUserData";
 
 const CartItemContainer = styled.div`
   display: grid;
@@ -101,11 +103,20 @@ export default function CartItem({
   quantity,
 }: Props) {
   const {
+    cartItems,
     addToCart,
     removeFromCart,
     decreaseItemQuantity,
     setCartItemsQuantity,
+    setCartItems,
   }: any = useContext(ShoppingCartContext);
+
+  const { currentUser, isLoggedIn }: any = useContext(AuthentificationContext);
+
+  // if (isLoggedIn) {
+  //   editUserData({ ...currentUser, shoppingCart: cartItems });
+  //   localStorage.setItem("currentUser", JSON.stringify(currentUser));
+  // }
 
   function deleteItem() {
     removeFromCart({
@@ -118,14 +129,22 @@ export default function CartItem({
   }
 
   function increaseQuantity() {
-    addToCart({
-      title: title,
-      src: src,
-      alt: alt,
-      price: price,
-      quantity: quantity,
-    });
+    // addToCart({
+    //   title: title,
+    //   src: src,
+    //   alt: alt,
+    //   price: price,
+    //   quantity: quantity,
+    // });
     setCartItemsQuantity((prevState: number) => prevState + 1);
+    setCartItems((prevState: any) => {
+      return prevState.map((item: any) => {
+        if (item.title === title) {
+          return { ...item, quantity: item.quantity + 1 };
+        }
+        return item;
+      });
+    });
   }
 
   function decreaseQuantity() {

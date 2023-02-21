@@ -1,5 +1,4 @@
 import { useState, createContext } from "react";
-
 const ShoppingCartContext = createContext({});
 
 type CartItem = {
@@ -13,8 +12,10 @@ type CartItem = {
 type CartItems = CartItem[];
 
 export const ShoppingCartContextProvider = ({ children }: any) => {
-  const [cartItemsQuantity, setCartItemsQuantity] = useState<number>(0);
   const [cartItems, setCartItems] = useState<CartItems>([]);
+
+  const [cartItemsQuantity, setCartItemsQuantity] = useState<number>(0);
+
   const [itemsInCart, setItemsInCart] = useState<string[]>([]);
 
   function checkIfItemInCart(item: CartItem) {
@@ -101,3 +102,18 @@ export const ShoppingCartContextProvider = ({ children }: any) => {
 };
 
 export default ShoppingCartContext;
+
+// const [cartItems, setCartItems] = useState<CartItems>(
+//   localStorage.getItem("currentUser")
+//     ? JSON.parse(String(localStorage.getItem("currentUser"))).shoppingCart
+//     : []
+// );
+
+// const [cartItemsQuantity, setCartItemsQuantity] = useState<number>(
+//   localStorage.getItem("currentUser")
+//     ? cartItems.reduce(
+//         (accumulator, currentValue) => accumulator + currentValue.quantity,
+//         0
+//       )
+//     : 0
+// );

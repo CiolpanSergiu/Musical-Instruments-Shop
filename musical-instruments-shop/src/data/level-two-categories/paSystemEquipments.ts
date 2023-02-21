@@ -1,6 +1,5 @@
 // subcategories
 import speakerSubcategories from "../level-three-categories/pa-system-equipments/speakersData.json";
-import speakerStandsSubcategories from "../level-three-categories/pa-system-equipments/speakerStandsData.json";
 import paMixersSubcategories from "../level-three-categories/pa-system-equipments/paMixersData.json";
 import microphonesSubcategories from "../level-three-categories/pa-system-equipments/microphonesForPaData.json";
 import cablesSubcategories from "../level-three-categories/pa-system-equipments/paCablesData.json";
@@ -33,7 +32,6 @@ const paSystemEquipmentsData = [
     alt: "A stand for speakers",
     title: "Speaker Stands",
     pageLink: "/speaker-stands",
-    subcategories: speakerStandsSubcategories,
     brands: speakerStandsBrands,
   },
   {

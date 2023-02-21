@@ -19,13 +19,6 @@ const levelThreeCategoryPages = createCategoryPages(levelTwoSubcategoriesData);
 const levelFourCategoryPages = createCategoryPages(levelThreeSubcategoriesData);
 const levelFiveCategoryPages = createCategoryPages(levelFourSubcategoriesData);
 
-// export default [
-//   instrumentsCategoryData,
-//   levelTwoSubcategoriesData,
-//   levelThreeSubcategoriesData,
-//   levelFourSubcategoriesData,
-// ];
-
 export {
   levelTwoCategoryPages,
   levelThreeCategoryPages,

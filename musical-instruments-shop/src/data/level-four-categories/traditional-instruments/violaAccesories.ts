@@ -2,7 +2,7 @@ import violaAccesoriesBrands from "../../logo-data/traditional-instruments-brand
 
 export default {
   pageLink: "/violas-accesories",
-  title: "violas Accesories",
+  title: "Violas Accesories",
   brands: violaAccesoriesBrands,
   subcategories: [
     {

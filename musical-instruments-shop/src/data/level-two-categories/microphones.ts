@@ -1,6 +1,6 @@
 //subcategories
-import instrumentMicrophoneSubcategories from "../level-three-categories/microphones/instrumentmicrophonesData.json";
-import vocalMicrophoneSubcategories from "../level-three-categories/microphones/vocalmicrophonesData.json";
+import instrumentMicrophoneSubcategories from "../level-three-categories/microphones/instrumentMicrophonesData.json";
+import vocalMicrophoneSubcategories from "../level-three-categories/microphones/vocalMicrophonesData.json";
 // brands
 import vocalMicrophoneBrands from "../logo-data/microphone-brands/vocal-microphones/vocalMicrophoneBrands.json";
 import instrumnetMicrophoneBrands from "../logo-data/microphone-brands/instrument-microphones/instrumentMicrophoneBrands.json";

@@ -2,7 +2,7 @@ import doublebassAccesoriesBrands from "../../logo-data/traditional-instruments-
 
 export default {
   pageLink: "/doublebasses-accesories",
-  title: "doublebasses Accesories",
+  title: "Doublebasses Accesories",
   brands: doublebassAccesoriesBrands,
   subcategories: [
     {

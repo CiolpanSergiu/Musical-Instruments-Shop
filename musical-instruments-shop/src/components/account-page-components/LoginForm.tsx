@@ -6,11 +6,12 @@ import CenteredSmallSpan from "../miscellaneous/account-page/CenteredSmallSpan";
 import ObligatoryStar from "../miscellaneous/account-page/ObligatoryStar";
 import { Link, useNavigate } from "react-router-dom";
 import { ThemeProvider } from "styled-components";
-import { useContext, useState, useEffect } from "react";
+import { useContext, useState } from "react";
 import ThemeContext from "../../context/ThemeProvider";
 import axios from "axios";
 import checkLoginData from "../../functions/account-related-functions/checkLoginData";
 import AuthentificationProvider from "../../context/AuthentificationContext";
+import ShoppingCartContext from "../../context/ShoppingCartContext";
 
 const StyledForm = styled(Form)`
   display: flex;
@@ -102,6 +103,7 @@ type User = {
   passwordConfirmation: string;
   country: string;
   phoneNumber: string;
+  shoppingCart: [];
   _id: string;
 };
 
@@ -110,9 +112,12 @@ export default function LoginForm() {
 
   const navigate = useNavigate();
 
-  const { setIsLoggedIn, setCurrentUser }: any = useContext(
+  const { setIsLoggedIn, setCurrentUser, currentUser }: any = useContext(
     AuthentificationProvider
   );
+
+  const { cartItems }: any = useContext(ShoppingCartContext);
+
   const [stayLogged, setStayLogged] = useState<boolean>(false);
   const [isLoginDataIncorrect, setIsLoginDataIncorrect] =
     useState<boolean>(false);
@@ -135,7 +140,13 @@ export default function LoginForm() {
         if (userMatched.length > 0) {
           setIsLoggedIn(true);
           setIsLoginDataIncorrect(false);
-          setCurrentUser(userMatched[0]);
+          setCurrentUser({
+            ...userMatched[0],
+            // shoppingCart:
+            //   userMatched[0].shoppingCart.length === 0
+            //     ? cartItems
+            //     : userMatched[0].shoppingCart,
+          });
           if (stayLogged) SaveCurrentUser(userMatched[0]);
           navigate("/account");
         } else {

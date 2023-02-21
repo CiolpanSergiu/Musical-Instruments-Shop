@@ -19,7 +19,7 @@ const start = async () => {
   try {
     console.log("Connecting to UsersMessages DB");
     console.log("Connecting to Users DB");
-    await connectDb(process.env.MONGO_CONTACT_URL);
+    await connectDb(process.env.MONGO_DB_URL);
     app.listen(port, () => {
       console.log(`Server is listening on port http://localhost:${port}`);
     });

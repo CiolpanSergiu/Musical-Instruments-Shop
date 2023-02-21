@@ -10,6 +10,7 @@ import deleteUserAccount from "../../functions/account-related-functions/deleteU
 import GrayButton from "../miscellaneous/account-page/GrayButton";
 import ConfirmModal from "../miscellaneous/account-page/ConfirmModal";
 import Underlay from "../miscellaneous/account-page/Underly";
+import ShoppingCartContext from "../../context/ShoppingCartContext";
 
 const Container = styled.div`
   height: 100%;
@@ -67,23 +68,22 @@ const BoldSpan = styled.span`
   margin-right: 5rem;
 `;
 
-const TogglePasswordBtn = styled.button`
+const PasswordText = styled.span`
+  margin-left: 1rem;
+`;
+
+const EditBtn = styled.button`
   background-color: gray;
+  padding: 0.65rem 2rem;
+  font-size: 1.1rem;
   color: white;
   border: none;
-  padding: 0.25rem 1rem;
   cursor: pointer;
-  margin-right: 1rem;
   transition: 0.3s all ease;
 
   &:hover {
     background-color: #555555;
   }
-`;
-
-const EditBtn = styled(TogglePasswordBtn)`
-  font-size: 1.2rem;
-  padding: 0.6rem 2rem;
 `;
 
 const StyledHr = styled.hr`
@@ -130,8 +130,12 @@ const CloseInputBtn = styled.span`
 
 export default function UserPage() {
   const defaultToEdit = "nothing";
-  const { currentUser, setCurrentUser, setIsLoggedIn, isLoggedIn }: any =
-    useContext(AuthentificationProvider);
+  const { currentUser, setCurrentUser, setIsLoggedIn }: any = useContext(
+    AuthentificationProvider
+  );
+  const { setCartItems, setCartItemsQuantity }: any =
+    useContext(ShoppingCartContext);
+
   const [showPasswords, setShowPasswords] = useState<boolean>(false);
   const [toEdit, setToEdit] = useState<string>(defaultToEdit);
   const [showEditInput, setShowEditInput] = useState<boolean>(false);
@@ -145,11 +149,15 @@ export default function UserPage() {
     editUserData(currentUser);
   }, [currentUser]);
 
+  console.log(currentUser);
+
   function handleLogout() {
     localStorage.removeItem("isLogged");
     localStorage.removeItem("currentUser");
     setCurrentUser({});
     setIsLoggedIn(false);
+    setCartItems([]);
+    setCartItemsQuantity(0);
   }
 
   function toggleModal() {
@@ -177,7 +185,6 @@ export default function UserPage() {
   };
 
   function handleEdit() {
-    console.log(editInputContent, toEdit);
     const validationResult: ValidationResult = validateNewAccountProperty(
       editInputContent,
       toEdit
@@ -250,7 +257,7 @@ export default function UserPage() {
                 contentText="Show"
                 handleClick={toggleShowPass}
               ></GrayButton>
-              {currentUser.password}
+              <PasswordText>{currentUser.password}</PasswordText>
             </FlexRowContainer>
           ) : (
             <FlexRowContainer>
@@ -306,7 +313,7 @@ export default function UserPage() {
                 )}
               </InputBox>
 
-              <EditBtn onClick={handleEdit}> Edit </EditBtn>
+              <EditBtn onClick={handleEdit}>Edit</EditBtn>
             </InputContainer>
             {editError !== "" && (
               <FormErrorMsg errorMsg={editError}></FormErrorMsg>

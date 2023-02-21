@@ -29,6 +29,7 @@ const Header = styled.h1`
   font-weight: 500;
   margin: 5rem 0 3rem 0;
   text-align: center;
+  padding: 0 2rem;
 
   @media only screen and (min-width: 768px) {
     font-size: 2.5rem;

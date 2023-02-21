@@ -4,7 +4,7 @@ import violinViolaAccesoriesBrands from "../../logo-data/traditional-instruments
 
 export default {
   pageLink: "/violins-violas-accesories",
-  title: "violins/Violas Accesories",
+  title: "Violins / Violas Accesories",
   brands: violinViolaAccesoriesBrands,
   subcategories: [
     {

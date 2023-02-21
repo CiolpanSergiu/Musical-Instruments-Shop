@@ -14,7 +14,10 @@ const Container = styled.div`
 const MainHeader = styled.h1`
   font-weight: 500;
   margin-bottom: 2rem;
-  max-width: 60%;
+
+  @media only screen and (min-width: 768px) {
+    max-width: 60%;
+  }
 `;
 
 const StyledP = styled.p`
@@ -23,8 +26,12 @@ const StyledP = styled.p`
 
 const Img = styled.img`
   margin-bottom: 2rem;
-  max-width: 40%;
+  width: 300px;
   border-radius: 10px;
+
+  @media only screen and (min-width: 768px) {
+    width: 40%;
+  }
 `;
 
 export default function NoPageFound() {

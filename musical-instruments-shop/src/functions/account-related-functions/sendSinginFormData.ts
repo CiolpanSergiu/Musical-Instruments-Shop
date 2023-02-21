@@ -1,4 +1,4 @@
-export default function sendAccountFormData(formData: {
+export default function sendSinginFormData(formData: {
   fullName: string;
   email: string;
   password: string;

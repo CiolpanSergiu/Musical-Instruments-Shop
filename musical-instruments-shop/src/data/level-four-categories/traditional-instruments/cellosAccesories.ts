@@ -4,7 +4,7 @@ import cellosAccesoriesBrands from "../../logo-data/traditional-instruments-bran
 
 export default {
   pageLink: "/cellos-accesories",
-  title: "cellos Accesories",
+  title: "Cellos Accesories",
   brands: cellosAccesoriesBrands,
   subcategories: [
     {

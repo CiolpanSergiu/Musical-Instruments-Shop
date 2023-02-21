@@ -7,10 +7,10 @@ import tomDrumsSubcategories from "../../level-four-categories/drums-and-percuss
 
 export default [
   {
-    title: "Acoustic Drum Set",
+    title: "Acoustic Drums Sets",
     src: "/images/categories/level-three-categories/drums-and-percussion/acoustic-drums/acoustic_drum_set.jpg",
-    alt: "A full drum set",
-    pageLink: "/acoustic-drum-set",
+    alt: "A full drums sets",
+    pageLink: "/acoustic-drums-sets",
   },
   {
     title: "Wood Snares",

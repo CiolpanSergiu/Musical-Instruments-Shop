@@ -18,7 +18,7 @@ export default {
       pageLink: "/5-ways-switch-selectors",
     },
     {
-      title: "Toggle switches",
+      title: "Toggle Switches",
       src: "/images/categories/level-four-categories/guitars-and-basses/spare-parts/switches/toggle_switch.jpg",
       alt: "A guitar toggle switch",
       pageLink: "/toggle-switches",

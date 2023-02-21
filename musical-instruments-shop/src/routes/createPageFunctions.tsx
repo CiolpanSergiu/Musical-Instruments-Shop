@@ -8,20 +8,23 @@ import ItemPage from "../components/item-page-components/ItemPage";
 
 export function createCategoryPages(data: unknown) {
   if (Array.isArray(data)) {
+    console.log(data);
     return data.map((category) => {
-      return (
-        <Route
-          key={nanoid()}
-          path={category.pageLink}
-          element={
-            <InstrumentCategoryPage
-              data={category.subcategories}
-              pageTitle={category.title}
-              itemsBrands={category.brands}
-            />
-          }
-        ></Route>
-      );
+      if (category.hasOwnProperty("subcategories")) {
+        return (
+          <Route
+            key={nanoid()}
+            path={category.pageLink}
+            element={
+              <InstrumentCategoryPage
+                data={category.subcategories}
+                pageTitle={category.title}
+                itemsBrands={category.brands}
+              />
+            }
+          ></Route>
+        );
+      }
     });
   }
 }

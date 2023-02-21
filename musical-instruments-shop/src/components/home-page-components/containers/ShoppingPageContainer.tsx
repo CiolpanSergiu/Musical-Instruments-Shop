@@ -1,6 +1,8 @@
 import styled from "styled-components";
 import ShoppingPageCard from "../cards/ShoppingPageCard";
 import { nanoid } from "nanoid";
+// import { useState, useEffect } from "react";
+// import axios from "axios";
 
 const Container = styled.div`
   display: grid;
@@ -60,6 +62,48 @@ export default function ShoppingPageContainer({ pageTitle, itemsData }: Props) {
       />
     );
   });
+
+  // const [items, setItems] = useState<Props["itemsData"]>();
+
+  // let cards;
+
+  // if (items !== undefined) {
+  //   cards = items.map((card: any) => {
+  //     return (
+  //       <ShoppingPageCard
+  //         key={nanoid()}
+  //         title={card.title}
+  //         srcThumbnail={card.srcThumbnail}
+  //         alt={card.alt}
+  //         pageLink={card.pageLink}
+  //         rating={card.rating}
+  //         price={card.price}
+  //       />
+  //     );
+  //   });
+  // } else {
+  //   cards = itemsData.map((card: any) => {
+  //     return (
+  //       <ShoppingPageCard
+  //         key={nanoid()}
+  //         title={card.title}
+  //         srcThumbnail={card.srcThumbnail}
+  //         alt={card.alt}
+  //         pageLink={card.pageLink}
+  //         rating={card.rating}
+  //         price={card.price}
+  //       />
+  //     );
+  //   });
+  // }
+
+  // useEffect(() => {
+  //   axios
+  //     .get("http://localhost:5174/api/items")
+  //     .then((res) => setItems(res.data));
+  // }, []);
+
+  // console.log(items);
 
   return (
     <>

@@ -5,6 +5,7 @@ type User = {
   passwordConfirmation: string;
   country: string;
   phoneNumber: string;
+  shoppingCart: [];
   _id: string;
 };
 

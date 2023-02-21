@@ -27,7 +27,7 @@ const StyledLink = styled(Link)`
   }
 `;
 
-const Header = styled.h3`
+const SubcategoryTitle = styled.h3`
   text-align: center;
   padding: 0 2rem;
 `;
@@ -42,7 +42,7 @@ export default function SubcategoryCard({ src, alt, title, pageLink }: Props) {
     <StyledLink to={pageLink}>
       <Container>
         <Img src={src} alt={alt} />
-        <Header>{title}</Header>
+        <SubcategoryTitle>{title}</SubcategoryTitle>
       </Container>
     </StyledLink>
   );

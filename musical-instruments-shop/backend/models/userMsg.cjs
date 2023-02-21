@@ -30,4 +30,4 @@ const UserMsgSchema = new mongoose.Schema({
   },
 });
 
-module.exports = mongoose.model("UserMsgSchema", UserMsgSchema);
+module.exports = mongoose.model("user-msgs-schema", UserMsgSchema);

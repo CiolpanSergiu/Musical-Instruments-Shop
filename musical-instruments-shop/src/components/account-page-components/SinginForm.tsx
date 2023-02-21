@@ -8,7 +8,7 @@ import { Link, useNavigate } from "react-router-dom";
 import { ThemeProvider } from "styled-components";
 import { useContext, useState } from "react";
 import ThemeContext from "../../context/ThemeProvider";
-import sendAccountFormData from "../../functions/account-related-functions/sendAccountFormData";
+import sendSinginFormData from "../../functions/account-related-functions/sendSinginFormData";
 import checkSinginData from "../../functions/account-related-functions/checkLoginData";
 import axios from "axios";
 
@@ -123,8 +123,8 @@ export default function SinginForm() {
         const userMatched = checkSinginData(values, res.data);
         if (userMatched.length === 0) {
           setDoUserExist(false);
-          sendAccountFormData(values);
-          navigate("/login");
+          sendSinginFormData(values);
+          navigate("/account");
         } else {
           setDoUserExist(true);
         }

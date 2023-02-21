@@ -6,10 +6,11 @@ type User = {
   password: string;
   country: string;
   phoneNumber: string;
+  shoppingCart: [];
   _id: string;
 };
 
-export default function editUserData(user: User) {
-  const postURL = `http://localhost:5174/api/users/${user._id}`;
-  axios.delete(postURL);
+export default function deleteUserAccount(user: User) {
+  const url = `http://localhost:5174/api/users/${user._id}`;
+  axios.delete(url);
 }

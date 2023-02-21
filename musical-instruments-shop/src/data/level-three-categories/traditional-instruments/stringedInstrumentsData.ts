@@ -35,7 +35,7 @@ export default [
     pageLink: "/violins",
   },
   {
-    title: "Electric Violins/Violas",
+    title: "Electric Violins / Violas",
     src: "/images/categories/level-three-categories/traditional-instruments/stringed-instruments/electric_violin.jpg",
     alt: "An electric violin",
     pageLink: "/electric-violins-violas",
@@ -67,7 +67,7 @@ export default [
     subcategories: cellosAccesories,
   },
   {
-    title: "Violins/Violas Accesories",
+    title: "Violins / Violas Accesories",
     src: "/images/categories/level-three-categories/traditional-instruments/stringed-instruments/violin_bow.jpg",
     alt: "A violin bow",
     pageLink: "/violins-violas-accesories",

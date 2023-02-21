@@ -6,10 +6,11 @@ import { MouseEventHandler } from "react";
 import styled from "styled-components";
 import PhoneNumber from "../miscellaneous/PhoneNumber";
 import ThemeContext from "../../context/ThemeProvider";
-import { useContext } from "react";
+import { useContext, useEffect } from "react";
 import { ThemeProvider } from "styled-components";
 import UserMenu from "../miscellaneous/UserMenu";
 import ShoppingCartContext from "../../context/ShoppingCartContext";
+import AuthentificationContext from "../../context/AuthentificationContext";
 
 type Props = {
   isOpen: boolean;
@@ -70,7 +71,36 @@ const lightTheme = {
 export default function NavbarTools({ isOpen, handleClick }: Props) {
   // honestly what type should these be
   const { isDark }: any = useContext(ThemeContext);
-  const { cartItemsQuantity }: any = useContext(ShoppingCartContext);
+  const {
+    cartItemsQuantity,
+    setCartItems,
+    setCartItemsQuantity,
+    cartItems,
+  }: any = useContext(ShoppingCartContext);
+  const { isLoggedIn, currentUser }: any = useContext(AuthentificationContext);
+
+  // not wrapping this in a useEffect generate a warning Cannot update a component
+  // (`ShoppingCartContextProvider`) while rendering a different component
+  // useEffect(() => {
+  //   if (isLoggedIn) {
+  //     setCartItems(currentUser.shoppingCart);
+  //     setCartItemsQuantity(
+  //       cartItems.reduce(
+  //         (
+  //           accumulator: number,
+  //           currentValue: {
+  //             title: string;
+  //             src: string;
+  //             alt: string;
+  //             price: number;
+  //             quantity: number;
+  //           }
+  //         ) => accumulator + currentValue.quantity,
+  //         0
+  //       )
+  //     );
+  //   }
+  // }, []);
 
   return (
     <ThemeProvider theme={isDark ? darkTheme : lightTheme}>

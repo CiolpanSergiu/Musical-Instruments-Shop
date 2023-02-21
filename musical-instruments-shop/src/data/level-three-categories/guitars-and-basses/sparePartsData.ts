@@ -89,10 +89,10 @@ const changePartsSubcategories = [
     pageLink: "/jack-plates",
   },
   {
-    title: "Tunning Pegs",
+    title: "Tuning Pegs",
     src: "/images/categories/level-three-categories/guitars-and-basses/spare-parts/guitar_pegs.jpg",
     alt: "",
-    pageLink: "/tunning-pegs",
+    pageLink: "/tuning-pegs",
   },
 ];
 
