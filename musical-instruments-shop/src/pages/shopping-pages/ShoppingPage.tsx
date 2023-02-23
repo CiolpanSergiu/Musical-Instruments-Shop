@@ -2,6 +2,7 @@ import styled from "styled-components";
 import Navbar from "../../components/navbar-components/Navbar";
 import Footer from "../../components/footer-components/Footer";
 import ShoppingPageContainer from "../../components/home-page-components/containers/ShoppingPageContainer";
+import ProductType from "../../data/products/productType";
 
 const PageContentContiner = styled.div`
   width: 90%;
@@ -10,17 +11,7 @@ const PageContentContiner = styled.div`
 
 type Props = {
   pageTitle: string;
-  itemsData: {
-    title: string;
-    srcThumbnail: string;
-    srcBig: string;
-    alt: string;
-    pageLink: string;
-    price: number;
-    avaible: boolean;
-    rating: number;
-    totalReviews: number;
-  }[];
+  itemsData: ProductType[];
 };
 
 export default function ShoppingPage({ pageTitle, itemsData }: Props) {

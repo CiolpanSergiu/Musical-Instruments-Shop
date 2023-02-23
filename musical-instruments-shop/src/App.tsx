@@ -6,15 +6,12 @@ import Account from "./pages/main-pages/Account";
 import ShoppingCartPage from "./pages/main-pages/ShoppingCartPage";
 import SinginPage from "./pages/main-pages/SinginPage";
 import NoPageFound from "./pages/main-pages/NoPageFound";
-// level two categories
-import {
-  levelTwoCategoryPages,
-  levelThreeCategoryPages,
-  levelFourCategoryPages,
-  levelFiveCategoryPages,
-} from "./routes/categoryPagesRoutes";
-import electricGuitarsShoppingPages from "./routes/shopping-pages/guitarAndBassesShoppingPageRoutes";
-import itemsRoutes from "./routes/items-pages/stratocasterGuitarsPages";
+
+import allCategoryPages from "./routes/categoryPagesRoutes";
+
+import itemsShoppingPages from "./routes/itemsPageRoutes";
+
+// import itemsRoutes from "./routes/items-pages/stratocasterGuitarsPages";
 import popularItemsPages from "./routes/items-pages/popularItemsPages";
 
 export default function App() {
@@ -28,14 +25,10 @@ export default function App() {
         <Route path="/shopping-cart" element={<ShoppingCartPage />}></Route>
         <Route path="*" element={<NoPageFound />}></Route>
 
-        {itemsRoutes}
+        {/* {itemsRoutes} */}
         {popularItemsPages}
-
-        {levelTwoCategoryPages}
-        {levelThreeCategoryPages}
-        {levelFourCategoryPages}
-        {levelFiveCategoryPages}
-        {electricGuitarsShoppingPages}
+        {itemsShoppingPages}
+        {allCategoryPages}
       </Routes>
     </>
   );

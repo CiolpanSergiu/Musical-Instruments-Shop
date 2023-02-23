@@ -3,7 +3,6 @@ type Product = {
   srcSmall: string;
   srcBig: string;
   alt: string;
-  pageLink: string;
   category: string[];
   brand: string;
   price: number;
@@ -11,6 +10,6 @@ type Product = {
   rating: number;
   totalReviews: number;
   specifications: string[];
-}[];
+};
 
 export default Product;

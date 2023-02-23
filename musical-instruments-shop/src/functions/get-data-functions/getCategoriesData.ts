@@ -11,7 +11,16 @@ const levelFourCategories = getDeeperLevelSubcategories(
 );
 const levelFiveCategories = getDeeperLevelSubcategories(levelFourCategories);
 
+const allCategories = [
+  instrumentsCategoryData,
+  levelTwoCategories,
+  levelThreeCategories,
+  levelFourCategories,
+  levelFiveCategories,
+].flat(1);
+
 export {
+  allCategories,
   instrumentsCategoryData,
   levelTwoCategories,
   levelThreeCategories,

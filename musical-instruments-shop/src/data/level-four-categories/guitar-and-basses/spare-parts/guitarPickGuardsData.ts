@@ -24,7 +24,7 @@ export default {
       pageLink: "/les-paul-models-pick-guard",
     },
     {
-      title: "SG Guitar Pick Guard",
+      title: "Doublecut Guitar Pick Guard",
       src: "/images/categories/level-four-categories/guitars-and-basses/spare-parts/pick-guards/guitars/sg_guitar_guard.jpg",
       alt: "A pick guard for a SG guitar",
       pageLink: "/sg-models-pick-guard",

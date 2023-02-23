@@ -1,6 +1,6 @@
 import Product from "./productType";
 
-const products: Product = [
+const products: Product[] = [
   // Keyboards
 
   // Arranger Keyboards
@@ -12,16 +12,19 @@ const products: Product = [
   // Keyboard/Synthesizer Power Supplies
   // Keyboard/Synthesizer Stands
 
-  // synthesizers
+  // Synthesizers
 
-  // sound modules
+  // Synthesizers
+  // Digital Workstations
+
+  // Sound Modules
 
   {
     title: "Moog Harmonicom",
     srcBig: "/images/.jpg",
     srcSmall: "/images/.jpg",
     alt: "",
-    pageLink: "/",
+
     category: ["synthesizer sound module"],
     brand: "",
     price: 625,
@@ -35,7 +38,7 @@ const products: Product = [
     srcBig: "/images/.jpg",
     srcSmall: "/images/.jpg",
     alt: "",
-    pageLink: "/",
+
     category: [""],
     brand: "",
     price: 5,
@@ -44,6 +47,8 @@ const products: Product = [
     totalReviews: 5,
     specifications: ["", "", "", "", ""],
   },
+  // Groove Boxes
+  // Drum Machines
 
   // Pianos
   // Grand Pianos

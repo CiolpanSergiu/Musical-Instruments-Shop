@@ -12,22 +12,10 @@ const changePartsSubcategories = [
     pageLink: "/electric-guitar-necks",
   },
   {
-    title: "Acoustic Guitar Necks",
-    src: "/images/categories/level-three-categories/guitars-and-basses/spare-parts/acoustic_guitar_neck.jpg",
-    alt: "",
-    pageLink: "/acoustic-guitar-necks",
-  },
-  {
     title: "Electric Bass Necks",
     src: "/images/categories/level-three-categories/guitars-and-basses/spare-parts/electric_bass_neck.jpg",
     alt: "",
     pageLink: "/electric-bass-necks",
-  },
-  {
-    title: "Acoustic Guitar Bodies",
-    src: "/images/categories/level-three-categories/guitars-and-basses/spare-parts/acoustic_guitar_body.jpg",
-    alt: "",
-    pageLink: "/acoustic-guitar-bodies",
   },
   {
     title: "Electric Guitar Bodies",

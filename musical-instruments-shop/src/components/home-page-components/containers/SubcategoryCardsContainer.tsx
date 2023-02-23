@@ -38,7 +38,12 @@ const Header = styled.h1`
 `;
 
 type Props = {
-  data: { src: string; alt: string; title: string; pageLink: string }[];
+  data: {
+    src: string;
+    alt: string;
+    title: string;
+    pageLink: string;
+  }[];
   pageTitle: string;
 };
 
@@ -56,7 +61,9 @@ export default function SubcategoryCardsContainer({ data, pageTitle }: Props) {
           src={itemData.src}
           alt={itemData.alt}
           title={itemData.title}
-          pageLink={itemData.pageLink}
+          pageLink={`/${itemData.title
+            .toLocaleLowerCase()
+            .replace(/[^\w]/g, "-")}`}
         />
       );
     }

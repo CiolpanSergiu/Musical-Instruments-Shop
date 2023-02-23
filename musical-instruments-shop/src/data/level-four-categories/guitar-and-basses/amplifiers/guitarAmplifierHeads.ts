@@ -8,8 +8,8 @@ export default {
     {
       src: "/images/categories/level-four-categories/guitars-and-basses/guitar-amp-heads/transistors_guitar_amp_head.jpg",
       alt: "",
-      title: "Transistors Guitar Amplifier Heads",
-      pageLink: "transistors-guitar-amplifier-heads",
+      title: "Solid State Guitar Amplifier Heads",
+      pageLink: "solid-state-guitar-amplifier-heads",
     },
     {
       src: "/images/categories/level-four-categories/guitars-and-basses/guitar-amp-heads/digital_guitar_amp_head.jpg",

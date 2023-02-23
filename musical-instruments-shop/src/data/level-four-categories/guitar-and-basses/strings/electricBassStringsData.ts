@@ -24,12 +24,6 @@ export default {
       pageLink: "/050-bass-strings",
     },
     {
-      title: "0.60 Bass Strings",
-      src: "/images/categories/level-four-categories/guitars-and-basses/strings/electric-bass-strings/060_electric_bass_strings.jpg",
-      alt: "A pack of 0.60-120 gauge strings for electric basses",
-      pageLink: "/060-bass-strings",
-    },
-    {
       title: "5 Strings Bass Strings",
       src: "/images/categories/level-four-categories/guitars-and-basses/strings/electric-bass-strings/5_strings_electric_bass_strings.jpg",
       alt: "A pack of 0.45-130 gauge strings for electric basses with 5 strings",

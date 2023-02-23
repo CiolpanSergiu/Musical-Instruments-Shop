@@ -6,10 +6,11 @@ import { generateStars } from "../../../functions/generateStars";
 const StyledLink = styled(Link)`
   color: #3d4552;
   text-decoration: none;
-  display: flex;
-  flex-direction: column;
+  justify-items: center;
   align-items: center;
-  }
+  display: grid;
+  grid-template-rows: 3fr 1fr .25fr .5fr;
+}
 `;
 
 const CardContainer = styled.div`
@@ -18,11 +19,18 @@ const CardContainer = styled.div`
   padding: 1rem;
   display: flex;
   flex-direction: column;
-  justify-content: space-between;
+  width: 17rem;
+  margin: 1rem;
+
+  @media only screen and (max-width: 662px) {
+    width: 75%;
+    max-width: 17rem;
+  }
 `;
 
 const Img = styled.img`
   padding: 1rem 0;
+  max-width: 220px;
 `;
 
 const ItemTitle = styled.h3`
@@ -34,12 +42,24 @@ const ItemTitle = styled.h3`
     font-size: 1.25rem;
     font-weight: 500;
   }
+
+  @media only screen and (max-width: 662px) {
+    font-size: 1.1rem;
+    font-weight: 500;
+  }
+`;
+
+const TotalReviewsSpan = styled.span`
+  color: black;
+  font-size: 1.25rem;
+  margin-left: 0.5rem;
 `;
 
 const StarsContainer = styled.div`
+  display: flex;
+  align-items: center;
   color: lightskyblue;
   padding: 0.5rem 0;
-  margin: 1rem;
   display: flex;
   justify-content: center;
   color: lightskyblue;
@@ -48,32 +68,41 @@ const StarsContainer = styled.div`
 `;
 
 type Props = {
-  srcThumbnail: string;
+  srcBig: string;
+  srcSmall: string;
   alt: string;
   title: string;
-  pageLink: string;
   rating: number;
   price: number;
+  totalReviews: number;
 };
 
 export default function ShoppingPageCard({
-  srcThumbnail,
+  srcBig,
+  srcSmall,
   alt,
   title,
-  pageLink,
   rating,
   price,
+  totalReviews,
 }: Props) {
+  const pageLink = `/${title.toLocaleLowerCase().replace(/[^\w]/g, "-")}`;
+
   return (
     <CardContainer>
       <StyledLink to={pageLink}>
-        <Img src={srcThumbnail} alt={alt} />
+        {/* use srcBig until i convert bigger imgages into smaller ones */}
+        <Img src={srcBig} alt={alt} />
         <ItemTitle>{title}</ItemTitle>
-        <StarsContainer>{generateStars(rating)}</StarsContainer>
+        <StarsContainer>
+          {generateStars(rating)}
+          <TotalReviewsSpan>({totalReviews})</TotalReviewsSpan>
+        </StarsContainer>
       </StyledLink>
       <AddToCartBtn
         title={title}
-        srcThumbnail={srcThumbnail}
+        srcSmall={srcBig}
+        srcBig={srcBig}
         alt={alt}
         price={price}
         havePrice={true}

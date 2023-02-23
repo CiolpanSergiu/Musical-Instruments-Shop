@@ -1,4 +1,3 @@
-import { useState } from "react";
 import itemsCategories from "../../../data/level-one-categories/mainCategory.js";
 import CategoryCard from "../cards/CategoryCard";
 import { nanoid } from "nanoid";
@@ -37,15 +36,15 @@ const Header2 = styled.h2`
 `;
 
 export default function CategoryCardsContainer() {
-  const [categories, setCategories] = useState(itemsCategories);
-
-  const categoryCard = categories.map((categoryCardData) => (
+  const categoryCard = itemsCategories.map((categoryCardData) => (
     <CategoryCard
       key={nanoid()}
       imgSrc={categoryCardData.src}
       imgAlt={categoryCardData.alt}
       header={categoryCardData.title}
-      pageLink={categoryCardData.pageLink}
+      pageLink={`/${categoryCardData.title
+        .toLocaleLowerCase()
+        .replace(/[^\w]/g, "-")}`}
     />
   ));
 

@@ -8,8 +8,8 @@ export default {
     {
       src: "/images/categories/level-four-categories/guitars-and-basses/bass-amps/transistors_bass_amp.jpg",
       alt: "",
-      title: "Transistors Bass Combo Amplifiers ",
-      pageLink: "/transistors-bass-amplifiers",
+      title: "Solid State Bass Combo Amplifiers ",
+      pageLink: "/solid-state-bass-amplifiers",
     },
     {
       src: "/images/categories/level-four-categories/guitars-and-basses/bass-amps/digital_bass_amp.jpg",

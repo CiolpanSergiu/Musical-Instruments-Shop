@@ -8,14 +8,14 @@ export default {
     {
       src: "/images/categories/level-four-categories/guitars-and-basses/bass-amp-heads/transistors_bass_amp_head.jpg",
       alt: "",
-      title: "Transistors Bass Amplifier Heads",
-      pageLink: "/transistors-bass-amplifier-heads",
+      title: "Solid State Bass Amplifier Heads",
+      pageLink: "/solid-state-bass-amplifier-heads",
     },
     {
       src: "/images/categories/level-four-categories/guitars-and-basses/bass-amp-heads/digital_bass_amp_head.jpg",
       alt: "",
-      title: "Digital Bass Amplifier Heads",
-      pageLink: "/digital-bass-amplifier-heads",
+      title: "Lamps Bass Amplifier Heads",
+      pageLink: "/lamps-bass-amplifier-heads",
     },
   ],
 };

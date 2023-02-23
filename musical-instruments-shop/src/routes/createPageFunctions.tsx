@@ -3,21 +3,26 @@ import InstrumentCategoryPage from "../pages/category-pages/InstrumentCategoryPa
 import ShoppingPage from "../pages/shopping-pages/ShoppingPage";
 import { nanoid } from "nanoid";
 import ItemPage from "../components/item-page-components/ItemPage";
+import ProductType from "../data/products/productType";
 
 // unknown because not all objects in data array have the same structure;
 
 export function createCategoryPages(data: unknown) {
   if (Array.isArray(data)) {
-    console.log(data);
     return data.map((category) => {
+      const pageLink = `/${category.title
+        .toLocaleLowerCase()
+        .replace(/[^\w]/g, "-")}`;
       if (category.hasOwnProperty("subcategories")) {
         return (
           <Route
             key={nanoid()}
-            path={category.pageLink}
+            path={pageLink}
             element={
               <InstrumentCategoryPage
-                data={category.subcategories}
+                data={
+                  category.subcategories.subcategories || category.subcategories
+                }
                 pageTitle={category.title}
                 itemsBrands={category.brands}
               />
@@ -33,10 +38,11 @@ type ItemsData = {
   title: string;
   srcThumbnail: string;
   srcBig: string;
+  srcSmall: string;
   alt: string;
   pageLink: string;
   price: number;
-  avaible: boolean;
+  available: boolean;
   rating: number;
   totalReviews: number;
 }[];
@@ -44,7 +50,7 @@ type ItemsData = {
 export function createShoppingPageRoute(
   pageLink: string,
   pageTitle: string,
-  data: ItemsData
+  data: ProductType[]
 ) {
   return (
     <Route
@@ -64,15 +70,16 @@ type Item = {
   price: number;
   totalReviews: number;
   rating: number;
-  pageLink: string;
   specifications: string[];
 };
 
 export function createItemDetailsPageRoute(item: Item) {
+  const pageLink = `/${item.title.toLocaleLowerCase().replace(/[^\w]/g, "-")}`;
+
   return (
     <Route
       key={nanoid()}
-      path={item.pageLink}
+      path={pageLink}
       element={
         <ItemPage
           title={item.title}

@@ -1,9 +1,12 @@
+import ProductType from "../../data/products/productType";
+
 type Category = {
   title: string;
   src: string;
   alt: string;
   pageLink: string;
   subcategories: {
+    items: ProductType[];
     src: string;
     alt: string;
     title: string;

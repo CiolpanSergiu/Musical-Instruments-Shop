@@ -30,7 +30,8 @@ const Price = styled.span`
 
 type Props = {
   title: string;
-  srcThumbnail: string;
+  srcSmall: string;
+  srcBig: string;
   alt: string;
   price: number;
   havePrice: boolean;
@@ -40,7 +41,8 @@ type Props = {
 
 export default function AddToCartBtn({
   title,
-  srcThumbnail,
+  srcSmall,
+  srcBig,
   alt,
   price,
   havePrice,
@@ -53,7 +55,7 @@ export default function AddToCartBtn({
   function handleClick() {
     const item = {
       title: title,
-      src: srcThumbnail,
+      src: srcBig,
       alt: alt,
       price: price,
     };

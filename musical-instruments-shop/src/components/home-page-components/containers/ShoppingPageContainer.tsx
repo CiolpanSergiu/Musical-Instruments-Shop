@@ -1,26 +1,14 @@
 import styled from "styled-components";
 import ShoppingPageCard from "../cards/ShoppingPageCard";
 import { nanoid } from "nanoid";
-// import { useState, useEffect } from "react";
-// import axios from "axios";
+import ProductType from "../../../data/products/productType";
 
 const Container = styled.div`
-  display: grid;
-  gap: 2rem;
   padding-top: 4rem;
   width: 100%;
-
-  @media only screen and (min-width: 667px) {
-    grid-template-columns: 1fr 1fr;
-  }
-
-  @media only screen and (min-width: 768px) {
-    grid-template-columns: 1fr 1fr 1fr;
-  }
-
-  @media only screen and (min-width: 992px) {
-    grid-template-columns: 1fr 1fr 1fr 1fr;
-  } ;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
 `;
 
 const PageHeader = styled.h1`
@@ -35,75 +23,24 @@ const PageHeader = styled.h1`
 
 type Props = {
   pageTitle: string;
-  itemsData: {
-    title: string;
-    srcThumbnail: string;
-    srcBig: string;
-    alt: string;
-    pageLink: string;
-    price: number;
-    avaible: boolean;
-    rating: number;
-    totalReviews: number;
-  }[];
+  itemsData: ProductType[];
 };
 
 export default function ShoppingPageContainer({ pageTitle, itemsData }: Props) {
-  const cards = itemsData.map((card: any) => {
+  const cards = itemsData.map((card: ProductType) => {
     return (
       <ShoppingPageCard
         key={nanoid()}
         title={card.title}
-        srcThumbnail={card.srcThumbnail}
+        srcSmall={card.srcSmall}
+        srcBig={card.srcBig}
         alt={card.alt}
-        pageLink={card.pageLink}
         rating={card.rating}
         price={card.price}
+        totalReviews={card.totalReviews}
       />
     );
   });
-
-  // const [items, setItems] = useState<Props["itemsData"]>();
-
-  // let cards;
-
-  // if (items !== undefined) {
-  //   cards = items.map((card: any) => {
-  //     return (
-  //       <ShoppingPageCard
-  //         key={nanoid()}
-  //         title={card.title}
-  //         srcThumbnail={card.srcThumbnail}
-  //         alt={card.alt}
-  //         pageLink={card.pageLink}
-  //         rating={card.rating}
-  //         price={card.price}
-  //       />
-  //     );
-  //   });
-  // } else {
-  //   cards = itemsData.map((card: any) => {
-  //     return (
-  //       <ShoppingPageCard
-  //         key={nanoid()}
-  //         title={card.title}
-  //         srcThumbnail={card.srcThumbnail}
-  //         alt={card.alt}
-  //         pageLink={card.pageLink}
-  //         rating={card.rating}
-  //         price={card.price}
-  //       />
-  //     );
-  //   });
-  // }
-
-  // useEffect(() => {
-  //   axios
-  //     .get("http://localhost:5174/api/items")
-  //     .then((res) => setItems(res.data));
-  // }, []);
-
-  // console.log(items);
 
   return (
     <>

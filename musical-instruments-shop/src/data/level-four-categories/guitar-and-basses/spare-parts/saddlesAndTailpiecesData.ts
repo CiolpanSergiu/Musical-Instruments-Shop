@@ -12,22 +12,16 @@ export default {
       pageLink: "/guitar-tailpieces",
     },
     {
-      title: "Guitar Saddles",
+      title: "Guitar Bridges",
       src: "/images/categories/level-four-categories/guitars-and-basses/spare-parts/saddles-and-tailpieces/guitar_saddle.jpg",
-      alt: "An electric guitar saddle",
-      pageLink: "/guitar-saddles",
+      alt: "An electric guitar bridge",
+      pageLink: "/guitar-bridge",
     },
     {
-      title: "Jazz Guitar Tailpieces",
+      title: "Jazz Guitar Bridges and Tailpieces",
       src: "/images/categories/level-four-categories/guitars-and-basses/spare-parts/saddles-and-tailpieces/jazz_guitar_tailpiece.jpeg",
       alt: "A tailpiece for jazz guitars",
-      pageLink: "/jazz-guitar-tailpieces",
-    },
-    {
-      title: "Jazz Guitar Saddles",
-      src: "/images/categories/level-four-categories/guitars-and-basses/spare-parts/saddles-and-tailpieces/jazz_guitar_saddle.jpg",
-      alt: "A saddle for jazz guitars",
-      pageLink: "/jazz-guitar-saddles",
+      pageLink: "/jazz-guitar-bridges-tailpieces",
     },
     {
       title: "Bass Bridges",

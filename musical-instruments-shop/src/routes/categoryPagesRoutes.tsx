@@ -1,27 +1,6 @@
-import instrumentsCategoryData from "../data/level-one-categories/mainCategory";
 import { createCategoryPages } from "./createPageFunctions";
-import getDeeperLevelSubcategories from "../functions/get-data-functions/getDeeperLevelSubcategories";
+import { allCategories } from "../functions/get-data-functions/getCategoriesData";
 
-const levelTwoSubcategoriesData = getDeeperLevelSubcategories(
-  instrumentsCategoryData
-)?.filter((category) => category.hasOwnProperty("subcategories"));
+const allCategoryPages = createCategoryPages(allCategories);
 
-const levelThreeSubcategoriesData = getDeeperLevelSubcategories(
-  getDeeperLevelSubcategories(levelTwoSubcategoriesData)
-);
-
-const levelFourSubcategoriesData = getDeeperLevelSubcategories(
-  getDeeperLevelSubcategories(levelThreeSubcategoriesData)
-);
-
-const levelTwoCategoryPages = createCategoryPages(instrumentsCategoryData);
-const levelThreeCategoryPages = createCategoryPages(levelTwoSubcategoriesData);
-const levelFourCategoryPages = createCategoryPages(levelThreeSubcategoriesData);
-const levelFiveCategoryPages = createCategoryPages(levelFourSubcategoriesData);
-
-export {
-  levelTwoCategoryPages,
-  levelThreeCategoryPages,
-  levelFourCategoryPages,
-  levelFiveCategoryPages,
-};
+export default allCategoryPages;

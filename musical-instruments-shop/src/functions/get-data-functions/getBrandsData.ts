@@ -11,16 +11,27 @@ const mainCategoriesBrands = getDeeperLevelBrands(instrumentsCategoryData);
 
 const levelTwoCategoriesBrands = getDeeperLevelBrands(levelTwoCategories);
 
-const levleThreeCategoriesBrands = getDeeperLevelBrands(levelThreeCategories);
+const levelThreeCategoriesBrands = getDeeperLevelBrands(levelThreeCategories);
 
-const levleFourCategoriesBrands = getDeeperLevelBrands(levelFourCategories);
+const levelFourCategoriesBrands = getDeeperLevelBrands(levelFourCategories);
 
-const levleFiveCategoriesBrands = getDeeperLevelBrands(levelFiveCategories);
+const levelFiveCategoriesBrands = getDeeperLevelBrands(levelFiveCategories);
 
-export {
+const allBrands = [
   mainCategoriesBrands,
   levelTwoCategoriesBrands,
-  levleThreeCategoriesBrands,
-  levleFourCategoriesBrands,
-  levleFiveCategoriesBrands,
+  levelThreeCategoriesBrands,
+  levelFourCategoriesBrands,
+  levelFiveCategoriesBrands,
+]
+  .flat(1)
+  .map((brand) => [brand?.brandName, brand?.pageLink]);
+
+export {
+  allBrands,
+  mainCategoriesBrands,
+  levelTwoCategoriesBrands,
+  levelThreeCategoriesBrands,
+  levelFourCategoriesBrands,
+  levelFiveCategoriesBrands,
 };
