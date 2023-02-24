@@ -40,7 +40,7 @@ export default function OrderDetails() {
     <>
       <OrderDetailsContainer>
         <Header>Total Price:</Header>
-        <PriceSpan>{totalPrice}$</PriceSpan>
+        <PriceSpan>{totalPrice.toFixed(2)}$</PriceSpan>
         <OrderButton />
       </OrderDetailsContainer>
     </>

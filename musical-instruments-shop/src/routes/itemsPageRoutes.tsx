@@ -33,7 +33,8 @@ const allItemsArr = allCategories.filter((category) => {
 const itemsShoppingPages = allItemsArr.map((category: categoryWithProducts) => {
   const pageLink = `/${category.title
     .toLocaleLowerCase()
-    .replace(/[^\w]/g, "-")}`;
+    .replace(/[^\w]/g, "-")
+    .replace(/--+/g, "-")}`;
   return createShoppingPageRoute(pageLink, category.title, category.items);
 });
 

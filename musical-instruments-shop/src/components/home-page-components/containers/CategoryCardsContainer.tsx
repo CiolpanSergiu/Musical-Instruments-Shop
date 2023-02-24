@@ -44,7 +44,8 @@ export default function CategoryCardsContainer() {
       header={categoryCardData.title}
       pageLink={`/${categoryCardData.title
         .toLocaleLowerCase()
-        .replace(/[^\w]/g, "-")}`}
+        .replace(/[^\w]/g, "-")
+        .replace(/--+/g, "-")}`}
     />
   ));
 

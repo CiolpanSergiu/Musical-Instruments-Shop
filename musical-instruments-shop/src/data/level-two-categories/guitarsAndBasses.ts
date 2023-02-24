@@ -6,9 +6,9 @@ import acousticBassesSubcategories from "../level-three-categories/guitars-and-b
 import ukuleleSubcategories from "../level-three-categories/guitars-and-basses/ukuleleData";
 import electricGuitarAmplifiersSubcategories from "../level-three-categories/guitars-and-basses/electricGuitarAmplifiersData";
 import electricBassAmplifiersSubcategories from "../level-three-categories/guitars-and-basses/electricBassAmplifiersData";
-import acousticGuitarAmplifiersSubcategories from "../level-three-categories/guitars-and-basses/acousticGuitarAmplifiersData.json";
+import acousticGuitarAmplifiersSubcategories from "../level-three-categories/guitars-and-basses/acousticGuitarAmplifiersData";
 import stringsSubcategories from "../level-three-categories/guitars-and-basses/stringsData";
-import effectPedalsSubcategories from "../level-three-categories/guitars-and-basses/effectPedalsData.json";
+import effectPedalsSubcategories from "../level-three-categories/guitars-and-basses/effectPedalsData";
 import pickupsSubcategories from "../level-three-categories/guitars-and-basses/pickupsData";
 import changeSpareSubcategories from "../level-three-categories/guitars-and-basses/sparePartsData";
 import accesoriesSubcategories from "../level-three-categories/guitars-and-basses/accesoriesData";
@@ -127,7 +127,7 @@ const guitarsAndBassesData = [
   {
     src: "/images/categories/level-two-categories/guitars-and-basses/accesories.jpg",
     alt: "A fender red guitar pick",
-    title: "Accesories",
+    title: "Guitar Accesories",
     pageLink: "/guitar-and-basses-accesories",
     subcategories: accesoriesSubcategories,
     brands: accesoriesBrands,

@@ -12,7 +12,8 @@ export function createCategoryPages(data: unknown) {
     return data.map((category) => {
       const pageLink = `/${category.title
         .toLocaleLowerCase()
-        .replace(/[^\w]/g, "-")}`;
+        .replace(/[^\w]/g, "-")
+        .replace(/--+/g, "-")}`;
       if (category.hasOwnProperty("subcategories")) {
         return (
           <Route
@@ -39,6 +40,10 @@ export function createShoppingPageRoute(
   pageTitle: string,
   data: ProductType[]
 ) {
+  if (pageTitle === "5 Ways Switch Selectors") {
+    console.log(data);
+  }
+
   return (
     <Route
       key={nanoid()}
@@ -61,7 +66,10 @@ type Item = {
 };
 
 export function createItemDetailsPageRoute(item: Item) {
-  const pageLink = `/${item.title.toLocaleLowerCase().replace(/[^\w]/g, "-")}`;
+  const pageLink = `/${item.title
+    .toLocaleLowerCase()
+    .replace(/[^\w]/g, "-")
+    .replace(/--+/g, "-")}`;
 
   return (
     <Route

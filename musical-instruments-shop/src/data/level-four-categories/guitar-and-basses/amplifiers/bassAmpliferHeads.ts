@@ -2,7 +2,6 @@ import getStoreProducts from "../../../../functions/get-data-functions/getStoreP
 import bassAmpHeadsBrands from "../../../logo-data/guitar-and-basses-brands/electric-bass-amplifiers/electricBassAmpHeadBrands.json";
 
 export default {
-  pageLink: "/bass-amplifier-heads",
   title: "Electric Bass Amplifier Heads",
   brands: bassAmpHeadsBrands,
   subcategories: [

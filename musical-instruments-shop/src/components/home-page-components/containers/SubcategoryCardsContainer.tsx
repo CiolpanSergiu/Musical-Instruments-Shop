@@ -63,7 +63,8 @@ export default function SubcategoryCardsContainer({ data, pageTitle }: Props) {
           title={itemData.title}
           pageLink={`/${itemData.title
             .toLocaleLowerCase()
-            .replace(/[^\w]/g, "-")}`}
+            .replace(/[^\w]/g, "-")
+            .replace(/--+/g, "-")}`}
         />
       );
     }

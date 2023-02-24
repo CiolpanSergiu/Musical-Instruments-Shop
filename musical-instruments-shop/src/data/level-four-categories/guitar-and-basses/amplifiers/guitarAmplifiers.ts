@@ -2,7 +2,6 @@ import getStoreProducts from "../../../../functions/get-data-functions/getStoreP
 import guitarComboAmpBrands from "../../../logo-data/guitar-and-basses-brands/electric-guitar-amplifiers/electricGuitarComboAmpBrands.json";
 
 export default {
-  pageLink: "/guitar-combo-amplifiers",
   title: "Guitar Combo Amplifiers",
   brands: guitarComboAmpBrands,
   subcategories: [

@@ -935,148 +935,148 @@ const products: Product[] = [
   // Tubes
 
   // El34 Tubes
-  // engl_el34_matched_quartett
   {
     title: "Engl EL34 Matched Quartett",
     srcBig:
-      "/images/products/guitars-and-basses/big-images/electric-guitar-amps/.jpg",
-    srcSmall: "",
+      "/images/products/guitars-and-basses/big-images/electric-guitar-amps/tubes/el34-tubes/engl_el34_matched_quartett.jpg",
+    srcSmall:
+      "/images/products/guitars-and-basses/small-images/electric-guitar-amps/tubes/el34-tubes/engl_el34_matched_quartett.jpg",
     alt: "",
-    category: [""],
-    brand: "",
+    category: ["el34 tube"],
+    brand: "Engl",
     price: 133,
     available: true,
     rating: 5,
-    totalReviews: 5,
+    totalReviews: 71,
     specifications: ["", "", "", "", ""],
   },
   // 6L6 Tubes
-  // tad_6l6gcm_str_redbase_pair
   {
     title: "TAD 6L6GCM-STR Redbase Pair ",
     srcBig:
-      "/images/products/guitars-and-basses/big-images/electric-guitar-amps/.jpg",
-    srcSmall: "",
+      "/images/products/guitars-and-basses/big-images/electric-guitar-amps/tubes/6l6-tubes/tad_6l6gcm_str_redbase_pair.jpg",
+    srcSmall:
+      "/images/products/guitars-and-basses/small-images/electric-guitar-amps/tubes/6l6-tubes/tad_6l6gcm_str_redbase_pair.jpg",
     alt: "",
-    category: [""],
-    brand: "",
+    category: ["6l6 tube"],
+    brand: "Tube Amp Doctor",
     price: 66,
     available: true,
-    rating: 5,
-    totalReviews: 5,
+    rating: 4.9,
+    totalReviews: 57,
     specifications: ["", "", "", "", ""],
   },
   // El84 Tubes
-  // sovtek_el84_pair
   {
     title: "Sovtek EL84 Pair",
     srcBig:
-      "/images/products/guitars-and-basses/big-images/electric-guitar-amps/.jpg",
-    srcSmall: "",
+      "/images/products/guitars-and-basses/big-images/electric-guitar-amps/tubes/el84-tubes/sovtek_el84_pair.jpg",
+    srcSmall:
+      "/images/products/guitars-and-basses/small-images/electric-guitar-amps/tubes/el84-tubes/sovtek_el84_pair.jpg",
     alt: "",
-    category: [""],
-    brand: "",
+    category: ["el84 tube"],
+    brand: "Sovtek",
     price: 53,
     available: true,
-    rating: 5,
-    totalReviews: 5,
+    rating: 4.7,
+    totalReviews: 34,
     specifications: ["", "", "", "", ""],
   },
   // Ecc83 Tubes
-  // engl_tube_ecc_83_first_quality
   {
     title: "Engl Tube ECC 83 First Quality",
     srcBig:
-      "/images/products/guitars-and-basses/big-images/electric-guitar-amps/.jpg",
-    srcSmall: "",
+      "/images/products/guitars-and-basses/big-images/electric-guitar-amps/tubes/ecc83-tubes/engl_tube_ecc_83_first_quality.jpg",
+    srcSmall:
+      "/images/products/guitars-and-basses/small-images/electric-guitar-amps/tubes/ecc83-tubes/engl_tube_ecc_83_first_quality.jpg",
     alt: "",
-    category: [""],
-    brand: "",
+    category: ["ecc83 tube"],
+    brand: "Engl",
     price: 31,
     available: true,
-    rating: 5,
-    totalReviews: 5,
+    rating: 4.8,
+    totalReviews: 44,
     specifications: ["", "", "", "", ""],
   },
   // Other Tubes
-  // electro_harmonix_12ay7_tube
   {
     title: "Electro Harmonix 12AY7 Tube",
     srcBig:
-      "/images/products/guitars-and-basses/big-images/electric-guitar-amps/.jpg",
-    srcSmall: "",
+      "/images/products/guitars-and-basses/big-images/electric-guitar-amps/tubes/other-tubes/electro_harmonix_12ay7_tube.jpg",
+    srcSmall:
+      "/images/products/guitars-and-basses/small-images/electric-guitar-amps/tubes/other-tubes/electro_harmonix_12ay7_tube.jpg",
     alt: "",
-    category: [""],
-    brand: "",
+    category: ["other tube"],
+    brand: "Electro Harmonix",
     price: 29,
     available: true,
-    rating: 5,
-    totalReviews: 5,
+    rating: 4.8,
+    totalReviews: 29,
     specifications: ["", "", "", "", ""],
   },
 
   // 1x12 Cabinets
-  // hughes_kettner_tubemeister_112_box
   {
     title: "Hughes&Kettner Tubemeister 112 Box",
     srcBig:
-      "/images/products/guitars-and-basses/big-images/electric-guitar-amps/.jpg",
-    srcSmall: "",
+      "/images/products/guitars-and-basses/big-images/electric-guitar-amps/1x12-cabinets/hughes_kettner_tubemeister_112_box.jpg",
+    srcSmall:
+      "/images/products/guitars-and-basses/small-images/electric-guitar-amps/1x12-cabinets/hughes_kettner_tubemeister_112_box.jpg",
     alt: "",
-    category: [""],
-    brand: "",
+    category: ["1x12 electric guitar amp head cabinet"],
+    brand: "Hughes & Kettner",
     price: 339,
     available: true,
-    rating: 5,
-    totalReviews: 5,
+    rating: 4.7,
+    totalReviews: 52,
     specifications: ["", "", "", "", ""],
   },
   // 2x12 Cabinets
-  // marshall_mx212ar
   {
     title: "Marshall MX212AR",
     srcBig:
-      "/images/products/guitars-and-basses/big-images/electric-guitar-amps/.jpg",
-    srcSmall: "",
+      "/images/products/guitars-and-basses/big-images/electric-guitar-amps/2x12-cabinets/marshall_mx212ar.jpg",
+    srcSmall:
+      "/images/products/guitars-and-basses/small-images/electric-guitar-amps/2x12-cabinets/marshall_mx212ar.jpg",
     alt: "",
-    category: [""],
-    brand: "",
+    category: ["2x12 electric guitar amp head cabinet"],
+    brand: "Marshall",
     price: 285,
     available: true,
-    rating: 5,
-    totalReviews: 5,
+    rating: 4.9,
+    totalReviews: 100,
     specifications: ["", "", "", "", ""],
   },
   // 4x12 Cabinets
-  // orange_ppc412_bk
   {
     title: "Orange PPC412 BK",
     srcBig:
-      "/images/products/guitars-and-basses/big-images/electric-guitar-amps/.jpg",
-    srcSmall: "",
+      "/images/products/guitars-and-basses/big-images/electric-guitar-amps/4x12-cabinets/orange_ppc412_bk.jpg",
+    srcSmall:
+      "/images/products/guitars-and-basses/small-images/electric-guitar-amps/4x12-cabinets/orange_ppc412_bk.jpg",
     alt: "",
-    category: [""],
-    brand: "",
+    category: ["4x12 electric guitar amp head cabinet"],
+    brand: "Orange",
     price: 1035,
     available: true,
     rating: 5,
-    totalReviews: 5,
+    totalReviews: 50,
     specifications: ["", "", "", "", ""],
   },
   // Guitar Amp Cover Bags
-  // boss_katana_100_cover
   {
     title: "Boss Katana 100 Cover",
     srcBig:
-      "/images/products/guitars-and-basses/big-images/electric-guitar-amps/.jpg",
-    srcSmall: "",
+      "/images/products/guitars-and-basses/big-images/electric-guitar-amps/guitar-amp-cover-bags/boss_katana_100_cover.jpg",
+    srcSmall:
+      "/images/products/guitars-and-basses/small-images/electric-guitar-amps/guitar-amp-cover-bags/boss_katana_100_cover.jpg",
     alt: "",
-    category: [""],
-    brand: "",
+    category: ["guitar amp cover bag"],
+    brand: "Boss",
     price: 23,
     available: true,
     rating: 5,
-    totalReviews: 5,
+    totalReviews: 240,
     specifications: ["", "", "", "", ""],
   },
 
@@ -1085,218 +1085,218 @@ const products: Product[] = [
   // Bass Combo Amps
 
   // Solid State Bass Combo Amps
-  // markbass_mb58r_cmd_102_pure_combo
   {
     title: "Markbass MB58R CMD 102 Pure Combo",
-    srcBig: "/images/products/guitars-and-basses/big-images.jpg",
-    srcSmall: "",
+    srcBig:
+      "/images/products/guitars-and-basses/big-images/electric-bass-amps/bass-combo-amps/solid-state-bass-combo-amps/markbass_mb58r_cmd_102_pure_combo.jpg",
+    srcSmall:
+      "/images/products/guitars-and-basses/small-images/electric-bass-amps/bass-combo-amps/solid-state-bass-combo-amps/markbass_mb58r_cmd_102_pure_combo.jpg",
     alt: "",
-
-    category: [""],
-    brand: "",
+    category: ["electric bass solid state combo amp"],
+    brand: "Markbass",
     price: 1069,
     available: true,
-    rating: 5,
-    totalReviews: 5,
+    rating: 4.9,
+    totalReviews: 116,
     specifications: ["", "", "", "", ""],
   },
   // Digital Bass Combo Amps
-  // boss_katana_210_bass
   {
     title: "Boss Katana-210 Bass",
-    srcBig: "/images/products/guitars-and-basses/big-images.jpg",
-    srcSmall: "",
+    srcBig:
+      "/images/products/guitars-and-basses/big-images/electric-bass-amps/bass-combo-amps/digital-bass-combo-amps/boss_katana_210_bass.jpg",
+    srcSmall:
+      "/images/products/guitars-and-basses/small-images/electric-bass-amps/bass-combo-amps/digital-bass-combo-amps/boss_katana_210_bass.jpg",
     alt: "",
-
-    category: [""],
-    brand: "",
+    category: ["electric bass digital combo amp"],
+    brand: "Boss",
     price: 535,
     available: true,
-    rating: 5,
-    totalReviews: 5,
+    rating: 4.8,
+    totalReviews: 120,
     specifications: ["", "", "", "", ""],
   },
 
   // Bass Amp Heads
 
   // Solid State Bass Amp Heads
-  // phil_jones_bass_amp_head_bp_800
   {
     title: "Phil Jones Bass Amp Head BP-800",
-    srcBig: "/images/products/guitars-and-basses/big-images.jpg",
-    srcSmall: "",
+    srcBig:
+      "/images/products/guitars-and-basses/big-images/electric-bass-amps/bass-amp-heads/solid-state-bass-amp-heads/phil_jones_bass_amp_head_bp_800.jpg",
+    srcSmall:
+      "/images/products/guitars-and-basses/small-images/electric-bass-amps/bass-amp-heads/solid-state-bass-amp-heads/phil_jones_bass_amp_head_bp_800.jpg",
     alt: "",
-
-    category: [""],
-    brand: "",
+    category: ["electric bass solid state amp head"],
+    brand: "Phil Jones",
     price: 799,
     available: true,
-    rating: 5,
-    totalReviews: 5,
+    rating: 4.9,
+    totalReviews: 76,
     specifications: ["", "", "", "", ""],
   },
   // Lamps Bass Amp Heads
-  // orange_ad200b_mk3
   {
     title: "Orange AD200B Mk3",
-    srcBig: "/images/products/guitars-and-basses/big-images.jpg",
-    srcSmall: "",
+    srcBig:
+      "/images/products/guitars-and-basses/big-images/electric-bass-amps/bass-amp-heads/lamps-bass-amp-heads/orange_ad200b_mk3.jpg",
+    srcSmall:
+      "/images/products/guitars-and-basses/small-images/electric-bass-amps/bass-amp-heads/lamps-bass-amp-heads/orange_ad200b_mk3.jpg",
     alt: "",
-
-    category: [""],
-    brand: "",
+    category: ["electric bass lamps amp head"],
+    brand: "Orange",
     price: 2111,
     available: true,
     rating: 5,
-    totalReviews: 5,
+    totalReviews: 4,
     specifications: ["", "", "", "", ""],
   },
 
   // Bass Preamplifiers
-  // kemper_profiler_stage
   {
     title: "Kemper Profiler Stage",
-    srcBig: "/images/products/guitars-and-basses/big-images.jpg",
-    srcSmall: "",
+    srcBig:
+      "/images/products/guitars-and-basses/big-images/electric-bass-amps/bass-preamps/kemper_profiler_stage.jpg",
+    srcSmall:
+      "/images/products/guitars-and-basses/small-images/electric-bass-amps/bass-preamps/kemper_profiler_stage.jpg",
     alt: "",
-
-    category: [""],
-    brand: "",
+    category: ["electric bass preamp"],
+    brand: "Kemper",
     price: 1525,
     available: true,
-    rating: 5,
-    totalReviews: 5,
+    rating: 4.9,
+    totalReviews: 2,
     specifications: ["", "", "", "", ""],
   },
   // 1x15 Bass Cabinets
-  // fender_rumble_115_cabinet_v3
   {
     title: "Fender Rumble 115 Cabinet V3",
-    srcBig: "/images/products/guitars-and-basses/big-images.jpg",
-    srcSmall: "",
+    srcBig:
+      "/images/products/guitars-and-basses/big-images/electric-bass-amps/1x15-bass-cabinets/fender_rumble_115_cabinet_v3.jpg",
+    srcSmall:
+      "/images/products/guitars-and-basses/small-images/electric-bass-amps/1x15-bass-cabinets/fender_rumble_115_cabinet_v3.jpg",
     alt: "",
-
-    category: [""],
-    brand: "",
+    category: ["1x15 electric bass amp head cabinet"],
+    brand: "Fender",
     price: 359,
     available: true,
-    rating: 5,
-    totalReviews: 5,
+    rating: 4.9,
+    totalReviews: 76,
     specifications: ["", "", "", "", ""],
   },
   // 2x10 Bass Cabinets
-  // markbass_traveler_102p_4ohm
   {
     title: "Markbass Traveler 102P - 4Ohm",
-    srcBig: "/images/products/guitars-and-basses/big-images.jpg",
-    srcSmall: "",
+    srcBig:
+      "/images/products/guitars-and-basses/big-images/electric-bass-amps/2x10-bass-cabinets/markbass_traveler_102p_4ohm.jpg",
+    srcSmall:
+      "/images/products/guitars-and-basses/small-images/electric-bass-amps/2x10-bass-cabinets/markbass_traveler_102p_4ohm.jpg",
     alt: "",
-
-    category: [""],
-    brand: "",
+    category: ["2x10 electric bass amp head cabinet"],
+    brand: "Markbass",
     price: 444,
     available: true,
     rating: 5,
-    totalReviews: 5,
+    totalReviews: 55,
     specifications: ["", "", "", "", ""],
   },
   // 4x10 Bass Cabinets
-  // markbass_mb58r_104_energy_box_4
   {
     title: "Markbass MB58R 104 Energy Box 4",
-    srcBig: "/images/products/guitars-and-basses/big-images.jpg",
-    srcSmall: "",
+    srcBig:
+      "/images/products/guitars-and-basses/big-images/electric-bass-amps/4x10-bass-cabinets/markbass_mb58r_104_energy_box_4.jpg",
+    srcSmall:
+      "/images/products/guitars-and-basses/small-images/electric-bass-amps/4x10-bass-cabinets/markbass_mb58r_104_energy_box_4.jpg",
     alt: "",
-
-    category: [""],
-    brand: "",
+    category: ["4x10 electric bass amp head cabinet"],
+    brand: "Markbass",
     price: 799,
     available: true,
-    rating: 5,
-    totalReviews: 5,
+    rating: 4.7,
+    totalReviews: 21,
     specifications: ["", "", "", "", ""],
   },
   // 8x10 Bass Cabinets
-  //ampeg_svt_810e
   {
     title: "Ampeg SVT 810E",
-    srcBig: "/images/products/guitars-and-basses/big-images.jpg",
-    srcSmall: "",
+    srcBig:
+      "/images/products/guitars-and-basses/big-images/electric-bass-amps/8x10-bass-cabinets/ampeg_svt_810e.jpg",
+    srcSmall:
+      "/images/products/guitars-and-basses/small-images/electric-bass-amps/8x10-bass-cabinets/ampeg_svt_810e.jpg",
     alt: "",
-
-    category: [""],
-    brand: "",
+    category: ["8x10 electric bass amp head cabinet"],
+    brand: "Ampeg",
     price: 1079,
     available: true,
-    rating: 5,
-    totalReviews: 5,
+    rating: 4.9,
+    totalReviews: 1,
     specifications: ["", "", "", "", ""],
   },
   // Bass Amp Cover Bags
-  // boss_katana_210_bass_cover
   {
     title: "Boss Katana 210 Bass Cover",
-    srcBig: "/images/products/guitars-and-basses/big-images.jpg",
-    srcSmall: "",
+    srcBig:
+      "/images/products/guitars-and-basses/big-images/electric-bass-amps/bass-amp-cover-bags/boss_katana_210_bass_cover.jpg",
+    srcSmall:
+      "/images/products/guitars-and-basses/small-images/electric-bass-amps/bass-amp-cover-bags/boss_katana_210_bass_cover.jpg",
     alt: "",
-
-    category: [""],
-    brand: "",
+    category: ["electric bass amp cover bag"],
+    brand: "Boss",
     price: 31,
     available: true,
     rating: 5,
-    totalReviews: 5,
+    totalReviews: 99,
     specifications: ["", "", "", "", ""],
   },
 
   // Acoustic Guitar Amps
 
   // Acoustic Guitar Combo Amps
-  // bugera_ac60
   {
     title: "Bugera AC60",
-    srcBig: "/images/products/guitars-and-basses/big-images.jpg",
-    srcSmall: "",
+    srcBig:
+      "/images/products/guitars-and-basses/big-images/acoustic-guitar-amps/acoustic-guitar-combo-amps/bugera_ac60.jpg",
+    srcSmall:
+      "/images/products/guitars-and-basses/small-images/acoustic-guitar-amps/acoustic-guitar-combo-amps/bugera_ac60.jpg",
     alt: "",
-
-    category: [""],
-    brand: "",
+    category: ["acoustic guitar combo amp"],
+    brand: "Bugera",
     price: 211,
     available: true,
     rating: 5,
-    totalReviews: 5,
+    totalReviews: 21,
     specifications: ["", "", "", "", ""],
   },
   // Acoustic Guitar Preamps
-  // fishman_platinum_stage_analog_preamp
   {
     title: "Fishman Platinum Stage Analog Preamp",
-    srcBig: "/images/products/guitars-and-basses/big-images.jpg",
-    srcSmall: "",
+    srcBig:
+      "/images/products/guitars-and-basses/big-images/acoustic-guitar-amps/acoustic-guitar-preamps/fishman_platinum_stage_analog_preamp.jpg",
+    srcSmall:
+      "/images/products/guitars-and-basses/small-images/acoustic-guitar-amps/acoustic-guitar-preamps/fishman_platinum_stage_analog_preamp.jpg",
     alt: "",
-
-    category: [""],
-    brand: "",
+    category: ["acoustic guitar preamp"],
+    brand: "Fishman",
     price: 179,
     available: true,
-    rating: 5,
-    totalReviews: 5,
+    rating: 4.7,
+    totalReviews: 6,
     specifications: ["", "", "", "", ""],
   },
   // Acoustic Guitar Cover Bags
-  // fishman_cover_for_loudbox_artist
   {
     title: "Fishman Cover for Loudbox Artist",
-    srcBig: "/images/products/guitars-and-basses/big-images.jpg",
-    srcSmall: "",
+    srcBig:
+      "/images/products/guitars-and-basses/big-images/acoustic-guitar-amps/acoustic-guitar-amp-cover-bags/fishman_cover_for_loudbox_artist.jpg",
+    srcSmall:
+      "/images/products/guitars-and-basses/small-images/acoustic-guitar-amps/acoustic-guitar-amp-cover-bags/fishman_cover_for_loudbox_artist.jpg",
     alt: "",
-
-    category: [""],
-    brand: "",
+    category: ["acoustic guitar amp cover bag"],
+    brand: "Fishman",
     price: 30,
     available: true,
     rating: 5,
-    totalReviews: 5,
+    totalReviews: 21,
     specifications: ["", "", "", "", ""],
   },
 
@@ -1305,510 +1305,534 @@ const products: Product[] = [
   // Electric Guitar Strings
 
   // 0.08 Electric Guitar Strings
-  // daddario_nyxl0838
   {
     title: "Daddario NYXL0838",
-    srcBig: "/images/products/guitars-and-basses/big-images.jpg",
-    srcSmall: "",
+    srcBig:
+      "/images/products/guitars-and-basses/big-images/strings/electric-guitar-strings/008-strings/daddario_nyxl0838.jpg",
+    srcSmall:
+      "/images/products/guitars-and-basses/small-images/strings/electric-guitar-strings/008-strings/daddario_nyxl0838.jpg",
     alt: "",
-
-    category: [""],
-    brand: "",
+    category: ["0.08 electric guitar strings"],
+    brand: "D'Addario",
     price: 12.5,
     available: true,
     rating: 5,
-    totalReviews: 5,
+    totalReviews: 465,
     specifications: ["", "", "", "", ""],
   },
   // 0.09 Electric Guitar Strings
-  // elixir_optiweb_19002_super_light
   {
     title: "Elixir Optiweb 19002 Super Light",
-    srcBig: "/images/products/guitars-and-basses/big-images.jpg",
-    srcSmall: "",
+    srcBig:
+      "/images/products/guitars-and-basses/big-images/strings/electric-guitar-strings/009-strings/elixir_optiweb_19002_super_light.jpg",
+    srcSmall:
+      "/images/products/guitars-and-basses/small-images/strings/electric-guitar-strings/009-strings/elixir_optiweb_19002_super_light.jpg",
     alt: "",
-
-    category: [""],
-    brand: "",
+    category: ["0.09 electric guitar strings"],
+    brand: "Elixir",
     price: 11.5,
     available: true,
     rating: 5,
-    totalReviews: 5,
+    totalReviews: 1508,
     specifications: ["", "", "", "", ""],
   },
   // 0.10 Electric Guitar Strings
-  // elixir_nanoweb_light_heavy
   {
     title: "Elixir Nanoweb Light-Heavy",
-    srcBig: "/images/products/guitars-and-basses/big-images.jpg",
-    srcSmall: "",
+    srcBig:
+      "/images/products/guitars-and-basses/big-images/strings/electric-guitar-strings/010-strings/elixir_nanoweb_light_heavy.jpg",
+    srcSmall:
+      "/images/products/guitars-and-basses/small-images/strings/electric-guitar-strings/010-strings/elixir_nanoweb_light_heavy.jpg",
     alt: "",
-
-    category: [""],
-    brand: "",
+    category: ["0.10 electric guitar strings"],
+    brand: "Elixir",
     price: 11.6,
     available: true,
     rating: 5,
-    totalReviews: 5,
+    totalReviews: 2876,
     specifications: ["", "", "", "", ""],
   },
   // 0.11 Electric Guitar Strings
-  // daddario_exl116
   {
     title: "Daddario EXL116",
-    srcBig: "/images/products/guitars-and-basses/big-images.jpg",
-    srcSmall: "",
+    srcBig:
+      "/images/products/guitars-and-basses/big-images/strings/electric-guitar-strings/011-strings/daddario_exl116.jpg",
+    srcSmall:
+      "/images/products/guitars-and-basses/small-images/strings/electric-guitar-strings/011-strings/daddario_exl116.jpg",
     alt: "",
-
-    category: [""],
-    brand: "",
+    category: ["0.11 electric guitar strings"],
+    brand: "D'Addario",
     price: 7,
     available: true,
     rating: 5,
-    totalReviews: 5,
+    totalReviews: 899,
     specifications: ["", "", "", "", ""],
   },
   // 7 Strings Electric Guitar Strings
-  // daddario_exl110_7
   {
     title: "Daddario EXL110-7",
-    srcBig: "/images/products/guitars-and-basses/big-images.jpg",
-    srcSmall: "",
+    srcBig:
+      "/images/products/guitars-and-basses/big-images/strings/electric-guitar-strings/7-strings/daddario_exl110_7.jpg",
+    srcSmall:
+      "/images/products/guitars-and-basses/small-images/strings/electric-guitar-strings/7-strings/daddario_exl110_7.jpg",
     alt: "",
-
-    category: [""],
-    brand: "",
+    category: ["7 strings electric guitar strings"],
+    brand: "D'Addario",
     price: 8.5,
     available: true,
     rating: 5,
-    totalReviews: 5,
+    totalReviews: 178,
     specifications: ["", "", "", "", ""],
   },
   // 8 Strings Electric Guitar Strings
-  // dr_strings_tite_fit_tf8_10
   {
     title: "DR Strings Tite-Fit TF8-10",
-    srcBig: "/images/products/guitars-and-basses/big-images.jpg",
-    srcSmall: "",
+    srcBig:
+      "/images/products/guitars-and-basses/big-images/strings/electric-guitar-strings/8-strings/dr_strings_tite_fit_tf8_10.jpg",
+    srcSmall:
+      "/images/products/guitars-and-basses/small-images/strings/electric-guitar-strings/8-strings/dr_strings_tite_fit_tf8_10.jpg",
     alt: "",
-
-    category: [""],
-    brand: "",
+    category: ["8 strings electric guitar strings"],
+    brand: "Dr Strings",
     price: 10.7,
     available: true,
     rating: 5,
-    totalReviews: 5,
+    totalReviews: 89,
     specifications: ["", "", "", "", ""],
   },
   // 12 Strings Electric Guitar Strings
-  // ghs_gb12xl_boomers
   {
     title: "GHS GB12XL-Boomers",
-    srcBig: "/images/products/guitars-and-basses/big-images.jpg",
-    srcSmall: "",
-    alt: "",
-
-    category: [""],
+    srcBig:
+      "/images/products/guitars-and-basses/big-images/strings/electric-guitar-strings/12-strings/ghs_gb12xl_boomers.jpg",
+    srcSmall:
+      "/images/products/guitars-and-basses/small-images/strings/electric-guitar-strings/12-strings/ghs_gb12xl_boomers.jpg",
+    alt: "Ghs",
+    category: ["12 strings electric guitar strings"],
     brand: "",
     price: 11.6,
     available: true,
     rating: 5,
-    totalReviews: 5,
+    totalReviews: 12,
     specifications: ["", "", "", "", ""],
   },
 
   // Acoustic Guitar Strings
 
   // 0.10 Acoustic Guitar Strings
-  // elixir_nanoweb_extra_light_acoustic
   {
     title: "Elixir Nanoweb Extra Light Acoustic",
-    srcBig: "/images/products/guitars-and-basses/big-images.jpg",
-    srcSmall: "",
+    srcBig:
+      "/images/products/guitars-and-basses/big-images/strings/acoustic-guitar-strings/010-strings/elixir_nanoweb_extra_light_acoustic.jpg",
+    srcSmall:
+      "/images/products/guitars-and-basses/small-images/strings/acoustic-guitar-strings/010-strings/elixir_nanoweb_extra_light_acoustic.jpg",
     alt: "",
-
-    category: [""],
-    brand: "",
+    category: ["0.10 acoustic guitar strings"],
+    brand: "Elixir",
     price: 14.4,
     available: true,
     rating: 5,
-    totalReviews: 5,
+    totalReviews: 304,
     specifications: ["", "", "", "", ""],
   },
   // 0.11 Acoustic Guitar Strings
-  // rotosound_jk11_jumbo_king
   {
     title: "Rotosound JK11 Jumbo King",
-    srcBig: "/images/products/guitars-and-basses/big-images.jpg",
-    srcSmall: "",
+    srcBig:
+      "/images/products/guitars-and-basses/big-images/strings/acoustic-guitar-strings/011-strings/rotosound_jk11_jumbo_king.jpg",
+    srcSmall:
+      "/images/products/guitars-and-basses/small-images/strings/acoustic-guitar-strings/011-strings/rotosound_jk11_jumbo_king.jpg",
     alt: "",
-
-    category: [""],
-    brand: "",
+    category: ["0.11 acoustic guitar strings"],
+    brand: "Rotosound",
     price: 6.2,
     available: true,
     rating: 5,
-    totalReviews: 5,
+    totalReviews: 500,
     specifications: ["", "", "", "", ""],
   },
   // 0.12 Acoustic Guitar Strings
-  // elixir_polyweb_light_acoustic
   {
     title: "Elixir Polyweb Light Acoustic",
-    srcBig: "/images/products/guitars-and-basses/big-images.jpg",
-    srcSmall: "",
+    srcBig:
+      "/images/products/guitars-and-basses/big-images/strings/acoustic-guitar-strings/012-strings/elixir_polyweb_light_acoustic.jpg",
+    srcSmall:
+      "/images/products/guitars-and-basses/small-images/strings/acoustic-guitar-strings/012-strings/elixir_polyweb_light_acoustic.jpg",
     alt: "",
-
-    category: [""],
-    brand: "",
+    category: ["0.12 acoustic guitar strings"],
+    brand: "Elixir",
     price: 15,
     available: true,
     rating: 5,
-    totalReviews: 5,
+    totalReviews: 211,
     specifications: ["", "", "", "", ""],
   },
   // 0.13 Acoustic Guitar Strings
-  // martin_guitars_ma550t_authentic_treated
   {
     title: "Martin Guitars MA550T Authentic Treated",
-    srcBig: "/images/products/guitars-and-basses/big-images.jpg",
-    srcSmall: "",
+    srcBig:
+      "/images/products/guitars-and-basses/big-images/strings/acoustic-guitar-strings/013-strings/martin_guitars_ma550t_authentic_treated.jpg",
+    srcSmall:
+      "/images/products/guitars-and-basses/small-images/strings/acoustic-guitar-strings/013-strings/martin_guitars_ma550t_authentic_treated.jpg",
     alt: "",
-
-    category: [""],
-    brand: "",
+    category: ["0.13 acoustic guitar strings"],
+    brand: "Martin Guitars",
     price: 13.4,
     available: true,
     rating: 5,
-    totalReviews: 5,
+    totalReviews: 128,
     specifications: ["", "", "", "", ""],
   },
   // 12 Strings Acoustic Guitar Strings
-  // elixir_nanoweb_light_12_str__acoustic
   {
     title: "Elixir Nanoweb Light 12 Str. Acoustic",
-    srcBig: "/images/products/guitars-and-basses/big-images.jpg",
-    srcSmall: "",
+    srcBig:
+      "/images/products/guitars-and-basses/big-images/strings/acoustic-guitar-strings/12-strings/elixir_nanoweb_light_12_str__acoustic.jpg",
+    srcSmall:
+      "/images/products/guitars-and-basses/small-images/strings/acoustic-guitar-strings/12-strings/elixir_nanoweb_light_12_str__acoustic.jpg",
     alt: "",
-
-    category: [""],
-    brand: "",
+    category: ["12 strings acoustic guitar strings"],
+    brand: "Elixir",
     price: 22,
     available: true,
     rating: 5,
-    totalReviews: 5,
+    totalReviews: 12,
     specifications: ["", "", "", "", ""],
   },
 
   // Classic Guitar Strings
-  // daddario_ej45
   {
     title: "Daddario EJ45",
-    srcBig: "/images/products/guitars-and-basses/big-images.jpg",
-    srcSmall: "",
+    srcBig:
+      "/images/products/guitars-and-basses/big-images/strings/classic-guitar-strings/daddario_ej45.jpg",
+    srcSmall:
+      "/images/products/guitars-and-basses/small-images/strings/classic-guitar-strings/daddario_ej45.jpg",
     alt: "",
-
-    category: [""],
-    brand: "",
+    category: ["classic guitar strings"],
+    brand: "D'Addario",
     price: 11.6,
     available: true,
     rating: 5,
-    totalReviews: 5,
+    totalReviews: 1392,
     specifications: ["", "", "", "", ""],
   },
 
   // Electric Bass Strings
 
   // 0.40 Electric Bass Strings
-  // harley_benton_valuestrings_bass_40_95
   {
     title: "Harley Benton Valuestrings Bass 40-95",
-    srcBig: "/images/products/guitars-and-basses/big-images.jpg",
-    srcSmall: "",
+    srcBig:
+      "/images/products/guitars-and-basses/big-images/strings/electric-bass-strings/040-strings/harley_benton_valuestrings_bass_40_95.jpg",
+    srcSmall:
+      "/images/products/guitars-and-basses/small-images/strings/electric-bass-strings/040-strings/harley_benton_valuestrings_bass_40_95.jpg",
     alt: "",
-
-    category: [""],
-    brand: "",
+    category: ["0.40 electric bass strings"],
+    brand: "Harley Benton",
     price: 5,
     available: true,
     rating: 5,
-    totalReviews: 5,
+    totalReviews: 827,
     specifications: ["", "", "", "", ""],
   },
   // 0.45 Electric Bass Strings
-  // elixir_nanoweb_long_scale
   {
     title: "Elixir Nanoweb Long Scale",
-    srcBig: "/images/products/guitars-and-basses/big-images.jpg",
-    srcSmall: "",
+    srcBig:
+      "/images/products/guitars-and-basses/big-images/strings/electric-bass-strings/045-strings/elixir_nanoweb_long_scale.jpg",
+    srcSmall:
+      "/images/products/guitars-and-basses/small-images/strings/electric-bass-strings/045-strings/elixir_nanoweb_long_scale.jpg",
     alt: "",
-
-    category: [""],
-    brand: "",
+    category: ["0.45 electric bass strings"],
+    brand: "Elixir",
     price: 39,
     available: true,
     rating: 5,
-    totalReviews: 5,
+    totalReviews: 126,
     specifications: ["", "", "", "", ""],
   },
   // 0.50 Electric Bass Strings
-  // dr_strings_hi_beams_er_50
   {
     title: "DR Strings Hi-Beams ER-50",
-    srcBig: "/images/products/guitars-and-basses/big-images.jpg",
-    srcSmall: "",
+    srcBig:
+      "/images/products/guitars-and-basses/big-images/strings/electric-bass-strings/050-strings/dr_strings_hi_beams_er_50.jpg",
+    srcSmall:
+      "/images/products/guitars-and-basses/small-images/strings/electric-bass-strings/050-strings/dr_strings_hi_beams_er_50.jpg",
     alt: "",
-
-    category: [""],
-    brand: "",
+    category: ["0.50 electric bass strings"],
+    brand: "Dr Strings",
     price: 31,
     available: true,
     rating: 5,
-    totalReviews: 5,
+    totalReviews: 245,
     specifications: ["", "", "", "", ""],
   },
   // 5 Strings Electric Bass Strings
-  // harley_benton_valuestrings_bass_5_45_130
   {
     title: "Harley Benton Valuestrings Bass-5 45-130",
-    srcBig: "/images/products/guitars-and-basses/big-images.jpg",
-    srcSmall: "",
+    srcBig:
+      "/images/products/guitars-and-basses/big-images/strings/electric-bass-strings/5-strings/harley_benton_valuestrings_bass_5_45_130.jpg",
+    srcSmall:
+      "/images/products/guitars-and-basses/small-images/strings/electric-bass-strings/5-strings/harley_benton_valuestrings_bass_5_45_130.jpg",
     alt: "",
-
-    category: [""],
-    brand: "",
+    category: [
+      "5 strings electric bass strings",
+      "0.45-130 5 strings bass strings",
+    ],
+    brand: "Harley Benton",
     price: 7.9,
     available: true,
     rating: 5,
-    totalReviews: 5,
+    totalReviews: 564,
     specifications: ["", "", "", "", ""],
   },
 
   // Acoustic Bass Strings
-  // fender_8060_acoustic_bass
   {
     title: "Fender 8060 Acoustic Bass",
-    srcBig: "/images/products/guitars-and-basses/big-images.jpg",
-    srcSmall: "",
+    srcBig:
+      "/images/products/guitars-and-basses/big-images/strings/acoustic-bass-strings/fender_8060_acoustic_bass.jpg",
+    srcSmall:
+      "/images/products/guitars-and-basses/small-images/strings/acoustic-bass-strings/fender_8060_acoustic_bass.jpg",
     alt: "",
-
-    category: [""],
-    brand: "",
+    category: ["0.45-100 acoustic bass strings", "acoustic bass strings"],
+    brand: "Fender",
     price: 17.9,
     available: true,
     rating: 5,
-    totalReviews: 5,
+    totalReviews: 43,
     specifications: ["", "", "", "", ""],
   },
   // Ukulele Strings
-  // martin_guitars_m600_new_ukulele_string_set
   {
     title: "Martin Guitars M600 NEW Ukulele String Set",
-    srcBig: "/images/products/guitars-and-basses/big-images.jpg",
-    srcSmall: "",
+    srcBig:
+      "/images/products/guitars-and-basses/big-images/strings/ukulele-strings/martin_guitars_m600_new_ukulele_string_set.jpg",
+    srcSmall:
+      "/images/products/guitars-and-basses/small-images/strings/ukulele-strings/martin_guitars_m600_new_ukulele_string_set.jpg",
     alt: "",
-
-    category: [""],
-    brand: "",
+    category: [
+      "soprano ukulele strings",
+      "concert ukulele strings",
+      "ukulele strings",
+    ],
+    brand: "Martin Guitars",
     price: 5.3,
     available: true,
     rating: 5,
-    totalReviews: 5,
+    totalReviews: 78,
     specifications: ["", "", "", "", ""],
   },
 
   // Effect Pedals
 
   // Multi Effect Pedals
-  // neural_dsp_quad_cortex
   {
     title: "Neural DSP Quad Cortex",
-    srcBig: "/images/products/guitars-and-basses/big-images.jpg",
-    srcSmall: "",
+    srcBig:
+      "/images/products/guitars-and-basses/big-images/effect-pedals/multi-effect-pedals/neural_dsp_quad_cortex.jpg",
+    srcSmall:
+      "/images/products/guitars-and-basses/small-images/effect-pedals/multi-effect-pedals/neural_dsp_quad_cortex.jpg",
     alt: "",
-
-    category: [""],
-    brand: "",
+    category: ["multi effect pedal"],
+    brand: "Neural DSP",
     price: 1659,
     available: true,
-    rating: 5,
-    totalReviews: 5,
+    rating: 4.9,
+    totalReviews: 21,
     specifications: ["", "", "", "", ""],
   },
-  // Distortion Pedals
-  // boss_sd_1_overdrive
+  // Distortion Pedals  (these includes distortion, overdrive and fuzz)
   {
     title: "Boss SD-1 Overdrive",
-    srcBig: "/images/products/guitars-and-basses/big-images.jpg",
-    srcSmall: "",
+    srcBig:
+      "/images/products/guitars-and-basses/big-images/effect-pedals/distortion-pedals/boss_sd_1_overdrive.jpg",
+    srcSmall:
+      "/images/products/guitars-and-basses/small-images/effect-pedals/distortion-pedals/boss_sd_1_overdrive.jpg",
     alt: "",
-
-    category: [""],
-    brand: "",
+    category: ["overdrive pedal"],
+    brand: "Boss",
     price: 68,
     available: true,
     rating: 5,
-    totalReviews: 5,
+    totalReviews: 578,
     specifications: ["", "", "", "", ""],
   },
   // Chorus/Flanger/Phaser Pedals
-  // strymon_mobius
   {
     title: "Strymon Mobius",
-    srcBig: "/images/products/guitars-and-basses/big-images.jpg",
-    srcSmall: "",
+    srcBig:
+      "/images/products/guitars-and-basses/big-images/effect-pedals/chorus-flanger-phaser-pedals/strymon_mobius.jpg",
+    srcSmall:
+      "/images/products/guitars-and-basses/big-images/effect-pedals/chorus-flanger-phaser-pedals/strymon_mobius.jpg",
     alt: "",
-
-    category: [""],
-    brand: "",
+    category: ["chorus pedal", "flanger pedal", "phaser pedal"],
+    brand: "Strymon",
     price: 422,
     available: true,
     rating: 5,
-    totalReviews: 5,
+    totalReviews: 70,
     specifications: ["", "", "", "", ""],
   },
   // Delay Pedals
-  // keeley_parallax_spatial_generator
   {
     title: "Keeley Parallax - Spatial Generator",
-    srcBig: "/images/products/guitars-and-basses/big-images.jpg",
-    srcSmall: "",
+    srcBig:
+      "/images/products/guitars-and-basses/big-images/effect-pedals/delay-pedals/keeley_parallax_spatial_generator.jpg",
+    srcSmall:
+      "/images/products/guitars-and-basses/small-images/effect-pedals/delay-pedals/keeley_parallax_spatial_generator.jpg",
     alt: "",
-
-    category: [""],
-    brand: "",
+    category: ["delay pedal"],
+    brand: "Keeley",
     price: 249,
     available: true,
-    rating: 5,
-    totalReviews: 5,
+    rating: 4.9,
+    totalReviews: 231,
     specifications: ["", "", "", "", ""],
   },
   // Reverb Pedals
-  // electro_harmonix_oceans_12_reverb
   {
     title: "Electro Harmonix Oceans 12 Reverb",
-    srcBig: "/images/products/guitars-and-basses/big-images.jpg",
-    srcSmall: "",
+    srcBig:
+      "/images/products/guitars-and-basses/big-images/effect-pedals/reverb-pedals/electro_harmonix_oceans_12_reverb.jpg",
+    srcSmall:
+      "/images/products/guitars-and-basses/small-images/effect-pedals/reverb-pedals/electro_harmonix_oceans_12_reverb.jpg",
     alt: "",
-
-    category: [""],
-    brand: "",
+    category: ["reverb pedal"],
+    brand: "Electro Harmonix",
     price: 222,
     available: true,
-    rating: 5,
-    totalReviews: 5,
+    rating: 4.7,
+    totalReviews: 128,
     specifications: ["", "", "", "", ""],
   },
   // Compressor Pedals
-  // boss_cs_3_compression_sustainer
   {
     title: "Boss CS-3 Compression Sustainer",
-    srcBig: "/images/products/guitars-and-basses/big-images.jpg",
-    srcSmall: "",
+    srcBig:
+      "/images/products/guitars-and-basses/big-images/effect-pedals/compressor-pedals/boss_cs_3_compression_sustainer.jpg",
+    srcSmall:
+      "/images/products/guitars-and-basses/small-images/effect-pedals/compressor-pedals/boss_cs_3_compression_sustainer.jpg",
     alt: "",
-
-    category: [""],
-    brand: "",
+    category: ["compressor pedal"],
+    brand: "Boss",
     price: 98,
     available: true,
-    rating: 5,
-    totalReviews: 5,
+    rating: 4.7,
+    totalReviews: 82,
     specifications: ["", "", "", "", ""],
   },
   // Wah Pedals
-  // dunlop_crybaby_gcb95
   {
     title: "Dunlop Crybaby GCB95",
-    srcBig: "/images/products/guitars-and-basses/big-images.jpg",
-    srcSmall: "",
+    srcBig:
+      "/images/products/guitars-and-basses/big-images/effect-pedals/wah-pedals/dunlop_crybaby_gcb95.jpg",
+    srcSmall:
+      "/images/products/guitars-and-basses/small-images/effect-pedals/wah-pedals/dunlop_crybaby_gcb95.jpg",
     alt: "",
-
-    category: [""],
-    brand: "",
+    category: ["wah pedal"],
+    brand: "Dunlop",
     price: 105,
     available: true,
-    rating: 5,
-    totalReviews: 5,
+    rating: 4.8,
+    totalReviews: 632,
     specifications: ["", "", "", "", ""],
   },
   // Loop Pedals
-  // electro_harmonix_22500_dual_stereo_looper
   {
     title: "Electro Harmonix 22500 Dual Stereo Looper",
-    srcBig: "/images/products/guitars-and-basses/big-images.jpg",
-    srcSmall: "",
+    srcBig:
+      "/images/products/guitars-and-basses/big-images/effect-pedals/loop-pedals/electro_harmonix_22500_dual_stereo_looper.jpg",
+    srcSmall:
+      "/images/products/guitars-and-basses/small-images/effect-pedals/loop-pedals/electro_harmonix_22500_dual_stereo_looper.jpg",
     alt: "",
-
-    category: [""],
-    brand: "",
+    category: ["loop pedal"],
+    brand: "Electro Harmonix",
     price: 266,
     available: true,
     rating: 5,
-    totalReviews: 5,
+    totalReviews: 139,
     specifications: ["", "", "", "", ""],
   },
   // Volume and Expression Pedals
-  // boss_fv_50h
   {
     title: "Boss FV-50H",
-    srcBig: "/images/products/guitars-and-basses/big-images.jpg",
-    srcSmall: "",
+    srcBig:
+      "/images/products/guitars-and-basses/big-images/effect-pedals/volume-and-expression-pedals/boss_fv_50h.jpg",
+    srcSmall:
+      "/images/products/guitars-and-basses/small-images/effect-pedals/volume-and-expression-pedals/boss_fv_50h.jpg",
     alt: "",
-
-    category: [""],
-    brand: "",
+    category: ["volume pedal"],
+    brand: "Boss",
     price: 82,
     available: true,
-    rating: 5,
-    totalReviews: 5,
+    rating: 4.8,
+    totalReviews: 51,
     specifications: ["", "", "", "", ""],
   },
   // Band EQ Pedals
-  // boss_ge_7_equalizer
   {
     title: "Boss GE-7 Equalizer",
-    srcBig: "/images/products/guitars-and-basses/big-images.jpg",
-    srcSmall: "",
+    srcBig:
+      "/images/products/guitars-and-basses/big-images/effect-pedals/bands-eq-pedals/boss_ge_7_equalizer.jpg",
+    srcSmall:
+      "/images/products/guitars-and-basses/small-images/effect-pedals/bands-eq-pedals/boss_ge_7_equalizer.jpg",
     alt: "",
-
-    category: [""],
-    brand: "",
+    category: ["bands eq pedal"],
+    brand: "Boss",
     price: 105,
     available: true,
-    rating: 5,
-    totalReviews: 5,
+    rating: 4.7,
+    totalReviews: 6,
     specifications: ["", "", "", "", ""],
   },
-  // Pedal Boards
-  // harley_benton_spaceship_40
+  // Pedalboards
   {
     title: "Harley Benton SpaceShip 40",
-    srcBig: "/images/products/guitars-and-basses/big-images.jpg",
-    srcSmall: "",
-    alt: "",
+    srcBig:
+      "/images/products/guitars-and-basses/big-images/effect-pedals/pedalboards/harley_benton_spaceship_40.jpg",
+    srcSmall:
+      "/images/products/guitars-and-basses/small-images/effect-pedals/pedalboards/harley_benton_spaceship_40.jpg",
 
-    category: [""],
-    brand: "",
+    alt: "",
+    category: ["pedalboard"],
+    brand: "Harley Benton",
     price: 49,
     available: true,
-    rating: 5,
-    totalReviews: 5,
+    rating: 4.9,
+    totalReviews: 51,
     specifications: ["", "", "", "", ""],
   },
   // Pedal Cables
-  // ebs_ebs_dc6_90f_flat_daisy_chain
   {
     title: "EBS EBS DC6-90F Flat Daisy Chain",
-    srcBig: "/images/products/guitars-and-basses/big-images.jpg",
-    srcSmall: "",
+    srcBig:
+      "/images/products/guitars-and-basses/big-images/effect-pedals/pedal-cables/ebs_ebs_dc6_90f_flat_daisy_chain.jpg",
+    srcSmall:
+      "/images/products/guitars-and-basses/small-images/effect-pedals/pedal-cables/ebs_ebs_dc6_90f_flat_daisy_chain.jpg",
     alt: "",
-
-    category: [""],
-    brand: "",
+    category: ["pedal cable", "daisy chain cable"],
+    brand: "Ebs",
+    price: 8.8,
+    available: true,
+    rating: 4.8,
+    totalReviews: 125,
+    specifications: ["", "", "", "", ""],
+  },
+  // Power Supplies
+  {
+    title: "Boss PSA 230S Power Supply",
+    srcBig:
+      "/images/products/guitars-and-basses/big-images/effect-pedals/power-supplies/boss_psa_230s_power_supply.jpg",
+    srcSmall:
+      "/images/products/guitars-and-basses/small-images/effect-pedals/power-supplies/boss_psa_230s_power_supply.jpg",
+    alt: "",
+    category: ["power supply"],
+    brand: "Boss",
     price: 8.8,
     available: true,
     rating: 5,
-    totalReviews: 5,
+    totalReviews: 455,
     specifications: ["", "", "", "", ""],
   },
 
@@ -1817,469 +1841,469 @@ const products: Product[] = [
   // Electric Guitar Pickups
 
   // Single Coil Pickups
-  // fender_yosemite_strat_pickupset
   {
     title: "Fender Yosemite Strat PickupSet",
-    srcBig: "/images/products/guitars-and-basses/big-images.jpg",
-    srcSmall: "",
+    srcBig:
+      "/images/products/guitars-and-basses/big-images/pickups/guitar-pickups/single-coil-pickups/fender_yosemite_strat_pickupset.jpg",
+    srcSmall:
+      "/images/products/guitars-and-basses/small-images/pickups/guitar-pickups/single-coil-pickups/fender_yosemite_strat_pickupset.jpg",
     alt: "",
-
-    category: [""],
-    brand: "",
+    category: ["single coil pickup"],
+    brand: "Fender",
     price: 105,
     available: true,
     rating: 5,
-    totalReviews: 5,
+    totalReviews: 357,
     specifications: ["", "", "", "", ""],
   },
   // Humbucker Pickups
-  // emg_81_black
   {
     title: "EMG 81 Black",
-    srcBig: "/images/products/guitars-and-basses/big-images.jpg",
-    srcSmall: "",
+    srcBig:
+      "/images/products/guitars-and-basses/big-images/pickups/guitar-pickups/humbucker-pickups/emg_81_black.jpg",
+    srcSmall:
+      "/images/products/guitars-and-basses/small-images/pickups/guitar-pickups/humbucker-pickups/emg_81_black.jpg",
     alt: "",
-
-    category: [""],
-    brand: "",
+    category: ["humbucker pickup"],
+    brand: "Emg",
     price: 69,
     available: true,
     rating: 5,
-    totalReviews: 5,
+    totalReviews: 461,
     specifications: ["", "", "", "", ""],
   },
   // Pickups for 7 Strings Guitars
-  // fishman_fluence_tosin_abasi_set_7_bk
   {
     title: "Fishman Fluence Tosin Abasi Set 7 BK",
-    srcBig: "/images/products/guitars-and-basses/big-images.jpg",
-    srcSmall: "",
+    srcBig:
+      "/images/products/guitars-and-basses/big-images/pickups/guitar-pickups/7-strings-guitar-pickups/fishman_fluence_tosin_abasi_set_7_bk.jpg",
+    srcSmall:
+      "/images/products/guitars-and-basses/small-images/pickups/guitar-pickups/7-strings-guitar-pickups/fishman_fluence_tosin_abasi_set_7_bk.jpg",
     alt: "",
-
-    category: [""],
-    brand: "",
+    category: ["7 strings guitar pickup"],
+    brand: "Fishman",
     price: 259,
     available: true,
-    rating: 5,
-    totalReviews: 5,
+    rating: 4.8,
+    totalReviews: 51,
     specifications: ["", "", "", "", ""],
   },
   // Pickups for 8 Strings Guitars
-  // emg_808x_black
   {
     title: "EMG 808X Black",
-    srcBig: "/images/products/guitars-and-basses/big-images.jpg",
-    srcSmall: "",
+    srcBig:
+      "/images/products/guitars-and-basses/big-images/pickups/guitar-pickups/8-strings-guitar-pickups/emg_808x_black.jpg",
+    srcSmall:
+      "/images/products/guitars-and-basses/small-images/pickups/guitar-pickups/8-strings-guitar-pickups/emg_808x_black.jpg",
     alt: "",
-
-    category: [""],
-    brand: "",
+    category: ["8 strings guitar pickup"],
+    brand: "Emg",
     price: 105,
     available: true,
-    rating: 5,
-    totalReviews: 5,
+    rating: 4.7,
+    totalReviews: 22,
     specifications: ["", "", "", "", ""],
   },
 
   // Electric Bass Pickups
 
   // 4 Strings J Bass Pickups
-  // seymour_duncan_quarter_pound_p_j_bass_set
   {
     title: "Seymour Duncan Quarter Pound P/J Bass Set",
-    srcBig: "/images/products/guitars-and-basses/big-images.jpg",
-    srcSmall: "",
+    srcBig:
+      "/images/products/guitars-and-basses/big-images/pickups/bass-pickups/4-strings-j-bass-pickups/seymour_duncan_quarter_pound_p_j_bass_set.jpg",
+    srcSmall:
+      "/images/products/guitars-and-basses/small-images/pickups/bass-pickups/4-strings-j-bass-pickups/seymour_duncan_quarter_pound_p_j_bass_set.jpg",
     alt: "",
-
-    category: [""],
-    brand: "",
+    category: ["4 strings j bass pickup", "4 strings p bass pickup"],
+    brand: "Seymour Duncan",
     price: 229,
     available: true,
     rating: 5,
-    totalReviews: 5,
+    totalReviews: 444,
     specifications: ["", "", "", "", ""],
   },
   // 5 Strings J Bass Pickups
-  // seymour_duncan_apollo_j_bass_5_67_70_set
   {
     title: "Seymour Duncan Apollo J-Bass 5 67/70 Set",
-    srcBig: "/images/products/guitars-and-basses/big-images.jpg",
-    srcSmall: "",
+    srcBig:
+      "/images/products/guitars-and-basses/big-images/pickups/bass-pickups/5-strings-j-bass-pickups/seymour_duncan_apollo_j_bass_5_67_70_set.jpg",
+    srcSmall:
+      "/images/products/guitars-and-basses/small-images/pickups/bass-pickups/5-strings-j-bass-pickups/seymour_duncan_apollo_j_bass_5_67_70_set.jpg",
     alt: "",
-
-    category: [""],
-    brand: "",
+    category: ["5 strings j bass pickup"],
+    brand: "Seymour Duncan",
     price: 314,
     available: true,
     rating: 5,
-    totalReviews: 5,
+    totalReviews: 555,
     specifications: ["", "", "", "", ""],
   },
   // 4 Strings P Bass Pickups
-  // emg_geezer_butler_phz_black
   {
     title: " EMG Geezer Butler PHZ Black",
-    srcBig: "/images/products/guitars-and-basses/big-images.jpg",
-    srcSmall: "",
+    srcBig:
+      "/images/products/guitars-and-basses/big-images/pickups/bass-pickups/4-strings-p-bass-pickups/emg_geezer_butler_phz_black.jpg",
+    srcSmall:
+      "/images/products/guitars-and-basses/small-images/pickups/bass-pickups/4-strings-p-bass-pickups/emg_geezer_butler_phz_black.jpg",
     alt: "",
-
-    category: [""],
-    brand: "",
+    category: ["4 strings p bass pickup"],
+    brand: "Emg",
     price: 82,
     available: true,
-    rating: 5,
-    totalReviews: 5,
+    rating: 4.8,
+    totalReviews: 247,
     specifications: ["", "", "", "", ""],
   },
   // 5 Strings P Bass Pickups
-  // seymour_duncan_quarter_pound_5_bk
   {
     title: "Seymour Duncan Quarter Pound 5 BK",
-    srcBig: "/images/products/guitars-and-basses/big-images.jpg",
-    srcSmall: "",
+    srcBig:
+      "/images/products/guitars-and-basses/big-images/pickups/bass-pickups/5-strings-p-bass-pickups/seymour_duncan_quarter_pound_5_bk.jpg",
+    srcSmall:
+      "/images/products/guitars-and-basses/small-images/pickups/bass-pickups/5-strings-p-bass-pickups/seymour_duncan_quarter_pound_5_bk.jpg",
     alt: "",
-
-    category: [""],
-    brand: "",
+    category: ["5 strings p bass pickup"],
+    brand: "Seymour Duncan",
     price: 194,
     available: true,
-    rating: 5,
-    totalReviews: 5,
+    rating: 4.9,
+    totalReviews: 453,
     specifications: ["", "", "", "", ""],
   },
 
   // Spare Parts
 
   // Electric Guitar Necks
-  // fender_neck_roasted_maple_strat
   {
     title: "Fender Neck Roasted Maple Strat",
-    srcBig: "/images/products/guitars-and-basses/big-images.jpg",
-    srcSmall: "",
+    srcBig:
+      "/images/products/guitars-and-basses/big-images/spare-parts/electric-guitar-necks/fender_neck_roasted_maple_strat.jpg",
+    srcSmall:
+      "/images/products/guitars-and-basses/small-images/spare-parts/electric-guitar-necks/fender_neck_roasted_maple_strat.jpg",
     alt: "",
-
-    category: [""],
-    brand: "",
+    category: ["electric guitar neck"],
+    brand: "Fender",
     price: 279,
     available: true,
-    rating: 5,
-    totalReviews: 5,
+    rating: 4.5,
+    totalReviews: 4,
     specifications: ["", "", "", "", ""],
   },
 
   // Electric Bass Necks
-  // fender_neck_70_s_jazz_bass
   {
     title: "Fender Neck 70´s Jazz Bass",
-    srcBig: "/images/products/guitars-and-basses/big-images.jpg",
-    srcSmall: "",
+    srcBig:
+      "/images/products/guitars-and-basses/big-images/spare-parts/electric-bass-necks/fender_neck_70_s_jazz_bass.jpg",
+    srcSmall:
+      "/images/products/guitars-and-basses/small-images/spare-parts/electric-bass-necks/fender_neck_70_s_jazz_bass.jpg",
     alt: "",
-
-    category: [""],
-    brand: "",
+    category: ["electric bass neck"],
+    brand: "Fender",
     price: 311,
     available: true,
-    rating: 5,
-    totalReviews: 5,
+    rating: 4,
+    totalReviews: 6,
     specifications: ["", "", "", "", ""],
   },
   // Electric Guitar Bodies
-  // fender_body_alder_strat_vin_br_car
   {
     title: "Fender Body Alder Strat VIN BR CAR",
-    srcBig: "/images/products/guitars-and-basses/big-images.jpg",
-    srcSmall: "",
+    srcBig:
+      "/images/products/guitars-and-basses/big-images/spare-parts/electric-guitar-bodies/fender_body_alder_strat_vin_br_car.jpg",
+    srcSmall:
+      "/images/products/guitars-and-basses/small-images/spare-parts/electric-guitar-bodies/fender_body_alder_strat_vin_br_car.jpg",
     alt: "",
-
-    category: [""],
-    brand: "",
+    category: ["electric guitar body"],
+    brand: "Fender",
     price: 349,
     available: true,
     rating: 5,
-    totalReviews: 5,
+    totalReviews: 1,
     specifications: ["", "", "", "", ""],
   },
   // Electric Bass Bodies
-  // fender_body_alder_j_bass_br_sunburst
   {
     title: "Fender Body Alder J Bass Br. Sunburst",
-    srcBig: "/images/products/guitars-and-basses/big-images.jpg",
-    srcSmall: "",
+    srcBig:
+      "/images/products/guitars-and-basses/big-images/spare-parts/electric-bass-bodies/fender_body_alder_j_bass_br_sunburst.jpg",
+    srcSmall:
+      "/images/products/guitars-and-basses/small-images/spare-parts/electric-bass-bodies/fender_body_alder_j_bass_br_sunburst.jpg",
     alt: "",
-
-    category: [""],
-    brand: "",
+    category: ["electric bass body"],
+    brand: "Fender",
     price: 277,
     available: true,
     rating: 5,
-    totalReviews: 5,
+    totalReviews: 1,
     specifications: ["", "", "", "", ""],
   },
 
   // Guitar Pick Guards
 
   // Stratocaster Guitar Pick Guard
-  // fender_pickguard_sss_mint_green
   {
     title: "Fender Pickguard SSS Mint Green",
-    srcBig: "/images/products/guitars-and-basses/big-images.jpg",
-    srcSmall: "",
+    srcBig:
+      "/images/products/guitars-and-basses/big-images/spare-parts/guitar-pick-guards/stratocaster-pick-guards/fender_pickguard_sss_mint_green.jpg",
+    srcSmall:
+      "/images/products/guitars-and-basses/small-images/spare-parts/guitar-pick-guards/stratocaster-pick-guards/fender_pickguard_sss_mint_green.jpg",
     alt: "",
-
-    category: [""],
-    brand: "",
+    category: ["stratocaster guitar pick guard"],
+    brand: "Fender",
     price: 44,
     available: true,
-    rating: 5,
-    totalReviews: 5,
+    rating: 4,
+    totalReviews: 1,
     specifications: ["", "", "", "", ""],
   },
   // Telecaster Guitar Pick Guard
-  // dandrea_t_pickguard_vintage_pearl
   {
     title: "dAndrea T-Pickguard Vintage Pearl",
-    srcBig: "/images/products/guitars-and-basses/big-images.jpg",
-    srcSmall: "",
+    srcBig:
+      "/images/products/guitars-and-basses/big-images/spare-parts/guitar-pick-guards/telecaster-pick-guards/dandrea_t_pickguard_vintage_pearl.jpg",
+    srcSmall:
+      "/images/products/guitars-and-basses/small-images/spare-parts/guitar-pick-guards/telecaster-pick-guards/dandrea_t_pickguard_vintage_pearl.jpg",
     alt: "",
-
-    category: [""],
-    brand: "",
+    category: ["telecaster guitar pick guard"],
+    brand: "D'Andrea",
     price: 17.8,
     available: true,
-    rating: 5,
-    totalReviews: 5,
+    rating: 0,
+    totalReviews: 0,
     specifications: ["", "", "", "", ""],
   },
   // Les Paul Guitar Pick Guard
-  // gibson_prpg_020_pickguard_lp_custombk
   {
     title: "Gibson PRPG-020 Pickguard LP CustomBK",
-    srcBig: "/images/products/guitars-and-basses/big-images.jpg",
-    srcSmall: "",
+    srcBig:
+      "/images/products/guitars-and-basses/big-images/spare-parts/guitar-pick-guards/les-paul-pick-guards/gibson_prpg_020_pickguard_lp_custombk.jpg",
+    srcSmall:
+      "/images/products/guitars-and-basses/small-images/spare-parts/guitar-pick-guards/les-paul-pick-guards/gibson_prpg_020_pickguard_lp_custombk.jpg",
     alt: "",
-
-    category: [""],
-    brand: "",
+    category: ["les paul guitar pick guard"],
+    brand: "Gibson",
     price: 22.4,
     available: true,
-    rating: 5,
-    totalReviews: 5,
+    rating: 0,
+    totalReviews: 0,
     specifications: ["", "", "", "", ""],
   },
   // Doublecut Guitar Pick Guard
-  // goldo_pickguard_double_cut_xsm3b
   {
     title: "Göldo Pickguard Double Cut XSM3B",
-    srcBig: "/images/products/guitars-and-basses/big-images.jpg",
-    srcSmall: "",
+    srcBig:
+      "/images/products/guitars-and-basses/big-images/spare-parts/guitar-pick-guards/doublecut-pick-guards/goldo_pickguard_double_cut_xsm3b.jpg",
+    srcSmall:
+      "/images/products/guitars-and-basses/small-images/spare-parts/guitar-pick-guards/doublecut-pick-guards/goldo_pickguard_double_cut_xsm3b.jpg",
     alt: "",
-
-    category: [""],
-    brand: "",
+    category: ["doublecut guitar pick guard"],
+    brand: "Goldo",
     price: 22.4,
     available: true,
-    rating: 5,
-    totalReviews: 5,
+    rating: 0,
+    totalReviews: 0,
     specifications: ["", "", "", "", ""],
   },
 
   // Bass Pick Guards
 
   // J Bass Pick Guard
-  // harley_benton_parts_jb_style_pickguard_black
   {
     title: "Harley Benton Parts JB Style Pickguard Black",
-    srcBig: "/images/products/guitars-and-basses/big-images.jpg",
-    srcSmall: "",
+    srcBig:
+      "/images/products/guitars-and-basses/big-images/spare-parts/bass-pick-guards/j-bass-pick-guards/harley_benton_parts_jb_style_pickguard_black.jpg",
+    srcSmall:
+      "/images/products/guitars-and-basses/small-images/spare-parts/bass-pick-guards/j-bass-pick-guards/harley_benton_parts_jb_style_pickguard_black.jpg",
     alt: "",
-
-    category: [""],
-    brand: "",
+    category: ["j bass pick guard"],
+    brand: "Harley Benton",
     price: 7.9,
     available: true,
     rating: 5,
-    totalReviews: 5,
+    totalReviews: 1,
     specifications: ["", "", "", "", ""],
   },
   // P Bass Pick Guard
-  // dandrea_pb_pickguard_red_pearl
   {
     title: "dAndrea PB-Pickguard Red Pearl",
-    srcBig: "/images/products/guitars-and-basses/big-images.jpg",
-    srcSmall: "",
-    alt: "",
-
-    category: [""],
+    srcBig:
+      "/images/products/guitars-and-basses/big-images/spare-parts/bass-pick-guards/p-bass-pick-guards/dandrea_pb_pickguard_red_pearl.jpg",
+    srcSmall:
+      "/images/products/guitars-and-basses/small-images/spare-parts/bass-pick-guards/p-bass-pick-guards/dandrea_pb_pickguard_red_pearl.jpg",
+    alt: "D'Andrea",
+    category: ["p bass pick guard"],
     brand: "",
     price: 22.4,
     available: true,
-    rating: 5,
-    totalReviews: 5,
+    rating: 0,
+    totalReviews: 0,
     specifications: ["", "", "", "", ""],
   },
 
   // Knobs
-  // harley_benton_parts_single_cut_speedknob_bk
   {
     title: "Harley Benton Parts Single Cut Speedknob BK",
-    srcBig: "/images/products/guitars-and-basses/big-images.jpg",
-    srcSmall: "",
+    srcBig:
+      "/images/products/guitars-and-basses/big-images/spare-parts/knobs/harley_benton_parts_single_cut_speedknob_bk.jpg",
+    srcSmall:
+      "/images/products/guitars-and-basses/small-images/spare-parts/knobs/harley_benton_parts_single_cut_speedknob_bk.jpg",
     alt: "",
-
-    category: [""],
-    brand: "",
+    category: ["knob"],
+    brand: "Harley Benton",
     price: 2.2,
     available: true,
     rating: 5,
-    totalReviews: 5,
+    totalReviews: 3,
     specifications: ["", "", "", "", ""],
   },
   // Switches
 
   // 3 Ways Switch Selectors
-  // fender_3_way_switch
   {
     title: "Fender 3-way Switch",
-    srcBig: "/images/products/guitars-and-basses/big-images.jpg",
-    srcSmall: "",
+    srcBig:
+      "/images/products/guitars-and-basses/big-images/spare-parts/switches/3-ways-selectors/fender_3_way_switch.jpg",
+    srcSmall:
+      "/images/products/guitars-and-basses/small-images/spare-parts/switches/3-ways-selectors/fender_3_way_switch.jpg",
     alt: "",
-
-    category: [""],
-    brand: "",
+    category: ["3 ways selector"],
+    brand: "Fender",
     price: 15.9,
     available: true,
-    rating: 5,
-    totalReviews: 5,
+    rating: 0,
+    totalReviews: 0,
     specifications: ["", "", "", "", ""],
   },
   // 5 Ways Switch Selectors
-  // fender_5way_switch
   {
     title: "Fender 5way Switch",
-    srcBig: "/images/products/guitars-and-basses/big-images.jpg",
-    srcSmall: "",
+    srcBig:
+      "/images/products/guitars-and-basses/big-images/spare-parts/switches/5-ways-selectors/fender_5way_switch.jpg",
+    srcSmall:
+      "/images/products/guitars-and-basses/small-images/spare-parts/switches/5-ways-selectors/fender_5way_switch.jpg",
     alt: "",
-
-    category: [""],
-    brand: "",
-    price: 5,
+    category: ["5 ways selector"],
+    brand: "Fender",
+    price: 14.3,
     available: true,
-    rating: 14.3,
-    totalReviews: 5,
+    rating: 5,
+    totalReviews: 2,
     specifications: ["", "", "", "", ""],
   },
   // Toggle switches
-  // goldo_el002_toggle
   {
     title: "Göldo EL002 Toggle",
-    srcBig: "/images/products/guitars-and-basses/big-images.jpg",
-    srcSmall: "",
-    alt: "",
-
-    category: [""],
+    srcBig:
+      "/images/products/guitars-and-basses/big-images/spare-parts/switches/toggle-switches/goldo_el002_toggle.jpg",
+    srcSmall:
+      "/images/products/guitars-and-basses/small-images/spare-parts/switches/toggle-switches/goldo_el002_toggle.jpg",
+    alt: "Goldo",
+    category: ["toggle switch"],
     brand: "",
     price: 13.4,
     available: true,
     rating: 5,
-    totalReviews: 5,
+    totalReviews: 1,
     specifications: ["", "", "", "", ""],
   },
 
   // Saddles and Tailpieces
 
   // Guitar Tailpieces
-  // gibson_pttp_020_stop_bar_gold
   {
     title: "Gibson PTTP-020 Stop Bar Gold",
-    srcBig: "/images/products/guitars-and-basses/big-images.jpg",
-    srcSmall: "",
+    srcBig:
+      "/images/products/guitars-and-basses/big-images/spare-parts/saddles-and-tailpieces/guitar-tailpieces/gibson_pttp_020_stop_bar_gold.jpg",
+    srcSmall:
+      "/images/products/guitars-and-basses/small-images/spare-parts/saddles-and-tailpieces/guitar-tailpieces/gibson_pttp_020_stop_bar_gold.jpg",
     alt: "",
-
-    category: [""],
-    brand: "",
+    category: ["guitar tailpiece"],
+    brand: "Gibson",
     price: 62,
     available: true,
     rating: 5,
-    totalReviews: 5,
+    totalReviews: 2,
     specifications: ["", "", "", "", ""],
   },
   // Guitar Saddles
-  // gotoh_ge103b_t_c_tom_style_bridge
   {
     title: "Gotoh GE103B-T-C TOM-Style Bridge",
-    srcBig: "/images/products/guitars-and-basses/big-images.jpg",
-    srcSmall: "",
+    srcBig:
+      "/images/products/guitars-and-basses/big-images/spare-parts/saddles-and-tailpieces/guitar-bridges/gotoh_ge103b_t_c_tom_style_bridge.jpg",
+    srcSmall:
+      "/images/products/guitars-and-basses/small-images/spare-parts/saddles-and-tailpieces/guitar-bridges/gotoh_ge103b_t_c_tom_style_bridge.jpg",
     alt: "",
-
-    category: [""],
-    brand: "",
+    category: ["guitar bridge"],
+    brand: "Gotoh",
     price: 27,
     available: true,
     rating: 5,
-    totalReviews: 5,
+    totalReviews: 1,
     specifications: ["", "", "", "", ""],
   },
   // Jazz Guitar Tailpieces and Bridges
-  // harley_benton_parts_semi_hollow_tailpiece
   {
     title: "Harley Benton Parts Semi-Hollow Tailpiece",
-    srcBig: "/images/products/guitars-and-basses/big-images.jpg",
-    srcSmall: "",
+    srcBig:
+      "/images/products/guitars-and-basses/big-images/spare-parts/saddles-and-tailpieces/jazz-guitar-tailpieces-and-bridges/harley_benton_parts_semi_hollow_tailpiece.jpg",
+    srcSmall:
+      "/images/products/guitars-and-basses/small-images/spare-parts/saddles-and-tailpieces/jazz-guitar-tailpieces-and-bridges/harley_benton_parts_semi_hollow_tailpiece.jpg",
     alt: "",
-
-    category: [""],
-    brand: "",
+    category: ["jazz guitar tailpiece", "guitar tailpiece"],
+    brand: "Harley Benton",
     price: 10.7,
     available: true,
-    rating: 5,
-    totalReviews: 5,
+    rating: 0,
+    totalReviews: 0,
     specifications: ["", "", "", "", ""],
   },
   // Bass Bridges
-  // allparts_bass_bridge_badass_ii_4_c
   {
     title: "Allparts Bass Bridge Badass II 4 C",
-    srcBig: "/images/products/guitars-and-basses/big-images.jpg",
-    srcSmall: "",
+    srcBig:
+      "/images/products/guitars-and-basses/big-images/spare-parts/saddles-and-tailpieces/bass-bridges/allparts_bass_bridge_badass_ii_4_c.jpg",
+    srcSmall:
+      "/images/products/guitars-and-basses/small-images/spare-parts/saddles-and-tailpieces/bass-bridges/allparts_bass_bridge_badass_ii_4_c.jpg",
     alt: "",
-
-    category: [""],
-    brand: "",
+    category: ["bass bridge"],
+    brand: "Allparts",
     price: 115,
     available: true,
     rating: 5,
-    totalReviews: 5,
+    totalReviews: 1,
     specifications: ["", "", "", "", ""],
   },
 
   // Guitar Tremolos
 
   // Standard Tremolos
-  // fender_vintage_narrow_strat_tremolo_c
   {
     title: "Fender Vintage/Narrow Strat Tremolo C",
-    srcBig: "/images/products/guitars-and-basses/big-images.jpg",
-    srcSmall: "",
+    srcBig:
+      "/images/products/guitars-and-basses/big-images/spare-parts/tremolos/standard-tremolos/fender_vintage_narrow_strat_tremolo_c.jpg",
+    srcSmall:
+      "/images/products/guitars-and-basses/small-images/spare-parts/tremolos/standard-tremolos/fender_vintage_narrow_strat_tremolo_c.jpg",
     alt: "",
-
-    category: [""],
-    brand: "",
+    category: ["standard tremolo bridge"],
+    brand: "Fender",
     price: 62,
     available: true,
     rating: 5,
-    totalReviews: 5,
+    totalReviews: 2,
     specifications: ["", "", "", "", ""],
   },
   // Floyd Rose Tremolos
-  // gotoh_ge1996t_40_b_fr_style_tremolo
   {
     title: "Gotoh GE1996T-40-B FR-Style Tremolo",
-    srcBig: "/images/products/guitars-and-basses/big-images.jpg",
-    srcSmall: "",
+    srcBig:
+      "/images/products/guitars-and-basses/big-images/spare-parts/tremolos/floyd-rose-tremolos/gotoh_ge1996t_40_b_fr_style_tremolo.jpg",
+    srcSmall:
+      "/images/products/guitars-and-basses/small-images/spare-parts/tremolos/floyd-rose-tremolos/gotoh_ge1996t_40_b_fr_style_tremolo.jpg",
     alt: "",
-
-    category: [""],
-    brand: "",
+    category: ["floyd rose tremolo bridge"],
+    brand: "Gotoh",
     price: 133,
     available: true,
     rating: 5,
@@ -2287,268 +2311,268 @@ const products: Product[] = [
     specifications: ["", "", "", "", ""],
   },
   // Bigsby Tremolos
-  // harley_benton_parts_bigsby_lic_b70_gold
   {
     title: "Harley Benton Parts Bigsby Lic. B70 Gold",
-    srcBig: "/images/products/guitars-and-basses/big-images.jpg",
-    srcSmall: "",
+    srcBig:
+      "/images/products/guitars-and-basses/big-images/spare-parts/tremolos/bigsby-tremolos/harley_benton_parts_bigsby_lic_b70_gold.jpg",
+    srcSmall:
+      "/images/products/guitars-and-basses/small-images/spare-parts/tremolos/bigsby-tremolos/harley_benton_parts_bigsby_lic_b70_gold.jpg",
     alt: "",
-
-    category: [""],
-    brand: "",
+    category: ["bigsby tremolo bridge"],
+    brand: "Harley Benton",
     price: 178,
     available: true,
     rating: 5,
-    totalReviews: 5,
+    totalReviews: 2,
     specifications: ["", "", "", "", ""],
   },
   // Jack Plates
-  // harley_benton_parts_sc_style_jack_plate_ch
   {
     title: "Harley Benton Parts SC-Style Jack Plate CH",
-    srcBig: "/images/products/guitars-and-basses/big-images.jpg",
-    srcSmall: "",
+    srcBig:
+      "/images/products/guitars-and-basses/big-images/spare-parts/jack-plates/harley_benton_parts_sc_style_jack_plate_ch.jpg",
+    srcSmall:
+      "/images/products/guitars-and-basses/small-images/spare-parts/jack-plates/harley_benton_parts_sc_style_jack_plate_ch.jpg",
     alt: "",
-
-    category: [""],
-    brand: "",
+    category: ["jack plate"],
+    brand: "Harley Benton",
     price: 2.2,
     available: true,
-    rating: 5,
-    totalReviews: 5,
+    rating: 4,
+    totalReviews: 1,
     specifications: ["", "", "", "", ""],
   },
   // Tuning Pegs
-  // fender_locking_tuner_ch
   {
     title: "Fender Locking Tuner CH",
-    srcBig: "/images/products/guitars-and-basses/big-images.jpg",
-    srcSmall: "",
+    srcBig:
+      "/images/products/guitars-and-basses/big-images/spare-parts/tuning-pegs/fender_locking_tuner_ch.jpg",
+    srcSmall:
+      "/images/products/guitars-and-basses/small-images/spare-parts/tuning-pegs/fender_locking_tuner_ch.jpg",
     alt: "",
-
-    category: [""],
-    brand: "",
+    category: ["tuning peg", "locking tuning peg"],
+    brand: "Fender",
     price: 59,
     available: true,
-    rating: 5,
-    totalReviews: 5,
+    rating: 0,
+    totalReviews: 0,
     specifications: ["", "", "", "", ""],
   },
 
   // Accesories
 
   // Guitar/Stands Stands
-  // millenium_gs_2001_e
   {
     title: "Millenium GS-2001 E",
-    srcBig: "/images/products/guitars-and-basses/big-images.jpg",
-    srcSmall: "",
+    srcBig:
+      "/images/products/guitars-and-basses/big-images/accesories/stands/millenium_gs_2001_e.jpg",
+    srcSmall:
+      "/images/products/guitars-and-basses/small-images/accesories/stands/millenium_gs_2001_e.jpg",
     alt: "",
-
-    category: [""],
-    brand: "",
+    category: ["guitar/bass stand"],
+    brand: "Millenium",
     price: 7.1,
     available: true,
     rating: 5,
-    totalReviews: 5,
+    totalReviews: 123,
     specifications: ["", "", "", "", ""],
   },
 
   // Guitar/Bass Cover Bags
 
   // Electric Guitar Cases
-  // gator_gc_elec_xl_guitar_abs_case
   {
     title: "Gator GC-ELEC-XL Guitar ABS Case",
-    srcBig: "/images/products/guitars-and-basses/big-images.jpg",
-    srcSmall: "",
+    srcBig:
+      "/images/products/guitars-and-basses/big-images/accesories/cover-bags-and-cases/electric-guitar-cases/gator_gc_elec_xl_guitar_abs_case.jpg",
+    srcSmall:
+      "/images/products/guitars-and-basses/small-images/accesories/cover-bags-and-cases/electric-guitar-cases/gator_gc_elec_xl_guitar_abs_case.jpg",
     alt: "",
-
-    category: [""],
-    brand: "",
+    category: ["electric guitar case"],
+    brand: "Gatorcases",
     price: 98,
     available: true,
     rating: 5,
-    totalReviews: 5,
+    totalReviews: 223,
     specifications: ["", "", "", "", ""],
   },
   // Acoustic Guitar Cases
-  // gator_gwe_acou_3_4_case
   {
     title: "Gator GWE-Acou-3/4 Case",
-    srcBig: "/images/products/guitars-and-basses/big-images.jpg",
-    srcSmall: "",
+    srcBig:
+      "/images/products/guitars-and-basses/big-images/accesories/cover-bags-and-cases/acoustic-guitar-cases/gator_gwe_acou_3_4_case.jpg",
+    srcSmall:
+      "/images/products/guitars-and-basses/small-images/accesories/cover-bags-and-cases/acoustic-guitar-cases/gator_gwe_acou_3_4_case.jpg",
     alt: "",
-
-    category: [""],
-    brand: "",
+    category: ["acoustic guitar case"],
+    brand: "Gatorcases",
     price: 79,
     available: true,
     rating: 5,
-    totalReviews: 5,
+    totalReviews: 77,
     specifications: ["", "", "", "", ""],
   },
   // Electric Bass Cases
-  // gator_gc_bass_abs_case
   {
     title: "Gator GC-Bass ABS Case",
-    srcBig: "/images/products/guitars-and-basses/big-images.jpg",
-    srcSmall: "",
+    srcBig:
+      "/images/products/guitars-and-basses/big-images/accesories/cover-bags-and-cases/electric-bass-cases/gator_gc_bass_abs_case.jpg",
+    srcSmall:
+      "/images/products/guitars-and-basses/small-images/accesories/cover-bags-and-cases/electric-bass-cases/gator_gc_bass_abs_case.jpg",
     alt: "",
-
-    category: [""],
-    brand: "",
+    category: ["electric bass case"],
+    brand: "Gatorcases",
     price: 109,
     available: true,
     rating: 5,
-    totalReviews: 5,
+    totalReviews: 43,
     specifications: ["", "", "", "", ""],
   },
   // Acoustic Bass Cases
-  // rockcase_acoustic_bass_abs_case
   {
     title: "Rockcase Acoustic Bass ABS Case",
-    srcBig: "/images/products/guitars-and-basses/big-images.jpg",
-    srcSmall: "",
+    srcBig:
+      "/images/products/guitars-and-basses/big-images/accesories/cover-bags-and-cases/acoustic-bass-cases/rockcase_acoustic_bass_abs_case.jpg",
+    srcSmall:
+      "/images/products/guitars-and-basses/small-images/accesories/cover-bags-and-cases/acoustic-bass-cases/rockcase_acoustic_bass_abs_case.jpg",
     alt: "",
-
-    category: [""],
-    brand: "",
+    category: ["acoustic bass case"],
+    brand: "Rockcase",
     price: 124,
     available: true,
-    rating: 5,
-    totalReviews: 5,
+    rating: 4.8,
+    totalReviews: 21,
     specifications: ["", "", "", "", ""],
   },
   // Electric Guitar Cover Bags
-  // gator_g_pg_e_guitar_bag
   {
     title: "Gator G-PG E-Guitar Bag",
-    srcBig: "/images/products/guitars-and-basses/big-images.jpg",
-    srcSmall: "",
+    srcBig:
+      "/images/products/guitars-and-basses/big-images/accesories/cover-bags-and-cases/electric-guitar-cover-bags/gator_g_pg_e_guitar_bag.jpg",
+    srcSmall:
+      "/images/products/guitars-and-basses/small-images/accesories/cover-bags-and-cases/electric-guitar-cover-bags/gator_g_pg_e_guitar_bag.jpg",
     alt: "",
-
-    category: [""],
-    brand: "",
+    category: ["electric guitar cover bag"],
+    brand: "Gatorcases",
     price: 125,
     available: true,
     rating: 5,
-    totalReviews: 5,
+    totalReviews: 254,
     specifications: ["", "", "", "", ""],
   },
   // Acoustic Guitar Cover Bags
-  // gator_g_pg_acoustic_guitar_bag
   {
     title: "Gator G-PG Acoustic Guitar Bag",
-    srcBig: "/images/products/guitars-and-basses/big-images.jpg",
-    srcSmall: "",
+    srcBig:
+      "/images/products/guitars-and-basses/big-images/accesories/cover-bags-and-cases/acoustic-guitar-cover-bags/gator_g_pg_acoustic_guitar_bag.jpg",
+    srcSmall:
+      "/images/products/guitars-and-basses/small-images/accesories/cover-bags-and-cases/acoustic-guitar-cover-bags/gator_g_pg_acoustic_guitar_bag.jpg",
     alt: "",
-
-    category: [""],
-    brand: "",
+    category: ["acoustic guitar cover bag"],
+    brand: "Gatorcases",
     price: 139,
     available: true,
     rating: 5,
-    totalReviews: 5,
+    totalReviews: 67,
     specifications: ["", "", "", "", ""],
   },
   // Electric Bass Cover Bags
-  // gator_g_pg_bass_guitar_bag
   {
     title: "Gator G-PG Bass Guitar Bag",
-    srcBig: "/images/products/guitars-and-basses/big-images.jpg",
-    srcSmall: "",
+    srcBig:
+      "/images/products/guitars-and-basses/big-images/accesories/cover-bags-and-cases/electric-bass-cover-bags/gator_g_pg_bass_guitar_bag.jpg",
+    srcSmall:
+      "/images/products/guitars-and-basses/small-images/accesories/cover-bags-and-cases/electric-bass-cover-bags/gator_g_pg_bass_guitar_bag.jpg",
     alt: "",
-
-    category: [""],
-    brand: "",
+    category: ["electric bass cover bag"],
+    brand: "Gatorcases",
     price: 148,
     available: true,
     rating: 5,
-    totalReviews: 5,
+    totalReviews: 126,
     specifications: ["", "", "", "", ""],
   },
   // Acoustic Bass Cover Bags
-  // ritter_rgs7_acoustic_bass_mgb
   {
     title: "Ritter RGS7 Acoustic Bass MGB",
-    srcBig: "/images/products/guitars-and-basses/big-images.jpg",
-    srcSmall: "",
+    srcBig:
+      "/images/products/guitars-and-basses/big-images/accesories/cover-bags-and-cases/acoustic-bass-cover-bags/ritter_rgs7_acoustic_bass_mgb.jpg",
+    srcSmall:
+      "/images/products/guitars-and-basses/small-images/accesories/cover-bags-and-cases/acoustic-bass-cover-bags/ritter_rgs7_acoustic_bass_mgb.jpg",
     alt: "",
-
-    category: [""],
-    brand: "",
+    category: ["acoustic bass cover bag"],
+    brand: "Ritter",
     price: 70,
     available: true,
-    rating: 5,
-    totalReviews: 5,
+    rating: 4.9,
+    totalReviews: 52,
     specifications: ["", "", "", "", ""],
   },
 
   // Instrument Cables
-  // the_sssnake_ipp1030
   {
     title: "the sssnake IPP1030",
-    srcBig: "/images/products/guitars-and-basses/big-images.jpg",
-    srcSmall: "",
+    srcBig:
+      "/images/products/guitars-and-basses/big-images/accesories/instrument-cables/the_sssnake_ipp1030.jpg",
+    srcSmall:
+      "/images/products/guitars-and-basses/small-images/accesories/instrument-cables/the_sssnake_ipp1030.jpg",
     alt: "",
-
-    category: [""],
-    brand: "",
+    category: ["instrument cable"],
+    brand: "The Sssnake",
     price: 3.15,
     available: true,
     rating: 5,
-    totalReviews: 5,
+    totalReviews: 585,
     specifications: ["", "", "", "", ""],
   },
 
   // Guitar/Bass Straps
 
   // Leather Straps
-  // fender_broken_in_leather_strap_tan
   {
     title: "Fender Broken-in Leather Strap Tan",
-    srcBig: "/images/products/guitars-and-basses/big-images.jpg",
-    srcSmall: "",
+    srcBig:
+      "/images/products/guitars-and-basses/big-images/accesories/straps/leather-straps/fender_broken_in_leather_strap_tan.jpg",
+    srcSmall:
+      "/images/products/guitars-and-basses/small-images/accesories/straps/leather-straps/fender_broken_in_leather_strap_tan.jpg",
     alt: "",
-
-    category: [""],
-    brand: "",
+    category: ["guitar leather strap"],
+    brand: "Fender",
     price: 32,
     available: true,
     rating: 5,
-    totalReviews: 5,
+    totalReviews: 96,
     specifications: ["", "", "", "", ""],
   },
   // Nylon Straps
-  // fender_supersoft_strap_black
   {
     title: "Fender Supersoft Strap Black",
-    srcBig: "/images/products/guitars-and-basses/big-images.jpg",
-    srcSmall: "",
+    srcBig:
+      "/images/products/guitars-and-basses/big-images/accesories/straps/nylon-straps/fender_supersoft_strap_black.jpg",
+    srcSmall:
+      "/images/products/guitars-and-basses/small-images/accesories/straps/nylon-straps/fender_supersoft_strap_black.jpg",
     alt: "",
-
-    category: [""],
-    brand: "",
+    category: ["guitar nylon strap"],
+    brand: "Fender",
     price: 16.9,
     available: true,
-    rating: 5,
-    totalReviews: 5,
+    rating: 4.8,
+    totalReviews: 56,
     specifications: ["", "", "", "", ""],
   },
 
   // Capos
 
   // Electric/Acoustic Guitar Capos
-  // harley_benton_hbca_k_acoustic_electric_capo
   {
     title: "Harley Benton HBCA-K Acoustic/Electric Capo",
-    srcBig: "/images/products/guitars-and-basses/big-images.jpg",
-    srcSmall: "",
+    srcBig:
+      "/images/products/guitars-and-basses/big-images/accesories/capos/electric-acoustic-guitar-capos/harley_benton_hbca_k_acoustic_electric_capo.jpg",
+    srcSmall:
+      "/images/products/guitars-and-basses/small-images/accesories/capos/electric-acoustic-guitar-capos/harley_benton_hbca_k_acoustic_electric_capo.jpg",
     alt: "",
-
-    category: [""],
-    brand: "",
+    category: ["electric/acoustic guitar capo"],
+    brand: "Harley Benton",
     price: 4.4,
     available: true,
     rating: 5,
@@ -2556,15 +2580,15 @@ const products: Product[] = [
     specifications: ["", "", "", "", ""],
   },
   // Classic Guitar Capos
-  // harley_benton_hbcc_k_classic_capo
   {
     title: "Harley Benton HBCC-K Classic Capo",
-    srcBig: "/images/products/guitars-and-basses/big-images.jpg",
-    srcSmall: "",
+    srcBig:
+      "/images/products/guitars-and-basses/big-images/accesories/capos/classic-guitar-capos/harley_benton_hbcc_k_classic_capo.jpg",
+    srcSmall:
+      "/images/products/guitars-and-basses/small-images/accesories/capos/classic-guitar-capos/harley_benton_hbcc_k_classic_capo.jpg",
     alt: "",
-
-    category: [""],
-    brand: "",
+    category: ["classic guitar capo"],
+    brand: "Harley Benton",
     price: 4.4,
     available: true,
     rating: 5,
@@ -2575,101 +2599,104 @@ const products: Product[] = [
   // daddario_capo_cp02
   {
     title: "Daddario Capo CP02",
-    srcBig: "/images/products/guitars-and-basses/big-images.jpg",
-    srcSmall: "",
+    srcBig:
+      "/images/products/guitars-and-basses/big-images/accesories/capos/12-strings-guitar-capos/daddario_capo_cp02.jpg",
+    srcSmall:
+      "/images/products/guitars-and-basses/small-images/accesories/capos/12-strings-guitar-capos/daddario_capo_cp02.jpg",
     alt: "",
-
-    category: [""],
-    brand: "",
+    category: ["12 strings guitar capo"],
+    brand: "D'Addario",
     price: 20.5,
     available: true,
-    rating: 5,
-    totalReviews: 5,
+    rating: 4.9,
+    totalReviews: 12,
     specifications: ["", "", "", "", ""],
   },
 
   // Picks
-  // dunlop_acoustic_pick_variety_pack
+  //
   {
     title: "Dunlop Acoustic Pick Variety Pack",
-    srcBig: "/images/products/guitars-and-basses/big-images.jpg",
-    srcSmall: "",
+    srcBig:
+      "/images/products/guitars-and-basses/big-images/accesories/picks/dunlop_acoustic_pick_variety_pack.jpg",
+    srcSmall:
+      "/images/products/guitars-and-basses/small-images/accesories/picks/dunlop_acoustic_pick_variety_pack.jpg",
     alt: "",
-
-    category: [""],
-    brand: "",
+    category: ["pick"],
+    brand: "Dunlop",
     price: 6.7,
     available: true,
     rating: 5,
-    totalReviews: 5,
+    totalReviews: 2145,
     specifications: ["", "", "", "", ""],
   },
   // Tuners
   // tc_electronic_polytune_clip_tuner
   {
-    title: "tc electronic PolyTune Clip Tuner",
-    srcBig: "/images/products/guitars-and-basses/big-images.jpg",
-    srcSmall: "",
+    title: "TC Electronic PolyTune Clip Tuner",
+    srcBig:
+      "/images/products/guitars-and-basses/big-images/accesories/tuners/tc_electronic_polytune_clip_tuner.jpg",
+    srcSmall:
+      "/images/products/guitars-and-basses/small-images/accesories/tuners/tc_electronic_polytune_clip_tuner.jpg",
     alt: "",
-
-    category: [""],
-    brand: "",
+    category: ["tuner"],
+    brand: "Tc Electronic",
     price: 44,
     available: true,
-    rating: 5,
-    totalReviews: 5,
+    rating: 4.9,
+    totalReviews: 512,
     specifications: ["", "", "", "", ""],
   },
 
   // Guitar Sliders
 
   // Glass Sliders
-  // dunlop_215
   {
     title: "Dunlop 215",
-    srcBig: "/images/products/guitars-and-basses/big-images.jpg",
-    srcSmall: "",
+    srcBig:
+      "/images/products/guitars-and-basses/big-images/accesories/sliders/glass-sliders/dunlop_215.jpg",
+    srcSmall:
+      "/images/products/guitars-and-basses/small-images/accesories/sliders/glass-sliders/dunlop_215.jpg",
     alt: "",
-
-    category: [""],
-    brand: "",
+    category: ["glass slider"],
+    brand: "Dunlop",
     price: 11.5,
     available: true,
-    rating: 5,
-    totalReviews: 5,
+    rating: 4.6,
+    totalReviews: 41,
     specifications: ["", "", "", "", ""],
   },
   // Metal Sliders
-  // fender_steel_slide
   {
     title: "Fender Steel Slide",
-    srcBig: "/images/products/guitars-and-basses/big-images.jpg",
-    srcSmall: "",
+    srcBig:
+      "/images/products/guitars-and-basses/big-images/accesories/sliders/metal-sliders/fender_steel_slide.jpg",
+    srcSmall:
+      "/images/products/guitars-and-basses/small-images/accesories/sliders/metal-sliders/fender_steel_slide.jpg",
     alt: "",
-
-    category: [""],
-    brand: "",
+    category: ["metal slider"],
+    brand: "Fender",
     price: 7.1,
     available: true,
-    rating: 5,
-    totalReviews: 5,
+    rating: 4.8,
+    totalReviews: 75,
     specifications: ["", "", "", "", ""],
   },
 
   // Instrument Tools and Maintenance
-  // dunlop_complete_guitar_setup_kit
   {
     title: "Dunlop Complete Guitar Setup Kit",
-    srcBig: "/images/products/guitars-and-basses/big-images.jpg",
-    srcSmall: "",
+    srcBig:
+      "/images/products/guitars-and-basses/big-images/accesories/instrument-tools-and-maintenance/dunlop_complete_guitar_setup_kit.jpg",
+    srcSmall:
+      "/images/products/guitars-and-basses/small-images/accesories/instrument-tools-and-maintenance/dunlop_complete_guitar_setup_kit.jpg",
     alt: "",
-
-    category: [""],
-    brand: "",
+    category: ["complete guitar setup kit", "instrument tool"],
+    brand: "Dunlop",
     price: 105,
     available: true,
     rating: 5,
-    totalReviews: 5,
+    totalReviews: 31,
     specifications: ["", "", "", "", ""],
   },
 ];
