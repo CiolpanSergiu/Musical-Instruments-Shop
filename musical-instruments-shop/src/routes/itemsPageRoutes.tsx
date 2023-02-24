@@ -31,11 +31,10 @@ const allItemsArr = allCategories.filter((category) => {
 
 // fix later
 const itemsShoppingPages = allItemsArr.map((category: categoryWithProducts) => {
-  return createShoppingPageRoute(
-    category.pageLink,
-    category.title,
-    category.items
-  );
+  const pageLink = `/${category.title
+    .toLocaleLowerCase()
+    .replace(/[^\w]/g, "-")}`;
+  return createShoppingPageRoute(pageLink, category.title, category.items);
 });
 
 export default itemsShoppingPages;

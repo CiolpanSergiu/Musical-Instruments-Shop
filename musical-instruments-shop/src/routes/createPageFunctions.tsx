@@ -24,7 +24,7 @@ export function createCategoryPages(data: unknown) {
                   category.subcategories.subcategories || category.subcategories
                 }
                 pageTitle={category.title}
-                itemsBrands={category.brands}
+                itemsBrands={category.brands || category.subcategories.brands}
               />
             }
           ></Route>
@@ -33,19 +33,6 @@ export function createCategoryPages(data: unknown) {
     });
   }
 }
-
-type ItemsData = {
-  title: string;
-  srcThumbnail: string;
-  srcBig: string;
-  srcSmall: string;
-  alt: string;
-  pageLink: string;
-  price: number;
-  available: boolean;
-  rating: number;
-  totalReviews: number;
-}[];
 
 export function createShoppingPageRoute(
   pageLink: string,

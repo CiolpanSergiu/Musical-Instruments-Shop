@@ -23,7 +23,6 @@ const products: Product[] = [
     srcBig: "/images/.jpg",
     srcSmall: "/images/.jpg",
     alt: "",
-
     category: [""],
     brand: "",
     price: 5,

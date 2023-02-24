@@ -24,7 +24,6 @@ const products: Product[] = [
     srcBig: "/images/.jpg",
     srcSmall: "/images/.jpg",
     alt: "",
-
     category: ["synthesizer sound module"],
     brand: "",
     price: 625,
@@ -38,7 +37,6 @@ const products: Product[] = [
     srcBig: "/images/.jpg",
     srcSmall: "/images/.jpg",
     alt: "",
-
     category: [""],
     brand: "",
     price: 5,

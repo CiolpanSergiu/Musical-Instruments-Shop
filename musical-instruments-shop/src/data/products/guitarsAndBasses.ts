@@ -153,7 +153,6 @@ const products: Product[] = [
     specifications: ["", "", "", "", ""],
   },
   // Jazz Guitar Models
-  // godin_5th_avenue_kingpin_cognacburst
   {
     title: "Godin 5th Avenue Kingpin Cognacburst",
     srcBig:
@@ -161,7 +160,6 @@ const products: Product[] = [
     srcSmall:
       "/images/products/guitars-and-basses/small-images/electric-guitars/jazz-guitars-models/godin_5th_avenue_kingpin_cognacburst.jpg",
     alt: "",
-
     category: ["jazz guitar"],
     brand: "Godin",
     price: 849,
@@ -171,7 +169,6 @@ const products: Product[] = [
     specifications: ["", "", "", "", ""],
   },
   // Hard and Heavy Models
-  // epiphone_firebird_vintage_sunburst
   {
     title: "Epiphone Firebird Vintage Sunburst",
     srcBig:
@@ -179,7 +176,6 @@ const products: Product[] = [
     srcSmall:
       "/images/products/guitars-and-basses/small-images/electric-guitars/hard-and-heavy-models/epiphone_firebird_vintage_sunburst.jpg",
     alt: "",
-
     category: ["hard and heavy guitar"],
     brand: "Epiphone",
     price: 539,
@@ -189,7 +185,6 @@ const products: Product[] = [
     specifications: ["", "", "", "", ""],
   },
   // Headless Models
-  // strandberg_boden_prog_nx_7_charcoal
   {
     title: "Strandberg Boden Prog NX 7 Charcoal",
     srcBig:
@@ -197,7 +192,6 @@ const products: Product[] = [
     srcSmall:
       "/images/products/guitars-and-basses/small-images/electric-guitars/headless-models/strandberg_boden_prog_nx_7_charcoal.jpg",
     alt: "",
-
     category: ["headless guitar"],
     brand: "Strandberg",
     price: 2499,
@@ -207,7 +201,6 @@ const products: Product[] = [
     specifications: ["", "", "", "", ""],
   },
   // Left Handed Models
-  //
   {
     title: "Harley Benton SC-550LH II Gotoh AFB",
     srcBig:
@@ -215,7 +208,6 @@ const products: Product[] = [
     srcSmall:
       "/images/products/guitars-and-basses/small-images/electric-guitars/left-handed-models/harley_benton_sc_550lh_ii_gotoh_afb.jpg",
     alt: "",
-
     category: ["left handed guitar"],
     brand: "Harley Benton",
     price: 322,
@@ -225,7 +217,6 @@ const products: Product[] = [
     specifications: ["", "", "", "", ""],
   },
   // 7 Strings Models
-  // schecter_diamond_omen_7_extreme_bch
   {
     title: "Schecter Diamond Omen 7 Extreme BCH",
     srcBig:
@@ -233,7 +224,6 @@ const products: Product[] = [
     srcSmall:
       "/images/products/guitars-and-basses/small-images/electric-guitars/7-strings-models/schecter_diamond_omen_7_extreme_bch.jpg",
     alt: "",
-
     category: ["7 strings guitar"],
     brand: "Schecter",
     price: 579,
@@ -243,7 +233,6 @@ const products: Product[] = [
     specifications: ["", "", "", "", ""],
   },
   // 8 Strings Models
-  // ibanez_rgms8_bk_multiscale
   {
     title: "Ibanez RGMS8-BK Multiscale",
     srcBig:
@@ -251,7 +240,6 @@ const products: Product[] = [
     srcSmall:
       "/images/products/guitars-and-basses/small-images/electric-guitars/8-strings-models/ibanez_rgms8_bk_multiscale.jpg",
     alt: "",
-
     category: ["8 strings guitar"],
     brand: "Ibanez",
     price: 589,
@@ -261,7 +249,6 @@ const products: Product[] = [
     specifications: ["", "", "", "", ""],
   },
   // 12 Strings Models
-  // gretsch_g5422g_12_electromatic_ws_
   {
     title: "Gretsch G5422G-12 Electromatic WS",
     srcBig:
@@ -269,7 +256,6 @@ const products: Product[] = [
     srcSmall:
       "/images/products/guitars-and-basses/small-images/electric-guitars/12-strings-models/gretsch_g5422g_12_electromatic_ws_.jpg",
     alt: "",
-
     category: ["12 strings guitar"],
     brand: "Gretsch",
     price: 898,
@@ -282,529 +268,530 @@ const products: Product[] = [
   // Acoustic Guitars
 
   // Dreadnought Models
-  // takamine_ef341sc
   {
     title: "Takamine EF341SC",
     srcBig:
-      "/images/products/guitars-and-basses/big-images/acoustic-guitars/.jpg",
-    srcSmall: "",
+      "/images/products/guitars-and-basses/big-images/acoustic-guitars/dreadnought-models/takamine_ef341sc.jpg",
+    srcSmall:
+      "/images/products/guitars-and-basses/small-images/acoustic-guitars/dreadnought-models/takamine_ef341sc.jpg",
     alt: "",
-
-    category: [""],
-    brand: "",
-    price: 5,
+    category: ["dreadnought acoustic guitar"],
+    brand: "Takamine",
+    price: 1122,
     available: true,
-    rating: 1122,
-    totalReviews: 5,
+    rating: 4.78,
+    totalReviews: 544,
     specifications: ["", "", "", "", ""],
   },
   // Parlor Models
-  // hofner_hc504_7_8
   {
     title: "Höfner HC504-7/8",
     srcBig:
-      "/images/products/guitars-and-basses/big-images/acoustic-guitars/.jpg",
-    srcSmall: "",
+      "/images/products/guitars-and-basses/big-images/acoustic-guitars/parlor-models/hofner_hc504_7_8.jpg",
+    srcSmall:
+      "/images/products/guitars-and-basses/small-images/acoustic-guitars/parlor-models/hofner_hc504_7_8.jpg",
     alt: "",
-
-    category: [""],
-    brand: "",
+    category: ["parlor acoustic guitar"],
+    brand: "Hofner",
     price: 222,
     available: true,
-    rating: 5,
-    totalReviews: 5,
+    rating: 4.25,
+    totalReviews: 298,
     specifications: ["", "", "", "", ""],
   },
   // Jumbo Models
-  // epiphone_j_200_aang
   {
-    title: "hofner_hc504_7_8",
+    title: "Epiphone J 200 AANG",
     srcBig:
-      "/images/products/guitars-and-basses/big-images/acoustic-guitars/.jpg",
-    srcSmall: "",
-    alt: "",
-
-    category: [""],
+      "/images/products/guitars-and-basses/big-images/acoustic-guitars/jumbo-models/epiphone_j_200_aang.jpg",
+    srcSmall:
+      "/images/products/guitars-and-basses/small-images/acoustic-guitars/jumbo-models/epiphone_j_200_aang.jpg",
+    alt: "Epiphone",
+    category: ["jumbo acoustic guitar"],
     brand: "",
     price: 759,
     available: true,
     rating: 5,
-    totalReviews: 5,
+    totalReviews: 364,
     specifications: ["", "", "", "", ""],
   },
   // Classic Guitars
-  // taylor_814ce_n
   {
     title: "Taylor 814ce-N",
     srcBig:
-      "/images/products/guitars-and-basses/big-images/acoustic-guitars/.jpg",
-    srcSmall: "",
+      "/images/products/guitars-and-basses/big-images/acoustic-guitars/classic-guitars/taylor_814ce_n.jpg",
+    srcSmall:
+      "/images/products/guitars-and-basses/small-images/acoustic-guitars/classic-guitars/taylor_814ce_n.jpg",
     alt: "",
-
-    category: [""],
-    brand: "",
+    category: ["classic guitar"],
+    brand: "Taylor",
     price: 3399,
     available: true,
     rating: 5,
-    totalReviews: 5,
+    totalReviews: 780,
     specifications: ["", "", "", "", ""],
   },
   // 12 Strings Acoustic
-  // harley_benton_custom_line_clj_412e_nt
   {
     title: "Harley Benton Custom Line CLJ-412E NT",
     srcBig:
-      "/images/products/guitars-and-basses/big-images/acoustic-guitars/.jpg",
-    srcSmall: "",
+      "/images/products/guitars-and-basses/big-images/acoustic-guitars/12-strings-models/harley_benton_custom_line_clj_412e_nt.jpg",
+    srcSmall:
+      "/images/products/guitars-and-basses/small-images/acoustic-guitars/12-strings-models/harley_benton_custom_line_clj_412e_nt.jpg",
     alt: "",
-
-    category: [""],
-    brand: "",
+    category: ["12 strings acoustic guitar"],
+    brand: "Harley Benton",
     price: 239,
     available: true,
-    rating: 5,
-    totalReviews: 5,
+    rating: 4.5,
+    totalReviews: 12,
     specifications: ["", "", "", "", ""],
   },
 
   // Electric Basses
 
   // 4 Strings J Bass Models
-  // fender_player_series_jazz_bass_mn_tpl
   {
     title: "Fender Player Series Jazz Bass MN TPL",
-    srcBig: "/images/products/guitars-and-basses/big-images.jpg",
-    srcSmall: "",
+    srcBig:
+      "/images/products/guitars-and-basses/big-images/electric-basses/4-strings-j-basses/fender_player_series_jazz_bass_mn_tpl.jpg",
+    srcSmall:
+      "/images/products/guitars-and-basses/small-images/electric-basses/4-strings-j-basses/fender_player_series_jazz_bass_mn_tpl.jpg",
     alt: "",
-
-    category: [""],
-    brand: "",
+    category: ["4 strings j bass"],
+    brand: "Fender",
     price: 769,
     available: true,
     rating: 5,
-    totalReviews: 5,
+    totalReviews: 555,
     specifications: ["", "", "", "", ""],
   },
   // 5 Strings J Bass Models
-  // Marcus Miller V7 Alder-5 BUR 2nd Gen
   {
     title: "Marcus Miller V7 Alder-5 BUR 2nd Gen",
-    srcBig: "/images/products/guitars-and-basses/big-images.jpg",
-    srcSmall: "",
+    srcBig:
+      "/images/products/guitars-and-basses/big-images/electric-basses/5-strings-j-basses/marcus_miller_v7_alder_5_bur_2nd_gen.jpg",
+    srcSmall:
+      "/images/products/guitars-and-basses/small-images/electric-basses/5-strings-j-basses/marcus_miller_v7_alder_5_bur_2nd_gen.jpg",
     alt: "",
-
-    category: [""],
-    brand: "",
+    category: ["5 strings j bass"],
+    brand: "Larry Carlton",
     price: 489,
     available: true,
     rating: 5,
-    totalReviews: 5,
+    totalReviews: 468,
     specifications: ["", "", "", "", ""],
   },
   // 4 Strings P Bass Models
   // sadowsky_metroline_hyb_p_j_21_4_mo_bl
   {
     title: "Sadowsky MetroLine Hyb P/J 21-4 Mo Bl",
-    srcBig: "",
-    srcSmall: "",
+    srcBig:
+      "/images/products/guitars-and-basses/big-images/electric-basses/4-strings-p-basses/sadowsky_metroline_hyb_p_j_21_4_mo_bl.jpg",
+    srcSmall:
+      "/images/products/guitars-and-basses/small-images/electric-basses/4-strings-p-basses/sadowsky_metroline_hyb_p_j_21_4_mo_bl.jpg",
     alt: "",
 
-    category: [""],
-    brand: "",
+    category: ["4 strings p bass"],
+    brand: "Sadowsky",
     price: 2480,
     available: true,
-    rating: 5,
-    totalReviews: 5,
+    rating: 4.7,
+    totalReviews: 27,
     specifications: ["", "", "", "", ""],
   },
   // 5 Strings P Bass Models
-  // yamaha_bb735a_dcsg_rw
   {
     title: "Yamaha BB735A DCSG RW",
-    srcBig: "/images/products/guitars-and-basses/big-images.jpg",
-    srcSmall: "",
+    srcBig:
+      "/images/products/guitars-and-basses/big-images/electric-basses/5-strings-p-basses/yamaha_bb735a_dcsg_rw.jpg",
+    srcSmall:
+      "/images/products/guitars-and-basses/small-images/electric-basses/5-strings-p-basses/yamaha_bb735a_dcsg_rw.jpg",
     alt: "",
-
-    category: [""],
-    brand: "",
+    category: ["5 strings p bass"],
+    brand: "Yamaha",
     price: 943,
     available: true,
-    rating: 5,
-    totalReviews: 5,
+    rating: 4.9,
+    totalReviews: 300,
     specifications: ["", "", "", "", ""],
   },
   // 4 Strings Hard and Hevy Basses
-  // warwick_artist_line_robert_trujillo_4
   {
     title: "Warwick Artist Line Robert Trujillo 4",
-    srcBig: "/images/products/guitars-and-basses/big-images.jpg",
-    srcSmall: "",
+    srcBig:
+      "/images/products/guitars-and-basses/big-images/electric-basses/heavy-4-strings-basses/warwick_artist_line_robert_trujillo_4.jpg",
+    srcSmall:
+      "/images/products/guitars-and-basses/small-images/electric-basses/heavy-4-strings-basses/warwick_artist_line_robert_trujillo_4.jpg",
     alt: "",
-
-    category: [""],
-    brand: "",
+    category: ["4 strings hard and heavy bass"],
+    brand: "Warwick",
     price: 1385,
     available: true,
     rating: 5,
-    totalReviews: 5,
+    totalReviews: 444,
     specifications: ["", "", "", "", ""],
   },
   // 5 Strings Hard and Hevy Basses
-  // esp_ltd_f_5e_ns
   {
     title: "ESP LTD F-5E NS",
-    srcBig: "/images/products/guitars-and-basses/big-images.jpg",
-    srcSmall: "",
+    srcBig:
+      "/images/products/guitars-and-basses/big-images/electric-basses/heavy-5-strings-basses/esp_ltd_f_5e_ns.jpg",
+    srcSmall:
+      "/images/products/guitars-and-basses/small-images/electric-basses/heavy-5-strings-basses/esp_ltd_f_5e_ns.jpg",
     alt: "",
-
-    category: [""],
-    brand: "",
+    category: ["5 strings hard and heavy bass"],
+    brand: "Esp",
     price: 675,
     available: true,
-    rating: 6,
-    totalReviews: 5,
+    rating: 4.67,
+    totalReviews: 126,
     specifications: ["", "", "", "", ""],
   },
   // Fretless Basses
-  // marcus_miller_v7_alder_4_fl_ts_2nd_gen
   {
     title: "Marcus Miller V7 Alder-4 FL TS 2nd Gen",
-    srcBig: "/images/products/guitars-and-basses/big-images.jpg",
-    srcSmall: "",
+    srcBig:
+      "/images/products/guitars-and-basses/big-images/electric-basses/fretless-basses/marcus_miller_v7_alder_4_fl_ts_2nd_gen.jpg",
+    srcSmall:
+      "/images/products/guitars-and-basses/small-images/electric-basses/fretless-basses/marcus_miller_v7_alder_4_fl_ts_2nd_gen.jpg",
     alt: "",
-
-    category: [""],
-    brand: "",
+    category: ["fretless bass"],
+    brand: "Lary Carlton",
     price: 538,
     available: true,
-    rating: 5,
-    totalReviews: 5,
+    rating: 4.5,
+    totalReviews: 99,
     specifications: ["", "", "", "", ""],
   },
   // Headless Basses
-  // ibanez_ehb1505ms_plf
   {
     title: "Ibanez EHB1505MS-PLF",
-    srcBig: "/images/products/guitars-and-basses/big-images.jpg",
-    srcSmall: "",
+    srcBig:
+      "/images/products/guitars-and-basses/big-images/electric-basses/headless-basses/ibanez_ehb1505ms_plf.jpg",
+    srcSmall:
+      "/images/products/guitars-and-basses/small-images/electric-basses/headless-basses/ibanez_ehb1505ms_plf.jpg",
     alt: "",
-
-    category: [""],
-    brand: "",
+    category: ["headless bass"],
+    brand: "Ibanez",
     price: 1429,
     available: true,
-    rating: 5,
-    totalReviews: 5,
+    rating: 4.5,
+    totalReviews: 54,
     specifications: ["", "", "", "", ""],
   },
   // 4 Strings Left Handed Basses
-  // sandberg_california_vs_lionel_bk_lh
   {
     title: "Sandberg California VS Lionel BK LH",
-    srcBig: "/images/products/guitars-and-basses/big-images.jpg",
-    srcSmall: "",
+    srcBig:
+      "/images/products/guitars-and-basses/big-images/electric-basses/4-strings-left-handed-basses/sandberg_california_vs_lionel_bk_lh.jpg",
+    srcSmall:
+      "/images/products/guitars-and-basses/small-images/electric-basses/4-strings-left-handed-basses/sandberg_california_vs_lionel_bk_lh.jpg",
     alt: "",
 
-    category: [""],
-    brand: "",
+    category: ["4 strings left handed bass"],
+    brand: "Sandberg",
     price: 1199,
     available: true,
     rating: 5,
-    totalReviews: 5,
+    totalReviews: 51,
     specifications: ["", "", "", "", ""],
   },
   // 5 Strings Left Handed Basses
-  // sterling_by_music_man_stingray_5_lh_mn_vsb
   {
     title: "Sterling by Music Man StingRay 5 LH MN VSB",
-    srcBig: "/images/products/guitars-and-basses/big-images.jpg",
-    srcSmall: "",
+    srcBig:
+      "/images/products/guitars-and-basses/big-images/electric-basses/5-strings-left-handed-basses/sterling_by_music_man_stingray_5_lh_mn_vsb.jpg",
+    srcSmall:
+      "/images/products/guitars-and-basses/small-images/electric-basses/5-strings-left-handed-basses/sterling_by_music_man_stingray_5_lh_mn_vsb.jpg",
     alt: "",
 
-    category: [""],
-    brand: "",
+    category: ["5 strings left handed bass"],
+    brand: "Music Man",
     price: 555,
     available: true,
-    rating: 5,
-    totalReviews: 5,
+    rating: 4.8,
+    totalReviews: 26,
     specifications: ["", "", "", "", ""],
   },
   // Multi-Scale Basses
-  // spector_ns_dimension_ms_4_faded_black
   {
     title: "Spector NS Dimension MS 4 Faded Black",
-    srcBig: "/images/products/guitars-and-basses/big-images.jpg",
-    srcSmall: "",
+    srcBig:
+      "/images/products/guitars-and-basses/big-images/electric-basses/multi-scale-basses/spector_ns_dimension_ms_4_faded_black.jpg",
+    srcSmall:
+      "/images/products/guitars-and-basses/small-images/electric-basses/multi-scale-basses/spector_ns_dimension_ms_4_faded_black.jpg",
     alt: "",
 
-    category: [""],
-    brand: "",
+    category: ["multi scale bass"],
+    brand: "Spector",
     price: 1798,
     available: true,
     rating: 5,
-    totalReviews: 5,
+    totalReviews: 21,
     specifications: ["", "", "", "", ""],
   },
 
   // Acoustic Basses
 
   // 4 Strings Acoustic Bass
-  // fender_kingman_bass_v2_jtb
   {
     title: "Fender Kingman Bass V2 JTB",
-    srcBig: "/images/products/guitars-and-basses/big-images.jpg",
-    srcSmall: "",
+    srcBig:
+      "/images/products/guitars-and-basses/big-images/acoustic-basses/4-strings-acoustic-basses/harley_benton_b_35nt_acoustic_bass_series.jpg",
+    srcSmall:
+      "/images/products/guitars-and-basses/small-images/acoustic-basses/4-strings-acoustic-basses/harley_benton_b_35nt_acoustic_bass_series.jpg",
     alt: "",
-
-    category: [""],
-    brand: "",
+    category: ["4 strings acoustic bass"],
+    brand: "Fender",
     price: 459,
     available: true,
     rating: 5,
-    totalReviews: 5,
+    totalReviews: 33,
     specifications: ["", "", "", "", ""],
   },
   // 5 Strings Acoustic Bass
-  // harley_benton_b_35nt_acoustic_bass_series
   {
     title: "Harley Benton B-35NT Acoustic Bass Series",
-    srcBig: "/images/products/guitars-and-basses/big-images.jpg",
-    srcSmall: "",
+    srcBig:
+      "/images/products/guitars-and-basses/big-images/acoustic-basses/5-strings-acoustic-basses/fender_kingman_bass_v2_jtb.jpg",
+    srcSmall:
+      "/images/products/guitars-and-basses/small-images/acoustic-basses/5-strings-acoustic-basses/fender_kingman_bass_v2_jtb.jpg",
     alt: "",
-
-    category: [""],
-    brand: "",
+    category: ["5 strings acoustic bass"],
+    brand: "Harley Benton",
     price: 159,
     available: true,
-    rating: 5,
-    totalReviews: 5,
+    rating: 4.5,
+    totalReviews: 11,
     specifications: ["", "", "", "", ""],
   },
   // 6 Strings Acoustic Bass
-  // warwick_alien_deluxe_6_nt
   {
     title: "Warwick Alien Deluxe 6 NT",
-    srcBig: "/images/products/guitars-and-basses/big-images.jpg",
-    srcSmall: "",
+    srcBig:
+      "/images/products/guitars-and-basses/big-images/acoustic-basses/6-strings-acoustic-basses/warwick_alien_deluxe_6_nt.jpg",
+    srcSmall:
+      "/images/products/guitars-and-basses/small-images/acoustic-basses/6-strings-acoustic-basses/warwick_alien_deluxe_6_nt.jpg",
     alt: "",
-
-    category: [""],
-    brand: "",
+    category: ["6 strings acoustic bass"],
+    brand: "Warwick",
     price: 1429,
     available: true,
-    rating: 5,
-    totalReviews: 5,
+    rating: 4,
+    totalReviews: 2,
     specifications: ["", "", "", "", ""],
   },
   // Fretless Acoustic Bass
-  // guild_b_240ef_acoustic_bass
   {
     title: "Guild B-240EF Acoustic Bass",
-    srcBig: "/images/products/guitars-and-basses/big-images.jpg",
-    srcSmall: "",
+    srcBig:
+      "/images/products/guitars-and-basses/big-images/acoustic-basses/fretless-acoustic-basses/guild_b_240ef_acoustic_bass.jpg",
+    srcSmall:
+      "/images/products/guitars-and-basses/small-images/acoustic-basses/fretless-acoustic-basses/guild_b_240ef_acoustic_bass.jpg",
     alt: "",
-
-    category: [""],
-    brand: "",
+    category: ["fretless acoustic bass"],
+    brand: "Guild",
     price: 475,
     available: true,
-    rating: 5,
-    totalReviews: 5,
+    rating: 4.76,
+    totalReviews: 56,
     specifications: ["", "", "", "", ""],
   },
   // Left Handed Acoustic Bass
-  // taylor_gs_mini_e_koa_bass_lh
   {
     title: "Taylor GS Mini-e Koa Bass LH",
-    srcBig: "/images/products/guitars-and-basses/big-images.jpg",
-    srcSmall: "",
+    srcBig:
+      "/images/products/guitars-and-basses/big-images/acoustic-basses/left-handed-acoustic-basses/taylor_gs_mini_e_koa_bass_lh.jpg",
+    srcSmall:
+      "/images/products/guitars-and-basses/small-images/acoustic-basses/left-handed-acoustic-basses/taylor_gs_mini_e_koa_bass_lh.jpg",
     alt: "",
-
-    category: [""],
-    brand: "",
+    category: ["left handed acoustic bass"],
+    brand: "Taylor",
     price: 888,
     available: true,
-    rating: 5,
-    totalReviews: 5,
+    rating: 4.6,
+    totalReviews: 21,
     specifications: ["", "", "", "", ""],
   },
   // 4 Strings Semi-Acoustic Bass
-  // harley_benton_hb_60_wb
   {
     title: "Harley Benton HB-60 WB",
-    srcBig: "/images/products/guitars-and-basses/big-images.jpg",
-    srcSmall: "",
+    srcBig:
+      "/images/products/guitars-and-basses/big-images/acoustic-basses/4-strings-semi-acoustic-basses/harley_benton_hb_60_wb.jpg",
+    srcSmall:
+      "/images/products/guitars-and-basses/small-images/acoustic-basses/4-strings-semi-acoustic-basses/harley_benton_hb_60_wb.jpg",
     alt: "",
-
-    category: [""],
-    brand: "",
+    category: ["4 strings semi-acoustic bass"],
+    brand: "Harley Benton",
     price: 222,
     available: true,
-    rating: 5,
+    rating: 4.3,
     totalReviews: 5,
     specifications: ["", "", "", "", ""],
   },
   // 5 Strings Semi-Acoustic Bass
-  // warwick_rb_star_bass_5_vsthp
   {
     title: "Warwick RB Star Bass 5 VSTHP",
-    srcBig: "/images/products/guitars-and-basses/big-images.jpg",
-    srcSmall: "",
+    srcBig:
+      "/images/products/guitars-and-basses/big-images/acoustic-basses/5-strings-semi-acoustic-basses/warwick_rb_star_bass_5_vsthp.jpg",
+    srcSmall:
+      "/images/products/guitars-and-basses/small-images/acoustic-basses/5-strings-semi-acoustic-basses/warwick_rb_star_bass_5_vsthp.jpg",
     alt: "",
-
-    category: [""],
-    brand: "",
+    category: ["5 strings semi-acoustic bass"],
+    brand: "Warwick",
     price: 879,
     available: true,
-    rating: 5,
-    totalReviews: 5,
+    rating: 4.4,
+    totalReviews: 3,
     specifications: ["", "", "", "", ""],
   },
   // Fretless Semi-Acoustic Bass
-  // takamine_tb10
   {
     title: "Takamine TB10",
-    srcBig: "/images/products/guitars-and-basses/big-images.jpg",
-    srcSmall: "",
+    srcBig:
+      "/images/products/guitars-and-basses/big-images/acoustic-basses/fretless-semi-acoustic-basses/takamine_tb10.jpg",
+    srcSmall:
+      "/images/products/guitars-and-basses/small-images/acoustic-basses/fretless-semi-acoustic-basses/takamine_tb10.jpg",
     alt: "",
-
-    category: [""],
-    brand: "",
+    category: ["fretless semi-acoustic bass"],
+    brand: "Takamine",
     price: 2299,
     available: true,
-    rating: 5,
-    totalReviews: 5,
+    rating: 4.8,
+    totalReviews: 13,
     specifications: ["", "", "", "", ""],
   },
 
   // Ukulele
 
   // Baritone Ukulele
-  // kala_kala_ka_be_baritone_ukulele
   {
     title: "Kala KALA KA-BE Baritone Ukulele",
-    srcBig: "/images/products/guitars-and-basses/big-images.jpg",
-    srcSmall: "",
+    srcBig:
+      "/images/products/guitars-and-basses/big-images/ukulele/baritone-ukulele/kala_kala_ka_be_baritone_ukulele.jpg",
+    srcSmall:
+      "/images/products/guitars-and-basses/small-images/ukulele/baritone-ukulele/kala_kala_ka_be_baritone_ukulele.jpg",
     alt: "",
-
-    category: [""],
-    brand: "",
+    category: ["baritone ukulele"],
+    brand: "Kala",
     price: 285,
     available: true,
     rating: 5,
-    totalReviews: 5,
+    totalReviews: 125,
     specifications: ["", "", "", "", ""],
   },
   // Concert Ukulele
-  // flight_nighthawk_concert_eq_a
   {
     title: "Flight Nighthawk Concert EQ-A",
-    srcBig: "/images/products/guitars-and-basses/big-images.jpg",
-    srcSmall: "",
+    srcBig:
+      "/images/products/guitars-and-basses/big-images/ukulele/concert-ukulele/flight_nighthawk_concert_eq_a.jpg",
+    srcSmall:
+      "/images/products/guitars-and-basses/small-images/ukulele/concert-ukulele/flight_nighthawk_concert_eq_a.jpg",
     alt: "",
-
-    category: [""],
-    brand: "",
+    category: ["concert ukulele"],
+    brand: "Flight",
     price: 319,
     available: true,
-    rating: 5,
-    totalReviews: 5,
+    rating: 4.5,
+    totalReviews: 45,
     specifications: ["", "", "", "", ""],
   },
   // Soprano Ukulele
-  // baton_rouge_v2_s_sun
   {
     title: "Baton Rouge V2-S sun",
-    srcBig: "/images/products/guitars-and-basses/big-images.jpg",
-    srcSmall: "",
+    srcBig:
+      "/images/products/guitars-and-basses/big-images/ukulele/soprano-ukulele/baton_rouge_v2_s_sun.jpg",
+    srcSmall:
+      "/images/products/guitars-and-basses/small-images/ukulele/soprano-ukulele/baton_rouge_v2_s_sun.jpg",
     alt: "",
-
-    category: [""],
-    brand: "",
+    category: ["soprano ukulele"],
+    brand: "Baton Rouge",
     price: 61,
     available: true,
-    rating: 5,
-    totalReviews: 5,
+    rating: 4.7,
+    totalReviews: 265,
     specifications: ["", "", "", "", ""],
   },
   // Tenor Ukulele
-  // epiphone_ukulele_hummingbird_outfit_tsb
   {
     title: "Epiphone Ukulele Hummingbird Outfit TSB",
-    srcBig: "/images/products/guitars-and-basses/big-images.jpg",
-    srcSmall: "",
+    srcBig:
+      "/images/products/guitars-and-basses/big-images/ukulele/tenor-ukulele/epiphone_ukulele_hummingbird_outfit_tsb.jpg",
+    srcSmall:
+      "/images/products/guitars-and-basses/small-images/ukulele/tenor-ukulele/epiphone_ukulele_hummingbird_outfit_tsb.jpg",
     alt: "",
-
-    category: [""],
-    brand: "",
+    category: ["tenor ukulele"],
+    brand: "Epiphone",
     price: 159,
     available: true,
-    rating: 5,
-    totalReviews: 5,
+    rating: 4.6,
+    totalReviews: 66,
     specifications: ["", "", "", "", ""],
   },
   // Bass Ukulele
-  // baton_rouge_uv11_bs_scc_bass_ukulele
   {
     title: "Baton Rouge UV11-BS-SCC Bass Ukulele",
-    srcBig: "/images/products/guitars-and-basses/big-images.jpg",
-    srcSmall: "",
+    srcBig:
+      "/images/products/guitars-and-basses/big-images/ukulele/bass-ukulele/baton_rouge_uv11_bs_scc_bass_ukulele.jpg",
+    srcSmall:
+      "/images/products/guitars-and-basses/small-images/ukulele/bass-ukulele/baton_rouge_uv11_bs_scc_bass_ukulele.jpg",
     alt: "",
-
-    category: [""],
-    brand: "",
+    category: ["bass ukulele"],
+    brand: "Baton Rouge",
     price: 209,
     available: true,
-    rating: 5,
-    totalReviews: 5,
+    rating: 4.4,
+    totalReviews: 25,
     specifications: ["", "", "", "", ""],
   },
   // Ukulele Straps
   // cascha_hh_2201_ukulele_strap_brown
   {
     title: "Cascha HH 2201 Ukulele Strap Brown",
-    srcBig: "/images/products/guitars-and-basses/big-images.jpg",
-    srcSmall: "",
+    srcBig:
+      "/images/products/guitars-and-basses/big-images/ukulele/ukulele-straps/cascha_hh_2201_ukulele_strap_brown.jpg",
+    srcSmall:
+      "/images/products/guitars-and-basses/small-images/ukulele/ukulele-straps/cascha_hh_2201_ukulele_strap_brown.jpg",
     alt: "",
-
-    category: [""],
-    brand: "",
+    category: ["ukulele strap"],
+    brand: "Cascha",
     price: 9,
     available: true,
     rating: 5,
-    totalReviews: 5,
+    totalReviews: 55,
     specifications: ["", "", "", "", ""],
   },
   // Ukulele Strings
-  // aquila_regular_sopran_ukulele_strings
   {
     title: "Aquila Regular Sopran Ukulele Strings",
-    srcBig: "/images/products/guitars-and-basses/big-images.jpg",
-    srcSmall: "",
+    srcBig:
+      "/images/products/guitars-and-basses/big-images/ukulele/ukulele-strings/aquila_regular_sopran_ukulele_strings.jpg",
+    srcSmall:
+      "/images/products/guitars-and-basses/small-images/ukulele/ukulele-strings/aquila_regular_sopran_ukulele_strings.jpg",
     alt: "",
-
-    category: [""],
-    brand: "",
+    category: ["ukulele strings"],
+    brand: "Aquila Regular",
     price: 7,
     available: true,
     rating: 5,
-    totalReviews: 5,
+    totalReviews: 555,
     specifications: ["", "", "", "", ""],
   },
   // Ukulele Cover Bags
-  // gator_deluxe_teno_ukulele_case_beige
   {
     title: "Gator Deluxe Teno.Ukulele Case Beige",
-    srcBig: "/images/products/guitars-and-basses/big-images.jpg",
-    srcSmall: "",
+    srcBig:
+      "/images/products/guitars-and-basses/big-images/ukulele/ukulele-cover-bags/gator_deluxe_teno_ukulele_case_beige.jpg",
+    srcSmall:
+      "/images/products/guitars-and-basses/small-images/ukulele/ukulele-cover-bags/gator_deluxe_teno_ukulele_case_beige.jpg",
     alt: "",
-
-    category: [""],
-    brand: "",
+    category: ["ukulele cover bag"],
+    brand: "Gator Deluxe",
     price: 77,
     available: true,
-    rating: 5,
-    totalReviews: 5,
+    rating: 4.7,
+    totalReviews: 76,
     specifications: ["", "", "", "", ""],
   },
 
@@ -813,135 +800,135 @@ const products: Product[] = [
   // Combo Amps
 
   // Solid State Guitar Combo Amps
-  // orange_crush_35_rt
   {
     title: "Orange Crush 35 RT",
-    srcBig: "/images/products/guitars-and-basses/big-images.jpg",
-    srcSmall: "",
+    srcBig:
+      "/images/products/guitars-and-basses/big-images/electric-guitar-amps/combo-amps/solid-state-guitar-combo-amps/orange_crush_35_rt.jpg",
+    srcSmall:
+      "/images/products/guitars-and-basses/small-images/electric-guitar-amps/combo-amps/solid-state-guitar-combo-amps/orange_crush_35_rt.jpg",
     alt: "",
-
-    category: [""],
-    brand: "",
+    category: ["electric guitar solid state combo amp"],
+    brand: "Orange",
     price: 266,
     available: true,
     rating: 5,
-    totalReviews: 5,
+    totalReviews: 1560,
     specifications: ["", "", "", "", ""],
   },
-  // Digital Guitar Combo Amps
-  // boss_katana_100_mkii
+  // Digital Guitar Combo Amps also named Modeling Amps
   {
     title: "Boss Katana 100 MKII",
-    srcBig: "/images/products/guitars-and-basses/big-images.jpg",
-    srcSmall: "",
-    alt: "",
-
-    category: [""],
+    srcBig:
+      "/images/products/guitars-and-basses/big-images/electric-guitar-amps/combo-amps/digital-guitar-combo-amps/boss_katana_100_mkii.jpg",
+    srcSmall:
+      "/images/products/guitars-and-basses/small-images/electric-guitar-amps/combo-amps/digital-guitar-combo-amps/boss_katana_100_mkii.jpg",
+    alt: "Boss",
+    category: ["electric guitar digital combo amp"],
     brand: "",
     price: 348,
     available: true,
     rating: 5,
-    totalReviews: 5,
+    totalReviews: 2104,
     specifications: ["", "", "", "", ""],
   },
-  // Lamps Guitar Combo Amps
-  // bugera_v22_infinium
+  // Lamps Guitar Combo Amps  also named Tubes Amps
   {
     title: "Bugera V22 Infinium",
-    srcBig: "/images/products/guitars-and-basses/big-images.jpg",
-    srcSmall: "",
+    srcBig:
+      "/images/products/guitars-and-basses/big-images/electric-guitar-amps/combo-amps/lamps-guitar-combo-amps/bugera_v22_infinium.jpg",
+    srcSmall:
+      "/images/products/guitars-and-basses/small-images/electric-guitar-amps/combo-amps/lamps-guitar-combo-amps/bugera_v22_infinium.jpg",
     alt: "",
-
-    category: [""],
-    brand: "",
+    category: ["electric guitar lamps combo amp"],
+    brand: "Bugera",
     price: 379,
     available: true,
-    rating: 5,
-    totalReviews: 5,
+    rating: 4.9,
+    totalReviews: 552,
     specifications: ["", "", "", "", ""],
   },
 
   // Amp Heads
 
   // Solid State Guitar Amp Heads
-  // quilter_tone_block_202
   {
     title: "Quilter Tone Block 202",
-    srcBig: "/images/products/guitars-and-basses/big-images.jpg",
-    srcSmall: "",
+    srcBig:
+      "/images/products/guitars-and-basses/big-images/electric-guitar-amps/amp-heads/solid-state-guitar-amp-heads/quilter_tone_block_202.jpg",
+    srcSmall:
+      "/images/products/guitars-and-basses/small-images/electric-guitar-amps/amp-heads/solid-state-guitar-amp-heads/quilter_tone_block_202.jpg",
     alt: "",
-
-    category: [""],
-    brand: "",
+    category: ["electric guitar solid state amp head"],
+    brand: "Quilter",
     price: 625,
     available: true,
-    rating: 5,
-    totalReviews: 5,
+    rating: 4.76,
+    totalReviews: 521,
     specifications: ["", "", "", "", ""],
   },
   // Digital Guitar Amp Heads
-  // kemper_profiling_amp_head_bk_set
   {
     title: "Kemper Profiling Amp Head BK Set",
-    srcBig: "/images/products/guitars-and-basses/big-images.jpg",
-    srcSmall: "",
+    srcBig:
+      "/images/products/guitars-and-basses/big-images/electric-guitar-amps/amp-heads/digital-guitar-amp-heads/kemper_profiling_amp_head_bk_set.jpg",
+    srcSmall:
+      "/images/products/guitars-and-basses/small-images/electric-guitar-amps/amp-heads/digital-guitar-amp-heads/kemper_profiling_amp_head_bk_set.jpg",
     alt: "",
-
-    category: [""],
-    brand: "",
+    category: ["electric guitar digital amp head"],
+    brand: "Kemper",
     price: 1999,
     available: true,
     rating: 5,
-    totalReviews: 5,
+    totalReviews: 31,
     specifications: ["", "", "", "", ""],
   },
   // Lamps Guitar Amp Heads
-  // diezel_vh4_el34_head
   {
     title: "Diezel VH4 EL34 Head",
-    srcBig: "/images/products/guitars-and-basses/big-images.jpg",
-    srcSmall: "",
+    srcBig:
+      "/images/products/guitars-and-basses/big-images/electric-guitar-amps/amp-heads/lamps-guitar-amp-heads/diezel_vh4_el34_head.jpg",
+    srcSmall:
+      "/images/products/guitars-and-basses/small-images/electric-guitar-amps/amp-heads/lamps-guitar-amp-heads/diezel_vh4_el34_head.jpg",
     alt: "",
-
-    category: [""],
-    brand: "",
+    category: ["electric guitar lamps amp head"],
+    brand: "Diezel",
     price: 2599,
     available: true,
     rating: 5,
-    totalReviews: 5,
+    totalReviews: 20,
     specifications: ["", "", "", "", ""],
   },
 
   // Preamplifiers
-  // boss_gt_100
   {
     title: "Boss GT-100",
-    srcBig: "/images/products/guitars-and-basses/big-images.jpg",
-    srcSmall: "",
+    srcBig:
+      "/images/products/guitars-and-basses/big-images/electric-guitar-amps/preamps/boss_gt_100.jpg",
+    srcSmall:
+      "/images/products/guitars-and-basses/small-images/electric-guitar-amps/preamps/boss_gt_100.jpg",
     alt: "",
-
-    category: [""],
-    brand: "",
+    category: ["electric guitar preamp"],
+    brand: "Boss",
     price: 411,
     available: true,
-    rating: 5,
-    totalReviews: 5,
+    rating: 4.6,
+    totalReviews: 56,
     specifications: ["", "", "", "", ""],
   },
   // Power Amplifiers
-  // engl_e840_50_poweramp
   {
     title: "Engl E840/50 Poweramp",
-    srcBig: "/images/products/guitars-and-basses/big-images.jpg",
-    srcSmall: "",
+    srcBig:
+      "/images/products/guitars-and-basses/big-images/electric-guitar-amps/poweramps/engl_e840_50_poweramp.jpg",
+    srcSmall:
+      "/images/products/guitars-and-basses/small-images/electric-guitar-amps/poweramps/engl_e840_50_poweramp.jpg",
     alt: "",
-
-    category: [""],
-    brand: "",
+    category: ["electric guitar power amp"],
+    brand: "Engl",
     price: 888,
     available: true,
-    rating: 5,
-    totalReviews: 5,
+    rating: 4.8,
+    totalReviews: 43,
     specifications: ["", "", "", "", ""],
   },
 
@@ -951,10 +938,10 @@ const products: Product[] = [
   // engl_el34_matched_quartett
   {
     title: "Engl EL34 Matched Quartett",
-    srcBig: "/images/products/guitars-and-basses/big-images.jpg",
+    srcBig:
+      "/images/products/guitars-and-basses/big-images/electric-guitar-amps/.jpg",
     srcSmall: "",
     alt: "",
-
     category: [""],
     brand: "",
     price: 133,
@@ -967,10 +954,10 @@ const products: Product[] = [
   // tad_6l6gcm_str_redbase_pair
   {
     title: "TAD 6L6GCM-STR Redbase Pair ",
-    srcBig: "/images/products/guitars-and-basses/big-images.jpg",
+    srcBig:
+      "/images/products/guitars-and-basses/big-images/electric-guitar-amps/.jpg",
     srcSmall: "",
     alt: "",
-
     category: [""],
     brand: "",
     price: 66,
@@ -983,10 +970,10 @@ const products: Product[] = [
   // sovtek_el84_pair
   {
     title: "Sovtek EL84 Pair",
-    srcBig: "/images/products/guitars-and-basses/big-images.jpg",
+    srcBig:
+      "/images/products/guitars-and-basses/big-images/electric-guitar-amps/.jpg",
     srcSmall: "",
     alt: "",
-
     category: [""],
     brand: "",
     price: 53,
@@ -999,10 +986,10 @@ const products: Product[] = [
   // engl_tube_ecc_83_first_quality
   {
     title: "Engl Tube ECC 83 First Quality",
-    srcBig: "/images/products/guitars-and-basses/big-images.jpg",
+    srcBig:
+      "/images/products/guitars-and-basses/big-images/electric-guitar-amps/.jpg",
     srcSmall: "",
     alt: "",
-
     category: [""],
     brand: "",
     price: 31,
@@ -1015,10 +1002,10 @@ const products: Product[] = [
   // electro_harmonix_12ay7_tube
   {
     title: "Electro Harmonix 12AY7 Tube",
-    srcBig: "/images/products/guitars-and-basses/big-images.jpg",
+    srcBig:
+      "/images/products/guitars-and-basses/big-images/electric-guitar-amps/.jpg",
     srcSmall: "",
     alt: "",
-
     category: [""],
     brand: "",
     price: 29,
@@ -1032,10 +1019,10 @@ const products: Product[] = [
   // hughes_kettner_tubemeister_112_box
   {
     title: "Hughes&Kettner Tubemeister 112 Box",
-    srcBig: "/images/products/guitars-and-basses/big-images.jpg",
+    srcBig:
+      "/images/products/guitars-and-basses/big-images/electric-guitar-amps/.jpg",
     srcSmall: "",
     alt: "",
-
     category: [""],
     brand: "",
     price: 339,
@@ -1048,10 +1035,10 @@ const products: Product[] = [
   // marshall_mx212ar
   {
     title: "Marshall MX212AR",
-    srcBig: "/images/products/guitars-and-basses/big-images.jpg",
+    srcBig:
+      "/images/products/guitars-and-basses/big-images/electric-guitar-amps/.jpg",
     srcSmall: "",
     alt: "",
-
     category: [""],
     brand: "",
     price: 285,
@@ -1064,10 +1051,10 @@ const products: Product[] = [
   // orange_ppc412_bk
   {
     title: "Orange PPC412 BK",
-    srcBig: "/images/products/guitars-and-basses/big-images.jpg",
+    srcBig:
+      "/images/products/guitars-and-basses/big-images/electric-guitar-amps/.jpg",
     srcSmall: "",
     alt: "",
-
     category: [""],
     brand: "",
     price: 1035,
@@ -1080,10 +1067,10 @@ const products: Product[] = [
   // boss_katana_100_cover
   {
     title: "Boss Katana 100 Cover",
-    srcBig: "/images/products/guitars-and-basses/big-images.jpg",
+    srcBig:
+      "/images/products/guitars-and-basses/big-images/electric-guitar-amps/.jpg",
     srcSmall: "",
     alt: "",
-
     category: [""],
     brand: "",
     price: 23,

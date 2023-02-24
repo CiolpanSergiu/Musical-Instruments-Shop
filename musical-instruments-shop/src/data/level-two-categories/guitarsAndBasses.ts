@@ -1,9 +1,9 @@
 // subcategories
 import electricGuitarSubcategories from "../level-three-categories/guitars-and-basses/electricGuitarsData";
-import acousticGuitarsSubcategorie from "../level-three-categories/guitars-and-basses/acousticGuitarsData.json";
-import electricBassesSubcategories from "../level-three-categories/guitars-and-basses/electricBassesData.json";
-import acousticBassesSubcategories from "../level-three-categories/guitars-and-basses/acousticBassesData.json";
-import ukuleleSubcategories from "../level-three-categories/guitars-and-basses/ukuleleData.json";
+import acousticGuitarsSubcategorie from "../level-three-categories/guitars-and-basses/acousticGuitarsData";
+import electricBassesSubcategories from "../level-three-categories/guitars-and-basses/electricBassesData";
+import acousticBassesSubcategories from "../level-three-categories/guitars-and-basses/acousticBassesData";
+import ukuleleSubcategories from "../level-three-categories/guitars-and-basses/ukuleleData";
 import electricGuitarAmplifiersSubcategories from "../level-three-categories/guitars-and-basses/electricGuitarAmplifiersData";
 import electricBassAmplifiersSubcategories from "../level-three-categories/guitars-and-basses/electricBassAmplifiersData";
 import acousticGuitarAmplifiersSubcategories from "../level-three-categories/guitars-and-basses/acousticGuitarAmplifiersData.json";
