@@ -1,8 +1,8 @@
 // subcategories
-import speakerSubcategories from "../level-three-categories/pa-system-equipments/speakersData.json";
-import paMixersSubcategories from "../level-three-categories/pa-system-equipments/paMixersData.json";
-import microphonesSubcategories from "../level-three-categories/pa-system-equipments/microphonesForPaData.json";
-import cablesSubcategories from "../level-three-categories/pa-system-equipments/paCablesData.json";
+import speakerSubcategories from "../level-three-categories/pa-system-equipments/speakersData";
+import paMixersSubcategories from "../level-three-categories/pa-system-equipments/paMixersData";
+import microphonesSubcategories from "../level-three-categories/pa-system-equipments/microphonesForPaData";
+import cablesSubcategories from "../level-three-categories/pa-system-equipments/paCablesData";
 import connectorsAndJacksSubcategories from "../level-three-categories/pa-system-equipments/connectorsAndJacksData";
 // brands
 import speakersBrands from "../logo-data/pa-systems-brands/speakers/speakersBrands.json";

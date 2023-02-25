@@ -1,7 +1,7 @@
 // subcategories
-import chairsSubcategories from "../level-three-categories/accesories/chairsData.json";
-import headphonesSubcategories from "../level-three-categories/accesories/headphonesData.json";
-import powerSupplySubcategories from "../level-three-categories/accesories/powerSuppliesData.json";
+import chairsSubcategories from "../level-three-categories/accesories/chairsData";
+import headphonesSubcategories from "../level-three-categories/accesories/headphonesData";
+import powerSupplySubcategories from "../level-three-categories/accesories/powerSuppliesData";
 import standsSubcategories from "../level-three-categories/accesories/stands";
 // brands
 import headphonesBrands from "../logo-data/accesories-brands/headphones/headphones.json";

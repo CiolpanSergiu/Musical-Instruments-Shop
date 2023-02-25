@@ -1,6 +1,6 @@
 // subcategories
-import keyboardsSubcategories from "../level-three-categories/keyboards-and-synth/keyboardsData.json";
-import synthesizerSubcategories from "../level-three-categories/keyboards-and-synth/synthesizersData.json";
+import keyboardsSubcategories from "../level-three-categories/keyboards-and-synth/keyboardsData";
+import synthesizerSubcategories from "../level-three-categories/keyboards-and-synth/synthesizersData";
 // brands
 import keyboardBrands from "../logo-data/keyboard-and-synth-brands/keyboards/keyboardBrands.json";
 import synthesizerBrands from "../logo-data/keyboard-and-synth-brands/synthesizers/synthesizerBrands.json";

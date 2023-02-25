@@ -1,6 +1,6 @@
 // subcategories
-import accordionsSubcategories from "../level-three-categories/traditional-instruments/accordionsData.json";
-import folkInstrumentsSubcategories from "../level-three-categories/traditional-instruments/folkInstrumentsData.json";
+import accordionsSubcategories from "../level-three-categories/traditional-instruments/accordionsData";
+import folkInstrumentsSubcategories from "../level-three-categories/traditional-instruments/folkInstrumentsData";
 import stringedInstrumentsSubcategories from "../level-three-categories/traditional-instruments/stringedInstrumentsData";
 // brands
 import accordionBrands from "../logo-data/traditional-instruments-brands/accordions/accordionsBrands.json";

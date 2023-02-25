@@ -1,11 +1,11 @@
 // subcategories
 import acousticDrumsSubcategories from "../level-three-categories/drums-and-percussion/acousticDrumsData";
-import electronicDrumSubcategories from "../level-three-categories/drums-and-percussion/electronicDrumsData.json";
+import electronicDrumSubcategories from "../level-three-categories/drums-and-percussion/electronicDrumsData";
 import cymbalsDrumSubcategories from "../level-three-categories/drums-and-percussion/cymbalsData";
 import drumSticksSubcategories from "../level-three-categories/drums-and-percussion/drumSticksData";
 import drumStandsAndPedalsSubcategories from "../level-three-categories/drums-and-percussion/drumPedalsAndStandsData";
-import drumCoverBagsAndCasesSubcategories from "../level-three-categories/drums-and-percussion/drumCoverBagsAndCasesData.json";
-import drumSparePartsSubcategories from "../level-three-categories/drums-and-percussion/drumSparePartsData.json";
+import drumCoverBagsAndCasesSubcategories from "../level-three-categories/drums-and-percussion/drumCoverBagsAndCasesData";
+import drumSparePartsSubcategories from "../level-three-categories/drums-and-percussion/drumSparePartsData";
 import percussionInstrumentsSubcategories from "../level-three-categories/drums-and-percussion/percussionInstrumentsData";
 // brands
 import acousticDrumsBrands from "../logo-data/drums-and-percussion-brands/acoustic-drums/mainAcousticDrumBrands.json";

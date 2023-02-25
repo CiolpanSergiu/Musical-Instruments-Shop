@@ -1,9 +1,9 @@
 // subcategories
-import audioInterfacesSubcategories from "../level-three-categories/studio-and-recording/audioInterfacesData.json";
-import audioControllersSubcategories from "../level-three-categories/studio-and-recording/audioControllersData.json";
-import midiEquimpentsSubcategories from "../level-three-categories/studio-and-recording/midiEquipmentsData.json";
-import studioMonitorsSubcategories from "../level-three-categories/studio-and-recording/studioMonitorsData.json";
-import processorsAndEffectsSubcategories from "../level-three-categories/studio-and-recording/processorsAndEffectsData.json";
+import audioInterfacesSubcategories from "../level-three-categories/studio-and-recording/audioInterfacesData";
+import audioControllersSubcategories from "../level-three-categories/studio-and-recording/audioControllersData";
+import midiEquimpentsSubcategories from "../level-three-categories/studio-and-recording/midiEquipmentsData";
+import studioMonitorsSubcategories from "../level-three-categories/studio-and-recording/studioMonitorsData";
+import processorsAndEffectsSubcategories from "../level-three-categories/studio-and-recording/processorsAndEffectsData";
 import microphonesSubcategories from "./microphones";
 // brands
 import audioInterfacesBrands from "../logo-data/recording-and-studio-brands/audio-interfaces/audioInterfacesBrands.json";
