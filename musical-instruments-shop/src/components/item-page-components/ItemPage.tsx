@@ -69,8 +69,13 @@ const CartRelatedDetails = styled.div`
   justify-content: center;
 `;
 
+const Description = styled.p`
+  margin-top: 3rem;
+  line-height: 2.5;
+`;
+
 const ItemSpecificationsUl = styled.ul`
-  padding: 1rem;
+  padding: 1rem 0;
   margin-top: 2rem;
 `;
 
@@ -116,6 +121,15 @@ export default function ItemPage({
             haveCartIcon={false}
             haveText={true}
           />
+          <Description>
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolor
+            doloremque ullam error. Est adipisci autem tempora, architecto eius
+            illo repellat totam quasi ducimus, temporibus ipsum sequi dolor
+            odio? Magni, provident. Lorem ipsum dolor sit amet consectetur
+            adipisicing elit. Modi amet, consectetur aperiam dolores voluptatem
+            deleniti repudiandae ad doloremque omnis, error quis quod porro
+            voluptate. Repellendus iste corrupti pariatur deserunt cumque.
+          </Description>
           {specifications && (
             <ItemSpecificationsUl>
               {specifications.map((specification: string) => {
