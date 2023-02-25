@@ -60,6 +60,7 @@ type Props = {
   haveSuggestions: boolean;
   categorySuggestionsList: (JSX.Element | undefined)[];
   brandsSuggestionsList: (JSX.Element | undefined)[];
+  productsSuggestionsList: (JSX.Element | undefined)[];
   children: any;
 };
 
@@ -67,6 +68,7 @@ export default function ({
   haveSuggestions,
   categorySuggestionsList,
   brandsSuggestionsList,
+  productsSuggestionsList,
   children,
 }: Props) {
   return (
@@ -78,7 +80,10 @@ export default function ({
       )}
       {categorySuggestionsList}
       <ModalHeader>Items</ModalHeader>
-      <DefaultText>No match found!</DefaultText>
+      {productsSuggestionsList.length === 0 && (
+        <DefaultText>No categories found!</DefaultText>
+      )}
+      {productsSuggestionsList}
       <ModalHeader>Brands</ModalHeader>
       {brandsSuggestionsList.length === 0 && (
         <DefaultText>No brands found!</DefaultText>

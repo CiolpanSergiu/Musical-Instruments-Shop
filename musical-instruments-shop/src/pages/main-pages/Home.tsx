@@ -6,7 +6,13 @@ import ItemsSlider from "../../components/sliders/ItemsSlider";
 import Footer from "../../components/footer-components/Footer";
 import styled from "styled-components";
 import brandsData from "../../data/logo-data/universalBrands.json";
-import popularItemsData from "../../data/popular-items/allPopularItems";
+import {
+  universalPopularItems,
+  amplifiersPopularItems,
+  keyboardAndSynthPopularItems,
+  drumsAndPercussionPopularItems,
+  guitarAndBassesPopularItems,
+} from "../../data/popular-items/allPopularItems";
 import description from "../../data/sectionDescription.json";
 import SliderDescription from "../../components/sliders/SliderDescription";
 
@@ -22,16 +28,25 @@ export default function Home() {
     <HomePage>
       <Navbar />
       <CategoryCardsContainer />
-      <ItemsSlider title="" data={popularItemsData[0]} />
+      <ItemsSlider title="" data={universalPopularItems} />
       <BrandsSlider title="Top Brands" data={brandsData} />
       <SalesSectionContainer />
-      <ItemsSlider data={popularItemsData[1]} title="Guitars and Basses" />
+      <ItemsSlider
+        data={guitarAndBassesPopularItems}
+        title="Guitars and Basses"
+      />
       <SliderDescription descriptionData={description[0]} />
-      <ItemsSlider data={popularItemsData[2]} title="Amplifiers" />
+      <ItemsSlider data={amplifiersPopularItems} title="Amplifiers" />
       <SliderDescription descriptionData={description[1]} />
-      <ItemsSlider data={popularItemsData[3]} title="Drums and Percussion" />
+      <ItemsSlider
+        data={drumsAndPercussionPopularItems}
+        title="Drums and Percussion"
+      />
       <SliderDescription descriptionData={description[2]} />
-      <ItemsSlider data={popularItemsData[4]} title="Keyboards and Synth" />
+      <ItemsSlider
+        data={keyboardAndSynthPopularItems}
+        title="Keyboards and Synth"
+      />
       <SliderDescription descriptionData={description[3]} />
       <Footer marginTop={"2rem"} />
     </HomePage>

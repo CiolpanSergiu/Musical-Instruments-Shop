@@ -2,7 +2,7 @@ import styled from "styled-components";
 import Navbar from "../../components/navbar-components/Navbar";
 import Footer from "../../components/footer-components/Footer";
 import SubcategoryCardsContainer from "../../components/home-page-components/containers/SubcategoryCardsContainer";
-import universalPopularItemsData from "../../data/popular-items/universalPopularItems.json";
+import universalPopularItemsData from "../../data/popular-items/universalPopularItems";
 import BrandsSlider from "../../components/sliders/BrandsSlider";
 import ItemsSlider from "../../components/sliders/ItemsSlider";
 

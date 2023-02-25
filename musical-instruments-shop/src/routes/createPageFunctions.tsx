@@ -40,10 +40,6 @@ export function createShoppingPageRoute(
   pageTitle: string,
   data: ProductType[]
 ) {
-  if (pageTitle === "5 Ways Switch Selectors") {
-    console.log(data);
-  }
-
   return (
     <Route
       key={nanoid()}
@@ -58,8 +54,6 @@ export function createItemDetailsPageRoute(product: ProductType) {
     .toLocaleLowerCase()
     .replace(/[^\w]/g, "-")
     .replace(/--+/g, "-")}`;
-
-  console.log(product);
 
   return (
     <Route

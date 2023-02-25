@@ -51,14 +51,13 @@ const Header2 = styled.h2`
 
 type Data = {
   title: string;
-  brandName: string;
+  brand: string;
   srcSmall: string;
   srcBig: string;
   alt: string;
   price: number;
   totalReviews: number;
   rating: number;
-  pageLink: string;
   specifications: string[];
 };
 
@@ -104,7 +103,10 @@ export default function ItemsSlider({ title, data }: Props) {
       src={item.srcSmall}
       alt={item.alt}
       title={item.title}
-      pageLink={item.pageLink}
+      pageLink={`/${item.title
+        .toLocaleLowerCase()
+        .replace(/[^\w]/g, "-")
+        .replace(/--+/g, "-")}`}
       price={item.price}
       rating={item.rating}
       totalReviews={item.totalReviews}

@@ -7,8 +7,10 @@ import paSystemProducts from "./paSystems";
 import recordingAndStudioProducts from "./recordingAndStudio";
 import softwaresProducts from "./softwares";
 import traditionalInstrumentsProducts from "./traditionalInstruments";
+import { allPopularItems } from "../popular-items/allPopularItems";
 
 export default [
+  ...allPopularItems,
   ...guitarsAndBassesProducts,
   ...drumsAndPercussionProducts,
   ...keyboardsAndSynthProducts,

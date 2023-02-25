@@ -1,13 +1,23 @@
-import amplifiersPopularItems from "./amplifiers.json";
-import drumsAndPercussionPopularItems from "./drumsAndPercussion.json";
-import guitarAndBassesPopularItems from "./guitarAndBasses.json";
-import keyboardAndSynthPopularItems from "./keyboardsAndSynth.json";
-import universalPopularItems from "./universalPopularItems.json";
+import amplifiersPopularItems from "./amplifiers";
+import drumsAndPercussionPopularItems from "./drumsAndPercussion";
+import guitarAndBassesPopularItems from "./guitarAndBasses";
+import keyboardAndSynthPopularItems from "./keyboardsAndSynth";
+import universalPopularItems from "./universalPopularItems";
+import ProductType from "../products/productType";
 
-export default [
+const allPopularItems: ProductType[] = [
+  ...universalPopularItems,
+  ...guitarAndBassesPopularItems,
+  ...amplifiersPopularItems,
+  ...drumsAndPercussionPopularItems,
+  ...keyboardAndSynthPopularItems,
+];
+
+export {
+  allPopularItems,
   universalPopularItems,
   guitarAndBassesPopularItems,
   amplifiersPopularItems,
   drumsAndPercussionPopularItems,
   keyboardAndSynthPopularItems,
-];
+};

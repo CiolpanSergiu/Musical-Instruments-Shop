@@ -454,7 +454,7 @@ const products: Product[] = [
     srcSmall:
       "/images/products/guitars-and-basses/small-images/electric-basses/4-strings-j-basses/fender_player_series_jazz_bass_mn_tpl.jpg",
     alt: "",
-    category: ["4 strings j bass"],
+    category: ["4 strings j electric bass"],
     brand: "Fender",
     price: 769,
     available: true,
@@ -476,7 +476,7 @@ const products: Product[] = [
     srcSmall:
       "/images/products/guitars-and-basses/small-images/electric-basses/5-strings-j-basses/marcus_miller_v7_alder_5_bur_2nd_gen.jpg",
     alt: "",
-    category: ["5 strings j bass"],
+    category: ["5 strings j electric bass"],
     brand: "Larry Carlton",
     price: 489,
     available: true,
@@ -500,7 +500,7 @@ const products: Product[] = [
       "/images/products/guitars-and-basses/small-images/electric-basses/4-strings-p-basses/sadowsky_metroline_hyb_p_j_21_4_mo_bl.jpg",
     alt: "",
 
-    category: ["4 strings p bass"],
+    category: ["4 strings p electric bass"],
     brand: "Sadowsky",
     price: 2480,
     available: true,
@@ -522,7 +522,7 @@ const products: Product[] = [
     srcSmall:
       "/images/products/guitars-and-basses/small-images/electric-basses/5-strings-p-basses/yamaha_bb735a_dcsg_rw.jpg",
     alt: "",
-    category: ["5 strings p bass"],
+    category: ["5 strings p electric bass"],
     brand: "Yamaha",
     price: 943,
     available: true,
@@ -588,7 +588,7 @@ const products: Product[] = [
     srcSmall:
       "/images/products/guitars-and-basses/small-images/electric-basses/fretless-basses/marcus_miller_v7_alder_4_fl_ts_2nd_gen.jpg",
     alt: "",
-    category: ["fretless bass"],
+    category: ["fretless electric bass"],
     brand: "Lary Carlton",
     price: 538,
     available: true,
@@ -610,7 +610,7 @@ const products: Product[] = [
     srcSmall:
       "/images/products/guitars-and-basses/small-images/electric-basses/headless-basses/ibanez_ehb1505ms_plf.jpg",
     alt: "",
-    category: ["headless bass"],
+    category: ["headless electric bass"],
     brand: "Ibanez",
     price: 1429,
     available: true,
@@ -633,7 +633,7 @@ const products: Product[] = [
       "/images/products/guitars-and-basses/small-images/electric-basses/4-strings-left-handed-basses/sandberg_california_vs_lionel_bk_lh.jpg",
     alt: "",
 
-    category: ["4 strings left handed bass"],
+    category: ["4 strings left handed electric bass"],
     brand: "Sandberg",
     price: 1199,
     available: true,
@@ -656,7 +656,7 @@ const products: Product[] = [
       "/images/products/guitars-and-basses/small-images/electric-basses/5-strings-left-handed-basses/sterling_by_music_man_stingray_5_lh_mn_vsb.jpg",
     alt: "",
 
-    category: ["5 strings left handed bass"],
+    category: ["5 strings left handed electric bass"],
     brand: "Music Man",
     price: 555,
     available: true,
@@ -679,7 +679,7 @@ const products: Product[] = [
       "/images/products/guitars-and-basses/small-images/electric-basses/multi-scale-basses/spector_ns_dimension_ms_4_faded_black.jpg",
     alt: "",
 
-    category: ["multi scale bass"],
+    category: ["multi scale electric bass"],
     brand: "Spector",
     price: 1798,
     available: true,

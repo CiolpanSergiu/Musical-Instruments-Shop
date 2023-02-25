@@ -6,6 +6,7 @@ import filterFirstFiveSuggestions from "../../functions/search-suggestions-funct
 import createSuggestionsList from "../../functions/search-suggestions-functions/createSearchSuggestionsLinks";
 import SuggestionsModal from "./SuggestionsModal";
 import uniqueBrandsSuggestions from "../../data/suggestions/brandsSuggestions";
+import uniqueProducts from "../../data/suggestions/productsSuggestions";
 
 const Form = styled.form`
   display: flex;
@@ -87,6 +88,11 @@ export default function NavbarSearchBox() {
     searchBoxValue
   );
 
+  const filteredProductsSuggestions = filterFirstFiveSuggestions(
+    uniqueProducts,
+    searchBoxValue
+  );
+
   const categorySuggestionsList = createSuggestionsList(
     filteredCategorySuggestions,
     clearSearchBox
@@ -97,9 +103,15 @@ export default function NavbarSearchBox() {
     clearSearchBox
   );
 
+  const productsSuggestionsList = createSuggestionsList(
+    filteredProductsSuggestions,
+    clearSearchBox
+  );
+
   const currentSuggestionsLength = categorySuggestionsList
     .filter((suggestion) => suggestion)
-    .concat(brandsSuggestionsList.filter((suggestion) => suggestion)).length;
+    .concat(brandsSuggestionsList.filter((suggestion) => suggestion))
+    .concat(productsSuggestionsList.filter((suggestion) => suggestion)).length;
 
   useEffect(() => {
     document.body.style.overflow =
@@ -121,6 +133,7 @@ export default function NavbarSearchBox() {
         haveSuggestions={currentSuggestionsLength > 0}
         categorySuggestionsList={categorySuggestionsList}
         brandsSuggestionsList={brandsSuggestionsList}
+        productsSuggestionsList={productsSuggestionsList}
       >
         <ModalInput
           placeholder="Search"
