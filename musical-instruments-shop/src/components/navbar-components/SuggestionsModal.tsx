@@ -13,8 +13,8 @@ const SuggestionsContainer = styled.div<SuggestionContainerProps>`
   left: 0;
   top: 100%;
   width: 100%;
-  height: ${(props) => (props.haveSuggestions ? "calc(100vh - 100%)" : "0")};
-  padding: ${(props) => (props.haveSuggestions ? "3rem 2rem" : "0")};
+  height: ${(props) => (props.haveSuggestions ? "100vh" : "0")};
+  padding: ${(props) => (props.haveSuggestions ? "3rem 2rem 15rem 2rem" : "0")};
   overflow-y: scroll;
 
   @media only screen and (min-width: 667px) {
@@ -25,7 +25,7 @@ const SuggestionsContainer = styled.div<SuggestionContainerProps>`
     border-radius: 9px;
     border: solid gray 2px;
     align-items: flex-start;
-    padding-left: 15%;
+    padding-left: 6%;
     padding-bottom: 5rem;
     padding-top: 7.5rem;
   }

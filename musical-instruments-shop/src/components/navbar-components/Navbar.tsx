@@ -59,7 +59,7 @@ const NavbarContent = styled.div<NavbarContentType>`
   position: absolute;
   height: 100vh;
   top: 0;
-  left: ${(props) => (props.open ? "0" : "-200vw")};
+  left: ${(props) => (props.open ? "0" : "-300vw")};
   width: 100%;
   transition: 0.4s all ease-in-out;
   display: flex;

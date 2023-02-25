@@ -64,6 +64,14 @@ const ClearSearchBoxBtn = styled.button`
   border-radius: 0 5px 5px 0;
 `;
 
+const ModalExitBtn = styled.button`
+  padding: 0.5rem 1rem;
+  position: absolute;
+  top: 1rem;
+  right: 1rem;
+  cursor: pointer;
+`;
+
 export default function NavbarSearchBox() {
   const [searchBoxValue, setSearchBoxValue] = useState<string>("");
 
@@ -75,7 +83,7 @@ export default function NavbarSearchBox() {
     setSearchBoxValue("");
   }
 
-  function handleSubmit(e: any): void {
+  function handleSubmit(e: React.SyntheticEvent): void {
     e.preventDefault();
   }
 
@@ -136,6 +144,7 @@ export default function NavbarSearchBox() {
         brandsSuggestionsList={brandsSuggestionsList}
         productsSuggestionsList={productsSuggestionsList}
       >
+        <ModalExitBtn onClick={clearSearchBox}>X</ModalExitBtn>
         <ModalInput
           placeholder="Search"
           onChange={handleChange}
