@@ -1,43 +1,18 @@
 [
   {
     "title": "Guitars",
-    "subtitle": "One of the most iconic stringed instrument!",
-    "description": [
-      "Broad variety of guitars and bass guitars  to choose from.",
-      "These include instruments such as acoustic guitars and basses and ",
-      "electric guitars with a number of strings varying from 4 to 9.",
-      "The latter category can be divided in stratocaser models, telecaster models, ",
-      "single cut and double cut models, jazz or hollowbody guitars, hard and heavy guitars ",
-      "and many more."
-    ]
+    "description": "Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim. Donec pede justo, fringilla vel, aliquet nec, vulputate eget, arcu. In enim justo, rhoncus ut, imperdiet a, venenatis vitae, justo. Nullam dictum felis eu pede mollis pretium. Integer tincidunt. Cras dapibus. Vivamus elementum semper nisi. Aenean vulputate eleifend tellus. Aenean leo ligula, porttitor eu, consequat vitae, eleifend ac, enim."
   },
   {
     "title": "Guitar and Basses Amplifiers",
-    "subtitle": "What would guitars be without these power boxes?",
-    "description": [
-      "These small or huge bad boys are the most valuable friend of any guitarist.",
-      "They allow you to shape your guitar sound and as the name suggest, it amplifies ",
-      "the sound of your instrument. Different amplifiers allow different sound",
-      "configuration, tones and sometimes effects. Absolutely amazing if you ask!"
-    ]
+    "description": "Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim. Donec pede justo, fringilla vel, aliquet nec, vulputate eget, arcu. In enim justo, rhoncus ut, imperdiet a, venenatis vitae, justo. Nullam dictum felis eu pede mollis pretium. Integer tincidunt. Cras dapibus. Vivamus elementum semper nisi. Aenean vulputate eleifend tellus. Aenean leo ligula, porttitor eu, consequat vitae, eleifend ac, enim."
   },
   {
     "title": "Drums and Percussion",
-    "subtitle": "Most important instrument in any song",
-    "description": [
-      "Today a song is all about the rhythm and what instrument is better ",
-      "at creating a rhythm other than the good, old drum. There is nothing much",
-      "to say about these, I mean, c'mon, everybody know what a drum does. Just take",
-      "a seat and unleash powerfull heavy metal drum blasts or a slow and steady groove."
-    ]
+    "description": "Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim. Donec pede justo, fringilla vel, aliquet nec, vulputate eget, arcu. In enim justo, rhoncus ut, imperdiet a, venenatis vitae, justo. Nullam dictum felis eu pede mollis pretium. Integer tincidunt. Cras dapibus. Vivamus elementum semper nisi. Aenean vulputate eleifend tellus. Aenean leo ligula, porttitor eu, consequat vitae, eleifend ac, enim."
   },
   {
     "title": "Keyboards and Synth",
-    "subtitle": "Anything else to say? Everybody knows about them!",
-    "description": [
-      "Keyboards instruments are one of the most popular musical instruments among the ",
-      "beginners and experienced musicians alike. Whether you want to keep it classic ",
-      "or have a more modern aproach these instruments won't fail you. Now give it a try! "
-    ]
+    "description": "Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim. Donec pede justo, fringilla vel, aliquet nec, vulputate eget, arcu. In enim justo, rhoncus ut, imperdiet a, venenatis vitae, justo. Nullam dictum felis eu pede mollis pretium. Integer tincidunt. Cras dapibus. Vivamus elementum semper nisi. Aenean vulputate eleifend tellus. Aenean leo ligula, porttitor eu, consequat vitae, eleifend ac, enim."
   }
 ]

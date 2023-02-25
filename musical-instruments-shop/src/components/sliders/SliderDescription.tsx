@@ -1,7 +1,7 @@
 import styled from "styled-components";
 
 type Props = {
-  descriptionData: { title: string; subtitle: string; description: string[] };
+  descriptionData: { title: string; description: string };
 };
 
 const DescriptionContainer = styled.div`
@@ -29,8 +29,7 @@ export default function SliderDescription({ descriptionData }: Props) {
   return (
     <DescriptionContainer>
       <MainHeader>{descriptionData.title}</MainHeader>
-      <Subheader>{descriptionData.subtitle}</Subheader>
-      <p>{descriptionData.description.join("")}</p>
+      <p>{descriptionData.description}</p>
     </DescriptionContainer>
   );
 }
