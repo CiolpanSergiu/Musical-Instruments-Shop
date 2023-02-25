@@ -2,97 +2,169 @@
   {
     "title": "Gretsch Drums 10X5.5 Mighty Mini Snare BK",
     "brandName": "",
-    "srcThumbnail": "/images/popular-items/drums/gretsch_drums_10x5_5_mighty_mini_snare_bk.jpg",
+    "srcSmall": "/images/popular-items/drums/gretsch_drums_10x5_5_mighty_mini_snare_bk.jpg",
     "srcBig": "",
     "alt": "",
     "price": 99,
     "totalReviews": 75,
     "rating": 5,
     "pageLink": "/gretsch-drums-10x5-5-mighty-mini-snare-bk",
-    "specifications": []
+    "specifications": [
+      "Product Specification 1 ",
+      "Product Specification 2",
+      "Product Specification 3",
+      "Product Specification 4",
+      "Product Specification 5"
+    ],
+    "available": true,
+    "brand": "",
+    "category": []
   },
   {
     "title": "Millenium 16 B20 Crash",
     "brandName": "",
-    "srcThumbnail": "/images/popular-items/drums/millenium_16_b20_crash.jpg",
+    "srcSmall": "/images/popular-items/drums/millenium_16_b20_crash.jpg",
     "srcBig": "",
     "alt": "",
     "price": 52,
     "totalReviews": 540,
     "rating": 5,
     "pageLink": "/millenium-16-b20-crash",
-    "specifications": []
+    "specifications": [
+      "Product Specification 1 ",
+      "Product Specification 2",
+      "Product Specification 3",
+      "Product Specification 4",
+      "Product Specification 5"
+    ],
+    "available": true,
+    "brand": "",
+    "category": []
   },
   {
     "title": "Millenium B20 CymbalSet",
     "brandName": "",
-    "srcThumbnail": "/images/popular-items/drums/millenium_b20_cymbalset.jpg",
+    "srcSmall": "/images/popular-items/drums/millenium_b20_cymbalset.jpg",
     "srcBig": "",
     "alt": "",
     "price": 236,
     "totalReviews": 602,
     "rating": 4.89,
     "pageLink": "/millenium-b20-cymbalset",
-    "specifications": []
+    "specifications": [
+      "Product Specification 1 ",
+      "Product Specification 2",
+      "Product Specification 3",
+      "Product Specification 4",
+      "Product Specification 5"
+    ],
+    "available": true,
+    "brand": "",
+    "category": []
   },
   {
     "title": "Millenium Focus 20X16 Bass Drum Black",
     "brandName": "",
-    "srcThumbnail": "/images/popular-items/drums/millenium_focus_20x16_bass_drum_black.jpg",
+    "srcSmall": "/images/popular-items/drums/millenium_focus_20x16_bass_drum_black.jpg",
     "srcBig": "",
     "alt": "",
     "price": 161,
     "totalReviews": 532,
     "rating": 4.67,
     "pageLink": "/millenium-focus-20x16-bass-drum-black",
-    "specifications": []
+    "specifications": [
+      "Product Specification 1 ",
+      "Product Specification 2",
+      "Product Specification 3",
+      "Product Specification 4",
+      "Product Specification 5"
+    ],
+    "available": true,
+    "brand": "",
+    "category": []
   },
   {
     "title": "Millenium MPS 850 Electronic Drum Set",
     "brandName": "",
-    "srcThumbnail": "/images/popular-items/drums/millenium_mps_850_e_drum_set.jpg",
+    "srcSmall": "/images/popular-items/drums/millenium_mps_850_e_drum_set.jpg",
     "srcBig": "",
     "alt": "",
     "price": 666,
     "totalReviews": 111,
     "rating": 4.7,
     "pageLink": "/millenium-mps-850-electronic-drum-set",
-    "specifications": []
+    "specifications": [
+      "Product Specification 1 ",
+      "Product Specification 2",
+      "Product Specification 3",
+      "Product Specification 4",
+      "Product Specification 5"
+    ],
+    "available": true,
+    "brand": "",
+    "category": []
   },
   {
     "title": "Startone Star Drum Set Standard BK",
     "brandName": "",
-    "srcThumbnail": "/images/popular-items/drums/startone_star_drum_set _standard_bk.jpg",
+    "srcSmall": "/images/popular-items/drums/startone_star_drum_set _standard_bk.jpg",
     "srcBig": "",
     "alt": "",
     "price": 302,
     "totalReviews": 1504,
     "rating": 4.76,
     "pageLink": "/startone-star-drum-set-standard-bk",
-    "specifications": []
+    "specifications": [
+      "Product Specification 1 ",
+      "Product Specification 2",
+      "Product Specification 3",
+      "Product Specification 4",
+      "Product Specification 5"
+    ],
+    "available": true,
+    "brand": "",
+    "category": []
   },
   {
     "title": "Yamaha Stage Custom 08X07 Tom NQ",
     "brandName": "",
-    "srcThumbnail": "/images/popular-items/drums/yamaha_stage_custom_08x07_tt_nq.jpg",
+    "srcSmall": "/images/popular-items/drums/yamaha_stage_custom_08x07_tt_nq.jpg",
     "srcBig": "",
     "alt": "",
     "price": 130,
     "totalReviews": 276,
     "rating": 4.5,
     "pageLink": "/yamaha-stage-custom-08x07-tom-nq",
-    "specifications": []
+    "specifications": [
+      "Product Specification 1 ",
+      "Product Specification 2",
+      "Product Specification 3",
+      "Product Specification 4",
+      "Product Specification 5"
+    ],
+    "available": true,
+    "brand": "",
+    "category": []
   },
   {
     "title": "Zultan 10 AJA Splash",
     "brandName": "",
-    "srcThumbnail": "/images/popular-items/drums/zultan_10_aja_splash.jpg",
+    "srcSmall": "/images/popular-items/drums/zultan_10_aja_splash.jpg",
     "srcBig": "",
     "alt": "",
     "price": 31,
     "totalReviews": 1543,
     "rating": 4.9,
     "pageLink": "/zultan-10-aja-splash",
-    "specifications": []
+    "specifications": [
+      "Product Specification 1 ",
+      "Product Specification 2",
+      "Product Specification 3",
+      "Product Specification 4",
+      "Product Specification 5"
+    ],
+    "available": true,
+    "brand": "",
+    "category": []
   }
 ]

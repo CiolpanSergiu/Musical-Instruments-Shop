@@ -52,7 +52,7 @@ const Header2 = styled.h2`
 type Data = {
   title: string;
   brandName: string;
-  srcThumbnail: string;
+  srcSmall: string;
   srcBig: string;
   alt: string;
   price: number;
@@ -101,7 +101,7 @@ export default function ItemsSlider({ title, data }: Props) {
   const sliderCards = data.map((item: Data) => (
     <SliderDetailedCard
       key={nanoid()}
-      src={item.srcThumbnail}
+      src={item.srcSmall}
       alt={item.alt}
       title={item.title}
       pageLink={item.pageLink}

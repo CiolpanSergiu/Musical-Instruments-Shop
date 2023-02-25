@@ -22,7 +22,7 @@ const FooterContainer = styled.footer<FooterProps>`
   justify-content: center;
   align-items: center;
   box-shadow: 0 0 10px gray;
-  position: relative;
+  position: absolute;
   bottom: 0;
 `;
 

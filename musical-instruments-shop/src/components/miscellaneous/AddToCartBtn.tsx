@@ -11,7 +11,8 @@ const CartButton = styled.button`
   border-radius: 9px;
   cursor: pointer;
   transition: 0.3s all ease;
-  font-size: 1.5rem;
+  font-size: 1.1rem;
+  max-width: 15rem;
   width: 100%;
   display: flex;
   align-items: center;
@@ -20,6 +21,14 @@ const CartButton = styled.button`
   &:hover {
     background-color: lightskyblue;
     color: black;
+  }
+
+  @media only screen and (min-width: 662px) {
+    font-size: 1.25rem;
+  }
+
+  @media only screen and (min-width: 768) {
+    font-size: 1.5rem;
   }
 `;
 const Price = styled.span`

@@ -8,28 +8,27 @@ import SinginPage from "./pages/main-pages/SinginPage";
 import NoPageFound from "./pages/main-pages/NoPageFound";
 
 import allCategoryPages from "./routes/categoryPagesRoutes";
-
 import itemsShoppingPages from "./routes/itemsPageRoutes";
+import productDetailPageRoutes from "./routes/itemPageRoutes";
 
 // import itemsRoutes from "./routes/items-pages/stratocasterGuitarsPages";
-import popularItemsPages from "./routes/items-pages/popularItemsPages";
+import popularItemsPages from "./routes/popularItemsPages";
 
 export default function App() {
   return (
-    <>
-      <Routes>
-        <Route path="/" element={<Home />}></Route>
-        <Route path="/contact" element={<Contact />}></Route>
-        <Route path="/account" element={<Account />}></Route>
-        <Route path="/singin" element={<SinginPage />}></Route>
-        <Route path="/shopping-cart" element={<ShoppingCartPage />}></Route>
-        <Route path="*" element={<NoPageFound />}></Route>
+    <Routes>
+      <Route path="/" element={<Home />}></Route>
+      <Route path="/contact" element={<Contact />}></Route>
+      <Route path="/account" element={<Account />}></Route>
+      <Route path="/singin" element={<SinginPage />}></Route>
+      <Route path="/shopping-cart" element={<ShoppingCartPage />}></Route>
+      <Route path="*" element={<NoPageFound />}></Route>
 
-        {/* {itemsRoutes} */}
-        {popularItemsPages}
-        {itemsShoppingPages}
-        {allCategoryPages}
-      </Routes>
-    </>
+      {/* {itemsRoutes} */}
+      {popularItemsPages}
+      {itemsShoppingPages}
+      {allCategoryPages}
+      {productDetailPageRoutes}
+    </Routes>
   );
 }

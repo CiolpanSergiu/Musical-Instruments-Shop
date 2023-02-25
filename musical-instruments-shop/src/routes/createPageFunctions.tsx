@@ -53,23 +53,13 @@ export function createShoppingPageRoute(
   );
 }
 
-type Item = {
-  title: string;
-  brandName: string;
-  srcThumbnail: string;
-  srcBig: string;
-  alt: string;
-  price: number;
-  totalReviews: number;
-  rating: number;
-  specifications: string[];
-};
-
-export function createItemDetailsPageRoute(item: Item) {
-  const pageLink = `/${item.title
+export function createItemDetailsPageRoute(product: ProductType) {
+  const pageLink = `/${product.title
     .toLocaleLowerCase()
     .replace(/[^\w]/g, "-")
     .replace(/--+/g, "-")}`;
+
+  console.log(product);
 
   return (
     <Route
@@ -77,12 +67,12 @@ export function createItemDetailsPageRoute(item: Item) {
       path={pageLink}
       element={
         <ItemPage
-          title={item.title}
-          srcBig={item.srcBig}
-          alt={item.alt}
-          price={item.price}
-          rating={item.rating}
-          specifications={item.specifications}
+          title={product.title}
+          srcBig={product.srcBig}
+          alt={product.alt}
+          price={product.price}
+          rating={product.rating}
+          specifications={product.specifications}
         ></ItemPage>
       }
     ></Route>

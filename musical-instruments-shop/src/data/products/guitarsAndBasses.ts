@@ -102,7 +102,13 @@ const products: Product[] = [
     available: true,
     rating: 4.76,
     totalReviews: 53,
-    specifications: ["", "", "", "", ""],
+    specifications: [
+      "Product Specification 1 ",
+      "Product Specification 2",
+      "Product Specification 3",
+      "Product Specification 4",
+      "Product Specification 5",
+    ],
   },
   // Singlecut Models
   {
@@ -118,7 +124,13 @@ const products: Product[] = [
     available: true,
     rating: 4.5,
     totalReviews: 61,
-    specifications: ["", "", "", "", ""],
+    specifications: [
+      "Product Specification 1 ",
+      "Product Specification 2",
+      "Product Specification 3",
+      "Product Specification 4",
+      "Product Specification 5",
+    ],
   },
   // Doublecut Models
   {
@@ -134,7 +146,13 @@ const products: Product[] = [
     available: true,
     rating: 5,
     totalReviews: 541,
-    specifications: ["", "", "", "", ""],
+    specifications: [
+      "Product Specification 1 ",
+      "Product Specification 2",
+      "Product Specification 3",
+      "Product Specification 4",
+      "Product Specification 5",
+    ],
   },
   // Hollowbody Models
   {
@@ -150,7 +168,13 @@ const products: Product[] = [
     available: true,
     rating: 4.2,
     totalReviews: 23,
-    specifications: ["", "", "", "", ""],
+    specifications: [
+      "Product Specification 1 ",
+      "Product Specification 2",
+      "Product Specification 3",
+      "Product Specification 4",
+      "Product Specification 5",
+    ],
   },
   // Jazz Guitar Models
   {
@@ -166,7 +190,13 @@ const products: Product[] = [
     available: true,
     rating: 4.4,
     totalReviews: 6,
-    specifications: ["", "", "", "", ""],
+    specifications: [
+      "Product Specification 1 ",
+      "Product Specification 2",
+      "Product Specification 3",
+      "Product Specification 4",
+      "Product Specification 5",
+    ],
   },
   // Hard and Heavy Models
   {
@@ -182,7 +212,13 @@ const products: Product[] = [
     available: true,
     rating: 5,
     totalReviews: 200,
-    specifications: ["", "", "", "", ""],
+    specifications: [
+      "Product Specification 1 ",
+      "Product Specification 2",
+      "Product Specification 3",
+      "Product Specification 4",
+      "Product Specification 5",
+    ],
   },
   // Headless Models
   {
@@ -198,7 +234,13 @@ const products: Product[] = [
     available: true,
     rating: 5,
     totalReviews: 16,
-    specifications: ["", "", "", "", ""],
+    specifications: [
+      "Product Specification 1 ",
+      "Product Specification 2",
+      "Product Specification 3",
+      "Product Specification 4",
+      "Product Specification 5",
+    ],
   },
   // Left Handed Models
   {
@@ -214,7 +256,13 @@ const products: Product[] = [
     available: true,
     rating: 4.5,
     totalReviews: 52,
-    specifications: ["", "", "", "", ""],
+    specifications: [
+      "Product Specification 1 ",
+      "Product Specification 2",
+      "Product Specification 3",
+      "Product Specification 4",
+      "Product Specification 5",
+    ],
   },
   // 7 Strings Models
   {
@@ -230,7 +278,13 @@ const products: Product[] = [
     available: true,
     rating: 5,
     totalReviews: 122,
-    specifications: ["", "", "", "", ""],
+    specifications: [
+      "Product Specification 1 ",
+      "Product Specification 2",
+      "Product Specification 3",
+      "Product Specification 4",
+      "Product Specification 5",
+    ],
   },
   // 8 Strings Models
   {
@@ -246,7 +300,13 @@ const products: Product[] = [
     available: true,
     rating: 4.87,
     totalReviews: 111,
-    specifications: ["", "", "", "", ""],
+    specifications: [
+      "Product Specification 1 ",
+      "Product Specification 2",
+      "Product Specification 3",
+      "Product Specification 4",
+      "Product Specification 5",
+    ],
   },
   // 12 Strings Models
   {
@@ -262,7 +322,13 @@ const products: Product[] = [
     available: true,
     rating: 4.4,
     totalReviews: 53,
-    specifications: ["", "", "", "", ""],
+    specifications: [
+      "Product Specification 1 ",
+      "Product Specification 2",
+      "Product Specification 3",
+      "Product Specification 4",
+      "Product Specification 5",
+    ],
   },
 
   // Acoustic Guitars
@@ -281,7 +347,13 @@ const products: Product[] = [
     available: true,
     rating: 4.78,
     totalReviews: 544,
-    specifications: ["", "", "", "", ""],
+    specifications: [
+      "Product Specification 1 ",
+      "Product Specification 2",
+      "Product Specification 3",
+      "Product Specification 4",
+      "Product Specification 5",
+    ],
   },
   // Parlor Models
   {
@@ -297,7 +369,13 @@ const products: Product[] = [
     available: true,
     rating: 4.25,
     totalReviews: 298,
-    specifications: ["", "", "", "", ""],
+    specifications: [
+      "Product Specification 1 ",
+      "Product Specification 2",
+      "Product Specification 3",
+      "Product Specification 4",
+      "Product Specification 5",
+    ],
   },
   // Jumbo Models
   {
@@ -313,7 +391,13 @@ const products: Product[] = [
     available: true,
     rating: 5,
     totalReviews: 364,
-    specifications: ["", "", "", "", ""],
+    specifications: [
+      "Product Specification 1 ",
+      "Product Specification 2",
+      "Product Specification 3",
+      "Product Specification 4",
+      "Product Specification 5",
+    ],
   },
   // Classic Guitars
   {
@@ -329,7 +413,13 @@ const products: Product[] = [
     available: true,
     rating: 5,
     totalReviews: 780,
-    specifications: ["", "", "", "", ""],
+    specifications: [
+      "Product Specification 1 ",
+      "Product Specification 2",
+      "Product Specification 3",
+      "Product Specification 4",
+      "Product Specification 5",
+    ],
   },
   // 12 Strings Acoustic
   {
@@ -345,7 +435,13 @@ const products: Product[] = [
     available: true,
     rating: 4.5,
     totalReviews: 12,
-    specifications: ["", "", "", "", ""],
+    specifications: [
+      "Product Specification 1 ",
+      "Product Specification 2",
+      "Product Specification 3",
+      "Product Specification 4",
+      "Product Specification 5",
+    ],
   },
 
   // Electric Basses
@@ -364,7 +460,13 @@ const products: Product[] = [
     available: true,
     rating: 5,
     totalReviews: 555,
-    specifications: ["", "", "", "", ""],
+    specifications: [
+      "Product Specification 1 ",
+      "Product Specification 2",
+      "Product Specification 3",
+      "Product Specification 4",
+      "Product Specification 5",
+    ],
   },
   // 5 Strings J Bass Models
   {
@@ -380,7 +482,13 @@ const products: Product[] = [
     available: true,
     rating: 5,
     totalReviews: 468,
-    specifications: ["", "", "", "", ""],
+    specifications: [
+      "Product Specification 1 ",
+      "Product Specification 2",
+      "Product Specification 3",
+      "Product Specification 4",
+      "Product Specification 5",
+    ],
   },
   // 4 Strings P Bass Models
   // sadowsky_metroline_hyb_p_j_21_4_mo_bl
@@ -398,7 +506,13 @@ const products: Product[] = [
     available: true,
     rating: 4.7,
     totalReviews: 27,
-    specifications: ["", "", "", "", ""],
+    specifications: [
+      "Product Specification 1 ",
+      "Product Specification 2",
+      "Product Specification 3",
+      "Product Specification 4",
+      "Product Specification 5",
+    ],
   },
   // 5 Strings P Bass Models
   {
@@ -414,7 +528,13 @@ const products: Product[] = [
     available: true,
     rating: 4.9,
     totalReviews: 300,
-    specifications: ["", "", "", "", ""],
+    specifications: [
+      "Product Specification 1 ",
+      "Product Specification 2",
+      "Product Specification 3",
+      "Product Specification 4",
+      "Product Specification 5",
+    ],
   },
   // 4 Strings Hard and Hevy Basses
   {
@@ -430,7 +550,13 @@ const products: Product[] = [
     available: true,
     rating: 5,
     totalReviews: 444,
-    specifications: ["", "", "", "", ""],
+    specifications: [
+      "Product Specification 1 ",
+      "Product Specification 2",
+      "Product Specification 3",
+      "Product Specification 4",
+      "Product Specification 5",
+    ],
   },
   // 5 Strings Hard and Hevy Basses
   {
@@ -446,7 +572,13 @@ const products: Product[] = [
     available: true,
     rating: 4.67,
     totalReviews: 126,
-    specifications: ["", "", "", "", ""],
+    specifications: [
+      "Product Specification 1 ",
+      "Product Specification 2",
+      "Product Specification 3",
+      "Product Specification 4",
+      "Product Specification 5",
+    ],
   },
   // Fretless Basses
   {
@@ -462,7 +594,13 @@ const products: Product[] = [
     available: true,
     rating: 4.5,
     totalReviews: 99,
-    specifications: ["", "", "", "", ""],
+    specifications: [
+      "Product Specification 1 ",
+      "Product Specification 2",
+      "Product Specification 3",
+      "Product Specification 4",
+      "Product Specification 5",
+    ],
   },
   // Headless Basses
   {
@@ -478,7 +616,13 @@ const products: Product[] = [
     available: true,
     rating: 4.5,
     totalReviews: 54,
-    specifications: ["", "", "", "", ""],
+    specifications: [
+      "Product Specification 1 ",
+      "Product Specification 2",
+      "Product Specification 3",
+      "Product Specification 4",
+      "Product Specification 5",
+    ],
   },
   // 4 Strings Left Handed Basses
   {
@@ -495,7 +639,13 @@ const products: Product[] = [
     available: true,
     rating: 5,
     totalReviews: 51,
-    specifications: ["", "", "", "", ""],
+    specifications: [
+      "Product Specification 1 ",
+      "Product Specification 2",
+      "Product Specification 3",
+      "Product Specification 4",
+      "Product Specification 5",
+    ],
   },
   // 5 Strings Left Handed Basses
   {
@@ -512,7 +662,13 @@ const products: Product[] = [
     available: true,
     rating: 4.8,
     totalReviews: 26,
-    specifications: ["", "", "", "", ""],
+    specifications: [
+      "Product Specification 1 ",
+      "Product Specification 2",
+      "Product Specification 3",
+      "Product Specification 4",
+      "Product Specification 5",
+    ],
   },
   // Multi-Scale Basses
   {
@@ -529,7 +685,13 @@ const products: Product[] = [
     available: true,
     rating: 5,
     totalReviews: 21,
-    specifications: ["", "", "", "", ""],
+    specifications: [
+      "Product Specification 1 ",
+      "Product Specification 2",
+      "Product Specification 3",
+      "Product Specification 4",
+      "Product Specification 5",
+    ],
   },
 
   // Acoustic Basses
@@ -548,7 +710,13 @@ const products: Product[] = [
     available: true,
     rating: 5,
     totalReviews: 33,
-    specifications: ["", "", "", "", ""],
+    specifications: [
+      "Product Specification 1 ",
+      "Product Specification 2",
+      "Product Specification 3",
+      "Product Specification 4",
+      "Product Specification 5",
+    ],
   },
   // 5 Strings Acoustic Bass
   {
@@ -564,7 +732,13 @@ const products: Product[] = [
     available: true,
     rating: 4.5,
     totalReviews: 11,
-    specifications: ["", "", "", "", ""],
+    specifications: [
+      "Product Specification 1 ",
+      "Product Specification 2",
+      "Product Specification 3",
+      "Product Specification 4",
+      "Product Specification 5",
+    ],
   },
   // 6 Strings Acoustic Bass
   {
@@ -580,7 +754,13 @@ const products: Product[] = [
     available: true,
     rating: 4,
     totalReviews: 2,
-    specifications: ["", "", "", "", ""],
+    specifications: [
+      "Product Specification 1 ",
+      "Product Specification 2",
+      "Product Specification 3",
+      "Product Specification 4",
+      "Product Specification 5",
+    ],
   },
   // Fretless Acoustic Bass
   {
@@ -596,7 +776,13 @@ const products: Product[] = [
     available: true,
     rating: 4.76,
     totalReviews: 56,
-    specifications: ["", "", "", "", ""],
+    specifications: [
+      "Product Specification 1 ",
+      "Product Specification 2",
+      "Product Specification 3",
+      "Product Specification 4",
+      "Product Specification 5",
+    ],
   },
   // Left Handed Acoustic Bass
   {
@@ -612,7 +798,13 @@ const products: Product[] = [
     available: true,
     rating: 4.6,
     totalReviews: 21,
-    specifications: ["", "", "", "", ""],
+    specifications: [
+      "Product Specification 1 ",
+      "Product Specification 2",
+      "Product Specification 3",
+      "Product Specification 4",
+      "Product Specification 5",
+    ],
   },
   // 4 Strings Semi-Acoustic Bass
   {
@@ -628,7 +820,13 @@ const products: Product[] = [
     available: true,
     rating: 4.3,
     totalReviews: 5,
-    specifications: ["", "", "", "", ""],
+    specifications: [
+      "Product Specification 1 ",
+      "Product Specification 2",
+      "Product Specification 3",
+      "Product Specification 4",
+      "Product Specification 5",
+    ],
   },
   // 5 Strings Semi-Acoustic Bass
   {
@@ -644,7 +842,13 @@ const products: Product[] = [
     available: true,
     rating: 4.4,
     totalReviews: 3,
-    specifications: ["", "", "", "", ""],
+    specifications: [
+      "Product Specification 1 ",
+      "Product Specification 2",
+      "Product Specification 3",
+      "Product Specification 4",
+      "Product Specification 5",
+    ],
   },
   // Fretless Semi-Acoustic Bass
   {
@@ -660,7 +864,13 @@ const products: Product[] = [
     available: true,
     rating: 4.8,
     totalReviews: 13,
-    specifications: ["", "", "", "", ""],
+    specifications: [
+      "Product Specification 1 ",
+      "Product Specification 2",
+      "Product Specification 3",
+      "Product Specification 4",
+      "Product Specification 5",
+    ],
   },
 
   // Ukulele
@@ -679,7 +889,13 @@ const products: Product[] = [
     available: true,
     rating: 5,
     totalReviews: 125,
-    specifications: ["", "", "", "", ""],
+    specifications: [
+      "Product Specification 1 ",
+      "Product Specification 2",
+      "Product Specification 3",
+      "Product Specification 4",
+      "Product Specification 5",
+    ],
   },
   // Concert Ukulele
   {
@@ -695,7 +911,13 @@ const products: Product[] = [
     available: true,
     rating: 4.5,
     totalReviews: 45,
-    specifications: ["", "", "", "", ""],
+    specifications: [
+      "Product Specification 1 ",
+      "Product Specification 2",
+      "Product Specification 3",
+      "Product Specification 4",
+      "Product Specification 5",
+    ],
   },
   // Soprano Ukulele
   {
@@ -711,7 +933,13 @@ const products: Product[] = [
     available: true,
     rating: 4.7,
     totalReviews: 265,
-    specifications: ["", "", "", "", ""],
+    specifications: [
+      "Product Specification 1 ",
+      "Product Specification 2",
+      "Product Specification 3",
+      "Product Specification 4",
+      "Product Specification 5",
+    ],
   },
   // Tenor Ukulele
   {
@@ -727,7 +955,13 @@ const products: Product[] = [
     available: true,
     rating: 4.6,
     totalReviews: 66,
-    specifications: ["", "", "", "", ""],
+    specifications: [
+      "Product Specification 1 ",
+      "Product Specification 2",
+      "Product Specification 3",
+      "Product Specification 4",
+      "Product Specification 5",
+    ],
   },
   // Bass Ukulele
   {
@@ -743,7 +977,13 @@ const products: Product[] = [
     available: true,
     rating: 4.4,
     totalReviews: 25,
-    specifications: ["", "", "", "", ""],
+    specifications: [
+      "Product Specification 1 ",
+      "Product Specification 2",
+      "Product Specification 3",
+      "Product Specification 4",
+      "Product Specification 5",
+    ],
   },
   // Ukulele Straps
   // cascha_hh_2201_ukulele_strap_brown
@@ -760,7 +1000,13 @@ const products: Product[] = [
     available: true,
     rating: 5,
     totalReviews: 55,
-    specifications: ["", "", "", "", ""],
+    specifications: [
+      "Product Specification 1 ",
+      "Product Specification 2",
+      "Product Specification 3",
+      "Product Specification 4",
+      "Product Specification 5",
+    ],
   },
   // Ukulele Strings
   {
@@ -776,7 +1022,13 @@ const products: Product[] = [
     available: true,
     rating: 5,
     totalReviews: 555,
-    specifications: ["", "", "", "", ""],
+    specifications: [
+      "Product Specification 1 ",
+      "Product Specification 2",
+      "Product Specification 3",
+      "Product Specification 4",
+      "Product Specification 5",
+    ],
   },
   // Ukulele Cover Bags
   {
@@ -792,7 +1044,13 @@ const products: Product[] = [
     available: true,
     rating: 4.7,
     totalReviews: 76,
-    specifications: ["", "", "", "", ""],
+    specifications: [
+      "Product Specification 1 ",
+      "Product Specification 2",
+      "Product Specification 3",
+      "Product Specification 4",
+      "Product Specification 5",
+    ],
   },
 
   // Electric Guitar Amps
@@ -813,7 +1071,13 @@ const products: Product[] = [
     available: true,
     rating: 5,
     totalReviews: 1560,
-    specifications: ["", "", "", "", ""],
+    specifications: [
+      "Product Specification 1 ",
+      "Product Specification 2",
+      "Product Specification 3",
+      "Product Specification 4",
+      "Product Specification 5",
+    ],
   },
   // Digital Guitar Combo Amps also named Modeling Amps
   {
@@ -829,7 +1093,13 @@ const products: Product[] = [
     available: true,
     rating: 5,
     totalReviews: 2104,
-    specifications: ["", "", "", "", ""],
+    specifications: [
+      "Product Specification 1 ",
+      "Product Specification 2",
+      "Product Specification 3",
+      "Product Specification 4",
+      "Product Specification 5",
+    ],
   },
   // Lamps Guitar Combo Amps  also named Tubes Amps
   {
@@ -845,7 +1115,13 @@ const products: Product[] = [
     available: true,
     rating: 4.9,
     totalReviews: 552,
-    specifications: ["", "", "", "", ""],
+    specifications: [
+      "Product Specification 1 ",
+      "Product Specification 2",
+      "Product Specification 3",
+      "Product Specification 4",
+      "Product Specification 5",
+    ],
   },
 
   // Amp Heads
@@ -864,7 +1140,13 @@ const products: Product[] = [
     available: true,
     rating: 4.76,
     totalReviews: 521,
-    specifications: ["", "", "", "", ""],
+    specifications: [
+      "Product Specification 1 ",
+      "Product Specification 2",
+      "Product Specification 3",
+      "Product Specification 4",
+      "Product Specification 5",
+    ],
   },
   // Digital Guitar Amp Heads
   {
@@ -880,7 +1162,13 @@ const products: Product[] = [
     available: true,
     rating: 5,
     totalReviews: 31,
-    specifications: ["", "", "", "", ""],
+    specifications: [
+      "Product Specification 1 ",
+      "Product Specification 2",
+      "Product Specification 3",
+      "Product Specification 4",
+      "Product Specification 5",
+    ],
   },
   // Lamps Guitar Amp Heads
   {
@@ -896,7 +1184,13 @@ const products: Product[] = [
     available: true,
     rating: 5,
     totalReviews: 20,
-    specifications: ["", "", "", "", ""],
+    specifications: [
+      "Product Specification 1 ",
+      "Product Specification 2",
+      "Product Specification 3",
+      "Product Specification 4",
+      "Product Specification 5",
+    ],
   },
 
   // Preamplifiers
@@ -913,7 +1207,13 @@ const products: Product[] = [
     available: true,
     rating: 4.6,
     totalReviews: 56,
-    specifications: ["", "", "", "", ""],
+    specifications: [
+      "Product Specification 1 ",
+      "Product Specification 2",
+      "Product Specification 3",
+      "Product Specification 4",
+      "Product Specification 5",
+    ],
   },
   // Power Amplifiers
   {
@@ -929,7 +1229,13 @@ const products: Product[] = [
     available: true,
     rating: 4.8,
     totalReviews: 43,
-    specifications: ["", "", "", "", ""],
+    specifications: [
+      "Product Specification 1 ",
+      "Product Specification 2",
+      "Product Specification 3",
+      "Product Specification 4",
+      "Product Specification 5",
+    ],
   },
 
   // Tubes
@@ -948,7 +1254,13 @@ const products: Product[] = [
     available: true,
     rating: 5,
     totalReviews: 71,
-    specifications: ["", "", "", "", ""],
+    specifications: [
+      "Product Specification 1 ",
+      "Product Specification 2",
+      "Product Specification 3",
+      "Product Specification 4",
+      "Product Specification 5",
+    ],
   },
   // 6L6 Tubes
   {
@@ -964,7 +1276,13 @@ const products: Product[] = [
     available: true,
     rating: 4.9,
     totalReviews: 57,
-    specifications: ["", "", "", "", ""],
+    specifications: [
+      "Product Specification 1 ",
+      "Product Specification 2",
+      "Product Specification 3",
+      "Product Specification 4",
+      "Product Specification 5",
+    ],
   },
   // El84 Tubes
   {
@@ -980,7 +1298,13 @@ const products: Product[] = [
     available: true,
     rating: 4.7,
     totalReviews: 34,
-    specifications: ["", "", "", "", ""],
+    specifications: [
+      "Product Specification 1 ",
+      "Product Specification 2",
+      "Product Specification 3",
+      "Product Specification 4",
+      "Product Specification 5",
+    ],
   },
   // Ecc83 Tubes
   {
@@ -996,7 +1320,13 @@ const products: Product[] = [
     available: true,
     rating: 4.8,
     totalReviews: 44,
-    specifications: ["", "", "", "", ""],
+    specifications: [
+      "Product Specification 1 ",
+      "Product Specification 2",
+      "Product Specification 3",
+      "Product Specification 4",
+      "Product Specification 5",
+    ],
   },
   // Other Tubes
   {
@@ -1012,7 +1342,13 @@ const products: Product[] = [
     available: true,
     rating: 4.8,
     totalReviews: 29,
-    specifications: ["", "", "", "", ""],
+    specifications: [
+      "Product Specification 1 ",
+      "Product Specification 2",
+      "Product Specification 3",
+      "Product Specification 4",
+      "Product Specification 5",
+    ],
   },
 
   // 1x12 Cabinets
@@ -1029,7 +1365,13 @@ const products: Product[] = [
     available: true,
     rating: 4.7,
     totalReviews: 52,
-    specifications: ["", "", "", "", ""],
+    specifications: [
+      "Product Specification 1 ",
+      "Product Specification 2",
+      "Product Specification 3",
+      "Product Specification 4",
+      "Product Specification 5",
+    ],
   },
   // 2x12 Cabinets
   {
@@ -1045,7 +1387,13 @@ const products: Product[] = [
     available: true,
     rating: 4.9,
     totalReviews: 100,
-    specifications: ["", "", "", "", ""],
+    specifications: [
+      "Product Specification 1 ",
+      "Product Specification 2",
+      "Product Specification 3",
+      "Product Specification 4",
+      "Product Specification 5",
+    ],
   },
   // 4x12 Cabinets
   {
@@ -1061,7 +1409,13 @@ const products: Product[] = [
     available: true,
     rating: 5,
     totalReviews: 50,
-    specifications: ["", "", "", "", ""],
+    specifications: [
+      "Product Specification 1 ",
+      "Product Specification 2",
+      "Product Specification 3",
+      "Product Specification 4",
+      "Product Specification 5",
+    ],
   },
   // Guitar Amp Cover Bags
   {
@@ -1077,7 +1431,13 @@ const products: Product[] = [
     available: true,
     rating: 5,
     totalReviews: 240,
-    specifications: ["", "", "", "", ""],
+    specifications: [
+      "Product Specification 1 ",
+      "Product Specification 2",
+      "Product Specification 3",
+      "Product Specification 4",
+      "Product Specification 5",
+    ],
   },
 
   // Electric Bass Amps
@@ -1098,7 +1458,13 @@ const products: Product[] = [
     available: true,
     rating: 4.9,
     totalReviews: 116,
-    specifications: ["", "", "", "", ""],
+    specifications: [
+      "Product Specification 1 ",
+      "Product Specification 2",
+      "Product Specification 3",
+      "Product Specification 4",
+      "Product Specification 5",
+    ],
   },
   // Digital Bass Combo Amps
   {
@@ -1114,7 +1480,13 @@ const products: Product[] = [
     available: true,
     rating: 4.8,
     totalReviews: 120,
-    specifications: ["", "", "", "", ""],
+    specifications: [
+      "Product Specification 1 ",
+      "Product Specification 2",
+      "Product Specification 3",
+      "Product Specification 4",
+      "Product Specification 5",
+    ],
   },
 
   // Bass Amp Heads
@@ -1133,7 +1505,13 @@ const products: Product[] = [
     available: true,
     rating: 4.9,
     totalReviews: 76,
-    specifications: ["", "", "", "", ""],
+    specifications: [
+      "Product Specification 1 ",
+      "Product Specification 2",
+      "Product Specification 3",
+      "Product Specification 4",
+      "Product Specification 5",
+    ],
   },
   // Lamps Bass Amp Heads
   {
@@ -1149,7 +1527,13 @@ const products: Product[] = [
     available: true,
     rating: 5,
     totalReviews: 4,
-    specifications: ["", "", "", "", ""],
+    specifications: [
+      "Product Specification 1 ",
+      "Product Specification 2",
+      "Product Specification 3",
+      "Product Specification 4",
+      "Product Specification 5",
+    ],
   },
 
   // Bass Preamplifiers
@@ -1166,7 +1550,13 @@ const products: Product[] = [
     available: true,
     rating: 4.9,
     totalReviews: 2,
-    specifications: ["", "", "", "", ""],
+    specifications: [
+      "Product Specification 1 ",
+      "Product Specification 2",
+      "Product Specification 3",
+      "Product Specification 4",
+      "Product Specification 5",
+    ],
   },
   // 1x15 Bass Cabinets
   {
@@ -1182,7 +1572,13 @@ const products: Product[] = [
     available: true,
     rating: 4.9,
     totalReviews: 76,
-    specifications: ["", "", "", "", ""],
+    specifications: [
+      "Product Specification 1 ",
+      "Product Specification 2",
+      "Product Specification 3",
+      "Product Specification 4",
+      "Product Specification 5",
+    ],
   },
   // 2x10 Bass Cabinets
   {
@@ -1198,7 +1594,13 @@ const products: Product[] = [
     available: true,
     rating: 5,
     totalReviews: 55,
-    specifications: ["", "", "", "", ""],
+    specifications: [
+      "Product Specification 1 ",
+      "Product Specification 2",
+      "Product Specification 3",
+      "Product Specification 4",
+      "Product Specification 5",
+    ],
   },
   // 4x10 Bass Cabinets
   {
@@ -1214,7 +1616,13 @@ const products: Product[] = [
     available: true,
     rating: 4.7,
     totalReviews: 21,
-    specifications: ["", "", "", "", ""],
+    specifications: [
+      "Product Specification 1 ",
+      "Product Specification 2",
+      "Product Specification 3",
+      "Product Specification 4",
+      "Product Specification 5",
+    ],
   },
   // 8x10 Bass Cabinets
   {
@@ -1230,7 +1638,13 @@ const products: Product[] = [
     available: true,
     rating: 4.9,
     totalReviews: 1,
-    specifications: ["", "", "", "", ""],
+    specifications: [
+      "Product Specification 1 ",
+      "Product Specification 2",
+      "Product Specification 3",
+      "Product Specification 4",
+      "Product Specification 5",
+    ],
   },
   // Bass Amp Cover Bags
   {
@@ -1246,7 +1660,13 @@ const products: Product[] = [
     available: true,
     rating: 5,
     totalReviews: 99,
-    specifications: ["", "", "", "", ""],
+    specifications: [
+      "Product Specification 1 ",
+      "Product Specification 2",
+      "Product Specification 3",
+      "Product Specification 4",
+      "Product Specification 5",
+    ],
   },
 
   // Acoustic Guitar Amps
@@ -1265,7 +1685,13 @@ const products: Product[] = [
     available: true,
     rating: 5,
     totalReviews: 21,
-    specifications: ["", "", "", "", ""],
+    specifications: [
+      "Product Specification 1 ",
+      "Product Specification 2",
+      "Product Specification 3",
+      "Product Specification 4",
+      "Product Specification 5",
+    ],
   },
   // Acoustic Guitar Preamps
   {
@@ -1281,7 +1707,13 @@ const products: Product[] = [
     available: true,
     rating: 4.7,
     totalReviews: 6,
-    specifications: ["", "", "", "", ""],
+    specifications: [
+      "Product Specification 1 ",
+      "Product Specification 2",
+      "Product Specification 3",
+      "Product Specification 4",
+      "Product Specification 5",
+    ],
   },
   // Acoustic Guitar Cover Bags
   {
@@ -1297,7 +1729,13 @@ const products: Product[] = [
     available: true,
     rating: 5,
     totalReviews: 21,
-    specifications: ["", "", "", "", ""],
+    specifications: [
+      "Product Specification 1 ",
+      "Product Specification 2",
+      "Product Specification 3",
+      "Product Specification 4",
+      "Product Specification 5",
+    ],
   },
 
   // Strings
@@ -1318,7 +1756,13 @@ const products: Product[] = [
     available: true,
     rating: 5,
     totalReviews: 465,
-    specifications: ["", "", "", "", ""],
+    specifications: [
+      "Product Specification 1 ",
+      "Product Specification 2",
+      "Product Specification 3",
+      "Product Specification 4",
+      "Product Specification 5",
+    ],
   },
   // 0.09 Electric Guitar Strings
   {
@@ -1334,7 +1778,13 @@ const products: Product[] = [
     available: true,
     rating: 5,
     totalReviews: 1508,
-    specifications: ["", "", "", "", ""],
+    specifications: [
+      "Product Specification 1 ",
+      "Product Specification 2",
+      "Product Specification 3",
+      "Product Specification 4",
+      "Product Specification 5",
+    ],
   },
   // 0.10 Electric Guitar Strings
   {
@@ -1350,7 +1800,13 @@ const products: Product[] = [
     available: true,
     rating: 5,
     totalReviews: 2876,
-    specifications: ["", "", "", "", ""],
+    specifications: [
+      "Product Specification 1 ",
+      "Product Specification 2",
+      "Product Specification 3",
+      "Product Specification 4",
+      "Product Specification 5",
+    ],
   },
   // 0.11 Electric Guitar Strings
   {
@@ -1366,7 +1822,13 @@ const products: Product[] = [
     available: true,
     rating: 5,
     totalReviews: 899,
-    specifications: ["", "", "", "", ""],
+    specifications: [
+      "Product Specification 1 ",
+      "Product Specification 2",
+      "Product Specification 3",
+      "Product Specification 4",
+      "Product Specification 5",
+    ],
   },
   // 7 Strings Electric Guitar Strings
   {
@@ -1382,7 +1844,13 @@ const products: Product[] = [
     available: true,
     rating: 5,
     totalReviews: 178,
-    specifications: ["", "", "", "", ""],
+    specifications: [
+      "Product Specification 1 ",
+      "Product Specification 2",
+      "Product Specification 3",
+      "Product Specification 4",
+      "Product Specification 5",
+    ],
   },
   // 8 Strings Electric Guitar Strings
   {
@@ -1398,7 +1866,13 @@ const products: Product[] = [
     available: true,
     rating: 5,
     totalReviews: 89,
-    specifications: ["", "", "", "", ""],
+    specifications: [
+      "Product Specification 1 ",
+      "Product Specification 2",
+      "Product Specification 3",
+      "Product Specification 4",
+      "Product Specification 5",
+    ],
   },
   // 12 Strings Electric Guitar Strings
   {
@@ -1414,7 +1888,13 @@ const products: Product[] = [
     available: true,
     rating: 5,
     totalReviews: 12,
-    specifications: ["", "", "", "", ""],
+    specifications: [
+      "Product Specification 1 ",
+      "Product Specification 2",
+      "Product Specification 3",
+      "Product Specification 4",
+      "Product Specification 5",
+    ],
   },
 
   // Acoustic Guitar Strings
@@ -1433,7 +1913,13 @@ const products: Product[] = [
     available: true,
     rating: 5,
     totalReviews: 304,
-    specifications: ["", "", "", "", ""],
+    specifications: [
+      "Product Specification 1 ",
+      "Product Specification 2",
+      "Product Specification 3",
+      "Product Specification 4",
+      "Product Specification 5",
+    ],
   },
   // 0.11 Acoustic Guitar Strings
   {
@@ -1449,7 +1935,13 @@ const products: Product[] = [
     available: true,
     rating: 5,
     totalReviews: 500,
-    specifications: ["", "", "", "", ""],
+    specifications: [
+      "Product Specification 1 ",
+      "Product Specification 2",
+      "Product Specification 3",
+      "Product Specification 4",
+      "Product Specification 5",
+    ],
   },
   // 0.12 Acoustic Guitar Strings
   {
@@ -1465,7 +1957,13 @@ const products: Product[] = [
     available: true,
     rating: 5,
     totalReviews: 211,
-    specifications: ["", "", "", "", ""],
+    specifications: [
+      "Product Specification 1 ",
+      "Product Specification 2",
+      "Product Specification 3",
+      "Product Specification 4",
+      "Product Specification 5",
+    ],
   },
   // 0.13 Acoustic Guitar Strings
   {
@@ -1481,7 +1979,13 @@ const products: Product[] = [
     available: true,
     rating: 5,
     totalReviews: 128,
-    specifications: ["", "", "", "", ""],
+    specifications: [
+      "Product Specification 1 ",
+      "Product Specification 2",
+      "Product Specification 3",
+      "Product Specification 4",
+      "Product Specification 5",
+    ],
   },
   // 12 Strings Acoustic Guitar Strings
   {
@@ -1497,7 +2001,13 @@ const products: Product[] = [
     available: true,
     rating: 5,
     totalReviews: 12,
-    specifications: ["", "", "", "", ""],
+    specifications: [
+      "Product Specification 1 ",
+      "Product Specification 2",
+      "Product Specification 3",
+      "Product Specification 4",
+      "Product Specification 5",
+    ],
   },
 
   // Classic Guitar Strings
@@ -1514,7 +2024,13 @@ const products: Product[] = [
     available: true,
     rating: 5,
     totalReviews: 1392,
-    specifications: ["", "", "", "", ""],
+    specifications: [
+      "Product Specification 1 ",
+      "Product Specification 2",
+      "Product Specification 3",
+      "Product Specification 4",
+      "Product Specification 5",
+    ],
   },
 
   // Electric Bass Strings
@@ -1533,7 +2049,13 @@ const products: Product[] = [
     available: true,
     rating: 5,
     totalReviews: 827,
-    specifications: ["", "", "", "", ""],
+    specifications: [
+      "Product Specification 1 ",
+      "Product Specification 2",
+      "Product Specification 3",
+      "Product Specification 4",
+      "Product Specification 5",
+    ],
   },
   // 0.45 Electric Bass Strings
   {
@@ -1549,7 +2071,13 @@ const products: Product[] = [
     available: true,
     rating: 5,
     totalReviews: 126,
-    specifications: ["", "", "", "", ""],
+    specifications: [
+      "Product Specification 1 ",
+      "Product Specification 2",
+      "Product Specification 3",
+      "Product Specification 4",
+      "Product Specification 5",
+    ],
   },
   // 0.50 Electric Bass Strings
   {
@@ -1565,7 +2093,13 @@ const products: Product[] = [
     available: true,
     rating: 5,
     totalReviews: 245,
-    specifications: ["", "", "", "", ""],
+    specifications: [
+      "Product Specification 1 ",
+      "Product Specification 2",
+      "Product Specification 3",
+      "Product Specification 4",
+      "Product Specification 5",
+    ],
   },
   // 5 Strings Electric Bass Strings
   {
@@ -1584,7 +2118,13 @@ const products: Product[] = [
     available: true,
     rating: 5,
     totalReviews: 564,
-    specifications: ["", "", "", "", ""],
+    specifications: [
+      "Product Specification 1 ",
+      "Product Specification 2",
+      "Product Specification 3",
+      "Product Specification 4",
+      "Product Specification 5",
+    ],
   },
 
   // Acoustic Bass Strings
@@ -1601,7 +2141,13 @@ const products: Product[] = [
     available: true,
     rating: 5,
     totalReviews: 43,
-    specifications: ["", "", "", "", ""],
+    specifications: [
+      "Product Specification 1 ",
+      "Product Specification 2",
+      "Product Specification 3",
+      "Product Specification 4",
+      "Product Specification 5",
+    ],
   },
   // Ukulele Strings
   {
@@ -1621,7 +2167,13 @@ const products: Product[] = [
     available: true,
     rating: 5,
     totalReviews: 78,
-    specifications: ["", "", "", "", ""],
+    specifications: [
+      "Product Specification 1 ",
+      "Product Specification 2",
+      "Product Specification 3",
+      "Product Specification 4",
+      "Product Specification 5",
+    ],
   },
 
   // Effect Pedals
@@ -1640,7 +2192,13 @@ const products: Product[] = [
     available: true,
     rating: 4.9,
     totalReviews: 21,
-    specifications: ["", "", "", "", ""],
+    specifications: [
+      "Product Specification 1 ",
+      "Product Specification 2",
+      "Product Specification 3",
+      "Product Specification 4",
+      "Product Specification 5",
+    ],
   },
   // Distortion Pedals  (these includes distortion, overdrive and fuzz)
   {
@@ -1656,7 +2214,13 @@ const products: Product[] = [
     available: true,
     rating: 5,
     totalReviews: 578,
-    specifications: ["", "", "", "", ""],
+    specifications: [
+      "Product Specification 1 ",
+      "Product Specification 2",
+      "Product Specification 3",
+      "Product Specification 4",
+      "Product Specification 5",
+    ],
   },
   // Chorus/Flanger/Phaser Pedals
   {
@@ -1672,7 +2236,13 @@ const products: Product[] = [
     available: true,
     rating: 5,
     totalReviews: 70,
-    specifications: ["", "", "", "", ""],
+    specifications: [
+      "Product Specification 1 ",
+      "Product Specification 2",
+      "Product Specification 3",
+      "Product Specification 4",
+      "Product Specification 5",
+    ],
   },
   // Delay Pedals
   {
@@ -1688,7 +2258,13 @@ const products: Product[] = [
     available: true,
     rating: 4.9,
     totalReviews: 231,
-    specifications: ["", "", "", "", ""],
+    specifications: [
+      "Product Specification 1 ",
+      "Product Specification 2",
+      "Product Specification 3",
+      "Product Specification 4",
+      "Product Specification 5",
+    ],
   },
   // Reverb Pedals
   {
@@ -1704,7 +2280,13 @@ const products: Product[] = [
     available: true,
     rating: 4.7,
     totalReviews: 128,
-    specifications: ["", "", "", "", ""],
+    specifications: [
+      "Product Specification 1 ",
+      "Product Specification 2",
+      "Product Specification 3",
+      "Product Specification 4",
+      "Product Specification 5",
+    ],
   },
   // Compressor Pedals
   {
@@ -1720,7 +2302,13 @@ const products: Product[] = [
     available: true,
     rating: 4.7,
     totalReviews: 82,
-    specifications: ["", "", "", "", ""],
+    specifications: [
+      "Product Specification 1 ",
+      "Product Specification 2",
+      "Product Specification 3",
+      "Product Specification 4",
+      "Product Specification 5",
+    ],
   },
   // Wah Pedals
   {
@@ -1736,7 +2324,13 @@ const products: Product[] = [
     available: true,
     rating: 4.8,
     totalReviews: 632,
-    specifications: ["", "", "", "", ""],
+    specifications: [
+      "Product Specification 1 ",
+      "Product Specification 2",
+      "Product Specification 3",
+      "Product Specification 4",
+      "Product Specification 5",
+    ],
   },
   // Loop Pedals
   {
@@ -1752,7 +2346,13 @@ const products: Product[] = [
     available: true,
     rating: 5,
     totalReviews: 139,
-    specifications: ["", "", "", "", ""],
+    specifications: [
+      "Product Specification 1 ",
+      "Product Specification 2",
+      "Product Specification 3",
+      "Product Specification 4",
+      "Product Specification 5",
+    ],
   },
   // Volume and Expression Pedals
   {
@@ -1768,7 +2368,13 @@ const products: Product[] = [
     available: true,
     rating: 4.8,
     totalReviews: 51,
-    specifications: ["", "", "", "", ""],
+    specifications: [
+      "Product Specification 1 ",
+      "Product Specification 2",
+      "Product Specification 3",
+      "Product Specification 4",
+      "Product Specification 5",
+    ],
   },
   // Band EQ Pedals
   {
@@ -1784,7 +2390,13 @@ const products: Product[] = [
     available: true,
     rating: 4.7,
     totalReviews: 6,
-    specifications: ["", "", "", "", ""],
+    specifications: [
+      "Product Specification 1 ",
+      "Product Specification 2",
+      "Product Specification 3",
+      "Product Specification 4",
+      "Product Specification 5",
+    ],
   },
   // Pedalboards
   {
@@ -1801,7 +2413,13 @@ const products: Product[] = [
     available: true,
     rating: 4.9,
     totalReviews: 51,
-    specifications: ["", "", "", "", ""],
+    specifications: [
+      "Product Specification 1 ",
+      "Product Specification 2",
+      "Product Specification 3",
+      "Product Specification 4",
+      "Product Specification 5",
+    ],
   },
   // Pedal Cables
   {
@@ -1817,7 +2435,13 @@ const products: Product[] = [
     available: true,
     rating: 4.8,
     totalReviews: 125,
-    specifications: ["", "", "", "", ""],
+    specifications: [
+      "Product Specification 1 ",
+      "Product Specification 2",
+      "Product Specification 3",
+      "Product Specification 4",
+      "Product Specification 5",
+    ],
   },
   // Power Supplies
   {
@@ -1833,7 +2457,13 @@ const products: Product[] = [
     available: true,
     rating: 5,
     totalReviews: 455,
-    specifications: ["", "", "", "", ""],
+    specifications: [
+      "Product Specification 1 ",
+      "Product Specification 2",
+      "Product Specification 3",
+      "Product Specification 4",
+      "Product Specification 5",
+    ],
   },
 
   // Pickups
@@ -1854,7 +2484,13 @@ const products: Product[] = [
     available: true,
     rating: 5,
     totalReviews: 357,
-    specifications: ["", "", "", "", ""],
+    specifications: [
+      "Product Specification 1 ",
+      "Product Specification 2",
+      "Product Specification 3",
+      "Product Specification 4",
+      "Product Specification 5",
+    ],
   },
   // Humbucker Pickups
   {
@@ -1870,7 +2506,13 @@ const products: Product[] = [
     available: true,
     rating: 5,
     totalReviews: 461,
-    specifications: ["", "", "", "", ""],
+    specifications: [
+      "Product Specification 1 ",
+      "Product Specification 2",
+      "Product Specification 3",
+      "Product Specification 4",
+      "Product Specification 5",
+    ],
   },
   // Pickups for 7 Strings Guitars
   {
@@ -1886,7 +2528,13 @@ const products: Product[] = [
     available: true,
     rating: 4.8,
     totalReviews: 51,
-    specifications: ["", "", "", "", ""],
+    specifications: [
+      "Product Specification 1 ",
+      "Product Specification 2",
+      "Product Specification 3",
+      "Product Specification 4",
+      "Product Specification 5",
+    ],
   },
   // Pickups for 8 Strings Guitars
   {
@@ -1902,7 +2550,13 @@ const products: Product[] = [
     available: true,
     rating: 4.7,
     totalReviews: 22,
-    specifications: ["", "", "", "", ""],
+    specifications: [
+      "Product Specification 1 ",
+      "Product Specification 2",
+      "Product Specification 3",
+      "Product Specification 4",
+      "Product Specification 5",
+    ],
   },
 
   // Electric Bass Pickups
@@ -1921,7 +2575,13 @@ const products: Product[] = [
     available: true,
     rating: 5,
     totalReviews: 444,
-    specifications: ["", "", "", "", ""],
+    specifications: [
+      "Product Specification 1 ",
+      "Product Specification 2",
+      "Product Specification 3",
+      "Product Specification 4",
+      "Product Specification 5",
+    ],
   },
   // 5 Strings J Bass Pickups
   {
@@ -1937,7 +2597,13 @@ const products: Product[] = [
     available: true,
     rating: 5,
     totalReviews: 555,
-    specifications: ["", "", "", "", ""],
+    specifications: [
+      "Product Specification 1 ",
+      "Product Specification 2",
+      "Product Specification 3",
+      "Product Specification 4",
+      "Product Specification 5",
+    ],
   },
   // 4 Strings P Bass Pickups
   {
@@ -1953,7 +2619,13 @@ const products: Product[] = [
     available: true,
     rating: 4.8,
     totalReviews: 247,
-    specifications: ["", "", "", "", ""],
+    specifications: [
+      "Product Specification 1 ",
+      "Product Specification 2",
+      "Product Specification 3",
+      "Product Specification 4",
+      "Product Specification 5",
+    ],
   },
   // 5 Strings P Bass Pickups
   {
@@ -1969,7 +2641,13 @@ const products: Product[] = [
     available: true,
     rating: 4.9,
     totalReviews: 453,
-    specifications: ["", "", "", "", ""],
+    specifications: [
+      "Product Specification 1 ",
+      "Product Specification 2",
+      "Product Specification 3",
+      "Product Specification 4",
+      "Product Specification 5",
+    ],
   },
 
   // Spare Parts
@@ -1988,7 +2666,13 @@ const products: Product[] = [
     available: true,
     rating: 4.5,
     totalReviews: 4,
-    specifications: ["", "", "", "", ""],
+    specifications: [
+      "Product Specification 1 ",
+      "Product Specification 2",
+      "Product Specification 3",
+      "Product Specification 4",
+      "Product Specification 5",
+    ],
   },
 
   // Electric Bass Necks
@@ -2005,7 +2689,13 @@ const products: Product[] = [
     available: true,
     rating: 4,
     totalReviews: 6,
-    specifications: ["", "", "", "", ""],
+    specifications: [
+      "Product Specification 1 ",
+      "Product Specification 2",
+      "Product Specification 3",
+      "Product Specification 4",
+      "Product Specification 5",
+    ],
   },
   // Electric Guitar Bodies
   {
@@ -2021,7 +2711,13 @@ const products: Product[] = [
     available: true,
     rating: 5,
     totalReviews: 1,
-    specifications: ["", "", "", "", ""],
+    specifications: [
+      "Product Specification 1 ",
+      "Product Specification 2",
+      "Product Specification 3",
+      "Product Specification 4",
+      "Product Specification 5",
+    ],
   },
   // Electric Bass Bodies
   {
@@ -2037,7 +2733,13 @@ const products: Product[] = [
     available: true,
     rating: 5,
     totalReviews: 1,
-    specifications: ["", "", "", "", ""],
+    specifications: [
+      "Product Specification 1 ",
+      "Product Specification 2",
+      "Product Specification 3",
+      "Product Specification 4",
+      "Product Specification 5",
+    ],
   },
 
   // Guitar Pick Guards
@@ -2056,7 +2758,13 @@ const products: Product[] = [
     available: true,
     rating: 4,
     totalReviews: 1,
-    specifications: ["", "", "", "", ""],
+    specifications: [
+      "Product Specification 1 ",
+      "Product Specification 2",
+      "Product Specification 3",
+      "Product Specification 4",
+      "Product Specification 5",
+    ],
   },
   // Telecaster Guitar Pick Guard
   {
@@ -2072,7 +2780,13 @@ const products: Product[] = [
     available: true,
     rating: 0,
     totalReviews: 0,
-    specifications: ["", "", "", "", ""],
+    specifications: [
+      "Product Specification 1 ",
+      "Product Specification 2",
+      "Product Specification 3",
+      "Product Specification 4",
+      "Product Specification 5",
+    ],
   },
   // Les Paul Guitar Pick Guard
   {
@@ -2088,7 +2802,13 @@ const products: Product[] = [
     available: true,
     rating: 0,
     totalReviews: 0,
-    specifications: ["", "", "", "", ""],
+    specifications: [
+      "Product Specification 1 ",
+      "Product Specification 2",
+      "Product Specification 3",
+      "Product Specification 4",
+      "Product Specification 5",
+    ],
   },
   // Doublecut Guitar Pick Guard
   {
@@ -2104,7 +2824,13 @@ const products: Product[] = [
     available: true,
     rating: 0,
     totalReviews: 0,
-    specifications: ["", "", "", "", ""],
+    specifications: [
+      "Product Specification 1 ",
+      "Product Specification 2",
+      "Product Specification 3",
+      "Product Specification 4",
+      "Product Specification 5",
+    ],
   },
 
   // Bass Pick Guards
@@ -2123,7 +2849,13 @@ const products: Product[] = [
     available: true,
     rating: 5,
     totalReviews: 1,
-    specifications: ["", "", "", "", ""],
+    specifications: [
+      "Product Specification 1 ",
+      "Product Specification 2",
+      "Product Specification 3",
+      "Product Specification 4",
+      "Product Specification 5",
+    ],
   },
   // P Bass Pick Guard
   {
@@ -2139,7 +2871,13 @@ const products: Product[] = [
     available: true,
     rating: 0,
     totalReviews: 0,
-    specifications: ["", "", "", "", ""],
+    specifications: [
+      "Product Specification 1 ",
+      "Product Specification 2",
+      "Product Specification 3",
+      "Product Specification 4",
+      "Product Specification 5",
+    ],
   },
 
   // Knobs
@@ -2156,7 +2894,13 @@ const products: Product[] = [
     available: true,
     rating: 5,
     totalReviews: 3,
-    specifications: ["", "", "", "", ""],
+    specifications: [
+      "Product Specification 1 ",
+      "Product Specification 2",
+      "Product Specification 3",
+      "Product Specification 4",
+      "Product Specification 5",
+    ],
   },
   // Switches
 
@@ -2174,7 +2918,13 @@ const products: Product[] = [
     available: true,
     rating: 0,
     totalReviews: 0,
-    specifications: ["", "", "", "", ""],
+    specifications: [
+      "Product Specification 1 ",
+      "Product Specification 2",
+      "Product Specification 3",
+      "Product Specification 4",
+      "Product Specification 5",
+    ],
   },
   // 5 Ways Switch Selectors
   {
@@ -2190,7 +2940,13 @@ const products: Product[] = [
     available: true,
     rating: 5,
     totalReviews: 2,
-    specifications: ["", "", "", "", ""],
+    specifications: [
+      "Product Specification 1 ",
+      "Product Specification 2",
+      "Product Specification 3",
+      "Product Specification 4",
+      "Product Specification 5",
+    ],
   },
   // Toggle switches
   {
@@ -2206,7 +2962,13 @@ const products: Product[] = [
     available: true,
     rating: 5,
     totalReviews: 1,
-    specifications: ["", "", "", "", ""],
+    specifications: [
+      "Product Specification 1 ",
+      "Product Specification 2",
+      "Product Specification 3",
+      "Product Specification 4",
+      "Product Specification 5",
+    ],
   },
 
   // Saddles and Tailpieces
@@ -2225,7 +2987,13 @@ const products: Product[] = [
     available: true,
     rating: 5,
     totalReviews: 2,
-    specifications: ["", "", "", "", ""],
+    specifications: [
+      "Product Specification 1 ",
+      "Product Specification 2",
+      "Product Specification 3",
+      "Product Specification 4",
+      "Product Specification 5",
+    ],
   },
   // Guitar Saddles
   {
@@ -2241,7 +3009,13 @@ const products: Product[] = [
     available: true,
     rating: 5,
     totalReviews: 1,
-    specifications: ["", "", "", "", ""],
+    specifications: [
+      "Product Specification 1 ",
+      "Product Specification 2",
+      "Product Specification 3",
+      "Product Specification 4",
+      "Product Specification 5",
+    ],
   },
   // Jazz Guitar Tailpieces and Bridges
   {
@@ -2257,7 +3031,13 @@ const products: Product[] = [
     available: true,
     rating: 0,
     totalReviews: 0,
-    specifications: ["", "", "", "", ""],
+    specifications: [
+      "Product Specification 1 ",
+      "Product Specification 2",
+      "Product Specification 3",
+      "Product Specification 4",
+      "Product Specification 5",
+    ],
   },
   // Bass Bridges
   {
@@ -2273,7 +3053,13 @@ const products: Product[] = [
     available: true,
     rating: 5,
     totalReviews: 1,
-    specifications: ["", "", "", "", ""],
+    specifications: [
+      "Product Specification 1 ",
+      "Product Specification 2",
+      "Product Specification 3",
+      "Product Specification 4",
+      "Product Specification 5",
+    ],
   },
 
   // Guitar Tremolos
@@ -2292,7 +3078,13 @@ const products: Product[] = [
     available: true,
     rating: 5,
     totalReviews: 2,
-    specifications: ["", "", "", "", ""],
+    specifications: [
+      "Product Specification 1 ",
+      "Product Specification 2",
+      "Product Specification 3",
+      "Product Specification 4",
+      "Product Specification 5",
+    ],
   },
   // Floyd Rose Tremolos
   {
@@ -2308,7 +3100,13 @@ const products: Product[] = [
     available: true,
     rating: 5,
     totalReviews: 5,
-    specifications: ["", "", "", "", ""],
+    specifications: [
+      "Product Specification 1 ",
+      "Product Specification 2",
+      "Product Specification 3",
+      "Product Specification 4",
+      "Product Specification 5",
+    ],
   },
   // Bigsby Tremolos
   {
@@ -2324,7 +3122,13 @@ const products: Product[] = [
     available: true,
     rating: 5,
     totalReviews: 2,
-    specifications: ["", "", "", "", ""],
+    specifications: [
+      "Product Specification 1 ",
+      "Product Specification 2",
+      "Product Specification 3",
+      "Product Specification 4",
+      "Product Specification 5",
+    ],
   },
   // Jack Plates
   {
@@ -2340,7 +3144,13 @@ const products: Product[] = [
     available: true,
     rating: 4,
     totalReviews: 1,
-    specifications: ["", "", "", "", ""],
+    specifications: [
+      "Product Specification 1 ",
+      "Product Specification 2",
+      "Product Specification 3",
+      "Product Specification 4",
+      "Product Specification 5",
+    ],
   },
   // Tuning Pegs
   {
@@ -2356,7 +3166,13 @@ const products: Product[] = [
     available: true,
     rating: 0,
     totalReviews: 0,
-    specifications: ["", "", "", "", ""],
+    specifications: [
+      "Product Specification 1 ",
+      "Product Specification 2",
+      "Product Specification 3",
+      "Product Specification 4",
+      "Product Specification 5",
+    ],
   },
 
   // Accesories
@@ -2375,7 +3191,13 @@ const products: Product[] = [
     available: true,
     rating: 5,
     totalReviews: 123,
-    specifications: ["", "", "", "", ""],
+    specifications: [
+      "Product Specification 1 ",
+      "Product Specification 2",
+      "Product Specification 3",
+      "Product Specification 4",
+      "Product Specification 5",
+    ],
   },
 
   // Guitar/Bass Cover Bags
@@ -2394,7 +3216,13 @@ const products: Product[] = [
     available: true,
     rating: 5,
     totalReviews: 223,
-    specifications: ["", "", "", "", ""],
+    specifications: [
+      "Product Specification 1 ",
+      "Product Specification 2",
+      "Product Specification 3",
+      "Product Specification 4",
+      "Product Specification 5",
+    ],
   },
   // Acoustic Guitar Cases
   {
@@ -2410,7 +3238,13 @@ const products: Product[] = [
     available: true,
     rating: 5,
     totalReviews: 77,
-    specifications: ["", "", "", "", ""],
+    specifications: [
+      "Product Specification 1 ",
+      "Product Specification 2",
+      "Product Specification 3",
+      "Product Specification 4",
+      "Product Specification 5",
+    ],
   },
   // Electric Bass Cases
   {
@@ -2426,7 +3260,13 @@ const products: Product[] = [
     available: true,
     rating: 5,
     totalReviews: 43,
-    specifications: ["", "", "", "", ""],
+    specifications: [
+      "Product Specification 1 ",
+      "Product Specification 2",
+      "Product Specification 3",
+      "Product Specification 4",
+      "Product Specification 5",
+    ],
   },
   // Acoustic Bass Cases
   {
@@ -2442,7 +3282,13 @@ const products: Product[] = [
     available: true,
     rating: 4.8,
     totalReviews: 21,
-    specifications: ["", "", "", "", ""],
+    specifications: [
+      "Product Specification 1 ",
+      "Product Specification 2",
+      "Product Specification 3",
+      "Product Specification 4",
+      "Product Specification 5",
+    ],
   },
   // Electric Guitar Cover Bags
   {
@@ -2458,7 +3304,13 @@ const products: Product[] = [
     available: true,
     rating: 5,
     totalReviews: 254,
-    specifications: ["", "", "", "", ""],
+    specifications: [
+      "Product Specification 1 ",
+      "Product Specification 2",
+      "Product Specification 3",
+      "Product Specification 4",
+      "Product Specification 5",
+    ],
   },
   // Acoustic Guitar Cover Bags
   {
@@ -2474,7 +3326,13 @@ const products: Product[] = [
     available: true,
     rating: 5,
     totalReviews: 67,
-    specifications: ["", "", "", "", ""],
+    specifications: [
+      "Product Specification 1 ",
+      "Product Specification 2",
+      "Product Specification 3",
+      "Product Specification 4",
+      "Product Specification 5",
+    ],
   },
   // Electric Bass Cover Bags
   {
@@ -2490,7 +3348,13 @@ const products: Product[] = [
     available: true,
     rating: 5,
     totalReviews: 126,
-    specifications: ["", "", "", "", ""],
+    specifications: [
+      "Product Specification 1 ",
+      "Product Specification 2",
+      "Product Specification 3",
+      "Product Specification 4",
+      "Product Specification 5",
+    ],
   },
   // Acoustic Bass Cover Bags
   {
@@ -2506,7 +3370,13 @@ const products: Product[] = [
     available: true,
     rating: 4.9,
     totalReviews: 52,
-    specifications: ["", "", "", "", ""],
+    specifications: [
+      "Product Specification 1 ",
+      "Product Specification 2",
+      "Product Specification 3",
+      "Product Specification 4",
+      "Product Specification 5",
+    ],
   },
 
   // Instrument Cables
@@ -2523,7 +3393,13 @@ const products: Product[] = [
     available: true,
     rating: 5,
     totalReviews: 585,
-    specifications: ["", "", "", "", ""],
+    specifications: [
+      "Product Specification 1 ",
+      "Product Specification 2",
+      "Product Specification 3",
+      "Product Specification 4",
+      "Product Specification 5",
+    ],
   },
 
   // Guitar/Bass Straps
@@ -2542,7 +3418,13 @@ const products: Product[] = [
     available: true,
     rating: 5,
     totalReviews: 96,
-    specifications: ["", "", "", "", ""],
+    specifications: [
+      "Product Specification 1 ",
+      "Product Specification 2",
+      "Product Specification 3",
+      "Product Specification 4",
+      "Product Specification 5",
+    ],
   },
   // Nylon Straps
   {
@@ -2558,7 +3440,13 @@ const products: Product[] = [
     available: true,
     rating: 4.8,
     totalReviews: 56,
-    specifications: ["", "", "", "", ""],
+    specifications: [
+      "Product Specification 1 ",
+      "Product Specification 2",
+      "Product Specification 3",
+      "Product Specification 4",
+      "Product Specification 5",
+    ],
   },
 
   // Capos
@@ -2577,7 +3465,13 @@ const products: Product[] = [
     available: true,
     rating: 5,
     totalReviews: 5,
-    specifications: ["", "", "", "", ""],
+    specifications: [
+      "Product Specification 1 ",
+      "Product Specification 2",
+      "Product Specification 3",
+      "Product Specification 4",
+      "Product Specification 5",
+    ],
   },
   // Classic Guitar Capos
   {
@@ -2593,7 +3487,13 @@ const products: Product[] = [
     available: true,
     rating: 5,
     totalReviews: 5,
-    specifications: ["", "", "", "", ""],
+    specifications: [
+      "Product Specification 1 ",
+      "Product Specification 2",
+      "Product Specification 3",
+      "Product Specification 4",
+      "Product Specification 5",
+    ],
   },
   // 12 Strings Guitar Capos
   // daddario_capo_cp02
@@ -2610,7 +3510,13 @@ const products: Product[] = [
     available: true,
     rating: 4.9,
     totalReviews: 12,
-    specifications: ["", "", "", "", ""],
+    specifications: [
+      "Product Specification 1 ",
+      "Product Specification 2",
+      "Product Specification 3",
+      "Product Specification 4",
+      "Product Specification 5",
+    ],
   },
 
   // Picks
@@ -2628,7 +3534,13 @@ const products: Product[] = [
     available: true,
     rating: 5,
     totalReviews: 2145,
-    specifications: ["", "", "", "", ""],
+    specifications: [
+      "Product Specification 1 ",
+      "Product Specification 2",
+      "Product Specification 3",
+      "Product Specification 4",
+      "Product Specification 5",
+    ],
   },
   // Tuners
   // tc_electronic_polytune_clip_tuner
@@ -2645,7 +3557,13 @@ const products: Product[] = [
     available: true,
     rating: 4.9,
     totalReviews: 512,
-    specifications: ["", "", "", "", ""],
+    specifications: [
+      "Product Specification 1 ",
+      "Product Specification 2",
+      "Product Specification 3",
+      "Product Specification 4",
+      "Product Specification 5",
+    ],
   },
 
   // Guitar Sliders
@@ -2664,7 +3582,13 @@ const products: Product[] = [
     available: true,
     rating: 4.6,
     totalReviews: 41,
-    specifications: ["", "", "", "", ""],
+    specifications: [
+      "Product Specification 1 ",
+      "Product Specification 2",
+      "Product Specification 3",
+      "Product Specification 4",
+      "Product Specification 5",
+    ],
   },
   // Metal Sliders
   {
@@ -2680,7 +3604,13 @@ const products: Product[] = [
     available: true,
     rating: 4.8,
     totalReviews: 75,
-    specifications: ["", "", "", "", ""],
+    specifications: [
+      "Product Specification 1 ",
+      "Product Specification 2",
+      "Product Specification 3",
+      "Product Specification 4",
+      "Product Specification 5",
+    ],
   },
 
   // Instrument Tools and Maintenance
@@ -2697,7 +3627,13 @@ const products: Product[] = [
     available: true,
     rating: 5,
     totalReviews: 31,
-    specifications: ["", "", "", "", ""],
+    specifications: [
+      "Product Specification 1 ",
+      "Product Specification 2",
+      "Product Specification 3",
+      "Product Specification 4",
+      "Product Specification 5",
+    ],
   },
 ];
 

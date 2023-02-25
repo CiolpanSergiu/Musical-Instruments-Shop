@@ -2,97 +2,169 @@
   {
     "title": "Boss Katana 50 MKII",
     "brandName": "",
-    "srcThumbnail": "/images/popular-items/amplifiers/boss_katana_50_mkii.jpg",
+    "srcSmall": "/images/popular-items/amplifiers/boss_katana_50_mkii.jpg",
     "srcBig": "",
     "alt": "",
     "price": 286,
     "totalReviews": 1201,
     "rating": 5,
     "pageLink": "/boss-katana-50-mkii",
-    "specifications": []
+    "specifications": [
+      "Product Specification 1 ",
+      "Product Specification 2",
+      "Product Specification 3",
+      "Product Specification 4",
+      "Product Specification 5"
+    ],
+    "available": true,
+    "brand": "",
+    "category": []
   },
   {
     "title": "EVH 5150 III 50W EL34 Head BK",
     "brandName": "",
-    "srcThumbnail": "/images/popular-items/amplifiers/evh_5150_iii_50_w_el34_head_bk.jpg",
+    "srcSmall": "/images/popular-items/amplifiers/evh_5150_iii_50_w_el34_head_bk.jpg",
     "srcBig": "",
     "alt": "",
     "price": 1464,
     "totalReviews": 121,
     "rating": 4.95,
     "pageLink": "/evh-5150-iii-50w-el34-head-bk",
-    "specifications": []
+    "specifications": [
+      "Product Specification 1 ",
+      "Product Specification 2",
+      "Product Specification 3",
+      "Product Specification 4",
+      "Product Specification 5"
+    ],
+    "available": true,
+    "brand": "",
+    "category": []
   },
   {
     "title": "Fender Champion 40",
     "brandName": "",
-    "srcThumbnail": "/images/popular-items/amplifiers/fender_champion_40.jpg",
+    "srcSmall": "/images/popular-items/amplifiers/fender_champion_40.jpg",
     "srcBig": "",
     "alt": "",
     "price": 246,
     "totalReviews": 845,
     "rating": 4.75,
     "pageLink": "/fender-champion-40",
-    "specifications": []
+    "specifications": [
+      "Product Specification 1 ",
+      "Product Specification 2",
+      "Product Specification 3",
+      "Product Specification 4",
+      "Product Specification 5"
+    ],
+    "available": true,
+    "brand": "",
+    "category": []
   },
   {
     "title": "Hughes&Kettner GrandMeister Deluxe 40",
     "brandName": "",
-    "srcThumbnail": "/images/popular-items/amplifiers/hughes_and_kettner_grandmeister_deluxe_40.jpg",
+    "srcSmall": "/images/popular-items/amplifiers/hughes_and_kettner_grandmeister_deluxe_40.jpg",
     "srcBig": "",
     "alt": "",
     "price": 1287,
     "totalReviews": 67,
     "rating": 5,
     "pageLink": "/hughes-kettner-grandmeister-deluxe-40",
-    "specifications": []
+    "specifications": [
+      "Product Specification 1 ",
+      "Product Specification 2",
+      "Product Specification 3",
+      "Product Specification 4",
+      "Product Specification 5"
+    ],
+    "available": true,
+    "brand": "",
+    "category": []
   },
   {
     "title": "Markbass Micromark 801",
     "brandName": "",
-    "srcThumbnail": "/images/popular-items/amplifiers/markbass_micromark_801.jpg",
+    "srcSmall": "/images/popular-items/amplifiers/markbass_micromark_801.jpg",
     "srcBig": "",
     "alt": "",
     "price": 400,
     "totalReviews": 763,
     "rating": 4.85,
     "pageLink": "/markbass-microbass-810",
-    "specifications": []
+    "specifications": [
+      "Product Specification 1 ",
+      "Product Specification 2",
+      "Product Specification 3",
+      "Product Specification 4",
+      "Product Specification 5"
+    ],
+    "available": true,
+    "brand": "",
+    "category": []
   },
   {
     "title": "Marshall MG50GFX",
     "brandName": "",
-    "srcThumbnail": "/images/popular-items/amplifiers/marshall_mg50gfx.jpg",
+    "srcSmall": "/images/popular-items/amplifiers/marshall_mg50gfx.jpg",
     "srcBig": "",
     "alt": "",
     "price": 300,
     "totalReviews": 777,
     "rating": 4.9,
     "pageLink": "/marshall-mg50gfx",
-    "specifications": []
+    "specifications": [
+      "Product Specification 1 ",
+      "Product Specification 2",
+      "Product Specification 3",
+      "Product Specification 4",
+      "Product Specification 5"
+    ],
+    "available": true,
+    "brand": "",
+    "category": []
   },
   {
     "title": "Orange Crush 35 RT",
     "brandName": "",
-    "srcThumbnail": "/images/popular-items/amplifiers/orange_crush_35_rt.jpg",
+    "srcSmall": "/images/popular-items/amplifiers/orange_crush_35_rt.jpg",
     "srcBig": "",
     "alt": "",
     "price": 310,
     "totalReviews": 1001,
     "rating": 5,
     "pageLink": "/orange-crush-35-rt",
-    "specifications": []
+    "specifications": [
+      "Product Specification 1 ",
+      "Product Specification 2",
+      "Product Specification 3",
+      "Product Specification 4",
+      "Product Specification 5"
+    ],
+    "available": true,
+    "brand": "",
+    "category": []
   },
   {
     "title": "Roland Mobile Cube",
     "brandName": "",
-    "srcThumbnail": "/images/popular-items/amplifiers/roland_mobile_cube.jpg",
+    "srcSmall": "/images/popular-items/amplifiers/roland_mobile_cube.jpg",
     "srcBig": "",
     "alt": "",
     "price": 202,
     "totalReviews": 127,
     "rating": 4.7,
     "pageLink": "/roland-mobile-cube",
-    "specifications": []
+    "specifications": [
+      "Product Specification 1 ",
+      "Product Specification 2",
+      "Product Specification 3",
+      "Product Specification 4",
+      "Product Specification 5"
+    ],
+    "available": true,
+    "brand": "",
+    "category": []
   }
 ]

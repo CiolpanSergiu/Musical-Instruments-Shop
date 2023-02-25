@@ -11,6 +11,13 @@ html {
 body {
   font-family: "Inter", sans-serif;
   min-height: 100%;
+  // for the footer
+  position: relative;
+  padding-bottom: 30vh;
+
+  @media only screen and (min-width: 662px) {
+    padding-bottom: 20vh;
+  }
 }
 
 section {

@@ -23,7 +23,7 @@ type categoryWithProducts = {
   items: Product[];
 };
 
-const allItemsArr = allCategories.filter((category) => {
+export const allItemsArr = allCategories.filter((category) => {
   if (category) {
     return category.hasOwnProperty("items");
   }
