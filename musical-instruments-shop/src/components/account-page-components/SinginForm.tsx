@@ -233,7 +233,7 @@ export default function SinginForm() {
 
           <FormButton buttonOrder="first" buttonText="Singin" />
           <CenteredSmallSpan text="Already have an account?" />
-          <Link to="/login">
+          <Link to="/account">
             <FormButton buttonOrder="second" buttonText="Login" />
           </Link>
         </StyledForm>

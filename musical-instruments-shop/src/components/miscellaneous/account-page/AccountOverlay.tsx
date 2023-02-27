@@ -1,5 +1,5 @@
 import styled from "styled-components";
-const UnderlayContainer = styled.div`
+const OverlayContainer = styled.div`
   width: 100vw;
   height: 100vh;
   background-color: lightgray;
@@ -15,6 +15,6 @@ type Props = {
   handleClose: () => void;
 };
 
-export default function Underlay({ handleClose }: Props) {
-  return <UnderlayContainer onClick={handleClose}></UnderlayContainer>;
+export default function AccountOverlay({ handleClose }: Props) {
+  return <OverlayContainer onClick={handleClose}></OverlayContainer>;
 }

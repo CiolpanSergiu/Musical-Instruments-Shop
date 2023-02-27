@@ -1,13 +1,4 @@
-type User = {
-  fullName: string;
-  email: string;
-  password: string;
-  passwordConfirmation: string;
-  country: string;
-  phoneNumber: string;
-  shoppingCart: [];
-  _id: string;
-};
+import { User } from "../../types/commonTypes";
 
 export default function SaveCurrentUser(currentUser: User) {
   localStorage.setItem("isLogged", "true");

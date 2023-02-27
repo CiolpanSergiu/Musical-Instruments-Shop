@@ -1,8 +1,8 @@
 import styled from "styled-components";
 import { BsFillTrashFill } from "react-icons/bs";
 import ShoppingCartContext from "../../context/ShoppingCartContext";
-import AuthentificationContext from "../../context/AuthentificationContext";
 import { useContext } from "react";
+import AuthentificationContext from "../../context/AuthentificationContext";
 import editUserData from "../../functions/account-related-functions/editUserData";
 
 const CartItemContainer = styled.div`
@@ -103,20 +103,18 @@ export default function CartItem({
   quantity,
 }: Props) {
   const {
-    cartItems,
-    addToCart,
     removeFromCart,
     decreaseItemQuantity,
     setCartItemsQuantity,
     setCartItems,
+    cartItems,
   }: any = useContext(ShoppingCartContext);
 
-  const { currentUser, isLoggedIn }: any = useContext(AuthentificationContext);
+  const { currentUser, setCurrentUser }: any = useContext(
+    AuthentificationContext
+  );
 
-  // if (isLoggedIn) {
-  //   editUserData({ ...currentUser, shoppingCart: cartItems });
-  //   localStorage.setItem("currentUser", JSON.stringify(currentUser));
-  // }
+  editUserData({ ...currentUser, shoppingCart: cartItems });
 
   function deleteItem() {
     removeFromCart({
@@ -126,16 +124,10 @@ export default function CartItem({
       price: price,
       quantity: quantity,
     });
+    setCurrentUser({ ...currentUser, shoppingCart: cartItems });
   }
 
   function increaseQuantity() {
-    // addToCart({
-    //   title: title,
-    //   src: src,
-    //   alt: alt,
-    //   price: price,
-    //   quantity: quantity,
-    // });
     setCartItemsQuantity((prevState: number) => prevState + 1);
     setCartItems((prevState: any) => {
       return prevState.map((item: any) => {
@@ -145,6 +137,7 @@ export default function CartItem({
         return item;
       });
     });
+    setCurrentUser({ ...currentUser, shoppingCart: cartItems });
   }
 
   function decreaseQuantity() {
@@ -156,6 +149,7 @@ export default function CartItem({
       quantity: quantity <= 0 ? 0 : quantity - 1,
     });
     setCartItemsQuantity((prevState: number) => prevState - 1);
+    setCurrentUser({ ...currentUser, shoppingCart: cartItems });
   }
 
   return (

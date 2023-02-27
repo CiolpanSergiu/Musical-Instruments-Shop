@@ -6,10 +6,12 @@ import { BrowserRouter } from "react-router-dom";
 import { ThemeProvider } from "./context/ThemeProvider";
 import { ShoppingCartContextProvider } from "./context/ShoppingCartContext";
 import { AuthentificationProvider } from "./context/AuthentificationContext";
+import { CurrentUserCartContextProvider } from "./context/CurrentUserShoppingCart";
 
 ReactDOM.createRoot(document.getElementById("root") as HTMLElement).render(
   <React.StrictMode>
     <ThemeProvider>
+      {/* <CurrentUserCartContextProvider> */}
       <ShoppingCartContextProvider>
         <AuthentificationProvider>
           <BrowserRouter>
@@ -17,6 +19,7 @@ ReactDOM.createRoot(document.getElementById("root") as HTMLElement).render(
           </BrowserRouter>
         </AuthentificationProvider>
       </ShoppingCartContextProvider>
+      {/* </CurrentUserCartContextProvider> */}
     </ThemeProvider>
   </React.StrictMode>
 );

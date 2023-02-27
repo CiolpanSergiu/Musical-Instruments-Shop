@@ -12,6 +12,10 @@ import axios from "axios";
 import checkLoginData from "../../functions/account-related-functions/checkLoginData";
 import AuthentificationProvider from "../../context/AuthentificationContext";
 import ShoppingCartContext from "../../context/ShoppingCartContext";
+import { CartItem } from "../../context/CurrentUserShoppingCart";
+import { User } from "../../types/commonTypes";
+import { updateCartTotalQuantity } from "../../functions/shopping-cart-functions/updateCartTotalQuantity";
+import { updateItemsInCart } from "../../functions/shopping-cart-functions/updateItemsInCart";
 
 const StyledForm = styled(Form)`
   display: flex;
@@ -96,27 +100,17 @@ const validationSchema = Yup.object({
     .max(20, "Password is too long !"),
 });
 
-type User = {
-  fullName: string;
-  email: string;
-  password: string;
-  passwordConfirmation: string;
-  country: string;
-  phoneNumber: string;
-  shoppingCart: [];
-  _id: string;
-};
-
 export default function LoginForm() {
   const { isDark }: any = useContext(ThemeContext);
 
   const navigate = useNavigate();
 
-  const { setIsLoggedIn, setCurrentUser, currentUser }: any = useContext(
+  const { setIsLoggedIn, setCurrentUser }: any = useContext(
     AuthentificationProvider
   );
 
-  const { cartItems }: any = useContext(ShoppingCartContext);
+  const { cartItems, setCartItems, setCartItemsQuantity, setItemsInCart }: any =
+    useContext(ShoppingCartContext);
 
   const [stayLogged, setStayLogged] = useState<boolean>(false);
   const [isLoginDataIncorrect, setIsLoginDataIncorrect] =
@@ -140,15 +134,14 @@ export default function LoginForm() {
         if (userMatched.length > 0) {
           setIsLoggedIn(true);
           setIsLoginDataIncorrect(false);
-          setCurrentUser({
-            ...userMatched[0],
-            // shoppingCart:
-            //   userMatched[0].shoppingCart.length === 0
-            //     ? cartItems
-            //     : userMatched[0].shoppingCart,
-          });
+
+          setCurrentUser(userMatched[0]);
+          setCartItems(userMatched[0].shoppingCart);
+          setCartItemsQuantity(updateCartTotalQuantity(userMatched[0]));
+          setItemsInCart(updateItemsInCart(userMatched[0].shoppingCart));
+          console.log(updateItemsInCart(userMatched[0].shoppingCart));
+
           if (stayLogged) SaveCurrentUser(userMatched[0]);
-          navigate("/account");
         } else {
           setIsLoggedIn(false);
           setIsLoginDataIncorrect(true);

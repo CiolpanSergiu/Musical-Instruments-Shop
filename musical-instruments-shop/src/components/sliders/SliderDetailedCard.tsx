@@ -71,13 +71,13 @@ export default function SliderCard({
 }: Props) {
   return (
     <CardLink to={pageLink}>
-      <CardImage className="slider-card-img" src={src} alt={alt} />
+      <CardImage src={src} alt={alt} />
       <StarsContainer>
         {generateStars(rating)}
         <TotalReviews>{totalReviews}</TotalReviews>
       </StarsContainer>
       <CardTitle>{title}</CardTitle>
-      <span className="slider-card-price">{price}$</span>
+      <span>{price}$</span>
     </CardLink>
   );
 }

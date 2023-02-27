@@ -1,22 +1,34 @@
-import { useState, createContext } from "react";
+import { useState, createContext, useContext } from "react";
+import { CartItem } from "../types/commonTypes";
+import AuthentificationContext from "./AuthentificationContext";
+
 const ShoppingCartContext = createContext({});
 
-type CartItem = {
-  title: string;
-  src: string;
-  alt: string;
-  price: number;
-  quantity: number;
-};
-
-type CartItems = CartItem[];
-
 export const ShoppingCartContextProvider = ({ children }: any) => {
-  const [cartItems, setCartItems] = useState<CartItems>([]);
+  // const [cartItems, setCartItems] = useState<CartItems>(
+  //   localStorage.getItem("currentUser") === null
+  //     ? []
+  //     : JSON.parse(String(localStorage.getItem("currentUser"))).shoppingCart
+  //         .shoppingCart
+  // );
 
-  const [cartItemsQuantity, setCartItemsQuantity] = useState<number>(0);
+  const { currentUser }: any = useContext(AuthentificationContext);
 
-  const [itemsInCart, setItemsInCart] = useState<string[]>([]);
+  const [cartItems, setCartItems] = useState<CartItem[]>(
+    currentUser === undefined ? [] : currentUser.shoppingCart
+  );
+
+  const [cartItemsQuantity, setCartItemsQuantity] = useState(
+    cartItems.reduce(
+      (accumulator: number, currentItem: CartItem) =>
+        accumulator + currentItem.quantity,
+      0
+    )
+  );
+
+  const [itemsInCart, setItemsInCart] = useState<string[]>(
+    cartItems.length === 0 ? [] : cartItems.map((item: CartItem) => item.title)
+  );
 
   function checkIfItemInCart(item: CartItem) {
     if (!itemsInCart.includes(item.title)) {
@@ -24,7 +36,7 @@ export const ShoppingCartContextProvider = ({ children }: any) => {
     }
   }
 
-  function increaseCartItemQuantity(item: CartItem): CartItems {
+  function increaseCartItemQuantity(item: CartItem) {
     const stateWithUpdatedQuantities = cartItems.map((cartItem): CartItem => {
       if (cartItem.title === item.title) {
         return { ...item, quantity: cartItem.quantity + 1 };
@@ -68,7 +80,7 @@ export const ShoppingCartContextProvider = ({ children }: any) => {
   function addToCart(item: CartItem): void {
     checkIfItemInCart(item);
 
-    setCartItems((prevState): CartItems => {
+    setCartItems((prevState: CartItem[]) => {
       if (!itemsInCart.includes(item.title)) {
         return [...prevState, { ...item, quantity: 1 }];
       } else {
@@ -94,6 +106,7 @@ export const ShoppingCartContextProvider = ({ children }: any) => {
         removeFromCart,
         decreaseItemQuantity,
         clearCartItems,
+        setItemsInCart,
       }}
     >
       {children}
@@ -102,18 +115,3 @@ export const ShoppingCartContextProvider = ({ children }: any) => {
 };
 
 export default ShoppingCartContext;
-
-// const [cartItems, setCartItems] = useState<CartItems>(
-//   localStorage.getItem("currentUser")
-//     ? JSON.parse(String(localStorage.getItem("currentUser"))).shoppingCart
-//     : []
-// );
-
-// const [cartItemsQuantity, setCartItemsQuantity] = useState<number>(
-//   localStorage.getItem("currentUser")
-//     ? cartItems.reduce(
-//         (accumulator, currentValue) => accumulator + currentValue.quantity,
-//         0
-//       )
-//     : 0
-// );

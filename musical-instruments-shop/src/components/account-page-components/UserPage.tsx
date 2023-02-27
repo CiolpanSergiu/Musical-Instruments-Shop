@@ -9,7 +9,7 @@ import FormErrorMsg from "../miscellaneous/FormErrorMsg";
 import deleteUserAccount from "../../functions/account-related-functions/deleteUserAccount";
 import GrayButton from "../miscellaneous/account-page/GrayButton";
 import ConfirmModal from "../miscellaneous/account-page/ConfirmModal";
-import Underlay from "../miscellaneous/account-page/Underly";
+import Overlay from "../miscellaneous/account-page/AccountOverlay";
 import ShoppingCartContext from "../../context/ShoppingCartContext";
 
 const Container = styled.div`
@@ -133,7 +133,7 @@ export default function UserPage() {
   const { currentUser, setCurrentUser, setIsLoggedIn }: any = useContext(
     AuthentificationProvider
   );
-  const { setCartItems, setCartItemsQuantity }: any =
+  const { setCartItems, setCartItemsQuantity, setItemsInCart }: any =
     useContext(ShoppingCartContext);
 
   const [showPasswords, setShowPasswords] = useState<boolean>(false);
@@ -145,12 +145,6 @@ export default function UserPage() {
     useState<boolean>(false);
   const navigate = useNavigate();
 
-  useEffect(() => {
-    editUserData(currentUser);
-  }, [currentUser]);
-
-  console.log(currentUser);
-
   function handleLogout() {
     localStorage.removeItem("isLogged");
     localStorage.removeItem("currentUser");
@@ -158,6 +152,7 @@ export default function UserPage() {
     setIsLoggedIn(false);
     setCartItems([]);
     setCartItemsQuantity(0);
+    setItemsInCart([]);
   }
 
   function toggleModal() {
@@ -216,7 +211,7 @@ export default function UserPage() {
     <Container>
       {showDeleteConfirmation && (
         <>
-          <Underlay handleClose={toggleModal} />
+          <Overlay handleClose={toggleModal} />
           <ConfirmModal handleClose={toggleModal} handleDelete={handleDelete} />
         </>
       )}

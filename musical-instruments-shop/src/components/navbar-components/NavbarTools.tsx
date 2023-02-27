@@ -6,11 +6,11 @@ import { MouseEventHandler } from "react";
 import styled from "styled-components";
 import PhoneNumber from "../miscellaneous/PhoneNumber";
 import ThemeContext from "../../context/ThemeProvider";
-import { useContext, useEffect } from "react";
+import { useContext } from "react";
 import { ThemeProvider } from "styled-components";
 import UserMenu from "../miscellaneous/UserMenu";
 import ShoppingCartContext from "../../context/ShoppingCartContext";
-import AuthentificationContext from "../../context/AuthentificationContext";
+import CurrentUserCartContext from "../../context/CurrentUserShoppingCart";
 
 type Props = {
   isOpen: boolean;
@@ -71,36 +71,11 @@ const lightTheme = {
 export default function NavbarTools({ isOpen, handleClick }: Props) {
   // honestly what type should these be
   const { isDark }: any = useContext(ThemeContext);
-  const {
-    cartItemsQuantity,
-    setCartItems,
-    setCartItemsQuantity,
-    cartItems,
-  }: any = useContext(ShoppingCartContext);
-  const { isLoggedIn, currentUser }: any = useContext(AuthentificationContext);
+  const { cartItemsQuantity }: any = useContext(ShoppingCartContext);
 
-  // not wrapping this in a useEffect generate a warning Cannot update a component
-  // (`ShoppingCartContextProvider`) while rendering a different component
-  // useEffect(() => {
-  //   if (isLoggedIn) {
-  //     setCartItems(currentUser.shoppingCart);
-  //     setCartItemsQuantity(
-  //       cartItems.reduce(
-  //         (
-  //           accumulator: number,
-  //           currentValue: {
-  //             title: string;
-  //             src: string;
-  //             alt: string;
-  //             price: number;
-  //             quantity: number;
-  //           }
-  //         ) => accumulator + currentValue.quantity,
-  //         0
-  //       )
-  //     );
-  //   }
-  // }, []);
+  const { currentUserCartQuantity, isUserLogged }: any = useContext(
+    CurrentUserCartContext
+  );
 
   return (
     <ThemeProvider theme={isDark ? darkTheme : lightTheme}>
@@ -117,7 +92,9 @@ export default function NavbarTools({ isOpen, handleClick }: Props) {
         <StyledRouterLink to="/shopping-cart">
           <ShoppingCart>
             <HiOutlineShoppingCart />
-            <QuantityBubble>{cartItemsQuantity}</QuantityBubble>
+            <QuantityBubble>
+              {isUserLogged ? currentUserCartQuantity : cartItemsQuantity}
+            </QuantityBubble>
           </ShoppingCart>
         </StyledRouterLink>
         <NavbarMenu

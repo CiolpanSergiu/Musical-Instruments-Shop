@@ -2,7 +2,6 @@ import Navbar from "../../components/navbar-components/Navbar";
 import Footer from "../../components/footer-components/Footer";
 import CartItemsContainer from "../../components/shopping-cart-page-components/CartItemsContainer";
 import OrderDetails from "../../components/shopping-cart-page-components/OrderDetails";
-import AuthentificationContext from "../../context/AuthentificationContext";
 import ShoppingCartContext from "../../context/ShoppingCartContext";
 import { useContext } from "react";
 import styled from "styled-components";
@@ -86,32 +85,7 @@ const PageContentContainer = styled.div`
 `;
 
 export default function ShoppingCartPage() {
-  const {
-    cartItemsQuantity,
-    cartItems,
-    setCartItems,
-    setCartItemsQuantity,
-  }: any = useContext(ShoppingCartContext);
-  const { isLoggedIn, currentUser }: any = useContext(AuthentificationContext);
-
-  if (isLoggedIn) {
-    setCartItems(currentUser.shoppingCart);
-    setCartItemsQuantity(
-      cartItems.reduce(
-        (
-          accumulator: number,
-          currentValue: {
-            title: string;
-            src: string;
-            alt: string;
-            price: number;
-            quantity: number;
-          }
-        ) => accumulator + currentValue.quantity,
-        0
-      )
-    );
-  }
+  const { cartItemsQuantity }: any = useContext(ShoppingCartContext);
 
   return (
     <ShoppingPage>
