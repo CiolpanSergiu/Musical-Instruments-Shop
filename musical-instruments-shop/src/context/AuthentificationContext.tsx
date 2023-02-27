@@ -8,9 +8,7 @@ export const AuthentificationProvider = ({ children }: any) => {
 
   const [isLoggedIn, setIsLoggedIn] = useState<boolean>(isUserLoggedIn);
 
-  const [currentUser, setCurrentUser] = useState(
-    JSON.parse(String(localStorage.getItem("currentUser"))) || {}
-  );
+  const [currentUser, setCurrentUser] = useState();
 
   return (
     <AuthentificationContext.Provider

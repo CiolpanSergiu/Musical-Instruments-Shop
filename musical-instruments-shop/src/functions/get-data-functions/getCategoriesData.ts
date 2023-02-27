@@ -2,7 +2,6 @@ import instrumentsCategoryData from "../../data/level-one-categories/mainCategor
 import getDeeperLevelSubcategories from "./getDeeperLevelSubcategories";
 
 const levelTwoCategories = getDeeperLevelSubcategories(instrumentsCategoryData);
-// ?.filter((category) => category.hasOwnProperty("subcategories"));
 const levelThreeCategories = getDeeperLevelSubcategories(levelTwoCategories);
 const levelThreeWithSubcategories =
   getDeeperLevelSubcategories(levelThreeCategories);
@@ -19,8 +18,16 @@ const allCategories = [
   levelFiveCategories,
 ].flat(1);
 
+const allSubcategories = [
+  levelTwoCategories,
+  levelThreeCategories,
+  levelFourCategories,
+  levelFiveCategories,
+].flat(1);
+
 export {
   allCategories,
+  allSubcategories,
   instrumentsCategoryData,
   levelTwoCategories,
   levelThreeCategories,

@@ -1,6 +1,5 @@
-import ProductType from "../products/productType";
-
-const products: ProductType[] = [
+import { Product } from "../../types/commonTypes";
+const products: Product[] = [
   {
     title: "Boss Katana 50 MKII",
     brand: "Boss",

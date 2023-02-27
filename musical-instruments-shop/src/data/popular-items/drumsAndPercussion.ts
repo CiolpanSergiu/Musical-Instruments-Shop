@@ -1,6 +1,5 @@
-import ProductType from "../products/productType";
-
-const products: ProductType[] = [
+import { Product } from "../../types/commonTypes";
+const products: Product[] = [
   {
     title: "Gretsch Drums 10X5.5 Mighty Mini Snare BK",
     brand: "Gretsch",

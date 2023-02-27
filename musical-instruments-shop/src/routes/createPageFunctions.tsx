@@ -3,8 +3,7 @@ import InstrumentCategoryPage from "../pages/category-pages/InstrumentCategoryPa
 import ShoppingPage from "../pages/shopping-pages/ShoppingPage";
 import { nanoid } from "nanoid";
 import ItemPage from "../components/item-page-components/ItemPage";
-import ProductType from "../data/products/productType";
-
+import { Product } from "../types/commonTypes";
 // unknown because not all objects in data array have the same structure;
 
 export function createCategoryPages(data: unknown) {
@@ -38,7 +37,7 @@ export function createCategoryPages(data: unknown) {
 export function createShoppingPageRoute(
   pageLink: string,
   pageTitle: string,
-  data: ProductType[]
+  data: Product[]
 ) {
   return (
     <Route
@@ -49,7 +48,7 @@ export function createShoppingPageRoute(
   );
 }
 
-export function createItemDetailsPageRoute(product: ProductType) {
+export function createItemDetailsPageRoute(product: Product) {
   const pageLink = `/${product.title
     .toLocaleLowerCase()
     .replace(/[^\w]/g, "-")

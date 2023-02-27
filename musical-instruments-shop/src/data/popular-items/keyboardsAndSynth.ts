@@ -1,6 +1,5 @@
-import ProductType from "../products/productType";
-
-const products: ProductType[] = [
+import { Product } from "../../types/commonTypes";
+const products: Product[] = [
   {
     title: "Arturia KelLab MKII 61 Black",
     brand: "Arturia",

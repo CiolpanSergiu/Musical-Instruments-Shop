@@ -4,6 +4,8 @@ import ClearButton from "./ClearButton";
 import ShoppingCartContext from "../../context/ShoppingCartContext";
 import { useContext } from "react";
 import { nanoid } from "nanoid";
+import editUserData from "../../functions/account-related-functions/editUserData";
+import AuthentificationContext from "../../context/AuthentificationContext";
 
 const Container = styled.div`
   display: flex;
@@ -23,6 +25,9 @@ const Container = styled.div`
 
 export default function CartItemsContainer() {
   const { cartItems }: any = useContext(ShoppingCartContext);
+  const { currentUser }: any = useContext(AuthentificationContext);
+
+  editUserData({ ...currentUser, shoppingCart: cartItems });
 
   const allCartItems = cartItems.map((item: any) => {
     return (

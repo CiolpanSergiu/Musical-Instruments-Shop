@@ -4,7 +4,7 @@ import * as Yup from "yup";
 import FormButton from "../miscellaneous/account-page/FormButton";
 import CenteredSmallSpan from "../miscellaneous/account-page/CenteredSmallSpan";
 import ObligatoryStar from "../miscellaneous/account-page/ObligatoryStar";
-import { Link, useNavigate } from "react-router-dom";
+import { Link } from "react-router-dom";
 import { ThemeProvider } from "styled-components";
 import { useContext, useState } from "react";
 import ThemeContext from "../../context/ThemeProvider";
@@ -12,7 +12,6 @@ import axios from "axios";
 import checkLoginData from "../../functions/account-related-functions/checkLoginData";
 import AuthentificationProvider from "../../context/AuthentificationContext";
 import ShoppingCartContext from "../../context/ShoppingCartContext";
-import { CartItem } from "../../context/CurrentUserShoppingCart";
 import { User } from "../../types/commonTypes";
 import { updateCartTotalQuantity } from "../../functions/shopping-cart-functions/updateCartTotalQuantity";
 import { updateItemsInCart } from "../../functions/shopping-cart-functions/updateItemsInCart";
@@ -62,14 +61,6 @@ const Label = styled.label`
   margin-bottom: 0.5rem;
 `;
 
-const StyledCheckbox = styled.input`
-  margin-right: 0.5rem;
-`;
-const FlexRowDiv = styled.div`
-  display: flex;
-  justify-content: center;
-`;
-
 const darkTheme = {
   bgColor: "#3d4552",
   color: "white",
@@ -103,27 +94,22 @@ const validationSchema = Yup.object({
 export default function LoginForm() {
   const { isDark }: any = useContext(ThemeContext);
 
-  const navigate = useNavigate();
-
   const { setIsLoggedIn, setCurrentUser }: any = useContext(
     AuthentificationProvider
   );
 
-  const { cartItems, setCartItems, setCartItemsQuantity, setItemsInCart }: any =
+  const { setCartItems, setCartItemsQuantity, setItemsInCart }: any =
     useContext(ShoppingCartContext);
 
-  const [stayLogged, setStayLogged] = useState<boolean>(false);
   const [isLoginDataIncorrect, setIsLoginDataIncorrect] =
     useState<boolean>(false);
 
-  function SaveCurrentUser(currentUser: User) {
-    localStorage.setItem("isLogged", "true");
-    localStorage.setItem("currentUser", JSON.stringify(currentUser));
-  }
+  // until i think of a solution
+  // const [stayLogged, setStayLogged] = useState<boolean>(false);
 
-  function toggleCheckbox() {
-    setStayLogged((prevState: boolean) => !prevState);
-  }
+  // function toggleCheckbox() {
+  //   setStayLogged((prevState: boolean) => !prevState);
+  // }
 
   const onSubmit = (values: Values) => {
     const url = "http://localhost:5174/api/users";
@@ -134,14 +120,10 @@ export default function LoginForm() {
         if (userMatched.length > 0) {
           setIsLoggedIn(true);
           setIsLoginDataIncorrect(false);
-
           setCurrentUser(userMatched[0]);
           setCartItems(userMatched[0].shoppingCart);
           setCartItemsQuantity(updateCartTotalQuantity(userMatched[0]));
           setItemsInCart(updateItemsInCart(userMatched[0].shoppingCart));
-          console.log(updateItemsInCart(userMatched[0].shoppingCart));
-
-          if (stayLogged) SaveCurrentUser(userMatched[0]);
         } else {
           setIsLoggedIn(false);
           setIsLoginDataIncorrect(true);
@@ -195,7 +177,8 @@ export default function LoginForm() {
             <ErrorMessage name="password" />
           </StyledErrorMessage>
 
-          <FlexRowDiv>
+          {/* until i find a solution */}
+          {/* <FlexRowDiv>
             <StyledCheckbox
               type="checkbox"
               id="stayLogged"
@@ -204,7 +187,7 @@ export default function LoginForm() {
               onChange={toggleCheckbox}
             />
             <label htmlFor="stayLogged">Keep me logged</label>
-          </FlexRowDiv>
+          </FlexRowDiv> */}
 
           <FormButton buttonOrder="first" buttonText="Login" />
 

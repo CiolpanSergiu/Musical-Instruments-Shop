@@ -1,9 +1,9 @@
 import allProducts from "../data/products/allProducts";
-import ProductType from "../data/products/productType";
+import { Product } from "../types/commonTypes";
 import { createItemDetailsPageRoute } from "./createPageFunctions";
 
-const productDetailPageRoutes = allProducts.map((product: ProductType) =>
-  createItemDetailsPageRoute(product)
+const productDetailPageRoutes: JSX.Element[] = allProducts.map(
+  (product: Product) => createItemDetailsPageRoute(product)
 );
 
 export default productDetailPageRoutes;

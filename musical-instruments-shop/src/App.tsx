@@ -10,8 +10,6 @@ import NoPageFound from "./pages/main-pages/NoPageFound";
 import allCategoryPages from "./routes/categoryPagesRoutes";
 import itemsShoppingPages from "./routes/itemsPageRoutes";
 import productDetailPageRoutes from "./routes/itemPageRoutes";
-
-// import itemsRoutes from "./routes/items-pages/stratocasterGuitarsPages";
 import popularItemsPages from "./routes/popularItemsPages";
 
 export default function App() {
@@ -24,7 +22,6 @@ export default function App() {
       <Route path="/shopping-cart" element={<ShoppingCartPage />}></Route>
       <Route path="*" element={<NoPageFound />}></Route>
 
-      {/* {itemsRoutes} */}
       {popularItemsPages}
       {itemsShoppingPages}
       {allCategoryPages}

@@ -14,7 +14,7 @@ const ModalContainer = styled.div`
   left: 10%;
   border-radius: 9px;
   border: solid gray 3px;
-  padding: 2rem;
+  padding: 4rem 2rem 2rem 2rem;
 
   @media only screen and (min-width: 662px) {
     width: 50%;
@@ -32,7 +32,7 @@ const CloseBtn = styled.span`
   position: absolute;
   right: 1rem;
   top: 1rem;
-  font-size: 2rem;
+  font-size: 1.5rem;
   cursor: pointer;
 `;
 

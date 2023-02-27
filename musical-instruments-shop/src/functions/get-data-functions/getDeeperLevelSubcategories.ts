@@ -1,12 +1,11 @@
-import ProductType from "../../data/products/productType";
-
+import { Product } from "../../types/commonTypes";
 type Category = {
   title: string;
   src: string;
   alt: string;
   pageLink: string;
   subcategories: {
-    items: ProductType[];
+    items: Product[];
     src: string;
     alt: string;
     title: string;

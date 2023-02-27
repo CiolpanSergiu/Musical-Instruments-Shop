@@ -146,9 +146,7 @@ export default function UserPage() {
   const navigate = useNavigate();
 
   function handleLogout() {
-    localStorage.removeItem("isLogged");
-    localStorage.removeItem("currentUser");
-    setCurrentUser({});
+    setCurrentUser(undefined);
     setIsLoggedIn(false);
     setCartItems([]);
     setCartItemsQuantity(0);

@@ -1,7 +1,7 @@
 import styled from "styled-components";
 import ShoppingPageCard from "../cards/ShoppingPageCard";
 import { nanoid } from "nanoid";
-import ProductType from "../../../data/products/productType";
+import { Product } from "../../../types/commonTypes";
 
 const Container = styled.div`
   padding-top: 4rem;
@@ -23,11 +23,11 @@ const PageHeader = styled.h1`
 
 type Props = {
   pageTitle: string;
-  itemsData: ProductType[];
+  itemsData: Product[];
 };
 
 export default function ShoppingPageContainer({ pageTitle, itemsData }: Props) {
-  const cards = itemsData.map((card: ProductType) => {
+  const cards = itemsData.map((card: Product) => {
     return (
       <ShoppingPageCard
         key={nanoid()}

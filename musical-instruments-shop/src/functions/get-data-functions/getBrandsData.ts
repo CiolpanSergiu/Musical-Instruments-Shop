@@ -25,7 +25,7 @@ const allBrands = [
   levelFiveCategoriesBrands,
 ]
   .flat(1)
-  .map((brand) => [brand?.brandName, brand?.pageLink]);
+  .map((brand) => [brand?.title, brand?.pageLink]);
 
 export {
   allBrands,

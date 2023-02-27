@@ -5,13 +5,6 @@ import AuthentificationContext from "./AuthentificationContext";
 const ShoppingCartContext = createContext({});
 
 export const ShoppingCartContextProvider = ({ children }: any) => {
-  // const [cartItems, setCartItems] = useState<CartItems>(
-  //   localStorage.getItem("currentUser") === null
-  //     ? []
-  //     : JSON.parse(String(localStorage.getItem("currentUser"))).shoppingCart
-  //         .shoppingCart
-  // );
-
   const { currentUser }: any = useContext(AuthentificationContext);
 
   const [cartItems, setCartItems] = useState<CartItem[]>(
@@ -89,12 +82,6 @@ export const ShoppingCartContextProvider = ({ children }: any) => {
     });
   }
 
-  function clearCartItems(): void {
-    setCartItems([]);
-    setCartItemsQuantity(0);
-    setItemsInCart([]);
-  }
-
   return (
     <ShoppingCartContext.Provider
       value={{
@@ -105,7 +92,6 @@ export const ShoppingCartContextProvider = ({ children }: any) => {
         addToCart,
         removeFromCart,
         decreaseItemQuantity,
-        clearCartItems,
         setItemsInCart,
       }}
     >

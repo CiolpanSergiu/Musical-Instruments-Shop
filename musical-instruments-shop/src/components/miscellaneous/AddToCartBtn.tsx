@@ -3,7 +3,6 @@ import styled from "styled-components";
 import ShoppingCartContext from "../../context/ShoppingCartContext";
 import { useContext } from "react";
 import AuthentificationContext from "../../context/AuthentificationContext";
-import CartItem from "../shopping-cart-page-components/CartItem";
 import editUserData from "../../functions/account-related-functions/editUserData";
 
 const CartButton = styled.button`
@@ -66,7 +65,7 @@ export default function AddToCartBtn({
 
   const { currentUser }: any = useContext(AuthentificationContext);
 
-  editUserData({ ...currentUser, shoppingCart: cartItems });
+  if (currentUser) editUserData({ ...currentUser, shoppingCart: cartItems });
 
   function handleClick() {
     const item = {
@@ -78,7 +77,6 @@ export default function AddToCartBtn({
 
     setCartItemsQuantity((prevState: number) => prevState + 1);
     addToCart(item);
-    editUserData({ ...currentUser, shoppingCart: cartItems });
   }
   {
     return (

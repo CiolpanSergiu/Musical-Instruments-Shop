@@ -1,41 +1,33 @@
-import { allCategories } from "../functions/get-data-functions/getCategoriesData";
-import Product from "../data/products/productType";
+import { allSubcategories } from "../functions/get-data-functions/getCategoriesData";
+import { Product } from "../types/commonTypes";
 import { createShoppingPageRoute } from "./createPageFunctions";
 
-type categoryWithProducts = {
-  src: string;
-  alt: string;
-  title: string;
-  pageLink: string;
-  subcategories: {
-    items: Product[];
-    src: string;
-    alt: string;
-    title: string;
-    pageLink: string;
-  }[];
-  brands: {
-    brandName: string;
-    src: string;
-    alt: string;
-    pageLink: string;
-  }[];
-  items: Product[];
-};
+type CategoryWithProducts =
+  | {
+      items: Product[];
+      src: string;
+      alt: string;
+      title: string;
+      pageLink: string;
+    }
+  | undefined;
 
-export const allItemsArr = allCategories.filter((category) => {
-  if (category) {
-    return category.hasOwnProperty("items");
+export const allItemsArr: CategoryWithProducts[] = allSubcategories.filter(
+  (category) => {
+    if (category) {
+      return category.hasOwnProperty("items");
+    }
   }
-});
+);
 
-// fix later
-const itemsShoppingPages = allItemsArr.map((category: categoryWithProducts) => {
-  const pageLink = `/${category.title
-    .toLocaleLowerCase()
-    .replace(/[^\w]/g, "-")
-    .replace(/--+/g, "-")}`;
-  return createShoppingPageRoute(pageLink, category.title, category.items);
+const itemsShoppingPages = allItemsArr.map((category: CategoryWithProducts) => {
+  if (category) {
+    const pageLink = `/${category.title
+      .toLocaleLowerCase()
+      .replace(/[^\w]/g, "-")
+      .replace(/--+/g, "-")}`;
+    return createShoppingPageRoute(pageLink, category.title, category.items);
+  }
 });
 
 export default itemsShoppingPages;
