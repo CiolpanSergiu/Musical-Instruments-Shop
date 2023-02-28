@@ -29,6 +29,10 @@ const UsersSchema = new mongoose.Schema({
     type: Array,
     default: [],
   },
+  ordersHistory: {
+    type: Array,
+    default: [],
+  },
 });
 
 module.exports = mongoose.model("users-schema", UsersSchema);

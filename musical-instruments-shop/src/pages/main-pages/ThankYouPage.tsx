@@ -5,7 +5,6 @@ import AuthentificationContext from "../../context/AuthentificationContext";
 import NavBtn from "../../components/miscellaneous/NavigationBtn";
 import Navbar from "../../components/navbar-components/Navbar";
 import Footer from "../../components/footer-components/Footer";
-import { nanoid } from "nanoid";
 
 const PageContainer = styled.div`
   display: flex;
@@ -102,8 +101,10 @@ export default function ThankYouPage() {
 
   const orderPlacementDate: Date = new Date();
   const estimatedDeliveryDate: Date = new Date();
-
   estimatedDeliveryDate.setDate(orderPlacementDate.getDate() + 30);
+
+  const currentOrder =
+    currentUser.ordersHistory[currentUser.ordersHistory.length - 1];
 
   return (
     <>
@@ -130,20 +131,6 @@ export default function ThankYouPage() {
               buttonText="Back Home"
             />
           </MiniContainer>
-          {/* <Hr /> */}
-          {/* <MiniContainer>
-            <SmallerHeader>Made a mistake?</SmallerHeader>
-            <Paragraph>
-              You have one hour to cancel your order after you placed it.
-              <br />
-              Just click this button!
-            </Paragraph>
-            <ActionButton
-              bgColor={{ normal: "crimson", hover: "#990000" }}
-              buttonText="Cancel Order"
-              handleClick={() => console.log("Order canceled")}
-            />
-          </MiniContainer> */}
           <MiniContainer>
             <SmallerHeader>Additional Info</SmallerHeader>
             <Hr />
@@ -159,7 +146,12 @@ export default function ThankYouPage() {
             <Hr />
             <InfoRow>
               <BoldSpan>Order ID:</BoldSpan>
-              <span>{nanoid()}</span>
+              <span>{currentOrder.orderId}</span>
+            </InfoRow>
+            <Hr />
+            <InfoRow>
+              <BoldSpan>Delivered:</BoldSpan>
+              <span>{currentOrder.delivered ? "Yes" : "No"}</span>
             </InfoRow>
             <Hr />
           </MiniContainer>
