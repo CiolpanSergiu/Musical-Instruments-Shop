@@ -6,6 +6,7 @@ import Account from "./pages/main-pages/Account";
 import ShoppingCartPage from "./pages/main-pages/ShoppingCartPage";
 import SinginPage from "./pages/main-pages/SinginPage";
 import NoPageFound from "./pages/main-pages/NoPageFound";
+import ThankYouPage from "./pages/main-pages/ThankYouPage";
 
 import allCategoryPages from "./routes/categoryPagesRoutes";
 import itemsShoppingPages from "./routes/itemsPageRoutes";
@@ -20,6 +21,7 @@ export default function App() {
       <Route path="/account" element={<Account />}></Route>
       <Route path="/singin" element={<SinginPage />}></Route>
       <Route path="/shopping-cart" element={<ShoppingCartPage />}></Route>
+      <Route path="/thank-for-ordering" element={<ThankYouPage />}></Route>
       <Route path="*" element={<NoPageFound />}></Route>
 
       {popularItemsPages}

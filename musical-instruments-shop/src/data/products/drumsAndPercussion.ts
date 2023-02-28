@@ -1,4 +1,4 @@
-import Product from "./productType";
+import { Product } from "../../types/commonTypes";
 
 const products: Product[] = [
   // Acoustic Drums

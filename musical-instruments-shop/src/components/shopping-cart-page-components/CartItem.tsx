@@ -95,7 +95,7 @@ type Props = {
   quantity: number;
 };
 
-export default function CartItem({
+export default function CartItems({
   src,
   alt = "",
   title,

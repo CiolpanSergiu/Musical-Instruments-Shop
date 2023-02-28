@@ -214,12 +214,9 @@ export default function UserPage() {
         </>
       )}
 
-      <MainHeader>Account</MainHeader>
+      <MainHeader>Hello, {currentUser.fullName}</MainHeader>
       <div>
-        <UserImg
-          alt="You profile image"
-          src="https://i.ibb.co/C2xphkV/9a66138bddb3f4da07b5536990312e88-902566822471233268.jpg"
-        />
+        <UserImg alt="You profile image" src="/default_user_img.png" />
       </div>
       <div>
         <DetailsCategoryHeader>General Information: </DetailsCategoryHeader>
