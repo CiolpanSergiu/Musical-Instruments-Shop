@@ -339,6 +339,15 @@ export default function UserPage() {
             handleClick={() => navigate("/shopping-cart")}
           />
         </TwoColumnGrid>
+        <TwoColumnGrid>
+          <BoldSpan>Your Orders History: </BoldSpan>
+          <GrayButton
+            contentText="History"
+            padding=".5rem 2rem"
+            width="100%"
+            handleClick={() => navigate("/orders-history")}
+          />
+        </TwoColumnGrid>
       </div>
     </Container>
   );

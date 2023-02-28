@@ -32,28 +32,50 @@ const Button = styled.button`
 export default function OrderButton() {
   const navigate = useNavigate();
 
-  const { currentUser }: any = useContext(AuthentificationContext);
+  const { currentUser, setCurrentUser }: any = useContext(
+    AuthentificationContext
+  );
   const { cartItems, setCartItems, setItemsInCart, setCartItemsQuantity }: any =
     useContext(ShoppingCartContext);
 
-  editUserData({ ...currentUser, shoppingCart: cartItems });
-
   function handleOrder() {
     navigate("/thank-for-ordering");
-    editUserData({
-      ...currentUser,
-      ordersHistory: {
-        order: currentUser.shoppingCart,
+
+    const newOrdersHistory = [
+      ...currentUser.ordersHistory,
+      {
+        order: cartItems,
         date: new Date(),
         orderId: nanoid(),
         delivered: false,
         cancelable: true,
       },
+    ];
+
+    setCurrentUser((prevState: any) => {
+      return {
+        ...prevState,
+        ordersHistory: newOrdersHistory,
+      };
+    });
+
+    editUserData({
+      ...currentUser,
+      ordersHistory: [
+        ...currentUser.ordersHistory,
+        {
+          order: cartItems,
+          date: new Date(),
+          orderId: nanoid(),
+          delivered: false,
+          cancelable: true,
+        },
+      ],
+      shoppingCart: [],
     });
     setCartItems([]);
     setItemsInCart([]);
     setCartItemsQuantity(0);
-    editUserData({ ...currentUser, shoppingCart: [] });
   }
 
   return (
