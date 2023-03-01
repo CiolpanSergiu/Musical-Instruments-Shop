@@ -5,7 +5,8 @@ export type User = {
   passwordConfirmation: string;
   country: string;
   phoneNumber: string;
-  shoppingCart: [];
+  shoppingCart: CartItem[];
+  ordersHistory: OrdersHistory[];
   _id: string;
 };
 
@@ -29,4 +30,11 @@ export type Product = {
   rating: number;
   totalReviews: number;
   specifications: string[];
+};
+
+export type OrdersHistory = {
+  order: CartItem[];
+  placementDate: string;
+  orderId: string;
+  delivered: boolean;
 };

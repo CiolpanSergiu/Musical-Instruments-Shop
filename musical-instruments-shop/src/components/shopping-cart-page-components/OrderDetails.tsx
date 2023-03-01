@@ -1,7 +1,7 @@
 import styled from "styled-components";
 import OrderButton from "./OrderButton";
 import ShoppingCartContext from "../../context/ShoppingCartContext";
-import { useContext } from "react";
+import { useContext, useState } from "react";
 
 const OrderDetailsContainer = styled.div`
   width: 100%;
@@ -26,8 +26,14 @@ const PriceSpan = styled.span`
   font-size: 2rem;
 `;
 
+const ErrMsg = styled.span`
+  color: crimson;
+`;
+
 export default function OrderDetails() {
   const { cartItems }: any = useContext(ShoppingCartContext);
+
+  const [notLoggedErr, setNotLoggedErr] = useState<string>();
 
   let totalPrice = cartItems
     .map((item: any) => item.price * item.quantity)
@@ -36,12 +42,17 @@ export default function OrderDetails() {
       0
     );
 
+  function showError() {
+    setNotLoggedErr("You must be logged in before making an order!");
+  }
+
   return (
     <>
       <OrderDetailsContainer>
         <Header>Total Price:</Header>
         <PriceSpan>{totalPrice.toFixed(2)}$</PriceSpan>
-        <OrderButton />
+        <OrderButton handleNotLogged={showError} />
+        <ErrMsg>{notLoggedErr}</ErrMsg>
       </OrderDetailsContainer>
     </>
   );

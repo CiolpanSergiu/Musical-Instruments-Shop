@@ -2,6 +2,7 @@ import styled from "styled-components";
 import { FaTruck } from "react-icons/fa";
 import { useContext } from "react";
 import { useNavigate } from "react-router-dom";
+import { User } from "../../types/commonTypes";
 import editUserData from "../../functions/account-related-functions/editUserData";
 import AuthentificationContext from "../../context/AuthentificationContext";
 import ShoppingCartContext from "../../context/ShoppingCartContext";
@@ -29,7 +30,11 @@ const Button = styled.button`
   }
 `;
 
-export default function OrderButton() {
+type Props = {
+  handleNotLogged: () => void;
+};
+
+export default function OrderButton({ handleNotLogged }: Props) {
   const navigate = useNavigate();
 
   const { currentUser, setCurrentUser }: any = useContext(
@@ -45,14 +50,14 @@ export default function OrderButton() {
       ...currentUser.ordersHistory,
       {
         order: cartItems,
-        date: new Date(),
+        placementDate: new Date(),
         orderId: nanoid(),
         delivered: false,
         cancelable: true,
       },
     ];
 
-    setCurrentUser((prevState: any) => {
+    setCurrentUser((prevState: User) => {
       return {
         ...prevState,
         ordersHistory: newOrdersHistory,
@@ -65,10 +70,9 @@ export default function OrderButton() {
         ...currentUser.ordersHistory,
         {
           order: cartItems,
-          date: new Date(),
+          placementDate: new Date(),
           orderId: nanoid(),
           delivered: false,
-          cancelable: true,
         },
       ],
       shoppingCart: [],
@@ -80,7 +84,7 @@ export default function OrderButton() {
 
   return (
     <>
-      <Button onClick={handleOrder}>
+      <Button onClick={currentUser ? handleOrder : handleNotLogged}>
         Order <FaTruck />
       </Button>
     </>

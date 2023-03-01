@@ -27,7 +27,7 @@ export default function CartItemsContainer() {
   const { cartItems }: any = useContext(ShoppingCartContext);
   const { currentUser }: any = useContext(AuthentificationContext);
 
-  editUserData({ ...currentUser, shoppingCart: cartItems });
+  if (currentUser) editUserData({ ...currentUser, shoppingCart: cartItems });
 
   const allCartItems = cartItems.map((item: any) => {
     return (
