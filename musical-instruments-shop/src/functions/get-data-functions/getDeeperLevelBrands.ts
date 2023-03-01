@@ -14,12 +14,12 @@ type Category = {
   brands: {
     src: string;
     alt: string;
-    title: string;
+    brandName: string;
     pageLink: string;
   }[];
 };
 
-export default function getDeeperLevelSubcategories(data: unknown) {
+export default function getDeeperLevelBrands(data: unknown) {
   if (Array.isArray(data)) {
     return data
       .filter((category: boolean) => {

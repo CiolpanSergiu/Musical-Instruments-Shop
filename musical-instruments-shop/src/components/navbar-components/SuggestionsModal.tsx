@@ -9,7 +9,7 @@ const SuggestionsContainer = styled.div<SuggestionContainerProps>`
   display: ${(props) => (props.haveSuggestions ? "flex" : "none")};
   flex-direction: column;
   background-color: #f5f5f5;
-  position: absolute;
+  position: fixed;
   left: 0;
   top: 100%;
   width: 100%;

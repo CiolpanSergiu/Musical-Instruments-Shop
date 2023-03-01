@@ -25,7 +25,11 @@ const allBrands = [
   levelFiveCategoriesBrands,
 ]
   .flat(1)
-  .map((brand) => [brand?.title, brand?.pageLink]);
+  .map((brand) => {
+    if (brand !== undefined) {
+      return [brand.brandName, brand.pageLink];
+    }
+  });
 
 export {
   allBrands,

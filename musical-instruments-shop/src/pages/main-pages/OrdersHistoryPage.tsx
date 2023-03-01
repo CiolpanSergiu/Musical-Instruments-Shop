@@ -62,6 +62,7 @@ export default function OrdersHistoryPage() {
       return (
         <Order
           key={nanoid()}
+          orderItems={order.order}
           orderNum={index + 1}
           orderId={order.orderId}
           placementDate={order.placementDate}

@@ -26,11 +26,19 @@ const MainHeader = styled.h1`
   }
 `;
 
-const SmallerHeader = styled.h2`
+type SmallerHeaderProps = {
+  marginBottom?: string;
+  marginTop?: string;
+  textAlign?: string;
+};
+
+const SmallerHeader = styled.h2<SmallerHeaderProps>`
   font-weight: 500;
-  margin-bottom: 2rem;
+  margin-bottom: ${(props) =>
+    props.marginBottom ? props.marginBottom : "2rem"};
+  margin-top: ${(props) => (props.marginTop ? props.marginTop : "0")};
   font-size: 1.75rem;
-  text-align: center;
+  text-align: ${(props) => (props.marginBottom ? props.textAlign : "center")}; ;
 `;
 
 const Image = styled.img`
@@ -129,6 +137,19 @@ export default function ThankYouPage() {
               bgColor={{ normal: "lightskyblue", hover: "dodgerblue" }}
               pageLink="/"
               buttonText="Back Home"
+            />
+            <SmallerHeader marginBottom="0" marginTop="2rem">
+              Made a mistake?
+            </SmallerHeader>
+            <Paragraph>
+              Users can cancel an order within one hour after placing it. You
+              can do this from your account page -&gt; Others section -&gt; your
+              orders history
+            </Paragraph>
+            <NavBtn
+              bgColor={{ normal: "lightskyblue", hover: "dodgerblue" }}
+              pageLink="/orders-history"
+              buttonText="Orders History"
             />
           </MiniContainer>
           <MiniContainer>

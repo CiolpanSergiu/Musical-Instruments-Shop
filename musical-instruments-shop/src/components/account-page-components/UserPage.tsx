@@ -1,4 +1,4 @@
-import { useContext, useState, useEffect } from "react";
+import { useContext, useState } from "react";
 import AuthentificationProvider from "../../context/AuthentificationContext";
 import styled from "styled-components";
 import { useNavigate } from "react-router-dom";
@@ -9,7 +9,7 @@ import FormErrorMsg from "../miscellaneous/FormErrorMsg";
 import deleteUserAccount from "../../functions/account-related-functions/deleteUserAccount";
 import GrayButton from "../miscellaneous/account-page/GrayButton";
 import ConfirmModal from "../miscellaneous/account-page/ConfirmModal";
-import Overlay from "../miscellaneous/account-page/AccountOverlay";
+import Overlay from "../miscellaneous/Overlay";
 import ShoppingCartContext from "../../context/ShoppingCartContext";
 
 const Container = styled.div`
@@ -188,6 +188,10 @@ export default function UserPage() {
         ...prevState,
         [toEdit]: editInputContent,
       }));
+      editUserData({
+        ...currentUser,
+        [toEdit]: editInputContent,
+      });
       setEditError("");
       setShowEditInput(false);
       setToEdit(defaultToEdit);
