@@ -1,3 +1,5 @@
+import capitalizeWords from "../string-formatting-functions/capitalizeWords";
+import createLink from "../string-formatting-functions/createLink";
 import {
   instrumentsCategoryData,
   levelTwoCategories,
@@ -27,7 +29,10 @@ const allBrands = [
   .flat(1)
   .map((brand) => {
     if (brand !== undefined) {
-      return [brand.brandName, brand.pageLink];
+      return {
+        title: capitalizeWords(brand.brandName),
+        pageLink: createLink(brand.brandName),
+      };
     }
   });
 

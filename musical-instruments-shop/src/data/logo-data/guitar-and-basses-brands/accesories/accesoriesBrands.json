@@ -2,85 +2,71 @@
   {
     "brandName": "Levys",
     "src": "/images/brands-logos/guitars-and-basses/accesories/levys_logo.jpg",
-    "alt": "Levys logo",
-    "pageLink": "/"
+    "alt": "Levys logo"
   },
   {
     "brandName": "MusicNomad",
     "src": "/images/brands-logos/guitars-and-basses/accesories/musicnomad_logo.jpg",
-    "alt": "MusicNomad logo",
-    "pageLink": "/"
+    "alt": "MusicNomad logo"
   },
   {
     "brandName": "Richter",
     "src": "/images/brands-logos/guitars-and-basses/accesories/richter_logo.jpg",
-    "alt": "Richter logo",
-    "pageLink": "/"
+    "alt": "Richter logo"
   },
   {
     "brandName": "Shubb",
     "src": "/images/brands-logos/guitars-and-basses/accesories/shubb_logo.jpg",
-    "alt": "Shubb logo",
-    "pageLink": "/"
+    "alt": "Shubb logo"
   },
   {
     "brandName": "D'Addario",
     "src": "/images/brands-logos/brands-for-multiple-categories/daddario_logo.jpg",
-    "alt": "D'adarrio logo",
-    "pageLink": "/"
+    "alt": "D'adarrio logo"
   },
   {
     "brandName": "Fender",
     "src": "/images/brands-logos/brands-for-multiple-categories/fender_logo.jpg",
-    "alt": "Fender logo",
-    "pageLink": "/"
+    "alt": "Fender logo"
   },
   {
     "brandName": "Dunlop",
     "src": "/images/brands-logos/guitars-and-basses/dunlop_logo.jpg",
-    "alt": "Dunlop logo",
-    "pageLink": "/"
+    "alt": "Dunlop logo"
   },
   {
     "brandName": "Cordial",
     "src": "/images/brands-logos/brands-for-multiple-categories/cordial_logo.jpg",
-    "alt": "Cordial logo",
-    "pageLink": "/"
+    "alt": "Cordial logo"
   },
   {
     "brandName": "Harley Benton",
     "src": "/images/brands-logos/brands-for-multiple-categories/harley_benton_logo.jpg",
-    "alt": "Harley Benton logo",
-    "pageLink": "/"
+    "alt": "Harley Benton logo"
   },
   {
     "brandName": "Ibanez",
     "src": "/images/brands-logos/guitars-and-basses/ibanez_logo.jpg",
-    "alt": "Ibanez logo",
-    "pageLink": "/"
+    "alt": "Ibanez logo"
   },
   {
     "brandName": "Epiphone",
     "src": "/images/brands-logos/guitars-and-basses/epiphone_logo.jpg",
-    "alt": "Epiphone logo",
-    "pageLink": "/"
+    "alt": "Epiphone logo"
   },
   {
     "brandName": "GatorCases",
     "src": "/images/brands-logos/brands-for-multiple-categories/gator_logo.jpg",
-    "alt": "GatorCases logo",
-    "pageLink": "/"
+    "alt": "GatorCases logo"
   },
   {
     "brandName": "Ernie Ball",
     "src": "/images/brands-logos/brands-for-multiple-categories/ernieball_logo.jpg",
-    "alt": "Ernie Ball logo",
-    "pageLink": "/"
+    "alt": "Ernie Ball logo"
   },
   {
     "brandName": "Gibson",
     "src": "/images/brands-logos/guitars-and-basses/gibson_logo.jpg",
-    "alt": "Gibson logo",
-    "pageLink": "/"
+    "alt": "Gibson logo"
   }
 ]

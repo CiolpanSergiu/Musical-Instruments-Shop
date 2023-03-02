@@ -12,7 +12,10 @@ import ThankYouPage from "./pages/main-pages/ThankYouPage";
 import OrdersHistoryPage from "./pages/main-pages/OrdersHistoryPage";
 
 import allCategoryPages from "./routes/categoryPagesRoutes";
-import itemsShoppingPages from "./routes/itemsPageRoutes";
+import {
+  itemsShoppingPages,
+  brandsShoppingPages,
+} from "./routes/itemsPageRoutes";
 import productDetailPageRoutes from "./routes/itemPageRoutes";
 import popularItemsPages from "./routes/popularItemsPages";
 
@@ -36,6 +39,7 @@ export default function App() {
 
       {popularItemsPages}
       {itemsShoppingPages}
+      {brandsShoppingPages}
       {allCategoryPages}
       {productDetailPageRoutes}
     </Routes>

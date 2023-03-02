@@ -1,5 +1,6 @@
 import { Link } from "react-router-dom";
 import styled from "styled-components";
+import createLink from "../../functions/string-formatting-functions/createLink";
 
 type Props = {
   src: string;
@@ -35,7 +36,7 @@ const CardImage = styled.img`
 export default function TopBrandsCard({ src, alt, title }: Props) {
   return (
     <CardContainer>
-      <Link to="">
+      <Link to={createLink(title)}>
         <CardImage src={src} alt={alt} title={title} />
       </Link>
     </CardContainer>

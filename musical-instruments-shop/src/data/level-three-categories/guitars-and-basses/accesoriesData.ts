@@ -1,4 +1,4 @@
-import getStoreProducts from "../../../functions/get-data-functions/getStoreProducts";
+import getProductsByCategory from "../../../functions/get-data-functions/getProductsByCategory";
 import caposSubcategories from "../../level-four-categories/guitar-and-basses/accesories/caposData";
 import coversBagsAndCasesSubcategories from "../../level-four-categories/guitar-and-basses/accesories/coverBagsAndCasesData";
 import slidersSubcategories from "../../level-four-categories/guitar-and-basses/accesories/slidersData";
@@ -9,7 +9,7 @@ const accesoriesSubcategories = [
     title: "Guitar/Bass Stands",
     src: "/images/categories/level-three-categories/guitars-and-basses/accesories/electric_guitar_stand.jpg",
     alt: "",
-    items: getStoreProducts("guitar/bass stand"),
+    items: getProductsByCategory("guitar/bass stand"),
   },
   {
     title: "Guitar/Bass Covers and Cases",
@@ -21,7 +21,7 @@ const accesoriesSubcategories = [
     title: "Instrument Cables",
     src: "/images/categories/level-three-categories/guitars-and-basses/accesories/guitar_cable.jpg",
     alt: "",
-    items: getStoreProducts("instrument cable"),
+    items: getProductsByCategory("instrument cable"),
   },
   {
     title: "Guitar/Bass Straps",
@@ -39,13 +39,13 @@ const accesoriesSubcategories = [
     title: "Picks",
     src: "/images/categories/level-three-categories/guitars-and-basses/accesories/guitar_picks.jpg",
     alt: "",
-    items: getStoreProducts("pick"),
+    items: getProductsByCategory("pick"),
   },
   {
     title: "Tuners",
     src: "/images/categories/level-three-categories/guitars-and-basses/accesories/guitar_tuner.jpg",
     alt: "",
-    items: getStoreProducts("tuner"),
+    items: getProductsByCategory("tuner"),
   },
   {
     title: "Guitar Sliders",
@@ -57,7 +57,7 @@ const accesoriesSubcategories = [
     title: "Instrument Tools and Maintenance",
     src: "/images/categories/level-three-categories/guitars-and-basses/accesories/guitar_tools_and_maintenance.jpg",
     alt: "",
-    items: getStoreProducts("instrument tool"),
+    items: getProductsByCategory("instrument tool"),
   },
 ];
 

@@ -23,6 +23,11 @@ const HomePage = styled.div`
   justify-content: center;
 `;
 
+const Container = styled.div`
+  display: flex;
+  flex-direction: column;
+`;
+
 export default function Home() {
   return (
     <HomePage>
@@ -31,23 +36,35 @@ export default function Home() {
       <ItemsSlider title="" data={universalPopularItems} />
       <BrandsSlider title="Top Brands" data={brandsData} />
       <SalesSectionContainer />
-      <ItemsSlider
-        data={guitarAndBassesPopularItems}
-        title="Guitars and Basses"
-      />
-      <SliderDescription descriptionData={description[0]} />
-      <ItemsSlider data={amplifiersPopularItems} title="Amplifiers" />
-      <SliderDescription descriptionData={description[1]} />
-      <ItemsSlider
-        data={drumsAndPercussionPopularItems}
-        title="Drums and Percussion"
-      />
-      <SliderDescription descriptionData={description[2]} />
-      <ItemsSlider
-        data={keyboardAndSynthPopularItems}
-        title="Keyboards and Synth"
-      />
-      <SliderDescription descriptionData={description[3]} />
+      <Container>
+        <ItemsSlider
+          data={guitarAndBassesPopularItems}
+          title="Guitars and Basses"
+        />
+        <SliderDescription descriptionData={description[0]} />
+      </Container>
+
+      <Container>
+        <ItemsSlider data={amplifiersPopularItems} title="Amplifiers" />
+        <SliderDescription descriptionData={description[1]} />
+      </Container>
+
+      <Container>
+        <ItemsSlider
+          data={drumsAndPercussionPopularItems}
+          title="Drums and Percussion"
+        />
+        <SliderDescription descriptionData={description[2]} />
+      </Container>
+
+      <Container>
+        <ItemsSlider
+          data={keyboardAndSynthPopularItems}
+          title="Keyboards and Synth"
+        />
+        <SliderDescription descriptionData={description[3]} />
+      </Container>
+
       <Footer marginTop={"2rem"} />
     </HomePage>
   );

@@ -2,6 +2,7 @@ import styled from "styled-components";
 import { Link } from "react-router-dom";
 import AddToCartBtn from "../../miscellaneous/AddToCartBtn";
 import { generateStars } from "../../../functions/generateStars";
+import createLink from "../../../functions/string-formatting-functions/createLink";
 
 const StyledLink = styled(Link)`
   color: #3d4552;
@@ -86,13 +87,13 @@ export default function ShoppingPageCard({
   price,
   totalReviews,
 }: Props) {
-  const pageLink = `/${title.toLocaleLowerCase().replace(/[^\w]/g, "-")}`;
+  const pageLink = createLink(title);
 
   return (
     <CardContainer>
       <StyledLink to={pageLink}>
-        {/* use srcBig until i convert bigger imgages into smaller ones */}
-        <Img src={srcBig} alt={alt} />
+        {/* srcSmall it's the same as srcBig until i convert bigger images into smaller ones */}
+        <Img src={srcSmall} alt={alt} />
         <ItemTitle>{title}</ItemTitle>
         <StarsContainer>
           {generateStars(rating)}

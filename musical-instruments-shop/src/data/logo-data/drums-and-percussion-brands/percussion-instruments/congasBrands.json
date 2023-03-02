@@ -2,55 +2,46 @@
   {
     "brandName": "Pearl",
     "src": "/images/brands-logos/drums-and-percussion/pearl_logo.jpg",
-    "alt": "Pearl logo",
-    "pageLink": "/"
+    "alt": "Pearl logo"
   },
   {
     "brandName": "Evans",
     "src": "/images/brands-logos/drums-and-percussion/evans_logo.jpg",
-    "alt": "Evans logo",
-    "pageLink": "/"
+    "alt": "Evans logo"
   },
   {
     "brandName": "Meinl",
     "src": "/images/brands-logos/drums-and-percussion/meinl_logo.jpg",
-    "alt": "Meinl logo",
-    "pageLink": "/"
+    "alt": "Meinl logo"
   },
   {
     "brandName": "Remo",
     "src": "/images/brands-logos/drums-and-percussion/remo_logo.jpg",
-    "alt": "Remo logo",
-    "pageLink": "/"
+    "alt": "Remo logo"
   },
   {
     "brandName": "Sonor",
     "src": "/images/brands-logos/drums-and-percussion/sonor_logo.jpg",
-    "alt": "Sonor logo",
-    "pageLink": "/"
+    "alt": "Sonor logo"
   },
   {
     "brandName": "Lp",
     "src": "/images/brands-logos/drums-and-percussion/acoustic-drums/lp_logo.jpg",
-    "alt": "Lp logo",
-    "pageLink": "/"
+    "alt": "Lp logo"
   },
   {
     "brandName": "Millenium",
     "src": "/images/brands-logos/brands-for-multiple-categories/millenium_logo.jpg",
-    "alt": "Millenium logo",
-    "pageLink": "/"
+    "alt": "Millenium logo"
   },
   {
     "brandName": "Gibraltar",
     "src": "/images/brands-logos/brands-for-multiple-categories/gibraltar_logo.jpg",
-    "alt": "Gibraltar logo",
-    "pageLink": "/"
+    "alt": "Gibraltar logo"
   },
   {
     "brandName": "Nino Percussion",
     "src": "/images/brands-logos/drums-and-percussion/percussion-instruments/nino_logo.jpg",
-    "alt": "Nino Percussion logo",
-    "pageLink": "/"
+    "alt": "Nino Percussion logo"
   }
 ]

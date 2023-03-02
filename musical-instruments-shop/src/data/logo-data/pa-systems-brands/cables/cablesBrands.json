@@ -2,97 +2,81 @@
   {
     "brandName": "Ebs",
     "src": "/images/brands-logos/pa-systems/cables/ebs_logo.jpg",
-    "alt": "Ebs logo",
-    "pageLink": "/"
+    "alt": "Ebs logo"
   },
   {
     "brandName": "Neutrik",
     "src": "/images/brands-logos/pa-systems/cables/neutrik_logo.jpg",
-    "alt": "Neutrik logo",
-    "pageLink": "/"
+    "alt": "Neutrik logo"
   },
   {
     "brandName": "Schill",
     "src": "/images/brands-logos/pa-systems/cables/schill_logo.jpg",
-    "alt": "Schill logo",
-    "pageLink": "/"
+    "alt": "Schill logo"
   },
   {
     "brandName": "Sommer Cable",
     "src": "/images/brands-logos/pa-systems/cables/sommer_cable_logo.jpg",
-    "alt": "Sommer Cable logo",
-    "pageLink": "/"
+    "alt": "Sommer Cable logo"
   },
   {
     "brandName": "Vovox",
     "src": "/images/brands-logos/pa-systems/cables/vovox_logo.jpg",
-    "alt": "Vovox logo",
-    "pageLink": "/"
+    "alt": "Vovox logo"
   },
   {
     "brandName": "The Sssnake",
     "src": "/images/brands-logos/brands-for-multiple-categories/the_sssnake_logo.jpg",
-    "alt": "The Sssnake logo",
-    "pageLink": "/"
+    "alt": "The Sssnake logo"
   },
   {
     "brandName": "Pro Snake",
     "src": "/images/brands-logos/brands-for-multiple-categories/pro_snake_logo.jpg",
-    "alt": "Pro Snake logo",
-    "pageLink": "/"
+    "alt": "Pro Snake logo"
   },
   {
     "brandName": "Shure",
     "src": "/images/brands-logos/brands-for-multiple-categories/shure_logo.jpg",
-    "alt": "SHURE logo",
-    "pageLink": "/"
+    "alt": "SHURE logo"
   },
   {
     "brandName": "Rode",
     "src": "/images/brands-logos/brands-for-multiple-categories/rode_logo.jpg",
-    "alt": "Rode logo",
-    "pageLink": "/"
+    "alt": "Rode logo"
   },
   {
     "brandName": "Cordial",
     "src": "/images/brands-logos/brands-for-multiple-categories/cordial_logo.jpg",
-    "alt": "Cordial logo",
-    "pageLink": "/"
+    "alt": "Cordial logo"
   },
   {
     "brandName": "Boss",
     "src": "/images/brands-logos/brands-for-multiple-categories/boss_logo.jpg",
-    "alt": "Boss logo",
-    "pageLink": "/"
+    "alt": "Boss logo"
   },
   {
     "brandName": "Fender",
     "src": "/images/brands-logos/brands-for-multiple-categories/fender_logo.jpg",
-    "alt": "Fender logo",
-    "pageLink": "/"
+    "alt": "Fender logo"
   },
   {
     "brandName": "Fishman",
     "src": "/images/brands-logos/guitars-and-basses/fishman_logo.jpg",
-    "alt": "Fishman logo",
-    "pageLink": "/"
+    "alt": "Fishman logo"
   },
   {
     "brandName": "Harley Benton",
     "src": "/images/brands-logos/brands-for-multiple-categories/harley_benton_logo.jpg",
-    "alt": "Harley Benton logo",
-    "pageLink": "/"
+    "alt": "Harley Benton logo"
   },
   {
     "brandName": "Roland",
     "src": "/images/brands-logos/brands-for-multiple-categories/roland_logo.jpg",
-    "alt": "Roland logo",
-    "pageLink": "/"
+    "alt": "Roland logo"
   },
   {
     "brandName": "The T.Bone",
     "src": "/images/brands-logos/brands-for-multiple-categories/the_tbone_logo.jpg",
-    "alt": "The T.Bone logo",
-    "pageLink": "/"
+    "alt": "The T.Bone logo"
   }
 ]

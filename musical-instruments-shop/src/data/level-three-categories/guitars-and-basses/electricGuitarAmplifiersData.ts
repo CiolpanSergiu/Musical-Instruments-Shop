@@ -1,7 +1,7 @@
 import tubesData from "../../level-four-categories/guitar-and-basses/amplifiers/tubes";
 import guitarAmplifierHeadsSubcategories from "../../level-four-categories/guitar-and-basses/amplifiers/guitarAmplifierHeads";
 import guitarAmplifiersSubcategories from "../../level-four-categories/guitar-and-basses/amplifiers/guitarAmplifiers";
-import getStoreProducts from "../../../functions/get-data-functions/getStoreProducts";
+import getProductsByCategory from "../../../functions/get-data-functions/getProductsByCategory";
 
 const electricGuitarAmplifiersSubcategories = [
   {
@@ -20,13 +20,13 @@ const electricGuitarAmplifiersSubcategories = [
     title: "Preamplifiers",
     src: "/images/categories/level-three-categories/guitars-and-basses/electric-guitar-amps/electric_guitar_preamp.jpg",
     alt: "",
-    items: getStoreProducts("electric guitar preamp"),
+    items: getProductsByCategory("electric guitar preamp"),
   },
   {
     title: "Power Amplifiers",
     src: "/images/categories/level-three-categories/guitars-and-basses/electric-guitar-amps/electric_guitar_power_amp.jpg",
     alt: "",
-    items: getStoreProducts("electric guitar power amp"),
+    items: getProductsByCategory("electric guitar power amp"),
   },
   {
     title: "Tubes",
@@ -38,25 +38,25 @@ const electricGuitarAmplifiersSubcategories = [
     title: "1x12 Cabinets",
     src: "/images/categories/level-three-categories/guitars-and-basses/electric-guitar-amps/1x12_guitar_cab.jpg",
     alt: "",
-    items: getStoreProducts("1x12 electric guitar amp head cabinet"),
+    items: getProductsByCategory("1x12 electric guitar amp head cabinet"),
   },
   {
     title: "2x12 Cabinets",
     src: "/images/categories/level-three-categories/guitars-and-basses/electric-guitar-amps/2x12_guitar_cab.jpg",
     alt: "",
-    items: getStoreProducts("2x12 electric guitar amp head cabinet"),
+    items: getProductsByCategory("2x12 electric guitar amp head cabinet"),
   },
   {
     title: "4x12 Cabinets",
     src: "/images/categories/level-three-categories/guitars-and-basses/electric-guitar-amps/4x12_guitar_cab.jpg",
     alt: "",
-    items: getStoreProducts("4x12 electric guitar amp head cabinet"),
+    items: getProductsByCategory("4x12 electric guitar amp head cabinet"),
   },
   {
     title: "Guitar Amplifiers Cover Bags",
     src: "/images/categories/level-three-categories/guitars-and-basses/electric-guitar-amps/amp_cover_bag.jpg",
     alt: "",
-    items: getStoreProducts("guitar amp cover bag"),
+    items: getProductsByCategory("guitar amp cover bag"),
   },
 ];
 

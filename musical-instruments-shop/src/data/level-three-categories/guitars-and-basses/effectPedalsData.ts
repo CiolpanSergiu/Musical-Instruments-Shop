@@ -1,4 +1,4 @@
-import getStoreProducts from "../../../functions/get-data-functions/getStoreProducts";
+import getProductsByCategory from "../../../functions/get-data-functions/getProductsByCategory";
 // this is mostly for products that can be included in 2 or more categories
 // for eg: a pedal for chorus, flanger and phaser simultaneously
 import removeDuplicatedProducts from "../../../functions/get-data-functions/removeDuplicatedProducts";
@@ -8,7 +8,7 @@ export default [
     title: "Multi Effect Pedals",
     src: "/images/categories/level-three-categories/guitars-and-basses/effect-pedals/guitar_multi_effect_pedal.jpg",
     alt: "",
-    items: getStoreProducts("multi effect pedal"),
+    items: getProductsByCategory("multi effect pedal"),
   },
   {
     title: "Distortion Pedals",
@@ -16,9 +16,9 @@ export default [
     alt: "",
     items: removeDuplicatedProducts(
       [
-        getStoreProducts("distortion pedal"),
-        getStoreProducts("fuzz pedal"),
-        getStoreProducts("overdrive pedal"),
+        getProductsByCategory("distortion pedal"),
+        getProductsByCategory("fuzz pedal"),
+        getProductsByCategory("overdrive pedal"),
       ].flat(1)
     ),
   },
@@ -28,9 +28,9 @@ export default [
     alt: "",
     items: removeDuplicatedProducts(
       [
-        getStoreProducts("chorus pedal"),
-        getStoreProducts("flanger pedal"),
-        getStoreProducts("phaser pedal"),
+        getProductsByCategory("chorus pedal"),
+        getProductsByCategory("flanger pedal"),
+        getProductsByCategory("phaser pedal"),
       ].flat(1)
     ),
   },
@@ -38,31 +38,31 @@ export default [
     title: "Delay Pedals",
     src: "/images/categories/level-three-categories/guitars-and-basses/effect-pedals/guitar_delay_pedal.jpg",
     alt: "",
-    items: getStoreProducts("delay pedal"),
+    items: getProductsByCategory("delay pedal"),
   },
   {
     title: "Reverb Pedals",
     src: "/images/categories/level-three-categories/guitars-and-basses/effect-pedals/guitar_reverb_pedal.jpg",
     alt: "",
-    items: getStoreProducts("reverb pedal"),
+    items: getProductsByCategory("reverb pedal"),
   },
   {
     title: "Compressor Pedals",
     src: "/images/categories/level-three-categories/guitars-and-basses/effect-pedals/guitar_compressor_pedal.jpg",
     alt: "",
-    items: getStoreProducts("compressor pedal"),
+    items: getProductsByCategory("compressor pedal"),
   },
   {
     title: "Wah Pedals",
     src: "/images/categories/level-three-categories/guitars-and-basses/effect-pedals/guitar_wah_pedal.jpg",
     alt: "",
-    items: getStoreProducts("wah pedal"),
+    items: getProductsByCategory("wah pedal"),
   },
   {
     title: "Loop Pedals",
     src: "/images/categories/level-three-categories/guitars-and-basses/effect-pedals/guitar_loop_pedal.jpg",
     alt: "",
-    items: getStoreProducts("loop pedal"),
+    items: getProductsByCategory("loop pedal"),
   },
   {
     title: "Volume and Expression Pedals",
@@ -70,8 +70,8 @@ export default [
     alt: "",
     items: removeDuplicatedProducts(
       [
-        getStoreProducts("volume pedal"),
-        getStoreProducts("expression pedal"),
+        getProductsByCategory("volume pedal"),
+        getProductsByCategory("expression pedal"),
       ].flat(1)
     ),
   },
@@ -79,24 +79,24 @@ export default [
     title: "Bands EQ Pedals",
     src: "/images/categories/level-three-categories/guitars-and-basses/effect-pedals/guitar_eq_pedal.jpg",
     alt: "",
-    items: getStoreProducts("bands eq pedal"),
+    items: getProductsByCategory("bands eq pedal"),
   },
   {
     title: "Pedal Boards",
     src: "/images/categories/level-three-categories/guitars-and-basses/effect-pedals/pedal_board.jpg",
     alt: "",
-    items: getStoreProducts("pedalboard"),
+    items: getProductsByCategory("pedalboard"),
   },
   {
     title: "Pedal Cables",
     src: "/images/categories/level-three-categories/guitars-and-basses/effect-pedals/pedal_cable.jpg",
     alt: "",
-    items: getStoreProducts("pedal cable"),
+    items: getProductsByCategory("pedal cable"),
   },
   {
     title: "Power Supplies",
     src: "/images/categories/level-three-categories/guitars-and-basses/effect-pedals/pedal_power_supply.jpg",
     alt: "",
-    items: getStoreProducts("power supply"),
+    items: getProductsByCategory("power supply"),
   },
 ];

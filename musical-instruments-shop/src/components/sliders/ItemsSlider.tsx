@@ -32,21 +32,23 @@ function SamplePrevArrow(props: any) {
 
 const SliderContainer = styled.div`
   padding: 0.5rem;
-  max-height: 60vh;
+  height: 35rem;
   max-width: 90vw;
   display: flex;
   flex-direction: column;
   text-align: center;
+  margin-bottom: 2rem;
+
+  @media only screen and (min-width: 992px) {
+    height: 30rem;
+  }
 `;
 
-const Header2 = styled.h2`
+const Header = styled.h2`
   margin: 2rem 0;
   color: #404040;
   text-decoration: underline lightskyblue 3px;
-
-  @media only screen and (min-width: 768px) {
-    font-size: 2.5rem;
-  }
+  font-size: 2.5rem;
 `;
 
 type Data = {
@@ -88,10 +90,17 @@ export default function ItemsSlider({ title, data }: Props) {
         },
       },
       {
-        breakpoint: 769,
+        breakpoint: 662,
         settings: {
           slidesToShow: 2,
           slidesToScroll: 2,
+        },
+      },
+      {
+        breakpoint: 480,
+        settings: {
+          slidesToShow: 1,
+          slidesToScroll: 1,
         },
       },
     ],
@@ -115,7 +124,7 @@ export default function ItemsSlider({ title, data }: Props) {
 
   return (
     <SliderContainer>
-      <Header2>{`Popular ${title} Items`}</Header2>
+      <Header>{`Popular ${title} Items`}</Header>
       <Slider {...settings}>{sliderCards}</Slider>
     </SliderContainer>
   );

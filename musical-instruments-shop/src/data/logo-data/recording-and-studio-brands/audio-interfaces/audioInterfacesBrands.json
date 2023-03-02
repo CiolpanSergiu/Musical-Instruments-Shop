@@ -2,109 +2,91 @@
   {
     "brandName": "TC Helicon",
     "src": "/images/brands-logos/brands-for-multiple-categories/tc_helicon_logo.jpg",
-    "alt": "TC Helicon logo",
-    "pageLink": "/"
+    "alt": "TC Helicon logo"
   },
   {
     "brandName": "Antelope",
     "src": "/images/brands-logos/recording-and-studio/audio-interfaces/antelope_logo.jpg",
-    "alt": "Antelope logo",
-    "pageLink": "/"
+    "alt": "Antelope logo"
   },
   {
     "brandName": "Audient",
     "src": "/images/brands-logos/recording-and-studio/audio-interfaces/audient_logo.jpg",
-    "alt": "Audient logo",
-    "pageLink": "/"
+    "alt": "Audient logo"
   },
   {
     "brandName": "Dante",
     "src": "/images/brands-logos/recording-and-studio/audio-interfaces/dante_logo.jpg",
-    "alt": "Dante logo",
-    "pageLink": "/"
+    "alt": "Dante logo"
   },
   {
     "brandName": "Esi",
     "src": "/images/brands-logos/recording-and-studio/audio-interfaces/esi_logo.jpg",
-    "alt": "Esi logo",
-    "pageLink": "/"
+    "alt": "Esi logo"
   },
   {
     "brandName": "Evo",
     "src": "/images/brands-logos/recording-and-studio/audio-interfaces/evo_logo.jpg",
-    "alt": "Evo logo",
-    "pageLink": "/"
+    "alt": "Evo logo"
   },
   {
     "brandName": "IK Multimedia",
     "src": "/images/brands-logos/recording-and-studio/audio-interfaces/ik_multimedia_logo.jpg",
-    "alt": "IK Multimedia logo",
-    "pageLink": "/"
+    "alt": "IK Multimedia logo"
   },
   {
     "brandName": "Lynx Studio",
     "src": "/images/brands-logos/recording-and-studio/audio-interfaces/lynx_studio_logo.jpg",
-    "alt": "Lynx Studio logo",
-    "pageLink": "/"
+    "alt": "Lynx Studio logo"
   },
   {
     "brandName": "Marian",
     "src": "/images/brands-logos/recording-and-studio/audio-interfaces/marian_logo.jpg",
-    "alt": "Marian logo",
-    "pageLink": "/"
+    "alt": "Marian logo"
   },
   {
     "brandName": "Motu",
     "src": "/images/brands-logos/recording-and-studio/audio-interfaces/motu_logo.jpg",
-    "alt": "Motu logo",
-    "pageLink": "/"
+    "alt": "Motu logo"
   },
   {
     "brandName": "Prism Sound",
     "src": "/images/brands-logos/recording-and-studio/audio-interfaces/prism_sound_logo.jpg",
-    "alt": "Prism Sound logo",
-    "pageLink": "/"
+    "alt": "Prism Sound logo"
   },
   {
     "brandName": "Behringer",
     "src": "/images/brands-logos/brands-for-multiple-categories/behringer_logo.jpg",
-    "alt": "Behringer logo",
-    "pageLink": "/"
+    "alt": "Behringer logo"
   },
   {
     "brandName": "Focusrite",
     "src": "/images/brands-logos/recording-and-studio/focusrite_logo.jpg",
-    "alt": "Focusrite logo",
-    "pageLink": "/"
+    "alt": "Focusrite logo"
   },
   {
     "brandName": "Universal Audio",
     "src": "/images/brands-logos/brands-for-multiple-categories/universal_audio_logo.jpg",
-    "alt": "Universal Audio logo",
-    "pageLink": "/"
+    "alt": "Universal Audio logo"
   },
   {
     "brandName": "Zoom",
     "src": "/images/brands-logos/recording-and-studio/zoom_logo.jpg",
-    "alt": "Zoom logo",
-    "pageLink": "/"
+    "alt": "Zoom logo"
   },
   {
     "brandName": "Rode",
     "src": "/images/brands-logos/brands-for-multiple-categories/rode_logo.jpg",
-    "alt": "Rode logo",
-    "pageLink": "/"
+    "alt": "Rode logo"
   },
   {
     "brandName": "SSL",
     "src": "/images/brands-logos/brands-for-multiple-categories/ssl_logo.jpg",
-    "alt": "SSL logo",
-    "pageLink": "/"
+    "alt": "SSL logo"
   },
   {
     "brandName": "Tascam",
     "src": "/images/brands-logos/recording-and-studio/tascam_logo.jpg",
-    "alt": "Tascam logo",
-    "pageLink": "/"
+    "alt": "Tascam logo"
   }
 ]

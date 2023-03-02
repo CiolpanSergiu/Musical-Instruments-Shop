@@ -1,6 +1,10 @@
 import { allSubcategories } from "../functions/get-data-functions/getCategoriesData";
 import { Product } from "../types/commonTypes";
 import { createShoppingPageRoute } from "./createPageFunctions";
+import allProducts from "../data/products/allProducts";
+import getProductsByBrand from "../functions/get-data-functions/getProductsByBrand";
+import createLink from "../functions/string-formatting-functions/createLink";
+import allUniqueBrands from "../data/suggestions/brandsSuggestions";
 
 type CategoryWithProducts =
   | {
@@ -22,12 +26,20 @@ export const allItemsArr: CategoryWithProducts[] = allSubcategories.filter(
 
 const itemsShoppingPages = allItemsArr.map((category: CategoryWithProducts) => {
   if (category) {
-    const pageLink = `/${category.title
-      .toLocaleLowerCase()
-      .replace(/[^\w]/g, "-")
-      .replace(/--+/g, "-")}`;
+    const pageLink = createLink(category.title);
     return createShoppingPageRoute(pageLink, category.title, category.items);
   }
 });
 
-export default itemsShoppingPages;
+const brandsShoppingPages = allUniqueBrands.map(
+  (brand: { title: string; pageLink: string }) => {
+    // const pageLink = createLink(brand);
+    return createShoppingPageRoute(
+      brand.pageLink,
+      `${brand.title} Products`,
+      getProductsByBrand(brand.title)
+    );
+  }
+);
+
+export { itemsShoppingPages, brandsShoppingPages };

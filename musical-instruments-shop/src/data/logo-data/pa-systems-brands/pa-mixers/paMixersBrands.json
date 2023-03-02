@@ -2,97 +2,81 @@
   {
     "brandName": "Qsc",
     "src": "/images/brands-logos/pa-systems/qsc_logo.jpg",
-    "alt": "Qsc logo",
-    "pageLink": "/"
+    "alt": "Qsc logo"
   },
   {
     "brandName": "Allen Heath",
     "src": "/images/brands-logos/pa-systems/pa-mixers/allen_heath_logo.jpg",
-    "alt": "Allen Heath logo",
-    "pageLink": "/"
+    "alt": "Allen Heath logo"
   },
   {
     "brandName": "Bosch",
     "src": "/images/brands-logos/pa-systems/pa-mixers/bosch_logo.jpg",
-    "alt": "Bosch logo",
-    "pageLink": "/"
+    "alt": "Bosch logo"
   },
   {
     "brandName": "Dap Audio",
     "src": "/images/brands-logos/pa-systems/pa-mixers/dap_audio_logo.jpg",
-    "alt": "Dap Audio logo",
-    "pageLink": "/"
+    "alt": "Dap Audio logo"
   },
   {
     "brandName": "Dynacord",
     "src": "/images/brands-logos/pa-systems/pa-mixers/dynacord_logo.jpg",
-    "alt": "Dynacord logo",
-    "pageLink": "/"
+    "alt": "Dynacord logo"
   },
   {
     "brandName": "Lab Gruppen",
     "src": "/images/brands-logos/pa-systems/pa-mixers/lab_gruppen_logo.jpg",
-    "alt": "Lab Gruppen logo",
-    "pageLink": "/"
+    "alt": "Lab Gruppen logo"
   },
   {
     "brandName": "Midas",
     "src": "/images/brands-logos/pa-systems/pa-mixers/midas_logo.jpg",
-    "alt": "Midas logo",
-    "pageLink": "/"
+    "alt": "Midas logo"
   },
   {
     "brandName": "Rolls",
     "src": "/images/brands-logos/pa-systems/pa-mixers/rolls_logo.jpg",
-    "alt": "Rolls logo",
-    "pageLink": "/"
+    "alt": "Rolls logo"
   },
   {
     "brandName": "Soundcraft",
     "src": "/images/brands-logos/pa-systems/pa-mixers/soundcraft_logo.jpg",
-    "alt": "Soundcraft logo",
-    "pageLink": "/"
+    "alt": "Soundcraft logo"
   },
   {
     "brandName": "Behringer",
     "src": "/images/brands-logos/brands-for-multiple-categories/behringer_logo.jpg",
-    "alt": "Behringer logo",
-    "pageLink": "/"
+    "alt": "Behringer logo"
   },
   {
     "brandName": "Bose",
     "src": "/images/brands-logos/pa-systems/bose_logo.jpg",
-    "alt": "Bose logo",
-    "pageLink": "/"
+    "alt": "Bose logo"
   },
   {
     "brandName": "LD Systems",
     "src": "/images/brands-logos/pa-systems/ld_systems_logo.jpg",
-    "alt": "LD Systems logo",
-    "pageLink": "/"
+    "alt": "LD Systems logo"
   },
   {
     "brandName": "Monacor",
     "src": "/images/brands-logos/pa-systems/monacor_logo.jpg",
-    "alt": "Monacor logo",
-    "pageLink": "/"
+    "alt": "Monacor logo"
   },
   {
     "brandName": "Rcf",
     "src": "/images/brands-logos/pa-systems/rcf_logo.jpg",
-    "alt": "Rcf logo",
-    "pageLink": "/"
+    "alt": "Rcf logo"
   },
   {
     "brandName": "Thon",
     "src": "/images/brands-logos/brands-for-multiple-categories/thon_logo.jpg",
-    "alt": "Thon logo",
-    "pageLink": "/"
+    "alt": "Thon logo"
   },
   {
     "brandName": "Ant",
     "src": "/images/brands-logos/pa-systems/speakers/ant_logo.jpg",
-    "alt": "Ant logo",
-    "pageLink": "/"
+    "alt": "Ant logo"
   }
 ]

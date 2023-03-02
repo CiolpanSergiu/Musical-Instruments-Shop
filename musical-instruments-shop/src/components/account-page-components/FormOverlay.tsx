@@ -18,14 +18,6 @@ const StyledFormOverlay = styled.div<StyledCompProps>`
   z-index: -1;
 `;
 
-const darkTheme = {
-  opacity: ".7",
-};
-
-const lightTheme = {
-  opacity: ".9",
-};
-
 export default function FormOverlay() {
   const { isDark }: any = useContext(ThemeContext);
 

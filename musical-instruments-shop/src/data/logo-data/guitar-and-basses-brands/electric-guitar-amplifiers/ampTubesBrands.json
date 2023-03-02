@@ -2,19 +2,16 @@
   {
     "brandName": "Engl",
     "src": "/images/brands-logos/guitars-and-basses/tubes/engl_logo.jpg",
-    "alt": "Engl logo",
-    "pageLink": "/"
+    "alt": "Engl logo"
   },
   {
     "brandName": "Sovtek",
     "src": "/images/brands-logos/guitars-and-basses/tubes/sovtek_logo.jpg",
-    "alt": "Sovtek logo",
-    "pageLink": "/"
+    "alt": "Sovtek logo"
   },
   {
     "brandName": "Tube Amp Doctor",
     "src": "/images/brands-logos/guitars-and-basses/tubes/tad_logo.jpg",
-    "alt": "Tube Amp Doctor logo",
-    "pageLink": "/"
+    "alt": "Tube Amp Doctor logo"
   }
 ]

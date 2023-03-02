@@ -3,14 +3,19 @@ function formatString(str: string) {
   return str.toLocaleLowerCase().replace(/\s/gi, "");
 }
 
+type Data = {
+  title: string;
+  pageLink: string;
+};
+
 export default function filterFirstFiveSuggestions(
-  data: string[][],
+  data: Data[],
   valueToSearch: string
 ) {
   return data
-    .filter((suggestion: string[]) => {
+    .filter((suggestion: Data) => {
       if (valueToSearch !== "") {
-        return formatString(suggestion[0]).includes(
+        return formatString(suggestion.title).includes(
           formatString(valueToSearch)
         );
       }

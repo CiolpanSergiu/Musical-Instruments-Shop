@@ -6,6 +6,7 @@ import PhoneNumber from "../miscellaneous/PhoneNumber";
 import ThemeContext from "../../context/ThemeProvider";
 import { useContext } from "react";
 import { ThemeProvider } from "styled-components";
+import themes from "../../colors-and-themes/themes";
 
 type FooterProps = {
   margintop?: string;
@@ -22,7 +23,7 @@ const FooterContainer = styled.footer<FooterProps>`
   justify-content: center;
   align-items: center;
   box-shadow: 0 0 10px gray;
-  position: relative;
+  position: absolute;
   bottom: 0;
 `;
 
@@ -55,16 +56,6 @@ const Icon = styled.span`
   align-items: center;
 `;
 
-const darkTheme = {
-  bgColor: "#3d4552",
-  color: "white",
-};
-
-const lightTheme = {
-  bgColor: "white",
-  color: "#3d4552",
-};
-
 type Props = {
   marginTop?: string;
 };
@@ -73,7 +64,7 @@ export default function Footer({ marginTop }: Props) {
   const { isDark }: any = useContext(ThemeContext);
 
   return (
-    <ThemeProvider theme={isDark ? darkTheme : lightTheme}>
+    <ThemeProvider theme={isDark ? themes.darkTheme : themes.lightTheme}>
       <FooterContainer margintop={marginTop || "0"}>
         <SocialIconsContainer>
           <StyledLinkRouter to="">

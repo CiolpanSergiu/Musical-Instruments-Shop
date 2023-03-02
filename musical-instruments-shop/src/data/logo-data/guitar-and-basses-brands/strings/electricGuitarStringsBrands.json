@@ -2,73 +2,61 @@
   {
     "brandName": "D'Addario",
     "src": "/images/brands-logos/brands-for-multiple-categories/daddario_logo.jpg",
-    "alt": "D'adarrio logo",
-    "pageLink": "/"
+    "alt": "D'adarrio logo"
   },
   {
     "brandName": "Prs",
     "src": "/images/brands-logos/guitars-and-basses/prs_logo.jpg",
-    "alt": "PRS logo",
-    "pageLink": "/"
+    "alt": "PRS logo"
   },
   {
     "brandName": "Elixir",
     "src": "/images/brands-logos/guitars-and-basses/elixir_logo.jpg",
-    "alt": "Elixir logo",
-    "pageLink": "/"
+    "alt": "Elixir logo"
   },
   {
     "brandName": "Ernie Ball",
     "src": "/images/brands-logos/brands-for-multiple-categories/ernieball_logo.jpg",
-    "alt": "Ernie Ball logo",
-    "pageLink": "/"
+    "alt": "Ernie Ball logo"
   },
   {
     "brandName": "harley benton",
     "src": "/images/brands-logos/brands-for-multiple-categories/harley_benton_logo.jpg",
-    "alt": "Harley Benton logo",
-    "pageLink": "/"
+    "alt": "Harley Benton logo"
   },
   {
     "brandName": "Fender",
     "src": "/images/brands-logos/brands-for-multiple-categories/fender_logo.jpg",
-    "alt": "Fender logo",
-    "pageLink": "/"
+    "alt": "Fender logo"
   },
   {
     "brandName": "Dean Markley",
     "src": "/images/brands-logos/guitars-and-basses/strings/dean_markley_logo.jpg",
-    "alt": "Dean Markley logo",
-    "pageLink": "/"
+    "alt": "Dean Markley logo"
   },
   {
     "brandName": "Dr Strings",
     "src": "/images/brands-logos/guitars-and-basses/strings/dr_strings_logo.jpg",
-    "alt": "Dr Strings logo",
-    "pageLink": "/"
+    "alt": "Dr Strings logo"
   },
   {
     "brandName": "Ghs",
     "src": "/images/brands-logos/guitars-and-basses/strings/ghs_logo.jpg",
-    "alt": "Ghs logo",
-    "pageLink": "/"
+    "alt": "Ghs logo"
   },
   {
     "brandName": "La Bella",
     "src": "/images/brands-logos/guitars-and-basses/strings/la_bella_logo.jpg",
-    "alt": "La Bella logo",
-    "pageLink": "/"
+    "alt": "La Bella logo"
   },
   {
     "brandName": "Rotosound",
     "src": "/images/brands-logos/guitars-and-basses/strings/rotosound_logo.jpg",
-    "alt": "Rotosound logo",
-    "pageLink": "/"
+    "alt": "Rotosound logo"
   },
   {
     "brandName": "Martin Guitars",
     "src": "/images/brands-logos/guitars-and-basses/ukulele/martin_guitars_logo.jpg",
-    "alt": "Martin Guitars logo",
-    "pageLink": "/"
+    "alt": "Martin Guitars logo"
   }
 ]

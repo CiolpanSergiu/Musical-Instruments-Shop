@@ -1,5 +1,6 @@
 import styled from "styled-components";
 import { ThemeProvider } from "styled-components";
+import themes from "../../../colors-and-themes/themes";
 
 const StyledFormButton = styled.button`
   font-size: 1.2rem;
@@ -12,13 +13,6 @@ const StyledFormButton = styled.button`
   cursor: pointer;
 `;
 
-const firstButtonTheme = {
-  bgColor: "#lightgray",
-};
-const secondButtonTheme = {
-  bgColor: "lightskyblue",
-};
-
 type Props = {
   buttonOrder: string;
   buttonText: string;
@@ -27,7 +21,9 @@ type Props = {
 export default function FormButton({ buttonOrder, buttonText }: Props) {
   return (
     <ThemeProvider
-      theme={buttonOrder === "first" ? firstButtonTheme : secondButtonTheme}
+      theme={
+        buttonOrder === "first" ? themes.formFirstBtn : themes.formSecondBtn
+      }
     >
       <StyledFormButton type={buttonOrder === "first" ? "submit" : "button"}>
         {buttonText}

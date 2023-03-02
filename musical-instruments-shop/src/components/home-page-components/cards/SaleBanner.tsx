@@ -7,9 +7,8 @@ type Props = {
 };
 
 const Card = styled.div`
-  display: flex;
-  flex-direction: column;
-  position: relative;
+  display: grid;
+  grid-template-rows: 2fr 6rem;
 `;
 
 const Image = styled.img`
@@ -20,6 +19,7 @@ const Image = styled.img`
 
 const Header = styled.h2`
   width: 100%;
+  height: 100%;
   padding: 1rem;
   text-align: center;
   background-color: #f5f5f5;

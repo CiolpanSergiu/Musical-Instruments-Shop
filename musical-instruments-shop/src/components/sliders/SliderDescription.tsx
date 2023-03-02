@@ -12,7 +12,6 @@ const DescriptionContainer = styled.div`
   background-color: #3d4552;
   border-radius: 9px;
   padding: 1rem;
-  margin-top: 5rem;
   max-width: 90vw;
 `;
 

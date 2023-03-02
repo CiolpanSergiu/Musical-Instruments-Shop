@@ -1,4 +1,4 @@
-import getStoreProducts from "../../../functions/get-data-functions/getStoreProducts";
+import getProductsByCategory from "../../../functions/get-data-functions/getProductsByCategory";
 import bassPickGuardsSubcategories from "../../level-four-categories/guitar-and-basses/spare-parts/bassPickGuardsData";
 import guitarPickGuardsSubcategories from "../../level-four-categories/guitar-and-basses/spare-parts/guitarPickGuardsData";
 import saddleAndTailpiecesSubcategories from "../../level-four-categories/guitar-and-basses/spare-parts/saddlesAndTailpiecesData";
@@ -10,25 +10,25 @@ const changePartsSubcategories = [
     title: "Electric Guitar Necks",
     src: "/images/categories/level-three-categories/guitars-and-basses/spare-parts/electric_guitar_neck.jpg",
     alt: "",
-    items: getStoreProducts("electric guitar neck"),
+    items: getProductsByCategory("electric guitar neck"),
   },
   {
     title: "Electric Bass Necks",
     src: "/images/categories/level-three-categories/guitars-and-basses/spare-parts/electric_bass_neck.jpg",
     alt: "",
-    items: getStoreProducts("electric bass neck"),
+    items: getProductsByCategory("electric bass neck"),
   },
   {
     title: "Electric Guitar Bodies",
     src: "/images/categories/level-three-categories/guitars-and-basses/spare-parts/electric_guitar_body.jpg",
     alt: "",
-    items: getStoreProducts("electric guitar body"),
+    items: getProductsByCategory("electric guitar body"),
   },
   {
     title: "Electric Bass Bodies",
     src: "/images/categories/level-three-categories/guitars-and-basses/spare-parts/electric_bass_body.jpg",
     alt: "",
-    items: getStoreProducts("electric bass body"),
+    items: getProductsByCategory("electric bass body"),
   },
   {
     title: "Electric Guitar Pick Guards",
@@ -46,7 +46,7 @@ const changePartsSubcategories = [
     title: "Knobs",
     src: "/images/categories/level-three-categories/guitars-and-basses/spare-parts/guitar_knobs.jpg",
     alt: "",
-    items: getStoreProducts("knob"),
+    items: getProductsByCategory("knob"),
   },
   {
     title: "Switches",
@@ -70,13 +70,13 @@ const changePartsSubcategories = [
     title: "Jack Plates",
     src: "/images/categories/level-three-categories/guitars-and-basses/spare-parts/jack_plate.jpg",
     alt: "",
-    items: getStoreProducts("jack plate"),
+    items: getProductsByCategory("jack plate"),
   },
   {
     title: "Tuning Pegs",
     src: "/images/categories/level-three-categories/guitars-and-basses/spare-parts/guitar_pegs.jpg",
     alt: "",
-    items: getStoreProducts("tuning peg"),
+    items: getProductsByCategory("tuning peg"),
   },
 ];
 

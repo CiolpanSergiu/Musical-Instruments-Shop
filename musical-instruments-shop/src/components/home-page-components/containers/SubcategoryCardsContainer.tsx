@@ -1,6 +1,7 @@
 import styled from "styled-components";
 import SubcategoryCard from "../cards/SubcategoryCard";
 import { nanoid } from "nanoid";
+import createLink from "../../../functions/string-formatting-functions/createLink";
 
 const Container = styled.div`
   display: grid;
@@ -61,10 +62,7 @@ export default function SubcategoryCardsContainer({ data, pageTitle }: Props) {
           src={itemData.src}
           alt={itemData.alt}
           title={itemData.title}
-          pageLink={`/${itemData.title
-            .toLocaleLowerCase()
-            .replace(/[^\w]/g, "-")
-            .replace(/--+/g, "-")}`}
+          pageLink={createLink(itemData.title)}
         />
       );
     }

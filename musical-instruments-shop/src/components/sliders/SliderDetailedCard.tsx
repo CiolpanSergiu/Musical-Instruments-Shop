@@ -25,14 +25,14 @@ const CardLink = styled(Link)`
   display: flex;
   flex-direction: column;
   align-items: center;
+  justify-content: center;
 `;
 
 const CardImage = styled.img`
-  margin: 2rem auto;
   overflow: hidden;
   transition: 0.1s all ease-in-out;
-  width: 128px;
-  height: 128px;
+  width: 100%;
+  max-width: 120px;
 
   &:hover {
     transform: scale(1.2);

@@ -11,6 +11,7 @@ import ThemeContext from "../../context/ThemeProvider";
 import sendSinginFormData from "../../functions/account-related-functions/sendSinginFormData";
 import checkSinginData from "../../functions/account-related-functions/checkLoginData";
 import axios from "axios";
+import themes from "../../colors-and-themes/themes";
 
 const StyledForm = styled(Form)`
   display: flex;
@@ -56,16 +57,6 @@ const Label = styled.label`
   margin-top: 1rem;
   margin-bottom: 0.5rem;
 `;
-
-const darkTheme = {
-  bgColor: "#3d4552",
-  color: "white",
-};
-
-const lightTheme = {
-  bgColor: "white",
-  color: "#3d4552",
-};
 
 type Values = {
   fullName: string;
@@ -133,7 +124,7 @@ export default function SinginForm() {
   };
 
   return (
-    <ThemeProvider theme={isDark ? darkTheme : lightTheme}>
+    <ThemeProvider theme={isDark ? themes.darkTheme : themes.lightTheme}>
       <Formik
         initialValues={initialValues}
         onSubmit={onSubmit}

@@ -1,4 +1,4 @@
-import getStoreProducts from "../../../../functions/get-data-functions/getStoreProducts";
+import getProductsByCategory from "../../../../functions/get-data-functions/getProductsByCategory";
 import strapBrands from "../../../logo-data/guitar-and-basses-brands/accesories/strapBrands.json";
 
 export default {
@@ -9,13 +9,13 @@ export default {
       title: "Leather Straps",
       src: "/images/categories/level-four-categories/guitars-and-basses/accesories/straps/leather_strap.jpg",
       alt: "A strap made out of leather",
-      items: getStoreProducts("guitar leather strap"),
+      items: getProductsByCategory("guitar leather strap"),
     },
     {
       title: "Nylon Straps",
       src: "/images/categories/level-four-categories/guitars-and-basses/accesories/straps/nylon_strap.jpg",
       alt: "A strap made out of nylon",
-      items: getStoreProducts("guitar nylon strap"),
+      items: getProductsByCategory("guitar nylon strap"),
     },
   ],
 };

@@ -2,18 +2,16 @@ import { Link } from "react-router-dom";
 import { HiOutlineShoppingCart } from "react-icons/hi";
 import { FaRegUserCircle } from "react-icons/fa";
 import NavbarMenu from "./NavbarMenu";
-import { MouseEventHandler } from "react";
 import styled from "styled-components";
 import PhoneNumber from "../miscellaneous/PhoneNumber";
 import ThemeContext from "../../context/ThemeProvider";
 import { useContext } from "react";
 import { ThemeProvider } from "styled-components";
-import UserMenu from "../miscellaneous/UserMenu";
 import ShoppingCartContext from "../../context/ShoppingCartContext";
 
 type Props = {
   isOpen: boolean;
-  handleClick: MouseEventHandler<HTMLDivElement>;
+  handleClick: () => void;
 };
 
 const StyledRouterLink = styled(Link)`
@@ -82,7 +80,6 @@ export default function NavbarTools({ isOpen, handleClick }: Props) {
               <FaRegUserCircle />
             </UserIcon>
           </StyledRouterLink>
-          <UserMenu />
         </UserButtonContainer>
         <StyledRouterLink to="/shopping-cart">
           <ShoppingCart>
@@ -90,10 +87,7 @@ export default function NavbarTools({ isOpen, handleClick }: Props) {
             <QuantityBubble>{cartItemsQuantity}</QuantityBubble>
           </ShoppingCart>
         </StyledRouterLink>
-        <NavbarMenu
-          handleClick={handleClick}
-          menuClass={isOpen ? "bars-menu-close" : "bars-menu-open"}
-        />
+        <NavbarMenu handleClick={handleClick} isOpen={isOpen} />
       </TooldsContainer>
     </ThemeProvider>
   );

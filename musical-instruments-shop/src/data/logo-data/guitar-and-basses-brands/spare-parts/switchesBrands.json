@@ -2,55 +2,46 @@
   {
     "brandName": "Gibson",
     "src": "/images/brands-logos/guitars-and-basses/gibson_logo.jpg",
-    "alt": "Gibson logo",
-    "pageLink": "/"
+    "alt": "Gibson logo"
   },
   {
     "brandName": "Schaller",
     "src": "/images/brands-logos/guitars-and-basses/spare-parts/schaller_logo.jpg",
-    "alt": "Schaller logo",
-    "pageLink": "/"
+    "alt": "Schaller logo"
   },
   {
     "brandName": "AllParts",
     "src": "/images/brands-logos/guitars-and-basses/spare-parts/allparts_logo.jpg",
-    "alt": "AllParts logo",
-    "pageLink": "/"
+    "alt": "AllParts logo"
   },
   {
     "brandName": "Fender",
     "src": "/images/brands-logos/brands-for-multiple-categories/fender_logo.jpg",
-    "alt": "Fender logo",
-    "pageLink": "/"
+    "alt": "Fender logo"
   },
   {
     "brandName": "Gibson",
     "src": "/images/brands-logos/guitars-and-basses/gibson_logo.jpg",
-    "alt": "Gibson logo",
-    "pageLink": "/"
+    "alt": "Gibson logo"
   },
   {
     "brandName": "EMG Pickups",
     "src": "/images/brands-logos/guitars-and-basses/pickups/emg_pickups_logo.jpg",
-    "alt": "EMG Pickups logo",
-    "pageLink": "/"
+    "alt": "EMG Pickups logo"
   },
   {
     "brandName": "Lollar",
     "src": "/images/brands-logos/guitars-and-basses/pickups/lollar_logo.jpg",
-    "alt": "Lollar logo",
-    "pageLink": "/"
+    "alt": "Lollar logo"
   },
   {
     "brandName": "Mojotone",
     "src": "/images/brands-logos/guitars-and-basses/pickups/mojotone_logo.jpg",
-    "alt": "Mojotone logo",
-    "pageLink": "/"
+    "alt": "Mojotone logo"
   },
   {
     "brandName": "Dimarzio",
     "src": "/images/brands-logos/guitars-and-basses/dimarzio_logo.jpg",
-    "alt": "DiMarzio logo",
-    "pageLink": "/"
+    "alt": "DiMarzio logo"
   }
 ]

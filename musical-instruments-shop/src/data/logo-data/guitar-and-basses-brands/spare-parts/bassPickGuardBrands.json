@@ -2,25 +2,21 @@
   {
     "brandName": "Fender",
     "src": "/images/brands-logos/brands-for-multiple-categories/fender_logo.jpg",
-    "alt": "Fender logo",
-    "pageLink": "/"
+    "alt": "Fender logo"
   },
   {
     "brandName": "D'Andrea",
     "src": "/images/brands-logos/guitars-and-basses/spare-parts/dandrea_logo.jpg",
-    "alt": "D'Andrea logo",
-    "pageLink": "/"
+    "alt": "D'Andrea logo"
   },
   {
     "brandName": "Hofner",
     "src": "/images/brands-logos/guitars-and-basses/electric-basses/hofner_logo.jpg",
-    "alt": "Hofner logo",
-    "pageLink": "/"
+    "alt": "Hofner logo"
   },
   {
     "brandName": "Music Man",
     "src": "/images/brands-logos/guitars-and-basses/electric-guitars/music_man_logo.jpg",
-    "alt": "Music Man logo",
-    "pageLink": "/"
+    "alt": "Music Man logo"
   }
 ]

@@ -1,6 +1,6 @@
 import bassAmplifierHeadsSubcategories from "../../level-four-categories/guitar-and-basses/amplifiers/bassAmpliferHeads";
 import bassAmplifiersSubcategories from "../../level-four-categories/guitar-and-basses/amplifiers/bassAmplifiers";
-import getStoreProducts from "../../../functions/get-data-functions/getStoreProducts";
+import getProductsByCategory from "../../../functions/get-data-functions/getProductsByCategory";
 
 export default [
   {
@@ -19,36 +19,36 @@ export default [
     title: "Bass Preamplifiers",
     src: "/images/categories/level-three-categories/guitars-and-basses/electric-bass-amps/bass_preamplifier.jpg",
     alt: "",
-    items: getStoreProducts("electric bass preamp"),
+    items: getProductsByCategory("electric bass preamp"),
   },
   {
     title: "1x15 Bass Cabinets",
     src: "/images/categories/level-three-categories/guitars-and-basses/electric-bass-amps/1x15_bass_cab.jpg",
     alt: "",
-    items: getStoreProducts("1x15 electric bass amp head cabinet"),
+    items: getProductsByCategory("1x15 electric bass amp head cabinet"),
   },
   {
     title: "2x10 Bass Cabinets",
     src: "/images/categories/level-three-categories/guitars-and-basses/electric-bass-amps/2x10_bass_cab.jpg",
     alt: "",
-    items: getStoreProducts("2x10 electric bass amp head cabinet"),
+    items: getProductsByCategory("2x10 electric bass amp head cabinet"),
   },
   {
     title: "4x10 Bass Cabinets",
     src: "/images/categories/level-three-categories/guitars-and-basses/electric-bass-amps/4x10_bass_cab.jpg",
     alt: "",
-    items: getStoreProducts("4x10 electric bass amp head cabinet"),
+    items: getProductsByCategory("4x10 electric bass amp head cabinet"),
   },
   {
     title: "8x10 Bass Cabinets",
     src: "/images/categories/level-three-categories/guitars-and-basses/electric-bass-amps/8x10_bass_cab.jpg",
     alt: "",
-    items: getStoreProducts("8x10 electric bass amp head cabinet"),
+    items: getProductsByCategory("8x10 electric bass amp head cabinet"),
   },
   {
     title: "Amplifier Cover Bags",
     src: "/images/categories/level-three-categories/guitars-and-basses/electric-bass-amps/amp_cover_bag.jpg",
     alt: "",
-    items: getStoreProducts("electric bass amp cover bag"),
+    items: getProductsByCategory("electric bass amp cover bag"),
   },
 ];

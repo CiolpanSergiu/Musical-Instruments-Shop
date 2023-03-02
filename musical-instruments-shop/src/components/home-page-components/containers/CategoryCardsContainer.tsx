@@ -2,6 +2,7 @@ import itemsCategories from "../../../data/level-one-categories/mainCategory.js"
 import CategoryCard from "../cards/CategoryCard";
 import { nanoid } from "nanoid";
 import styled from "styled-components";
+import createLink from "../../../functions/string-formatting-functions/createLink.js";
 
 const Section = styled.section`
   display: flex;
@@ -42,10 +43,7 @@ export default function CategoryCardsContainer() {
       imgSrc={categoryCardData.src}
       imgAlt={categoryCardData.alt}
       header={categoryCardData.title}
-      pageLink={`/${categoryCardData.title
-        .toLocaleLowerCase()
-        .replace(/[^\w]/g, "-")
-        .replace(/--+/g, "-")}`}
+      pageLink={createLink(categoryCardData.title)}
     />
   ));
 

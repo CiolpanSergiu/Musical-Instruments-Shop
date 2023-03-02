@@ -21,6 +21,13 @@ const PageHeader = styled.h1`
   }
 `;
 
+const EmptyPageMsg = styled.h2`
+  text-align: center;
+  font-size: 2.5rem;
+  font-weight: 500;
+  margin: 1rem;
+`;
+
 type Props = {
   pageTitle: string;
   itemsData: Product[];
@@ -45,7 +52,18 @@ export default function ShoppingPageContainer({ pageTitle, itemsData }: Props) {
   return (
     <>
       <PageHeader>{pageTitle}</PageHeader>
-      <Container>{cards}</Container>
+      <Container>
+        {itemsData.length > 0 ? (
+          cards
+        ) : (
+          <div>
+            <EmptyPageMsg>We are sorry !</EmptyPageMsg>
+            <EmptyPageMsg>
+              No items of this category / brand found !
+            </EmptyPageMsg>
+          </div>
+        )}
+      </Container>
     </>
   );
 }

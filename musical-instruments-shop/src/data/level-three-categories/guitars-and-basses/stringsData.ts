@@ -1,7 +1,7 @@
 import electricGuitarStringsSubcategories from "../../level-four-categories/guitar-and-basses/strings/electricGuitarStringsData";
 import acousticGuitarStringsSubcategories from "../../level-four-categories/guitar-and-basses/strings/acousticGuitarStringsData";
 import electricBassStringsSubcategories from "../../level-four-categories/guitar-and-basses/strings/electricBassStringsData";
-import getStoreProducts from "../../../functions/get-data-functions/getStoreProducts";
+import getProductsByCategory from "../../../functions/get-data-functions/getProductsByCategory";
 
 const stringsSubcategories = [
   {
@@ -20,7 +20,7 @@ const stringsSubcategories = [
     title: "Classic Guitar Strings",
     src: "/images/categories/level-three-categories/guitars-and-basses/strings/classic_guitar_strings.jpg",
     alt: "",
-    items: getStoreProducts("classic guitar strings"),
+    items: getProductsByCategory("classic guitar strings"),
   },
   {
     title: "Electric Bass Strings",
@@ -32,13 +32,13 @@ const stringsSubcategories = [
     title: "Acoustic Bass Strings",
     src: "/images/categories/level-three-categories/guitars-and-basses/strings/acoustic_bass_strings.jpg",
     alt: "",
-    items: getStoreProducts("acoustic bass strings"),
+    items: getProductsByCategory("acoustic bass strings"),
   },
   {
     title: "Ukulele Strings",
     src: "/images/categories/level-three-categories/guitars-and-basses/ukulele/ukulele_strings.jpg",
     alt: "",
-    items: getStoreProducts("ukulele strings"),
+    items: getProductsByCategory("ukulele strings"),
   },
 ];
 

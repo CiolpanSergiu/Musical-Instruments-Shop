@@ -3,6 +3,7 @@ import ContactProgramTable from "./ContactProgramTable";
 import { ThemeProvider } from "styled-components";
 import { useContext } from "react";
 import ThemeContext from "../../context/ThemeProvider";
+import themes from "../../colors-and-themes/themes";
 
 const DetailsContainer = styled.div`
   background-color: ${(props) => props.theme.bgColor};
@@ -19,7 +20,7 @@ const DetailsContainer = styled.div`
 const MainTitle = styled.h1`
   font-size: 1.75rem;
   margin-bottom: 1rem;
-  color: ${(props) => props.theme.titleColor};
+  color: ${(props) => props.theme.color};
   font-weight: 500;
 
   @media only screen and (min-width: 768px) {
@@ -63,23 +64,11 @@ const Li = styled.li`
   font-size: 0.9rem;
 `;
 
-const darkTheme = {
-  titleColor: "lightskyblue",
-  color: "white",
-  bgColor: "#363c40",
-};
-
-const lightTheme = {
-  titleColor: "dodgerblue",
-  color: "black",
-  bgColor: "white",
-};
-
 export default function ContactPageDetails() {
   const { isDark }: any = useContext(ThemeContext);
 
   return (
-    <ThemeProvider theme={isDark ? darkTheme : lightTheme}>
+    <ThemeProvider theme={isDark ? themes.darkTheme : themes.lightTheme}>
       <DetailsContainer>
         <MainTitle>Need help of any kind ?</MainTitle>
         <Subtitle>Contact Us Now!</Subtitle>

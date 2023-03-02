@@ -8,8 +8,9 @@ import recordingAndStudioProducts from "./recordingAndStudio";
 import softwaresProducts from "./softwares";
 import traditionalInstrumentsProducts from "./traditionalInstruments";
 import { allPopularItems } from "../popular-items/allPopularItems";
+import removeDuplicatedProducts from "../../functions/get-data-functions/removeDuplicatedProducts";
 
-export default [
+const allProducts = removeDuplicatedProducts([
   ...allPopularItems,
   ...guitarsAndBassesProducts,
   ...drumsAndPercussionProducts,
@@ -20,4 +21,6 @@ export default [
   ...recordingAndStudioProducts,
   ...softwaresProducts,
   ...traditionalInstrumentsProducts,
-];
+]);
+
+export default allProducts;

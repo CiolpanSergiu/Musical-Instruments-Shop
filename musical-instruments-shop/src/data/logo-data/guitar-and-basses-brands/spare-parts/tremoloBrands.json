@@ -2,55 +2,46 @@
   {
     "brandName": "Abm",
     "src": "/images/brands-logos/guitars-and-basses/spare-parts/abm_logo.jpg",
-    "alt": "Abm logo",
-    "pageLink": "/"
+    "alt": "Abm logo"
   },
   {
     "brandName": "AllParts",
     "src": "/images/brands-logos/guitars-and-basses/spare-parts/allparts_logo.jpg",
-    "alt": "AllParts logo",
-    "pageLink": "/"
+    "alt": "AllParts logo"
   },
   {
     "brandName": "Babicz",
     "src": "/images/brands-logos/guitars-and-basses/spare-parts/babicz_logo.jpg",
-    "alt": "Babicz logo",
-    "pageLink": "/"
+    "alt": "Babicz logo"
   },
   {
     "brandName": "Gotoh",
     "src": "/images/brands-logos/guitars-and-basses/spare-parts/gotoh_logo.jpg",
-    "alt": "Gotoh logo",
-    "pageLink": "/"
+    "alt": "Gotoh logo"
   },
   {
     "brandName": "Schaller",
     "src": "/images/brands-logos/guitars-and-basses/spare-parts/schaller_logo.jpg",
-    "alt": "Schaller logo",
-    "pageLink": "/"
+    "alt": "Schaller logo"
   },
   {
     "brandName": "Graph Tech",
     "src": "/images/brands-logos/guitars-and-basses/acoustic-guitar-amps/graph_tech_logo.jpg",
-    "alt": "Graph Tech logo",
-    "pageLink": "/"
+    "alt": "Graph Tech logo"
   },
   {
     "brandName": "Floyd Rose",
     "src": "/images/brands-logos/guitars-and-basses/tremolos/floyd_rose_logo.jpg",
-    "alt": "Floyd Rose logo",
-    "pageLink": "/"
+    "alt": "Floyd Rose logo"
   },
   {
     "brandName": "Bigsby",
     "src": "/images/brands-logos/guitars-and-basses/tremolos/bigsby_logo.jpg",
-    "alt": "Bigsby logo",
-    "pageLink": "/"
+    "alt": "Bigsby logo"
   },
   {
     "brandName": "Big Bends",
     "src": "/images/brands-logos/guitars-and-basses/tremolos/big_bends_logo.jpg",
-    "alt": "Big Bends logo",
-    "pageLink": "/"
+    "alt": "Big Bends logo"
   }
 ]

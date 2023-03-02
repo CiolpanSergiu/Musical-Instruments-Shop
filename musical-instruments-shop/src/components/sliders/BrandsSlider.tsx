@@ -54,7 +54,6 @@ type Data = {
   brandName: string;
   src: string;
   alt: string;
-  pageLink: string;
 };
 
 type DataArray = Data[];

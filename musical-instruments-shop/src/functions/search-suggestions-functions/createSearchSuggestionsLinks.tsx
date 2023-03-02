@@ -1,8 +1,13 @@
 import SuggestionLink from "../../components/navbar-components/SuggestionLink";
 import { nanoid } from "nanoid";
 
+type Data = {
+  title: string;
+  pageLink: string;
+};
+
 export default function createSuggestionsList(
-  data: string[][],
+  data: Data[],
   clearFunction: () => void
 ) {
   return data.map((suggestion) => {
@@ -10,8 +15,8 @@ export default function createSuggestionsList(
       return (
         <SuggestionLink
           key={nanoid()}
-          linkText={suggestion[0]}
-          pageLink={suggestion[1]}
+          linkText={suggestion.title}
+          pageLink={suggestion.pageLink}
           handleClick={clearFunction}
         ></SuggestionLink>
       );

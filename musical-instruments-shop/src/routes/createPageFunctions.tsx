@@ -4,15 +4,13 @@ import ShoppingPage from "../pages/shopping-pages/ShoppingPage";
 import { nanoid } from "nanoid";
 import ItemPage from "../components/item-page-components/ItemPage";
 import { Product } from "../types/commonTypes";
+import createLink from "../functions/string-formatting-functions/createLink";
 // unknown because not all objects in data array have the same structure;
 
 export function createCategoryPages(data: unknown) {
   if (Array.isArray(data)) {
     return data.map((category) => {
-      const pageLink = `/${category.title
-        .toLocaleLowerCase()
-        .replace(/[^\w]/g, "-")
-        .replace(/--+/g, "-")}`;
+      const pageLink = createLink(category.title);
       if (category.hasOwnProperty("subcategories")) {
         return (
           <Route
@@ -49,10 +47,7 @@ export function createShoppingPageRoute(
 }
 
 export function createItemDetailsPageRoute(product: Product) {
-  const pageLink = `/${product.title
-    .toLocaleLowerCase()
-    .replace(/[^\w]/g, "-")
-    .replace(/--+/g, "-")}`;
+  const pageLink = createLink(product.title);
 
   return (
     <Route

@@ -1,6 +1,5 @@
 import { useState, useEffect, useContext } from "react";
 import { nanoid } from "nanoid";
-import NavbarMenu from "./NavbarMenu";
 import NavbarCategoryLink from "./NavbarCategoryLink";
 import data from "../../data/level-one-categories/mainCategory.js";
 import NavbarSearchBox from "./NavbarSearchBox";
@@ -11,6 +10,8 @@ import styled from "styled-components";
 import ThemeSwitch from "../miscellaneous/ThemeSwitch";
 import ThemeContext from "../../context/ThemeProvider";
 import { ThemeProvider } from "styled-components";
+import themes from "../../colors-and-themes/themes";
+import Overlay from "../miscellaneous/Overlay";
 
 const NavbarContainer = styled.nav`
   width: 100%;
@@ -44,9 +45,16 @@ const SearchBarRow = styled.div`
   padding-bottom: 1rem;
 `;
 
-const Overlay = styled.div`
+const CloseBtn = styled.div`
+  cursor: pointer;
+  font-size: 2rem;
+  position: absolute;
+  top: 1rem;
+  right: 2rem;
+  color: ${(props) => props.theme.color};
+
   @media only screen and (min-width: 768px) {
-    width: 100%;
+    font-size: 3rem;
   }
 `;
 
@@ -54,7 +62,7 @@ type NavbarContentType = {
   open: boolean;
 };
 
-const NavbarContent = styled.div<NavbarContentType>`
+const NavbarOpenContent = styled.div<NavbarContentType>`
   background-color: ${(props) => props.theme.bgColor};
   position: absolute;
   height: 100vh;
@@ -66,34 +74,12 @@ const NavbarContent = styled.div<NavbarContentType>`
   align-items: center;
   justify-content: center;
   flex-direction: column;
-  z-index: 99;
+  z-index: 9999;
 
   @media only screen and (min-width: 768px) {
     width: 40%;
-    z-index: 9;
   }
 `;
-
-const NavbarContentExtendedArea = styled.div`
-  @media only screen and (min-width: 768px) {
-    background-color: lightgray;
-    width: 100%;
-    height: 100vh;
-    opacity: 0.5;
-    position: absolute;
-    top: 0;
-  }
-`;
-
-const darkTheme = {
-  bgColor: "#3d4552",
-  color: "white",
-};
-
-const lightTheme = {
-  bgColor: "white",
-  color: "#3d4552",
-};
 
 export default function Navbar() {
   const [isMenuOpen, setIsMenuOpen] = useState<boolean>(false);
@@ -118,7 +104,7 @@ export default function Navbar() {
   const { isDark }: any = useContext(ThemeContext);
 
   return (
-    <ThemeProvider theme={isDark ? darkTheme : lightTheme}>
+    <ThemeProvider theme={isDark ? themes.darkTheme : themes.lightTheme}>
       <NavbarContainer>
         <DetailsRow>
           <WebsiteLogo />
@@ -129,24 +115,13 @@ export default function Navbar() {
           <NavbarSearchBox />
           <ThemeSwitch />
         </SearchBarRow>
-        <Overlay>
-          <NavbarContent open={isMenuOpen}>
-            {navbarContentElements}
-          </NavbarContent>
-
-          <NavbarMenu
-            handleClick={toggleMenu}
-            menuClass={
-              isMenuOpen
-                ? "bars-menu-close opened-bars-menu"
-                : "bars-menu-open closed-bars-menu"
-            }
-          />
-          <NavbarContentExtendedArea
-            style={{ display: isMenuOpen ? "block" : "none" }}
-            onClick={toggleMenu}
-          ></NavbarContentExtendedArea>
-        </Overlay>
+        {isMenuOpen && window.innerWidth >= 768 && (
+          <Overlay handleClose={toggleMenu} />
+        )}
+        <NavbarOpenContent open={isMenuOpen}>
+          {navbarContentElements}
+          <CloseBtn onClick={toggleMenu}>X</CloseBtn>
+        </NavbarOpenContent>
       </NavbarContainer>
     </ThemeProvider>
   );

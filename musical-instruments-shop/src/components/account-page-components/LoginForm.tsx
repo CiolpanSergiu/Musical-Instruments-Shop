@@ -15,6 +15,7 @@ import ShoppingCartContext from "../../context/ShoppingCartContext";
 import { User } from "../../types/commonTypes";
 import { updateCartTotalQuantity } from "../../functions/shopping-cart-functions/updateCartTotalQuantity";
 import { updateItemsInCart } from "../../functions/shopping-cart-functions/updateItemsInCart";
+import themes from "../../colors-and-themes/themes";
 
 const StyledForm = styled(Form)`
   display: flex;
@@ -61,16 +62,6 @@ const Label = styled.label`
   margin-bottom: 0.5rem;
 `;
 
-const darkTheme = {
-  bgColor: "#3d4552",
-  color: "white",
-};
-
-const lightTheme = {
-  bgColor: "white",
-  color: "#3d4552",
-};
-
 type Values = {
   email: string;
   password: string;
@@ -104,13 +95,6 @@ export default function LoginForm() {
   const [isLoginDataIncorrect, setIsLoginDataIncorrect] =
     useState<boolean>(false);
 
-  // until i think of a solution
-  // const [stayLogged, setStayLogged] = useState<boolean>(false);
-
-  // function toggleCheckbox() {
-  //   setStayLogged((prevState: boolean) => !prevState);
-  // }
-
   const onSubmit = (values: Values) => {
     const url = "http://localhost:5174/api/users";
     axios
@@ -133,7 +117,7 @@ export default function LoginForm() {
   };
 
   return (
-    <ThemeProvider theme={isDark ? darkTheme : lightTheme}>
+    <ThemeProvider theme={isDark ? themes.darkTheme : themes.lightTheme}>
       <Formik
         initialValues={initialValues}
         onSubmit={onSubmit}
@@ -176,19 +160,6 @@ export default function LoginForm() {
           <StyledErrorMessage>
             <ErrorMessage name="password" />
           </StyledErrorMessage>
-
-          {/* until i find a solution */}
-          {/* <FlexRowDiv>
-            <StyledCheckbox
-              type="checkbox"
-              id="stayLogged"
-              name="stayLogged"
-              checked={stayLogged}
-              onChange={toggleCheckbox}
-            />
-            <label htmlFor="stayLogged">Keep me logged</label>
-          </FlexRowDiv> */}
-
           <FormButton buttonOrder="first" buttonText="Login" />
 
           <CenteredSmallSpan text="Don't have an account?" />

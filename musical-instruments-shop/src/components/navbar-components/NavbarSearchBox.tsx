@@ -5,7 +5,7 @@ import { useState, useEffect } from "react";
 import filterFirstFiveSuggestions from "../../functions/search-suggestions-functions/filterSearchSuggestions";
 import createSuggestionsList from "../../functions/search-suggestions-functions/createSearchSuggestionsLinks";
 import SuggestionsModal from "./SuggestionsModal";
-import uniqueBrandsSuggestions from "../../data/suggestions/brandsSuggestions";
+import allUniqueBrands from "../../data/suggestions/brandsSuggestions";
 import uniqueProducts from "../../data/suggestions/productsSuggestions";
 
 const Form = styled.form`
@@ -93,7 +93,7 @@ export default function NavbarSearchBox() {
   );
 
   const filteredBrandsSuggestions = filterFirstFiveSuggestions(
-    uniqueBrandsSuggestions,
+    allUniqueBrands,
     searchBoxValue
   );
 
