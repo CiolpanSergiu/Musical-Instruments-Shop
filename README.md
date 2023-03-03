@@ -4,6 +4,29 @@ This project simulate an online store for musical instruments where users can se
 
 The project was mainly meant to help me learn how to use typescript and react (which is why many questionable/dumb code might be present ) as well as many other things.
 
+## Notes:
+
+1. Right now only the Guitar and Basses and it's subcategories have shopping items in it in order to save time
+2. Most jsons files in data folder will be converted in ts files(currently only the guitars-and-basses folder is converted)
+3. Most jsons/ts data files have an alt property for images alt which is empty for time saving (the quantity of data was big and I wanted to focus on learning and website functionality),
+4. The website is not fully complete but it is in a state where it looks decent and has most of the functionality done(which was the main goal) including:
+   1. categories and subcategories navigation,
+   2. functional search bar,
+   3. login/singin/logout system,
+   4. functional shopping cart,
+   5. user data editing (phone number, country, full name, password) excepting email,
+   6. placing orders
+   7. orders history
+   8. orders cancelling for orders within 1 hour since placement
+   9. contact page where you can send a message/feedback
+   10. persistent shopping cart and orders history throught different accounts
+5. Legend:
+   1. Category Page = the 9 main categories cards on the home page,
+   2. Subcategory Page = A category page subpage,
+   3. Shopping Page = A page that contain cards with different shop items,
+   4. Item Page = A page that contains details about a single items
+6. This website images, prices and navigation structure(mostly) were taken from [https://www.thomann.de/ro/index.html] along with some page desing,
+
 ## Technologies that helped the creation of this page
 
 - **React**
@@ -31,9 +54,10 @@ Follow these steps in order to set up this app
   git clone https://github.com/CiolpanSergiu/Shopping-Page.git
 ```
 
-2. Select this project folder using
+2. Select this project folder using (it might be nested inside another folder but this should be the final one)
 
 ```sh
+  cd <previous folder name>
   cd musical-instruments-shop
 ```
 
@@ -51,7 +75,7 @@ Follow these steps in order to set up this app
 
 If you want to be able to create an account, log in and use this webstie to it's fullest you will need to go to
 [https://www.mongodb.com/] and create an account (which is free if you choose the free plan). You can watch [https://www.youtube.com/watch?v=scVi_6xqAEc&ab_channel=Headhonk] if you have trouble. After reaching the 7:06 video mark pause it and create a .env file
-in the musical-instruments-shop in your cloned folder. in it you will create a variable like this:
+in the musical-instruments-shop cloned folder. In it create a variable named exactly like this:
 
 ```sh
   MONGO_DB_URL=""
@@ -64,6 +88,12 @@ Now got back to the video and until 9:08 video mark. Copy your link and put it i
 ```
 
 Next replace <password> from your variable with your password and you are ready to go;
+
+Example of a final .env file:
+
+```sh
+  MONGO_DB_URL="mongodb+srv://TestUsername:StrongestPassword3452@MyUsersDB.aptr19m.mongodb.net/?retryWrites=true&w=majority"
+```
 
 1. Open another terminal window and select this project folder using
 
