@@ -3,7 +3,7 @@ import acousticGuitarStringsSubcategories from "../../level-four-categories/guit
 import electricBassStringsSubcategories from "../../level-four-categories/guitar-and-basses/strings/electricBassStringsData";
 import getProductsByCategory from "../../../functions/get-data-functions/getProductsByCategory";
 
-const stringsSubcategories = [
+export default [
   {
     title: "Electric Guitar Strings",
     src: "/images/categories/level-three-categories/guitars-and-basses/strings/electric_guitar_strings.jpg",
@@ -41,5 +41,3 @@ const stringsSubcategories = [
     items: getProductsByCategory("ukulele strings"),
   },
 ];
-
-export default stringsSubcategories;

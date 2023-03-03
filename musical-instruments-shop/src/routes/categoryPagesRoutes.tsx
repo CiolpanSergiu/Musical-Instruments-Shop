@@ -1,6 +1,6 @@
 import { createCategoryPages } from "./createPageFunctions";
-import { allCategories } from "../functions/get-data-functions/getCategoriesData";
+import { allLevelsData } from "../data/categories-data/allLevelsData";
 
-const allCategoryPages = createCategoryPages(allCategories);
+const allCategoryPages = createCategoryPages(allLevelsData);
 
 export default allCategoryPages;

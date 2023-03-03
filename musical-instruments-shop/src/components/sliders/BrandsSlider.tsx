@@ -40,10 +40,11 @@ const SliderContainer = styled.div`
   margin: 0 5vw;
 `;
 
-const Header2 = styled.h2`
+const Header = styled.h2`
   margin: 4rem 0 2rem 0;
   color: #404040;
   text-decoration: underline lightskyblue 3px;
+  font-size: 2rem;
 
   @media only screen and (min-width: 768px) {
     font-size: 2.5rem;
@@ -125,7 +126,7 @@ export default function BrandsSlider({ title, data }: Props) {
 
   return (
     <SliderContainer>
-      <Header2>{title}</Header2>
+      <Header>{title}</Header>
       <Slider {...settings}>{sliderRowOneCards}</Slider>
     </SliderContainer>
   );

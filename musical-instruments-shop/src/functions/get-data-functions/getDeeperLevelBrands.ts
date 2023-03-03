@@ -22,7 +22,7 @@ type Category = {
 export default function getDeeperLevelBrands(data: unknown) {
   if (Array.isArray(data)) {
     return data
-      .filter((category: boolean) => {
+      .filter((category: Category) => {
         return category.hasOwnProperty("brands");
       })
       .map((category: Category) => {

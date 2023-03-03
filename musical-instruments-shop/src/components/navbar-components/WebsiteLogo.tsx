@@ -2,6 +2,7 @@ import ThemeContext from "../../context/ThemeProvider";
 import { useContext } from "react";
 import styled from "styled-components";
 import { ThemeProvider } from "styled-components";
+import themes from "../../colors-and-themes/themes";
 
 const Logo = styled.h3`
   color: ${(props) => props.theme.color};
@@ -9,21 +10,11 @@ const Logo = styled.h3`
   margin: 1rem;
 `;
 
-const darkTheme = {
-  bgColor: "#3d4552",
-  color: "white",
-};
-
-const lightTheme = {
-  bgColor: "white",
-  color: "#3d4552",
-};
-
 export default function WebsiteLogo() {
   const { isDark }: any = useContext(ThemeContext);
 
   return (
-    <ThemeProvider theme={isDark ? darkTheme : lightTheme}>
+    <ThemeProvider theme={isDark ? themes.darkTheme : themes.lightTheme}>
       <Logo>SergiuGuitars</Logo>
     </ThemeProvider>
   );

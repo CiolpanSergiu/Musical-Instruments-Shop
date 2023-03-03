@@ -1,25 +1,42 @@
 import capitalizeWords from "../string-formatting-functions/capitalizeWords";
 import createLink from "../string-formatting-functions/createLink";
-import {
-  instrumentsCategoryData,
-  levelTwoCategories,
-  levelThreeCategories,
-  levelFourCategories,
-  levelFiveCategories,
-} from "./getCategoriesData";
+import mainCategory from "../../data/level-one-categories/mainCategory";
+import allLevelTwoData from "../../data/categories-data/allLevelTwoCategories";
+import allLevelThreeData from "../../data/categories-data/allLevelThreeData";
+import allLevelFourData from "../../data/categories-data/allLevelFourData";
+import allLevelFiveData from "../../data/categories-data/allLevelFiveData";
 import getDeeperLevelBrands from "./getDeeperLevelBrands";
 
-const mainCategoriesBrands = getDeeperLevelBrands(instrumentsCategoryData);
+type Brands =
+  | {
+      src: string;
+      alt: string;
+      brandName: string;
+      pageLink: string;
+    }[]
+  | undefined;
 
-const levelTwoCategoriesBrands = getDeeperLevelBrands(levelTwoCategories);
+const mainCategoriesBrands: Brands = getDeeperLevelBrands(mainCategory);
 
-const levelThreeCategoriesBrands = getDeeperLevelBrands(levelThreeCategories);
+const levelTwoCategoriesBrands: Brands = getDeeperLevelBrands(allLevelTwoData);
 
-const levelFourCategoriesBrands = getDeeperLevelBrands(levelFourCategories);
+const levelThreeCategoriesBrands: Brands =
+  getDeeperLevelBrands(allLevelThreeData);
 
-const levelFiveCategoriesBrands = getDeeperLevelBrands(levelFiveCategories);
+const levelFourCategoriesBrands: Brands =
+  getDeeperLevelBrands(allLevelFourData);
 
-const allBrands = [
+const levelFiveCategoriesBrands: Brands =
+  getDeeperLevelBrands(allLevelFiveData);
+
+type AllBrands =
+  | {
+      title: string;
+      pageLink: string;
+    }
+  | undefined;
+
+const allBrands: AllBrands[] = [
   mainCategoriesBrands,
   levelTwoCategoriesBrands,
   levelThreeCategoriesBrands,

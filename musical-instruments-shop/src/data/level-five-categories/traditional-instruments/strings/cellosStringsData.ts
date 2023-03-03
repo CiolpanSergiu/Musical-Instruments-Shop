@@ -6,7 +6,7 @@ export default {
   brands: celloStringsBrands,
   subcategories: [
     {
-      title: "Cello Strings",
+      title: "Cello Strings Set",
       src: "/images/categories/level-five-categories/traditional-instruments/cello-strings/cello_strings.jpg",
       alt: "A pack of cello strings",
       pageLink: "/cello-strings-1",

@@ -6,7 +6,7 @@ export default {
   brands: doublebassAccesoriesBrands,
   subcategories: [
     {
-      title: "Strings",
+      title: "Doublebass Strings",
       src: "/images/categories/level-four-categories/traditional-instruments/stringed-instruments/doublebasses/doublebass_strings.jpg",
       alt: "A pack of doublebass strings",
       pageLink: "/doublebass-strings",
@@ -18,31 +18,31 @@ export default {
       pageLink: "/doublebass-stands",
     },
     {
-      title: "Pickups",
+      title: "Doublebass Pickups",
       src: "/images/categories/level-four-categories/traditional-instruments/stringed-instruments/doublebasses/doublebass_pickup.jpg",
       alt: "A doublebass pickup",
       pageLink: "/doublebass-pickups",
     },
     {
-      title: "Amplifiers",
+      title: "Doublebass Amplifiers",
       src: "/images/categories/level-four-categories/traditional-instruments/stringed-instruments/doublebasses/doublebass_amplifier.jpg",
       alt: "A doublebass amplifier",
       pageLink: "/doublebass-amplifiers",
     },
     {
-      title: "Bows",
+      title: "Doublebass Bows",
       src: "/images/categories/level-four-categories/traditional-instruments/stringed-instruments/doublebasses/doublebass_bow.jpg",
       alt: "A doublebass bow",
       pageLink: "/doublebass-bows",
     },
     {
-      title: "Bridges",
+      title: "Doublebass Bridges",
       src: "/images/categories/level-four-categories/traditional-instruments/stringed-instruments/doublebasses/doublebass_bridge.jpg",
       alt: "A doublebass bridge",
       pageLink: "/doublebass-bridges",
     },
     {
-      title: "Tailpieces",
+      title: "Doublebass Tailpieces",
       src: "/images/categories/level-four-categories/traditional-instruments/stringed-instruments/doublebasses/doublebass_tailpiece.jpg",
       alt: "A doublebass tailpiece",
       pageLink: "/doublebass-tailpieces",
@@ -54,7 +54,7 @@ export default {
       pageLink: "/doublebass-fingerboard-oil",
     },
     {
-      title: "Cover Bags and Cases",
+      title: "Doublebass Cover Bags and Cases",
       src: "/images/categories/level-four-categories/traditional-instruments/stringed-instruments/doublebasses/doublebass_cover_bag.jpg",
       alt: "A doublebass cover bag",
       pageLink: "/doublebass-cover-bags-and-cases",

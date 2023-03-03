@@ -1,16 +1,31 @@
 import instrumentsCategoryData from "../../data/level-one-categories/mainCategory";
+import { Product } from "../../types/commonTypes";
 import getDeeperLevelSubcategories from "./getDeeperLevelSubcategories";
 
-const levelTwoCategories = getDeeperLevelSubcategories(instrumentsCategoryData);
-const levelThreeCategories = getDeeperLevelSubcategories(levelTwoCategories);
-const levelThreeWithSubcategories =
-  getDeeperLevelSubcategories(levelThreeCategories);
-const levelFourCategories = getDeeperLevelSubcategories(
-  levelThreeWithSubcategories
-);
-const levelFiveCategories = getDeeperLevelSubcategories(levelFourCategories);
+type Subcategory =
+  | {
+      items: Product[];
+      src: string;
+      alt: string;
+      title: string;
+      pageLink: string;
+    }[]
+  | undefined;
 
-const allCategories = [
+const levelTwoCategories: Subcategory = getDeeperLevelSubcategories(
+  instrumentsCategoryData
+);
+const levelThreeCategories: Subcategory =
+  getDeeperLevelSubcategories(levelTwoCategories);
+const levelThreeSubcategories: Subcategory =
+  getDeeperLevelSubcategories(levelThreeCategories);
+const levelFourCategories: Subcategory = getDeeperLevelSubcategories(
+  levelThreeSubcategories
+);
+const levelFiveCategories: Subcategory =
+  getDeeperLevelSubcategories(levelFourCategories);
+
+const allCategories: unknown = [
   instrumentsCategoryData,
   levelTwoCategories,
   levelThreeCategories,

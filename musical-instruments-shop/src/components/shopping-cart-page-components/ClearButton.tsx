@@ -21,7 +21,7 @@ const StyledClearButton = styled.button`
 `;
 
 export default function ClearButton() {
-  const { setCartItems, setCartItemsQuantity, setItemsInCart, cartItems }: any =
+  const { setCartItems, setCartItemsQuantity, setItemsInCart }: any =
     useContext(ShoppingCartContext);
 
   const { currentUser }: any = useContext(AuthentificationContext);
@@ -30,7 +30,7 @@ export default function ClearButton() {
     setCartItems([]);
     setCartItemsQuantity(0);
     setItemsInCart([]);
-    editUserData({ ...currentUser, shoppingCart: [] });
+    if (currentUser) editUserData({ ...currentUser, shoppingCart: [] });
   }
 
   return (

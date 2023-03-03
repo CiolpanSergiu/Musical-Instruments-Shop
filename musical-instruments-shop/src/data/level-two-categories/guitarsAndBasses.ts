@@ -11,7 +11,7 @@ import stringsSubcategories from "../level-three-categories/guitars-and-basses/s
 import effectPedalsSubcategories from "../level-three-categories/guitars-and-basses/effectPedalsData";
 import pickupsSubcategories from "../level-three-categories/guitars-and-basses/pickupsData";
 import changeSpareSubcategories from "../level-three-categories/guitars-and-basses/sparePartsData";
-import accesoriesSubcategories from "../level-three-categories/guitars-and-basses/accesoriesData";
+import accesoriesSubcategories from "../level-three-categories/guitars-and-basses/guitarAccesoriesData";
 // brands
 import electricGuitarBrands from "../logo-data/guitar-and-basses-brands/guitars/electricGuitarsBrands.json";
 import acousticGuitarBrands from "../logo-data/guitar-and-basses-brands/guitars/acousticGuitarsBrands.json";

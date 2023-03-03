@@ -38,3 +38,21 @@ export type OrdersHistory = {
   orderId: string;
   delivered: boolean;
 };
+
+export type Category = {
+  src: string;
+  alt: string;
+  title: string;
+  pageLink: string;
+  subcategories: {
+    src: string;
+    alt: string;
+    title: string;
+    pageLink: string;
+  }[];
+  brands: {
+    brandName: string;
+    src: string;
+    alt: string;
+  }[];
+};

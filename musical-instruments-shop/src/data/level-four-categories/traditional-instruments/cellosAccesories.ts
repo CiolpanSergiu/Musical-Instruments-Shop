@@ -8,7 +8,7 @@ export default {
   brands: cellosAccesoriesBrands,
   subcategories: [
     {
-      title: "Strings",
+      title: "Cello Strings",
       src: "/images/categories/level-four-categories/traditional-instruments/stringed-instruments/cellos/cello_strings.jpg",
       alt: "A pack of cello strings",
       pageLink: "/cello-strings",
@@ -21,37 +21,37 @@ export default {
       pageLink: "/cello-stands",
     },
     {
-      title: "Pickups",
+      title: "Cello Pickups",
       src: "/images/categories/level-four-categories/traditional-instruments/stringed-instruments/cellos/cello_pickup.jpg",
       alt: "A cello pickup",
       pageLink: "/cello-pickups",
     },
     {
-      title: "Bows",
+      title: "Cello Bows",
       src: "/images/categories/level-four-categories/traditional-instruments/stringed-instruments/cellos/cello_bow.jpg",
       alt: "A cello bow",
       pageLink: "/cello-bows",
     },
     {
-      title: "Amplifiers",
+      title: "Cello Amplifiers",
       src: "/images/categories/level-four-categories/traditional-instruments/stringed-instruments/cellos/cello_amplifier.jpg",
       alt: "A cello amplifier",
       pageLink: "/cello-amplifiers",
     },
     {
-      title: "Bridges",
+      title: "Cello Bridges",
       src: "/images/categories/level-four-categories/traditional-instruments/stringed-instruments/cellos/cello_bridge.jpg",
       alt: "A cello bridge",
       pageLink: "/cello-bridges",
     },
     {
-      title: "Tailpieces",
+      title: "Cello Tailpieces",
       src: "/images/categories/level-four-categories/traditional-instruments/stringed-instruments/cellos/cello_tailpiece.jpg",
       alt: "A cello tailpiece",
       pageLink: "/cello-tailpieces",
     },
     {
-      title: "Cover Bags and Cases",
+      title: "Cello Cover Bags and Cases",
       src: "/images/categories/level-four-categories/traditional-instruments/stringed-instruments/cellos/cello_cover_bag.jpg",
       alt: "A cello cover bag",
       pageLink: "/cello-cover-bags-and-cases",

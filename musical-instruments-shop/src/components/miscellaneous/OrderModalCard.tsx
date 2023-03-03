@@ -44,7 +44,7 @@ export default function OrderModalCard({
       </ColumnFlexContainer>
       <ColumnFlexContainer>
         <span>Total Price: </span>
-        <span>{quantity * price}</span>
+        <span>{quantity * price}$</span>
       </ColumnFlexContainer>
     </Card>
   );

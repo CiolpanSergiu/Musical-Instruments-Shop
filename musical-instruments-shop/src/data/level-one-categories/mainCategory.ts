@@ -19,7 +19,7 @@ import paSystemEquipmentBrands from "../logo-data/pa-systems-brands/mainCategori
 import studioAndRecordingBrands from "../logo-data/recording-and-studio-brands/mainCategoriesBrands.json";
 import traditionalInstrumentBrands from "../logo-data/traditional-instruments-brands/mainCategoriesBrands.json";
 
-const categoriesData = [
+export default [
   {
     src: "/images/categories/level-one-categories/guitars_basses.jpg",
     alt: "A stratocaster type electric guitar",
@@ -93,5 +93,3 @@ const categoriesData = [
     brands: traditionalInstrumentBrands,
   },
 ];
-
-export default categoriesData;

@@ -5,15 +5,15 @@ import { useContext } from "react";
 import { ThemeProvider } from "styled-components";
 
 const StyledRouterLink = styled(Link)`
-  @media only screen and (min-width: 768px) {
-    text-decoration: none;
-    color: ${(props) => props.theme.color};
-    margin: 0 1rem;
-    font-size: 1.2rem;
-    transition: 0.3s all ease-in-out;
-    text-decoration: none;
-    position: relative;
+  text-decoration: none;
+  color: ${(props) => props.theme.color};
+  margin: 0 1rem;
+  font-size: 1.2rem;
+  transition: 0.3s all ease-in-out;
+  text-decoration: none;
+  position: relative;
 
+  @media only screen and (min-width: 768px) {
     ::after {
       content: "";
       width: 0%;
@@ -37,12 +37,9 @@ const StyledRouterLink = styled(Link)`
 `;
 
 const Container = styled.div`
-  display: none;
-
-  @media only screen and (min-width: 768px) {
-    display: flex;
-    justify-content: space-around;
-  }
+  display: flex;
+  justify-content: space-around;
+  width: 100%;
 `;
 
 const darkTheme = {

@@ -8,7 +8,7 @@ export default {
   brands: violinViolaAccesoriesBrands,
   subcategories: [
     {
-      title: "Strings",
+      title: "Violin Strings",
       src: "/images/categories/level-four-categories/traditional-instruments/stringed-instruments/violins/violin_strings.jpg",
       alt: "A pack of violin strings",
       pageLink: "/violin-strings",
@@ -21,19 +21,19 @@ export default {
       pageLink: "/violin-stands",
     },
     {
-      title: "Pickups",
+      title: "ViolinPickups",
       src: "/images/categories/level-four-categories/traditional-instruments/stringed-instruments/violins/violin_pickup.jpg",
       alt: "A violin pickup",
       pageLink: "/violin-pickups",
     },
     {
-      title: "Amplifiers",
+      title: "ViolinAmplifiers",
       src: "/images/categories/level-four-categories/traditional-instruments/stringed-instruments/violins/violin_amplifier.jpg",
       alt: "A violin amplifier",
       pageLink: "/violina-amplifiers",
     },
     {
-      title: "Bows",
+      title: "ViolinBows",
       src: "/images/categories/level-four-categories/traditional-instruments/stringed-instruments/violins/violin_bow.jpg",
       alt: "A violin bow",
       pageLink: "/violin-bows",
@@ -51,19 +51,19 @@ export default {
       pageLink: "/violin-violas-chin-rests",
     },
     {
-      title: "Tailpiece",
+      title: "ViolinTailpiece",
       src: "/images/categories/level-four-categories/traditional-instruments/stringed-instruments/violins/violin_tailpiece.jpg",
       alt: "A violin tailpiece",
       pageLink: "/violin-tailpieces",
     },
     {
-      title: "Bridges",
+      title: "ViolinBridges",
       src: "/images/categories/level-four-categories/traditional-instruments/stringed-instruments/violins/violin_bridge.jpg",
       alt: "A violin bridge",
       pageLink: "/violin-bridges",
     },
     {
-      title: "Cover Bags and Cases",
+      title: "ViolinCover Bags and Cases",
       src: "/images/categories/level-four-categories/traditional-instruments/stringed-instruments/violins/violin_cover_bag.jpg",
       alt: "A violin cover bag",
       pageLink: "/violin-cover-bags-and-cases",

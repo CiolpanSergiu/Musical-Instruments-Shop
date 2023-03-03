@@ -1,4 +1,3 @@
-import { MouseEventHandler } from "react";
 import { Link } from "react-router-dom";
 import styled from "styled-components";
 import ThemeContext from "../../context/ThemeProvider";
@@ -6,17 +5,16 @@ import { useContext } from "react";
 import { ThemeProvider } from "styled-components";
 
 type Props = {
-  handleClick: MouseEventHandler<HTMLAnchorElement>;
+  handleClick: () => void;
   pageLink: string;
   categoryName: string;
 };
 
 const CategoryLink = styled(Link)`
-  text-align: center;
   text-decoration: none;
   color: ${(props) => props.theme.color};
   font-size: 1.2rem;
-  padding: 1rem 0;
+  padding: 1rem 2rem;
   display: block;
   width: 100%;
   transition: 0.3s all ease-in-out;

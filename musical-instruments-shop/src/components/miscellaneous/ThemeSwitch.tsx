@@ -14,6 +14,7 @@ const Switcher = styled.span`
   justify-content: ${(props) => props.theme.justifyContent};
   padding: 2.5px;
   transition: 0.3s;
+  cursor: pointer;
 `;
 
 const Dot = styled.span`

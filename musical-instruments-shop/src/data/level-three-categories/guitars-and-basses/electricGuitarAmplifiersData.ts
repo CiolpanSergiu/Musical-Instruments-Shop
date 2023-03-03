@@ -3,7 +3,7 @@ import guitarAmplifierHeadsSubcategories from "../../level-four-categories/guita
 import guitarAmplifiersSubcategories from "../../level-four-categories/guitar-and-basses/amplifiers/guitarAmplifiers";
 import getProductsByCategory from "../../../functions/get-data-functions/getProductsByCategory";
 
-const electricGuitarAmplifiersSubcategories = [
+export default [
   {
     title: "Combo Amplifiers",
     src: "/images/categories/level-three-categories/guitars-and-basses/electric-guitar-amps/electric_guitar_combo_amp.jpg",
@@ -59,5 +59,3 @@ const electricGuitarAmplifiersSubcategories = [
     items: getProductsByCategory("guitar amp cover bag"),
   },
 ];
-
-export default electricGuitarAmplifiersSubcategories;

@@ -1,7 +1,6 @@
 import { allSubcategories } from "../functions/get-data-functions/getCategoriesData";
 import { Product } from "../types/commonTypes";
 import { createShoppingPageRoute } from "./createPageFunctions";
-import allProducts from "../data/products/allProducts";
 import getProductsByBrand from "../functions/get-data-functions/getProductsByBrand";
 import createLink from "../functions/string-formatting-functions/createLink";
 import allUniqueBrands from "../data/suggestions/brandsSuggestions";

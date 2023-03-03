@@ -110,7 +110,7 @@ export default function Order({
         isDisabled={isCancellable}
       />
       <ActionButton
-        bgColor={{ normal: "green", hover: "lime" }}
+        bgColor={{ normal: "#89c403", hover: "green" }}
         buttonText="View Order"
         handleClick={() => {
           setIsModalOpen(true);

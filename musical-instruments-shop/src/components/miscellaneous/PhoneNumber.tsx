@@ -4,20 +4,18 @@ import { Link } from "react-router-dom";
 import { useContext } from "react";
 import ThemeContext from "../../context/ThemeProvider";
 import { ThemeProvider } from "styled-components";
+import themes from "../../colors-and-themes/themes";
 
 const TelephoneIcon = styled.span`
-  font-size: 1rem;
+  font-size: 1.25rem;
   display: flex;
   align-items: center;
   transition: 0.3s;
 `;
 
 const TelephoneNumber = styled.span`
-  font-size: 0.9rem;
+  font-size: 1.1rem;
   margin-left: 0.5rem;
-  @media only screen and (min-width: 768px) {
-    font-size: 1.1rem;
-  } ;
 `;
 
 const StyledLinkRouter = styled(Link)`
@@ -25,21 +23,11 @@ const StyledLinkRouter = styled(Link)`
   color: ${(props) => props.theme.color};
 `;
 
-const darkTheme = {
-  bgColor: "#3d4552",
-  color: "white",
-};
-
-const lightTheme = {
-  bgColor: "white",
-  color: "#3d4552",
-};
-
 export default function PhoneNumber() {
   const { isDark }: any = useContext(ThemeContext);
 
   return (
-    <ThemeProvider theme={isDark ? darkTheme : lightTheme}>
+    <ThemeProvider theme={isDark ? themes.darkTheme : themes.lightTheme}>
       <StyledLinkRouter to="/contact">
         <TelephoneIcon>
           <BsFillTelephoneFill />

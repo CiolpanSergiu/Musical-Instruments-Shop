@@ -4,7 +4,7 @@ import coversBagsAndCasesSubcategories from "../../level-four-categories/guitar-
 import slidersSubcategories from "../../level-four-categories/guitar-and-basses/accesories/slidersData";
 import strapsSubcategories from "../../level-four-categories/guitar-and-basses/accesories/strapsData";
 
-const accesoriesSubcategories = [
+export default [
   {
     title: "Guitar/Bass Stands",
     src: "/images/categories/level-three-categories/guitars-and-basses/accesories/electric_guitar_stand.jpg",
@@ -60,5 +60,3 @@ const accesoriesSubcategories = [
     items: getProductsByCategory("instrument tool"),
   },
 ];
-
-export default accesoriesSubcategories;

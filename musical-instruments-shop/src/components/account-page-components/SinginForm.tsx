@@ -18,7 +18,7 @@ const StyledForm = styled(Form)`
   justify-content: center;
   flex-direction: column;
   background-color: ${(props) => props.theme.bgColor};
-  padding: 2rem 4rem;
+  padding: 2rem;
   color: ${(props) => props.theme.color};
   border-radius: 9px;
   margin: 3rem 0;

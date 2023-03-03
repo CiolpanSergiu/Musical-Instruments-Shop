@@ -6,7 +6,7 @@ export default {
   brands: violinStringsBrands,
   subcategories: [
     {
-      title: "Violin Strings",
+      title: "Violin Strings Set",
       src: "/images/categories/level-four-categories/traditional-instruments/stringed-instruments/violins/violin_strings.jpg",
       alt: "A pack of violin strings",
       pageLink: "/c-violin-strings",

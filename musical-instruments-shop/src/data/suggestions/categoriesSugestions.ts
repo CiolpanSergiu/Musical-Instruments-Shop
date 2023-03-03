@@ -1,9 +1,10 @@
-import { allCategories } from "../../functions/get-data-functions/getCategoriesData";
+import createLink from "../../functions/string-formatting-functions/createLink";
+import { allLevelsData } from "../categories-data/allLevelsData";
 
-const categorySuggestions = allCategories.map((category) => {
+const categorySuggestions = allLevelsData.map((category) => {
   return {
-    title: category?.title,
-    pageLink: category?.pageLink,
+    title: category.title,
+    pageLink: createLink(category.title),
   };
 });
 

@@ -2,7 +2,7 @@ import getProductsByCategory from "../../../../functions/get-data-functions/getP
 import sliderBrands from "../../../logo-data/guitar-and-basses-brands/accesories/sliderBrands.json";
 
 export default {
-  pageLink: "/guitar-sliders",
+  title: "Guitar Sliders",
   brands: sliderBrands,
   subcategories: [
     {

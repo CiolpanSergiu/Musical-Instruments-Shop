@@ -96,7 +96,7 @@ export default function OrderModal({ title, handleClose, orderItems }: Props) {
         <CloseBtn onClick={handleClose}>X</CloseBtn>
         <Header>{title}</Header>
         {itemCards}
-        <TotalPrice>Total: {totalPrice}</TotalPrice>
+        <TotalPrice>Total: {totalPrice}$</TotalPrice>
       </>
     </ModalContainer>
   );

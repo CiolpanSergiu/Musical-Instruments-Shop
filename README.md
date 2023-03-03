@@ -49,7 +49,21 @@ Follow these steps in order to set up this app
   npm run dev
 ```
 
-In order for singin/login/send contact message to work you will need to:
+If you want to be able to create an account, log in and use this webstie to it's fullest you will need to go to
+[https://www.mongodb.com/] and create an account (which is free if you choose the free plan). You can watch [https://www.youtube.com/watch?v=scVi_6xqAEc&ab_channel=Headhonk] if you have trouble. After reaching the 7:06 video mark pause it and create a .env file
+in the musical-instruments-shop in your cloned folder. in it you will create a variable like this:
+
+```sh
+  MONGO_DB_URL=""
+```
+
+Now got back to the video and until 9:08 video mark. Copy your link and put it in your .env variable's quotation marks like this:
+
+```sh
+  MONGO_DB_URL="mongodb+srv://{your name will be here}:<password>@{your cluster name will be here}.aptr19m.mongodb.net/?retryWrites=true&w=majority"
+```
+
+Next replace <password> from your variable with your password and you are ready to go;
 
 1. Open another terminal window and select this project folder using
 

@@ -36,7 +36,7 @@ export default [
     pageLink: "/electronic-drums-mesh-heads",
   },
   {
-    title: "Accesories",
+    title: "Electronic Drums Accesories",
     src: "/images/categories/level-three-categories/drums-and-percussion/electronic-drums/drum_cable.jpg",
     alt: "An electronic drum cable",
     pageLink: "/electronic-drum-accesories",

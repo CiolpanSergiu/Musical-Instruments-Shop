@@ -14,9 +14,9 @@ export default [
     items: getProductsByCategory("acoustic guitar preamp"),
   },
   {
-    title: "Cover Bags",
+    title: "Acoustic Guitar Cover Bags",
     src: "/images/categories/level-three-categories/guitars-and-basses/acoustic-guitar-amps/amp_cover_bag.jpg",
     alt: "",
-    items: getProductsByCategory("acoustic guitar cover bag"),
+    items: getProductsByCategory("acoustic guitar amp cover bag"),
   },
 ];

@@ -22,7 +22,7 @@ type Category = {
 export default function getDeeperLevelSubcategories(data: unknown) {
   if (Array.isArray(data)) {
     return data
-      .filter((category: boolean) => {
+      .filter((category) => {
         return category.hasOwnProperty("subcategories");
       })
       .map((category: Category) => {

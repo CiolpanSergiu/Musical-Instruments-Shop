@@ -1,11 +1,11 @@
 import getProductsByCategory from "../../../functions/get-data-functions/getProductsByCategory";
 import bassPickGuardsSubcategories from "../../level-four-categories/guitar-and-basses/spare-parts/bassPickGuardsData";
 import guitarPickGuardsSubcategories from "../../level-four-categories/guitar-and-basses/spare-parts/guitarPickGuardsData";
-import saddleAndTailpiecesSubcategories from "../../level-four-categories/guitar-and-basses/spare-parts/saddlesAndTailpiecesData";
+import bridgesAndTailpiecesSubcategories from "../../level-four-categories/guitar-and-basses/spare-parts/saddlesAndTailpiecesData";
 import switchesSubcategories from "../../level-four-categories/guitar-and-basses/spare-parts/switchesData";
 import tremoloBridgesSubcategories from "../../level-four-categories/guitar-and-basses/spare-parts/tremoloBridgeData";
 
-const changePartsSubcategories = [
+export default [
   {
     title: "Electric Guitar Necks",
     src: "/images/categories/level-three-categories/guitars-and-basses/spare-parts/electric_guitar_neck.jpg",
@@ -58,7 +58,7 @@ const changePartsSubcategories = [
     title: "Saddles and Tailpieces",
     src: "/images/categories/level-three-categories/guitars-and-basses/spare-parts/guitar_tailpiece.jpg",
     alt: "",
-    subcategories: saddleAndTailpiecesSubcategories,
+    subcategories: bridgesAndTailpiecesSubcategories,
   },
   {
     title: "Guitar Tremolo Bridges",
@@ -79,5 +79,3 @@ const changePartsSubcategories = [
     items: getProductsByCategory("tuning peg"),
   },
 ];
-
-export default changePartsSubcategories;

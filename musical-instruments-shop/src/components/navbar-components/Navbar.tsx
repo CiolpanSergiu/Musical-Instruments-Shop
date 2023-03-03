@@ -1,7 +1,7 @@
 import { useState, useEffect, useContext } from "react";
 import { nanoid } from "nanoid";
 import NavbarCategoryLink from "./NavbarCategoryLink";
-import data from "../../data/level-one-categories/mainCategory.js";
+import mainCategories from "../../data/level-one-categories/mainCategory.js";
 import NavbarSearchBox from "./NavbarSearchBox";
 import PagesNavigationContainer from "./PagesNavigationContainer";
 import NavbarTools from "./NavbarTools";
@@ -12,6 +12,8 @@ import ThemeContext from "../../context/ThemeProvider";
 import { ThemeProvider } from "styled-components";
 import themes from "../../colors-and-themes/themes";
 import Overlay from "../miscellaneous/Overlay";
+import createLink from "../../functions/string-formatting-functions/createLink";
+import { Category } from "../../types/commonTypes";
 
 const NavbarContainer = styled.nav`
   width: 100%;
@@ -43,6 +45,10 @@ const SearchBarRow = styled.div`
   align-items: center;
   justify-items: center;
   padding-bottom: 1rem;
+  margin-top: 2rem;
+
+  @media only screen and (min-width: 768px) {
+    margin-top: 0;
 `;
 
 const CloseBtn = styled.div`
@@ -59,22 +65,39 @@ const CloseBtn = styled.div`
 `;
 
 type NavbarContentType = {
-  open: boolean;
+  isOpen: boolean;
 };
 
 const NavbarOpenContent = styled.div<NavbarContentType>`
   background-color: ${(props) => props.theme.bgColor};
   position: absolute;
   height: 100vh;
+  overflow-y: scroll;
   top: 0;
-  left: ${(props) => (props.open ? "0" : "-300vw")};
+  left: ${(props) => (props.isOpen ? "0" : "-300vw")};
   width: 100%;
   transition: 0.4s all ease-in-out;
   display: flex;
-  align-items: center;
-  justify-content: center;
   flex-direction: column;
   z-index: 9999;
+  padding-top: 5rem;
+  padding-bottom: 5rem;
+
+  &::-webkit-scrollbar {
+    width: 5px;
+  }
+
+  &::-webkit-scrollbar-track {
+    background: #f1f1f1;
+  }
+
+  &::-webkit-scrollbar-thumb {
+    background: #888;
+  }
+
+  &::-webkit-scrollbar-thumb:hover {
+    background: #555;
+  }
 
   @media only screen and (min-width: 768px) {
     width: 40%;
@@ -92,12 +115,12 @@ export default function Navbar() {
     setIsMenuOpen((prevState: boolean) => !prevState);
   };
 
-  const navbarContentElements = data.map((categoryData) => (
+  const navbarContentElements = mainCategories.map((category: Category) => (
     <NavbarCategoryLink
       key={nanoid()}
       handleClick={toggleMenu}
-      pageLink={categoryData.pageLink}
-      categoryName={categoryData.title}
+      pageLink={createLink(category.title)}
+      categoryName={category.title}
     />
   ));
 
@@ -118,7 +141,7 @@ export default function Navbar() {
         {isMenuOpen && window.innerWidth >= 768 && (
           <Overlay handleClose={toggleMenu} />
         )}
-        <NavbarOpenContent open={isMenuOpen}>
+        <NavbarOpenContent isOpen={isMenuOpen}>
           {navbarContentElements}
           <CloseBtn onClick={toggleMenu}>X</CloseBtn>
         </NavbarOpenContent>

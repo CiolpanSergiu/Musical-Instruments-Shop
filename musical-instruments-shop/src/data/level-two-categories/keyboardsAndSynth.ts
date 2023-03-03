@@ -9,7 +9,7 @@ const keyboardAndSynthData = [
   {
     src: "/images/categories/level-two-categories/keyboards-and-synth/keyboard.jpeg",
     alt: "A simple keyboard",
-    title: "Keyboards",
+    title: "Keyboards / Keyboard Accesories",
     pageLink: "/keyboards",
     subcategories: keyboardsSubcategories,
     brands: keyboardBrands,
@@ -17,7 +17,7 @@ const keyboardAndSynthData = [
   {
     src: "/images/categories/level-two-categories/keyboards-and-synth/synthesizer.jpg",
     alt: "A synthesizer",
-    title: "Synthesizers",
+    title: "Synthesizers / Synthesizers Accesories",
     pageLink: "/synthesizers",
     subcategories: synthesizerSubcategories,
     brands: synthesizerBrands,
