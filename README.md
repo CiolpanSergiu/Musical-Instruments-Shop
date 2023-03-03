@@ -54,7 +54,7 @@ Follow these steps in order to set up this app
   git clone https://github.com/CiolpanSergiu/Shopping-Page.git
 ```
 
-2. Select this project folder using (it might be nested inside another folder but this should be the final one)
+2. Select this project folder using (it might be nested inside another folder but this should be the final one) or write cd and drag and drop musical-instruments-shop folder in terminal
 
 ```sh
   cd <previous folder name>
