@@ -3,6 +3,7 @@ import "../../styles/slider-styles/sliderStyle.scss";
 import Slider from "react-slick";
 import styled from "styled-components";
 import { nanoid } from "nanoid";
+import createLink from "../../functions/string-formatting-functions/createLink";
 
 function SampleNextArrow(props: any) {
   const { className, style, onClick } = props;
@@ -112,10 +113,7 @@ export default function ItemsSlider({ title, data }: Props) {
       src={item.srcSmall}
       alt={item.alt}
       title={item.title}
-      pageLink={`/${item.title
-        .toLocaleLowerCase()
-        .replace(/[^\w]/g, "-")
-        .replace(/--+/g, "-")}`}
+      pageLink={createLink(item.title)}
       price={item.price}
       rating={item.rating}
       totalReviews={item.totalReviews}

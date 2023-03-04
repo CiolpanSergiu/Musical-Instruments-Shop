@@ -57,23 +57,10 @@ type Data = {
   alt: string;
 };
 
-type DataArray = Data[];
-
 type Props = {
   title: string;
-  data: DataArray;
+  data: Data[];
 };
-
-function getSliderCards(data: DataArray) {
-  return data.map((item) => (
-    <BrandCard
-      key={nanoid()}
-      src={item.src}
-      alt={item.alt}
-      title={item.brandName}
-    />
-  ));
-}
 
 export default function BrandsSlider({ title, data }: Props) {
   const settings = {
@@ -122,12 +109,19 @@ export default function BrandsSlider({ title, data }: Props) {
     ],
   };
 
-  const sliderRowOneCards = getSliderCards(data);
+  const sliderCards = data.map((item: Data) => (
+    <BrandCard
+      key={nanoid()}
+      src={item.src}
+      alt={item.alt}
+      title={item.brandName}
+    />
+  ));
 
   return (
     <SliderContainer>
       <Header>{title}</Header>
-      <Slider {...settings}>{sliderRowOneCards}</Slider>
+      <Slider {...settings}>{sliderCards}</Slider>
     </SliderContainer>
   );
 }

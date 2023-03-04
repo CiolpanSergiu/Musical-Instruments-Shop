@@ -3,6 +3,7 @@ import CategoryCard from "../cards/CategoryCard";
 import { nanoid } from "nanoid";
 import styled from "styled-components";
 import createLink from "../../../functions/string-formatting-functions/createLink.js";
+import { Category } from "../../../types/commonTypes.js";
 
 const Section = styled.section`
   display: flex;
@@ -37,7 +38,7 @@ const Header2 = styled.h2`
 `;
 
 export default function CategoryCardsContainer() {
-  const categoryCard = itemsCategories.map((categoryCardData) => (
+  const categoryCard = itemsCategories.map((categoryCardData: Category) => (
     <CategoryCard
       key={nanoid()}
       imgSrc={categoryCardData.src}

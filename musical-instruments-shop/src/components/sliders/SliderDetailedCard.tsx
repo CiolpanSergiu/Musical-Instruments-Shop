@@ -60,7 +60,7 @@ const TotalReviews = styled.span`
   font-weight: bold;
 `;
 
-export default function SliderCard({
+export default function SliderDetailedCard({
   src,
   alt,
   title,

@@ -20,10 +20,6 @@ const MainHeader = styled.h2`
   margin-bottom: 1rem;
 `;
 
-const Subheader = styled.h3`
-  margin-bottom: 1rem;
-`;
-
 export default function SliderDescription({ descriptionData }: Props) {
   return (
     <DescriptionContainer>

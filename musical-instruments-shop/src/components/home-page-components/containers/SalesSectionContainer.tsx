@@ -30,16 +30,21 @@ const Section = styled.section`
   align-items: center;
 `;
 
-const banners = salesBanners.map((banner) => (
-  <SaleBanner
-    key={nanoid()}
-    imgSrc={banner.src}
-    alt={banner.alt}
-    title={banner.title}
-  />
-));
+type Banner = {
+  src: string;
+  alt: string;
+  title: string;
+};
 
 export default function SalesSectionContainer() {
+  const banners = salesBanners.map((banner: Banner) => (
+    <SaleBanner
+      key={nanoid()}
+      imgSrc={banner.src}
+      alt={banner.alt}
+      title={banner.title}
+    />
+  ));
   return (
     <Section>
       <Header>Christmas Sales</Header>

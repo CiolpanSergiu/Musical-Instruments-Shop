@@ -21,6 +21,7 @@ export function createCategoryPages(data: unknown) {
             path={pageLink}
             element={
               <InstrumentCategoryPage
+                key={nanoid()}
                 data={
                   category.subcategories.subcategories || category.subcategories
                 }
@@ -58,6 +59,7 @@ export function createItemDetailsPageRoute(product: Product) {
       path={pageLink}
       element={
         <ItemPage
+          key={nanoid()}
           title={product.title}
           srcBig={product.srcBig}
           alt={product.alt}
