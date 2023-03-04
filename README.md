@@ -8,7 +8,7 @@ The project was mainly meant to help me learn how to use typescript and react (w
 
 1. Right now only the Guitar and Basses and it's subcategories have shopping items in it in order to save time
 2. Most jsons files in data folder will be converted in ts files(currently only the guitars-and-basses folder is converted)
-3. Most jsons/ts data files have an alt property for images alt which is empty for time saving (the quantity of data was big and I wanted to focus on learning and website functionality),
+3. Empty alt property in a json file is for time saving,
 4. The website is not fully complete but it is in a state where it looks decent and has most of the functionality done(which was the main goal) including:
    1. categories and subcategories navigation,
    2. functional search bar,
