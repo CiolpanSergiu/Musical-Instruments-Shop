@@ -1,7 +1,7 @@
 import { useContext, useState } from "react";
 import AuthentificationProvider from "../../context/AuthentificationContext";
 import styled from "styled-components";
-import ShowInfoBtn from "../miscellaneous/showInfoBtn";
+import ShowInfoBtn from "../miscellaneous/ShowInfoBtn";
 import { useNavigate } from "react-router-dom";
 import PasswordDotsContainer from "../miscellaneous/account-page/PasswordDotsContainer";
 import editUserData from "../../functions/account-related-functions/editUserData";
