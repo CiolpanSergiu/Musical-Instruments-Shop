@@ -1,6 +1,7 @@
 import { useContext, useState } from "react";
 import AuthentificationProvider from "../../context/AuthentificationContext";
 import styled from "styled-components";
+import ShowInfoBtn from "../miscellaneous/showInfoBtn";
 import { useNavigate } from "react-router-dom";
 import PasswordDotsContainer from "../miscellaneous/account-page/PasswordDotsContainer";
 import editUserData from "../../functions/account-related-functions/editUserData";
@@ -136,7 +137,7 @@ export default function UserPage() {
   const { setCartItems, setCartItemsQuantity, setItemsInCart }: any =
     useContext(ShoppingCartContext);
 
-  const [showPasswords, setShowPasswords] = useState<boolean>(false);
+  const [showPassword, setShowPassword] = useState<boolean>(false);
   const [toEdit, setToEdit] = useState<string>(defaultToEdit);
   const [showEditInput, setShowEditInput] = useState<boolean>(false);
   const [editInputContent, setEditInputContent] = useState<string>("");
@@ -163,7 +164,7 @@ export default function UserPage() {
   }
 
   function toggleShowPass() {
-    setShowPasswords((prevState) => !prevState);
+    setShowPassword((prevState) => !prevState);
   }
 
   function toggleEditMode(propertyToEdit: string) {
@@ -245,18 +246,21 @@ export default function UserPage() {
         <StyledHr />
         <InfoRow>
           <BoldSpan>Password: </BoldSpan>
-          {showPasswords ? (
+          {showPassword ? (
             <FlexRowContainer>
-              <GrayButton
-                contentText="Show"
-                handleClick={toggleShowPass}
-              ></GrayButton>
               <PasswordText>{currentUser.password}</PasswordText>
+              <ShowInfoBtn
+                handleClick={toggleShowPass}
+                isShowing={showPassword}
+              />
             </FlexRowContainer>
           ) : (
             <FlexRowContainer>
-              <GrayButton contentText="Show" handleClick={toggleShowPass} />
               <PasswordDotsContainer length={currentUser.password.length} />
+              <ShowInfoBtn
+                handleClick={toggleShowPass}
+                isShowing={showPassword}
+              />
             </FlexRowContainer>
           )}
         </InfoRow>
