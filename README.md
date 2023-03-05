@@ -81,7 +81,7 @@ in the musical-instruments-shop cloned folder. In it create a variable named exa
   MONGO_DB_URL=""
 ```
 
-Now got back to the video and until 9:08 video mark. Copy your link and put it in your .env variable's quotation marks like this:
+Now got back to the video and watch until 9:08 video mark. Copy your link and put it in your .env variable's quotation marks like this:
 
 ```sh
   MONGO_DB_URL="mongodb+srv://{your name will be here}:<password>@{your cluster name will be here}.aptr19m.mongodb.net/?retryWrites=true&w=majority"
