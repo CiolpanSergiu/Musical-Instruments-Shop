@@ -87,7 +87,7 @@ Now got back to the video and watch until 9:08 video mark. Copy your link and pu
   MONGO_DB_URL="mongodb+srv://{your name will be here}:<password>@{your cluster name will be here}.aptr19m.mongodb.net/?retryWrites=true&w=majority"
 ```
 
-Next replace <password> from your variable with your password and you are ready to go;
+Next replace < password > from your variable with your password and you are ready to go;
 
 Example of a final .env file:
 
