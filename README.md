@@ -9,23 +9,23 @@ The project was mainly meant to help me learn how to use typescript and react (w
 1. Right now only the Guitar and Basses and it's subcategories have shopping items in it in order to save time
 2. Most jsons files in data folder will be converted in ts files(currently only the guitars-and-basses folder is converted)
 3. Empty alt property in a json file is for time saving,
-4. The website is not fully complete but it is in a state where it looks decent and has most of the functionality done(which was the main goal) including:
-   1. categories and subcategories navigation,
+4. The website is not fully complete but it is in a state where it looks decent and has most of the functionality done(which was the main goal).The functionality includes:
+   1. instruments/accesories categories and subcategories navigation,
    2. functional search bar,
    3. login/singin/logout system,
    4. functional shopping cart,
-   5. user data editing (phone number, country, full name, password) excepting email,
+   5. user data editing (phone number, country, full name, password..email is not editable for now),
    6. placing orders
    7. orders history
    8. orders cancelling for orders within 1 hour since placement
    9. contact page where you can send a message/feedback
    10. persistent shopping cart and orders history throught different accounts
 5. Legend:
-   1. Category Page = the 9 main categories cards on the home page,
+   1. Category Page = the 9 cards at the beginning of the the home page,
    2. Subcategory Page = A category page subpage,
    3. Shopping Page = A page that contain cards with different shop items,
    4. Item Page = A page that contains details about a single items
-6. This website images, prices and navigation structure(mostly) were taken from [https://www.thomann.de/ro/index.html] along with some page desing,
+6. This website images, prices and navigation structure(mostly) were taken from [https://www.thomann.de/ro/index.html] along with some page design,
 
 ## Technologies that helped the creation of this page
 
@@ -57,7 +57,6 @@ Follow these steps in order to set up this app
 2. Select this project folder using (it might be nested inside another folder but this should be the final one) or write cd and drag and drop musical-instruments-shop folder in terminal
 
 ```sh
-  cd <previous folder name>
   cd musical-instruments-shop
 ```
 
