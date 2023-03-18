@@ -1,9 +1,4 @@
 {
-<<<<<<< HEAD
-  "homepage": "http://CiolpanSergiu.github.io/Musical-Instruments-Shop/index.html",
-=======
-  "homepage": "http://CiolpanSergiu.github.io/Musical-Instruments-Shop",
->>>>>>> e21adf69d1510e9acf7bcbb9484d135da2aa1edc
   "name": "guitar-shop",
   "private": true,
   "version": "0.0.0",
