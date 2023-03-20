@@ -1,10 +1,10 @@
 import { useState, createContext, useContext } from "react";
-import { CartItem } from "../types/commonTypes";
+import { CartItem, ChildrenProp } from "../types/commonTypes";
 import AuthentificationContext from "./AuthentificationContext";
 
 const ShoppingCartContext = createContext({});
 
-export const ShoppingCartContextProvider = ({ children }: any) => {
+export const ShoppingCartContextProvider = ({ children }: ChildrenProp) => {
   const { currentUser }: any = useContext(AuthentificationContext);
 
   const [cartItems, setCartItems] = useState<CartItem[]>(
@@ -43,7 +43,7 @@ export const ShoppingCartContextProvider = ({ children }: any) => {
   function decreaseItemQuantity(item: CartItem): void {
     const stateWithUpdatedQuantities = cartItems.map((cartItem: CartItem) => {
       if (cartItem.title === item.title) {
-        //because the decreasing is done in CartItem.tsx
+        // decreasing is done in CartItem.tsx
         return item;
       } else {
         return cartItem;

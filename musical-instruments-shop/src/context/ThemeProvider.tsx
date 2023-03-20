@@ -1,8 +1,9 @@
 import { useState, createContext } from "react";
+import { ChildrenProp } from "../types/commonTypes";
 
 const ThemeContext = createContext({});
 
-export const ThemeProvider = ({ children }: any) => {
+export const ThemeProvider = ({ children }: ChildrenProp) => {
   const isDarkTheme: boolean =
     localStorage.getItem("darkTheme") === "true" ? true : false;
 

@@ -56,3 +56,7 @@ export type Category = {
     alt: string;
   }[];
 };
+
+export type ChildrenProp = {
+  children: React.ReactNode;
+};

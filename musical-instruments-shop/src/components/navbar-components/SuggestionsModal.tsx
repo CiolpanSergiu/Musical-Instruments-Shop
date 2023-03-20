@@ -61,7 +61,7 @@ type Props = {
   categorySuggestionsList: (JSX.Element | undefined)[];
   brandsSuggestionsList: (JSX.Element | undefined)[];
   productsSuggestionsList: (JSX.Element | undefined)[];
-  children: any;
+  children: React.ReactNode;
 };
 
 export default function ({

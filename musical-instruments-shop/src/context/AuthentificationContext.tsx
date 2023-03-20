@@ -1,8 +1,9 @@
 import { useState, createContext } from "react";
+import { ChildrenProp } from "../types/commonTypes";
 
 const AuthentificationContext = createContext({});
 
-export const AuthentificationProvider = ({ children }: any) => {
+export const AuthentificationProvider = ({ children }: ChildrenProp) => {
   const isUserLoggedIn =
     localStorage.getItem("isLogged") === "true" ? true : false || false;
 
