@@ -10,11 +10,9 @@ import createLink from "../functions/string-formatting-functions/createLink";
 export function createCategoryPages(data: unknown) {
   if (Array.isArray(data)) {
     return data.map((category) => {
-      if (category.title === undefined) {
-        console.log(category);
-      }
       const pageLink = createLink(category.title);
-      if (category.hasOwnProperty("subcategories")) {
+      // if it does not have subcategories it means that it leads to a shopping page
+      if (category.subcategories.length > 0) {
         return (
           <Route
             key={nanoid()}
@@ -22,14 +20,18 @@ export function createCategoryPages(data: unknown) {
             element={
               <InstrumentCategoryPage
                 key={nanoid()}
-                data={
-                  category.subcategories.subcategories || category.subcategories
-                }
+                data={category.subcategories}
                 pageTitle={category.title}
-                itemsBrands={category.brands || category.subcategories.brands}
+                itemsBrands={category.brands}
               />
             }
           ></Route>
+        );
+      } else {
+        return createShoppingPageRoute(
+          pageLink,
+          category.title,
+          category.items || []
         );
       }
     });

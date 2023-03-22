@@ -10,11 +10,7 @@ const Container = styled.div`
   display: flex;
   flex-direction: column;
   justify-content: center;
-  padding-bottom: 2.5rem;
-
-  @media only screen and (min-width: 662px) {
-    padding-bottom: 0;
-  }
+  padding-bottom: 10vh;
 `;
 
 type SliderType = {

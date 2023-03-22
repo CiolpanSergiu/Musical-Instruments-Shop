@@ -9,6 +9,7 @@ const Container = styled.div`
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
+  min-height: 50vh;
 `;
 
 const PageHeader = styled.h1`
@@ -36,16 +37,18 @@ type Props = {
 export default function ShoppingPageContainer({ pageTitle, itemsData }: Props) {
   const cards = itemsData.map((card: Product) => {
     return (
-      <ShoppingPageCard
-        key={nanoid()}
-        title={card.title}
-        srcSmall={card.srcSmall}
-        srcBig={card.srcBig}
-        alt={card.alt}
-        rating={card.rating}
-        price={card.price}
-        totalReviews={card.totalReviews}
-      />
+      (
+        <ShoppingPageCard
+          key={nanoid()}
+          title={card.title}
+          srcSmall={card.srcSmall}
+          srcBig={card.srcBig}
+          alt={card.alt}
+          rating={card.rating}
+          price={card.price}
+          totalReviews={card.totalReviews}
+        />
+      ) || []
     );
   });
 

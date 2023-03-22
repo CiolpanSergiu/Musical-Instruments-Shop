@@ -2,71 +2,75 @@ import violinStringsData from "../../level-five-categories/traditional-instrumen
 // brands
 import violinViolaAccesoriesBrands from "../../logo-data/traditional-instruments-brands/stringed-instruments/violinAndViolaAccesoriesBrands.json";
 
-export default {
-  pageLink: "/violins-violas-accesories",
-  title: "Violins / Violas Accesories",
-  brands: violinViolaAccesoriesBrands,
-  subcategories: [
-    {
-      title: "Violin Strings",
-      src: "/images/categories/level-four-categories/traditional-instruments/stringed-instruments/violins/violin_strings.jpg",
-      alt: "A pack of violin strings",
-      pageLink: "/violin-strings",
-      subcategories: violinStringsData,
-    },
-    {
-      title: "Stands",
-      src: "/images/categories/level-four-categories/traditional-instruments/stringed-instruments/violins/violin_stand.jpg",
-      alt: "A violin stand",
-      pageLink: "/violin-stands",
-    },
-    {
-      title: "ViolinPickups",
-      src: "/images/categories/level-four-categories/traditional-instruments/stringed-instruments/violins/violin_pickup.jpg",
-      alt: "A violin pickup",
-      pageLink: "/violin-pickups",
-    },
-    {
-      title: "ViolinAmplifiers",
-      src: "/images/categories/level-four-categories/traditional-instruments/stringed-instruments/violins/violin_amplifier.jpg",
-      alt: "A violin amplifier",
-      pageLink: "/violina-amplifiers",
-    },
-    {
-      title: "ViolinBows",
-      src: "/images/categories/level-four-categories/traditional-instruments/stringed-instruments/violins/violin_bow.jpg",
-      alt: "A violin bow",
-      pageLink: "/violin-bows",
-    },
-    {
-      title: "Violins/Violas Shoulder Rests",
-      src: "/images/categories/level-four-categories/traditional-instruments/stringed-instruments/violins/violin_shoulder_rest.jpg",
-      alt: "A shoulder rest",
-      pageLink: "/violin-violas-shoulder-rests",
-    },
-    {
-      title: "Violins/Violas Chin Rests",
-      src: "/images/categories/level-four-categories/traditional-instruments/stringed-instruments/violins/violin_chin_rest.jpg",
-      alt: "A chin rest",
-      pageLink: "/violin-violas-chin-rests",
-    },
-    {
-      title: "ViolinTailpiece",
-      src: "/images/categories/level-four-categories/traditional-instruments/stringed-instruments/violins/violin_tailpiece.jpg",
-      alt: "A violin tailpiece",
-      pageLink: "/violin-tailpieces",
-    },
-    {
-      title: "ViolinBridges",
-      src: "/images/categories/level-four-categories/traditional-instruments/stringed-instruments/violins/violin_bridge.jpg",
-      alt: "A violin bridge",
-      pageLink: "/violin-bridges",
-    },
-    {
-      title: "ViolinCover Bags and Cases",
-      src: "/images/categories/level-four-categories/traditional-instruments/stringed-instruments/violins/violin_cover_bag.jpg",
-      alt: "A violin cover bag",
-      pageLink: "/violin-cover-bags-and-cases",
-    },
-  ],
-};
+export default [
+  {
+    title: "Violin Strings",
+    src: "/images/categories/level-four-categories/traditional-instruments/stringed-instruments/violins/violin_strings.jpg",
+    alt: "A pack of violin strings",
+    subcategories: violinStringsData,
+    brands: [],
+  },
+  {
+    title: "Stands",
+    src: "/images/categories/level-four-categories/traditional-instruments/stringed-instruments/violins/violin_stand.jpg",
+    alt: "A violin stand",
+    subcategories: [],
+    brands: [],
+  },
+  {
+    title: "ViolinPickups",
+    src: "/images/categories/level-four-categories/traditional-instruments/stringed-instruments/violins/violin_pickup.jpg",
+    alt: "A violin pickup",
+    subcategories: [],
+    brands: [],
+  },
+  {
+    title: "ViolinAmplifiers",
+    src: "/images/categories/level-four-categories/traditional-instruments/stringed-instruments/violins/violin_amplifier.jpg",
+    alt: "A violin amplifier",
+    subcategories: [],
+    brands: [],
+  },
+  {
+    title: "ViolinBows",
+    src: "/images/categories/level-four-categories/traditional-instruments/stringed-instruments/violins/violin_bow.jpg",
+    alt: "A violin bow",
+    subcategories: [],
+    brands: [],
+  },
+  {
+    title: "Violins/Violas Shoulder Rests",
+    src: "/images/categories/level-four-categories/traditional-instruments/stringed-instruments/violins/violin_shoulder_rest.jpg",
+    alt: "A shoulder rest",
+    subcategories: [],
+    brands: [],
+  },
+  {
+    title: "Violins/Violas Chin Rests",
+    src: "/images/categories/level-four-categories/traditional-instruments/stringed-instruments/violins/violin_chin_rest.jpg",
+    alt: "A chin rest",
+    subcategories: [],
+    brands: [],
+  },
+  {
+    title: "ViolinTailpiece",
+    src: "/images/categories/level-four-categories/traditional-instruments/stringed-instruments/violins/violin_tailpiece.jpg",
+    alt: "A violin tailpiece",
+    subcategories: [],
+    brands: [],
+  },
+  {
+    title: "ViolinBridges",
+    src: "/images/categories/level-four-categories/traditional-instruments/stringed-instruments/violins/violin_bridge.jpg",
+    alt: "A violin bridge",
+    subcategories: [],
+    brands: [],
+  },
+  {
+    title: "ViolinCover Bags and Cases",
+    src: "/images/categories/level-four-categories/traditional-instruments/stringed-instruments/violins/violin_cover_bag.jpg",
+    alt: "A violin cover bag",
+    subcategories: [],
+    brands: [],
+  },
+];

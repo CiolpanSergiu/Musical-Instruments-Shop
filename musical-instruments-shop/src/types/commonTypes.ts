@@ -39,22 +39,27 @@ export type OrdersHistory = {
   delivered: boolean;
 };
 
+export type Brand = {
+  brandName: string;
+  src: string;
+  alt: string;
+};
+
+export type Subcategory = {
+  src: string;
+  alt: string;
+  title: string;
+  brands?: Brand[];
+  items?: Product[] | [];
+};
+
 export type Category = {
   src: string;
   alt: string;
   title: string;
-  pageLink: string;
-  subcategories: {
-    src: string;
-    alt: string;
-    title: string;
-    pageLink: string;
-  }[];
-  brands: {
-    brandName: string;
-    src: string;
-    alt: string;
-  }[];
+  subcategories?: Subcategory[];
+  brands?: Brand[];
+  items?: Product[] | [];
 };
 
 export type ChildrenProp = {
