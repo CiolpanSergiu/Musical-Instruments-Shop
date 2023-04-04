@@ -88,10 +88,24 @@ Now got back to the video and watch until 9:08 video mark. Copy your link and pu
 
 Next replace < password > from your variable with your password and you are ready to go;
 
+After that, copy the following variables in your .env file (since this is just a project for practice I won't try to hide them):
+
+```sh
+  VITE_REACT_USERS_URL=http://localhost:8000/api/users
+  VITE_REACT_LOGIN_URL=http://localhost:8000/api/login
+  VITE_REACT_USERS_MSGS=http://localhost:8000/api/userMsgs
+
+  PORT=8000
+```
+
 Example of a final .env file:
 
 ```sh
   MONGO_DB_URL="mongodb+srv://TestUsername:StrongestPassword3452@MyUsersDB.aptr19m.mongodb.net/?retryWrites=true&w=majority"
+  VITE_REACT_USERS_URL=http://localhost:8000/api/users
+  VITE_REACT_LOGIN_URL=http://localhost:8000/api/login
+  VITE_REACT_USERS_MSGS=http://localhost:8000/api/userMsgs
+  PORT=8000
 ```
 
 1. Open another terminal window and select this project folder using
