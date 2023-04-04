@@ -1,4 +1,5 @@
 const User = require("../models/users.cjs");
+const bcrypt = require("bcryptjs");
 
 const createUser = async (req, res) => {
   try {
@@ -26,7 +27,14 @@ const getUsers = async (req, res) => {
 const editUser = async (req, res) => {
   try {
     const { id: userId } = req.params;
-    const user = await User.findOneAndUpdate({ _id: userId }, req.body, {
+
+    if (req.body.toEdit === "password") {
+      const password = req.body.user.password;
+      const salt = await bcrypt.genSalt(10);
+      req.body.user.password = await bcrypt.hash(password, salt);
+    }
+
+    const user = await User.findOneAndUpdate({ _id: userId }, req.body.user, {
       new: true,
       runValidators: true,
     });
@@ -42,7 +50,9 @@ const editUser = async (req, res) => {
 const deleteUser = async (req, res) => {
   try {
     const { id: userId } = req.params;
+
     const user = await User.findOneAndDelete({ _id: userId });
+
     if (!user) {
       return res.status(404).json({ msg: `No user with ${userId} found` });
     }
@@ -52,4 +62,16 @@ const deleteUser = async (req, res) => {
   }
 };
 
-module.exports = { createUser, getUsers, editUser, deleteUser };
+const loginUser = async (req, res) => {
+  const { email, password } = req.body;
+
+  const user = await User.findOne({ email });
+
+  if (user && (await user.matchPasswords(password))) {
+    res.status(200).json({ msg: "User recognised.", user });
+  } else {
+    res.status(401).json({ msg: "User not recognised. Invalid credentials" });
+  }
+};
+
+module.exports = { createUser, getUsers, editUser, deleteUser, loginUser };

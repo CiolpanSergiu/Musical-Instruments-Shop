@@ -1,11 +1,4 @@
-type User = {
-  fullName: string;
-  email: string;
-  password: string;
-  passwordConfirmation: string;
-  country: string;
-  phoneNumber: string;
-};
+import { User } from "../../types/commonTypes";
 
 export default function checkSinginData(
   values: { email: string; password: string },

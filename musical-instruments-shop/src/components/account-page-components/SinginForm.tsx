@@ -9,9 +9,11 @@ import { ThemeProvider } from "styled-components";
 import { useContext, useState } from "react";
 import ThemeContext from "../../context/ThemeProvider";
 import sendSinginFormData from "../../functions/account-related-functions/sendSinginFormData";
-import checkSinginData from "../../functions/account-related-functions/checkLoginData";
+import checkSinginData from "../../functions/account-related-functions/checkSinginData";
 import axios from "axios";
 import themes from "../../colors-and-themes/themes";
+import AuthentificationProvider from "../../context/AuthentificationContext";
+import { usersURL } from "../../variables/urls";
 
 const StyledForm = styled(Form)`
   display: flex;
@@ -105,14 +107,18 @@ export default function SinginForm() {
   const { isDark }: any = useContext(ThemeContext);
   const navigate = useNavigate();
   const [doUserExist, setDoUserExist] = useState<boolean>(false);
+  const { setIsLoggedIn, setCurrentUser }: any = useContext(
+    AuthentificationProvider
+  );
 
-  const onSubmit = (values: Values) => {
-    const postURL = "http://localhost:5174/api/users";
-    axios
-      .get(postURL)
+  const onSubmit = async (values: Values) => {
+    await axios
+      .get(usersURL)
       .then((res) => {
         const userMatched = checkSinginData(values, res.data);
         if (userMatched.length === 0) {
+          setIsLoggedIn(false);
+          setCurrentUser(undefined);
           setDoUserExist(false);
           sendSinginFormData(values);
           navigate("/account");

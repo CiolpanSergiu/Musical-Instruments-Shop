@@ -114,7 +114,8 @@ export default function CartItem({
     AuthentificationContext
   );
 
-  if (currentUser) editUserData({ ...currentUser, shoppingCart: cartItems });
+  if (currentUser !== undefined)
+    editUserData({ ...currentUser, shoppingCart: cartItems });
 
   function deleteItem() {
     removeFromCart({

@@ -9,13 +9,13 @@ import { ThemeProvider } from "styled-components";
 import { useContext, useState } from "react";
 import ThemeContext from "../../context/ThemeProvider";
 import axios from "axios";
-import checkLoginData from "../../functions/account-related-functions/checkLoginData";
 import AuthentificationProvider from "../../context/AuthentificationContext";
 import ShoppingCartContext from "../../context/ShoppingCartContext";
 import { User } from "../../types/commonTypes";
 import { updateCartTotalQuantity } from "../../functions/shopping-cart-functions/updateCartTotalQuantity";
 import { updateItemsInCart } from "../../functions/shopping-cart-functions/updateItemsInCart";
 import themes from "../../colors-and-themes/themes";
+import { loginURL } from "../../variables/urls";
 
 const StyledForm = styled(Form)`
   display: flex;
@@ -96,25 +96,24 @@ export default function LoginForm() {
   const [isLoginDataIncorrect, setIsLoginDataIncorrect] =
     useState<boolean>(false);
 
-  const onSubmit = (values: Values) => {
-    const url = "http://localhost:5174/api/users";
-    axios
-      .get(url)
+  const onSubmit = async (values: Values) => {
+    const url = loginURL;
+    await axios
+      .post(url, values)
       .then((res) => {
-        const userMatched: User[] = checkLoginData(values, res.data);
-        if (userMatched.length > 0) {
-          setIsLoggedIn(true);
-          setIsLoginDataIncorrect(false);
-          setCurrentUser(userMatched[0]);
-          setCartItems(userMatched[0].shoppingCart);
-          setCartItemsQuantity(updateCartTotalQuantity(userMatched[0]));
-          setItemsInCart(updateItemsInCart(userMatched[0].shoppingCart));
-        } else {
-          setIsLoggedIn(false);
-          setIsLoginDataIncorrect(true);
-        }
+        const user: User = res.data.user;
+        setIsLoggedIn(true);
+        setIsLoginDataIncorrect(false);
+        setCurrentUser(user);
+        setCartItems(user.shoppingCart);
+        setCartItemsQuantity(updateCartTotalQuantity(user));
+        setItemsInCart(updateItemsInCart(user.shoppingCart));
       })
-      .catch((err) => console.log(err));
+      .catch((err) => {
+        console.log(err);
+        setIsLoggedIn(false);
+        setIsLoginDataIncorrect(true);
+      });
   };
 
   return (

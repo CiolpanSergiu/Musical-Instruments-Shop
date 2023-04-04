@@ -155,8 +155,6 @@ export default function ContactForm() {
     });
   }
 
-  console.log(formData);
-
   function handleChange(
     event:
       | React.ChangeEvent<HTMLInputElement>

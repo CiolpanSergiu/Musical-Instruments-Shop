@@ -78,13 +78,10 @@ export default function Order({
     const newOrdersHistory = currentUser.ordersHistory.filter((order: any) => {
       return order.orderId !== orderId;
     });
-    setCurrentUser((prevState: User) => {
-      return {
-        ...prevState,
-        ordersHistory: newOrdersHistory,
-      };
-    });
-    editUserData({ ...currentUser, ordersHistory: newOrdersHistory });
+
+    editUserData({ ...currentUser, ordersHistory: newOrdersHistory }).then(
+      (res) => setCurrentUser(res.data.user)
+    );
   }
 
   function hideModal() {

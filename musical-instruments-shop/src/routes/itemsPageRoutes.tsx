@@ -13,7 +13,7 @@ export const categoriesWithItems = allLevelsData.filter((category) => {
 const itemsShoppingPages = categoriesWithItems.map((category) => {
   if (category) {
     const pageLink = createLink(category.title);
-    // fix this
+    // fix this sometime
     return createShoppingPageRoute(pageLink, category.title, category.items);
   }
 });

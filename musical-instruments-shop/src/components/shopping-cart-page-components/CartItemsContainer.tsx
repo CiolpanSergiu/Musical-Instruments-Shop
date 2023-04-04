@@ -2,7 +2,7 @@ import styled from "styled-components";
 import CartItem from "./CartItem";
 import ClearButton from "./ClearButton";
 import ShoppingCartContext from "../../context/ShoppingCartContext";
-import { useContext } from "react";
+import { useContext, useEffect } from "react";
 import { nanoid } from "nanoid";
 import editUserData from "../../functions/account-related-functions/editUserData";
 import AuthentificationContext from "../../context/AuthentificationContext";
@@ -25,9 +25,16 @@ const Container = styled.div`
 
 export default function CartItemsContainer() {
   const { cartItems }: any = useContext(ShoppingCartContext);
-  const { currentUser }: any = useContext(AuthentificationContext);
+  const { currentUser, setCurrentUser }: any = useContext(
+    AuthentificationContext
+  );
 
-  if (currentUser) editUserData({ ...currentUser, shoppingCart: cartItems });
+  useEffect(() => {
+    if (currentUser !== undefined)
+      editUserData({ ...currentUser, shoppingCart: cartItems })
+        .then((res) => setCurrentUser(res.data.user))
+        .catch((err) => console.log(err));
+  }, []);
 
   const allCartItems = cartItems.map((item: any) => {
     return (

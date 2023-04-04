@@ -1,3 +1,6 @@
+import axios from "axios";
+import { usersMsgsURL } from "../../variables/urls";
+
 export default function sendContactFormData(formData: {
   firstName: string;
   lastName: string;
@@ -5,18 +8,5 @@ export default function sendContactFormData(formData: {
   message: string;
   additionalInfo: string;
 }) {
-  const postURL = "http://localhost:5174/api/userMsg";
-  fetch(postURL, {
-    method: "POST",
-    headers: {
-      "Content-Type": "application/json",
-    },
-    body: JSON.stringify({
-      firstName: formData.firstName,
-      lastName: formData.lastName,
-      email: formData.email,
-      message: formData.message,
-      additionalInfo: formData.additionalInfo,
-    }),
-  });
+  axios.post(usersMsgsURL, formData);
 }

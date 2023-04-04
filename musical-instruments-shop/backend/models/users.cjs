@@ -1,4 +1,5 @@
 const mongoose = require("mongoose");
+const bcrypt = require("bcryptjs");
 
 const UsersSchema = new mongoose.Schema({
   fullName: {
@@ -12,10 +13,6 @@ const UsersSchema = new mongoose.Schema({
   password: {
     type: String,
     require: [true, "Must provide a password"],
-  },
-  passwordConfirmation: {
-    type: String,
-    require: [true, "Must provide a the same password"],
   },
   phoneNumber: {
     type: String,
@@ -33,6 +30,22 @@ const UsersSchema = new mongoose.Schema({
     type: Array,
     default: [],
   },
+});
+
+UsersSchema.methods.matchPasswords = async function (loginPass) {
+  return await bcrypt.compare(loginPass, this.password);
+};
+
+UsersSchema.pre("save", async function (next) {
+  try {
+    if (!this.isModified) {
+      next();
+    }
+    const salt = await bcrypt.genSalt(10);
+    this.password = await bcrypt.hash(this.password, salt);
+  } catch (error) {
+    console.log(error);
+  }
 });
 
 module.exports = mongoose.model("users-schema", UsersSchema);

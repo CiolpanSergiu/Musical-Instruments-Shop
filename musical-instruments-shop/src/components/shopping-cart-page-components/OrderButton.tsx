@@ -2,7 +2,6 @@ import styled from "styled-components";
 import { FaTruck } from "react-icons/fa";
 import { useContext } from "react";
 import { useNavigate } from "react-router-dom";
-import { User } from "../../types/commonTypes";
 import editUserData from "../../functions/account-related-functions/editUserData";
 import AuthentificationContext from "../../context/AuthentificationContext";
 import ShoppingCartContext from "../../context/ShoppingCartContext";
@@ -44,26 +43,6 @@ export default function OrderButton({ handleNotLogged }: Props) {
     useContext(ShoppingCartContext);
 
   function handleOrder() {
-    navigate("/thank-for-ordering");
-
-    const newOrdersHistory = [
-      ...currentUser.ordersHistory,
-      {
-        order: cartItems,
-        placementDate: new Date(),
-        orderId: nanoid(),
-        delivered: false,
-        cancelable: true,
-      },
-    ];
-
-    setCurrentUser((prevState: User) => {
-      return {
-        ...prevState,
-        ordersHistory: newOrdersHistory,
-      };
-    });
-
     editUserData({
       ...currentUser,
       ordersHistory: [
@@ -76,10 +55,15 @@ export default function OrderButton({ handleNotLogged }: Props) {
         },
       ],
       shoppingCart: [],
-    });
-    setCartItems([]);
-    setItemsInCart([]);
-    setCartItemsQuantity(0);
+    })
+      .then((res) => {
+        setCurrentUser(res.data.user);
+        setCartItems([]);
+        setItemsInCart([]);
+        setCartItemsQuantity(0);
+        navigate("/thank-for-ordering");
+      })
+      .catch((err) => console.log(err));
   }
 
   return (

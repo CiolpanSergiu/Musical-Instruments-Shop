@@ -1,16 +1,8 @@
 import axios from "axios";
-
-type User = {
-  fullName: string;
-  email: string;
-  password: string;
-  country: string;
-  phoneNumber: string;
-  shoppingCart: [];
-  _id: string;
-};
+import { usersURL } from "../../variables/urls";
+import { User } from "../../types/commonTypes";
 
 export default function deleteUserAccount(user: User) {
-  const url = `http://localhost:5174/api/users/${user._id}`;
+  const url = `${usersURL}/${user._id}`;
   axios.delete(url);
 }

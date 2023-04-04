@@ -2,7 +2,7 @@ export type User = {
   fullName: string;
   email: string;
   password: string;
-  passwordConfirmation: string;
+  passwordConfirmation?: string;
   country: string;
   phoneNumber: string;
   shoppingCart: CartItem[];

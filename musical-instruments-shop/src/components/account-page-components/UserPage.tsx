@@ -1,9 +1,7 @@
 import { useContext, useState } from "react";
 import AuthentificationProvider from "../../context/AuthentificationContext";
 import styled from "styled-components";
-import ShowInfoBtn from "../miscellaneous/ShowInfoBtn";
 import { useNavigate } from "react-router-dom";
-import PasswordDotsContainer from "../miscellaneous/account-page/PasswordDotsContainer";
 import editUserData from "../../functions/account-related-functions/editUserData";
 import validateNewAccountProperty from "../../functions/account-related-functions/validateNewAccountProperty";
 import FormErrorMsg from "../miscellaneous/FormErrorMsg";
@@ -29,10 +27,6 @@ const Container = styled.div`
   @media only screen and (min-width: 992px) {
     padding: 2rem 4rem 5rem 4rem;
   }
-`;
-
-const FlexRowContainer = styled.div`
-  display: flex;
 `;
 
 const MainHeader = styled.h1`
@@ -67,10 +61,6 @@ const TwoColumnGrid = styled.div`
 const BoldSpan = styled.span`
   font-weight: bold;
   margin-right: 5rem;
-`;
-
-const PasswordText = styled.span`
-  margin-left: 1rem;
 `;
 
 const EditBtn = styled.button`
@@ -137,7 +127,6 @@ export default function UserPage() {
   const { setCartItems, setCartItemsQuantity, setItemsInCart }: any =
     useContext(ShoppingCartContext);
 
-  const [showPassword, setShowPassword] = useState<boolean>(false);
   const [toEdit, setToEdit] = useState<string>(defaultToEdit);
   const [showEditInput, setShowEditInput] = useState<boolean>(false);
   const [editInputContent, setEditInputContent] = useState<string>("");
@@ -163,10 +152,6 @@ export default function UserPage() {
     deleteUserAccount(currentUser);
   }
 
-  function toggleShowPass() {
-    setShowPassword((prevState) => !prevState);
-  }
-
   function toggleEditMode(propertyToEdit: string) {
     setToEdit(propertyToEdit);
     setEditInputContent("");
@@ -185,14 +170,18 @@ export default function UserPage() {
     ) || { isValid: false, errorMsg: "Something went wrong" };
 
     if (validationResult.isValid) {
-      setCurrentUser((prevState: any) => ({
-        ...prevState,
-        [toEdit]: editInputContent,
-      }));
-      editUserData({
-        ...currentUser,
-        [toEdit]: editInputContent,
-      });
+      editUserData(
+        {
+          ...currentUser,
+          [toEdit]: editInputContent,
+        },
+        toEdit
+      )
+        .then((res) => {
+          setCurrentUser(res.data.user);
+        })
+        .catch((err) => console.log(err));
+
       setEditError("");
       setShowEditInput(false);
       setToEdit(defaultToEdit);
@@ -245,26 +234,6 @@ export default function UserPage() {
         <DetailsCategoryHeader>Security: </DetailsCategoryHeader>
         <StyledHr />
         <InfoRow>
-          <BoldSpan>Password: </BoldSpan>
-          {showPassword ? (
-            <FlexRowContainer>
-              <PasswordText>{currentUser.password}</PasswordText>
-              <ShowInfoBtn
-                handleClick={toggleShowPass}
-                isShowing={showPassword}
-              />
-            </FlexRowContainer>
-          ) : (
-            <FlexRowContainer>
-              <PasswordDotsContainer length={currentUser.password.length} />
-              <ShowInfoBtn
-                handleClick={toggleShowPass}
-                isShowing={showPassword}
-              />
-            </FlexRowContainer>
-          )}
-        </InfoRow>
-        <InfoRow>
           <></>
           <BoldSpan>Change Password: </BoldSpan>
           <GrayButton
@@ -272,15 +241,6 @@ export default function UserPage() {
             handleClick={() => toggleEditMode("password")}
           />
         </InfoRow>
-        {
-          // until i find how to check if the email is not already used by someone else
-          /* <InfoRow>
-          <BoldSpan>Change Email: </BoldSpan>
-          <ChangeUserDataBtn onClick={() => toggleEditMode("email")}>
-            Change
-          </ChangeUserDataBtn>
-        </InfoRow> */
-        }
         <InfoRow>
           <BoldSpan>Change Phone: </BoldSpan>
           <GrayButton

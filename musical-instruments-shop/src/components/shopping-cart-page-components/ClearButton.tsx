@@ -24,13 +24,18 @@ export default function ClearButton() {
   const { setCartItems, setCartItemsQuantity, setItemsInCart }: any =
     useContext(ShoppingCartContext);
 
-  const { currentUser }: any = useContext(AuthentificationContext);
+  const { currentUser, setCurrentUser }: any = useContext(
+    AuthentificationContext
+  );
 
   function clearCartItems() {
     setCartItems([]);
     setCartItemsQuantity(0);
     setItemsInCart([]);
-    if (currentUser) editUserData({ ...currentUser, shoppingCart: [] });
+    if (currentUser)
+      editUserData({ ...currentUser, shoppingCart: [] })
+        .then((res) => setCurrentUser(res.data.user))
+        .catch((err) => console.log(err));
   }
 
   return (
